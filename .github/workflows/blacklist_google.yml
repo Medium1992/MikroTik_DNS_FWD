@@ -2,8 +2,6 @@ name: Generate MikroTik RSC Files
 
 on:
   workflow_dispatch:
-  push:
-    branches: [main]
 
 permissions:
   contents: write
@@ -80,7 +78,7 @@ jobs:
               done <<< "$suffixes"
             fi
 
-            # domain_regex - правильное экранирование для MikroTik
+            # domain_regex rules
             mapfile -t regex_array < <(jq -r '
               .rules[]
               | if (.domain_regex | type == "string") then [.domain_regex]
@@ -89,8 +87,8 @@ jobs:
               | .[]' "input_$resource.json" | sort -u)
             for regex in "${regex_array[@]}"; do
                 [ -z "$regex" ] && continue
-                # Заменяем каждый \ на \\ (удваиваем слеши)
-                escaped_regex=$(echo "$regex" | sed -e 's/\\/\\\\/g')
+                # Удваиваем каждый обратный слеш (из \\ делаем \\\\)
+                escaped_regex=$(echo "$regex" | sed -e 's/\\\\/\\\\\\\\/g' -e 's/\\/\\\\/g')
                 # Затем экранируем остальные спецсимволы
                 escaped_regex=$(echo "$escaped_regex" | sed -e 's/"/\\"/g' -e 's/\$/\\\$/g' -e 's/?/\\?/g' -e 's/ /\\_/g')
                 file_content="${file_content}"$'\n'"add${ADDR_ARG} forward-to=$FORWARD_TO comment=$resource type=FWD regexp=\"$escaped_regex\""
