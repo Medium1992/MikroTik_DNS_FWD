@@ -1,124 +1,124 @@
 :global AddressList
 :global ForwardTo
 /ip dns static
-add address-list=$AddressList forward-to=$ForwardTo comment=intel match-subdomain=yes type=FWD name=01.org
-add address-list=$AddressList forward-to=$ForwardTo comment=intel match-subdomain=yes type=FWD name=acpica.com
-add address-list=$AddressList forward-to=$ForwardTo comment=intel match-subdomain=yes type=FWD name=altera.com
-add address-list=$AddressList forward-to=$ForwardTo comment=intel match-subdomain=yes type=FWD name=alteraforum.com
-add address-list=$AddressList forward-to=$ForwardTo comment=intel match-subdomain=yes type=FWD name=alteraforums.com
-add address-list=$AddressList forward-to=$ForwardTo comment=intel match-subdomain=yes type=FWD name=alteraforums.net
-add address-list=$AddressList forward-to=$ForwardTo comment=intel match-subdomain=yes type=FWD name=alterauserforum.com
-add address-list=$AddressList forward-to=$ForwardTo comment=intel match-subdomain=yes type=FWD name=alterauserforum.net
-add address-list=$AddressList forward-to=$ForwardTo comment=intel match-subdomain=yes type=FWD name=alterauserforums.com
-add address-list=$AddressList forward-to=$ForwardTo comment=intel match-subdomain=yes type=FWD name=alterauserforums.net
-add address-list=$AddressList forward-to=$ForwardTo comment=intel match-subdomain=yes type=FWD name=barefootnetworks.com
-add address-list=$AddressList forward-to=$ForwardTo comment=intel match-subdomain=yes type=FWD name=buyaltera.com
-add address-list=$AddressList forward-to=$ForwardTo comment=intel match-subdomain=yes type=FWD name=celeron.com
-add address-list=$AddressList forward-to=$ForwardTo comment=intel match-subdomain=yes type=FWD name=celeron.net
-add address-list=$AddressList forward-to=$ForwardTo comment=intel match-subdomain=yes type=FWD name=centrino.com
-add address-list=$AddressList forward-to=$ForwardTo comment=intel match-subdomain=yes type=FWD name=centrino.net
-add address-list=$AddressList forward-to=$ForwardTo comment=intel match-subdomain=yes type=FWD name=chips.com
-add address-list=$AddressList forward-to=$ForwardTo comment=intel match-subdomain=yes type=FWD name=cilk.com
-add address-list=$AddressList forward-to=$ForwardTo comment=intel match-subdomain=yes type=FWD name=cilk.net
-add address-list=$AddressList forward-to=$ForwardTo comment=intel match-subdomain=yes type=FWD name=clearlinux.org
-add address-list=$AddressList forward-to=$ForwardTo comment=intel match-subdomain=yes type=FWD name=cloudinsights.com
-add address-list=$AddressList forward-to=$ForwardTo comment=intel match-subdomain=yes type=FWD name=clusterconnection.com
-add address-list=$AddressList forward-to=$ForwardTo comment=intel match-subdomain=yes type=FWD name=coreduo.com
-add address-list=$AddressList forward-to=$ForwardTo comment=intel match-subdomain=yes type=FWD name=coreextreme.com
-add address-list=$AddressList forward-to=$ForwardTo comment=intel match-subdomain=yes type=FWD name=crosswalk-project.com
-add address-list=$AddressList forward-to=$ForwardTo comment=intel match-subdomain=yes type=FWD name=crosswalk-project.net
-add address-list=$AddressList forward-to=$ForwardTo comment=intel match-subdomain=yes type=FWD name=doceapower.com
-add address-list=$AddressList forward-to=$ForwardTo comment=intel match-subdomain=yes type=FWD name=easic.com
-add address-list=$AddressList forward-to=$ForwardTo comment=intel match-subdomain=yes type=FWD name=enpirion.com
-add address-list=$AddressList forward-to=$ForwardTo comment=intel match-subdomain=yes type=FWD name=exascale-tech.com
-add address-list=$AddressList forward-to=$ForwardTo comment=intel match-subdomain=yes type=FWD name=exploreintel.com
-add address-list=$AddressList forward-to=$ForwardTo comment=intel match-subdomain=yes type=FWD name=gordonmoore.com
-add address-list=$AddressList forward-to=$ForwardTo comment=intel match-subdomain=yes type=FWD name=hyperscan.io
-add address-list=$AddressList forward-to=$ForwardTo comment=intel match-subdomain=yes type=FWD name=insidefilms.com
-add address-list=$AddressList forward-to=$ForwardTo comment=intel match-subdomain=yes type=FWD name=intc.com
-add address-list=$AddressList forward-to=$ForwardTo comment=intel match-subdomain=yes type=FWD name=intel
-add address-list=$AddressList forward-to=$ForwardTo comment=intel match-subdomain=yes type=FWD name=intel-research.net
-add address-list=$AddressList forward-to=$ForwardTo comment=intel match-subdomain=yes type=FWD name=intel-university-collaboration.net
-add address-list=$AddressList forward-to=$ForwardTo comment=intel match-subdomain=yes type=FWD name=intel.cc
-add address-list=$AddressList forward-to=$ForwardTo comment=intel match-subdomain=yes type=FWD name=intel.com
-add address-list=$AddressList forward-to=$ForwardTo comment=intel match-subdomain=yes type=FWD name=intel.com.co
-add address-list=$AddressList forward-to=$ForwardTo comment=intel match-subdomain=yes type=FWD name=intel.eu
-add address-list=$AddressList forward-to=$ForwardTo comment=intel match-subdomain=yes type=FWD name=intel.io
-add address-list=$AddressList forward-to=$ForwardTo comment=intel match-subdomain=yes type=FWD name=intel.ru
-add address-list=$AddressList forward-to=$ForwardTo comment=intel match-subdomain=yes type=FWD name=intel.tv
-add address-list=$AddressList forward-to=$ForwardTo comment=intel match-subdomain=yes type=FWD name=intel.us
-add address-list=$AddressList forward-to=$ForwardTo comment=intel match-subdomain=yes type=FWD name=intelamericasstore.com
-add address-list=$AddressList forward-to=$ForwardTo comment=intel match-subdomain=yes type=FWD name=intelapacstore.com
-add address-list=$AddressList forward-to=$ForwardTo comment=intel match-subdomain=yes type=FWD name=intelatom.net
-add address-list=$AddressList forward-to=$ForwardTo comment=intel match-subdomain=yes type=FWD name=intelcapital.com
-add address-list=$AddressList forward-to=$ForwardTo comment=intel match-subdomain=yes type=FWD name=intelcapital.net
-add address-list=$AddressList forward-to=$ForwardTo comment=intel match-subdomain=yes type=FWD name=intelcloudbuilders.com
-add address-list=$AddressList forward-to=$ForwardTo comment=intel match-subdomain=yes type=FWD name=intelcloudfinder.com
-add address-list=$AddressList forward-to=$ForwardTo comment=intel match-subdomain=yes type=FWD name=intelemeastore.com
-add address-list=$AddressList forward-to=$ForwardTo comment=intel match-subdomain=yes type=FWD name=inteleventexpress.com
-add address-list=$AddressList forward-to=$ForwardTo comment=intel match-subdomain=yes type=FWD name=intelforchange.com
-add address-list=$AddressList forward-to=$ForwardTo comment=intel match-subdomain=yes type=FWD name=intelfreepress.com
-add address-list=$AddressList forward-to=$ForwardTo comment=intel match-subdomain=yes type=FWD name=intelgo.net
-add address-list=$AddressList forward-to=$ForwardTo comment=intel match-subdomain=yes type=FWD name=intelinsight.com
-add address-list=$AddressList forward-to=$ForwardTo comment=intel match-subdomain=yes type=FWD name=inteliotmarketplace.com
-add address-list=$AddressList forward-to=$ForwardTo comment=intel match-subdomain=yes type=FWD name=intell.com
-add address-list=$AddressList forward-to=$ForwardTo comment=intel match-subdomain=yes type=FWD name=intellearningseries.com
-add address-list=$AddressList forward-to=$ForwardTo comment=intel match-subdomain=yes type=FWD name=intellinuxgraphics.com
-add address-list=$AddressList forward-to=$ForwardTo comment=intel match-subdomain=yes type=FWD name=intellinuxgraphics.net
-add address-list=$AddressList forward-to=$ForwardTo comment=intel match-subdomain=yes type=FWD name=intellinuxwireless.net
-add address-list=$AddressList forward-to=$ForwardTo comment=intel match-subdomain=yes type=FWD name=intelnervana.com
-add address-list=$AddressList forward-to=$ForwardTo comment=intel match-subdomain=yes type=FWD name=intelnet.component
-add address-list=$AddressList forward-to=$ForwardTo comment=intel match-subdomain=yes type=FWD name=intelplay.com
-add address-list=$AddressList forward-to=$ForwardTo comment=intel match-subdomain=yes type=FWD name=intelquark.com
-add address-list=$AddressList forward-to=$ForwardTo comment=intel match-subdomain=yes type=FWD name=intelrealsense.com
-add address-list=$AddressList forward-to=$ForwardTo comment=intel match-subdomain=yes type=FWD name=intelrxt.com
-add address-list=$AddressList forward-to=$ForwardTo comment=intel match-subdomain=yes type=FWD name=intelsalestraining.com
-add address-list=$AddressList forward-to=$ForwardTo comment=intel match-subdomain=yes type=FWD name=intelsecurity.com
-add address-list=$AddressList forward-to=$ForwardTo comment=intel match-subdomain=yes type=FWD name=intelserveredge.com
-add address-list=$AddressList forward-to=$ForwardTo comment=intel match-subdomain=yes type=FWD name=intelsoftwarenetwork.com
-add address-list=$AddressList forward-to=$ForwardTo comment=intel match-subdomain=yes type=FWD name=intelstore.com
-add address-list=$AddressList forward-to=$ForwardTo comment=intel match-subdomain=yes type=FWD name=inteltechnologyprovider.com
-add address-list=$AddressList forward-to=$ForwardTo comment=intel match-subdomain=yes type=FWD name=intelvmwarecybersecurity.com
-add address-list=$AddressList forward-to=$ForwardTo comment=intel match-subdomain=yes type=FWD name=itnel.com
-add address-list=$AddressList forward-to=$ForwardTo comment=intel match-subdomain=yes type=FWD name=latencytop.com
-add address-list=$AddressList forward-to=$ForwardTo comment=intel match-subdomain=yes type=FWD name=lookinside.com
-add address-list=$AddressList forward-to=$ForwardTo comment=intel match-subdomain=yes type=FWD name=makebettercode.com
-add address-list=$AddressList forward-to=$ForwardTo comment=intel match-subdomain=yes type=FWD name=makesenseofdata.com
-add address-list=$AddressList forward-to=$ForwardTo comment=intel match-subdomain=yes type=FWD name=movidius.com
-add address-list=$AddressList forward-to=$ForwardTo comment=intel match-subdomain=yes type=FWD name=movidius.net
-add address-list=$AddressList forward-to=$ForwardTo comment=intel match-subdomain=yes type=FWD name=nervanasys.com
-add address-list=$AddressList forward-to=$ForwardTo comment=intel match-subdomain=yes type=FWD name=nevex.com
-add address-list=$AddressList forward-to=$ForwardTo comment=intel match-subdomain=yes type=FWD name=nextgenerationcenter.com
-add address-list=$AddressList forward-to=$ForwardTo comment=intel match-subdomain=yes type=FWD name=niosii.com
-add address-list=$AddressList forward-to=$ForwardTo comment=intel match-subdomain=yes type=FWD name=niosii.net
-add address-list=$AddressList forward-to=$ForwardTo comment=intel match-subdomain=yes type=FWD name=omekinteractive.com
-add address-list=$AddressList forward-to=$ForwardTo comment=intel match-subdomain=yes type=FWD name=omnitek.tv
-add address-list=$AddressList forward-to=$ForwardTo comment=intel match-subdomain=yes type=FWD name=oneapi.com
-add address-list=$AddressList forward-to=$ForwardTo comment=intel match-subdomain=yes type=FWD name=openamt.com
-add address-list=$AddressList forward-to=$ForwardTo comment=intel match-subdomain=yes type=FWD name=opendroneid.org
-add address-list=$AddressList forward-to=$ForwardTo comment=intel match-subdomain=yes type=FWD name=openvinotoolkit.org
-add address-list=$AddressList forward-to=$ForwardTo comment=intel match-subdomain=yes type=FWD name=optanedifference.com
-add address-list=$AddressList forward-to=$ForwardTo comment=intel match-subdomain=yes type=FWD name=ospray.net
-add address-list=$AddressList forward-to=$ForwardTo comment=intel match-subdomain=yes type=FWD name=ospray.org
-add address-list=$AddressList forward-to=$ForwardTo comment=intel match-subdomain=yes type=FWD name=pc.com
-add address-list=$AddressList forward-to=$ForwardTo comment=intel match-subdomain=yes type=FWD name=pentium.com
-add address-list=$AddressList forward-to=$ForwardTo comment=intel match-subdomain=yes type=FWD name=pentium.net
-add address-list=$AddressList forward-to=$ForwardTo comment=intel match-subdomain=yes type=FWD name=pintool.com
-add address-list=$AddressList forward-to=$ForwardTo comment=intel match-subdomain=yes type=FWD name=poweredbyintel.com
-add address-list=$AddressList forward-to=$ForwardTo comment=intel match-subdomain=yes type=FWD name=reconinstruments.com
-add address-list=$AddressList forward-to=$ForwardTo comment=intel match-subdomain=yes type=FWD name=reconjet.com
-add address-list=$AddressList forward-to=$ForwardTo comment=intel match-subdomain=yes type=FWD name=researchintel.com
-add address-list=$AddressList forward-to=$ForwardTo comment=intel match-subdomain=yes type=FWD name=saffrontech.com
-add address-list=$AddressList forward-to=$ForwardTo comment=intel match-subdomain=yes type=FWD name=sensorynetworks.com
-add address-list=$AddressList forward-to=$ForwardTo comment=intel match-subdomain=yes type=FWD name=siport.com
-add address-list=$AddressList forward-to=$ForwardTo comment=intel match-subdomain=yes type=FWD name=smart-edge.com
-add address-list=$AddressList forward-to=$ForwardTo comment=intel match-subdomain=yes type=FWD name=snap-telemetry.io
-add address-list=$AddressList forward-to=$ForwardTo comment=intel match-subdomain=yes type=FWD name=theintelstore.com
-add address-list=$AddressList forward-to=$ForwardTo comment=intel match-subdomain=yes type=FWD name=thunderbolttechnology.net
-add address-list=$AddressList forward-to=$ForwardTo comment=intel match-subdomain=yes type=FWD name=trustedanalytics.com
-add address-list=$AddressList forward-to=$ForwardTo comment=intel match-subdomain=yes type=FWD name=trustedanalytics.net
-add address-list=$AddressList forward-to=$ForwardTo comment=intel match-subdomain=yes type=FWD name=vokevr.com
-add address-list=$AddressList forward-to=$ForwardTo comment=intel match-subdomain=yes type=FWD name=vpro.com
-add address-list=$AddressList forward-to=$ForwardTo comment=intel match-subdomain=yes type=FWD name=vpro.net
-add address-list=$AddressList forward-to=$ForwardTo comment=intel match-subdomain=yes type=FWD name=xeon.com
-add address-list=$AddressList forward-to=$ForwardTo comment=intel match-subdomain=yes type=FWD name=xscale.com
+:if ([:len [/ip dns static find name="01.org" comment="intel"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="intel" match-subdomain=yes type=FWD name="01.org" }
+:if ([:len [/ip dns static find name="acpica.com" comment="intel"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="intel" match-subdomain=yes type=FWD name="acpica.com" }
+:if ([:len [/ip dns static find name="altera.com" comment="intel"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="intel" match-subdomain=yes type=FWD name="altera.com" }
+:if ([:len [/ip dns static find name="alteraforum.com" comment="intel"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="intel" match-subdomain=yes type=FWD name="alteraforum.com" }
+:if ([:len [/ip dns static find name="alteraforums.com" comment="intel"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="intel" match-subdomain=yes type=FWD name="alteraforums.com" }
+:if ([:len [/ip dns static find name="alteraforums.net" comment="intel"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="intel" match-subdomain=yes type=FWD name="alteraforums.net" }
+:if ([:len [/ip dns static find name="alterauserforum.com" comment="intel"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="intel" match-subdomain=yes type=FWD name="alterauserforum.com" }
+:if ([:len [/ip dns static find name="alterauserforum.net" comment="intel"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="intel" match-subdomain=yes type=FWD name="alterauserforum.net" }
+:if ([:len [/ip dns static find name="alterauserforums.com" comment="intel"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="intel" match-subdomain=yes type=FWD name="alterauserforums.com" }
+:if ([:len [/ip dns static find name="alterauserforums.net" comment="intel"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="intel" match-subdomain=yes type=FWD name="alterauserforums.net" }
+:if ([:len [/ip dns static find name="barefootnetworks.com" comment="intel"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="intel" match-subdomain=yes type=FWD name="barefootnetworks.com" }
+:if ([:len [/ip dns static find name="buyaltera.com" comment="intel"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="intel" match-subdomain=yes type=FWD name="buyaltera.com" }
+:if ([:len [/ip dns static find name="celeron.com" comment="intel"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="intel" match-subdomain=yes type=FWD name="celeron.com" }
+:if ([:len [/ip dns static find name="celeron.net" comment="intel"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="intel" match-subdomain=yes type=FWD name="celeron.net" }
+:if ([:len [/ip dns static find name="centrino.com" comment="intel"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="intel" match-subdomain=yes type=FWD name="centrino.com" }
+:if ([:len [/ip dns static find name="centrino.net" comment="intel"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="intel" match-subdomain=yes type=FWD name="centrino.net" }
+:if ([:len [/ip dns static find name="chips.com" comment="intel"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="intel" match-subdomain=yes type=FWD name="chips.com" }
+:if ([:len [/ip dns static find name="cilk.com" comment="intel"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="intel" match-subdomain=yes type=FWD name="cilk.com" }
+:if ([:len [/ip dns static find name="cilk.net" comment="intel"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="intel" match-subdomain=yes type=FWD name="cilk.net" }
+:if ([:len [/ip dns static find name="clearlinux.org" comment="intel"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="intel" match-subdomain=yes type=FWD name="clearlinux.org" }
+:if ([:len [/ip dns static find name="cloudinsights.com" comment="intel"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="intel" match-subdomain=yes type=FWD name="cloudinsights.com" }
+:if ([:len [/ip dns static find name="clusterconnection.com" comment="intel"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="intel" match-subdomain=yes type=FWD name="clusterconnection.com" }
+:if ([:len [/ip dns static find name="coreduo.com" comment="intel"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="intel" match-subdomain=yes type=FWD name="coreduo.com" }
+:if ([:len [/ip dns static find name="coreextreme.com" comment="intel"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="intel" match-subdomain=yes type=FWD name="coreextreme.com" }
+:if ([:len [/ip dns static find name="crosswalk-project.com" comment="intel"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="intel" match-subdomain=yes type=FWD name="crosswalk-project.com" }
+:if ([:len [/ip dns static find name="crosswalk-project.net" comment="intel"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="intel" match-subdomain=yes type=FWD name="crosswalk-project.net" }
+:if ([:len [/ip dns static find name="doceapower.com" comment="intel"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="intel" match-subdomain=yes type=FWD name="doceapower.com" }
+:if ([:len [/ip dns static find name="easic.com" comment="intel"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="intel" match-subdomain=yes type=FWD name="easic.com" }
+:if ([:len [/ip dns static find name="enpirion.com" comment="intel"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="intel" match-subdomain=yes type=FWD name="enpirion.com" }
+:if ([:len [/ip dns static find name="exascale-tech.com" comment="intel"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="intel" match-subdomain=yes type=FWD name="exascale-tech.com" }
+:if ([:len [/ip dns static find name="exploreintel.com" comment="intel"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="intel" match-subdomain=yes type=FWD name="exploreintel.com" }
+:if ([:len [/ip dns static find name="gordonmoore.com" comment="intel"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="intel" match-subdomain=yes type=FWD name="gordonmoore.com" }
+:if ([:len [/ip dns static find name="hyperscan.io" comment="intel"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="intel" match-subdomain=yes type=FWD name="hyperscan.io" }
+:if ([:len [/ip dns static find name="insidefilms.com" comment="intel"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="intel" match-subdomain=yes type=FWD name="insidefilms.com" }
+:if ([:len [/ip dns static find name="intc.com" comment="intel"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="intel" match-subdomain=yes type=FWD name="intc.com" }
+:if ([:len [/ip dns static find name="intel" comment="intel"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="intel" match-subdomain=yes type=FWD name="intel" }
+:if ([:len [/ip dns static find name="intel-research.net" comment="intel"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="intel" match-subdomain=yes type=FWD name="intel-research.net" }
+:if ([:len [/ip dns static find name="intel-university-collaboration.net" comment="intel"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="intel" match-subdomain=yes type=FWD name="intel-university-collaboration.net" }
+:if ([:len [/ip dns static find name="intel.cc" comment="intel"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="intel" match-subdomain=yes type=FWD name="intel.cc" }
+:if ([:len [/ip dns static find name="intel.com" comment="intel"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="intel" match-subdomain=yes type=FWD name="intel.com" }
+:if ([:len [/ip dns static find name="intel.com.co" comment="intel"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="intel" match-subdomain=yes type=FWD name="intel.com.co" }
+:if ([:len [/ip dns static find name="intel.eu" comment="intel"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="intel" match-subdomain=yes type=FWD name="intel.eu" }
+:if ([:len [/ip dns static find name="intel.io" comment="intel"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="intel" match-subdomain=yes type=FWD name="intel.io" }
+:if ([:len [/ip dns static find name="intel.ru" comment="intel"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="intel" match-subdomain=yes type=FWD name="intel.ru" }
+:if ([:len [/ip dns static find name="intel.tv" comment="intel"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="intel" match-subdomain=yes type=FWD name="intel.tv" }
+:if ([:len [/ip dns static find name="intel.us" comment="intel"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="intel" match-subdomain=yes type=FWD name="intel.us" }
+:if ([:len [/ip dns static find name="intelamericasstore.com" comment="intel"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="intel" match-subdomain=yes type=FWD name="intelamericasstore.com" }
+:if ([:len [/ip dns static find name="intelapacstore.com" comment="intel"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="intel" match-subdomain=yes type=FWD name="intelapacstore.com" }
+:if ([:len [/ip dns static find name="intelatom.net" comment="intel"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="intel" match-subdomain=yes type=FWD name="intelatom.net" }
+:if ([:len [/ip dns static find name="intelcapital.com" comment="intel"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="intel" match-subdomain=yes type=FWD name="intelcapital.com" }
+:if ([:len [/ip dns static find name="intelcapital.net" comment="intel"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="intel" match-subdomain=yes type=FWD name="intelcapital.net" }
+:if ([:len [/ip dns static find name="intelcloudbuilders.com" comment="intel"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="intel" match-subdomain=yes type=FWD name="intelcloudbuilders.com" }
+:if ([:len [/ip dns static find name="intelcloudfinder.com" comment="intel"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="intel" match-subdomain=yes type=FWD name="intelcloudfinder.com" }
+:if ([:len [/ip dns static find name="intelemeastore.com" comment="intel"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="intel" match-subdomain=yes type=FWD name="intelemeastore.com" }
+:if ([:len [/ip dns static find name="inteleventexpress.com" comment="intel"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="intel" match-subdomain=yes type=FWD name="inteleventexpress.com" }
+:if ([:len [/ip dns static find name="intelforchange.com" comment="intel"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="intel" match-subdomain=yes type=FWD name="intelforchange.com" }
+:if ([:len [/ip dns static find name="intelfreepress.com" comment="intel"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="intel" match-subdomain=yes type=FWD name="intelfreepress.com" }
+:if ([:len [/ip dns static find name="intelgo.net" comment="intel"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="intel" match-subdomain=yes type=FWD name="intelgo.net" }
+:if ([:len [/ip dns static find name="intelinsight.com" comment="intel"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="intel" match-subdomain=yes type=FWD name="intelinsight.com" }
+:if ([:len [/ip dns static find name="inteliotmarketplace.com" comment="intel"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="intel" match-subdomain=yes type=FWD name="inteliotmarketplace.com" }
+:if ([:len [/ip dns static find name="intell.com" comment="intel"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="intel" match-subdomain=yes type=FWD name="intell.com" }
+:if ([:len [/ip dns static find name="intellearningseries.com" comment="intel"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="intel" match-subdomain=yes type=FWD name="intellearningseries.com" }
+:if ([:len [/ip dns static find name="intellinuxgraphics.com" comment="intel"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="intel" match-subdomain=yes type=FWD name="intellinuxgraphics.com" }
+:if ([:len [/ip dns static find name="intellinuxgraphics.net" comment="intel"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="intel" match-subdomain=yes type=FWD name="intellinuxgraphics.net" }
+:if ([:len [/ip dns static find name="intellinuxwireless.net" comment="intel"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="intel" match-subdomain=yes type=FWD name="intellinuxwireless.net" }
+:if ([:len [/ip dns static find name="intelnervana.com" comment="intel"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="intel" match-subdomain=yes type=FWD name="intelnervana.com" }
+:if ([:len [/ip dns static find name="intelnet.component" comment="intel"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="intel" match-subdomain=yes type=FWD name="intelnet.component" }
+:if ([:len [/ip dns static find name="intelplay.com" comment="intel"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="intel" match-subdomain=yes type=FWD name="intelplay.com" }
+:if ([:len [/ip dns static find name="intelquark.com" comment="intel"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="intel" match-subdomain=yes type=FWD name="intelquark.com" }
+:if ([:len [/ip dns static find name="intelrealsense.com" comment="intel"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="intel" match-subdomain=yes type=FWD name="intelrealsense.com" }
+:if ([:len [/ip dns static find name="intelrxt.com" comment="intel"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="intel" match-subdomain=yes type=FWD name="intelrxt.com" }
+:if ([:len [/ip dns static find name="intelsalestraining.com" comment="intel"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="intel" match-subdomain=yes type=FWD name="intelsalestraining.com" }
+:if ([:len [/ip dns static find name="intelsecurity.com" comment="intel"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="intel" match-subdomain=yes type=FWD name="intelsecurity.com" }
+:if ([:len [/ip dns static find name="intelserveredge.com" comment="intel"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="intel" match-subdomain=yes type=FWD name="intelserveredge.com" }
+:if ([:len [/ip dns static find name="intelsoftwarenetwork.com" comment="intel"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="intel" match-subdomain=yes type=FWD name="intelsoftwarenetwork.com" }
+:if ([:len [/ip dns static find name="intelstore.com" comment="intel"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="intel" match-subdomain=yes type=FWD name="intelstore.com" }
+:if ([:len [/ip dns static find name="inteltechnologyprovider.com" comment="intel"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="intel" match-subdomain=yes type=FWD name="inteltechnologyprovider.com" }
+:if ([:len [/ip dns static find name="intelvmwarecybersecurity.com" comment="intel"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="intel" match-subdomain=yes type=FWD name="intelvmwarecybersecurity.com" }
+:if ([:len [/ip dns static find name="itnel.com" comment="intel"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="intel" match-subdomain=yes type=FWD name="itnel.com" }
+:if ([:len [/ip dns static find name="latencytop.com" comment="intel"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="intel" match-subdomain=yes type=FWD name="latencytop.com" }
+:if ([:len [/ip dns static find name="lookinside.com" comment="intel"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="intel" match-subdomain=yes type=FWD name="lookinside.com" }
+:if ([:len [/ip dns static find name="makebettercode.com" comment="intel"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="intel" match-subdomain=yes type=FWD name="makebettercode.com" }
+:if ([:len [/ip dns static find name="makesenseofdata.com" comment="intel"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="intel" match-subdomain=yes type=FWD name="makesenseofdata.com" }
+:if ([:len [/ip dns static find name="movidius.com" comment="intel"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="intel" match-subdomain=yes type=FWD name="movidius.com" }
+:if ([:len [/ip dns static find name="movidius.net" comment="intel"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="intel" match-subdomain=yes type=FWD name="movidius.net" }
+:if ([:len [/ip dns static find name="nervanasys.com" comment="intel"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="intel" match-subdomain=yes type=FWD name="nervanasys.com" }
+:if ([:len [/ip dns static find name="nevex.com" comment="intel"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="intel" match-subdomain=yes type=FWD name="nevex.com" }
+:if ([:len [/ip dns static find name="nextgenerationcenter.com" comment="intel"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="intel" match-subdomain=yes type=FWD name="nextgenerationcenter.com" }
+:if ([:len [/ip dns static find name="niosii.com" comment="intel"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="intel" match-subdomain=yes type=FWD name="niosii.com" }
+:if ([:len [/ip dns static find name="niosii.net" comment="intel"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="intel" match-subdomain=yes type=FWD name="niosii.net" }
+:if ([:len [/ip dns static find name="omekinteractive.com" comment="intel"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="intel" match-subdomain=yes type=FWD name="omekinteractive.com" }
+:if ([:len [/ip dns static find name="omnitek.tv" comment="intel"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="intel" match-subdomain=yes type=FWD name="omnitek.tv" }
+:if ([:len [/ip dns static find name="oneapi.com" comment="intel"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="intel" match-subdomain=yes type=FWD name="oneapi.com" }
+:if ([:len [/ip dns static find name="openamt.com" comment="intel"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="intel" match-subdomain=yes type=FWD name="openamt.com" }
+:if ([:len [/ip dns static find name="opendroneid.org" comment="intel"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="intel" match-subdomain=yes type=FWD name="opendroneid.org" }
+:if ([:len [/ip dns static find name="openvinotoolkit.org" comment="intel"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="intel" match-subdomain=yes type=FWD name="openvinotoolkit.org" }
+:if ([:len [/ip dns static find name="optanedifference.com" comment="intel"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="intel" match-subdomain=yes type=FWD name="optanedifference.com" }
+:if ([:len [/ip dns static find name="ospray.net" comment="intel"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="intel" match-subdomain=yes type=FWD name="ospray.net" }
+:if ([:len [/ip dns static find name="ospray.org" comment="intel"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="intel" match-subdomain=yes type=FWD name="ospray.org" }
+:if ([:len [/ip dns static find name="pc.com" comment="intel"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="intel" match-subdomain=yes type=FWD name="pc.com" }
+:if ([:len [/ip dns static find name="pentium.com" comment="intel"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="intel" match-subdomain=yes type=FWD name="pentium.com" }
+:if ([:len [/ip dns static find name="pentium.net" comment="intel"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="intel" match-subdomain=yes type=FWD name="pentium.net" }
+:if ([:len [/ip dns static find name="pintool.com" comment="intel"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="intel" match-subdomain=yes type=FWD name="pintool.com" }
+:if ([:len [/ip dns static find name="poweredbyintel.com" comment="intel"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="intel" match-subdomain=yes type=FWD name="poweredbyintel.com" }
+:if ([:len [/ip dns static find name="reconinstruments.com" comment="intel"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="intel" match-subdomain=yes type=FWD name="reconinstruments.com" }
+:if ([:len [/ip dns static find name="reconjet.com" comment="intel"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="intel" match-subdomain=yes type=FWD name="reconjet.com" }
+:if ([:len [/ip dns static find name="researchintel.com" comment="intel"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="intel" match-subdomain=yes type=FWD name="researchintel.com" }
+:if ([:len [/ip dns static find name="saffrontech.com" comment="intel"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="intel" match-subdomain=yes type=FWD name="saffrontech.com" }
+:if ([:len [/ip dns static find name="sensorynetworks.com" comment="intel"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="intel" match-subdomain=yes type=FWD name="sensorynetworks.com" }
+:if ([:len [/ip dns static find name="siport.com" comment="intel"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="intel" match-subdomain=yes type=FWD name="siport.com" }
+:if ([:len [/ip dns static find name="smart-edge.com" comment="intel"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="intel" match-subdomain=yes type=FWD name="smart-edge.com" }
+:if ([:len [/ip dns static find name="snap-telemetry.io" comment="intel"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="intel" match-subdomain=yes type=FWD name="snap-telemetry.io" }
+:if ([:len [/ip dns static find name="theintelstore.com" comment="intel"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="intel" match-subdomain=yes type=FWD name="theintelstore.com" }
+:if ([:len [/ip dns static find name="thunderbolttechnology.net" comment="intel"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="intel" match-subdomain=yes type=FWD name="thunderbolttechnology.net" }
+:if ([:len [/ip dns static find name="trustedanalytics.com" comment="intel"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="intel" match-subdomain=yes type=FWD name="trustedanalytics.com" }
+:if ([:len [/ip dns static find name="trustedanalytics.net" comment="intel"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="intel" match-subdomain=yes type=FWD name="trustedanalytics.net" }
+:if ([:len [/ip dns static find name="vokevr.com" comment="intel"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="intel" match-subdomain=yes type=FWD name="vokevr.com" }
+:if ([:len [/ip dns static find name="vpro.com" comment="intel"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="intel" match-subdomain=yes type=FWD name="vpro.com" }
+:if ([:len [/ip dns static find name="vpro.net" comment="intel"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="intel" match-subdomain=yes type=FWD name="vpro.net" }
+:if ([:len [/ip dns static find name="xeon.com" comment="intel"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="intel" match-subdomain=yes type=FWD name="xeon.com" }
+:if ([:len [/ip dns static find name="xscale.com" comment="intel"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="intel" match-subdomain=yes type=FWD name="xscale.com" }

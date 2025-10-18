@@ -1,55 +1,55 @@
 :global AddressList
 :global ForwardTo
 /ip dns static
-add forward-to=$ForwardTo comment=cloudflare match-subdomain=yes type=FWD name=argotunnel.com
-add forward-to=$ForwardTo comment=cloudflare match-subdomain=yes type=FWD name=cf-ipfs.com
-add forward-to=$ForwardTo comment=cloudflare match-subdomain=yes type=FWD name=cf-ns.com
-add forward-to=$ForwardTo comment=cloudflare match-subdomain=yes type=FWD name=cf-ns.net
-add forward-to=$ForwardTo comment=cloudflare match-subdomain=yes type=FWD name=cf-ns.site
-add forward-to=$ForwardTo comment=cloudflare match-subdomain=yes type=FWD name=cf-ns.tech
-add forward-to=$ForwardTo comment=cloudflare match-subdomain=yes type=FWD name=cfargotunnel.com
-add forward-to=$ForwardTo comment=cloudflare match-subdomain=yes type=FWD name=cftest7.com
-add forward-to=$ForwardTo comment=cloudflare match-subdomain=yes type=FWD name=cftest8.com
-add forward-to=$ForwardTo comment=cloudflare match-subdomain=yes type=FWD name=cloudflare-cn.com
-add forward-to=$ForwardTo comment=cloudflare match-subdomain=yes type=FWD name=cloudflare-dns.com
-add forward-to=$ForwardTo comment=cloudflare match-subdomain=yes type=FWD name=cloudflare-ech.com
-add forward-to=$ForwardTo comment=cloudflare match-subdomain=yes type=FWD name=cloudflare-esni.com
-add forward-to=$ForwardTo comment=cloudflare match-subdomain=yes type=FWD name=cloudflare-gateway.com
-add forward-to=$ForwardTo comment=cloudflare match-subdomain=yes type=FWD name=cloudflare-ipfs.com
-add forward-to=$ForwardTo comment=cloudflare match-subdomain=yes type=FWD name=cloudflare-quic.com
-add forward-to=$ForwardTo comment=cloudflare match-subdomain=yes type=FWD name=cloudflare.com
-add forward-to=$ForwardTo comment=cloudflare match-subdomain=yes type=FWD name=cloudflare.net
-add forward-to=$ForwardTo comment=cloudflare match-subdomain=yes type=FWD name=cloudflare.tv
-add forward-to=$ForwardTo comment=cloudflare match-subdomain=yes type=FWD name=cloudflareaccess.com
-add forward-to=$ForwardTo comment=cloudflare match-subdomain=yes type=FWD name=cloudflareanycast.net
-add forward-to=$ForwardTo comment=cloudflare match-subdomain=yes type=FWD name=cloudflareapps.com
-add forward-to=$ForwardTo comment=cloudflare match-subdomain=yes type=FWD name=cloudflarebolt.com
-add forward-to=$ForwardTo comment=cloudflare match-subdomain=yes type=FWD name=cloudflareclient.com
-add forward-to=$ForwardTo comment=cloudflare match-subdomain=yes type=FWD name=cloudflarecn.net
-add forward-to=$ForwardTo comment=cloudflare match-subdomain=yes type=FWD name=cloudflareglobal.net
-add forward-to=$ForwardTo comment=cloudflare match-subdomain=yes type=FWD name=cloudflareinsights-cn.com
-add forward-to=$ForwardTo comment=cloudflare match-subdomain=yes type=FWD name=cloudflareinsights.com
-add forward-to=$ForwardTo comment=cloudflare match-subdomain=yes type=FWD name=cloudflareok.com
-add forward-to=$ForwardTo comment=cloudflare match-subdomain=yes type=FWD name=cloudflarepartners.com
-add forward-to=$ForwardTo comment=cloudflare match-subdomain=yes type=FWD name=cloudflareperf.com
-add forward-to=$ForwardTo comment=cloudflare match-subdomain=yes type=FWD name=cloudflareportal.com
-add forward-to=$ForwardTo comment=cloudflare match-subdomain=yes type=FWD name=cloudflarepreview.com
-add forward-to=$ForwardTo comment=cloudflare match-subdomain=yes type=FWD name=cloudflareprod.com
-add forward-to=$ForwardTo comment=cloudflare match-subdomain=yes type=FWD name=cloudflareresolve.com
-add forward-to=$ForwardTo comment=cloudflare match-subdomain=yes type=FWD name=cloudflaressl.com
-add forward-to=$ForwardTo comment=cloudflare match-subdomain=yes type=FWD name=cloudflarestaging.com
-add forward-to=$ForwardTo comment=cloudflare match-subdomain=yes type=FWD name=cloudflarestatus.com
-add forward-to=$ForwardTo comment=cloudflare match-subdomain=yes type=FWD name=cloudflarestorage.com
-add forward-to=$ForwardTo comment=cloudflare match-subdomain=yes type=FWD name=cloudflarestoragegw.com
-add forward-to=$ForwardTo comment=cloudflare match-subdomain=yes type=FWD name=cloudflarestream.com
-add forward-to=$ForwardTo comment=cloudflare match-subdomain=yes type=FWD name=cloudflaretest.com
-add forward-to=$ForwardTo comment=cloudflare match-subdomain=yes type=FWD name=cloudflarewarp.com
-add forward-to=$ForwardTo comment=cloudflare match-subdomain=yes type=FWD name=every1dns.net
-add forward-to=$ForwardTo comment=cloudflare match-subdomain=yes type=FWD name=isbgpsafeyet.com
-add forward-to=$ForwardTo comment=cloudflare match-subdomain=yes type=FWD name=one.one.one
-add forward-to=$ForwardTo comment=cloudflare match-subdomain=yes type=FWD name=pacloudflare.com
-add forward-to=$ForwardTo comment=cloudflare match-subdomain=yes type=FWD name=pages.dev
-add forward-to=$ForwardTo comment=cloudflare match-subdomain=yes type=FWD name=trycloudflare.com
-add forward-to=$ForwardTo comment=cloudflare match-subdomain=yes type=FWD name=videodelivery.net
-add forward-to=$ForwardTo comment=cloudflare match-subdomain=yes type=FWD name=warp.plus
-add forward-to=$ForwardTo comment=cloudflare match-subdomain=yes type=FWD name=workers.dev
+:if ([:len [/ip dns static find name="argotunnel.com" comment="cloudflare"]] = 0) do={ add forward-to=$ForwardTo comment="cloudflare" match-subdomain=yes type=FWD name="argotunnel.com" }
+:if ([:len [/ip dns static find name="cf-ipfs.com" comment="cloudflare"]] = 0) do={ add forward-to=$ForwardTo comment="cloudflare" match-subdomain=yes type=FWD name="cf-ipfs.com" }
+:if ([:len [/ip dns static find name="cf-ns.com" comment="cloudflare"]] = 0) do={ add forward-to=$ForwardTo comment="cloudflare" match-subdomain=yes type=FWD name="cf-ns.com" }
+:if ([:len [/ip dns static find name="cf-ns.net" comment="cloudflare"]] = 0) do={ add forward-to=$ForwardTo comment="cloudflare" match-subdomain=yes type=FWD name="cf-ns.net" }
+:if ([:len [/ip dns static find name="cf-ns.site" comment="cloudflare"]] = 0) do={ add forward-to=$ForwardTo comment="cloudflare" match-subdomain=yes type=FWD name="cf-ns.site" }
+:if ([:len [/ip dns static find name="cf-ns.tech" comment="cloudflare"]] = 0) do={ add forward-to=$ForwardTo comment="cloudflare" match-subdomain=yes type=FWD name="cf-ns.tech" }
+:if ([:len [/ip dns static find name="cfargotunnel.com" comment="cloudflare"]] = 0) do={ add forward-to=$ForwardTo comment="cloudflare" match-subdomain=yes type=FWD name="cfargotunnel.com" }
+:if ([:len [/ip dns static find name="cftest7.com" comment="cloudflare"]] = 0) do={ add forward-to=$ForwardTo comment="cloudflare" match-subdomain=yes type=FWD name="cftest7.com" }
+:if ([:len [/ip dns static find name="cftest8.com" comment="cloudflare"]] = 0) do={ add forward-to=$ForwardTo comment="cloudflare" match-subdomain=yes type=FWD name="cftest8.com" }
+:if ([:len [/ip dns static find name="cloudflare-cn.com" comment="cloudflare"]] = 0) do={ add forward-to=$ForwardTo comment="cloudflare" match-subdomain=yes type=FWD name="cloudflare-cn.com" }
+:if ([:len [/ip dns static find name="cloudflare-dns.com" comment="cloudflare"]] = 0) do={ add forward-to=$ForwardTo comment="cloudflare" match-subdomain=yes type=FWD name="cloudflare-dns.com" }
+:if ([:len [/ip dns static find name="cloudflare-ech.com" comment="cloudflare"]] = 0) do={ add forward-to=$ForwardTo comment="cloudflare" match-subdomain=yes type=FWD name="cloudflare-ech.com" }
+:if ([:len [/ip dns static find name="cloudflare-esni.com" comment="cloudflare"]] = 0) do={ add forward-to=$ForwardTo comment="cloudflare" match-subdomain=yes type=FWD name="cloudflare-esni.com" }
+:if ([:len [/ip dns static find name="cloudflare-gateway.com" comment="cloudflare"]] = 0) do={ add forward-to=$ForwardTo comment="cloudflare" match-subdomain=yes type=FWD name="cloudflare-gateway.com" }
+:if ([:len [/ip dns static find name="cloudflare-ipfs.com" comment="cloudflare"]] = 0) do={ add forward-to=$ForwardTo comment="cloudflare" match-subdomain=yes type=FWD name="cloudflare-ipfs.com" }
+:if ([:len [/ip dns static find name="cloudflare-quic.com" comment="cloudflare"]] = 0) do={ add forward-to=$ForwardTo comment="cloudflare" match-subdomain=yes type=FWD name="cloudflare-quic.com" }
+:if ([:len [/ip dns static find name="cloudflare.com" comment="cloudflare"]] = 0) do={ add forward-to=$ForwardTo comment="cloudflare" match-subdomain=yes type=FWD name="cloudflare.com" }
+:if ([:len [/ip dns static find name="cloudflare.net" comment="cloudflare"]] = 0) do={ add forward-to=$ForwardTo comment="cloudflare" match-subdomain=yes type=FWD name="cloudflare.net" }
+:if ([:len [/ip dns static find name="cloudflare.tv" comment="cloudflare"]] = 0) do={ add forward-to=$ForwardTo comment="cloudflare" match-subdomain=yes type=FWD name="cloudflare.tv" }
+:if ([:len [/ip dns static find name="cloudflareaccess.com" comment="cloudflare"]] = 0) do={ add forward-to=$ForwardTo comment="cloudflare" match-subdomain=yes type=FWD name="cloudflareaccess.com" }
+:if ([:len [/ip dns static find name="cloudflareanycast.net" comment="cloudflare"]] = 0) do={ add forward-to=$ForwardTo comment="cloudflare" match-subdomain=yes type=FWD name="cloudflareanycast.net" }
+:if ([:len [/ip dns static find name="cloudflareapps.com" comment="cloudflare"]] = 0) do={ add forward-to=$ForwardTo comment="cloudflare" match-subdomain=yes type=FWD name="cloudflareapps.com" }
+:if ([:len [/ip dns static find name="cloudflarebolt.com" comment="cloudflare"]] = 0) do={ add forward-to=$ForwardTo comment="cloudflare" match-subdomain=yes type=FWD name="cloudflarebolt.com" }
+:if ([:len [/ip dns static find name="cloudflareclient.com" comment="cloudflare"]] = 0) do={ add forward-to=$ForwardTo comment="cloudflare" match-subdomain=yes type=FWD name="cloudflareclient.com" }
+:if ([:len [/ip dns static find name="cloudflarecn.net" comment="cloudflare"]] = 0) do={ add forward-to=$ForwardTo comment="cloudflare" match-subdomain=yes type=FWD name="cloudflarecn.net" }
+:if ([:len [/ip dns static find name="cloudflareglobal.net" comment="cloudflare"]] = 0) do={ add forward-to=$ForwardTo comment="cloudflare" match-subdomain=yes type=FWD name="cloudflareglobal.net" }
+:if ([:len [/ip dns static find name="cloudflareinsights-cn.com" comment="cloudflare"]] = 0) do={ add forward-to=$ForwardTo comment="cloudflare" match-subdomain=yes type=FWD name="cloudflareinsights-cn.com" }
+:if ([:len [/ip dns static find name="cloudflareinsights.com" comment="cloudflare"]] = 0) do={ add forward-to=$ForwardTo comment="cloudflare" match-subdomain=yes type=FWD name="cloudflareinsights.com" }
+:if ([:len [/ip dns static find name="cloudflareok.com" comment="cloudflare"]] = 0) do={ add forward-to=$ForwardTo comment="cloudflare" match-subdomain=yes type=FWD name="cloudflareok.com" }
+:if ([:len [/ip dns static find name="cloudflarepartners.com" comment="cloudflare"]] = 0) do={ add forward-to=$ForwardTo comment="cloudflare" match-subdomain=yes type=FWD name="cloudflarepartners.com" }
+:if ([:len [/ip dns static find name="cloudflareperf.com" comment="cloudflare"]] = 0) do={ add forward-to=$ForwardTo comment="cloudflare" match-subdomain=yes type=FWD name="cloudflareperf.com" }
+:if ([:len [/ip dns static find name="cloudflareportal.com" comment="cloudflare"]] = 0) do={ add forward-to=$ForwardTo comment="cloudflare" match-subdomain=yes type=FWD name="cloudflareportal.com" }
+:if ([:len [/ip dns static find name="cloudflarepreview.com" comment="cloudflare"]] = 0) do={ add forward-to=$ForwardTo comment="cloudflare" match-subdomain=yes type=FWD name="cloudflarepreview.com" }
+:if ([:len [/ip dns static find name="cloudflareprod.com" comment="cloudflare"]] = 0) do={ add forward-to=$ForwardTo comment="cloudflare" match-subdomain=yes type=FWD name="cloudflareprod.com" }
+:if ([:len [/ip dns static find name="cloudflareresolve.com" comment="cloudflare"]] = 0) do={ add forward-to=$ForwardTo comment="cloudflare" match-subdomain=yes type=FWD name="cloudflareresolve.com" }
+:if ([:len [/ip dns static find name="cloudflaressl.com" comment="cloudflare"]] = 0) do={ add forward-to=$ForwardTo comment="cloudflare" match-subdomain=yes type=FWD name="cloudflaressl.com" }
+:if ([:len [/ip dns static find name="cloudflarestaging.com" comment="cloudflare"]] = 0) do={ add forward-to=$ForwardTo comment="cloudflare" match-subdomain=yes type=FWD name="cloudflarestaging.com" }
+:if ([:len [/ip dns static find name="cloudflarestatus.com" comment="cloudflare"]] = 0) do={ add forward-to=$ForwardTo comment="cloudflare" match-subdomain=yes type=FWD name="cloudflarestatus.com" }
+:if ([:len [/ip dns static find name="cloudflarestorage.com" comment="cloudflare"]] = 0) do={ add forward-to=$ForwardTo comment="cloudflare" match-subdomain=yes type=FWD name="cloudflarestorage.com" }
+:if ([:len [/ip dns static find name="cloudflarestoragegw.com" comment="cloudflare"]] = 0) do={ add forward-to=$ForwardTo comment="cloudflare" match-subdomain=yes type=FWD name="cloudflarestoragegw.com" }
+:if ([:len [/ip dns static find name="cloudflarestream.com" comment="cloudflare"]] = 0) do={ add forward-to=$ForwardTo comment="cloudflare" match-subdomain=yes type=FWD name="cloudflarestream.com" }
+:if ([:len [/ip dns static find name="cloudflaretest.com" comment="cloudflare"]] = 0) do={ add forward-to=$ForwardTo comment="cloudflare" match-subdomain=yes type=FWD name="cloudflaretest.com" }
+:if ([:len [/ip dns static find name="cloudflarewarp.com" comment="cloudflare"]] = 0) do={ add forward-to=$ForwardTo comment="cloudflare" match-subdomain=yes type=FWD name="cloudflarewarp.com" }
+:if ([:len [/ip dns static find name="every1dns.net" comment="cloudflare"]] = 0) do={ add forward-to=$ForwardTo comment="cloudflare" match-subdomain=yes type=FWD name="every1dns.net" }
+:if ([:len [/ip dns static find name="isbgpsafeyet.com" comment="cloudflare"]] = 0) do={ add forward-to=$ForwardTo comment="cloudflare" match-subdomain=yes type=FWD name="isbgpsafeyet.com" }
+:if ([:len [/ip dns static find name="one.one.one" comment="cloudflare"]] = 0) do={ add forward-to=$ForwardTo comment="cloudflare" match-subdomain=yes type=FWD name="one.one.one" }
+:if ([:len [/ip dns static find name="pacloudflare.com" comment="cloudflare"]] = 0) do={ add forward-to=$ForwardTo comment="cloudflare" match-subdomain=yes type=FWD name="pacloudflare.com" }
+:if ([:len [/ip dns static find name="pages.dev" comment="cloudflare"]] = 0) do={ add forward-to=$ForwardTo comment="cloudflare" match-subdomain=yes type=FWD name="pages.dev" }
+:if ([:len [/ip dns static find name="trycloudflare.com" comment="cloudflare"]] = 0) do={ add forward-to=$ForwardTo comment="cloudflare" match-subdomain=yes type=FWD name="trycloudflare.com" }
+:if ([:len [/ip dns static find name="videodelivery.net" comment="cloudflare"]] = 0) do={ add forward-to=$ForwardTo comment="cloudflare" match-subdomain=yes type=FWD name="videodelivery.net" }
+:if ([:len [/ip dns static find name="warp.plus" comment="cloudflare"]] = 0) do={ add forward-to=$ForwardTo comment="cloudflare" match-subdomain=yes type=FWD name="warp.plus" }
+:if ([:len [/ip dns static find name="workers.dev" comment="cloudflare"]] = 0) do={ add forward-to=$ForwardTo comment="cloudflare" match-subdomain=yes type=FWD name="workers.dev" }

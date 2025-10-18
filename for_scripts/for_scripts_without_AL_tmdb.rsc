@@ -1,6 +1,6 @@
 :global AddressList
 :global ForwardTo
 /ip dns static
-add forward-to=$ForwardTo comment=tmdb type=FWD name=tmdb-image-prod.b-cdn.net
-add forward-to=$ForwardTo comment=tmdb match-subdomain=yes type=FWD name=themoviedb.org
-add forward-to=$ForwardTo comment=tmdb match-subdomain=yes type=FWD name=tmdb.org
+:if ([:len [/ip dns static find name="tmdb-image-prod.b-cdn.net" comment="tmdb"]] = 0) do={ add forward-to=$ForwardTo comment="tmdb" type=FWD name="tmdb-image-prod.b-cdn.net" }
+:if ([:len [/ip dns static find name="themoviedb.org" comment="tmdb"]] = 0) do={ add forward-to=$ForwardTo comment="tmdb" match-subdomain=yes type=FWD name="themoviedb.org" }
+:if ([:len [/ip dns static find name="tmdb.org" comment="tmdb"]] = 0) do={ add forward-to=$ForwardTo comment="tmdb" match-subdomain=yes type=FWD name="tmdb.org" }

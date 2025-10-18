@@ -1,42 +1,42 @@
 :global AddressList
 :global ForwardTo
 /ip dns static
-add address-list=$AddressList forward-to=$ForwardTo comment=sony match-subdomain=yes type=FWD name=imageworks.com
-add address-list=$AddressList forward-to=$ForwardTo comment=sony match-subdomain=yes type=FWD name=motionpictureser.com
-add address-list=$AddressList forward-to=$ForwardTo comment=sony match-subdomain=yes type=FWD name=playshow.io
-add address-list=$AddressList forward-to=$ForwardTo comment=sony match-subdomain=yes type=FWD name=playshowtv.com
-add address-list=$AddressList forward-to=$ForwardTo comment=sony match-subdomain=yes type=FWD name=playstation
-add address-list=$AddressList forward-to=$ForwardTo comment=sony match-subdomain=yes type=FWD name=playstation.com
-add address-list=$AddressList forward-to=$ForwardTo comment=sony match-subdomain=yes type=FWD name=playstation.net
-add address-list=$AddressList forward-to=$ForwardTo comment=sony match-subdomain=yes type=FWD name=sony
-add address-list=$AddressList forward-to=$ForwardTo comment=sony match-subdomain=yes type=FWD name=sony-africa.com
-add address-list=$AddressList forward-to=$ForwardTo comment=sony match-subdomain=yes type=FWD name=sony-asia.com
-add address-list=$AddressList forward-to=$ForwardTo comment=sony match-subdomain=yes type=FWD name=sony-europe.com
-add address-list=$AddressList forward-to=$ForwardTo comment=sony match-subdomain=yes type=FWD name=sony-latin.com
-add address-list=$AddressList forward-to=$ForwardTo comment=sony match-subdomain=yes type=FWD name=sony-mea.com
-add address-list=$AddressList forward-to=$ForwardTo comment=sony match-subdomain=yes type=FWD name=sony-olympus-medical.com
-add address-list=$AddressList forward-to=$ForwardTo comment=sony match-subdomain=yes type=FWD name=sony-promotion.eu
-add address-list=$AddressList forward-to=$ForwardTo comment=sony match-subdomain=yes type=FWD name=sony-semicon.com
-add address-list=$AddressList forward-to=$ForwardTo comment=sony match-subdomain=yes type=FWD name=sony.be
-add address-list=$AddressList forward-to=$ForwardTo comment=sony match-subdomain=yes type=FWD name=sony.biz
-add address-list=$AddressList forward-to=$ForwardTo comment=sony match-subdomain=yes type=FWD name=sony.com
-add address-list=$AddressList forward-to=$ForwardTo comment=sony match-subdomain=yes type=FWD name=sony.com.co
-add address-list=$AddressList forward-to=$ForwardTo comment=sony match-subdomain=yes type=FWD name=sony.eu
-add address-list=$AddressList forward-to=$ForwardTo comment=sony match-subdomain=yes type=FWD name=sony.net
-add address-list=$AddressList forward-to=$ForwardTo comment=sony match-subdomain=yes type=FWD name=sony.ru
-add address-list=$AddressList forward-to=$ForwardTo comment=sony match-subdomain=yes type=FWD name=sonybsc.com
-add address-list=$AddressList forward-to=$ForwardTo comment=sony match-subdomain=yes type=FWD name=sonyclassics.com
-add address-list=$AddressList forward-to=$ForwardTo comment=sony match-subdomain=yes type=FWD name=sonydesign.com
-add address-list=$AddressList forward-to=$ForwardTo comment=sony match-subdomain=yes type=FWD name=sonydna.com
-add address-list=$AddressList forward-to=$ForwardTo comment=sony match-subdomain=yes type=FWD name=sonyentertainmentnetwork.com
-add address-list=$AddressList forward-to=$ForwardTo comment=sony match-subdomain=yes type=FWD name=sonylatvija.com
-add address-list=$AddressList forward-to=$ForwardTo comment=sony match-subdomain=yes type=FWD name=sonypictures.com
-add address-list=$AddressList forward-to=$ForwardTo comment=sony match-subdomain=yes type=FWD name=sonypicturesanimation.com
-add address-list=$AddressList forward-to=$ForwardTo comment=sony match-subdomain=yes type=FWD name=sonypicturesmuseum.com
-add address-list=$AddressList forward-to=$ForwardTo comment=sony match-subdomain=yes type=FWD name=sonypicturesstudios.com
-add address-list=$AddressList forward-to=$ForwardTo comment=sony match-subdomain=yes type=FWD name=sonypicturestelevision.com
-add address-list=$AddressList forward-to=$ForwardTo comment=sony match-subdomain=yes type=FWD name=sonypicturestelevisiongames.com
-add address-list=$AddressList forward-to=$ForwardTo comment=sony match-subdomain=yes type=FWD name=sovec.net
-add address-list=$AddressList forward-to=$ForwardTo comment=sony match-subdomain=yes type=FWD name=wheelpop.com
-add address-list=$AddressList forward-to=$ForwardTo comment=sony match-subdomain=yes type=FWD name=wwtbam.com
-add address-list=$AddressList forward-to=$ForwardTo comment=sony match-subdomain=yes type=FWD name=yourfantasybeginsnow.com
+:if ([:len [/ip dns static find name="imageworks.com" comment="sony"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="sony" match-subdomain=yes type=FWD name="imageworks.com" }
+:if ([:len [/ip dns static find name="motionpictureser.com" comment="sony"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="sony" match-subdomain=yes type=FWD name="motionpictureser.com" }
+:if ([:len [/ip dns static find name="playshow.io" comment="sony"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="sony" match-subdomain=yes type=FWD name="playshow.io" }
+:if ([:len [/ip dns static find name="playshowtv.com" comment="sony"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="sony" match-subdomain=yes type=FWD name="playshowtv.com" }
+:if ([:len [/ip dns static find name="playstation" comment="sony"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="sony" match-subdomain=yes type=FWD name="playstation" }
+:if ([:len [/ip dns static find name="playstation.com" comment="sony"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="sony" match-subdomain=yes type=FWD name="playstation.com" }
+:if ([:len [/ip dns static find name="playstation.net" comment="sony"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="sony" match-subdomain=yes type=FWD name="playstation.net" }
+:if ([:len [/ip dns static find name="sony" comment="sony"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="sony" match-subdomain=yes type=FWD name="sony" }
+:if ([:len [/ip dns static find name="sony-africa.com" comment="sony"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="sony" match-subdomain=yes type=FWD name="sony-africa.com" }
+:if ([:len [/ip dns static find name="sony-asia.com" comment="sony"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="sony" match-subdomain=yes type=FWD name="sony-asia.com" }
+:if ([:len [/ip dns static find name="sony-europe.com" comment="sony"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="sony" match-subdomain=yes type=FWD name="sony-europe.com" }
+:if ([:len [/ip dns static find name="sony-latin.com" comment="sony"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="sony" match-subdomain=yes type=FWD name="sony-latin.com" }
+:if ([:len [/ip dns static find name="sony-mea.com" comment="sony"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="sony" match-subdomain=yes type=FWD name="sony-mea.com" }
+:if ([:len [/ip dns static find name="sony-olympus-medical.com" comment="sony"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="sony" match-subdomain=yes type=FWD name="sony-olympus-medical.com" }
+:if ([:len [/ip dns static find name="sony-promotion.eu" comment="sony"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="sony" match-subdomain=yes type=FWD name="sony-promotion.eu" }
+:if ([:len [/ip dns static find name="sony-semicon.com" comment="sony"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="sony" match-subdomain=yes type=FWD name="sony-semicon.com" }
+:if ([:len [/ip dns static find name="sony.be" comment="sony"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="sony" match-subdomain=yes type=FWD name="sony.be" }
+:if ([:len [/ip dns static find name="sony.biz" comment="sony"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="sony" match-subdomain=yes type=FWD name="sony.biz" }
+:if ([:len [/ip dns static find name="sony.com" comment="sony"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="sony" match-subdomain=yes type=FWD name="sony.com" }
+:if ([:len [/ip dns static find name="sony.com.co" comment="sony"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="sony" match-subdomain=yes type=FWD name="sony.com.co" }
+:if ([:len [/ip dns static find name="sony.eu" comment="sony"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="sony" match-subdomain=yes type=FWD name="sony.eu" }
+:if ([:len [/ip dns static find name="sony.net" comment="sony"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="sony" match-subdomain=yes type=FWD name="sony.net" }
+:if ([:len [/ip dns static find name="sony.ru" comment="sony"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="sony" match-subdomain=yes type=FWD name="sony.ru" }
+:if ([:len [/ip dns static find name="sonybsc.com" comment="sony"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="sony" match-subdomain=yes type=FWD name="sonybsc.com" }
+:if ([:len [/ip dns static find name="sonyclassics.com" comment="sony"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="sony" match-subdomain=yes type=FWD name="sonyclassics.com" }
+:if ([:len [/ip dns static find name="sonydesign.com" comment="sony"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="sony" match-subdomain=yes type=FWD name="sonydesign.com" }
+:if ([:len [/ip dns static find name="sonydna.com" comment="sony"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="sony" match-subdomain=yes type=FWD name="sonydna.com" }
+:if ([:len [/ip dns static find name="sonyentertainmentnetwork.com" comment="sony"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="sony" match-subdomain=yes type=FWD name="sonyentertainmentnetwork.com" }
+:if ([:len [/ip dns static find name="sonylatvija.com" comment="sony"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="sony" match-subdomain=yes type=FWD name="sonylatvija.com" }
+:if ([:len [/ip dns static find name="sonypictures.com" comment="sony"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="sony" match-subdomain=yes type=FWD name="sonypictures.com" }
+:if ([:len [/ip dns static find name="sonypicturesanimation.com" comment="sony"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="sony" match-subdomain=yes type=FWD name="sonypicturesanimation.com" }
+:if ([:len [/ip dns static find name="sonypicturesmuseum.com" comment="sony"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="sony" match-subdomain=yes type=FWD name="sonypicturesmuseum.com" }
+:if ([:len [/ip dns static find name="sonypicturesstudios.com" comment="sony"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="sony" match-subdomain=yes type=FWD name="sonypicturesstudios.com" }
+:if ([:len [/ip dns static find name="sonypicturestelevision.com" comment="sony"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="sony" match-subdomain=yes type=FWD name="sonypicturestelevision.com" }
+:if ([:len [/ip dns static find name="sonypicturestelevisiongames.com" comment="sony"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="sony" match-subdomain=yes type=FWD name="sonypicturestelevisiongames.com" }
+:if ([:len [/ip dns static find name="sovec.net" comment="sony"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="sony" match-subdomain=yes type=FWD name="sovec.net" }
+:if ([:len [/ip dns static find name="wheelpop.com" comment="sony"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="sony" match-subdomain=yes type=FWD name="wheelpop.com" }
+:if ([:len [/ip dns static find name="wwtbam.com" comment="sony"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="sony" match-subdomain=yes type=FWD name="wwtbam.com" }
+:if ([:len [/ip dns static find name="yourfantasybeginsnow.com" comment="sony"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="sony" match-subdomain=yes type=FWD name="yourfantasybeginsnow.com" }

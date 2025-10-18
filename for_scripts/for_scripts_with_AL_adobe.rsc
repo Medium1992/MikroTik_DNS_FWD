@@ -1,263 +1,263 @@
 :global AddressList
 :global ForwardTo
 /ip dns static
-add address-list=$AddressList forward-to=$ForwardTo comment=adobe type=FWD name=3dns-1.adobe.com
-add address-list=$AddressList forward-to=$ForwardTo comment=adobe type=FWD name=3dns-2.adobe.com
-add address-list=$AddressList forward-to=$ForwardTo comment=adobe type=FWD name=3dns-3.adobe.com
-add address-list=$AddressList forward-to=$ForwardTo comment=adobe type=FWD name=3dns-4.adobe.com
-add address-list=$AddressList forward-to=$ForwardTo comment=adobe type=FWD name=3dns-5.adobe.com
-add address-list=$AddressList forward-to=$ForwardTo comment=adobe type=FWD name=3dns.adobe.com
-add address-list=$AddressList forward-to=$ForwardTo comment=adobe type=FWD name=activate-sea.adobe.com
-add address-list=$AddressList forward-to=$ForwardTo comment=adobe type=FWD name=activate-sjc0.adobe.com
-add address-list=$AddressList forward-to=$ForwardTo comment=adobe type=FWD name=activate.adobe.com
-add address-list=$AddressList forward-to=$ForwardTo comment=adobe type=FWD name=activate.wip1.adobe.com
-add address-list=$AddressList forward-to=$ForwardTo comment=adobe type=FWD name=activate.wip2.adobe.com
-add address-list=$AddressList forward-to=$ForwardTo comment=adobe type=FWD name=activate.wip3.adobe.com
-add address-list=$AddressList forward-to=$ForwardTo comment=adobe type=FWD name=activate.wip4.adobe.com
-add address-list=$AddressList forward-to=$ForwardTo comment=adobe type=FWD name=adobe-dns-1.adobe.com
-add address-list=$AddressList forward-to=$ForwardTo comment=adobe type=FWD name=adobe-dns-2.adobe.com
-add address-list=$AddressList forward-to=$ForwardTo comment=adobe type=FWD name=adobe-dns-3.adobe.com
-add address-list=$AddressList forward-to=$ForwardTo comment=adobe type=FWD name=adobe-dns-4.adobe.com
-add address-list=$AddressList forward-to=$ForwardTo comment=adobe type=FWD name=adobe-dns.adobe.com
-add address-list=$AddressList forward-to=$ForwardTo comment=adobe type=FWD name=adobeereg.com
-add address-list=$AddressList forward-to=$ForwardTo comment=adobe type=FWD name=crl.versign.net
-add address-list=$AddressList forward-to=$ForwardTo comment=adobe type=FWD name=ereg.adobe.com
-add address-list=$AddressList forward-to=$ForwardTo comment=adobe type=FWD name=ereg.wip.adobe.com
-add address-list=$AddressList forward-to=$ForwardTo comment=adobe type=FWD name=ereg.wip1.adobe.com
-add address-list=$AddressList forward-to=$ForwardTo comment=adobe type=FWD name=ereg.wip2.adobe.com
-add address-list=$AddressList forward-to=$ForwardTo comment=adobe type=FWD name=ereg.wip3.adobe.com
-add address-list=$AddressList forward-to=$ForwardTo comment=adobe type=FWD name=ereg.wip4.adobe.com
-add address-list=$AddressList forward-to=$ForwardTo comment=adobe type=FWD name=hl2rcv.adobe.com
-add address-list=$AddressList forward-to=$ForwardTo comment=adobe type=FWD name=hlrcv.stage.adobe.com
-add address-list=$AddressList forward-to=$ForwardTo comment=adobe type=FWD name=lm.licenses.adobe.com
-add address-list=$AddressList forward-to=$ForwardTo comment=adobe type=FWD name=lmlicenses.wip4.adobe.com
-add address-list=$AddressList forward-to=$ForwardTo comment=adobe type=FWD name=na1r.services.adobe.com
-add address-list=$AddressList forward-to=$ForwardTo comment=adobe type=FWD name=ood.opsource.net
-add address-list=$AddressList forward-to=$ForwardTo comment=adobe type=FWD name=practivate.adobe
-add address-list=$AddressList forward-to=$ForwardTo comment=adobe type=FWD name=practivate.adobe.com
-add address-list=$AddressList forward-to=$ForwardTo comment=adobe type=FWD name=practivate.adobe.ipp
-add address-list=$AddressList forward-to=$ForwardTo comment=adobe type=FWD name=practivate.adobe.newoa
-add address-list=$AddressList forward-to=$ForwardTo comment=adobe type=FWD name=practivate.adobe.ntp
-add address-list=$AddressList forward-to=$ForwardTo comment=adobe type=FWD name=wip.adobe.com
-add address-list=$AddressList forward-to=$ForwardTo comment=adobe type=FWD name=wip1.adobe.com
-add address-list=$AddressList forward-to=$ForwardTo comment=adobe type=FWD name=wip2.adobe.com
-add address-list=$AddressList forward-to=$ForwardTo comment=adobe type=FWD name=wip3.adobe.com
-add address-list=$AddressList forward-to=$ForwardTo comment=adobe type=FWD name=wip4.adobe.com
-add address-list=$AddressList forward-to=$ForwardTo comment=adobe type=FWD name=wwis-dubc1-vip100.adobe.com
-add address-list=$AddressList forward-to=$ForwardTo comment=adobe type=FWD name=wwis-dubc1-vip101.adobe.com
-add address-list=$AddressList forward-to=$ForwardTo comment=adobe type=FWD name=wwis-dubc1-vip102.adobe.com
-add address-list=$AddressList forward-to=$ForwardTo comment=adobe type=FWD name=wwis-dubc1-vip103.adobe.com
-add address-list=$AddressList forward-to=$ForwardTo comment=adobe type=FWD name=wwis-dubc1-vip104.adobe.com
-add address-list=$AddressList forward-to=$ForwardTo comment=adobe type=FWD name=wwis-dubc1-vip105.adobe.com
-add address-list=$AddressList forward-to=$ForwardTo comment=adobe type=FWD name=wwis-dubc1-vip106.adobe.com
-add address-list=$AddressList forward-to=$ForwardTo comment=adobe type=FWD name=wwis-dubc1-vip107.adobe.com
-add address-list=$AddressList forward-to=$ForwardTo comment=adobe type=FWD name=wwis-dubc1-vip108.adobe.com
-add address-list=$AddressList forward-to=$ForwardTo comment=adobe type=FWD name=wwis-dubc1-vip109.adobe.com
-add address-list=$AddressList forward-to=$ForwardTo comment=adobe type=FWD name=wwis-dubc1-vip110.adobe.com
-add address-list=$AddressList forward-to=$ForwardTo comment=adobe type=FWD name=wwis-dubc1-vip111.adobe.com
-add address-list=$AddressList forward-to=$ForwardTo comment=adobe type=FWD name=wwis-dubc1-vip112.adobe.com
-add address-list=$AddressList forward-to=$ForwardTo comment=adobe type=FWD name=wwis-dubc1-vip113.adobe.com
-add address-list=$AddressList forward-to=$ForwardTo comment=adobe type=FWD name=wwis-dubc1-vip114.adobe.com
-add address-list=$AddressList forward-to=$ForwardTo comment=adobe type=FWD name=wwis-dubc1-vip115.adobe.com
-add address-list=$AddressList forward-to=$ForwardTo comment=adobe type=FWD name=wwis-dubc1-vip116.adobe.com
-add address-list=$AddressList forward-to=$ForwardTo comment=adobe type=FWD name=wwis-dubc1-vip117.adobe.com
-add address-list=$AddressList forward-to=$ForwardTo comment=adobe type=FWD name=wwis-dubc1-vip118.adobe.com
-add address-list=$AddressList forward-to=$ForwardTo comment=adobe type=FWD name=wwis-dubc1-vip119.adobe.com
-add address-list=$AddressList forward-to=$ForwardTo comment=adobe type=FWD name=wwis-dubc1-vip120.adobe.com
-add address-list=$AddressList forward-to=$ForwardTo comment=adobe type=FWD name=wwis-dubc1-vip121.adobe.com
-add address-list=$AddressList forward-to=$ForwardTo comment=adobe type=FWD name=wwis-dubc1-vip122.adobe.com
-add address-list=$AddressList forward-to=$ForwardTo comment=adobe type=FWD name=wwis-dubc1-vip123.adobe.com
-add address-list=$AddressList forward-to=$ForwardTo comment=adobe type=FWD name=wwis-dubc1-vip124.adobe.com
-add address-list=$AddressList forward-to=$ForwardTo comment=adobe type=FWD name=wwis-dubc1-vip125.adobe.com
-add address-list=$AddressList forward-to=$ForwardTo comment=adobe type=FWD name=wwis-dubc1-vip30.adobe.com
-add address-list=$AddressList forward-to=$ForwardTo comment=adobe type=FWD name=wwis-dubc1-vip31.adobe.com
-add address-list=$AddressList forward-to=$ForwardTo comment=adobe type=FWD name=wwis-dubc1-vip32.adobe.com
-add address-list=$AddressList forward-to=$ForwardTo comment=adobe type=FWD name=wwis-dubc1-vip33.adobe.com
-add address-list=$AddressList forward-to=$ForwardTo comment=adobe type=FWD name=wwis-dubc1-vip34.adobe.com
-add address-list=$AddressList forward-to=$ForwardTo comment=adobe type=FWD name=wwis-dubc1-vip35.adobe.com
-add address-list=$AddressList forward-to=$ForwardTo comment=adobe type=FWD name=wwis-dubc1-vip36.adobe.com
-add address-list=$AddressList forward-to=$ForwardTo comment=adobe type=FWD name=wwis-dubc1-vip37.adobe.com
-add address-list=$AddressList forward-to=$ForwardTo comment=adobe type=FWD name=wwis-dubc1-vip38.adobe.com
-add address-list=$AddressList forward-to=$ForwardTo comment=adobe type=FWD name=wwis-dubc1-vip39.adobe.com
-add address-list=$AddressList forward-to=$ForwardTo comment=adobe type=FWD name=wwis-dubc1-vip40.adobe.com
-add address-list=$AddressList forward-to=$ForwardTo comment=adobe type=FWD name=wwis-dubc1-vip41.adobe.com
-add address-list=$AddressList forward-to=$ForwardTo comment=adobe type=FWD name=wwis-dubc1-vip42.adobe.com
-add address-list=$AddressList forward-to=$ForwardTo comment=adobe type=FWD name=wwis-dubc1-vip43.adobe.com
-add address-list=$AddressList forward-to=$ForwardTo comment=adobe type=FWD name=wwis-dubc1-vip44.adobe.com
-add address-list=$AddressList forward-to=$ForwardTo comment=adobe type=FWD name=wwis-dubc1-vip45.adobe.com
-add address-list=$AddressList forward-to=$ForwardTo comment=adobe type=FWD name=wwis-dubc1-vip46.adobe.com
-add address-list=$AddressList forward-to=$ForwardTo comment=adobe type=FWD name=wwis-dubc1-vip47.adobe.com
-add address-list=$AddressList forward-to=$ForwardTo comment=adobe type=FWD name=wwis-dubc1-vip48.adobe.com
-add address-list=$AddressList forward-to=$ForwardTo comment=adobe type=FWD name=wwis-dubc1-vip49.adobe.com
-add address-list=$AddressList forward-to=$ForwardTo comment=adobe type=FWD name=wwis-dubc1-vip50.adobe.com
-add address-list=$AddressList forward-to=$ForwardTo comment=adobe type=FWD name=wwis-dubc1-vip51.adobe.com
-add address-list=$AddressList forward-to=$ForwardTo comment=adobe type=FWD name=wwis-dubc1-vip52.adobe.com
-add address-list=$AddressList forward-to=$ForwardTo comment=adobe type=FWD name=wwis-dubc1-vip53.adobe.com
-add address-list=$AddressList forward-to=$ForwardTo comment=adobe type=FWD name=wwis-dubc1-vip54.adobe.com
-add address-list=$AddressList forward-to=$ForwardTo comment=adobe type=FWD name=wwis-dubc1-vip55.adobe.com
-add address-list=$AddressList forward-to=$ForwardTo comment=adobe type=FWD name=wwis-dubc1-vip56.adobe.com
-add address-list=$AddressList forward-to=$ForwardTo comment=adobe type=FWD name=wwis-dubc1-vip57.adobe.com
-add address-list=$AddressList forward-to=$ForwardTo comment=adobe type=FWD name=wwis-dubc1-vip58.adobe.com
-add address-list=$AddressList forward-to=$ForwardTo comment=adobe type=FWD name=wwis-dubc1-vip59.adobe.com
-add address-list=$AddressList forward-to=$ForwardTo comment=adobe type=FWD name=wwis-dubc1-vip60.adobe.com
-add address-list=$AddressList forward-to=$ForwardTo comment=adobe type=FWD name=wwis-dubc1-vip61.adobe.com
-add address-list=$AddressList forward-to=$ForwardTo comment=adobe type=FWD name=wwis-dubc1-vip62.adobe.com
-add address-list=$AddressList forward-to=$ForwardTo comment=adobe type=FWD name=wwis-dubc1-vip63.adobe.com
-add address-list=$AddressList forward-to=$ForwardTo comment=adobe type=FWD name=wwis-dubc1-vip64.adobe.com
-add address-list=$AddressList forward-to=$ForwardTo comment=adobe type=FWD name=wwis-dubc1-vip65.adobe.com
-add address-list=$AddressList forward-to=$ForwardTo comment=adobe type=FWD name=wwis-dubc1-vip66.adobe.com
-add address-list=$AddressList forward-to=$ForwardTo comment=adobe type=FWD name=wwis-dubc1-vip67.adobe.com
-add address-list=$AddressList forward-to=$ForwardTo comment=adobe type=FWD name=wwis-dubc1-vip68.adobe.com
-add address-list=$AddressList forward-to=$ForwardTo comment=adobe type=FWD name=wwis-dubc1-vip69.adobe.com
-add address-list=$AddressList forward-to=$ForwardTo comment=adobe type=FWD name=wwis-dubc1-vip70.adobe.com
-add address-list=$AddressList forward-to=$ForwardTo comment=adobe type=FWD name=wwis-dubc1-vip71.adobe.com
-add address-list=$AddressList forward-to=$ForwardTo comment=adobe type=FWD name=wwis-dubc1-vip72.adobe.com
-add address-list=$AddressList forward-to=$ForwardTo comment=adobe type=FWD name=wwis-dubc1-vip73.adobe.com
-add address-list=$AddressList forward-to=$ForwardTo comment=adobe type=FWD name=wwis-dubc1-vip74.adobe.com
-add address-list=$AddressList forward-to=$ForwardTo comment=adobe type=FWD name=wwis-dubc1-vip75.adobe.com
-add address-list=$AddressList forward-to=$ForwardTo comment=adobe type=FWD name=wwis-dubc1-vip76.adobe.com
-add address-list=$AddressList forward-to=$ForwardTo comment=adobe type=FWD name=wwis-dubc1-vip77.adobe.com
-add address-list=$AddressList forward-to=$ForwardTo comment=adobe type=FWD name=wwis-dubc1-vip78.adobe.com
-add address-list=$AddressList forward-to=$ForwardTo comment=adobe type=FWD name=wwis-dubc1-vip79.adobe.com
-add address-list=$AddressList forward-to=$ForwardTo comment=adobe type=FWD name=wwis-dubc1-vip80.adobe.com
-add address-list=$AddressList forward-to=$ForwardTo comment=adobe type=FWD name=wwis-dubc1-vip81.adobe.com
-add address-list=$AddressList forward-to=$ForwardTo comment=adobe type=FWD name=wwis-dubc1-vip82.adobe.com
-add address-list=$AddressList forward-to=$ForwardTo comment=adobe type=FWD name=wwis-dubc1-vip83.adobe.com
-add address-list=$AddressList forward-to=$ForwardTo comment=adobe type=FWD name=wwis-dubc1-vip84.adobe.com
-add address-list=$AddressList forward-to=$ForwardTo comment=adobe type=FWD name=wwis-dubc1-vip85.adobe.com
-add address-list=$AddressList forward-to=$ForwardTo comment=adobe type=FWD name=wwis-dubc1-vip86.adobe.com
-add address-list=$AddressList forward-to=$ForwardTo comment=adobe type=FWD name=wwis-dubc1-vip87.adobe.com
-add address-list=$AddressList forward-to=$ForwardTo comment=adobe type=FWD name=wwis-dubc1-vip88.adobe.com
-add address-list=$AddressList forward-to=$ForwardTo comment=adobe type=FWD name=wwis-dubc1-vip89.adobe.com
-add address-list=$AddressList forward-to=$ForwardTo comment=adobe type=FWD name=wwis-dubc1-vip90.adobe.com
-add address-list=$AddressList forward-to=$ForwardTo comment=adobe type=FWD name=wwis-dubc1-vip91.adobe.com
-add address-list=$AddressList forward-to=$ForwardTo comment=adobe type=FWD name=wwis-dubc1-vip92.adobe.com
-add address-list=$AddressList forward-to=$ForwardTo comment=adobe type=FWD name=wwis-dubc1-vip93.adobe.com
-add address-list=$AddressList forward-to=$ForwardTo comment=adobe type=FWD name=wwis-dubc1-vip94.adobe.com
-add address-list=$AddressList forward-to=$ForwardTo comment=adobe type=FWD name=wwis-dubc1-vip95.adobe.com
-add address-list=$AddressList forward-to=$ForwardTo comment=adobe type=FWD name=wwis-dubc1-vip96.adobe.com
-add address-list=$AddressList forward-to=$ForwardTo comment=adobe type=FWD name=wwis-dubc1-vip97.adobe.com
-add address-list=$AddressList forward-to=$ForwardTo comment=adobe type=FWD name=wwis-dubc1-vip98.adobe.com
-add address-list=$AddressList forward-to=$ForwardTo comment=adobe type=FWD name=wwis-dubc1-vip99.adobe.com
-add address-list=$AddressList forward-to=$ForwardTo comment=adobe match-subdomain=yes type=FWD name=10xfotolia.com
-add address-list=$AddressList forward-to=$ForwardTo comment=adobe match-subdomain=yes type=FWD name=2o7.net
-add address-list=$AddressList forward-to=$ForwardTo comment=adobe match-subdomain=yes type=FWD name=acrobat.com
-add address-list=$AddressList forward-to=$ForwardTo comment=adobe match-subdomain=yes type=FWD name=adbecrsl.com
-add address-list=$AddressList forward-to=$ForwardTo comment=adobe match-subdomain=yes type=FWD name=adobe-aemassets-value.com
-add address-list=$AddressList forward-to=$ForwardTo comment=adobe match-subdomain=yes type=FWD name=adobe-audience-finder.com
-add address-list=$AddressList forward-to=$ForwardTo comment=adobe match-subdomain=yes type=FWD name=adobe-video-partner-finder.com
-add address-list=$AddressList forward-to=$ForwardTo comment=adobe match-subdomain=yes type=FWD name=adobe.com
-add address-list=$AddressList forward-to=$ForwardTo comment=adobe match-subdomain=yes type=FWD name=adobe.io
-add address-list=$AddressList forward-to=$ForwardTo comment=adobe match-subdomain=yes type=FWD name=adobeaemcloud.com
-add address-list=$AddressList forward-to=$ForwardTo comment=adobe match-subdomain=yes type=FWD name=adobeaemcloud.net
-add address-list=$AddressList forward-to=$ForwardTo comment=adobe match-subdomain=yes type=FWD name=adobeawards.com
-add address-list=$AddressList forward-to=$ForwardTo comment=adobe match-subdomain=yes type=FWD name=adobecc.com
-add address-list=$AddressList forward-to=$ForwardTo comment=adobe match-subdomain=yes type=FWD name=adobecce.com
-add address-list=$AddressList forward-to=$ForwardTo comment=adobe match-subdomain=yes type=FWD name=adobeccstatic.com
-add address-list=$AddressList forward-to=$ForwardTo comment=adobe match-subdomain=yes type=FWD name=adobecontent.io
-add address-list=$AddressList forward-to=$ForwardTo comment=adobe match-subdomain=yes type=FWD name=adobecreativityawards.com
-add address-list=$AddressList forward-to=$ForwardTo comment=adobe match-subdomain=yes type=FWD name=adobedc.net
-add address-list=$AddressList forward-to=$ForwardTo comment=adobe match-subdomain=yes type=FWD name=adobedemo.com
-add address-list=$AddressList forward-to=$ForwardTo comment=adobe match-subdomain=yes type=FWD name=adobedtm.com
-add address-list=$AddressList forward-to=$ForwardTo comment=adobe match-subdomain=yes type=FWD name=adobeexchange.com
-add address-list=$AddressList forward-to=$ForwardTo comment=adobe match-subdomain=yes type=FWD name=adobeexperienceawards.com
-add address-list=$AddressList forward-to=$ForwardTo comment=adobe match-subdomain=yes type=FWD name=adobegov.com
-add address-list=$AddressList forward-to=$ForwardTo comment=adobe match-subdomain=yes type=FWD name=adobehiddentreasures.com
-add address-list=$AddressList forward-to=$ForwardTo comment=adobe match-subdomain=yes type=FWD name=adobejanus.com
-add address-list=$AddressList forward-to=$ForwardTo comment=adobe match-subdomain=yes type=FWD name=adobeku.com
-add address-list=$AddressList forward-to=$ForwardTo comment=adobe match-subdomain=yes type=FWD name=adobelanding.com
-add address-list=$AddressList forward-to=$ForwardTo comment=adobe match-subdomain=yes type=FWD name=adobelogin.com
-add address-list=$AddressList forward-to=$ForwardTo comment=adobe match-subdomain=yes type=FWD name=adobeoobe.com
-add address-list=$AddressList forward-to=$ForwardTo comment=adobe match-subdomain=yes type=FWD name=adobeplatinumclub.com
-add address-list=$AddressList forward-to=$ForwardTo comment=adobe match-subdomain=yes type=FWD name=adobeprojectm.com
-add address-list=$AddressList forward-to=$ForwardTo comment=adobe match-subdomain=yes type=FWD name=adobesc.com
-add address-list=$AddressList forward-to=$ForwardTo comment=adobe match-subdomain=yes type=FWD name=adobesign.com
-add address-list=$AddressList forward-to=$ForwardTo comment=adobe match-subdomain=yes type=FWD name=adobesigncdn.com
-add address-list=$AddressList forward-to=$ForwardTo comment=adobe match-subdomain=yes type=FWD name=adobespark.com
-add address-list=$AddressList forward-to=$ForwardTo comment=adobe match-subdomain=yes type=FWD name=adobess.com
-add address-list=$AddressList forward-to=$ForwardTo comment=adobe match-subdomain=yes type=FWD name=adobestats.io
-add address-list=$AddressList forward-to=$ForwardTo comment=adobe match-subdomain=yes type=FWD name=adobestock.com
-add address-list=$AddressList forward-to=$ForwardTo comment=adobe match-subdomain=yes type=FWD name=adobetag.com
-add address-list=$AddressList forward-to=$ForwardTo comment=adobe match-subdomain=yes type=FWD name=adobetarget.com
-add address-list=$AddressList forward-to=$ForwardTo comment=adobe match-subdomain=yes type=FWD name=adobetcstrialdvd.com
-add address-list=$AddressList forward-to=$ForwardTo comment=adobe match-subdomain=yes type=FWD name=adobetechcomm.com
-add address-list=$AddressList forward-to=$ForwardTo comment=adobe match-subdomain=yes type=FWD name=adobetechcommcallback.com
-add address-list=$AddressList forward-to=$ForwardTo comment=adobe match-subdomain=yes type=FWD name=adobetechcommdemo.com
-add address-list=$AddressList forward-to=$ForwardTo comment=adobe match-subdomain=yes type=FWD name=adobexdplatform.com
-add address-list=$AddressList forward-to=$ForwardTo comment=adobe match-subdomain=yes type=FWD name=advertising.adobe.com
-add address-list=$AddressList forward-to=$ForwardTo comment=adobe match-subdomain=yes type=FWD name=assetsadobe.com
-add address-list=$AddressList forward-to=$ForwardTo comment=adobe match-subdomain=yes type=FWD name=authorxml.com
-add address-list=$AddressList forward-to=$ForwardTo comment=adobe match-subdomain=yes type=FWD name=behance.net
-add address-list=$AddressList forward-to=$ForwardTo comment=adobe match-subdomain=yes type=FWD name=bluefootcms.com
-add address-list=$AddressList forward-to=$ForwardTo comment=adobe match-subdomain=yes type=FWD name=businesscatalyst.com
-add address-list=$AddressList forward-to=$ForwardTo comment=adobe match-subdomain=yes type=FWD name=ccnsite.com
-add address-list=$AddressList forward-to=$ForwardTo comment=adobe match-subdomain=yes type=FWD name=ccpsx.com
-add address-list=$AddressList forward-to=$ForwardTo comment=adobe match-subdomain=yes type=FWD name=compresspdf.new
-add address-list=$AddressList forward-to=$ForwardTo comment=adobe match-subdomain=yes type=FWD name=cotolia.com
-add address-list=$AddressList forward-to=$ForwardTo comment=adobe match-subdomain=yes type=FWD name=creativecloud.com
-add address-list=$AddressList forward-to=$ForwardTo comment=adobe match-subdomain=yes type=FWD name=creativesdk.com
-add address-list=$AddressList forward-to=$ForwardTo comment=adobe match-subdomain=yes type=FWD name=demdex.net
-add address-list=$AddressList forward-to=$ForwardTo comment=adobe match-subdomain=yes type=FWD name=developria.com
-add address-list=$AddressList forward-to=$ForwardTo comment=adobe match-subdomain=yes type=FWD name=dollarfotoclub.com
-add address-list=$AddressList forward-to=$ForwardTo comment=adobe match-subdomain=yes type=FWD name=dollarphotoclub.com
-add address-list=$AddressList forward-to=$ForwardTo comment=adobe match-subdomain=yes type=FWD name=dollarphotosclub.com
-add address-list=$AddressList forward-to=$ForwardTo comment=adobe match-subdomain=yes type=FWD name=douwriteright.com
-add address-list=$AddressList forward-to=$ForwardTo comment=adobe match-subdomain=yes type=FWD name=echocdn.com
-add address-list=$AddressList forward-to=$ForwardTo comment=adobe match-subdomain=yes type=FWD name=echosign.com
-add address-list=$AddressList forward-to=$ForwardTo comment=adobe match-subdomain=yes type=FWD name=edgefonts.net
-add address-list=$AddressList forward-to=$ForwardTo comment=adobe match-subdomain=yes type=FWD name=enablementadobe.com
-add address-list=$AddressList forward-to=$ForwardTo comment=adobe match-subdomain=yes type=FWD name=ffotolia.com
-add address-list=$AddressList forward-to=$ForwardTo comment=adobe match-subdomain=yes type=FWD name=fiotolia.com
-add address-list=$AddressList forward-to=$ForwardTo comment=adobe match-subdomain=yes type=FWD name=foftolia.com
-add address-list=$AddressList forward-to=$ForwardTo comment=adobe match-subdomain=yes type=FWD name=fonolia.com
-add address-list=$AddressList forward-to=$ForwardTo comment=adobe match-subdomain=yes type=FWD name=fotiolia.com
-add address-list=$AddressList forward-to=$ForwardTo comment=adobe match-subdomain=yes type=FWD name=fotoiia.com
-add address-list=$AddressList forward-to=$ForwardTo comment=adobe match-subdomain=yes type=FWD name=fotolia-noticias.com
-add address-list=$AddressList forward-to=$ForwardTo comment=adobe match-subdomain=yes type=FWD name=fotolia.cc
-add address-list=$AddressList forward-to=$ForwardTo comment=adobe match-subdomain=yes type=FWD name=fotolia.com
-add address-list=$AddressList forward-to=$ForwardTo comment=adobe match-subdomain=yes type=FWD name=fotolia.tv
-add address-list=$AddressList forward-to=$ForwardTo comment=adobe match-subdomain=yes type=FWD name=fotolja.com
-add address-list=$AddressList forward-to=$ForwardTo comment=adobe match-subdomain=yes type=FWD name=fptolia.com
-add address-list=$AddressList forward-to=$ForwardTo comment=adobe match-subdomain=yes type=FWD name=ftcdn.net
-add address-list=$AddressList forward-to=$ForwardTo comment=adobe match-subdomain=yes type=FWD name=gfotolia.com
-add address-list=$AddressList forward-to=$ForwardTo comment=adobe match-subdomain=yes type=FWD name=gostorego.com
-add address-list=$AddressList forward-to=$ForwardTo comment=adobe match-subdomain=yes type=FWD name=imagineecommerce.com
-add address-list=$AddressList forward-to=$ForwardTo comment=adobe match-subdomain=yes type=FWD name=macromedia.com
-add address-list=$AddressList forward-to=$ForwardTo comment=adobe match-subdomain=yes type=FWD name=mageconf.com
-add address-list=$AddressList forward-to=$ForwardTo comment=adobe match-subdomain=yes type=FWD name=magento.com
-add address-list=$AddressList forward-to=$ForwardTo comment=adobe match-subdomain=yes type=FWD name=magento.net
-add address-list=$AddressList forward-to=$ForwardTo comment=adobe match-subdomain=yes type=FWD name=magentocommerce.com
-add address-list=$AddressList forward-to=$ForwardTo comment=adobe match-subdomain=yes type=FWD name=magentoliveconference.com
-add address-list=$AddressList forward-to=$ForwardTo comment=adobe match-subdomain=yes type=FWD name=magentomobile.com
-add address-list=$AddressList forward-to=$ForwardTo comment=adobe match-subdomain=yes type=FWD name=marketing-cloud.com
-add address-list=$AddressList forward-to=$ForwardTo comment=adobe match-subdomain=yes type=FWD name=marketing-nirvana.com
-add address-list=$AddressList forward-to=$ForwardTo comment=adobe match-subdomain=yes type=FWD name=marketo.com
-add address-list=$AddressList forward-to=$ForwardTo comment=adobe match-subdomain=yes type=FWD name=marketo.net
-add address-list=$AddressList forward-to=$ForwardTo comment=adobe match-subdomain=yes type=FWD name=marketo.tv
-add address-list=$AddressList forward-to=$ForwardTo comment=adobe match-subdomain=yes type=FWD name=marketodesigner.com
-add address-list=$AddressList forward-to=$ForwardTo comment=adobe match-subdomain=yes type=FWD name=marketolive.com
-add address-list=$AddressList forward-to=$ForwardTo comment=adobe match-subdomain=yes type=FWD name=mktdns.com
-add address-list=$AddressList forward-to=$ForwardTo comment=adobe match-subdomain=yes type=FWD name=mkto-c0100.com
-add address-list=$AddressList forward-to=$ForwardTo comment=adobe match-subdomain=yes type=FWD name=mktorest.com
-add address-list=$AddressList forward-to=$ForwardTo comment=adobe match-subdomain=yes type=FWD name=mktroute.com
-add address-list=$AddressList forward-to=$ForwardTo comment=adobe match-subdomain=yes type=FWD name=mobilemarketo.com
-add address-list=$AddressList forward-to=$ForwardTo comment=adobe match-subdomain=yes type=FWD name=motolia.com
-add address-list=$AddressList forward-to=$ForwardTo comment=adobe match-subdomain=yes type=FWD name=omniture.com
-add address-list=$AddressList forward-to=$ForwardTo comment=adobe match-subdomain=yes type=FWD name=omtrdc.net
-add address-list=$AddressList forward-to=$ForwardTo comment=adobe match-subdomain=yes type=FWD name=pdf.new
-add address-list=$AddressList forward-to=$ForwardTo comment=adobe match-subdomain=yes type=FWD name=photolia.net
-add address-list=$AddressList forward-to=$ForwardTo comment=adobe match-subdomain=yes type=FWD name=photoshop.com
-add address-list=$AddressList forward-to=$ForwardTo comment=adobe match-subdomain=yes type=FWD name=placesdocs.com
-add address-list=$AddressList forward-to=$ForwardTo comment=adobe match-subdomain=yes type=FWD name=revenue-performance-management.com
-add address-list=$AddressList forward-to=$ForwardTo comment=adobe match-subdomain=yes type=FWD name=s2stagehance.com
-add address-list=$AddressList forward-to=$ForwardTo comment=adobe match-subdomain=yes type=FWD name=scene7.com
-add address-list=$AddressList forward-to=$ForwardTo comment=adobe match-subdomain=yes type=FWD name=sign.new
-add address-list=$AddressList forward-to=$ForwardTo comment=adobe match-subdomain=yes type=FWD name=sundanceignite2016.com
-add address-list=$AddressList forward-to=$ForwardTo comment=adobe match-subdomain=yes type=FWD name=tenbyfotolia.com
-add address-list=$AddressList forward-to=$ForwardTo comment=adobe match-subdomain=yes type=FWD name=toutapp.com
-add address-list=$AddressList forward-to=$ForwardTo comment=adobe match-subdomain=yes type=FWD name=tubemogul.com
-add address-list=$AddressList forward-to=$ForwardTo comment=adobe match-subdomain=yes type=FWD name=typekit.com
-add address-list=$AddressList forward-to=$ForwardTo comment=adobe match-subdomain=yes type=FWD name=typekit.net
-add address-list=$AddressList forward-to=$ForwardTo comment=adobe match-subdomain=yes type=FWD name=votolia.com
-add address-list=$AddressList forward-to=$ForwardTo comment=adobe match-subdomain=yes type=FWD name=worldsecureemail.com
-add address-list=$AddressList forward-to=$ForwardTo comment=adobe match-subdomain=yes type=FWD name=worldsecuresystems.com
+:if ([:len [/ip dns static find name="3dns-1.adobe.com" comment="adobe"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="adobe" type=FWD name="3dns-1.adobe.com" }
+:if ([:len [/ip dns static find name="3dns-2.adobe.com" comment="adobe"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="adobe" type=FWD name="3dns-2.adobe.com" }
+:if ([:len [/ip dns static find name="3dns-3.adobe.com" comment="adobe"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="adobe" type=FWD name="3dns-3.adobe.com" }
+:if ([:len [/ip dns static find name="3dns-4.adobe.com" comment="adobe"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="adobe" type=FWD name="3dns-4.adobe.com" }
+:if ([:len [/ip dns static find name="3dns-5.adobe.com" comment="adobe"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="adobe" type=FWD name="3dns-5.adobe.com" }
+:if ([:len [/ip dns static find name="3dns.adobe.com" comment="adobe"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="adobe" type=FWD name="3dns.adobe.com" }
+:if ([:len [/ip dns static find name="activate-sea.adobe.com" comment="adobe"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="adobe" type=FWD name="activate-sea.adobe.com" }
+:if ([:len [/ip dns static find name="activate-sjc0.adobe.com" comment="adobe"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="adobe" type=FWD name="activate-sjc0.adobe.com" }
+:if ([:len [/ip dns static find name="activate.adobe.com" comment="adobe"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="adobe" type=FWD name="activate.adobe.com" }
+:if ([:len [/ip dns static find name="activate.wip1.adobe.com" comment="adobe"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="adobe" type=FWD name="activate.wip1.adobe.com" }
+:if ([:len [/ip dns static find name="activate.wip2.adobe.com" comment="adobe"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="adobe" type=FWD name="activate.wip2.adobe.com" }
+:if ([:len [/ip dns static find name="activate.wip3.adobe.com" comment="adobe"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="adobe" type=FWD name="activate.wip3.adobe.com" }
+:if ([:len [/ip dns static find name="activate.wip4.adobe.com" comment="adobe"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="adobe" type=FWD name="activate.wip4.adobe.com" }
+:if ([:len [/ip dns static find name="adobe-dns-1.adobe.com" comment="adobe"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="adobe" type=FWD name="adobe-dns-1.adobe.com" }
+:if ([:len [/ip dns static find name="adobe-dns-2.adobe.com" comment="adobe"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="adobe" type=FWD name="adobe-dns-2.adobe.com" }
+:if ([:len [/ip dns static find name="adobe-dns-3.adobe.com" comment="adobe"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="adobe" type=FWD name="adobe-dns-3.adobe.com" }
+:if ([:len [/ip dns static find name="adobe-dns-4.adobe.com" comment="adobe"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="adobe" type=FWD name="adobe-dns-4.adobe.com" }
+:if ([:len [/ip dns static find name="adobe-dns.adobe.com" comment="adobe"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="adobe" type=FWD name="adobe-dns.adobe.com" }
+:if ([:len [/ip dns static find name="adobeereg.com" comment="adobe"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="adobe" type=FWD name="adobeereg.com" }
+:if ([:len [/ip dns static find name="crl.versign.net" comment="adobe"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="adobe" type=FWD name="crl.versign.net" }
+:if ([:len [/ip dns static find name="ereg.adobe.com" comment="adobe"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="adobe" type=FWD name="ereg.adobe.com" }
+:if ([:len [/ip dns static find name="ereg.wip.adobe.com" comment="adobe"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="adobe" type=FWD name="ereg.wip.adobe.com" }
+:if ([:len [/ip dns static find name="ereg.wip1.adobe.com" comment="adobe"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="adobe" type=FWD name="ereg.wip1.adobe.com" }
+:if ([:len [/ip dns static find name="ereg.wip2.adobe.com" comment="adobe"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="adobe" type=FWD name="ereg.wip2.adobe.com" }
+:if ([:len [/ip dns static find name="ereg.wip3.adobe.com" comment="adobe"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="adobe" type=FWD name="ereg.wip3.adobe.com" }
+:if ([:len [/ip dns static find name="ereg.wip4.adobe.com" comment="adobe"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="adobe" type=FWD name="ereg.wip4.adobe.com" }
+:if ([:len [/ip dns static find name="hl2rcv.adobe.com" comment="adobe"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="adobe" type=FWD name="hl2rcv.adobe.com" }
+:if ([:len [/ip dns static find name="hlrcv.stage.adobe.com" comment="adobe"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="adobe" type=FWD name="hlrcv.stage.adobe.com" }
+:if ([:len [/ip dns static find name="lm.licenses.adobe.com" comment="adobe"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="adobe" type=FWD name="lm.licenses.adobe.com" }
+:if ([:len [/ip dns static find name="lmlicenses.wip4.adobe.com" comment="adobe"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="adobe" type=FWD name="lmlicenses.wip4.adobe.com" }
+:if ([:len [/ip dns static find name="na1r.services.adobe.com" comment="adobe"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="adobe" type=FWD name="na1r.services.adobe.com" }
+:if ([:len [/ip dns static find name="ood.opsource.net" comment="adobe"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="adobe" type=FWD name="ood.opsource.net" }
+:if ([:len [/ip dns static find name="practivate.adobe" comment="adobe"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="adobe" type=FWD name="practivate.adobe" }
+:if ([:len [/ip dns static find name="practivate.adobe.com" comment="adobe"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="adobe" type=FWD name="practivate.adobe.com" }
+:if ([:len [/ip dns static find name="practivate.adobe.ipp" comment="adobe"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="adobe" type=FWD name="practivate.adobe.ipp" }
+:if ([:len [/ip dns static find name="practivate.adobe.newoa" comment="adobe"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="adobe" type=FWD name="practivate.adobe.newoa" }
+:if ([:len [/ip dns static find name="practivate.adobe.ntp" comment="adobe"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="adobe" type=FWD name="practivate.adobe.ntp" }
+:if ([:len [/ip dns static find name="wip.adobe.com" comment="adobe"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="adobe" type=FWD name="wip.adobe.com" }
+:if ([:len [/ip dns static find name="wip1.adobe.com" comment="adobe"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="adobe" type=FWD name="wip1.adobe.com" }
+:if ([:len [/ip dns static find name="wip2.adobe.com" comment="adobe"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="adobe" type=FWD name="wip2.adobe.com" }
+:if ([:len [/ip dns static find name="wip3.adobe.com" comment="adobe"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="adobe" type=FWD name="wip3.adobe.com" }
+:if ([:len [/ip dns static find name="wip4.adobe.com" comment="adobe"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="adobe" type=FWD name="wip4.adobe.com" }
+:if ([:len [/ip dns static find name="wwis-dubc1-vip100.adobe.com" comment="adobe"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="adobe" type=FWD name="wwis-dubc1-vip100.adobe.com" }
+:if ([:len [/ip dns static find name="wwis-dubc1-vip101.adobe.com" comment="adobe"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="adobe" type=FWD name="wwis-dubc1-vip101.adobe.com" }
+:if ([:len [/ip dns static find name="wwis-dubc1-vip102.adobe.com" comment="adobe"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="adobe" type=FWD name="wwis-dubc1-vip102.adobe.com" }
+:if ([:len [/ip dns static find name="wwis-dubc1-vip103.adobe.com" comment="adobe"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="adobe" type=FWD name="wwis-dubc1-vip103.adobe.com" }
+:if ([:len [/ip dns static find name="wwis-dubc1-vip104.adobe.com" comment="adobe"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="adobe" type=FWD name="wwis-dubc1-vip104.adobe.com" }
+:if ([:len [/ip dns static find name="wwis-dubc1-vip105.adobe.com" comment="adobe"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="adobe" type=FWD name="wwis-dubc1-vip105.adobe.com" }
+:if ([:len [/ip dns static find name="wwis-dubc1-vip106.adobe.com" comment="adobe"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="adobe" type=FWD name="wwis-dubc1-vip106.adobe.com" }
+:if ([:len [/ip dns static find name="wwis-dubc1-vip107.adobe.com" comment="adobe"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="adobe" type=FWD name="wwis-dubc1-vip107.adobe.com" }
+:if ([:len [/ip dns static find name="wwis-dubc1-vip108.adobe.com" comment="adobe"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="adobe" type=FWD name="wwis-dubc1-vip108.adobe.com" }
+:if ([:len [/ip dns static find name="wwis-dubc1-vip109.adobe.com" comment="adobe"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="adobe" type=FWD name="wwis-dubc1-vip109.adobe.com" }
+:if ([:len [/ip dns static find name="wwis-dubc1-vip110.adobe.com" comment="adobe"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="adobe" type=FWD name="wwis-dubc1-vip110.adobe.com" }
+:if ([:len [/ip dns static find name="wwis-dubc1-vip111.adobe.com" comment="adobe"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="adobe" type=FWD name="wwis-dubc1-vip111.adobe.com" }
+:if ([:len [/ip dns static find name="wwis-dubc1-vip112.adobe.com" comment="adobe"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="adobe" type=FWD name="wwis-dubc1-vip112.adobe.com" }
+:if ([:len [/ip dns static find name="wwis-dubc1-vip113.adobe.com" comment="adobe"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="adobe" type=FWD name="wwis-dubc1-vip113.adobe.com" }
+:if ([:len [/ip dns static find name="wwis-dubc1-vip114.adobe.com" comment="adobe"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="adobe" type=FWD name="wwis-dubc1-vip114.adobe.com" }
+:if ([:len [/ip dns static find name="wwis-dubc1-vip115.adobe.com" comment="adobe"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="adobe" type=FWD name="wwis-dubc1-vip115.adobe.com" }
+:if ([:len [/ip dns static find name="wwis-dubc1-vip116.adobe.com" comment="adobe"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="adobe" type=FWD name="wwis-dubc1-vip116.adobe.com" }
+:if ([:len [/ip dns static find name="wwis-dubc1-vip117.adobe.com" comment="adobe"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="adobe" type=FWD name="wwis-dubc1-vip117.adobe.com" }
+:if ([:len [/ip dns static find name="wwis-dubc1-vip118.adobe.com" comment="adobe"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="adobe" type=FWD name="wwis-dubc1-vip118.adobe.com" }
+:if ([:len [/ip dns static find name="wwis-dubc1-vip119.adobe.com" comment="adobe"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="adobe" type=FWD name="wwis-dubc1-vip119.adobe.com" }
+:if ([:len [/ip dns static find name="wwis-dubc1-vip120.adobe.com" comment="adobe"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="adobe" type=FWD name="wwis-dubc1-vip120.adobe.com" }
+:if ([:len [/ip dns static find name="wwis-dubc1-vip121.adobe.com" comment="adobe"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="adobe" type=FWD name="wwis-dubc1-vip121.adobe.com" }
+:if ([:len [/ip dns static find name="wwis-dubc1-vip122.adobe.com" comment="adobe"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="adobe" type=FWD name="wwis-dubc1-vip122.adobe.com" }
+:if ([:len [/ip dns static find name="wwis-dubc1-vip123.adobe.com" comment="adobe"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="adobe" type=FWD name="wwis-dubc1-vip123.adobe.com" }
+:if ([:len [/ip dns static find name="wwis-dubc1-vip124.adobe.com" comment="adobe"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="adobe" type=FWD name="wwis-dubc1-vip124.adobe.com" }
+:if ([:len [/ip dns static find name="wwis-dubc1-vip125.adobe.com" comment="adobe"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="adobe" type=FWD name="wwis-dubc1-vip125.adobe.com" }
+:if ([:len [/ip dns static find name="wwis-dubc1-vip30.adobe.com" comment="adobe"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="adobe" type=FWD name="wwis-dubc1-vip30.adobe.com" }
+:if ([:len [/ip dns static find name="wwis-dubc1-vip31.adobe.com" comment="adobe"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="adobe" type=FWD name="wwis-dubc1-vip31.adobe.com" }
+:if ([:len [/ip dns static find name="wwis-dubc1-vip32.adobe.com" comment="adobe"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="adobe" type=FWD name="wwis-dubc1-vip32.adobe.com" }
+:if ([:len [/ip dns static find name="wwis-dubc1-vip33.adobe.com" comment="adobe"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="adobe" type=FWD name="wwis-dubc1-vip33.adobe.com" }
+:if ([:len [/ip dns static find name="wwis-dubc1-vip34.adobe.com" comment="adobe"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="adobe" type=FWD name="wwis-dubc1-vip34.adobe.com" }
+:if ([:len [/ip dns static find name="wwis-dubc1-vip35.adobe.com" comment="adobe"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="adobe" type=FWD name="wwis-dubc1-vip35.adobe.com" }
+:if ([:len [/ip dns static find name="wwis-dubc1-vip36.adobe.com" comment="adobe"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="adobe" type=FWD name="wwis-dubc1-vip36.adobe.com" }
+:if ([:len [/ip dns static find name="wwis-dubc1-vip37.adobe.com" comment="adobe"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="adobe" type=FWD name="wwis-dubc1-vip37.adobe.com" }
+:if ([:len [/ip dns static find name="wwis-dubc1-vip38.adobe.com" comment="adobe"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="adobe" type=FWD name="wwis-dubc1-vip38.adobe.com" }
+:if ([:len [/ip dns static find name="wwis-dubc1-vip39.adobe.com" comment="adobe"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="adobe" type=FWD name="wwis-dubc1-vip39.adobe.com" }
+:if ([:len [/ip dns static find name="wwis-dubc1-vip40.adobe.com" comment="adobe"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="adobe" type=FWD name="wwis-dubc1-vip40.adobe.com" }
+:if ([:len [/ip dns static find name="wwis-dubc1-vip41.adobe.com" comment="adobe"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="adobe" type=FWD name="wwis-dubc1-vip41.adobe.com" }
+:if ([:len [/ip dns static find name="wwis-dubc1-vip42.adobe.com" comment="adobe"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="adobe" type=FWD name="wwis-dubc1-vip42.adobe.com" }
+:if ([:len [/ip dns static find name="wwis-dubc1-vip43.adobe.com" comment="adobe"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="adobe" type=FWD name="wwis-dubc1-vip43.adobe.com" }
+:if ([:len [/ip dns static find name="wwis-dubc1-vip44.adobe.com" comment="adobe"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="adobe" type=FWD name="wwis-dubc1-vip44.adobe.com" }
+:if ([:len [/ip dns static find name="wwis-dubc1-vip45.adobe.com" comment="adobe"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="adobe" type=FWD name="wwis-dubc1-vip45.adobe.com" }
+:if ([:len [/ip dns static find name="wwis-dubc1-vip46.adobe.com" comment="adobe"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="adobe" type=FWD name="wwis-dubc1-vip46.adobe.com" }
+:if ([:len [/ip dns static find name="wwis-dubc1-vip47.adobe.com" comment="adobe"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="adobe" type=FWD name="wwis-dubc1-vip47.adobe.com" }
+:if ([:len [/ip dns static find name="wwis-dubc1-vip48.adobe.com" comment="adobe"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="adobe" type=FWD name="wwis-dubc1-vip48.adobe.com" }
+:if ([:len [/ip dns static find name="wwis-dubc1-vip49.adobe.com" comment="adobe"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="adobe" type=FWD name="wwis-dubc1-vip49.adobe.com" }
+:if ([:len [/ip dns static find name="wwis-dubc1-vip50.adobe.com" comment="adobe"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="adobe" type=FWD name="wwis-dubc1-vip50.adobe.com" }
+:if ([:len [/ip dns static find name="wwis-dubc1-vip51.adobe.com" comment="adobe"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="adobe" type=FWD name="wwis-dubc1-vip51.adobe.com" }
+:if ([:len [/ip dns static find name="wwis-dubc1-vip52.adobe.com" comment="adobe"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="adobe" type=FWD name="wwis-dubc1-vip52.adobe.com" }
+:if ([:len [/ip dns static find name="wwis-dubc1-vip53.adobe.com" comment="adobe"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="adobe" type=FWD name="wwis-dubc1-vip53.adobe.com" }
+:if ([:len [/ip dns static find name="wwis-dubc1-vip54.adobe.com" comment="adobe"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="adobe" type=FWD name="wwis-dubc1-vip54.adobe.com" }
+:if ([:len [/ip dns static find name="wwis-dubc1-vip55.adobe.com" comment="adobe"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="adobe" type=FWD name="wwis-dubc1-vip55.adobe.com" }
+:if ([:len [/ip dns static find name="wwis-dubc1-vip56.adobe.com" comment="adobe"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="adobe" type=FWD name="wwis-dubc1-vip56.adobe.com" }
+:if ([:len [/ip dns static find name="wwis-dubc1-vip57.adobe.com" comment="adobe"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="adobe" type=FWD name="wwis-dubc1-vip57.adobe.com" }
+:if ([:len [/ip dns static find name="wwis-dubc1-vip58.adobe.com" comment="adobe"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="adobe" type=FWD name="wwis-dubc1-vip58.adobe.com" }
+:if ([:len [/ip dns static find name="wwis-dubc1-vip59.adobe.com" comment="adobe"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="adobe" type=FWD name="wwis-dubc1-vip59.adobe.com" }
+:if ([:len [/ip dns static find name="wwis-dubc1-vip60.adobe.com" comment="adobe"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="adobe" type=FWD name="wwis-dubc1-vip60.adobe.com" }
+:if ([:len [/ip dns static find name="wwis-dubc1-vip61.adobe.com" comment="adobe"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="adobe" type=FWD name="wwis-dubc1-vip61.adobe.com" }
+:if ([:len [/ip dns static find name="wwis-dubc1-vip62.adobe.com" comment="adobe"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="adobe" type=FWD name="wwis-dubc1-vip62.adobe.com" }
+:if ([:len [/ip dns static find name="wwis-dubc1-vip63.adobe.com" comment="adobe"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="adobe" type=FWD name="wwis-dubc1-vip63.adobe.com" }
+:if ([:len [/ip dns static find name="wwis-dubc1-vip64.adobe.com" comment="adobe"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="adobe" type=FWD name="wwis-dubc1-vip64.adobe.com" }
+:if ([:len [/ip dns static find name="wwis-dubc1-vip65.adobe.com" comment="adobe"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="adobe" type=FWD name="wwis-dubc1-vip65.adobe.com" }
+:if ([:len [/ip dns static find name="wwis-dubc1-vip66.adobe.com" comment="adobe"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="adobe" type=FWD name="wwis-dubc1-vip66.adobe.com" }
+:if ([:len [/ip dns static find name="wwis-dubc1-vip67.adobe.com" comment="adobe"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="adobe" type=FWD name="wwis-dubc1-vip67.adobe.com" }
+:if ([:len [/ip dns static find name="wwis-dubc1-vip68.adobe.com" comment="adobe"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="adobe" type=FWD name="wwis-dubc1-vip68.adobe.com" }
+:if ([:len [/ip dns static find name="wwis-dubc1-vip69.adobe.com" comment="adobe"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="adobe" type=FWD name="wwis-dubc1-vip69.adobe.com" }
+:if ([:len [/ip dns static find name="wwis-dubc1-vip70.adobe.com" comment="adobe"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="adobe" type=FWD name="wwis-dubc1-vip70.adobe.com" }
+:if ([:len [/ip dns static find name="wwis-dubc1-vip71.adobe.com" comment="adobe"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="adobe" type=FWD name="wwis-dubc1-vip71.adobe.com" }
+:if ([:len [/ip dns static find name="wwis-dubc1-vip72.adobe.com" comment="adobe"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="adobe" type=FWD name="wwis-dubc1-vip72.adobe.com" }
+:if ([:len [/ip dns static find name="wwis-dubc1-vip73.adobe.com" comment="adobe"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="adobe" type=FWD name="wwis-dubc1-vip73.adobe.com" }
+:if ([:len [/ip dns static find name="wwis-dubc1-vip74.adobe.com" comment="adobe"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="adobe" type=FWD name="wwis-dubc1-vip74.adobe.com" }
+:if ([:len [/ip dns static find name="wwis-dubc1-vip75.adobe.com" comment="adobe"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="adobe" type=FWD name="wwis-dubc1-vip75.adobe.com" }
+:if ([:len [/ip dns static find name="wwis-dubc1-vip76.adobe.com" comment="adobe"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="adobe" type=FWD name="wwis-dubc1-vip76.adobe.com" }
+:if ([:len [/ip dns static find name="wwis-dubc1-vip77.adobe.com" comment="adobe"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="adobe" type=FWD name="wwis-dubc1-vip77.adobe.com" }
+:if ([:len [/ip dns static find name="wwis-dubc1-vip78.adobe.com" comment="adobe"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="adobe" type=FWD name="wwis-dubc1-vip78.adobe.com" }
+:if ([:len [/ip dns static find name="wwis-dubc1-vip79.adobe.com" comment="adobe"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="adobe" type=FWD name="wwis-dubc1-vip79.adobe.com" }
+:if ([:len [/ip dns static find name="wwis-dubc1-vip80.adobe.com" comment="adobe"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="adobe" type=FWD name="wwis-dubc1-vip80.adobe.com" }
+:if ([:len [/ip dns static find name="wwis-dubc1-vip81.adobe.com" comment="adobe"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="adobe" type=FWD name="wwis-dubc1-vip81.adobe.com" }
+:if ([:len [/ip dns static find name="wwis-dubc1-vip82.adobe.com" comment="adobe"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="adobe" type=FWD name="wwis-dubc1-vip82.adobe.com" }
+:if ([:len [/ip dns static find name="wwis-dubc1-vip83.adobe.com" comment="adobe"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="adobe" type=FWD name="wwis-dubc1-vip83.adobe.com" }
+:if ([:len [/ip dns static find name="wwis-dubc1-vip84.adobe.com" comment="adobe"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="adobe" type=FWD name="wwis-dubc1-vip84.adobe.com" }
+:if ([:len [/ip dns static find name="wwis-dubc1-vip85.adobe.com" comment="adobe"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="adobe" type=FWD name="wwis-dubc1-vip85.adobe.com" }
+:if ([:len [/ip dns static find name="wwis-dubc1-vip86.adobe.com" comment="adobe"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="adobe" type=FWD name="wwis-dubc1-vip86.adobe.com" }
+:if ([:len [/ip dns static find name="wwis-dubc1-vip87.adobe.com" comment="adobe"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="adobe" type=FWD name="wwis-dubc1-vip87.adobe.com" }
+:if ([:len [/ip dns static find name="wwis-dubc1-vip88.adobe.com" comment="adobe"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="adobe" type=FWD name="wwis-dubc1-vip88.adobe.com" }
+:if ([:len [/ip dns static find name="wwis-dubc1-vip89.adobe.com" comment="adobe"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="adobe" type=FWD name="wwis-dubc1-vip89.adobe.com" }
+:if ([:len [/ip dns static find name="wwis-dubc1-vip90.adobe.com" comment="adobe"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="adobe" type=FWD name="wwis-dubc1-vip90.adobe.com" }
+:if ([:len [/ip dns static find name="wwis-dubc1-vip91.adobe.com" comment="adobe"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="adobe" type=FWD name="wwis-dubc1-vip91.adobe.com" }
+:if ([:len [/ip dns static find name="wwis-dubc1-vip92.adobe.com" comment="adobe"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="adobe" type=FWD name="wwis-dubc1-vip92.adobe.com" }
+:if ([:len [/ip dns static find name="wwis-dubc1-vip93.adobe.com" comment="adobe"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="adobe" type=FWD name="wwis-dubc1-vip93.adobe.com" }
+:if ([:len [/ip dns static find name="wwis-dubc1-vip94.adobe.com" comment="adobe"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="adobe" type=FWD name="wwis-dubc1-vip94.adobe.com" }
+:if ([:len [/ip dns static find name="wwis-dubc1-vip95.adobe.com" comment="adobe"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="adobe" type=FWD name="wwis-dubc1-vip95.adobe.com" }
+:if ([:len [/ip dns static find name="wwis-dubc1-vip96.adobe.com" comment="adobe"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="adobe" type=FWD name="wwis-dubc1-vip96.adobe.com" }
+:if ([:len [/ip dns static find name="wwis-dubc1-vip97.adobe.com" comment="adobe"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="adobe" type=FWD name="wwis-dubc1-vip97.adobe.com" }
+:if ([:len [/ip dns static find name="wwis-dubc1-vip98.adobe.com" comment="adobe"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="adobe" type=FWD name="wwis-dubc1-vip98.adobe.com" }
+:if ([:len [/ip dns static find name="wwis-dubc1-vip99.adobe.com" comment="adobe"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="adobe" type=FWD name="wwis-dubc1-vip99.adobe.com" }
+:if ([:len [/ip dns static find name="10xfotolia.com" comment="adobe"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="adobe" match-subdomain=yes type=FWD name="10xfotolia.com" }
+:if ([:len [/ip dns static find name="2o7.net" comment="adobe"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="adobe" match-subdomain=yes type=FWD name="2o7.net" }
+:if ([:len [/ip dns static find name="acrobat.com" comment="adobe"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="adobe" match-subdomain=yes type=FWD name="acrobat.com" }
+:if ([:len [/ip dns static find name="adbecrsl.com" comment="adobe"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="adobe" match-subdomain=yes type=FWD name="adbecrsl.com" }
+:if ([:len [/ip dns static find name="adobe-aemassets-value.com" comment="adobe"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="adobe" match-subdomain=yes type=FWD name="adobe-aemassets-value.com" }
+:if ([:len [/ip dns static find name="adobe-audience-finder.com" comment="adobe"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="adobe" match-subdomain=yes type=FWD name="adobe-audience-finder.com" }
+:if ([:len [/ip dns static find name="adobe-video-partner-finder.com" comment="adobe"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="adobe" match-subdomain=yes type=FWD name="adobe-video-partner-finder.com" }
+:if ([:len [/ip dns static find name="adobe.com" comment="adobe"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="adobe" match-subdomain=yes type=FWD name="adobe.com" }
+:if ([:len [/ip dns static find name="adobe.io" comment="adobe"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="adobe" match-subdomain=yes type=FWD name="adobe.io" }
+:if ([:len [/ip dns static find name="adobeaemcloud.com" comment="adobe"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="adobe" match-subdomain=yes type=FWD name="adobeaemcloud.com" }
+:if ([:len [/ip dns static find name="adobeaemcloud.net" comment="adobe"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="adobe" match-subdomain=yes type=FWD name="adobeaemcloud.net" }
+:if ([:len [/ip dns static find name="adobeawards.com" comment="adobe"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="adobe" match-subdomain=yes type=FWD name="adobeawards.com" }
+:if ([:len [/ip dns static find name="adobecc.com" comment="adobe"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="adobe" match-subdomain=yes type=FWD name="adobecc.com" }
+:if ([:len [/ip dns static find name="adobecce.com" comment="adobe"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="adobe" match-subdomain=yes type=FWD name="adobecce.com" }
+:if ([:len [/ip dns static find name="adobeccstatic.com" comment="adobe"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="adobe" match-subdomain=yes type=FWD name="adobeccstatic.com" }
+:if ([:len [/ip dns static find name="adobecontent.io" comment="adobe"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="adobe" match-subdomain=yes type=FWD name="adobecontent.io" }
+:if ([:len [/ip dns static find name="adobecreativityawards.com" comment="adobe"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="adobe" match-subdomain=yes type=FWD name="adobecreativityawards.com" }
+:if ([:len [/ip dns static find name="adobedc.net" comment="adobe"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="adobe" match-subdomain=yes type=FWD name="adobedc.net" }
+:if ([:len [/ip dns static find name="adobedemo.com" comment="adobe"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="adobe" match-subdomain=yes type=FWD name="adobedemo.com" }
+:if ([:len [/ip dns static find name="adobedtm.com" comment="adobe"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="adobe" match-subdomain=yes type=FWD name="adobedtm.com" }
+:if ([:len [/ip dns static find name="adobeexchange.com" comment="adobe"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="adobe" match-subdomain=yes type=FWD name="adobeexchange.com" }
+:if ([:len [/ip dns static find name="adobeexperienceawards.com" comment="adobe"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="adobe" match-subdomain=yes type=FWD name="adobeexperienceawards.com" }
+:if ([:len [/ip dns static find name="adobegov.com" comment="adobe"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="adobe" match-subdomain=yes type=FWD name="adobegov.com" }
+:if ([:len [/ip dns static find name="adobehiddentreasures.com" comment="adobe"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="adobe" match-subdomain=yes type=FWD name="adobehiddentreasures.com" }
+:if ([:len [/ip dns static find name="adobejanus.com" comment="adobe"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="adobe" match-subdomain=yes type=FWD name="adobejanus.com" }
+:if ([:len [/ip dns static find name="adobeku.com" comment="adobe"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="adobe" match-subdomain=yes type=FWD name="adobeku.com" }
+:if ([:len [/ip dns static find name="adobelanding.com" comment="adobe"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="adobe" match-subdomain=yes type=FWD name="adobelanding.com" }
+:if ([:len [/ip dns static find name="adobelogin.com" comment="adobe"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="adobe" match-subdomain=yes type=FWD name="adobelogin.com" }
+:if ([:len [/ip dns static find name="adobeoobe.com" comment="adobe"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="adobe" match-subdomain=yes type=FWD name="adobeoobe.com" }
+:if ([:len [/ip dns static find name="adobeplatinumclub.com" comment="adobe"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="adobe" match-subdomain=yes type=FWD name="adobeplatinumclub.com" }
+:if ([:len [/ip dns static find name="adobeprojectm.com" comment="adobe"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="adobe" match-subdomain=yes type=FWD name="adobeprojectm.com" }
+:if ([:len [/ip dns static find name="adobesc.com" comment="adobe"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="adobe" match-subdomain=yes type=FWD name="adobesc.com" }
+:if ([:len [/ip dns static find name="adobesign.com" comment="adobe"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="adobe" match-subdomain=yes type=FWD name="adobesign.com" }
+:if ([:len [/ip dns static find name="adobesigncdn.com" comment="adobe"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="adobe" match-subdomain=yes type=FWD name="adobesigncdn.com" }
+:if ([:len [/ip dns static find name="adobespark.com" comment="adobe"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="adobe" match-subdomain=yes type=FWD name="adobespark.com" }
+:if ([:len [/ip dns static find name="adobess.com" comment="adobe"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="adobe" match-subdomain=yes type=FWD name="adobess.com" }
+:if ([:len [/ip dns static find name="adobestats.io" comment="adobe"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="adobe" match-subdomain=yes type=FWD name="adobestats.io" }
+:if ([:len [/ip dns static find name="adobestock.com" comment="adobe"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="adobe" match-subdomain=yes type=FWD name="adobestock.com" }
+:if ([:len [/ip dns static find name="adobetag.com" comment="adobe"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="adobe" match-subdomain=yes type=FWD name="adobetag.com" }
+:if ([:len [/ip dns static find name="adobetarget.com" comment="adobe"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="adobe" match-subdomain=yes type=FWD name="adobetarget.com" }
+:if ([:len [/ip dns static find name="adobetcstrialdvd.com" comment="adobe"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="adobe" match-subdomain=yes type=FWD name="adobetcstrialdvd.com" }
+:if ([:len [/ip dns static find name="adobetechcomm.com" comment="adobe"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="adobe" match-subdomain=yes type=FWD name="adobetechcomm.com" }
+:if ([:len [/ip dns static find name="adobetechcommcallback.com" comment="adobe"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="adobe" match-subdomain=yes type=FWD name="adobetechcommcallback.com" }
+:if ([:len [/ip dns static find name="adobetechcommdemo.com" comment="adobe"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="adobe" match-subdomain=yes type=FWD name="adobetechcommdemo.com" }
+:if ([:len [/ip dns static find name="adobexdplatform.com" comment="adobe"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="adobe" match-subdomain=yes type=FWD name="adobexdplatform.com" }
+:if ([:len [/ip dns static find name="advertising.adobe.com" comment="adobe"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="adobe" match-subdomain=yes type=FWD name="advertising.adobe.com" }
+:if ([:len [/ip dns static find name="assetsadobe.com" comment="adobe"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="adobe" match-subdomain=yes type=FWD name="assetsadobe.com" }
+:if ([:len [/ip dns static find name="authorxml.com" comment="adobe"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="adobe" match-subdomain=yes type=FWD name="authorxml.com" }
+:if ([:len [/ip dns static find name="behance.net" comment="adobe"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="adobe" match-subdomain=yes type=FWD name="behance.net" }
+:if ([:len [/ip dns static find name="bluefootcms.com" comment="adobe"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="adobe" match-subdomain=yes type=FWD name="bluefootcms.com" }
+:if ([:len [/ip dns static find name="businesscatalyst.com" comment="adobe"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="adobe" match-subdomain=yes type=FWD name="businesscatalyst.com" }
+:if ([:len [/ip dns static find name="ccnsite.com" comment="adobe"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="adobe" match-subdomain=yes type=FWD name="ccnsite.com" }
+:if ([:len [/ip dns static find name="ccpsx.com" comment="adobe"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="adobe" match-subdomain=yes type=FWD name="ccpsx.com" }
+:if ([:len [/ip dns static find name="compresspdf.new" comment="adobe"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="adobe" match-subdomain=yes type=FWD name="compresspdf.new" }
+:if ([:len [/ip dns static find name="cotolia.com" comment="adobe"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="adobe" match-subdomain=yes type=FWD name="cotolia.com" }
+:if ([:len [/ip dns static find name="creativecloud.com" comment="adobe"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="adobe" match-subdomain=yes type=FWD name="creativecloud.com" }
+:if ([:len [/ip dns static find name="creativesdk.com" comment="adobe"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="adobe" match-subdomain=yes type=FWD name="creativesdk.com" }
+:if ([:len [/ip dns static find name="demdex.net" comment="adobe"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="adobe" match-subdomain=yes type=FWD name="demdex.net" }
+:if ([:len [/ip dns static find name="developria.com" comment="adobe"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="adobe" match-subdomain=yes type=FWD name="developria.com" }
+:if ([:len [/ip dns static find name="dollarfotoclub.com" comment="adobe"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="adobe" match-subdomain=yes type=FWD name="dollarfotoclub.com" }
+:if ([:len [/ip dns static find name="dollarphotoclub.com" comment="adobe"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="adobe" match-subdomain=yes type=FWD name="dollarphotoclub.com" }
+:if ([:len [/ip dns static find name="dollarphotosclub.com" comment="adobe"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="adobe" match-subdomain=yes type=FWD name="dollarphotosclub.com" }
+:if ([:len [/ip dns static find name="douwriteright.com" comment="adobe"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="adobe" match-subdomain=yes type=FWD name="douwriteright.com" }
+:if ([:len [/ip dns static find name="echocdn.com" comment="adobe"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="adobe" match-subdomain=yes type=FWD name="echocdn.com" }
+:if ([:len [/ip dns static find name="echosign.com" comment="adobe"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="adobe" match-subdomain=yes type=FWD name="echosign.com" }
+:if ([:len [/ip dns static find name="edgefonts.net" comment="adobe"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="adobe" match-subdomain=yes type=FWD name="edgefonts.net" }
+:if ([:len [/ip dns static find name="enablementadobe.com" comment="adobe"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="adobe" match-subdomain=yes type=FWD name="enablementadobe.com" }
+:if ([:len [/ip dns static find name="ffotolia.com" comment="adobe"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="adobe" match-subdomain=yes type=FWD name="ffotolia.com" }
+:if ([:len [/ip dns static find name="fiotolia.com" comment="adobe"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="adobe" match-subdomain=yes type=FWD name="fiotolia.com" }
+:if ([:len [/ip dns static find name="foftolia.com" comment="adobe"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="adobe" match-subdomain=yes type=FWD name="foftolia.com" }
+:if ([:len [/ip dns static find name="fonolia.com" comment="adobe"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="adobe" match-subdomain=yes type=FWD name="fonolia.com" }
+:if ([:len [/ip dns static find name="fotiolia.com" comment="adobe"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="adobe" match-subdomain=yes type=FWD name="fotiolia.com" }
+:if ([:len [/ip dns static find name="fotoiia.com" comment="adobe"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="adobe" match-subdomain=yes type=FWD name="fotoiia.com" }
+:if ([:len [/ip dns static find name="fotolia-noticias.com" comment="adobe"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="adobe" match-subdomain=yes type=FWD name="fotolia-noticias.com" }
+:if ([:len [/ip dns static find name="fotolia.cc" comment="adobe"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="adobe" match-subdomain=yes type=FWD name="fotolia.cc" }
+:if ([:len [/ip dns static find name="fotolia.com" comment="adobe"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="adobe" match-subdomain=yes type=FWD name="fotolia.com" }
+:if ([:len [/ip dns static find name="fotolia.tv" comment="adobe"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="adobe" match-subdomain=yes type=FWD name="fotolia.tv" }
+:if ([:len [/ip dns static find name="fotolja.com" comment="adobe"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="adobe" match-subdomain=yes type=FWD name="fotolja.com" }
+:if ([:len [/ip dns static find name="fptolia.com" comment="adobe"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="adobe" match-subdomain=yes type=FWD name="fptolia.com" }
+:if ([:len [/ip dns static find name="ftcdn.net" comment="adobe"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="adobe" match-subdomain=yes type=FWD name="ftcdn.net" }
+:if ([:len [/ip dns static find name="gfotolia.com" comment="adobe"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="adobe" match-subdomain=yes type=FWD name="gfotolia.com" }
+:if ([:len [/ip dns static find name="gostorego.com" comment="adobe"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="adobe" match-subdomain=yes type=FWD name="gostorego.com" }
+:if ([:len [/ip dns static find name="imagineecommerce.com" comment="adobe"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="adobe" match-subdomain=yes type=FWD name="imagineecommerce.com" }
+:if ([:len [/ip dns static find name="macromedia.com" comment="adobe"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="adobe" match-subdomain=yes type=FWD name="macromedia.com" }
+:if ([:len [/ip dns static find name="mageconf.com" comment="adobe"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="adobe" match-subdomain=yes type=FWD name="mageconf.com" }
+:if ([:len [/ip dns static find name="magento.com" comment="adobe"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="adobe" match-subdomain=yes type=FWD name="magento.com" }
+:if ([:len [/ip dns static find name="magento.net" comment="adobe"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="adobe" match-subdomain=yes type=FWD name="magento.net" }
+:if ([:len [/ip dns static find name="magentocommerce.com" comment="adobe"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="adobe" match-subdomain=yes type=FWD name="magentocommerce.com" }
+:if ([:len [/ip dns static find name="magentoliveconference.com" comment="adobe"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="adobe" match-subdomain=yes type=FWD name="magentoliveconference.com" }
+:if ([:len [/ip dns static find name="magentomobile.com" comment="adobe"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="adobe" match-subdomain=yes type=FWD name="magentomobile.com" }
+:if ([:len [/ip dns static find name="marketing-cloud.com" comment="adobe"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="adobe" match-subdomain=yes type=FWD name="marketing-cloud.com" }
+:if ([:len [/ip dns static find name="marketing-nirvana.com" comment="adobe"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="adobe" match-subdomain=yes type=FWD name="marketing-nirvana.com" }
+:if ([:len [/ip dns static find name="marketo.com" comment="adobe"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="adobe" match-subdomain=yes type=FWD name="marketo.com" }
+:if ([:len [/ip dns static find name="marketo.net" comment="adobe"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="adobe" match-subdomain=yes type=FWD name="marketo.net" }
+:if ([:len [/ip dns static find name="marketo.tv" comment="adobe"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="adobe" match-subdomain=yes type=FWD name="marketo.tv" }
+:if ([:len [/ip dns static find name="marketodesigner.com" comment="adobe"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="adobe" match-subdomain=yes type=FWD name="marketodesigner.com" }
+:if ([:len [/ip dns static find name="marketolive.com" comment="adobe"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="adobe" match-subdomain=yes type=FWD name="marketolive.com" }
+:if ([:len [/ip dns static find name="mktdns.com" comment="adobe"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="adobe" match-subdomain=yes type=FWD name="mktdns.com" }
+:if ([:len [/ip dns static find name="mkto-c0100.com" comment="adobe"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="adobe" match-subdomain=yes type=FWD name="mkto-c0100.com" }
+:if ([:len [/ip dns static find name="mktorest.com" comment="adobe"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="adobe" match-subdomain=yes type=FWD name="mktorest.com" }
+:if ([:len [/ip dns static find name="mktroute.com" comment="adobe"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="adobe" match-subdomain=yes type=FWD name="mktroute.com" }
+:if ([:len [/ip dns static find name="mobilemarketo.com" comment="adobe"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="adobe" match-subdomain=yes type=FWD name="mobilemarketo.com" }
+:if ([:len [/ip dns static find name="motolia.com" comment="adobe"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="adobe" match-subdomain=yes type=FWD name="motolia.com" }
+:if ([:len [/ip dns static find name="omniture.com" comment="adobe"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="adobe" match-subdomain=yes type=FWD name="omniture.com" }
+:if ([:len [/ip dns static find name="omtrdc.net" comment="adobe"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="adobe" match-subdomain=yes type=FWD name="omtrdc.net" }
+:if ([:len [/ip dns static find name="pdf.new" comment="adobe"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="adobe" match-subdomain=yes type=FWD name="pdf.new" }
+:if ([:len [/ip dns static find name="photolia.net" comment="adobe"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="adobe" match-subdomain=yes type=FWD name="photolia.net" }
+:if ([:len [/ip dns static find name="photoshop.com" comment="adobe"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="adobe" match-subdomain=yes type=FWD name="photoshop.com" }
+:if ([:len [/ip dns static find name="placesdocs.com" comment="adobe"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="adobe" match-subdomain=yes type=FWD name="placesdocs.com" }
+:if ([:len [/ip dns static find name="revenue-performance-management.com" comment="adobe"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="adobe" match-subdomain=yes type=FWD name="revenue-performance-management.com" }
+:if ([:len [/ip dns static find name="s2stagehance.com" comment="adobe"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="adobe" match-subdomain=yes type=FWD name="s2stagehance.com" }
+:if ([:len [/ip dns static find name="scene7.com" comment="adobe"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="adobe" match-subdomain=yes type=FWD name="scene7.com" }
+:if ([:len [/ip dns static find name="sign.new" comment="adobe"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="adobe" match-subdomain=yes type=FWD name="sign.new" }
+:if ([:len [/ip dns static find name="sundanceignite2016.com" comment="adobe"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="adobe" match-subdomain=yes type=FWD name="sundanceignite2016.com" }
+:if ([:len [/ip dns static find name="tenbyfotolia.com" comment="adobe"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="adobe" match-subdomain=yes type=FWD name="tenbyfotolia.com" }
+:if ([:len [/ip dns static find name="toutapp.com" comment="adobe"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="adobe" match-subdomain=yes type=FWD name="toutapp.com" }
+:if ([:len [/ip dns static find name="tubemogul.com" comment="adobe"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="adobe" match-subdomain=yes type=FWD name="tubemogul.com" }
+:if ([:len [/ip dns static find name="typekit.com" comment="adobe"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="adobe" match-subdomain=yes type=FWD name="typekit.com" }
+:if ([:len [/ip dns static find name="typekit.net" comment="adobe"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="adobe" match-subdomain=yes type=FWD name="typekit.net" }
+:if ([:len [/ip dns static find name="votolia.com" comment="adobe"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="adobe" match-subdomain=yes type=FWD name="votolia.com" }
+:if ([:len [/ip dns static find name="worldsecureemail.com" comment="adobe"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="adobe" match-subdomain=yes type=FWD name="worldsecureemail.com" }
+:if ([:len [/ip dns static find name="worldsecuresystems.com" comment="adobe"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="adobe" match-subdomain=yes type=FWD name="worldsecuresystems.com" }

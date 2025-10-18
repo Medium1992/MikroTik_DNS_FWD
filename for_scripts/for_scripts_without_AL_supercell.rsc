@@ -1,24 +1,24 @@
 :global AddressList
 :global ForwardTo
 /ip dns static
-add forward-to=$ForwardTo comment=supercell match-subdomain=yes type=FWD name=boombeach.com
-add forward-to=$ForwardTo comment=supercell match-subdomain=yes type=FWD name=brawlstars.com
-add forward-to=$ForwardTo comment=supercell match-subdomain=yes type=FWD name=brawlstarsgame.com
-add forward-to=$ForwardTo comment=supercell match-subdomain=yes type=FWD name=clash.com
-add forward-to=$ForwardTo comment=supercell match-subdomain=yes type=FWD name=clashmini.com
-add forward-to=$ForwardTo comment=supercell match-subdomain=yes type=FWD name=clashofclans.com
-add forward-to=$ForwardTo comment=supercell match-subdomain=yes type=FWD name=clashroyale.com
-add forward-to=$ForwardTo comment=supercell match-subdomain=yes type=FWD name=clashroyaleapp.com
-add forward-to=$ForwardTo comment=supercell match-subdomain=yes type=FWD name=gamesfirsthelsinki.com
-add forward-to=$ForwardTo comment=supercell match-subdomain=yes type=FWD name=hayday.com
-add forward-to=$ForwardTo comment=supercell match-subdomain=yes type=FWD name=haydaygame.com
-add forward-to=$ForwardTo comment=supercell match-subdomain=yes type=FWD name=mo.co
-add forward-to=$ForwardTo comment=supercell match-subdomain=yes type=FWD name=seeurlpcl.com
-add forward-to=$ForwardTo comment=supercell match-subdomain=yes type=FWD name=squadbusters.com
-add forward-to=$ForwardTo comment=supercell match-subdomain=yes type=FWD name=supercell.com
-add forward-to=$ForwardTo comment=supercell match-subdomain=yes type=FWD name=supercell.helpshift.com
-add forward-to=$ForwardTo comment=supercell match-subdomain=yes type=FWD name=supercell.net
-add forward-to=$ForwardTo comment=supercell match-subdomain=yes type=FWD name=supercellcreators.com
-add forward-to=$ForwardTo comment=supercell match-subdomain=yes type=FWD name=supercellgames.com
-add forward-to=$ForwardTo comment=supercell match-subdomain=yes type=FWD name=supercellid.com
-add forward-to=$ForwardTo comment=supercell match-subdomain=yes type=FWD name=supercellstore.com
+:if ([:len [/ip dns static find name="boombeach.com" comment="supercell"]] = 0) do={ add forward-to=$ForwardTo comment="supercell" match-subdomain=yes type=FWD name="boombeach.com" }
+:if ([:len [/ip dns static find name="brawlstars.com" comment="supercell"]] = 0) do={ add forward-to=$ForwardTo comment="supercell" match-subdomain=yes type=FWD name="brawlstars.com" }
+:if ([:len [/ip dns static find name="brawlstarsgame.com" comment="supercell"]] = 0) do={ add forward-to=$ForwardTo comment="supercell" match-subdomain=yes type=FWD name="brawlstarsgame.com" }
+:if ([:len [/ip dns static find name="clash.com" comment="supercell"]] = 0) do={ add forward-to=$ForwardTo comment="supercell" match-subdomain=yes type=FWD name="clash.com" }
+:if ([:len [/ip dns static find name="clashmini.com" comment="supercell"]] = 0) do={ add forward-to=$ForwardTo comment="supercell" match-subdomain=yes type=FWD name="clashmini.com" }
+:if ([:len [/ip dns static find name="clashofclans.com" comment="supercell"]] = 0) do={ add forward-to=$ForwardTo comment="supercell" match-subdomain=yes type=FWD name="clashofclans.com" }
+:if ([:len [/ip dns static find name="clashroyale.com" comment="supercell"]] = 0) do={ add forward-to=$ForwardTo comment="supercell" match-subdomain=yes type=FWD name="clashroyale.com" }
+:if ([:len [/ip dns static find name="clashroyaleapp.com" comment="supercell"]] = 0) do={ add forward-to=$ForwardTo comment="supercell" match-subdomain=yes type=FWD name="clashroyaleapp.com" }
+:if ([:len [/ip dns static find name="gamesfirsthelsinki.com" comment="supercell"]] = 0) do={ add forward-to=$ForwardTo comment="supercell" match-subdomain=yes type=FWD name="gamesfirsthelsinki.com" }
+:if ([:len [/ip dns static find name="hayday.com" comment="supercell"]] = 0) do={ add forward-to=$ForwardTo comment="supercell" match-subdomain=yes type=FWD name="hayday.com" }
+:if ([:len [/ip dns static find name="haydaygame.com" comment="supercell"]] = 0) do={ add forward-to=$ForwardTo comment="supercell" match-subdomain=yes type=FWD name="haydaygame.com" }
+:if ([:len [/ip dns static find name="mo.co" comment="supercell"]] = 0) do={ add forward-to=$ForwardTo comment="supercell" match-subdomain=yes type=FWD name="mo.co" }
+:if ([:len [/ip dns static find name="seeurlpcl.com" comment="supercell"]] = 0) do={ add forward-to=$ForwardTo comment="supercell" match-subdomain=yes type=FWD name="seeurlpcl.com" }
+:if ([:len [/ip dns static find name="squadbusters.com" comment="supercell"]] = 0) do={ add forward-to=$ForwardTo comment="supercell" match-subdomain=yes type=FWD name="squadbusters.com" }
+:if ([:len [/ip dns static find name="supercell.com" comment="supercell"]] = 0) do={ add forward-to=$ForwardTo comment="supercell" match-subdomain=yes type=FWD name="supercell.com" }
+:if ([:len [/ip dns static find name="supercell.helpshift.com" comment="supercell"]] = 0) do={ add forward-to=$ForwardTo comment="supercell" match-subdomain=yes type=FWD name="supercell.helpshift.com" }
+:if ([:len [/ip dns static find name="supercell.net" comment="supercell"]] = 0) do={ add forward-to=$ForwardTo comment="supercell" match-subdomain=yes type=FWD name="supercell.net" }
+:if ([:len [/ip dns static find name="supercellcreators.com" comment="supercell"]] = 0) do={ add forward-to=$ForwardTo comment="supercell" match-subdomain=yes type=FWD name="supercellcreators.com" }
+:if ([:len [/ip dns static find name="supercellgames.com" comment="supercell"]] = 0) do={ add forward-to=$ForwardTo comment="supercell" match-subdomain=yes type=FWD name="supercellgames.com" }
+:if ([:len [/ip dns static find name="supercellid.com" comment="supercell"]] = 0) do={ add forward-to=$ForwardTo comment="supercell" match-subdomain=yes type=FWD name="supercellid.com" }
+:if ([:len [/ip dns static find name="supercellstore.com" comment="supercell"]] = 0) do={ add forward-to=$ForwardTo comment="supercell" match-subdomain=yes type=FWD name="supercellstore.com" }

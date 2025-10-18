@@ -1,76 +1,76 @@
 :global AddressList
 :global ForwardTo
 /ip dns static
-add forward-to=$ForwardTo comment=instagram match-subdomain=yes type=FWD name=achat-followers-instagram.com
-add forward-to=$ForwardTo comment=instagram match-subdomain=yes type=FWD name=acheter-followers-instagram.com
-add forward-to=$ForwardTo comment=instagram match-subdomain=yes type=FWD name=acheterdesfollowersinstagram.com
-add forward-to=$ForwardTo comment=instagram match-subdomain=yes type=FWD name=acheterfollowersinstagram.com
-add forward-to=$ForwardTo comment=instagram match-subdomain=yes type=FWD name=bookstagram.com
-add forward-to=$ForwardTo comment=instagram match-subdomain=yes type=FWD name=carstagram.com
-add forward-to=$ForwardTo comment=instagram match-subdomain=yes type=FWD name=cdninstagram.com
-add forward-to=$ForwardTo comment=instagram match-subdomain=yes type=FWD name=chickstagram.com
-add forward-to=$ForwardTo comment=instagram match-subdomain=yes type=FWD name=graph-fallback.instagram.com
-add forward-to=$ForwardTo comment=instagram match-subdomain=yes type=FWD name=graph.instagram.com
-add forward-to=$ForwardTo comment=instagram match-subdomain=yes type=FWD name=igcdn.com
-add forward-to=$ForwardTo comment=instagram match-subdomain=yes type=FWD name=igsonar.com
-add forward-to=$ForwardTo comment=instagram match-subdomain=yes type=FWD name=igtv.com
-add forward-to=$ForwardTo comment=instagram match-subdomain=yes type=FWD name=imstagram.com
-add forward-to=$ForwardTo comment=instagram match-subdomain=yes type=FWD name=imtagram.com
-add forward-to=$ForwardTo comment=instagram match-subdomain=yes type=FWD name=instaadder.com
-add forward-to=$ForwardTo comment=instagram match-subdomain=yes type=FWD name=instachecker.com
-add forward-to=$ForwardTo comment=instagram match-subdomain=yes type=FWD name=instafallow.com
-add forward-to=$ForwardTo comment=instagram match-subdomain=yes type=FWD name=instafollower.com
-add forward-to=$ForwardTo comment=instagram match-subdomain=yes type=FWD name=instagainer.com
-add forward-to=$ForwardTo comment=instagram match-subdomain=yes type=FWD name=instagda.com
-add forward-to=$ForwardTo comment=instagram match-subdomain=yes type=FWD name=instagify.com
-add forward-to=$ForwardTo comment=instagram match-subdomain=yes type=FWD name=instagmania.com
-add forward-to=$ForwardTo comment=instagram match-subdomain=yes type=FWD name=instagor.com
-add forward-to=$ForwardTo comment=instagram match-subdomain=yes type=FWD name=instagram-brand.com
-add forward-to=$ForwardTo comment=instagram match-subdomain=yes type=FWD name=instagram-engineering.com
-add forward-to=$ForwardTo comment=instagram match-subdomain=yes type=FWD name=instagram-help.com
-add forward-to=$ForwardTo comment=instagram match-subdomain=yes type=FWD name=instagram-press.com
-add forward-to=$ForwardTo comment=instagram match-subdomain=yes type=FWD name=instagram-press.net
-add forward-to=$ForwardTo comment=instagram match-subdomain=yes type=FWD name=instagram.com
-add forward-to=$ForwardTo comment=instagram match-subdomain=yes type=FWD name=instagramci.com
-add forward-to=$ForwardTo comment=instagram match-subdomain=yes type=FWD name=instagramcn.com
-add forward-to=$ForwardTo comment=instagram match-subdomain=yes type=FWD name=instagramdi.com
-add forward-to=$ForwardTo comment=instagram match-subdomain=yes type=FWD name=instagramhashtags.net
-add forward-to=$ForwardTo comment=instagram match-subdomain=yes type=FWD name=instagramhilecim.com
-add forward-to=$ForwardTo comment=instagram match-subdomain=yes type=FWD name=instagramhilesi.org
-add forward-to=$ForwardTo comment=instagram match-subdomain=yes type=FWD name=instagramium.com
-add forward-to=$ForwardTo comment=instagram match-subdomain=yes type=FWD name=instagramizlenme.com
-add forward-to=$ForwardTo comment=instagram match-subdomain=yes type=FWD name=instagramkusu.com
-add forward-to=$ForwardTo comment=instagram match-subdomain=yes type=FWD name=instagramlogin.com
-add forward-to=$ForwardTo comment=instagram match-subdomain=yes type=FWD name=instagramm.com
-add forward-to=$ForwardTo comment=instagram match-subdomain=yes type=FWD name=instagramn.com
-add forward-to=$ForwardTo comment=instagram match-subdomain=yes type=FWD name=instagrampartners.com
-add forward-to=$ForwardTo comment=instagram match-subdomain=yes type=FWD name=instagramphoto.com
-add forward-to=$ForwardTo comment=instagram match-subdomain=yes type=FWD name=instagramq.com
-add forward-to=$ForwardTo comment=instagram match-subdomain=yes type=FWD name=instagramsepeti.com
-add forward-to=$ForwardTo comment=instagram match-subdomain=yes type=FWD name=instagramtakipcisatinal.net
-add forward-to=$ForwardTo comment=instagram match-subdomain=yes type=FWD name=instagramtakiphilesi.com
-add forward-to=$ForwardTo comment=instagram match-subdomain=yes type=FWD name=instagramtips.com
-add forward-to=$ForwardTo comment=instagram match-subdomain=yes type=FWD name=instagramtr.com
-add forward-to=$ForwardTo comment=instagram match-subdomain=yes type=FWD name=instagran.com
-add forward-to=$ForwardTo comment=instagram match-subdomain=yes type=FWD name=instagranm.com
-add forward-to=$ForwardTo comment=instagram match-subdomain=yes type=FWD name=instagrem.com
-add forward-to=$ForwardTo comment=instagram match-subdomain=yes type=FWD name=instagrm.com
-add forward-to=$ForwardTo comment=instagram match-subdomain=yes type=FWD name=instagtram.com
-add forward-to=$ForwardTo comment=instagram match-subdomain=yes type=FWD name=instagy.com
-add forward-to=$ForwardTo comment=instagram match-subdomain=yes type=FWD name=instamgram.com
-add forward-to=$ForwardTo comment=instagram match-subdomain=yes type=FWD name=instangram.com
-add forward-to=$ForwardTo comment=instagram match-subdomain=yes type=FWD name=instanttelegram.com
-add forward-to=$ForwardTo comment=instagram match-subdomain=yes type=FWD name=instaplayer.net
-add forward-to=$ForwardTo comment=instagram match-subdomain=yes type=FWD name=instastyle.tv
-add forward-to=$ForwardTo comment=instagram match-subdomain=yes type=FWD name=instgram.com
-add forward-to=$ForwardTo comment=instagram match-subdomain=yes type=FWD name=intagram.com
-add forward-to=$ForwardTo comment=instagram match-subdomain=yes type=FWD name=intagrm.com
-add forward-to=$ForwardTo comment=instagram match-subdomain=yes type=FWD name=intgram.com
-add forward-to=$ForwardTo comment=instagram match-subdomain=yes type=FWD name=kingstagram.com
-add forward-to=$ForwardTo comment=instagram match-subdomain=yes type=FWD name=lnstagram-help.com
-add forward-to=$ForwardTo comment=instagram match-subdomain=yes type=FWD name=oninstagram.com
-add forward-to=$ForwardTo comment=instagram match-subdomain=yes type=FWD name=online-instagram.com
-add forward-to=$ForwardTo comment=instagram match-subdomain=yes type=FWD name=onlineinstagram.com
-add forward-to=$ForwardTo comment=instagram match-subdomain=yes type=FWD name=theinstagramhack.com
-add forward-to=$ForwardTo comment=instagram match-subdomain=yes type=FWD name=web-instagram.net
-add forward-to=$ForwardTo comment=instagram match-subdomain=yes type=FWD name=wwwinstagram.com
+:if ([:len [/ip dns static find name="achat-followers-instagram.com" comment="instagram"]] = 0) do={ add forward-to=$ForwardTo comment="instagram" match-subdomain=yes type=FWD name="achat-followers-instagram.com" }
+:if ([:len [/ip dns static find name="acheter-followers-instagram.com" comment="instagram"]] = 0) do={ add forward-to=$ForwardTo comment="instagram" match-subdomain=yes type=FWD name="acheter-followers-instagram.com" }
+:if ([:len [/ip dns static find name="acheterdesfollowersinstagram.com" comment="instagram"]] = 0) do={ add forward-to=$ForwardTo comment="instagram" match-subdomain=yes type=FWD name="acheterdesfollowersinstagram.com" }
+:if ([:len [/ip dns static find name="acheterfollowersinstagram.com" comment="instagram"]] = 0) do={ add forward-to=$ForwardTo comment="instagram" match-subdomain=yes type=FWD name="acheterfollowersinstagram.com" }
+:if ([:len [/ip dns static find name="bookstagram.com" comment="instagram"]] = 0) do={ add forward-to=$ForwardTo comment="instagram" match-subdomain=yes type=FWD name="bookstagram.com" }
+:if ([:len [/ip dns static find name="carstagram.com" comment="instagram"]] = 0) do={ add forward-to=$ForwardTo comment="instagram" match-subdomain=yes type=FWD name="carstagram.com" }
+:if ([:len [/ip dns static find name="cdninstagram.com" comment="instagram"]] = 0) do={ add forward-to=$ForwardTo comment="instagram" match-subdomain=yes type=FWD name="cdninstagram.com" }
+:if ([:len [/ip dns static find name="chickstagram.com" comment="instagram"]] = 0) do={ add forward-to=$ForwardTo comment="instagram" match-subdomain=yes type=FWD name="chickstagram.com" }
+:if ([:len [/ip dns static find name="graph-fallback.instagram.com" comment="instagram"]] = 0) do={ add forward-to=$ForwardTo comment="instagram" match-subdomain=yes type=FWD name="graph-fallback.instagram.com" }
+:if ([:len [/ip dns static find name="graph.instagram.com" comment="instagram"]] = 0) do={ add forward-to=$ForwardTo comment="instagram" match-subdomain=yes type=FWD name="graph.instagram.com" }
+:if ([:len [/ip dns static find name="igcdn.com" comment="instagram"]] = 0) do={ add forward-to=$ForwardTo comment="instagram" match-subdomain=yes type=FWD name="igcdn.com" }
+:if ([:len [/ip dns static find name="igsonar.com" comment="instagram"]] = 0) do={ add forward-to=$ForwardTo comment="instagram" match-subdomain=yes type=FWD name="igsonar.com" }
+:if ([:len [/ip dns static find name="igtv.com" comment="instagram"]] = 0) do={ add forward-to=$ForwardTo comment="instagram" match-subdomain=yes type=FWD name="igtv.com" }
+:if ([:len [/ip dns static find name="imstagram.com" comment="instagram"]] = 0) do={ add forward-to=$ForwardTo comment="instagram" match-subdomain=yes type=FWD name="imstagram.com" }
+:if ([:len [/ip dns static find name="imtagram.com" comment="instagram"]] = 0) do={ add forward-to=$ForwardTo comment="instagram" match-subdomain=yes type=FWD name="imtagram.com" }
+:if ([:len [/ip dns static find name="instaadder.com" comment="instagram"]] = 0) do={ add forward-to=$ForwardTo comment="instagram" match-subdomain=yes type=FWD name="instaadder.com" }
+:if ([:len [/ip dns static find name="instachecker.com" comment="instagram"]] = 0) do={ add forward-to=$ForwardTo comment="instagram" match-subdomain=yes type=FWD name="instachecker.com" }
+:if ([:len [/ip dns static find name="instafallow.com" comment="instagram"]] = 0) do={ add forward-to=$ForwardTo comment="instagram" match-subdomain=yes type=FWD name="instafallow.com" }
+:if ([:len [/ip dns static find name="instafollower.com" comment="instagram"]] = 0) do={ add forward-to=$ForwardTo comment="instagram" match-subdomain=yes type=FWD name="instafollower.com" }
+:if ([:len [/ip dns static find name="instagainer.com" comment="instagram"]] = 0) do={ add forward-to=$ForwardTo comment="instagram" match-subdomain=yes type=FWD name="instagainer.com" }
+:if ([:len [/ip dns static find name="instagda.com" comment="instagram"]] = 0) do={ add forward-to=$ForwardTo comment="instagram" match-subdomain=yes type=FWD name="instagda.com" }
+:if ([:len [/ip dns static find name="instagify.com" comment="instagram"]] = 0) do={ add forward-to=$ForwardTo comment="instagram" match-subdomain=yes type=FWD name="instagify.com" }
+:if ([:len [/ip dns static find name="instagmania.com" comment="instagram"]] = 0) do={ add forward-to=$ForwardTo comment="instagram" match-subdomain=yes type=FWD name="instagmania.com" }
+:if ([:len [/ip dns static find name="instagor.com" comment="instagram"]] = 0) do={ add forward-to=$ForwardTo comment="instagram" match-subdomain=yes type=FWD name="instagor.com" }
+:if ([:len [/ip dns static find name="instagram-brand.com" comment="instagram"]] = 0) do={ add forward-to=$ForwardTo comment="instagram" match-subdomain=yes type=FWD name="instagram-brand.com" }
+:if ([:len [/ip dns static find name="instagram-engineering.com" comment="instagram"]] = 0) do={ add forward-to=$ForwardTo comment="instagram" match-subdomain=yes type=FWD name="instagram-engineering.com" }
+:if ([:len [/ip dns static find name="instagram-help.com" comment="instagram"]] = 0) do={ add forward-to=$ForwardTo comment="instagram" match-subdomain=yes type=FWD name="instagram-help.com" }
+:if ([:len [/ip dns static find name="instagram-press.com" comment="instagram"]] = 0) do={ add forward-to=$ForwardTo comment="instagram" match-subdomain=yes type=FWD name="instagram-press.com" }
+:if ([:len [/ip dns static find name="instagram-press.net" comment="instagram"]] = 0) do={ add forward-to=$ForwardTo comment="instagram" match-subdomain=yes type=FWD name="instagram-press.net" }
+:if ([:len [/ip dns static find name="instagram.com" comment="instagram"]] = 0) do={ add forward-to=$ForwardTo comment="instagram" match-subdomain=yes type=FWD name="instagram.com" }
+:if ([:len [/ip dns static find name="instagramci.com" comment="instagram"]] = 0) do={ add forward-to=$ForwardTo comment="instagram" match-subdomain=yes type=FWD name="instagramci.com" }
+:if ([:len [/ip dns static find name="instagramcn.com" comment="instagram"]] = 0) do={ add forward-to=$ForwardTo comment="instagram" match-subdomain=yes type=FWD name="instagramcn.com" }
+:if ([:len [/ip dns static find name="instagramdi.com" comment="instagram"]] = 0) do={ add forward-to=$ForwardTo comment="instagram" match-subdomain=yes type=FWD name="instagramdi.com" }
+:if ([:len [/ip dns static find name="instagramhashtags.net" comment="instagram"]] = 0) do={ add forward-to=$ForwardTo comment="instagram" match-subdomain=yes type=FWD name="instagramhashtags.net" }
+:if ([:len [/ip dns static find name="instagramhilecim.com" comment="instagram"]] = 0) do={ add forward-to=$ForwardTo comment="instagram" match-subdomain=yes type=FWD name="instagramhilecim.com" }
+:if ([:len [/ip dns static find name="instagramhilesi.org" comment="instagram"]] = 0) do={ add forward-to=$ForwardTo comment="instagram" match-subdomain=yes type=FWD name="instagramhilesi.org" }
+:if ([:len [/ip dns static find name="instagramium.com" comment="instagram"]] = 0) do={ add forward-to=$ForwardTo comment="instagram" match-subdomain=yes type=FWD name="instagramium.com" }
+:if ([:len [/ip dns static find name="instagramizlenme.com" comment="instagram"]] = 0) do={ add forward-to=$ForwardTo comment="instagram" match-subdomain=yes type=FWD name="instagramizlenme.com" }
+:if ([:len [/ip dns static find name="instagramkusu.com" comment="instagram"]] = 0) do={ add forward-to=$ForwardTo comment="instagram" match-subdomain=yes type=FWD name="instagramkusu.com" }
+:if ([:len [/ip dns static find name="instagramlogin.com" comment="instagram"]] = 0) do={ add forward-to=$ForwardTo comment="instagram" match-subdomain=yes type=FWD name="instagramlogin.com" }
+:if ([:len [/ip dns static find name="instagramm.com" comment="instagram"]] = 0) do={ add forward-to=$ForwardTo comment="instagram" match-subdomain=yes type=FWD name="instagramm.com" }
+:if ([:len [/ip dns static find name="instagramn.com" comment="instagram"]] = 0) do={ add forward-to=$ForwardTo comment="instagram" match-subdomain=yes type=FWD name="instagramn.com" }
+:if ([:len [/ip dns static find name="instagrampartners.com" comment="instagram"]] = 0) do={ add forward-to=$ForwardTo comment="instagram" match-subdomain=yes type=FWD name="instagrampartners.com" }
+:if ([:len [/ip dns static find name="instagramphoto.com" comment="instagram"]] = 0) do={ add forward-to=$ForwardTo comment="instagram" match-subdomain=yes type=FWD name="instagramphoto.com" }
+:if ([:len [/ip dns static find name="instagramq.com" comment="instagram"]] = 0) do={ add forward-to=$ForwardTo comment="instagram" match-subdomain=yes type=FWD name="instagramq.com" }
+:if ([:len [/ip dns static find name="instagramsepeti.com" comment="instagram"]] = 0) do={ add forward-to=$ForwardTo comment="instagram" match-subdomain=yes type=FWD name="instagramsepeti.com" }
+:if ([:len [/ip dns static find name="instagramtakipcisatinal.net" comment="instagram"]] = 0) do={ add forward-to=$ForwardTo comment="instagram" match-subdomain=yes type=FWD name="instagramtakipcisatinal.net" }
+:if ([:len [/ip dns static find name="instagramtakiphilesi.com" comment="instagram"]] = 0) do={ add forward-to=$ForwardTo comment="instagram" match-subdomain=yes type=FWD name="instagramtakiphilesi.com" }
+:if ([:len [/ip dns static find name="instagramtips.com" comment="instagram"]] = 0) do={ add forward-to=$ForwardTo comment="instagram" match-subdomain=yes type=FWD name="instagramtips.com" }
+:if ([:len [/ip dns static find name="instagramtr.com" comment="instagram"]] = 0) do={ add forward-to=$ForwardTo comment="instagram" match-subdomain=yes type=FWD name="instagramtr.com" }
+:if ([:len [/ip dns static find name="instagran.com" comment="instagram"]] = 0) do={ add forward-to=$ForwardTo comment="instagram" match-subdomain=yes type=FWD name="instagran.com" }
+:if ([:len [/ip dns static find name="instagranm.com" comment="instagram"]] = 0) do={ add forward-to=$ForwardTo comment="instagram" match-subdomain=yes type=FWD name="instagranm.com" }
+:if ([:len [/ip dns static find name="instagrem.com" comment="instagram"]] = 0) do={ add forward-to=$ForwardTo comment="instagram" match-subdomain=yes type=FWD name="instagrem.com" }
+:if ([:len [/ip dns static find name="instagrm.com" comment="instagram"]] = 0) do={ add forward-to=$ForwardTo comment="instagram" match-subdomain=yes type=FWD name="instagrm.com" }
+:if ([:len [/ip dns static find name="instagtram.com" comment="instagram"]] = 0) do={ add forward-to=$ForwardTo comment="instagram" match-subdomain=yes type=FWD name="instagtram.com" }
+:if ([:len [/ip dns static find name="instagy.com" comment="instagram"]] = 0) do={ add forward-to=$ForwardTo comment="instagram" match-subdomain=yes type=FWD name="instagy.com" }
+:if ([:len [/ip dns static find name="instamgram.com" comment="instagram"]] = 0) do={ add forward-to=$ForwardTo comment="instagram" match-subdomain=yes type=FWD name="instamgram.com" }
+:if ([:len [/ip dns static find name="instangram.com" comment="instagram"]] = 0) do={ add forward-to=$ForwardTo comment="instagram" match-subdomain=yes type=FWD name="instangram.com" }
+:if ([:len [/ip dns static find name="instanttelegram.com" comment="instagram"]] = 0) do={ add forward-to=$ForwardTo comment="instagram" match-subdomain=yes type=FWD name="instanttelegram.com" }
+:if ([:len [/ip dns static find name="instaplayer.net" comment="instagram"]] = 0) do={ add forward-to=$ForwardTo comment="instagram" match-subdomain=yes type=FWD name="instaplayer.net" }
+:if ([:len [/ip dns static find name="instastyle.tv" comment="instagram"]] = 0) do={ add forward-to=$ForwardTo comment="instagram" match-subdomain=yes type=FWD name="instastyle.tv" }
+:if ([:len [/ip dns static find name="instgram.com" comment="instagram"]] = 0) do={ add forward-to=$ForwardTo comment="instagram" match-subdomain=yes type=FWD name="instgram.com" }
+:if ([:len [/ip dns static find name="intagram.com" comment="instagram"]] = 0) do={ add forward-to=$ForwardTo comment="instagram" match-subdomain=yes type=FWD name="intagram.com" }
+:if ([:len [/ip dns static find name="intagrm.com" comment="instagram"]] = 0) do={ add forward-to=$ForwardTo comment="instagram" match-subdomain=yes type=FWD name="intagrm.com" }
+:if ([:len [/ip dns static find name="intgram.com" comment="instagram"]] = 0) do={ add forward-to=$ForwardTo comment="instagram" match-subdomain=yes type=FWD name="intgram.com" }
+:if ([:len [/ip dns static find name="kingstagram.com" comment="instagram"]] = 0) do={ add forward-to=$ForwardTo comment="instagram" match-subdomain=yes type=FWD name="kingstagram.com" }
+:if ([:len [/ip dns static find name="lnstagram-help.com" comment="instagram"]] = 0) do={ add forward-to=$ForwardTo comment="instagram" match-subdomain=yes type=FWD name="lnstagram-help.com" }
+:if ([:len [/ip dns static find name="oninstagram.com" comment="instagram"]] = 0) do={ add forward-to=$ForwardTo comment="instagram" match-subdomain=yes type=FWD name="oninstagram.com" }
+:if ([:len [/ip dns static find name="online-instagram.com" comment="instagram"]] = 0) do={ add forward-to=$ForwardTo comment="instagram" match-subdomain=yes type=FWD name="online-instagram.com" }
+:if ([:len [/ip dns static find name="onlineinstagram.com" comment="instagram"]] = 0) do={ add forward-to=$ForwardTo comment="instagram" match-subdomain=yes type=FWD name="onlineinstagram.com" }
+:if ([:len [/ip dns static find name="theinstagramhack.com" comment="instagram"]] = 0) do={ add forward-to=$ForwardTo comment="instagram" match-subdomain=yes type=FWD name="theinstagramhack.com" }
+:if ([:len [/ip dns static find name="web-instagram.net" comment="instagram"]] = 0) do={ add forward-to=$ForwardTo comment="instagram" match-subdomain=yes type=FWD name="web-instagram.net" }
+:if ([:len [/ip dns static find name="wwwinstagram.com" comment="instagram"]] = 0) do={ add forward-to=$ForwardTo comment="instagram" match-subdomain=yes type=FWD name="wwwinstagram.com" }

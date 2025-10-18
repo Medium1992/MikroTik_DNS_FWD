@@ -1,12 +1,12 @@
 :global AddressList
 :global ForwardTo
 /ip dns static
-add address-list=$AddressList forward-to=$ForwardTo comment=pornhub match-subdomain=yes type=FWD name=gaytube.com
-add address-list=$AddressList forward-to=$ForwardTo comment=pornhub match-subdomain=yes type=FWD name=phncdn.com
-add address-list=$AddressList forward-to=$ForwardTo comment=pornhub match-subdomain=yes type=FWD name=phprcdn.com
-add address-list=$AddressList forward-to=$ForwardTo comment=pornhub match-subdomain=yes type=FWD name=porngub.com
-add address-list=$AddressList forward-to=$ForwardTo comment=pornhub match-subdomain=yes type=FWD name=pornhub-deutsch.net
-add address-list=$AddressList forward-to=$ForwardTo comment=pornhub match-subdomain=yes type=FWD name=pornhub.com
-add address-list=$AddressList forward-to=$ForwardTo comment=pornhub match-subdomain=yes type=FWD name=pornhub.org
-add address-list=$AddressList forward-to=$ForwardTo comment=pornhub match-subdomain=yes type=FWD name=pornhubapparel.com
-add address-list=$AddressList forward-to=$ForwardTo comment=pornhub match-subdomain=yes type=FWD name=pornhubpremium.com
+:if ([:len [/ip dns static find name="gaytube.com" comment="pornhub"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="pornhub" match-subdomain=yes type=FWD name="gaytube.com" }
+:if ([:len [/ip dns static find name="phncdn.com" comment="pornhub"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="pornhub" match-subdomain=yes type=FWD name="phncdn.com" }
+:if ([:len [/ip dns static find name="phprcdn.com" comment="pornhub"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="pornhub" match-subdomain=yes type=FWD name="phprcdn.com" }
+:if ([:len [/ip dns static find name="porngub.com" comment="pornhub"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="pornhub" match-subdomain=yes type=FWD name="porngub.com" }
+:if ([:len [/ip dns static find name="pornhub-deutsch.net" comment="pornhub"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="pornhub" match-subdomain=yes type=FWD name="pornhub-deutsch.net" }
+:if ([:len [/ip dns static find name="pornhub.com" comment="pornhub"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="pornhub" match-subdomain=yes type=FWD name="pornhub.com" }
+:if ([:len [/ip dns static find name="pornhub.org" comment="pornhub"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="pornhub" match-subdomain=yes type=FWD name="pornhub.org" }
+:if ([:len [/ip dns static find name="pornhubapparel.com" comment="pornhub"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="pornhub" match-subdomain=yes type=FWD name="pornhubapparel.com" }
+:if ([:len [/ip dns static find name="pornhubpremium.com" comment="pornhub"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="pornhub" match-subdomain=yes type=FWD name="pornhubpremium.com" }
