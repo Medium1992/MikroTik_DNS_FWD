@@ -39,6 +39,7 @@ add address-list=BlackList forward-to=CloudFlare comment=intel match-subdomain=y
 add address-list=BlackList forward-to=CloudFlare comment=intel match-subdomain=yes type=FWD name=intel-university-collaboration.net
 add address-list=BlackList forward-to=CloudFlare comment=intel match-subdomain=yes type=FWD name=intel.cc
 add address-list=BlackList forward-to=CloudFlare comment=intel match-subdomain=yes type=FWD name=intel.com
+add address-list=BlackList forward-to=CloudFlare comment=intel match-subdomain=yes type=FWD name=intel.com.co
 add address-list=BlackList forward-to=CloudFlare comment=intel match-subdomain=yes type=FWD name=intel.eu
 add address-list=BlackList forward-to=CloudFlare comment=intel match-subdomain=yes type=FWD name=intel.io
 add address-list=BlackList forward-to=CloudFlare comment=intel match-subdomain=yes type=FWD name=intel.ru

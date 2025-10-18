@@ -7,6 +7,7 @@ add forward-to=fakeip comment=speedtest match-subdomain=yes type=FWD name=ekahau
 add forward-to=fakeip comment=speedtest match-subdomain=yes type=FWD name=ookla.com
 add forward-to=fakeip comment=speedtest match-subdomain=yes type=FWD name=ooklaserver.net
 add forward-to=fakeip comment=speedtest match-subdomain=yes type=FWD name=pingtest.net
+add forward-to=fakeip comment=speedtest match-subdomain=yes type=FWD name=speedtest.co
 add forward-to=fakeip comment=speedtest match-subdomain=yes type=FWD name=speedtest.net
 add forward-to=fakeip comment=speedtest match-subdomain=yes type=FWD name=speedtestcustom.com
 add forward-to=fakeip comment=speedtest match-subdomain=yes type=FWD name=webtest.net

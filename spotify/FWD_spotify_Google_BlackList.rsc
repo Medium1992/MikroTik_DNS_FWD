@@ -8,6 +8,8 @@ add address-list=BlackList forward-to=Google comment=spotify type=FWD name=spoti
 add address-list=BlackList forward-to=Google comment=spotify type=FWD name=spotify.map.fastly.net
 add address-list=BlackList forward-to=Google comment=spotify type=FWD name=spotify.map.fastlylb.net
 add address-list=BlackList forward-to=Google comment=spotify match-subdomain=yes type=FWD name=byspotify.com
+add address-list=BlackList forward-to=Google comment=spotify match-subdomain=yes type=FWD name=pscdn.co
+add address-list=BlackList forward-to=Google comment=spotify match-subdomain=yes type=FWD name=scdn.co
 add address-list=BlackList forward-to=Google comment=spotify match-subdomain=yes type=FWD name=spotify-everywhere.com
 add address-list=BlackList forward-to=Google comment=spotify match-subdomain=yes type=FWD name=spotify.com
 add address-list=BlackList forward-to=Google comment=spotify match-subdomain=yes type=FWD name=spotify.design

@@ -236,6 +236,7 @@ add forward-to=fakeip comment=facebook match-subdomain=yes type=FWD name=facesbo
 add forward-to=fakeip comment=facebook match-subdomain=yes type=FWD name=facesounds.com
 add forward-to=fakeip comment=facebook match-subdomain=yes type=FWD name=facetook.com
 add forward-to=fakeip comment=facebook match-subdomain=yes type=FWD name=facevbook.com
+add forward-to=fakeip comment=facebook match-subdomain=yes type=FWD name=facewbook.co
 add forward-to=fakeip comment=facebook match-subdomain=yes type=FWD name=facewook.com
 add forward-to=fakeip comment=facebook match-subdomain=yes type=FWD name=facfacebook.com
 add forward-to=fakeip comment=facebook match-subdomain=yes type=FWD name=facfebook.com

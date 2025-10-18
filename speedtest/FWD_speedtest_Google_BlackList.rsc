@@ -7,6 +7,7 @@ add address-list=BlackList forward-to=Google comment=speedtest match-subdomain=y
 add address-list=BlackList forward-to=Google comment=speedtest match-subdomain=yes type=FWD name=ookla.com
 add address-list=BlackList forward-to=Google comment=speedtest match-subdomain=yes type=FWD name=ooklaserver.net
 add address-list=BlackList forward-to=Google comment=speedtest match-subdomain=yes type=FWD name=pingtest.net
+add address-list=BlackList forward-to=Google comment=speedtest match-subdomain=yes type=FWD name=speedtest.co
 add address-list=BlackList forward-to=Google comment=speedtest match-subdomain=yes type=FWD name=speedtest.net
 add address-list=BlackList forward-to=Google comment=speedtest match-subdomain=yes type=FWD name=speedtestcustom.com
 add address-list=BlackList forward-to=Google comment=speedtest match-subdomain=yes type=FWD name=webtest.net

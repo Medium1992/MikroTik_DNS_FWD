@@ -236,6 +236,7 @@ add address-list=BlackList forward-to=Google comment=facebook match-subdomain=ye
 add address-list=BlackList forward-to=Google comment=facebook match-subdomain=yes type=FWD name=facesounds.com
 add address-list=BlackList forward-to=Google comment=facebook match-subdomain=yes type=FWD name=facetook.com
 add address-list=BlackList forward-to=Google comment=facebook match-subdomain=yes type=FWD name=facevbook.com
+add address-list=BlackList forward-to=Google comment=facebook match-subdomain=yes type=FWD name=facewbook.co
 add address-list=BlackList forward-to=Google comment=facebook match-subdomain=yes type=FWD name=facewook.com
 add address-list=BlackList forward-to=Google comment=facebook match-subdomain=yes type=FWD name=facfacebook.com
 add address-list=BlackList forward-to=Google comment=facebook match-subdomain=yes type=FWD name=facfebook.com

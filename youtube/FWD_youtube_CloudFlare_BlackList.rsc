@@ -9,9 +9,13 @@ add address-list=BlackList forward-to=CloudFlare comment=youtube match-subdomain
 add address-list=BlackList forward-to=CloudFlare comment=youtube match-subdomain=yes type=FWD name=youtube-nocookie.com
 add address-list=BlackList forward-to=CloudFlare comment=youtube match-subdomain=yes type=FWD name=youtube-ui.l.google.com
 add address-list=BlackList forward-to=CloudFlare comment=youtube match-subdomain=yes type=FWD name=youtube.be
+add address-list=BlackList forward-to=CloudFlare comment=youtube match-subdomain=yes type=FWD name=youtube.cat
+add address-list=BlackList forward-to=CloudFlare comment=youtube match-subdomain=yes type=FWD name=youtube.co
 add address-list=BlackList forward-to=CloudFlare comment=youtube match-subdomain=yes type=FWD name=youtube.com
+add address-list=BlackList forward-to=CloudFlare comment=youtube match-subdomain=yes type=FWD name=youtube.com.co
 add address-list=BlackList forward-to=CloudFlare comment=youtube match-subdomain=yes type=FWD name=youtube.googleapis.com
 add address-list=BlackList forward-to=CloudFlare comment=youtube match-subdomain=yes type=FWD name=youtube.ru
+add address-list=BlackList forward-to=CloudFlare comment=youtube match-subdomain=yes type=FWD name=youtube.soy
 add address-list=BlackList forward-to=CloudFlare comment=youtube match-subdomain=yes type=FWD name=youtube.tv
 add address-list=BlackList forward-to=CloudFlare comment=youtube match-subdomain=yes type=FWD name=youtubeeducation.com
 add address-list=BlackList forward-to=CloudFlare comment=youtube match-subdomain=yes type=FWD name=youtubeembeddedplayer.googleapis.com

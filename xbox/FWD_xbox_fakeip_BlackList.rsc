@@ -24,9 +24,11 @@ add forward-to=fakeip comment=xbox match-subdomain=yes type=FWD name=orithegame.
 add forward-to=fakeip comment=xbox match-subdomain=yes type=FWD name=renovacionxboxlive.com
 add forward-to=fakeip comment=xbox match-subdomain=yes type=FWD name=tellmewhygame.com
 add forward-to=fakeip comment=xbox match-subdomain=yes type=FWD name=xbox
+add forward-to=fakeip comment=xbox match-subdomain=yes type=FWD name=xbox.co
 add forward-to=fakeip comment=xbox match-subdomain=yes type=FWD name=xbox.com
 add forward-to=fakeip comment=xbox match-subdomain=yes type=FWD name=xbox.eu
 add forward-to=fakeip comment=xbox match-subdomain=yes type=FWD name=xbox.org
+add forward-to=fakeip comment=xbox match-subdomain=yes type=FWD name=xbox360.co
 add forward-to=fakeip comment=xbox match-subdomain=yes type=FWD name=xbox360.com
 add forward-to=fakeip comment=xbox match-subdomain=yes type=FWD name=xbox360.eu
 add forward-to=fakeip comment=xbox match-subdomain=yes type=FWD name=xbox360.org
@@ -34,6 +36,7 @@ add forward-to=fakeip comment=xbox match-subdomain=yes type=FWD name=xboxab.com
 add forward-to=fakeip comment=xbox match-subdomain=yes type=FWD name=xboxgamepass.com
 add forward-to=fakeip comment=xbox match-subdomain=yes type=FWD name=xboxgamestudios.com
 add forward-to=fakeip comment=xbox match-subdomain=yes type=FWD name=xboxlive.com
+add forward-to=fakeip comment=xbox match-subdomain=yes type=FWD name=xboxone.co
 add forward-to=fakeip comment=xbox match-subdomain=yes type=FWD name=xboxone.com
 add forward-to=fakeip comment=xbox match-subdomain=yes type=FWD name=xboxone.eu
 add forward-to=fakeip comment=xbox match-subdomain=yes type=FWD name=xboxplayanywhere.com

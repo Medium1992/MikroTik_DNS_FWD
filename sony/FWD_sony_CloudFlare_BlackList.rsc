@@ -18,6 +18,7 @@ add address-list=BlackList forward-to=CloudFlare comment=sony match-subdomain=ye
 add address-list=BlackList forward-to=CloudFlare comment=sony match-subdomain=yes type=FWD name=sony.be
 add address-list=BlackList forward-to=CloudFlare comment=sony match-subdomain=yes type=FWD name=sony.biz
 add address-list=BlackList forward-to=CloudFlare comment=sony match-subdomain=yes type=FWD name=sony.com
+add address-list=BlackList forward-to=CloudFlare comment=sony match-subdomain=yes type=FWD name=sony.com.co
 add address-list=BlackList forward-to=CloudFlare comment=sony match-subdomain=yes type=FWD name=sony.eu
 add address-list=BlackList forward-to=CloudFlare comment=sony match-subdomain=yes type=FWD name=sony.net
 add address-list=BlackList forward-to=CloudFlare comment=sony match-subdomain=yes type=FWD name=sony.ru

@@ -24,9 +24,11 @@ add address-list=BlackList forward-to=OwnDNS comment=xbox match-subdomain=yes ty
 add address-list=BlackList forward-to=OwnDNS comment=xbox match-subdomain=yes type=FWD name=renovacionxboxlive.com
 add address-list=BlackList forward-to=OwnDNS comment=xbox match-subdomain=yes type=FWD name=tellmewhygame.com
 add address-list=BlackList forward-to=OwnDNS comment=xbox match-subdomain=yes type=FWD name=xbox
+add address-list=BlackList forward-to=OwnDNS comment=xbox match-subdomain=yes type=FWD name=xbox.co
 add address-list=BlackList forward-to=OwnDNS comment=xbox match-subdomain=yes type=FWD name=xbox.com
 add address-list=BlackList forward-to=OwnDNS comment=xbox match-subdomain=yes type=FWD name=xbox.eu
 add address-list=BlackList forward-to=OwnDNS comment=xbox match-subdomain=yes type=FWD name=xbox.org
+add address-list=BlackList forward-to=OwnDNS comment=xbox match-subdomain=yes type=FWD name=xbox360.co
 add address-list=BlackList forward-to=OwnDNS comment=xbox match-subdomain=yes type=FWD name=xbox360.com
 add address-list=BlackList forward-to=OwnDNS comment=xbox match-subdomain=yes type=FWD name=xbox360.eu
 add address-list=BlackList forward-to=OwnDNS comment=xbox match-subdomain=yes type=FWD name=xbox360.org
@@ -34,6 +36,7 @@ add address-list=BlackList forward-to=OwnDNS comment=xbox match-subdomain=yes ty
 add address-list=BlackList forward-to=OwnDNS comment=xbox match-subdomain=yes type=FWD name=xboxgamepass.com
 add address-list=BlackList forward-to=OwnDNS comment=xbox match-subdomain=yes type=FWD name=xboxgamestudios.com
 add address-list=BlackList forward-to=OwnDNS comment=xbox match-subdomain=yes type=FWD name=xboxlive.com
+add address-list=BlackList forward-to=OwnDNS comment=xbox match-subdomain=yes type=FWD name=xboxone.co
 add address-list=BlackList forward-to=OwnDNS comment=xbox match-subdomain=yes type=FWD name=xboxone.com
 add address-list=BlackList forward-to=OwnDNS comment=xbox match-subdomain=yes type=FWD name=xboxone.eu
 add address-list=BlackList forward-to=OwnDNS comment=xbox match-subdomain=yes type=FWD name=xboxplayanywhere.com

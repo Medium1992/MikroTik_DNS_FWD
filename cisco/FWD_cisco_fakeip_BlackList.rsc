@@ -49,6 +49,7 @@ add forward-to=fakeip comment=cisco match-subdomain=yes type=FWD name=cloupia.co
 add forward-to=fakeip comment=cisco match-subdomain=yes type=FWD name=cloupia.net
 add forward-to=fakeip comment=cisco match-subdomain=yes type=FWD name=connect-in-canada.com
 add forward-to=fakeip comment=cisco match-subdomain=yes type=FWD name=coreoptics.net
+add forward-to=fakeip comment=cisco match-subdomain=yes type=FWD name=cs.co
 add forward-to=fakeip comment=cisco match-subdomain=yes type=FWD name=devm2m.com
 add forward-to=fakeip comment=cisco match-subdomain=yes type=FWD name=dnaspaces.io
 add forward-to=fakeip comment=cisco match-subdomain=yes type=FWD name=flipshare.com

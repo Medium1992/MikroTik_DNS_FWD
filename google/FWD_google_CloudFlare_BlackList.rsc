@@ -149,7 +149,9 @@ add address-list=BlackList forward-to=CloudFlare comment=google type=FWD name=sa
 add address-list=BlackList forward-to=CloudFlare comment=google type=FWD name=safebrowsing.googleapis.com
 add address-list=BlackList forward-to=CloudFlare comment=google type=FWD name=scanservice1.qcpp1.net
 add address-list=BlackList forward-to=CloudFlare comment=google type=FWD name=scholar.google.be
+add address-list=BlackList forward-to=CloudFlare comment=google type=FWD name=scholar.google.cat
 add address-list=BlackList forward-to=CloudFlare comment=google type=FWD name=scholar.google.com
+add address-list=BlackList forward-to=CloudFlare comment=google type=FWD name=scholar.google.com.co
 add address-list=BlackList forward-to=CloudFlare comment=google type=FWD name=scholar.google.li
 add address-list=BlackList forward-to=CloudFlare comment=google type=FWD name=scholar.google.ru
 add address-list=BlackList forward-to=CloudFlare comment=google type=FWD name=scholar.googleusercontent.com
@@ -233,6 +235,7 @@ add address-list=BlackList forward-to=CloudFlare comment=google match-subdomain=
 add address-list=BlackList forward-to=CloudFlare comment=google match-subdomain=yes type=FWD name=blogspot.bj
 add address-list=BlackList forward-to=CloudFlare comment=google match-subdomain=yes type=FWD name=blogspot.cf
 add address-list=BlackList forward-to=CloudFlare comment=google match-subdomain=yes type=FWD name=blogspot.com
+add address-list=BlackList forward-to=CloudFlare comment=google match-subdomain=yes type=FWD name=blogspot.com.co
 add address-list=BlackList forward-to=CloudFlare comment=google match-subdomain=yes type=FWD name=blogspot.com.cy
 add address-list=BlackList forward-to=CloudFlare comment=google match-subdomain=yes type=FWD name=blogspot.cv
 add address-list=BlackList forward-to=CloudFlare comment=google match-subdomain=yes type=FWD name=blogspot.li
@@ -306,6 +309,7 @@ add address-list=BlackList forward-to=CloudFlare comment=google match-subdomain=
 add address-list=BlackList forward-to=CloudFlare comment=google match-subdomain=yes type=FWD name=froogle.com
 add address-list=BlackList forward-to=CloudFlare comment=google match-subdomain=yes type=FWD name=fuchsia.dev
 add address-list=BlackList forward-to=CloudFlare comment=google match-subdomain=yes type=FWD name=g-tun.com
+add address-list=BlackList forward-to=CloudFlare comment=google match-subdomain=yes type=FWD name=g.co
 add address-list=BlackList forward-to=CloudFlare comment=google match-subdomain=yes type=FWD name=g.dev
 add address-list=BlackList forward-to=CloudFlare comment=google match-subdomain=yes type=FWD name=g.page
 add address-list=BlackList forward-to=CloudFlare comment=google match-subdomain=yes type=FWD name=gateway.dev
@@ -355,9 +359,11 @@ add address-list=BlackList forward-to=CloudFlare comment=google match-subdomain=
 add address-list=BlackList forward-to=CloudFlare comment=google match-subdomain=yes type=FWD name=google.bf
 add address-list=BlackList forward-to=CloudFlare comment=google match-subdomain=yes type=FWD name=google.bj
 add address-list=BlackList forward-to=CloudFlare comment=google match-subdomain=yes type=FWD name=google.bt
+add address-list=BlackList forward-to=CloudFlare comment=google match-subdomain=yes type=FWD name=google.cat
 add address-list=BlackList forward-to=CloudFlare comment=google match-subdomain=yes type=FWD name=google.cd
 add address-list=BlackList forward-to=CloudFlare comment=google match-subdomain=yes type=FWD name=google.cf
 add address-list=BlackList forward-to=CloudFlare comment=google match-subdomain=yes type=FWD name=google.ci
+add address-list=BlackList forward-to=CloudFlare comment=google match-subdomain=yes type=FWD name=google.co
 add address-list=BlackList forward-to=CloudFlare comment=google match-subdomain=yes type=FWD name=google.co.ao
 add address-list=BlackList forward-to=CloudFlare comment=google match-subdomain=yes type=FWD name=google.co.bw
 add address-list=BlackList forward-to=CloudFlare comment=google match-subdomain=yes type=FWD name=google.co.ck
@@ -368,6 +374,7 @@ add address-list=BlackList forward-to=CloudFlare comment=google match-subdomain=
 add address-list=BlackList forward-to=CloudFlare comment=google match-subdomain=yes type=FWD name=google.com
 add address-list=BlackList forward-to=CloudFlare comment=google match-subdomain=yes type=FWD name=google.com.bn
 add address-list=BlackList forward-to=CloudFlare comment=google match-subdomain=yes type=FWD name=google.com.bz
+add address-list=BlackList forward-to=CloudFlare comment=google match-subdomain=yes type=FWD name=google.com.co
 add address-list=BlackList forward-to=CloudFlare comment=google match-subdomain=yes type=FWD name=google.com.cy
 add address-list=BlackList forward-to=CloudFlare comment=google match-subdomain=yes type=FWD name=google.com.et
 add address-list=BlackList forward-to=CloudFlare comment=google match-subdomain=yes type=FWD name=google.com.fj
@@ -481,6 +488,7 @@ add address-list=BlackList forward-to=CloudFlare comment=google match-subdomain=
 add address-list=BlackList forward-to=CloudFlare comment=google match-subdomain=yes type=FWD name=hindiweb.com
 add address-list=BlackList forward-to=CloudFlare comment=google match-subdomain=yes type=FWD name=html5rocks.com
 add address-list=BlackList forward-to=CloudFlare comment=google match-subdomain=yes type=FWD name=hwgo.com
+add address-list=BlackList forward-to=CloudFlare comment=google match-subdomain=yes type=FWD name=iam.soy
 add address-list=BlackList forward-to=CloudFlare comment=google match-subdomain=yes type=FWD name=iamremarkable.org
 add address-list=BlackList forward-to=CloudFlare comment=google match-subdomain=yes type=FWD name=idx.dev
 add address-list=BlackList forward-to=CloudFlare comment=google match-subdomain=yes type=FWD name=igoogle.com
@@ -617,12 +625,17 @@ add address-list=BlackList forward-to=CloudFlare comment=google match-subdomain=
 add address-list=BlackList forward-to=CloudFlare comment=google match-subdomain=yes type=FWD name=xn--ngstr-lra8j.com
 add address-list=BlackList forward-to=CloudFlare comment=google match-subdomain=yes type=FWD name=xn--p8j9a0d9c9a.xn--q9jyb4c
 add address-list=BlackList forward-to=CloudFlare comment=google match-subdomain=yes type=FWD name=xn--qcka1pmc
+add address-list=BlackList forward-to=CloudFlare comment=google match-subdomain=yes type=FWD name=xplr.co
 add address-list=BlackList forward-to=CloudFlare comment=google match-subdomain=yes type=FWD name=youtu.be
 add address-list=BlackList forward-to=CloudFlare comment=google match-subdomain=yes type=FWD name=youtube
 add address-list=BlackList forward-to=CloudFlare comment=google match-subdomain=yes type=FWD name=youtube-nocookie.com
 add address-list=BlackList forward-to=CloudFlare comment=google match-subdomain=yes type=FWD name=youtube.be
+add address-list=BlackList forward-to=CloudFlare comment=google match-subdomain=yes type=FWD name=youtube.cat
+add address-list=BlackList forward-to=CloudFlare comment=google match-subdomain=yes type=FWD name=youtube.co
 add address-list=BlackList forward-to=CloudFlare comment=google match-subdomain=yes type=FWD name=youtube.com
+add address-list=BlackList forward-to=CloudFlare comment=google match-subdomain=yes type=FWD name=youtube.com.co
 add address-list=BlackList forward-to=CloudFlare comment=google match-subdomain=yes type=FWD name=youtube.ru
+add address-list=BlackList forward-to=CloudFlare comment=google match-subdomain=yes type=FWD name=youtube.soy
 add address-list=BlackList forward-to=CloudFlare comment=google match-subdomain=yes type=FWD name=youtube.tv
 add address-list=BlackList forward-to=CloudFlare comment=google match-subdomain=yes type=FWD name=youtubeeducation.com
 add address-list=BlackList forward-to=CloudFlare comment=google match-subdomain=yes type=FWD name=youtubefanfest.com

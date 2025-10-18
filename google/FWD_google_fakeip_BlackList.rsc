@@ -149,7 +149,9 @@ add forward-to=fakeip comment=google type=FWD name=safebrowsing-cache.google.com
 add forward-to=fakeip comment=google type=FWD name=safebrowsing.googleapis.com
 add forward-to=fakeip comment=google type=FWD name=scanservice1.qcpp1.net
 add forward-to=fakeip comment=google type=FWD name=scholar.google.be
+add forward-to=fakeip comment=google type=FWD name=scholar.google.cat
 add forward-to=fakeip comment=google type=FWD name=scholar.google.com
+add forward-to=fakeip comment=google type=FWD name=scholar.google.com.co
 add forward-to=fakeip comment=google type=FWD name=scholar.google.li
 add forward-to=fakeip comment=google type=FWD name=scholar.google.ru
 add forward-to=fakeip comment=google type=FWD name=scholar.googleusercontent.com
@@ -233,6 +235,7 @@ add forward-to=fakeip comment=google match-subdomain=yes type=FWD name=blogspot.
 add forward-to=fakeip comment=google match-subdomain=yes type=FWD name=blogspot.bj
 add forward-to=fakeip comment=google match-subdomain=yes type=FWD name=blogspot.cf
 add forward-to=fakeip comment=google match-subdomain=yes type=FWD name=blogspot.com
+add forward-to=fakeip comment=google match-subdomain=yes type=FWD name=blogspot.com.co
 add forward-to=fakeip comment=google match-subdomain=yes type=FWD name=blogspot.com.cy
 add forward-to=fakeip comment=google match-subdomain=yes type=FWD name=blogspot.cv
 add forward-to=fakeip comment=google match-subdomain=yes type=FWD name=blogspot.li
@@ -306,6 +309,7 @@ add forward-to=fakeip comment=google match-subdomain=yes type=FWD name=foofle.co
 add forward-to=fakeip comment=google match-subdomain=yes type=FWD name=froogle.com
 add forward-to=fakeip comment=google match-subdomain=yes type=FWD name=fuchsia.dev
 add forward-to=fakeip comment=google match-subdomain=yes type=FWD name=g-tun.com
+add forward-to=fakeip comment=google match-subdomain=yes type=FWD name=g.co
 add forward-to=fakeip comment=google match-subdomain=yes type=FWD name=g.dev
 add forward-to=fakeip comment=google match-subdomain=yes type=FWD name=g.page
 add forward-to=fakeip comment=google match-subdomain=yes type=FWD name=gateway.dev
@@ -355,9 +359,11 @@ add forward-to=fakeip comment=google match-subdomain=yes type=FWD name=google.be
 add forward-to=fakeip comment=google match-subdomain=yes type=FWD name=google.bf
 add forward-to=fakeip comment=google match-subdomain=yes type=FWD name=google.bj
 add forward-to=fakeip comment=google match-subdomain=yes type=FWD name=google.bt
+add forward-to=fakeip comment=google match-subdomain=yes type=FWD name=google.cat
 add forward-to=fakeip comment=google match-subdomain=yes type=FWD name=google.cd
 add forward-to=fakeip comment=google match-subdomain=yes type=FWD name=google.cf
 add forward-to=fakeip comment=google match-subdomain=yes type=FWD name=google.ci
+add forward-to=fakeip comment=google match-subdomain=yes type=FWD name=google.co
 add forward-to=fakeip comment=google match-subdomain=yes type=FWD name=google.co.ao
 add forward-to=fakeip comment=google match-subdomain=yes type=FWD name=google.co.bw
 add forward-to=fakeip comment=google match-subdomain=yes type=FWD name=google.co.ck
@@ -368,6 +374,7 @@ add forward-to=fakeip comment=google match-subdomain=yes type=FWD name=google.co
 add forward-to=fakeip comment=google match-subdomain=yes type=FWD name=google.com
 add forward-to=fakeip comment=google match-subdomain=yes type=FWD name=google.com.bn
 add forward-to=fakeip comment=google match-subdomain=yes type=FWD name=google.com.bz
+add forward-to=fakeip comment=google match-subdomain=yes type=FWD name=google.com.co
 add forward-to=fakeip comment=google match-subdomain=yes type=FWD name=google.com.cy
 add forward-to=fakeip comment=google match-subdomain=yes type=FWD name=google.com.et
 add forward-to=fakeip comment=google match-subdomain=yes type=FWD name=google.com.fj
@@ -481,6 +488,7 @@ add forward-to=fakeip comment=google match-subdomain=yes type=FWD name=hey.boo
 add forward-to=fakeip comment=google match-subdomain=yes type=FWD name=hindiweb.com
 add forward-to=fakeip comment=google match-subdomain=yes type=FWD name=html5rocks.com
 add forward-to=fakeip comment=google match-subdomain=yes type=FWD name=hwgo.com
+add forward-to=fakeip comment=google match-subdomain=yes type=FWD name=iam.soy
 add forward-to=fakeip comment=google match-subdomain=yes type=FWD name=iamremarkable.org
 add forward-to=fakeip comment=google match-subdomain=yes type=FWD name=idx.dev
 add forward-to=fakeip comment=google match-subdomain=yes type=FWD name=igoogle.com
@@ -617,12 +625,17 @@ add forward-to=fakeip comment=google match-subdomain=yes type=FWD name=xn--gogl-
 add forward-to=fakeip comment=google match-subdomain=yes type=FWD name=xn--ngstr-lra8j.com
 add forward-to=fakeip comment=google match-subdomain=yes type=FWD name=xn--p8j9a0d9c9a.xn--q9jyb4c
 add forward-to=fakeip comment=google match-subdomain=yes type=FWD name=xn--qcka1pmc
+add forward-to=fakeip comment=google match-subdomain=yes type=FWD name=xplr.co
 add forward-to=fakeip comment=google match-subdomain=yes type=FWD name=youtu.be
 add forward-to=fakeip comment=google match-subdomain=yes type=FWD name=youtube
 add forward-to=fakeip comment=google match-subdomain=yes type=FWD name=youtube-nocookie.com
 add forward-to=fakeip comment=google match-subdomain=yes type=FWD name=youtube.be
+add forward-to=fakeip comment=google match-subdomain=yes type=FWD name=youtube.cat
+add forward-to=fakeip comment=google match-subdomain=yes type=FWD name=youtube.co
 add forward-to=fakeip comment=google match-subdomain=yes type=FWD name=youtube.com
+add forward-to=fakeip comment=google match-subdomain=yes type=FWD name=youtube.com.co
 add forward-to=fakeip comment=google match-subdomain=yes type=FWD name=youtube.ru
+add forward-to=fakeip comment=google match-subdomain=yes type=FWD name=youtube.soy
 add forward-to=fakeip comment=google match-subdomain=yes type=FWD name=youtube.tv
 add forward-to=fakeip comment=google match-subdomain=yes type=FWD name=youtubeeducation.com
 add forward-to=fakeip comment=google match-subdomain=yes type=FWD name=youtubefanfest.com

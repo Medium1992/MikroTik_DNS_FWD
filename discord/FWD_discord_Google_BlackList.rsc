@@ -5,6 +5,7 @@ add address-list=BlackList forward-to=Google comment=discord match-subdomain=yes
 add address-list=BlackList forward-to=Google comment=discord match-subdomain=yes type=FWD name=airhornbot.com
 add address-list=BlackList forward-to=Google comment=discord match-subdomain=yes type=FWD name=bigbeans.solutions
 add address-list=BlackList forward-to=Google comment=discord match-subdomain=yes type=FWD name=discord-activities.com
+add address-list=BlackList forward-to=Google comment=discord match-subdomain=yes type=FWD name=discord.co
 add address-list=BlackList forward-to=Google comment=discord match-subdomain=yes type=FWD name=discord.com
 add address-list=BlackList forward-to=Google comment=discord match-subdomain=yes type=FWD name=discord.design
 add address-list=BlackList forward-to=Google comment=discord match-subdomain=yes type=FWD name=discord.dev

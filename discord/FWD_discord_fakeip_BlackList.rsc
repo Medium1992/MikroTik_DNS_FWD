@@ -5,6 +5,7 @@ add forward-to=fakeip comment=discord match-subdomain=yes type=FWD name=airhorn.
 add forward-to=fakeip comment=discord match-subdomain=yes type=FWD name=airhornbot.com
 add forward-to=fakeip comment=discord match-subdomain=yes type=FWD name=bigbeans.solutions
 add forward-to=fakeip comment=discord match-subdomain=yes type=FWD name=discord-activities.com
+add forward-to=fakeip comment=discord match-subdomain=yes type=FWD name=discord.co
 add forward-to=fakeip comment=discord match-subdomain=yes type=FWD name=discord.com
 add forward-to=fakeip comment=discord match-subdomain=yes type=FWD name=discord.design
 add forward-to=fakeip comment=discord match-subdomain=yes type=FWD name=discord.dev

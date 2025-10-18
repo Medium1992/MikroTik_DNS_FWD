@@ -44,6 +44,7 @@ add forward-to=fakeip comment=dell match-subdomain=yes type=FWD name=dell.co.vi
 add forward-to=fakeip comment=dell match-subdomain=yes type=FWD name=dell.com
 add forward-to=fakeip comment=dell match-subdomain=yes type=FWD name=dell.com.bb
 add forward-to=fakeip comment=dell match-subdomain=yes type=FWD name=dell.com.bz
+add forward-to=fakeip comment=dell match-subdomain=yes type=FWD name=dell.com.co
 add forward-to=fakeip comment=dell match-subdomain=yes type=FWD name=dell.com.cy
 add forward-to=fakeip comment=dell match-subdomain=yes type=FWD name=dell.com.dm
 add forward-to=fakeip comment=dell match-subdomain=yes type=FWD name=dell.com.kn

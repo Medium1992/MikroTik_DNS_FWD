@@ -245,6 +245,7 @@ add forward-to=fakeip comment=microsoft match-subdomain=yes type=FWD name=gotcos
 add forward-to=fakeip comment=microsoft match-subdomain=yes type=FWD name=graphengine.io
 add forward-to=fakeip comment=microsoft match-subdomain=yes type=FWD name=hololens.com
 add forward-to=fakeip comment=microsoft match-subdomain=yes type=FWD name=hotmail
+add forward-to=fakeip comment=microsoft match-subdomain=yes type=FWD name=hotmail.co
 add forward-to=fakeip comment=microsoft match-subdomain=yes type=FWD name=hotmail.com
 add forward-to=fakeip comment=microsoft match-subdomain=yes type=FWD name=hotmail.eu
 add forward-to=fakeip comment=microsoft match-subdomain=yes type=FWD name=hotmail.net
@@ -252,9 +253,11 @@ add forward-to=fakeip comment=microsoft match-subdomain=yes type=FWD name=hotmai
 add forward-to=fakeip comment=microsoft match-subdomain=yes type=FWD name=hummingbird.ms
 add forward-to=fakeip comment=microsoft match-subdomain=yes type=FWD name=ie10.com
 add forward-to=fakeip comment=microsoft match-subdomain=yes type=FWD name=ie11.com
+add forward-to=fakeip comment=microsoft match-subdomain=yes type=FWD name=ie8.co
 add forward-to=fakeip comment=microsoft match-subdomain=yes type=FWD name=ie9.com
 add forward-to=fakeip comment=microsoft match-subdomain=yes type=FWD name=ingads.com
 add forward-to=fakeip comment=microsoft match-subdomain=yes type=FWD name=insiderdevtour.com
+add forward-to=fakeip comment=microsoft match-subdomain=yes type=FWD name=internetexplorer.co
 add forward-to=fakeip comment=microsoft match-subdomain=yes type=FWD name=internetexplorer.com
 add forward-to=fakeip comment=microsoft match-subdomain=yes type=FWD name=intunewiki.com
 add forward-to=fakeip comment=microsoft match-subdomain=yes type=FWD name=iotinactionevents.com
@@ -287,6 +290,7 @@ add forward-to=fakeip comment=microsoft match-subdomain=yes type=FWD name=micros
 add forward-to=fakeip comment=microsoft match-subdomain=yes type=FWD name=microsoft-sap-events.com
 add forward-to=fakeip comment=microsoft match-subdomain=yes type=FWD name=microsoft-sbs-domains.com
 add forward-to=fakeip comment=microsoft match-subdomain=yes type=FWD name=microsoft.be
+add forward-to=fakeip comment=microsoft match-subdomain=yes type=FWD name=microsoft.cat
 add forward-to=fakeip comment=microsoft match-subdomain=yes type=FWD name=microsoft.com
 add forward-to=fakeip comment=microsoft match-subdomain=yes type=FWD name=microsoft.eu
 add forward-to=fakeip comment=microsoft match-subdomain=yes type=FWD name=microsoft.io
@@ -498,6 +502,7 @@ add forward-to=fakeip comment=microsoft match-subdomain=yes type=FWD name=vfsfor
 add forward-to=fakeip comment=microsoft match-subdomain=yes type=FWD name=videobreakdown.com
 add forward-to=fakeip comment=microsoft match-subdomain=yes type=FWD name=virtualearth.net
 add forward-to=fakeip comment=microsoft match-subdomain=yes type=FWD name=visualstudio-staging.com
+add forward-to=fakeip comment=microsoft match-subdomain=yes type=FWD name=visualstudio.co
 add forward-to=fakeip comment=microsoft match-subdomain=yes type=FWD name=visualstudio.com
 add forward-to=fakeip comment=microsoft match-subdomain=yes type=FWD name=visualstudio.eu
 add forward-to=fakeip comment=microsoft match-subdomain=yes type=FWD name=visualstudio.net
@@ -523,9 +528,11 @@ add forward-to=fakeip comment=microsoft match-subdomain=yes type=FWD name=winhec
 add forward-to=fakeip comment=microsoft match-subdomain=yes type=FWD name=winhec.net
 add forward-to=fakeip comment=microsoft match-subdomain=yes type=FWD name=xamarin.com
 add forward-to=fakeip comment=microsoft match-subdomain=yes type=FWD name=xbox
+add forward-to=fakeip comment=microsoft match-subdomain=yes type=FWD name=xbox.co
 add forward-to=fakeip comment=microsoft match-subdomain=yes type=FWD name=xbox.com
 add forward-to=fakeip comment=microsoft match-subdomain=yes type=FWD name=xbox.eu
 add forward-to=fakeip comment=microsoft match-subdomain=yes type=FWD name=xbox.org
+add forward-to=fakeip comment=microsoft match-subdomain=yes type=FWD name=xbox360.co
 add forward-to=fakeip comment=microsoft match-subdomain=yes type=FWD name=xbox360.com
 add forward-to=fakeip comment=microsoft match-subdomain=yes type=FWD name=xbox360.eu
 add forward-to=fakeip comment=microsoft match-subdomain=yes type=FWD name=xbox360.org
@@ -533,6 +540,7 @@ add forward-to=fakeip comment=microsoft match-subdomain=yes type=FWD name=xboxab
 add forward-to=fakeip comment=microsoft match-subdomain=yes type=FWD name=xboxgamepass.com
 add forward-to=fakeip comment=microsoft match-subdomain=yes type=FWD name=xboxgamestudios.com
 add forward-to=fakeip comment=microsoft match-subdomain=yes type=FWD name=xboxlive.com
+add forward-to=fakeip comment=microsoft match-subdomain=yes type=FWD name=xboxone.co
 add forward-to=fakeip comment=microsoft match-subdomain=yes type=FWD name=xboxone.com
 add forward-to=fakeip comment=microsoft match-subdomain=yes type=FWD name=xboxone.eu
 add forward-to=fakeip comment=microsoft match-subdomain=yes type=FWD name=xboxplayanywhere.com
