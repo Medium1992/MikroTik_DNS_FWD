@@ -94,9 +94,13 @@ jobs:
               # File without address-list
               output_file_without_al="for_scripts/for_scripts_without_AL_$resource.rsc"
               
-              # Initialize both files with header
-              echo "/ip dns static" > "$output_file_with_al"
-              echo "/ip dns static" > "$output_file_without_al"
+              # Initialize both files with global variable declarations and header
+              echo ":global AddressList" > "$output_file_with_al"
+              echo ":global ForwardTo" >> "$output_file_with_al"
+              echo "/ip dns static" >> "$output_file_with_al"
+              echo ":global AddressList" > "$output_file_without_al"
+              echo ":global ForwardTo" >> "$output_file_without_al"
+              echo "/ip dns static" >> "$output_file_without_al"
 
               # domain (match-subdomain=no)
               domains=$(jq -r '
