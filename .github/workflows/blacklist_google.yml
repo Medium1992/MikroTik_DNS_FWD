@@ -74,7 +74,7 @@ jobs:
 
                 if [ -n "$filtered_domains" ]; then
                   echo "$filtered_domains" | while read -r domain; do
-                    echo "add$ADDR_ARG forward-to=$FORWARD_TO comment=$resource type=FWD name=$domain" >> "$output_file"
+                    echo "add$ADDR_ARG forward-to=$TO comment=$resource type=FWD name=$domain" >> "$output_file"
                   done
                 fi
 
@@ -95,7 +95,7 @@ jobs:
 
                 if [ -n "$filtered_suffixes" ]; then
                   echo "$filtered_suffixes" | while read -r domain_suffix; do
-                    echo "add$ADDR_ARG forward-to=$FORWARD_TO comment=$resource match-subdomain=yes type=FWD name=$domain_suffix" >> "$output_file"
+                    echo "add$ADDR_ARG forward-to=$TO comment=$resource match-subdomain=yes type=FWD name=$domain_suffix" >> "$output_file"
                   done
                 fi
 
@@ -117,7 +117,7 @@ jobs:
                       s/ /\\_/g;        # пробел → \_
                       s/\?/\\?/g;       # ? → \?
                     ')
-                    echo "add$ADDR_ARG forward-to=$FORWARD_TO comment=$resource type=FWD regexp=\"$escaped_regex\"" >> "$output_file"
+                    echo "add$ADDR_ARG forward-to=$TO comment=$resource type=FWD regexp=\"$escaped_regex\"" >> "$output_file"
                   done
                 fi
             done
