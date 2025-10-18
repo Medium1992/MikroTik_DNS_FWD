@@ -95,13 +95,10 @@ add address-list=BlackList forward-to=Google comment=facebook match-subdomain=ye
 add address-list=BlackList forward-to=Google comment=facebook match-subdomain=yes type=FWD name=facebook.cc
 add address-list=BlackList forward-to=Google comment=facebook match-subdomain=yes type=FWD name=facebook.com
 add address-list=BlackList forward-to=Google comment=facebook match-subdomain=yes type=FWD name=facebook.design
-add address-list=BlackList forward-to=Google comment=facebook match-subdomain=yes type=FWD name=facebook.hu
 add address-list=BlackList forward-to=Google comment=facebook match-subdomain=yes type=FWD name=facebook.net
-add address-list=BlackList forward-to=Google comment=facebook match-subdomain=yes type=FWD name=facebook.nl
 add address-list=BlackList forward-to=Google comment=facebook match-subdomain=yes type=FWD name=facebook.org
 add address-list=BlackList forward-to=Google comment=facebook match-subdomain=yes type=FWD name=facebook.se
 add address-list=BlackList forward-to=Google comment=facebook match-subdomain=yes type=FWD name=facebook.shop
-add address-list=BlackList forward-to=Google comment=facebook match-subdomain=yes type=FWD name=facebook.tv
 add address-list=BlackList forward-to=Google comment=facebook match-subdomain=yes type=FWD name=facebook.us
 add address-list=BlackList forward-to=Google comment=facebook match-subdomain=yes type=FWD name=facebook.wang
 add address-list=BlackList forward-to=Google comment=facebook match-subdomain=yes type=FWD name=facebook123.org
@@ -154,7 +151,6 @@ add address-list=BlackList forward-to=Google comment=facebook match-subdomain=ye
 add address-list=BlackList forward-to=Google comment=facebook match-subdomain=yes type=FWD name=facebookloginhelp.net
 add address-list=BlackList forward-to=Google comment=facebook match-subdomain=yes type=FWD name=facebooklogs.com
 add address-list=BlackList forward-to=Google comment=facebook match-subdomain=yes type=FWD name=facebookmail.com
-add address-list=BlackList forward-to=Google comment=facebook match-subdomain=yes type=FWD name=facebookmail.tv
 add address-list=BlackList forward-to=Google comment=facebook match-subdomain=yes type=FWD name=facebookmanager.info
 add address-list=BlackList forward-to=Google comment=facebook match-subdomain=yes type=FWD name=facebookmarketing.info
 add address-list=BlackList forward-to=Google comment=facebook match-subdomain=yes type=FWD name=facebookmarketingpartner.com
@@ -356,7 +352,6 @@ add address-list=BlackList forward-to=Google comment=facebook match-subdomain=ye
 add address-list=BlackList forward-to=Google comment=facebook match-subdomain=yes type=FWD name=i.org
 add address-list=BlackList forward-to=Google comment=facebook match-subdomain=yes type=FWD name=internet.org
 add address-list=BlackList forward-to=Google comment=facebook match-subdomain=yes type=FWD name=liverail.com
-add address-list=BlackList forward-to=Google comment=facebook match-subdomain=yes type=FWD name=liverail.tv
 add address-list=BlackList forward-to=Google comment=facebook match-subdomain=yes type=FWD name=login-account.net
 add address-list=BlackList forward-to=Google comment=facebook match-subdomain=yes type=FWD name=markzuckerberg.com
 add address-list=BlackList forward-to=Google comment=facebook match-subdomain=yes type=FWD name=midentsolutions.com
