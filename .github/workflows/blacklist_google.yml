@@ -62,7 +62,7 @@ jobs:
               .rules[]? 
               | (.domain // empty)
               | if type=="string" then . else .[] end
-            ' "input_$resource.json" | sort -u)
+            ' "input_$resource.json" 2>/dev/null || true | sort -u)
             
             if [ -n "$domains" ]; then
               echo "$domains" | while IFS= read -r domain; do
@@ -78,7 +78,7 @@ jobs:
               .rules[]?
               | (.domain_suffix // empty)
               | if type=="string" then . else .[] end
-            ' "input_$resource.json" | sort -u)
+            ' "input_$resource.json" 2>/dev/null || true | sort -u)
             
             if [ -n "$suffixes" ]; then
               echo "$suffixes" | while IFS= read -r domain_suffix; do
@@ -94,7 +94,7 @@ jobs:
               .rules[]?
               | (.domain_regex // empty)
               | if type=="string" then . else .[] end
-            ' "input_$resource.json" | sort -u)
+            ' "input_$resource.json" 2>/dev/null || true | sort -u)
             
             if [ -n "$regex_list" ]; then
               echo "$regex_list" | while IFS= read -r regex; do
