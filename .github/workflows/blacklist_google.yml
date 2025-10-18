@@ -10,7 +10,7 @@ permissions:
 
 env:
   RESOURCES: openai,youtube,facebook,instagram,meta,oculus,intel,netflix,adobe,twitch
-  FORWARD_TO: Google
+  FORWARD_TO: Google,CloudFlare
   ADDRESS_LIST: BlackList
   JSON_URL_TEMPLATE: https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/refs/heads/sing/geo/geosite/{resource}.json
 
