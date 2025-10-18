@@ -1,8 +1,8 @@
-name: Generate MikroTik BlackList RSC Files
+name: Generate MikroTik BlackList_EU RSC Files
 
 on:
   schedule:
-    - cron: "0 0 * * *"    # ежедневно в 00:00
+    - cron: "20 0 * * *"    # ежедневно в 00:20
   workflow_dispatch:
 
 permissions:
@@ -10,15 +10,12 @@ permissions:
 
 env:
   RESOURCES: "autodesk, \
-    apple-tvplus, \
-    akamai, \
-    cloudflare, \
     dell, \
     cisco, \
     openai, \
     xai, \
+    netflix, \
     tidal, \
-    google, \
     google-gemini, \
     tmdb, \
     spotify, \
@@ -26,36 +23,16 @@ env:
     atlassian, \
     ubiquiti, \
     microsoft-dev, \
-    github, \
     microsoft, \
-    riot, \
-    steam, \
     sony, \
-    speedtest, \
     oracle, \
     samsung, \
     lg, \
     slack, \
-    discord, \
     notion, \
-    supercell, \
-    telegram, \
     xbox, \
-    kinopub, \
-    rutracker, \
-    linkedin, \
-    adguard, \
-    whatsapp, \
-    twitter, \
-    youtube, \
-    facebook, \
-    instagram, \
-    meta, \
-    oculus, \
     intel, \
-    netflix, \
     pornhub, \
-    xhamster, \
     adobe, \
     twitch"
 
@@ -63,9 +40,9 @@ env:
     CloudFlare, \
     Quad9, \
     OwnDNS, \
-    fakeip"
+    fakeipEU"
 
-  ADDRESS_LIST: BlackList
+  ADDRESS_LIST: BlackList_EU
 
   JSON_URL_TEMPLATE: https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/refs/heads/sing/geo/geosite/{resource}.json
 
