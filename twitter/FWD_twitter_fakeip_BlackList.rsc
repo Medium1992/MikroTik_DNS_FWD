@@ -1,0 +1,22 @@
+/ip dns static
+add forward-to=fakeip comment=twitter match-subdomain=yes type=FWD name=ads-twitter.com
+add forward-to=fakeip comment=twitter match-subdomain=yes type=FWD name=cms-twdigitalassets.com
+add forward-to=fakeip comment=twitter match-subdomain=yes type=FWD name=periscope.tv
+add forward-to=fakeip comment=twitter match-subdomain=yes type=FWD name=pscp.tv
+add forward-to=fakeip comment=twitter match-subdomain=yes type=FWD name=tellapart.com
+add forward-to=fakeip comment=twitter match-subdomain=yes type=FWD name=tweetdeck.com
+add forward-to=fakeip comment=twitter match-subdomain=yes type=FWD name=twimg.com
+add forward-to=fakeip comment=twitter match-subdomain=yes type=FWD name=twitpic.com
+add forward-to=fakeip comment=twitter match-subdomain=yes type=FWD name=twitter.biz
+add forward-to=fakeip comment=twitter match-subdomain=yes type=FWD name=twitter.com
+add forward-to=fakeip comment=twitter match-subdomain=yes type=FWD name=twitter.map.fastly.net
+add forward-to=fakeip comment=twitter match-subdomain=yes type=FWD name=twittercommunity.com
+add forward-to=fakeip comment=twitter match-subdomain=yes type=FWD name=twitterflightschool.com
+add forward-to=fakeip comment=twitter match-subdomain=yes type=FWD name=twitterinc.com
+add forward-to=fakeip comment=twitter match-subdomain=yes type=FWD name=twitteroauth.com
+add forward-to=fakeip comment=twitter match-subdomain=yes type=FWD name=twitterstat.us
+add forward-to=fakeip comment=twitter match-subdomain=yes type=FWD name=twtrdns.net
+add forward-to=fakeip comment=twitter match-subdomain=yes type=FWD name=twttr.com
+add forward-to=fakeip comment=twitter match-subdomain=yes type=FWD name=twttr.net
+add forward-to=fakeip comment=twitter match-subdomain=yes type=FWD name=twvid.com
+add forward-to=fakeip comment=twitter match-subdomain=yes type=FWD name=x.com

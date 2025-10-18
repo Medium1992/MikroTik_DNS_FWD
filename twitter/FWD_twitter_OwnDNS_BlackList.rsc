@@ -1,0 +1,22 @@
+/ip dns static
+add address-list=BlackList forward-to=OwnDNS comment=twitter match-subdomain=yes type=FWD name=ads-twitter.com
+add address-list=BlackList forward-to=OwnDNS comment=twitter match-subdomain=yes type=FWD name=cms-twdigitalassets.com
+add address-list=BlackList forward-to=OwnDNS comment=twitter match-subdomain=yes type=FWD name=periscope.tv
+add address-list=BlackList forward-to=OwnDNS comment=twitter match-subdomain=yes type=FWD name=pscp.tv
+add address-list=BlackList forward-to=OwnDNS comment=twitter match-subdomain=yes type=FWD name=tellapart.com
+add address-list=BlackList forward-to=OwnDNS comment=twitter match-subdomain=yes type=FWD name=tweetdeck.com
+add address-list=BlackList forward-to=OwnDNS comment=twitter match-subdomain=yes type=FWD name=twimg.com
+add address-list=BlackList forward-to=OwnDNS comment=twitter match-subdomain=yes type=FWD name=twitpic.com
+add address-list=BlackList forward-to=OwnDNS comment=twitter match-subdomain=yes type=FWD name=twitter.biz
+add address-list=BlackList forward-to=OwnDNS comment=twitter match-subdomain=yes type=FWD name=twitter.com
+add address-list=BlackList forward-to=OwnDNS comment=twitter match-subdomain=yes type=FWD name=twitter.map.fastly.net
+add address-list=BlackList forward-to=OwnDNS comment=twitter match-subdomain=yes type=FWD name=twittercommunity.com
+add address-list=BlackList forward-to=OwnDNS comment=twitter match-subdomain=yes type=FWD name=twitterflightschool.com
+add address-list=BlackList forward-to=OwnDNS comment=twitter match-subdomain=yes type=FWD name=twitterinc.com
+add address-list=BlackList forward-to=OwnDNS comment=twitter match-subdomain=yes type=FWD name=twitteroauth.com
+add address-list=BlackList forward-to=OwnDNS comment=twitter match-subdomain=yes type=FWD name=twitterstat.us
+add address-list=BlackList forward-to=OwnDNS comment=twitter match-subdomain=yes type=FWD name=twtrdns.net
+add address-list=BlackList forward-to=OwnDNS comment=twitter match-subdomain=yes type=FWD name=twttr.com
+add address-list=BlackList forward-to=OwnDNS comment=twitter match-subdomain=yes type=FWD name=twttr.net
+add address-list=BlackList forward-to=OwnDNS comment=twitter match-subdomain=yes type=FWD name=twvid.com
+add address-list=BlackList forward-to=OwnDNS comment=twitter match-subdomain=yes type=FWD name=x.com
