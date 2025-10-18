@@ -9,33 +9,31 @@ permissions:
   contents: write
 
 env:
-  RESOURCES: |
-    autodesk
-    apple-tvplus
-    akamai
-    kinopub
-    rutracker
-    linkedin
-    adguard
-    whatsapp
-    twitter
-    openai
-    youtube
-    facebook
-    instagram
-    meta
-    oculus
-    intel
-    netflix
-    adobe
-    twitch
+  RESOURCES: "autodesk, \
+    apple-tvplus, \
+    akamai, \
+    kinopub, \
+    rutracker, \
+    linkedin, \
+    adguard, \
+    whatsapp, \
+    twitter, \
+    openai, \
+    youtube, \
+    facebook, \
+    instagram, \
+    meta, \
+    oculus, \
+    intel, \
+    netflix, \
+    adobe, \
+    twitch"
 
-  FORWARD_TO: |
-    Google
-    CloudFlare
-    Quad9
-    OwnDNS
-    fakeip
+  FORWARD_TO: "Google, \
+    CloudFlare, \
+    Quad9, \
+    OwnDNS, \
+    fakeip"
 
   ADDRESS_LIST: BlackList
 
@@ -54,8 +52,8 @@ jobs:
       - name: Process each resource
         run: |
           set -e
-          IFS=$'\n' read -rd '' -ra resource_array <<< "${{ env.RESOURCES }}"
-          IFS=$'\n' read -rd '' -ra forward_array <<< "${{ env.FORWARD_TO }}"
+          IFS=',' read -ra resource_array <<< "${{ env.RESOURCES }}"
+          IFS=',' read -ra forward_array <<< "${{ env.FORWARD_TO }}"
 
           ADDRESS_LIST="${{ env.ADDRESS_LIST }}"
           JSON_URL_TEMPLATE="${{ env.JSON_URL_TEMPLATE }}"
