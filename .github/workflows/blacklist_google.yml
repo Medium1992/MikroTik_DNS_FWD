@@ -59,6 +59,7 @@ jobs:
           JSON_URL_TEMPLATE="${{ env.JSON_URL_TEMPLATE }}"
 
           for resource in "${resource_array[@]}"; do
+              resource=$(echo "$resource" | xargs)
               echo "Processing resource: $resource"
               json_url="${JSON_URL_TEMPLATE//\{resource\}/$resource}"
               
@@ -70,6 +71,7 @@ jobs:
               fi
 
               for TO in "${forward_array[@]}"; do
+                  TO=$(echo "$TO" | xargs)
                   if [ "$ADDRESS_LIST" = "false" ]; then
                       ADDR_ARG=""
                       LIST_SUFFIX="NoList"
