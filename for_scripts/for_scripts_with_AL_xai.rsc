@@ -1,2 +1,2 @@
 /ip dns static
-add address-list=\ forward-to=\ comment=xai match-subdomain=yes type=FWD name=grok.com
+add address-list=\$AddressList forward-to=\$ForwardTo comment=xai match-subdomain=yes type=FWD name=grok.com
