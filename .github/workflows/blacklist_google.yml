@@ -1,4 +1,5 @@
 name: Generate MikroTik RSC Files
+
 on:
   workflow_dispatch:
   push:
@@ -8,7 +9,7 @@ permissions:
   contents: write
 
 env:
-  RESOURCES: openai,another_resource
+  RESOURCES: openai,youtube,facebook,intel
   FORWARD_TO: Google
   ADDRESS_LIST: BlackList
   JSON_URL_TEMPLATE: https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/refs/heads/sing/geo/geosite/{resource}.json
@@ -59,7 +60,9 @@ jobs:
             # domain (match-subdomain=no)
             domains=$(jq -r '
               .rules[]
-              | if (.domain | type == "array") then .domain else [] end
+              | if (.domain | type == "string") then [.domain]
+                elif (.domain | type == "array") then .domain
+                else [] end
               | .[]
             ' "input_$resource.json" | sort -u)
             if [ -n "$domains" ]; then
@@ -72,7 +75,9 @@ jobs:
             # domain_suffix (match-subdomain=yes)
             suffixes=$(jq -r '
               .rules[]
-              | if (.domain_suffix | type == "array") then .domain_suffix else [] end
+              | if (.domain_suffix | type == "string") then [.domain_suffix]
+                elif (.domain_suffix | type == "array") then .domain_suffix
+                else [] end
               | .[]
             ' "input_$resource.json" | sort -u)
             if [ -n "$suffixes" ]; then
@@ -82,14 +87,21 @@ jobs:
             fi
 
 
-            # Process domain_regex with MikroTik escape sequences
-            regex_list=$(jq -r '[.rules[].domain_regex[]?] | unique | .[]' "input_$resource.json")
+            # domain_regex (handle both string and array)
+            regex_list=$(jq -r '
+              .rules[]
+              | if (.domain_regex | type == "string") then [.domain_regex]
+                elif (.domain_regex | type == "array") then .domain_regex
+                else [] end
+              | .[]
+            ' "input_$resource.json" | sort -u)
             if [ -n "$regex_list" ]; then
               echo "$regex_list" | while read -r regex; do
                 escaped_regex=$(echo "$regex" | sed 's/"/\\"/g; s/\\/\\\\/g; s/\n/\\n/g; s/\r/\\r/g; s/\t/\\t/g; s/\$/\\\$/g; s/?/\\?/g; s/ /\\_/g; s/\a/\\a/g; s/\b/\\b/g; s/\f/\\f/g; s/\v/\\v/g; s/\\x\([0-9A-Fa-f]\{2\}\)/\\\\\\U\1/g')
                 echo "add$ADDR_ARG forward-to=$FORWARD_TO comment=$resource type=FWD regexp=\"$escaped_regex\"" >> "$output_file"
               done
             fi
+
           done
 
       - name: Commit and push changes
@@ -97,5 +109,5 @@ jobs:
           git config --global user.name 'github-actions[bot]'
           git config --global user.email 'github-actions[bot]@users.noreply.github.com'
           git add */FWD_*.rsc
-          git commit -m "Update RSC files for ${{ env.RESOURCES }}"
+          git commit -m "Update RSC files for ${{ env.RESOURCES }}" || exit 0
           git push
