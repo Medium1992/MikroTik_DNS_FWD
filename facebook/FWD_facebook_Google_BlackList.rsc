@@ -91,7 +91,6 @@ add address-list=BlackList forward-to=Google comment=facebook match-subdomain=ye
 add address-list=BlackList forward-to=Google comment=facebook match-subdomain=yes type=FWD name=facebook-support.org
 add address-list=BlackList forward-to=Google comment=facebook match-subdomain=yes type=FWD name=facebook-texas-holdem.com
 add address-list=BlackList forward-to=Google comment=facebook match-subdomain=yes type=FWD name=facebook-texas-holdem.net
-add address-list=BlackList forward-to=Google comment=facebook match-subdomain=yes type=FWD name=facebook.br
 add address-list=BlackList forward-to=Google comment=facebook match-subdomain=yes type=FWD name=facebook.cc
 add address-list=BlackList forward-to=Google comment=facebook match-subdomain=yes type=FWD name=facebook.com
 add address-list=BlackList forward-to=Google comment=facebook match-subdomain=yes type=FWD name=facebook.design
@@ -236,7 +235,6 @@ add address-list=BlackList forward-to=Google comment=facebook match-subdomain=ye
 add address-list=BlackList forward-to=Google comment=facebook match-subdomain=yes type=FWD name=facesounds.com
 add address-list=BlackList forward-to=Google comment=facebook match-subdomain=yes type=FWD name=facetook.com
 add address-list=BlackList forward-to=Google comment=facebook match-subdomain=yes type=FWD name=facevbook.com
-add address-list=BlackList forward-to=Google comment=facebook match-subdomain=yes type=FWD name=facewbook.co
 add address-list=BlackList forward-to=Google comment=facebook match-subdomain=yes type=FWD name=facewook.com
 add address-list=BlackList forward-to=Google comment=facebook match-subdomain=yes type=FWD name=facfacebook.com
 add address-list=BlackList forward-to=Google comment=facebook match-subdomain=yes type=FWD name=facfebook.com
@@ -284,7 +282,6 @@ add address-list=BlackList forward-to=Google comment=facebook match-subdomain=ye
 add address-list=BlackList forward-to=Google comment=facebook match-subdomain=yes type=FWD name=fbthirdpartypixel.net
 add address-list=BlackList forward-to=Google comment=facebook match-subdomain=yes type=FWD name=fbthirdpartypixel.org
 add address-list=BlackList forward-to=Google comment=facebook match-subdomain=yes type=FWD name=fburl.com
-add address-list=BlackList forward-to=Google comment=facebook match-subdomain=yes type=FWD name=fbwat.ch
 add address-list=BlackList forward-to=Google comment=facebook match-subdomain=yes type=FWD name=fbworkmail.com
 add address-list=BlackList forward-to=Google comment=facebook match-subdomain=yes type=FWD name=fcacebook.com
 add address-list=BlackList forward-to=Google comment=facebook match-subdomain=yes type=FWD name=fcaebook.com
