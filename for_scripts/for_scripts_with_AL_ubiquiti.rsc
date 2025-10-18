@@ -1,9 +1,9 @@
 /ip dns static
-add address-list=$AddressList forward-to=$ForwardTo comment=ubiquiti match-subdomain=yes type=FWD name=amplifi.com
-add address-list=$AddressList forward-to=$ForwardTo comment=ubiquiti match-subdomain=yes type=FWD name=frontrow.com
-add address-list=$AddressList forward-to=$ForwardTo comment=ubiquiti match-subdomain=yes type=FWD name=ubncloud.com
-add address-list=$AddressList forward-to=$ForwardTo comment=ubiquiti match-subdomain=yes type=FWD name=ubnt.com
-add address-list=$AddressList forward-to=$ForwardTo comment=ubiquiti match-subdomain=yes type=FWD name=ui.com
-add address-list=$AddressList forward-to=$ForwardTo comment=ubiquiti match-subdomain=yes type=FWD name=uisp.com
-add address-list=$AddressList forward-to=$ForwardTo comment=ubiquiti match-subdomain=yes type=FWD name=uwn.com
-add address-list=$AddressList forward-to=$ForwardTo comment=ubiquiti match-subdomain=yes type=FWD name=wifiman.com
+add address-list=\ forward-to=\ comment=ubiquiti match-subdomain=yes type=FWD name=amplifi.com
+add address-list=\ forward-to=\ comment=ubiquiti match-subdomain=yes type=FWD name=frontrow.com
+add address-list=\ forward-to=\ comment=ubiquiti match-subdomain=yes type=FWD name=ubncloud.com
+add address-list=\ forward-to=\ comment=ubiquiti match-subdomain=yes type=FWD name=ubnt.com
+add address-list=\ forward-to=\ comment=ubiquiti match-subdomain=yes type=FWD name=ui.com
+add address-list=\ forward-to=\ comment=ubiquiti match-subdomain=yes type=FWD name=uisp.com
+add address-list=\ forward-to=\ comment=ubiquiti match-subdomain=yes type=FWD name=uwn.com
+add address-list=\ forward-to=\ comment=ubiquiti match-subdomain=yes type=FWD name=wifiman.com
