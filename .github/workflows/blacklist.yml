@@ -12,6 +12,35 @@ env:
   RESOURCES: "autodesk, \
     apple-tvplus, \
     akamai, \
+    cloudflare, \
+    dell, \
+    cisco, \
+    openai, \
+    xai, \
+    netflix, \
+    tidal, \
+    google-gemini, \
+    tmdb, \
+    spotify, \
+    tiktok, \
+    atlassian, \
+    ubiquiti, \
+    microsoft-dev, \
+    github, \
+    microsoft, \
+    riot, \
+    steam, \
+    sony, \
+    speedtest, \
+    oracle, \
+    samsung, \
+    lg, \
+    slack, \
+    discord, \
+    notion, \
+    supercell, \
+    telegram, \
+    xbox, \
     kinopub, \
     rutracker, \
     linkedin, \
@@ -26,6 +55,8 @@ env:
     oculus, \
     intel, \
     netflix, \
+    pornhub, \
+    xhamster, \
     adobe, \
     twitch"
 
