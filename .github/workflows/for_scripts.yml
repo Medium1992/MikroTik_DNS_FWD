@@ -179,11 +179,11 @@ jobs:
                           entry=${all_entries[$entry_index]}
                           type=$(echo "$entry" | cut -d':' -f1)
                           value=$(echo "$entry" | cut -d':' -f2-)
-                          if [ "$type" = "domain" ]; then
+                          if [ "$type" = "suffix" ]; then
                               echo ":if ([:len [/ip dns static find name=\"$value\"]] = 0) do={ add address-list=\\\$AddressList forward-to=\\\$ForwardTo comment=\"$resource\" match-subdomain=yes type=FWD name=\"$value\" }" >> "$output_file"
-                          elif [ "$type" = "regex" ]; then
+                          elif [ "$type" = "domain" ]; then
                               echo ":if ([:len [/ip dns static find name=\"$value\"]] = 0) do={ add address-list=\\\$AddressList forward-to=\\\$ForwardTo comment=\"$resource\" type=FWD name=\"$value\" }" >> "$output_file"
-                          elif [ "$type" = "suffix" ]; then
+                          elif [ "$type" = "regex" ]; then
                               echo ":if ([:len [/ip dns static find regexp=\"$value\"]] = 0) do={ add address-list=\\\$AddressList forward-to=\\\$ForwardTo comment=\"$resource\" type=FWD regexp=\"$value\" }" >> "$output_file"
                           fi
                       done
