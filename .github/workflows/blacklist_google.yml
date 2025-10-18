@@ -82,14 +82,8 @@ jobs:
             fi
 
 
-            # domain_regex (handle both string and array)
-            regex_list=$(jq -r '
-              .rules[]
-              | if (.domain_regex | type == "string") then [.domain_regex]
-                elif (.domain_regex | type == "array") then .domain_regex
-                else [] end
-              | .[]
-            ' "input_$resource.json" | sort -u)
+            # Process domain_regex with MikroTik escape sequences
+            regex_list=$(jq -r '[.rules[].domain_regex[]?] | unique | .[]' "input_$resource.json")
             if [ -n "$regex_list" ]; then
               echo "$regex_list" | while read -r regex; do
                 escaped_regex=$(echo "$regex" | sed 's/"/\\"/g; s/\\/\\\\/g; s/\n/\\n/g; s/\r/\\r/g; s/\t/\\t/g; s/\$/\\\$/g; s/?/\\?/g; s/ /\\_/g; s/\a/\\a/g; s/\b/\\b/g; s/\f/\\f/g; s/\v/\\v/g; s/\\x\([0-9A-Fa-f]\{2\}\)/\\\\\\U\1/g')
