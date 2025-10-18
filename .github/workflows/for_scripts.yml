@@ -124,24 +124,30 @@ jobs:
               filtered_suffixes=$(echo "$suffixes" | grep -Ev "\.($excluded_tlds)$" | grep -v '^$' || true)
               filtered_regex_list=$(echo "$regex_list" | grep -v '^$' || true)
 
-              # Combine all entries into one array
+              # Combine all entries into one array, only if non-empty
               all_entries=()
-              while IFS= read -r suffix; do
-                  all_entries+=("suffix:$suffix")
-              done <<< "$filtered_suffixes"
-              while IFS= read -r domain; do
-                  all_entries+=("domain:$domain")
-              done <<< "$filtered_domains"
-              while IFS= read -r regex; do
-                  escaped_regex=$(echo "$regex" | sed -E '
-                    s/\\/\\\\\\\\/g;      # Escape backslashes first
-                    s/\$/\\$/g;           # $ → \$
-                    s/"/\\"/g;            # " → \"
-                    s/ /\\_/g;            # space → \_
-                    s/\?/\\?/g;           # ? → \?
-                  ')
-                  all_entries+=("regex:$escaped_regex")
-              done <<< "$filtered_regex_list"
+              if [ -n "$filtered_suffixes" ]; then
+                  while IFS= read -r suffix; do
+                      all_entries+=("suffix:$suffix")
+                  done <<< "$filtered_suffixes"
+              fi
+              if [ -n "$filtered_domains" ]; then
+                  while IFS= read -r domain; do
+                      all_entries+=("domain:$domain")
+                  done <<< "$filtered_domains"
+              fi
+              if [ -n "$filtered_regex_list" ]; then
+                  while IFS= read -r regex; do
+                      escaped_regex=$(echo "$regex" | sed -E '
+                        s/\\/\\\\\\\\/g;      # Escape backslashes first
+                        s/\$/\\$/g;           # $ → \$
+                        s/"/\\"/g;            # " → \"
+                        s/ /\\_/g;            # space → \_
+                        s/\?/\\?/g;           # ? → \?
+                      ')
+                      all_entries+=("regex:$escaped_regex")
+                  done <<< "$filtered_regex_list"
+              fi
 
               # Split entries into chunks of MAX_ENTRIES_PER_FILE
               entry_count=${#all_entries[@]}
