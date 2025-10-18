@@ -119,8 +119,8 @@ jobs:
 
               if [ -n "$filtered_domains" ]; then
                 echo "$filtered_domains" | while read -r domain; do
-                  echo "add address-list=\$AddressList forward-to=\$ForwardTo comment=$resource type=FWD name=$domain" >> "$output_file_with_al"
-                  echo "add forward-to=\$ForwardTo comment=$resource type=FWD name=$domain" >> "$output_file_without_al"
+                  echo ":if ([:len [/ip dns static find name=\"$domain\" comment=\"$resource\"]] = 0) do={ add address-list=\$AddressList forward-to=\$ForwardTo comment=\"$resource\" type=FWD name=\"$domain\" }" >> "$output_file_with_al"
+                  echo ":if ([:len [/ip dns static find name=\"$domain\" comment=\"$resource\"]] = 0) do={ add forward-to=\$ForwardTo comment=\"$resource\" type=FWD name=\"$domain\" }" >> "$output_file_without_al"
                 done
               fi
 
@@ -138,8 +138,8 @@ jobs:
 
               if [ -n "$filtered_suffixes" ]; then
                 echo "$filtered_suffixes" | while read -r domain_suffix; do
-                  echo "add address-list=\$AddressList forward-to=\$ForwardTo comment=$resource match-subdomain=yes type=FWD name=$domain_suffix" >> "$output_file_with_al"
-                  echo "add forward-to=\$ForwardTo comment=$resource match-subdomain=yes type=FWD name=$domain_suffix" >> "$output_file_without_al"
+                  echo ":if ([:len [/ip dns static find name=\"$domain_suffix\" comment=\"$resource\"]] = 0) do={ add address-list=\$AddressList forward-to=\$ForwardTo comment=\"$resource\" match-subdomain=yes type=FWD name=\"$domain_suffix\" }" >> "$output_file_with_al"
+                  echo ":if ([:len [/ip dns static find name=\"$domain_suffix\" comment=\"$resource\"]] = 0) do={ add forward-to=\$ForwardTo comment=\"$resource\" match-subdomain=yes type=FWD name=\"$domain_suffix\" }" >> "$output_file_without_al"
                 done
               fi
 
@@ -160,8 +160,8 @@ jobs:
                     s/ /\\_/g;        # пробел → \_
                     s/\?/\\?/g;       # ? → \?
                   ')
-                  echo "add address-list=\$AddressList forward-to=\$ForwardTo comment=$resource type=FWD regexp=\"$escaped_regex\"" >> "$output_file_with_al"
-                  echo "add forward-to=\$ForwardTo comment=$resource type=FWD regexp=\"$escaped_regex\"" >> "$output_file_without_al"
+                  echo ":if ([:len [/ip dns static find regexp=\"$escaped_regex\" comment=\"$resource\"]] = 0) do={ add address-list=\$AddressList forward-to=\$ForwardTo comment=\"$resource\" type=FWD regexp=\"$escaped_regex\" }" >> "$output_file_with_al"
+                  echo ":if ([:len [/ip dns static find regexp=\"$escaped_regex\" comment=\"$resource\"]] = 0) do={ add forward-to=\$ForwardTo comment=\"$resource\" type=FWD regexp=\"$escaped_regex\" }" >> "$output_file_without_al"
                 done
               fi
           done
