@@ -59,9 +59,9 @@ env:
     adobe, \
     twitch"
 
-  FORWARD_TO: \$ForwardTo
+  FORWARD_TO: \\$ForwardTo
 
-  ADDRESS_LIST: \$AddressList
+  ADDRESS_LIST: \\$AddressList
 
   JSON_URL_TEMPLATE: https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/refs/heads/sing/geo/geosite/{resource}.json
 
