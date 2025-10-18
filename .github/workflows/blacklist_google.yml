@@ -97,7 +97,13 @@ jobs:
             ' "input_$resource.json" | sort -u)
             if [ -n "$regex_list" ]; then
               echo "$regex_list" | while read -r regex; do
-                escaped_regex=$(echo "$regex" | sed -E 's/\\/\\\\\\\\/g; s/([.$?"])/\\\1/g')
+                escaped_regex=$(echo "$regex" | sed -E '
+                  s/\\/\\\\/g;      # сначала экранируем все обратные слэши
+                  s/\$/\\$/g;       # $ → \$
+                  s/"/\\"/g;        # " → \"
+                  s/ /\\_/g;        # пробел → \_
+                  s/\?/\\?/g;       # ? → \?
+                ')
                 echo "add$ADDR_ARG forward-to=$FORWARD_TO comment=$resource type=FWD regexp=\"$escaped_regex\"" >> "$output_file"
               done
             fi
