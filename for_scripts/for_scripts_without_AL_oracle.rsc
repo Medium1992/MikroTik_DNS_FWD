@@ -1,0 +1,19 @@
+/ip dns static
+add forward-to=$ForwardTo comment=oracle match-subdomain=yes type=FWD name=addthis.com
+add forward-to=$ForwardTo comment=oracle match-subdomain=yes type=FWD name=addthiscdn.com
+add forward-to=$ForwardTo comment=oracle match-subdomain=yes type=FWD name=addthisedge.com
+add forward-to=$ForwardTo comment=oracle match-subdomain=yes type=FWD name=ateam-oracle.com
+add forward-to=$ForwardTo comment=oracle match-subdomain=yes type=FWD name=bronto.com
+add forward-to=$ForwardTo comment=oracle match-subdomain=yes type=FWD name=covid19-rx.org
+add forward-to=$ForwardTo comment=oracle match-subdomain=yes type=FWD name=covid19rx.org
+add forward-to=$ForwardTo comment=oracle match-subdomain=yes type=FWD name=java
+add forward-to=$ForwardTo comment=oracle match-subdomain=yes type=FWD name=java.com
+add forward-to=$ForwardTo comment=oracle match-subdomain=yes type=FWD name=java.net
+add forward-to=$ForwardTo comment=oracle match-subdomain=yes type=FWD name=oracle
+add forward-to=$ForwardTo comment=oracle match-subdomain=yes type=FWD name=oracle.com
+add forward-to=$ForwardTo comment=oracle match-subdomain=yes type=FWD name=oraclecloud.com
+add forward-to=$ForwardTo comment=oracle match-subdomain=yes type=FWD name=oraclefoundation.org
+add forward-to=$ForwardTo comment=oracle match-subdomain=yes type=FWD name=oracleimg.com
+add forward-to=$ForwardTo comment=oracle match-subdomain=yes type=FWD name=oracleinfinity.io
+add forward-to=$ForwardTo comment=oracle match-subdomain=yes type=FWD name=sun.com
+add forward-to=$ForwardTo comment=oracle match-subdomain=yes type=FWD name=virtualbox.org
