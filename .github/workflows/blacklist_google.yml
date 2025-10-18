@@ -67,7 +67,7 @@ jobs:
             ' "input_$resource.json" | sort -u)
             if [ -n "$domains" ]; then
               echo "$domains" | while read -r domain; do
-                echo "add$ADDR_ARG forward-to=$FORWARD_TO comment=$resource match-subdomain=no type=FWD name=$domain" >> "$output_file"
+                echo "add$ADDR_ARG forward-to=$FORWARD_TO comment=$resource type=FWD name=$domain" >> "$output_file"
               done
             fi
 
