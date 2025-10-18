@@ -8,6 +8,8 @@ add forward-to=fakeipEU comment=spotify type=FWD name=spotify.com.edgesuite.net
 add forward-to=fakeipEU comment=spotify type=FWD name=spotify.map.fastly.net
 add forward-to=fakeipEU comment=spotify type=FWD name=spotify.map.fastlylb.net
 add forward-to=fakeipEU comment=spotify match-subdomain=yes type=FWD name=byspotify.com
+add forward-to=fakeipEU comment=spotify match-subdomain=yes type=FWD name=pscdn.co
+add forward-to=fakeipEU comment=spotify match-subdomain=yes type=FWD name=scdn.co
 add forward-to=fakeipEU comment=spotify match-subdomain=yes type=FWD name=spotify-everywhere.com
 add forward-to=fakeipEU comment=spotify match-subdomain=yes type=FWD name=spotify.com
 add forward-to=fakeipEU comment=spotify match-subdomain=yes type=FWD name=spotify.design

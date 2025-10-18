@@ -49,6 +49,7 @@ add address-list=BlackList_EU forward-to=Google comment=cisco match-subdomain=ye
 add address-list=BlackList_EU forward-to=Google comment=cisco match-subdomain=yes type=FWD name=cloupia.net
 add address-list=BlackList_EU forward-to=Google comment=cisco match-subdomain=yes type=FWD name=connect-in-canada.com
 add address-list=BlackList_EU forward-to=Google comment=cisco match-subdomain=yes type=FWD name=coreoptics.net
+add address-list=BlackList_EU forward-to=Google comment=cisco match-subdomain=yes type=FWD name=cs.co
 add address-list=BlackList_EU forward-to=Google comment=cisco match-subdomain=yes type=FWD name=devm2m.com
 add address-list=BlackList_EU forward-to=Google comment=cisco match-subdomain=yes type=FWD name=dnaspaces.io
 add address-list=BlackList_EU forward-to=Google comment=cisco match-subdomain=yes type=FWD name=flipshare.com

@@ -56,6 +56,7 @@ add address-list=BlackList_EU forward-to=Quad9 comment=microsoft-dev match-subdo
 add address-list=BlackList_EU forward-to=Quad9 comment=microsoft-dev match-subdomain=yes type=FWD name=vfsforgit.com
 add address-list=BlackList_EU forward-to=Quad9 comment=microsoft-dev match-subdomain=yes type=FWD name=vfsforgit.org
 add address-list=BlackList_EU forward-to=Quad9 comment=microsoft-dev match-subdomain=yes type=FWD name=visualstudio-staging.com
+add address-list=BlackList_EU forward-to=Quad9 comment=microsoft-dev match-subdomain=yes type=FWD name=visualstudio.co
 add address-list=BlackList_EU forward-to=Quad9 comment=microsoft-dev match-subdomain=yes type=FWD name=visualstudio.com
 add address-list=BlackList_EU forward-to=Quad9 comment=microsoft-dev match-subdomain=yes type=FWD name=visualstudio.eu
 add address-list=BlackList_EU forward-to=Quad9 comment=microsoft-dev match-subdomain=yes type=FWD name=visualstudio.net

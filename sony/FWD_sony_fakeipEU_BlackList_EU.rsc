@@ -18,6 +18,7 @@ add forward-to=fakeipEU comment=sony match-subdomain=yes type=FWD name=sony-semi
 add forward-to=fakeipEU comment=sony match-subdomain=yes type=FWD name=sony.be
 add forward-to=fakeipEU comment=sony match-subdomain=yes type=FWD name=sony.biz
 add forward-to=fakeipEU comment=sony match-subdomain=yes type=FWD name=sony.com
+add forward-to=fakeipEU comment=sony match-subdomain=yes type=FWD name=sony.com.co
 add forward-to=fakeipEU comment=sony match-subdomain=yes type=FWD name=sony.eu
 add forward-to=fakeipEU comment=sony match-subdomain=yes type=FWD name=sony.net
 add forward-to=fakeipEU comment=sony match-subdomain=yes type=FWD name=sony.ru

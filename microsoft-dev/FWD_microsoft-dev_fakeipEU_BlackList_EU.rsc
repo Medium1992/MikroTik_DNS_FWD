@@ -56,6 +56,7 @@ add forward-to=fakeipEU comment=microsoft-dev match-subdomain=yes type=FWD name=
 add forward-to=fakeipEU comment=microsoft-dev match-subdomain=yes type=FWD name=vfsforgit.com
 add forward-to=fakeipEU comment=microsoft-dev match-subdomain=yes type=FWD name=vfsforgit.org
 add forward-to=fakeipEU comment=microsoft-dev match-subdomain=yes type=FWD name=visualstudio-staging.com
+add forward-to=fakeipEU comment=microsoft-dev match-subdomain=yes type=FWD name=visualstudio.co
 add forward-to=fakeipEU comment=microsoft-dev match-subdomain=yes type=FWD name=visualstudio.com
 add forward-to=fakeipEU comment=microsoft-dev match-subdomain=yes type=FWD name=visualstudio.eu
 add forward-to=fakeipEU comment=microsoft-dev match-subdomain=yes type=FWD name=visualstudio.net

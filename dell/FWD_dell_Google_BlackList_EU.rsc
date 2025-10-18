@@ -44,6 +44,7 @@ add address-list=BlackList_EU forward-to=Google comment=dell match-subdomain=yes
 add address-list=BlackList_EU forward-to=Google comment=dell match-subdomain=yes type=FWD name=dell.com
 add address-list=BlackList_EU forward-to=Google comment=dell match-subdomain=yes type=FWD name=dell.com.bb
 add address-list=BlackList_EU forward-to=Google comment=dell match-subdomain=yes type=FWD name=dell.com.bz
+add address-list=BlackList_EU forward-to=Google comment=dell match-subdomain=yes type=FWD name=dell.com.co
 add address-list=BlackList_EU forward-to=Google comment=dell match-subdomain=yes type=FWD name=dell.com.cy
 add address-list=BlackList_EU forward-to=Google comment=dell match-subdomain=yes type=FWD name=dell.com.dm
 add address-list=BlackList_EU forward-to=Google comment=dell match-subdomain=yes type=FWD name=dell.com.kn

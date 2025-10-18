@@ -245,6 +245,7 @@ add address-list=BlackList_EU forward-to=Google comment=microsoft match-subdomai
 add address-list=BlackList_EU forward-to=Google comment=microsoft match-subdomain=yes type=FWD name=graphengine.io
 add address-list=BlackList_EU forward-to=Google comment=microsoft match-subdomain=yes type=FWD name=hololens.com
 add address-list=BlackList_EU forward-to=Google comment=microsoft match-subdomain=yes type=FWD name=hotmail
+add address-list=BlackList_EU forward-to=Google comment=microsoft match-subdomain=yes type=FWD name=hotmail.co
 add address-list=BlackList_EU forward-to=Google comment=microsoft match-subdomain=yes type=FWD name=hotmail.com
 add address-list=BlackList_EU forward-to=Google comment=microsoft match-subdomain=yes type=FWD name=hotmail.eu
 add address-list=BlackList_EU forward-to=Google comment=microsoft match-subdomain=yes type=FWD name=hotmail.net
@@ -252,9 +253,11 @@ add address-list=BlackList_EU forward-to=Google comment=microsoft match-subdomai
 add address-list=BlackList_EU forward-to=Google comment=microsoft match-subdomain=yes type=FWD name=hummingbird.ms
 add address-list=BlackList_EU forward-to=Google comment=microsoft match-subdomain=yes type=FWD name=ie10.com
 add address-list=BlackList_EU forward-to=Google comment=microsoft match-subdomain=yes type=FWD name=ie11.com
+add address-list=BlackList_EU forward-to=Google comment=microsoft match-subdomain=yes type=FWD name=ie8.co
 add address-list=BlackList_EU forward-to=Google comment=microsoft match-subdomain=yes type=FWD name=ie9.com
 add address-list=BlackList_EU forward-to=Google comment=microsoft match-subdomain=yes type=FWD name=ingads.com
 add address-list=BlackList_EU forward-to=Google comment=microsoft match-subdomain=yes type=FWD name=insiderdevtour.com
+add address-list=BlackList_EU forward-to=Google comment=microsoft match-subdomain=yes type=FWD name=internetexplorer.co
 add address-list=BlackList_EU forward-to=Google comment=microsoft match-subdomain=yes type=FWD name=internetexplorer.com
 add address-list=BlackList_EU forward-to=Google comment=microsoft match-subdomain=yes type=FWD name=intunewiki.com
 add address-list=BlackList_EU forward-to=Google comment=microsoft match-subdomain=yes type=FWD name=iotinactionevents.com
@@ -287,6 +290,7 @@ add address-list=BlackList_EU forward-to=Google comment=microsoft match-subdomai
 add address-list=BlackList_EU forward-to=Google comment=microsoft match-subdomain=yes type=FWD name=microsoft-sap-events.com
 add address-list=BlackList_EU forward-to=Google comment=microsoft match-subdomain=yes type=FWD name=microsoft-sbs-domains.com
 add address-list=BlackList_EU forward-to=Google comment=microsoft match-subdomain=yes type=FWD name=microsoft.be
+add address-list=BlackList_EU forward-to=Google comment=microsoft match-subdomain=yes type=FWD name=microsoft.cat
 add address-list=BlackList_EU forward-to=Google comment=microsoft match-subdomain=yes type=FWD name=microsoft.com
 add address-list=BlackList_EU forward-to=Google comment=microsoft match-subdomain=yes type=FWD name=microsoft.eu
 add address-list=BlackList_EU forward-to=Google comment=microsoft match-subdomain=yes type=FWD name=microsoft.io
@@ -498,6 +502,7 @@ add address-list=BlackList_EU forward-to=Google comment=microsoft match-subdomai
 add address-list=BlackList_EU forward-to=Google comment=microsoft match-subdomain=yes type=FWD name=videobreakdown.com
 add address-list=BlackList_EU forward-to=Google comment=microsoft match-subdomain=yes type=FWD name=virtualearth.net
 add address-list=BlackList_EU forward-to=Google comment=microsoft match-subdomain=yes type=FWD name=visualstudio-staging.com
+add address-list=BlackList_EU forward-to=Google comment=microsoft match-subdomain=yes type=FWD name=visualstudio.co
 add address-list=BlackList_EU forward-to=Google comment=microsoft match-subdomain=yes type=FWD name=visualstudio.com
 add address-list=BlackList_EU forward-to=Google comment=microsoft match-subdomain=yes type=FWD name=visualstudio.eu
 add address-list=BlackList_EU forward-to=Google comment=microsoft match-subdomain=yes type=FWD name=visualstudio.net
@@ -523,9 +528,11 @@ add address-list=BlackList_EU forward-to=Google comment=microsoft match-subdomai
 add address-list=BlackList_EU forward-to=Google comment=microsoft match-subdomain=yes type=FWD name=winhec.net
 add address-list=BlackList_EU forward-to=Google comment=microsoft match-subdomain=yes type=FWD name=xamarin.com
 add address-list=BlackList_EU forward-to=Google comment=microsoft match-subdomain=yes type=FWD name=xbox
+add address-list=BlackList_EU forward-to=Google comment=microsoft match-subdomain=yes type=FWD name=xbox.co
 add address-list=BlackList_EU forward-to=Google comment=microsoft match-subdomain=yes type=FWD name=xbox.com
 add address-list=BlackList_EU forward-to=Google comment=microsoft match-subdomain=yes type=FWD name=xbox.eu
 add address-list=BlackList_EU forward-to=Google comment=microsoft match-subdomain=yes type=FWD name=xbox.org
+add address-list=BlackList_EU forward-to=Google comment=microsoft match-subdomain=yes type=FWD name=xbox360.co
 add address-list=BlackList_EU forward-to=Google comment=microsoft match-subdomain=yes type=FWD name=xbox360.com
 add address-list=BlackList_EU forward-to=Google comment=microsoft match-subdomain=yes type=FWD name=xbox360.eu
 add address-list=BlackList_EU forward-to=Google comment=microsoft match-subdomain=yes type=FWD name=xbox360.org
@@ -533,6 +540,7 @@ add address-list=BlackList_EU forward-to=Google comment=microsoft match-subdomai
 add address-list=BlackList_EU forward-to=Google comment=microsoft match-subdomain=yes type=FWD name=xboxgamepass.com
 add address-list=BlackList_EU forward-to=Google comment=microsoft match-subdomain=yes type=FWD name=xboxgamestudios.com
 add address-list=BlackList_EU forward-to=Google comment=microsoft match-subdomain=yes type=FWD name=xboxlive.com
+add address-list=BlackList_EU forward-to=Google comment=microsoft match-subdomain=yes type=FWD name=xboxone.co
 add address-list=BlackList_EU forward-to=Google comment=microsoft match-subdomain=yes type=FWD name=xboxone.com
 add address-list=BlackList_EU forward-to=Google comment=microsoft match-subdomain=yes type=FWD name=xboxone.eu
 add address-list=BlackList_EU forward-to=Google comment=microsoft match-subdomain=yes type=FWD name=xboxplayanywhere.com
