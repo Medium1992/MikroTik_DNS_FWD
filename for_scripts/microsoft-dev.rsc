@@ -4,7 +4,6 @@
 :if ([:len [/ip dns static find name="adaptivecards.io"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="microsoft-dev" match-subdomain=yes type=FWD name="adaptivecards.io" }
 :if ([:len [/ip dns static find name="api-extractor.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="microsoft-dev" match-subdomain=yes type=FWD name="api-extractor.com" }
 :if ([:len [/ip dns static find name="apisof.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="microsoft-dev" match-subdomain=yes type=FWD name="apisof.net" }
-:if ([:len [/ip dns static find name="appcenter.ms"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="microsoft-dev" match-subdomain=yes type=FWD name="appcenter.ms" }
 :if ([:len [/ip dns static find name="blazor.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="microsoft-dev" match-subdomain=yes type=FWD name="blazor.net" }
 :if ([:len [/ip dns static find name="botframework.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="microsoft-dev" match-subdomain=yes type=FWD name="botframework.com" }
 :if ([:len [/ip dns static find name="codethemicrobit.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="microsoft-dev" match-subdomain=yes type=FWD name="codethemicrobit.com" }
@@ -13,7 +12,6 @@
 :if ([:len [/ip dns static find name="gamesstack.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="microsoft-dev" match-subdomain=yes type=FWD name="gamesstack.com" }
 :if ([:len [/ip dns static find name="graphengine.io"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="microsoft-dev" match-subdomain=yes type=FWD name="graphengine.io" }
 :if ([:len [/ip dns static find name="insiderdevtour.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="microsoft-dev" match-subdomain=yes type=FWD name="insiderdevtour.com" }
-:if ([:len [/ip dns static find name="jwt.ms"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="microsoft-dev" match-subdomain=yes type=FWD name="jwt.ms" }
 :if ([:len [/ip dns static find name="microbit.org"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="microsoft-dev" match-subdomain=yes type=FWD name="microbit.org" }
 :if ([:len [/ip dns static find name="microsoftadc.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="microsoft-dev" match-subdomain=yes type=FWD name="microsoftadc.com" }
 :if ([:len [/ip dns static find name="microsoftgamestack.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="microsoft-dev" match-subdomain=yes type=FWD name="microsoftgamestack.com" }

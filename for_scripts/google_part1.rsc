@@ -47,8 +47,6 @@
 :if ([:len [/ip dns static find name="blogspot.be"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="google" match-subdomain=yes type=FWD name="blogspot.be" }
 :if ([:len [/ip dns static find name="blogspot.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="google" match-subdomain=yes type=FWD name="blogspot.com" }
 :if ([:len [/ip dns static find name="blogspot.com.co"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="google" match-subdomain=yes type=FWD name="blogspot.com.co" }
-:if ([:len [/ip dns static find name="blogspot.cv"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="google" match-subdomain=yes type=FWD name="blogspot.cv" }
-:if ([:len [/ip dns static find name="blogspot.li"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="google" match-subdomain=yes type=FWD name="blogspot.li" }
 :if ([:len [/ip dns static find name="blogspot.ru"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="google" match-subdomain=yes type=FWD name="blogspot.ru" }
 :if ([:len [/ip dns static find name="blogspot.td"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="google" match-subdomain=yes type=FWD name="blogspot.td" }
 :if ([:len [/ip dns static find name="brocaproject.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="google" match-subdomain=yes type=FWD name="brocaproject.com" }
@@ -151,3 +149,5 @@
 :if ([:len [/ip dns static find name="golang.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="google" match-subdomain=yes type=FWD name="golang.net" }
 :if ([:len [/ip dns static find name="golang.org"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="google" match-subdomain=yes type=FWD name="golang.org" }
 :if ([:len [/ip dns static find name="gonglchuangl.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="google" match-subdomain=yes type=FWD name="gonglchuangl.net" }
+:if ([:len [/ip dns static find name="goo"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="google" match-subdomain=yes type=FWD name="goo" }
+:if ([:len [/ip dns static find name="goog"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="google" match-subdomain=yes type=FWD name="goog" }

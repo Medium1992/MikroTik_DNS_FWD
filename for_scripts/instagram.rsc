@@ -11,6 +11,7 @@
 :if ([:len [/ip dns static find name="chickstagram.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="instagram" match-subdomain=yes type=FWD name="chickstagram.com" }
 :if ([:len [/ip dns static find name="graph-fallback.instagram.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="instagram" match-subdomain=yes type=FWD name="graph-fallback.instagram.com" }
 :if ([:len [/ip dns static find name="graph.instagram.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="instagram" match-subdomain=yes type=FWD name="graph.instagram.com" }
+:if ([:len [/ip dns static find name="ig.me"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="instagram" match-subdomain=yes type=FWD name="ig.me" }
 :if ([:len [/ip dns static find name="igcdn.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="instagram" match-subdomain=yes type=FWD name="igcdn.com" }
 :if ([:len [/ip dns static find name="igsonar.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="instagram" match-subdomain=yes type=FWD name="igsonar.com" }
 :if ([:len [/ip dns static find name="igtv.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="instagram" match-subdomain=yes type=FWD name="igtv.com" }

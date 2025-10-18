@@ -3,7 +3,9 @@
 /ip dns static
 :if ([:len [/ip dns static find name="graph.whatsapp.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="whatsapp" match-subdomain=yes type=FWD name="graph.whatsapp.com" }
 :if ([:len [/ip dns static find name="graph.whatsapp.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="whatsapp" match-subdomain=yes type=FWD name="graph.whatsapp.net" }
+:if ([:len [/ip dns static find name="wa.me"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="whatsapp" match-subdomain=yes type=FWD name="wa.me" }
 :if ([:len [/ip dns static find name="whatsapp-plus.info"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="whatsapp" match-subdomain=yes type=FWD name="whatsapp-plus.info" }
+:if ([:len [/ip dns static find name="whatsapp-plus.me"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="whatsapp" match-subdomain=yes type=FWD name="whatsapp-plus.me" }
 :if ([:len [/ip dns static find name="whatsapp-plus.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="whatsapp" match-subdomain=yes type=FWD name="whatsapp-plus.net" }
 :if ([:len [/ip dns static find name="whatsapp.cc"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="whatsapp" match-subdomain=yes type=FWD name="whatsapp.cc" }
 :if ([:len [/ip dns static find name="whatsapp.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="whatsapp" match-subdomain=yes type=FWD name="whatsapp.com" }

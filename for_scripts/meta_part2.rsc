@@ -139,6 +139,7 @@
 :if ([:len [/ip dns static find name="fb.careers"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="meta" match-subdomain=yes type=FWD name="fb.careers" }
 :if ([:len [/ip dns static find name="fb.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="meta" match-subdomain=yes type=FWD name="fb.com" }
 :if ([:len [/ip dns static find name="fb.gg"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="meta" match-subdomain=yes type=FWD name="fb.gg" }
+:if ([:len [/ip dns static find name="fb.me"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="meta" match-subdomain=yes type=FWD name="fb.me" }
 :if ([:len [/ip dns static find name="fb.watch"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="meta" match-subdomain=yes type=FWD name="fb.watch" }
 :if ([:len [/ip dns static find name="fbacebook.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="meta" match-subdomain=yes type=FWD name="fbacebook.com" }
 :if ([:len [/ip dns static find name="fbbmarket.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="meta" match-subdomain=yes type=FWD name="fbbmarket.com" }
@@ -150,4 +151,3 @@
 :if ([:len [/ip dns static find name="fbhome.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="meta" match-subdomain=yes type=FWD name="fbhome.com" }
 :if ([:len [/ip dns static find name="fbidb.io"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="meta" match-subdomain=yes type=FWD name="fbidb.io" }
 :if ([:len [/ip dns static find name="fbinc.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="meta" match-subdomain=yes type=FWD name="fbinc.com" }
-:if ([:len [/ip dns static find name="fbinfer.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="meta" match-subdomain=yes type=FWD name="fbinfer.com" }

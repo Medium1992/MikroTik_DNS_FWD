@@ -44,6 +44,7 @@
 :if ([:len [/ip dns static find name="intel.com.co"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="intel" match-subdomain=yes type=FWD name="intel.com.co" }
 :if ([:len [/ip dns static find name="intel.eu"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="intel" match-subdomain=yes type=FWD name="intel.eu" }
 :if ([:len [/ip dns static find name="intel.io"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="intel" match-subdomain=yes type=FWD name="intel.io" }
+:if ([:len [/ip dns static find name="intel.me"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="intel" match-subdomain=yes type=FWD name="intel.me" }
 :if ([:len [/ip dns static find name="intel.ru"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="intel" match-subdomain=yes type=FWD name="intel.ru" }
 :if ([:len [/ip dns static find name="intel.tv"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="intel" match-subdomain=yes type=FWD name="intel.tv" }
 :if ([:len [/ip dns static find name="intel.us"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="intel" match-subdomain=yes type=FWD name="intel.us" }
