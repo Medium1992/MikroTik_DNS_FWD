@@ -1,10 +1,10 @@
 :global AddressList
 :global ForwardTo
 /ip dns static
-add address-list=$AddressList forward-to=\$ForwardTo comment=atlassian match-subdomain=yes type=FWD name=atlassian.com
-add address-list=$AddressList forward-to=\$ForwardTo comment=atlassian match-subdomain=yes type=FWD name=atlassian.net
-add address-list=$AddressList forward-to=\$ForwardTo comment=atlassian match-subdomain=yes type=FWD name=bitbucket.io
-add address-list=$AddressList forward-to=\$ForwardTo comment=atlassian match-subdomain=yes type=FWD name=bitbucket.org
-add address-list=$AddressList forward-to=\$ForwardTo comment=atlassian match-subdomain=yes type=FWD name=statuspage.io
-add address-list=$AddressList forward-to=\$ForwardTo comment=atlassian match-subdomain=yes type=FWD name=trello.com
-add address-list=$AddressList forward-to=\$ForwardTo comment=atlassian match-subdomain=yes type=FWD name=trellocdn.com
+add address-list=$AddressList forward-to=$ForwardTo comment=atlassian match-subdomain=yes type=FWD name=atlassian.com
+add address-list=$AddressList forward-to=$ForwardTo comment=atlassian match-subdomain=yes type=FWD name=atlassian.net
+add address-list=$AddressList forward-to=$ForwardTo comment=atlassian match-subdomain=yes type=FWD name=bitbucket.io
+add address-list=$AddressList forward-to=$ForwardTo comment=atlassian match-subdomain=yes type=FWD name=bitbucket.org
+add address-list=$AddressList forward-to=$ForwardTo comment=atlassian match-subdomain=yes type=FWD name=statuspage.io
+add address-list=$AddressList forward-to=$ForwardTo comment=atlassian match-subdomain=yes type=FWD name=trello.com
+add address-list=$AddressList forward-to=$ForwardTo comment=atlassian match-subdomain=yes type=FWD name=trellocdn.com
