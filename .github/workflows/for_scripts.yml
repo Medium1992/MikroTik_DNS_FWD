@@ -60,6 +60,7 @@ env:
     twitch"
 
   JSON_URL_TEMPLATE: https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/refs/heads/sing/geo/geosite/{resource}.json
+  MAX_ENTRIES_PER_FILE: 150
 
 jobs:
   generate-rsc:
@@ -76,6 +77,7 @@ jobs:
           set -e
           IFS=',' read -ra resource_array <<< "${{ env.RESOURCES }}"
           JSON_URL_TEMPLATE="${{ env.JSON_URL_TEMPLATE }}"
+          MAX_ENTRIES_PER_FILE="${{ env.MAX_ENTRIES_PER_FILE }}"
 
           mkdir -p for_scripts
 
@@ -89,15 +91,7 @@ jobs:
                   continue
               fi
 
-              # File with address-list
-              output_file="for_scripts/$resource.rsc"
-              
-              # Initialize both files with global variable declarations and header
-              echo ":global AddressList" > "$output_file"
-              echo ":global ForwardTo" >> "$output_file"
-              echo "/ip dns static" >> "$output_file"
-
-              # domain (match-subdomain=no)
+              # Initialize arrays for domains, suffixes, and regex
               domains=$(jq -r '
                 .rules[]
                 | if (.domain | type == "string") then [.domain]
@@ -106,19 +100,6 @@ jobs:
                 | .[]
               ' "input_$resource.json" | sort -u)
 
-              # Чёрный список стран, которые хотим исключить
-              excluded_tlds="ad|as|bf|bj|bt|cd|cf|ci|ao|bw|ck|ls|mz|vi|zm|bn|bz|cy|et|fj|gi|kh|mm|na|np|pg|sb|sl|vc|mg|ac|af|ag|ai|bi|bs|cg|cm|cu|dz|ga|gd|gl|gm|gs|gy|ht|je|lc|mp|mu|mw|nu|pn|re|rw|sc|sr|st|sx|sy|tf|tj|tl|tt|vg|vu|wf|yt|do|ec|eg|gh|hn|jm|kw|lb|mt|om|py|tr|tw|se|ae|al|am|at|bg|ch|id|cn|ve|uk|za|zw|ar|au|bd|br|il|ke|nz|th|tz|de|es|fr|gr|hr|hu|ie|is|it|ng|nl|pl|ro|rs|sa|ua|jo|uz|tm|az|ba|bh|bo|by|ca|qa|vn|uy|ug|tn|sv|sk|si|sg|ee|sn|cl|pt|pr|pk|ph|pe|pa|no|ni|my|mx|mn|mk|me|md|ma|ly|lv|lu|lt|lk|la|kz|kr|jp|iq|in|hk|gt|ge|fi|cr|cz|dk"
-
-              # Фильтруем, исключая редкие TLD
-              filtered_domains=$(echo "$domains" | grep -Ev "\.($excluded_tlds)$")
-
-              if [ -n "$filtered_domains" ]; then
-                echo "$filtered_domains" | while read -r domain; do
-                  echo ":if ([:len [/ip dns static find name=\"$domain\"]] = 0) do={ add address-list=\$AddressList forward-to=\$ForwardTo comment=\"$resource\" type=FWD name=\"$domain\" }" >> "$output_file"
-                done
-              fi
-
-              # domain_suffix (match-subdomain=yes)
               suffixes=$(jq -r '
                 .rules[]
                 | if (.domain_suffix | type == "string") then [.domain_suffix]
@@ -127,16 +108,6 @@ jobs:
                 | .[]
               ' "input_$resource.json" | sort -u)
 
-              # Фильтруем, исключая редкие TLD
-              filtered_suffixes=$(echo "$suffixes" | grep -Ev "\.($excluded_tlds)$")
-
-              if [ -n "$filtered_suffixes" ]; then
-                echo "$filtered_suffixes" | while read -r domain_suffix; do
-                  echo ":if ([:len [/ip dns static find name=\"$domain_suffix\"]] = 0) do={ add address-list=\$AddressList forward-to=\$ForwardTo comment=\"$resource\" match-subdomain=yes type=FWD name=\"$domain_suffix\" }" >> "$output_file"
-                done
-              fi
-
-              # domain_regex (handle both string and array)
               regex_list=$(jq -r '
                 .rules[]
                 | if (.domain_regex | type == "string") then [.domain_regex]
@@ -144,17 +115,80 @@ jobs:
                   else [] end
                 | .[]
               ' "input_$resource.json" | sort -u)
-              if [ -n "$regex_list" ]; then
-                echo "$regex_list" | while read -r regex; do
+
+              # Blacklist of TLDs to exclude
+              excluded_tlds="ad|as|bf|bj|bt|cd|cf|ci|ao|bw|ck|ls|mz|vi|zm|bn|bz|cy|et|fj|gi|kh|mm|na|np|pg|sb|sl|vc|mg|ac|af|ag|ai|bi|bs|cg|cm|cu|dz|ga|gd|gl|gm|gs|gy|ht|je|lc|mp|mu|mw|nu|pn|re|rw|sc|sr|st|sx|sy|tf|tj|tl|tt|vg|vu|wf|yt|do|ec|eg|gh|hn|jm|kw|lb|mt|om|py|tr|tw|se|ae|al|am|at|bg|ch|id|cn|ve|uk|za|zw|ar|au|bd|br|il|ke|nz|th|tz|de|es|fr|gr|hr|hu|ie|is|it|ng|nl|pl|ro|rs|sa|ua|jo|uz|tm|az|ba|bh|bo|by|ca|qa|vn|uy|ug|tn|sv|sk|si|sg|ee|sn|cl|pt|pr|pk|ph|pe|pa|no|ni|my|mx|mn|mk|me|md|ma|ly|lv|lu|lt|lk|la|kz|kr|jp|iq|in|hk|gt|ge|fi|cr|cz|dk"
+
+              # Filter domains and suffixes, excluding rare TLDs
+              filtered_domains=$(echo "$domains" | grep -Ev "\.($excluded_tlds)$" || true)
+              filtered_suffixes=$(echo "$suffixes" | grep -Ev "\.($excluded_tlds)$" || true)
+
+              # Combine all entries into one array
+              all_entries=()
+              while IFS= read -r domain; do
+                  all_entries+=("domain:$domain")
+              done <<< "$filtered_domains"
+              while IFS= read -r suffix; do
+                  all_entries+=("suffix:$suffix")
+              done <<< "$filtered_suffixes"
+              while IFS= read -r regex; do
                   escaped_regex=$(echo "$regex" | sed -E '
-                    s/\\/\\\\\\\\/g;      # сначала экранируем все обратные слэши
-                    s/\$/\\$/g;       # $ → \$
-                    s/"/\\"/g;        # " → \"
-                    s/ /\\_/g;        # пробел → \_
-                    s/\?/\\?/g;       # ? → \?
+                    s/\\/\\\\\\\\/g;      # Escape backslashes first
+                    s/\$/\\$/g;           # $ → \$
+                    s/"/\\"/g;            # " → \"
+                    s/ /\\_/g;            # space → \_
+                    s/\?/\\?/g;           # ? → \?
                   ')
-                  echo ":if ([:len [/ip dns static find regexp=\"$escaped_regex\"]] = 0) do={ add address-list=\$AddressList forward-to=\$ForwardTo comment=\"$resource\" type=FWD regexp=\"$escaped_regex\" }" >> "$output_file"
-                done
+                  all_entries+=("regex:$escaped_regex")
+              done <<< "$regex_list"
+
+              # Split entries into chunks of MAX_ENTRIES_PER_FILE
+              entry_count=${#all_entries[@]}
+              if [ $entry_count -eq 0 ]; then
+                  echo "No valid entries for $resource, skipping..."
+                  continue
+              fi
+
+              # Check if entries fit in one file
+              if [ $entry_count -le $MAX_ENTRIES_PER_FILE ]; then
+                  output_file="for_scripts/${resource}.rsc"
+                  echo ":global AddressList" > "$output_file"
+                  echo ":global ForwardTo" >> "$output_file"
+                  echo "/ip dns static" >> "$output_file"
+                  for entry in "${all_entries[@]}"; do
+                      type=$(echo "$entry" | cut -d':' -f1)
+                      value=$(echo "$entry" | cut -d':' -f2-)
+                      if [ "$type" = "domain" ]; then
+                          echo ":if ([:len [/ip dns static find name=\"$value\" type=FWD]] = 0) do={ add address-list=\\\$AddressList forward-to=\\\$ForwardTo comment=\"$resource\" type=FWD name=\"$value\" }" >> "$output_file"
+                      elif [ "$type" = "suffix" ]; then
+                          echo ":if ([:len [/ip dns static find name=\"$value\" type=FWD match-subdomain=yes]] = 0) do={ add address-list=\\\$AddressList forward-to=\\\$ForwardTo comment=\"$resource\" match-subdomain=yes type=FWD name=\"$value\" }" >> "$output_file"
+                      elif [ "$type" = "regex" ]; then
+                          echo ":if ([:len [/ip dns static find regexp=\"$value\" type=FWD]] = 0) do={ add address-list=\\\$AddressList forward-to=\\\$ForwardTo comment=\"$resource\" type=FWD regexp=\"$value\" }" >> "$output_file"
+                      fi
+                  done
+              else
+                  # Split into multiple files
+                  part=1
+                  entry_index=0
+                  while [ $entry_index -lt $entry_count ]; do
+                      output_file="for_scripts/${resource}_part${part}.rsc"
+                      echo ":global AddressList" > "$output_file"
+                      echo ":global ForwardTo" >> "$output_file"
+                      echo "/ip dns static" >> "$output_file"
+                      for ((i=0; i<MAX_ENTRIES_PER_FILE && entry_index<entry_count; i++, entry_index++)); do
+                          entry=${all_entries[$entry_index]}
+                          type=$(echo "$entry" | cut -d':' -f1)
+                          value=$(echo "$entry" | cut -d':' -f2-)
+                          if [ "$type" = "domain" ]; then
+                              echo ":if ([:len [/ip dns static find name=\"$value\" type=FWD]] = 0) do={ add address-list=\\\$AddressList forward-to=\\\$ForwardTo comment=\"$resource\" type=FWD name=\"$value\" }" >> "$output_file"
+                          elif [ "$type" = "suffix" ]; then
+                              echo ":if ([:len [/ip dns static find name=\"$value\" type=FWD match-subdomain=yes]] = 0) do={ add address-list=\\\$AddressList forward-to=\\\$ForwardTo comment=\"$resource\" match-subdomain=yes type=FWD name=\"$value\" }" >> "$output_file"
+                          elif [ "$type" = "regex" ]; then
+                              echo ":if ([:len [/ip dns static find regexp=\"$value\" type=FWD]] = 0) do={ add address-list=\\\$AddressList forward-to=\\\$ForwardTo comment=\"$resource\" type=FWD regexp=\"$value\" }" >> "$output_file"
+                          fi
+                      done
+                      part=$((part + 1))
+                  done
               fi
           done
 
