@@ -59,9 +59,9 @@ env:
     adobe, \
     twitch"
 
-  FORWARD_TO: \\$ForwardTo
+  FORWARD_TO: \$ForwardTo
 
-  ADDRESS_LIST: \\$AddressList
+  ADDRESS_LIST: \$AddressList
 
   JSON_URL_TEMPLATE: https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/refs/heads/sing/geo/geosite/{resource}.json
 
@@ -79,8 +79,8 @@ jobs:
         run: |
           set -e
           IFS=',' read -ra resource_array <<< "${{ env.RESOURCES }}"
-          FORWARD_TO="${{ env.FORWARD_TO }}"
-          ADDRESS_LIST="${{ env.ADDRESS_LIST }}"
+          FORWARD_TO="\${{ env.FORWARD_TO }}"
+          ADDRESS_LIST="\${{ env.ADDRESS_LIST }}"
           JSON_URL_TEMPLATE="${{ env.JSON_URL_TEMPLATE }}"
 
           mkdir -p for_scripts
