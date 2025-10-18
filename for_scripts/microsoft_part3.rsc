@@ -1,153 +1,153 @@
 :global AddressList
 :global ForwardTo
 /ip dns static
-:if ([:len [/ip dns static find regexp="microsoftadc.com"]] = 0) do={ add address-list=\$AddressList forward-to=\$ForwardTo comment="microsoft" type=FWD regexp="microsoftadc.com" }
-:if ([:len [/ip dns static find regexp="microsoftads.com"]] = 0) do={ add address-list=\$AddressList forward-to=\$ForwardTo comment="microsoft" type=FWD regexp="microsoftads.com" }
-:if ([:len [/ip dns static find regexp="microsoftadvertising.com"]] = 0) do={ add address-list=\$AddressList forward-to=\$ForwardTo comment="microsoft" type=FWD regexp="microsoftadvertising.com" }
-:if ([:len [/ip dns static find regexp="microsoftadvertisingregionalawards.com"]] = 0) do={ add address-list=\$AddressList forward-to=\$ForwardTo comment="microsoft" type=FWD regexp="microsoftadvertisingregionalawards.com" }
-:if ([:len [/ip dns static find regexp="microsoftaffiliates.com"]] = 0) do={ add address-list=\$AddressList forward-to=\$ForwardTo comment="microsoft" type=FWD regexp="microsoftaffiliates.com" }
-:if ([:len [/ip dns static find regexp="microsoftapp.net"]] = 0) do={ add address-list=\$AddressList forward-to=\$ForwardTo comment="microsoft" type=FWD regexp="microsoftapp.net" }
-:if ([:len [/ip dns static find regexp="microsoftazuread-sso.com"]] = 0) do={ add address-list=\$AddressList forward-to=\$ForwardTo comment="microsoft" type=FWD regexp="microsoftazuread-sso.com" }
-:if ([:len [/ip dns static find regexp="microsoftazuresponsorships.com"]] = 0) do={ add address-list=\$AddressList forward-to=\$ForwardTo comment="microsoft" type=FWD regexp="microsoftazuresponsorships.com" }
-:if ([:len [/ip dns static find regexp="microsoftcloud.com"]] = 0) do={ add address-list=\$AddressList forward-to=\$ForwardTo comment="microsoft" type=FWD regexp="microsoftcloud.com" }
-:if ([:len [/ip dns static find regexp="microsoftcloudsummit.com"]] = 0) do={ add address-list=\$AddressList forward-to=\$ForwardTo comment="microsoft" type=FWD regexp="microsoftcloudsummit.com" }
-:if ([:len [/ip dns static find regexp="microsoftcloudworkshop.com"]] = 0) do={ add address-list=\$AddressList forward-to=\$ForwardTo comment="microsoft" type=FWD regexp="microsoftcloudworkshop.com" }
-:if ([:len [/ip dns static find regexp="microsoftcommunitytraining.com"]] = 0) do={ add address-list=\$AddressList forward-to=\$ForwardTo comment="microsoft" type=FWD regexp="microsoftcommunitytraining.com" }
-:if ([:len [/ip dns static find regexp="microsoftdiplomados.com"]] = 0) do={ add address-list=\$AddressList forward-to=\$ForwardTo comment="microsoft" type=FWD regexp="microsoftdiplomados.com" }
-:if ([:len [/ip dns static find regexp="microsofteca.com"]] = 0) do={ add address-list=\$AddressList forward-to=\$ForwardTo comment="microsoft" type=FWD regexp="microsofteca.com" }
-:if ([:len [/ip dns static find regexp="microsoftedge.com"]] = 0) do={ add address-list=\$AddressList forward-to=\$ForwardTo comment="microsoft" type=FWD regexp="microsoftedge.com" }
-:if ([:len [/ip dns static find regexp="microsoftedgeinsider.com"]] = 0) do={ add address-list=\$AddressList forward-to=\$ForwardTo comment="microsoft" type=FWD regexp="microsoftedgeinsider.com" }
-:if ([:len [/ip dns static find regexp="microsoftgamestack.com"]] = 0) do={ add address-list=\$AddressList forward-to=\$ForwardTo comment="microsoft" type=FWD regexp="microsoftgamestack.com" }
-:if ([:len [/ip dns static find regexp="microsofthouse.com"]] = 0) do={ add address-list=\$AddressList forward-to=\$ForwardTo comment="microsoft" type=FWD regexp="microsofthouse.com" }
-:if ([:len [/ip dns static find regexp="microsofthouse.net"]] = 0) do={ add address-list=\$AddressList forward-to=\$ForwardTo comment="microsoft" type=FWD regexp="microsofthouse.net" }
-:if ([:len [/ip dns static find regexp="microsoftinternetsafety.net"]] = 0) do={ add address-list=\$AddressList forward-to=\$ForwardTo comment="microsoft" type=FWD regexp="microsoftinternetsafety.net" }
-:if ([:len [/ip dns static find regexp="microsoftiotcentral.com"]] = 0) do={ add address-list=\$AddressList forward-to=\$ForwardTo comment="microsoft" type=FWD regexp="microsoftiotcentral.com" }
-:if ([:len [/ip dns static find regexp="microsoftiotinsiderlabs.com"]] = 0) do={ add address-list=\$AddressList forward-to=\$ForwardTo comment="microsoft" type=FWD regexp="microsoftiotinsiderlabs.com" }
-:if ([:len [/ip dns static find regexp="microsoftlatamaitour.com"]] = 0) do={ add address-list=\$AddressList forward-to=\$ForwardTo comment="microsoft" type=FWD regexp="microsoftlatamaitour.com" }
-:if ([:len [/ip dns static find regexp="microsoftlatamholiday.com"]] = 0) do={ add address-list=\$AddressList forward-to=\$ForwardTo comment="microsoft" type=FWD regexp="microsoftlatamholiday.com" }
-:if ([:len [/ip dns static find regexp="microsoftlinc.com"]] = 0) do={ add address-list=\$AddressList forward-to=\$ForwardTo comment="microsoft" type=FWD regexp="microsoftlinc.com" }
-:if ([:len [/ip dns static find regexp="microsoftmxfilantropia.com"]] = 0) do={ add address-list=\$AddressList forward-to=\$ForwardTo comment="microsoft" type=FWD regexp="microsoftmxfilantropia.com" }
-:if ([:len [/ip dns static find regexp="microsoftnews.cc"]] = 0) do={ add address-list=\$AddressList forward-to=\$ForwardTo comment="microsoft" type=FWD regexp="microsoftnews.cc" }
-:if ([:len [/ip dns static find regexp="microsoftnews.com"]] = 0) do={ add address-list=\$AddressList forward-to=\$ForwardTo comment="microsoft" type=FWD regexp="microsoftnews.com" }
-:if ([:len [/ip dns static find regexp="microsoftnews.net"]] = 0) do={ add address-list=\$AddressList forward-to=\$ForwardTo comment="microsoft" type=FWD regexp="microsoftnews.net" }
-:if ([:len [/ip dns static find regexp="microsoftnews.org"]] = 0) do={ add address-list=\$AddressList forward-to=\$ForwardTo comment="microsoft" type=FWD regexp="microsoftnews.org" }
-:if ([:len [/ip dns static find regexp="microsoftnewsforkids.com"]] = 0) do={ add address-list=\$AddressList forward-to=\$ForwardTo comment="microsoft" type=FWD regexp="microsoftnewsforkids.com" }
-:if ([:len [/ip dns static find regexp="microsoftnewsforkids.net"]] = 0) do={ add address-list=\$AddressList forward-to=\$ForwardTo comment="microsoft" type=FWD regexp="microsoftnewsforkids.net" }
-:if ([:len [/ip dns static find regexp="microsoftnewsforkids.org"]] = 0) do={ add address-list=\$AddressList forward-to=\$ForwardTo comment="microsoft" type=FWD regexp="microsoftnewsforkids.org" }
-:if ([:len [/ip dns static find regexp="microsoftnewskids.com"]] = 0) do={ add address-list=\$AddressList forward-to=\$ForwardTo comment="microsoft" type=FWD regexp="microsoftnewskids.com" }
-:if ([:len [/ip dns static find regexp="microsoftnewskids.net"]] = 0) do={ add address-list=\$AddressList forward-to=\$ForwardTo comment="microsoft" type=FWD regexp="microsoftnewskids.net" }
-:if ([:len [/ip dns static find regexp="microsoftnewskids.org"]] = 0) do={ add address-list=\$AddressList forward-to=\$ForwardTo comment="microsoft" type=FWD regexp="microsoftnewskids.org" }
-:if ([:len [/ip dns static find regexp="microsoftonline-p.com"]] = 0) do={ add address-list=\$AddressList forward-to=\$ForwardTo comment="microsoft" type=FWD regexp="microsoftonline-p.com" }
-:if ([:len [/ip dns static find regexp="microsoftonline.com"]] = 0) do={ add address-list=\$AddressList forward-to=\$ForwardTo comment="microsoft" type=FWD regexp="microsoftonline.com" }
-:if ([:len [/ip dns static find regexp="microsoftpartnercommunity.com"]] = 0) do={ add address-list=\$AddressList forward-to=\$ForwardTo comment="microsoft" type=FWD regexp="microsoftpartnercommunity.com" }
-:if ([:len [/ip dns static find regexp="microsoftpartnersolutions.com"]] = 0) do={ add address-list=\$AddressList forward-to=\$ForwardTo comment="microsoft" type=FWD regexp="microsoftpartnersolutions.com" }
-:if ([:len [/ip dns static find regexp="microsoftpersonalcontent.com"]] = 0) do={ add address-list=\$AddressList forward-to=\$ForwardTo comment="microsoft" type=FWD regexp="microsoftpersonalcontent.com" }
-:if ([:len [/ip dns static find regexp="microsoftreactor.info"]] = 0) do={ add address-list=\$AddressList forward-to=\$ForwardTo comment="microsoft" type=FWD regexp="microsoftreactor.info" }
-:if ([:len [/ip dns static find regexp="microsoftreactor.net"]] = 0) do={ add address-list=\$AddressList forward-to=\$ForwardTo comment="microsoft" type=FWD regexp="microsoftreactor.net" }
-:if ([:len [/ip dns static find regexp="microsoftreactor.org"]] = 0) do={ add address-list=\$AddressList forward-to=\$ForwardTo comment="microsoft" type=FWD regexp="microsoftreactor.org" }
-:if ([:len [/ip dns static find regexp="microsoftready.com"]] = 0) do={ add address-list=\$AddressList forward-to=\$ForwardTo comment="microsoft" type=FWD regexp="microsoftready.com" }
-:if ([:len [/ip dns static find regexp="microsoftsilverlight.com"]] = 0) do={ add address-list=\$AddressList forward-to=\$ForwardTo comment="microsoft" type=FWD regexp="microsoftsilverlight.com" }
-:if ([:len [/ip dns static find regexp="microsoftsilverlight.net"]] = 0) do={ add address-list=\$AddressList forward-to=\$ForwardTo comment="microsoft" type=FWD regexp="microsoftsilverlight.net" }
-:if ([:len [/ip dns static find regexp="microsoftsilverlight.org"]] = 0) do={ add address-list=\$AddressList forward-to=\$ForwardTo comment="microsoft" type=FWD regexp="microsoftsilverlight.org" }
-:if ([:len [/ip dns static find regexp="microsoftsiteselection.com"]] = 0) do={ add address-list=\$AddressList forward-to=\$ForwardTo comment="microsoft" type=FWD regexp="microsoftsiteselection.com" }
-:if ([:len [/ip dns static find regexp="microsoftsqlserver.com"]] = 0) do={ add address-list=\$AddressList forward-to=\$ForwardTo comment="microsoft" type=FWD regexp="microsoftsqlserver.com" }
-:if ([:len [/ip dns static find regexp="microsoftstart.com"]] = 0) do={ add address-list=\$AddressList forward-to=\$ForwardTo comment="microsoft" type=FWD regexp="microsoftstart.com" }
-:if ([:len [/ip dns static find regexp="microsoftstore.com"]] = 0) do={ add address-list=\$AddressList forward-to=\$ForwardTo comment="microsoft" type=FWD regexp="microsoftstore.com" }
-:if ([:len [/ip dns static find regexp="microsoftstream.com"]] = 0) do={ add address-list=\$AddressList forward-to=\$ForwardTo comment="microsoft" type=FWD regexp="microsoftstream.com" }
-:if ([:len [/ip dns static find regexp="microsoftteams.com"]] = 0) do={ add address-list=\$AddressList forward-to=\$ForwardTo comment="microsoft" type=FWD regexp="microsoftteams.com" }
-:if ([:len [/ip dns static find regexp="microsofttradein.com"]] = 0) do={ add address-list=\$AddressList forward-to=\$ForwardTo comment="microsoft" type=FWD regexp="microsofttradein.com" }
-:if ([:len [/ip dns static find regexp="microsofttranslator.com"]] = 0) do={ add address-list=\$AddressList forward-to=\$ForwardTo comment="microsoft" type=FWD regexp="microsofttranslator.com" }
-:if ([:len [/ip dns static find regexp="microsoftuwp.com"]] = 0) do={ add address-list=\$AddressList forward-to=\$ForwardTo comment="microsoft" type=FWD regexp="microsoftuwp.com" }
-:if ([:len [/ip dns static find regexp="minecraft-services.net"]] = 0) do={ add address-list=\$AddressList forward-to=\$ForwardTo comment="microsoft" type=FWD regexp="minecraft-services.net" }
-:if ([:len [/ip dns static find regexp="minecraft.net"]] = 0) do={ add address-list=\$AddressList forward-to=\$ForwardTo comment="microsoft" type=FWD regexp="minecraft.net" }
-:if ([:len [/ip dns static find regexp="minecraftservices.com"]] = 0) do={ add address-list=\$AddressList forward-to=\$ForwardTo comment="microsoft" type=FWD regexp="minecraftservices.com" }
-:if ([:len [/ip dns static find regexp="minecraftshop.com"]] = 0) do={ add address-list=\$AddressList forward-to=\$ForwardTo comment="microsoft" type=FWD regexp="minecraftshop.com" }
-:if ([:len [/ip dns static find regexp="mmdnn.com"]] = 0) do={ add address-list=\$AddressList forward-to=\$ForwardTo comment="microsoft" type=FWD regexp="mmdnn.com" }
-:if ([:len [/ip dns static find regexp="mojang.com"]] = 0) do={ add address-list=\$AddressList forward-to=\$ForwardTo comment="microsoft" type=FWD regexp="mojang.com" }
-:if ([:len [/ip dns static find regexp="momentumms.com"]] = 0) do={ add address-list=\$AddressList forward-to=\$ForwardTo comment="microsoft" type=FWD regexp="momentumms.com" }
-:if ([:len [/ip dns static find regexp="mono-project.com"]] = 0) do={ add address-list=\$AddressList forward-to=\$ForwardTo comment="microsoft" type=FWD regexp="mono-project.com" }
-:if ([:len [/ip dns static find regexp="morphcharts.com"]] = 0) do={ add address-list=\$AddressList forward-to=\$ForwardTo comment="microsoft" type=FWD regexp="morphcharts.com" }
-:if ([:len [/ip dns static find regexp="mpnevolution.com"]] = 0) do={ add address-list=\$AddressList forward-to=\$ForwardTo comment="microsoft" type=FWD regexp="mpnevolution.com" }
-:if ([:len [/ip dns static find regexp="ms-studiosmedia.com"]] = 0) do={ add address-list=\$AddressList forward-to=\$ForwardTo comment="microsoft" type=FWD regexp="ms-studiosmedia.com" }
-:if ([:len [/ip dns static find regexp="ms365surfaceoffer.com"]] = 0) do={ add address-list=\$AddressList forward-to=\$ForwardTo comment="microsoft" type=FWD regexp="ms365surfaceoffer.com" }
-:if ([:len [/ip dns static find regexp="msads.net"]] = 0) do={ add address-list=\$AddressList forward-to=\$ForwardTo comment="microsoft" type=FWD regexp="msads.net" }
-:if ([:len [/ip dns static find regexp="msauth.net"]] = 0) do={ add address-list=\$AddressList forward-to=\$ForwardTo comment="microsoft" type=FWD regexp="msauth.net" }
-:if ([:len [/ip dns static find regexp="mschallenge2018.com"]] = 0) do={ add address-list=\$AddressList forward-to=\$ForwardTo comment="microsoft" type=FWD regexp="mschallenge2018.com" }
-:if ([:len [/ip dns static find regexp="mschcdn.com"]] = 0) do={ add address-list=\$AddressList forward-to=\$ForwardTo comment="microsoft" type=FWD regexp="mschcdn.com" }
-:if ([:len [/ip dns static find regexp="msdn.com"]] = 0) do={ add address-list=\$AddressList forward-to=\$ForwardTo comment="microsoft" type=FWD regexp="msdn.com" }
-:if ([:len [/ip dns static find regexp="msecnd.net"]] = 0) do={ add address-list=\$AddressList forward-to=\$ForwardTo comment="microsoft" type=FWD regexp="msecnd.net" }
-:if ([:len [/ip dns static find regexp="msedge.net"]] = 0) do={ add address-list=\$AddressList forward-to=\$ForwardTo comment="microsoft" type=FWD regexp="msedge.net" }
-:if ([:len [/ip dns static find regexp="msft.info"]] = 0) do={ add address-list=\$AddressList forward-to=\$ForwardTo comment="microsoft" type=FWD regexp="msft.info" }
-:if ([:len [/ip dns static find regexp="msft.net"]] = 0) do={ add address-list=\$AddressList forward-to=\$ForwardTo comment="microsoft" type=FWD regexp="msft.net" }
-:if ([:len [/ip dns static find regexp="msftauth.net"]] = 0) do={ add address-list=\$AddressList forward-to=\$ForwardTo comment="microsoft" type=FWD regexp="msftauth.net" }
-:if ([:len [/ip dns static find regexp="msftauthimages.net"]] = 0) do={ add address-list=\$AddressList forward-to=\$ForwardTo comment="microsoft" type=FWD regexp="msftauthimages.net" }
-:if ([:len [/ip dns static find regexp="msftconnecttest.com"]] = 0) do={ add address-list=\$AddressList forward-to=\$ForwardTo comment="microsoft" type=FWD regexp="msftconnecttest.com" }
-:if ([:len [/ip dns static find regexp="msftncsi.com"]] = 0) do={ add address-list=\$AddressList forward-to=\$ForwardTo comment="microsoft" type=FWD regexp="msftncsi.com" }
-:if ([:len [/ip dns static find regexp="msftnet.org"]] = 0) do={ add address-list=\$AddressList forward-to=\$ForwardTo comment="microsoft" type=FWD regexp="msftnet.org" }
-:if ([:len [/ip dns static find regexp="msgamesresearch.com"]] = 0) do={ add address-list=\$AddressList forward-to=\$ForwardTo comment="microsoft" type=FWD regexp="msgamesresearch.com" }
-:if ([:len [/ip dns static find regexp="msgamestudios.com"]] = 0) do={ add address-list=\$AddressList forward-to=\$ForwardTo comment="microsoft" type=FWD regexp="msgamestudios.com" }
-:if ([:len [/ip dns static find regexp="mshome.net"]] = 0) do={ add address-list=\$AddressList forward-to=\$ForwardTo comment="microsoft" type=FWD regexp="mshome.net" }
-:if ([:len [/ip dns static find regexp="msidentity.com"]] = 0) do={ add address-list=\$AddressList forward-to=\$ForwardTo comment="microsoft" type=FWD regexp="msidentity.com" }
-:if ([:len [/ip dns static find regexp="msinnovationchallenge.com"]] = 0) do={ add address-list=\$AddressList forward-to=\$ForwardTo comment="microsoft" type=FWD regexp="msinnovationchallenge.com" }
-:if ([:len [/ip dns static find regexp="msn.com"]] = 0) do={ add address-list=\$AddressList forward-to=\$ForwardTo comment="microsoft" type=FWD regexp="msn.com" }
-:if ([:len [/ip dns static find regexp="msn.net"]] = 0) do={ add address-list=\$AddressList forward-to=\$ForwardTo comment="microsoft" type=FWD regexp="msn.net" }
-:if ([:len [/ip dns static find regexp="msnewskids.com"]] = 0) do={ add address-list=\$AddressList forward-to=\$ForwardTo comment="microsoft" type=FWD regexp="msnewskids.com" }
-:if ([:len [/ip dns static find regexp="msnewskids.net"]] = 0) do={ add address-list=\$AddressList forward-to=\$ForwardTo comment="microsoft" type=FWD regexp="msnewskids.net" }
-:if ([:len [/ip dns static find regexp="msnewskids.org"]] = 0) do={ add address-list=\$AddressList forward-to=\$ForwardTo comment="microsoft" type=FWD regexp="msnewskids.org" }
-:if ([:len [/ip dns static find regexp="msnkids.com"]] = 0) do={ add address-list=\$AddressList forward-to=\$ForwardTo comment="microsoft" type=FWD regexp="msnkids.com" }
-:if ([:len [/ip dns static find regexp="msocdn.com"]] = 0) do={ add address-list=\$AddressList forward-to=\$ForwardTo comment="microsoft" type=FWD regexp="msocdn.com" }
-:if ([:len [/ip dns static find regexp="msocsp.com"]] = 0) do={ add address-list=\$AddressList forward-to=\$ForwardTo comment="microsoft" type=FWD regexp="msocsp.com" }
-:if ([:len [/ip dns static find regexp="mspairlift.com"]] = 0) do={ add address-list=\$AddressList forward-to=\$ForwardTo comment="microsoft" type=FWD regexp="mspairlift.com" }
-:if ([:len [/ip dns static find regexp="msropendata.com"]] = 0) do={ add address-list=\$AddressList forward-to=\$ForwardTo comment="microsoft" type=FWD regexp="msropendata.com" }
-:if ([:len [/ip dns static find regexp="msturing.org"]] = 0) do={ add address-list=\$AddressList forward-to=\$ForwardTo comment="microsoft" type=FWD regexp="msturing.org" }
-:if ([:len [/ip dns static find regexp="msudalosti.com"]] = 0) do={ add address-list=\$AddressList forward-to=\$ForwardTo comment="microsoft" type=FWD regexp="msudalosti.com" }
-:if ([:len [/ip dns static find regexp="msunlimitedcloudsummit.com"]] = 0) do={ add address-list=\$AddressList forward-to=\$ForwardTo comment="microsoft" type=FWD regexp="msunlimitedcloudsummit.com" }
-:if ([:len [/ip dns static find regexp="mymicrosoft.com"]] = 0) do={ add address-list=\$AddressList forward-to=\$ForwardTo comment="microsoft" type=FWD regexp="mymicrosoft.com" }
-:if ([:len [/ip dns static find regexp="myoctocat.com"]] = 0) do={ add address-list=\$AddressList forward-to=\$ForwardTo comment="microsoft" type=FWD regexp="myoctocat.com" }
-:if ([:len [/ip dns static find regexp="nelreports.net"]] = 0) do={ add address-list=\$AddressList forward-to=\$ForwardTo comment="microsoft" type=FWD regexp="nelreports.net" }
-:if ([:len [/ip dns static find regexp="nextechafrica.net"]] = 0) do={ add address-list=\$AddressList forward-to=\$ForwardTo comment="microsoft" type=FWD regexp="nextechafrica.net" }
-:if ([:len [/ip dns static find regexp="npm.community"]] = 0) do={ add address-list=\$AddressList forward-to=\$ForwardTo comment="microsoft" type=FWD regexp="npm.community" }
-:if ([:len [/ip dns static find regexp="npmjs.com"]] = 0) do={ add address-list=\$AddressList forward-to=\$ForwardTo comment="microsoft" type=FWD regexp="npmjs.com" }
-:if ([:len [/ip dns static find regexp="npmjs.org"]] = 0) do={ add address-list=\$AddressList forward-to=\$ForwardTo comment="microsoft" type=FWD regexp="npmjs.org" }
-:if ([:len [/ip dns static find regexp="nuget.org"]] = 0) do={ add address-list=\$AddressList forward-to=\$ForwardTo comment="microsoft" type=FWD regexp="nuget.org" }
-:if ([:len [/ip dns static find regexp="nugettest.org"]] = 0) do={ add address-list=\$AddressList forward-to=\$ForwardTo comment="microsoft" type=FWD regexp="nugettest.org" }
-:if ([:len [/ip dns static find regexp="nxta.org"]] = 0) do={ add address-list=\$AddressList forward-to=\$ForwardTo comment="microsoft" type=FWD regexp="nxta.org" }
-:if ([:len [/ip dns static find regexp="o365cn.com"]] = 0) do={ add address-list=\$AddressList forward-to=\$ForwardTo comment="microsoft" type=FWD regexp="o365cn.com" }
-:if ([:len [/ip dns static find regexp="o365weve-dev.com"]] = 0) do={ add address-list=\$AddressList forward-to=\$ForwardTo comment="microsoft" type=FWD regexp="o365weve-dev.com" }
-:if ([:len [/ip dns static find regexp="o365weve-ppe.com"]] = 0) do={ add address-list=\$AddressList forward-to=\$ForwardTo comment="microsoft" type=FWD regexp="o365weve-ppe.com" }
-:if ([:len [/ip dns static find regexp="o365weve.com"]] = 0) do={ add address-list=\$AddressList forward-to=\$ForwardTo comment="microsoft" type=FWD regexp="o365weve.com" }
-:if ([:len [/ip dns static find regexp="octocaptcha.com"]] = 0) do={ add address-list=\$AddressList forward-to=\$ForwardTo comment="microsoft" type=FWD regexp="octocaptcha.com" }
-:if ([:len [/ip dns static find regexp="office"]] = 0) do={ add address-list=\$AddressList forward-to=\$ForwardTo comment="microsoft" type=FWD regexp="office" }
-:if ([:len [/ip dns static find regexp="office.com"]] = 0) do={ add address-list=\$AddressList forward-to=\$ForwardTo comment="microsoft" type=FWD regexp="office.com" }
-:if ([:len [/ip dns static find regexp="office.net"]] = 0) do={ add address-list=\$AddressList forward-to=\$ForwardTo comment="microsoft" type=FWD regexp="office.net" }
-:if ([:len [/ip dns static find regexp="office365.com"]] = 0) do={ add address-list=\$AddressList forward-to=\$ForwardTo comment="microsoft" type=FWD regexp="office365.com" }
-:if ([:len [/ip dns static find regexp="office365love.com"]] = 0) do={ add address-list=\$AddressList forward-to=\$ForwardTo comment="microsoft" type=FWD regexp="office365love.com" }
-:if ([:len [/ip dns static find regexp="office365tw.com"]] = 0) do={ add address-list=\$AddressList forward-to=\$ForwardTo comment="microsoft" type=FWD regexp="office365tw.com" }
-:if ([:len [/ip dns static find regexp="onedrive"]] = 0) do={ add address-list=\$AddressList forward-to=\$ForwardTo comment="microsoft" type=FWD regexp="onedrive" }
-:if ([:len [/ip dns static find regexp="onedrive.com"]] = 0) do={ add address-list=\$AddressList forward-to=\$ForwardTo comment="microsoft" type=FWD regexp="onedrive.com" }
-:if ([:len [/ip dns static find regexp="onedriveupdater"]] = 0) do={ add address-list=\$AddressList forward-to=\$ForwardTo comment="microsoft" type=FWD regexp="onedriveupdater" }
-:if ([:len [/ip dns static find regexp="onenote.com"]] = 0) do={ add address-list=\$AddressList forward-to=\$ForwardTo comment="microsoft" type=FWD regexp="onenote.com" }
-:if ([:len [/ip dns static find regexp="onenote.net"]] = 0) do={ add address-list=\$AddressList forward-to=\$ForwardTo comment="microsoft" type=FWD regexp="onenote.net" }
-:if ([:len [/ip dns static find regexp="onestore.ms"]] = 0) do={ add address-list=\$AddressList forward-to=\$ForwardTo comment="microsoft" type=FWD regexp="onestore.ms" }
-:if ([:len [/ip dns static find regexp="opensource.guide"]] = 0) do={ add address-list=\$AddressList forward-to=\$ForwardTo comment="microsoft" type=FWD regexp="opensource.guide" }
-:if ([:len [/ip dns static find regexp="opentranslatorstothings.org"]] = 0) do={ add address-list=\$AddressList forward-to=\$ForwardTo comment="microsoft" type=FWD regexp="opentranslatorstothings.org" }
-:if ([:len [/ip dns static find regexp="opticsforthecloud.net"]] = 0) do={ add address-list=\$AddressList forward-to=\$ForwardTo comment="microsoft" type=FWD regexp="opticsforthecloud.net" }
-:if ([:len [/ip dns static find regexp="orithegame.com"]] = 0) do={ add address-list=\$AddressList forward-to=\$ForwardTo comment="microsoft" type=FWD regexp="orithegame.com" }
-:if ([:len [/ip dns static find regexp="outingsapp.com"]] = 0) do={ add address-list=\$AddressList forward-to=\$ForwardTo comment="microsoft" type=FWD regexp="outingsapp.com" }
-:if ([:len [/ip dns static find regexp="outlook.com"]] = 0) do={ add address-list=\$AddressList forward-to=\$ForwardTo comment="microsoft" type=FWD regexp="outlook.com" }
-:if ([:len [/ip dns static find regexp="passport.net"]] = 0) do={ add address-list=\$AddressList forward-to=\$ForwardTo comment="microsoft" type=FWD regexp="passport.net" }
-:if ([:len [/ip dns static find regexp="pixapp.net"]] = 0) do={ add address-list=\$AddressList forward-to=\$ForwardTo comment="microsoft" type=FWD regexp="pixapp.net" }
-:if ([:len [/ip dns static find regexp="playfab.com"]] = 0) do={ add address-list=\$AddressList forward-to=\$ForwardTo comment="microsoft" type=FWD regexp="playfab.com" }
-:if ([:len [/ip dns static find regexp="playfabapi.com"]] = 0) do={ add address-list=\$AddressList forward-to=\$ForwardTo comment="microsoft" type=FWD regexp="playfabapi.com" }
-:if ([:len [/ip dns static find regexp="poshtestgallery.com"]] = 0) do={ add address-list=\$AddressList forward-to=\$ForwardTo comment="microsoft" type=FWD regexp="poshtestgallery.com" }
-:if ([:len [/ip dns static find regexp="powerappscdn.net"]] = 0) do={ add address-list=\$AddressList forward-to=\$ForwardTo comment="microsoft" type=FWD regexp="powerappscdn.net" }
-:if ([:len [/ip dns static find regexp="powerautomate.com"]] = 0) do={ add address-list=\$AddressList forward-to=\$ForwardTo comment="microsoft" type=FWD regexp="powerautomate.com" }
-:if ([:len [/ip dns static find regexp="powerbi.com"]] = 0) do={ add address-list=\$AddressList forward-to=\$ForwardTo comment="microsoft" type=FWD regexp="powerbi.com" }
-:if ([:len [/ip dns static find regexp="powershellgallery.com"]] = 0) do={ add address-list=\$AddressList forward-to=\$ForwardTo comment="microsoft" type=FWD regexp="powershellgallery.com" }
-:if ([:len [/ip dns static find regexp="projectmurphy.net"]] = 0) do={ add address-list=\$AddressList forward-to=\$ForwardTo comment="microsoft" type=FWD regexp="projectmurphy.net" }
-:if ([:len [/ip dns static find regexp="projectsangam.com"]] = 0) do={ add address-list=\$AddressList forward-to=\$ForwardTo comment="microsoft" type=FWD regexp="projectsangam.com" }
-:if ([:len [/ip dns static find regexp="pwabuilder.com"]] = 0) do={ add address-list=\$AddressList forward-to=\$ForwardTo comment="microsoft" type=FWD regexp="pwabuilder.com" }
-:if ([:len [/ip dns static find regexp="pxt.io"]] = 0) do={ add address-list=\$AddressList forward-to=\$ForwardTo comment="microsoft" type=FWD regexp="pxt.io" }
-:if ([:len [/ip dns static find regexp="r.bing.com"]] = 0) do={ add address-list=\$AddressList forward-to=\$ForwardTo comment="microsoft" type=FWD regexp="r.bing.com" }
-:if ([:len [/ip dns static find regexp="renovacionoffice.com"]] = 0) do={ add address-list=\$AddressList forward-to=\$ForwardTo comment="microsoft" type=FWD regexp="renovacionoffice.com" }
-:if ([:len [/ip dns static find regexp="renovacionxboxlive.com"]] = 0) do={ add address-list=\$AddressList forward-to=\$ForwardTo comment="microsoft" type=FWD regexp="renovacionxboxlive.com" }
+:if ([:len [/ip dns static find name="microsoftadc.com"]] = 0) do={ add address-list=\$AddressList forward-to=\$ForwardTo comment="microsoft" match-subdomain=yes type=FWD name="microsoftadc.com" }
+:if ([:len [/ip dns static find name="microsoftads.com"]] = 0) do={ add address-list=\$AddressList forward-to=\$ForwardTo comment="microsoft" match-subdomain=yes type=FWD name="microsoftads.com" }
+:if ([:len [/ip dns static find name="microsoftadvertising.com"]] = 0) do={ add address-list=\$AddressList forward-to=\$ForwardTo comment="microsoft" match-subdomain=yes type=FWD name="microsoftadvertising.com" }
+:if ([:len [/ip dns static find name="microsoftadvertisingregionalawards.com"]] = 0) do={ add address-list=\$AddressList forward-to=\$ForwardTo comment="microsoft" match-subdomain=yes type=FWD name="microsoftadvertisingregionalawards.com" }
+:if ([:len [/ip dns static find name="microsoftaffiliates.com"]] = 0) do={ add address-list=\$AddressList forward-to=\$ForwardTo comment="microsoft" match-subdomain=yes type=FWD name="microsoftaffiliates.com" }
+:if ([:len [/ip dns static find name="microsoftapp.net"]] = 0) do={ add address-list=\$AddressList forward-to=\$ForwardTo comment="microsoft" match-subdomain=yes type=FWD name="microsoftapp.net" }
+:if ([:len [/ip dns static find name="microsoftazuread-sso.com"]] = 0) do={ add address-list=\$AddressList forward-to=\$ForwardTo comment="microsoft" match-subdomain=yes type=FWD name="microsoftazuread-sso.com" }
+:if ([:len [/ip dns static find name="microsoftazuresponsorships.com"]] = 0) do={ add address-list=\$AddressList forward-to=\$ForwardTo comment="microsoft" match-subdomain=yes type=FWD name="microsoftazuresponsorships.com" }
+:if ([:len [/ip dns static find name="microsoftcloud.com"]] = 0) do={ add address-list=\$AddressList forward-to=\$ForwardTo comment="microsoft" match-subdomain=yes type=FWD name="microsoftcloud.com" }
+:if ([:len [/ip dns static find name="microsoftcloudsummit.com"]] = 0) do={ add address-list=\$AddressList forward-to=\$ForwardTo comment="microsoft" match-subdomain=yes type=FWD name="microsoftcloudsummit.com" }
+:if ([:len [/ip dns static find name="microsoftcloudworkshop.com"]] = 0) do={ add address-list=\$AddressList forward-to=\$ForwardTo comment="microsoft" match-subdomain=yes type=FWD name="microsoftcloudworkshop.com" }
+:if ([:len [/ip dns static find name="microsoftcommunitytraining.com"]] = 0) do={ add address-list=\$AddressList forward-to=\$ForwardTo comment="microsoft" match-subdomain=yes type=FWD name="microsoftcommunitytraining.com" }
+:if ([:len [/ip dns static find name="microsoftdiplomados.com"]] = 0) do={ add address-list=\$AddressList forward-to=\$ForwardTo comment="microsoft" match-subdomain=yes type=FWD name="microsoftdiplomados.com" }
+:if ([:len [/ip dns static find name="microsofteca.com"]] = 0) do={ add address-list=\$AddressList forward-to=\$ForwardTo comment="microsoft" match-subdomain=yes type=FWD name="microsofteca.com" }
+:if ([:len [/ip dns static find name="microsoftedge.com"]] = 0) do={ add address-list=\$AddressList forward-to=\$ForwardTo comment="microsoft" match-subdomain=yes type=FWD name="microsoftedge.com" }
+:if ([:len [/ip dns static find name="microsoftedgeinsider.com"]] = 0) do={ add address-list=\$AddressList forward-to=\$ForwardTo comment="microsoft" match-subdomain=yes type=FWD name="microsoftedgeinsider.com" }
+:if ([:len [/ip dns static find name="microsoftgamestack.com"]] = 0) do={ add address-list=\$AddressList forward-to=\$ForwardTo comment="microsoft" match-subdomain=yes type=FWD name="microsoftgamestack.com" }
+:if ([:len [/ip dns static find name="microsofthouse.com"]] = 0) do={ add address-list=\$AddressList forward-to=\$ForwardTo comment="microsoft" match-subdomain=yes type=FWD name="microsofthouse.com" }
+:if ([:len [/ip dns static find name="microsofthouse.net"]] = 0) do={ add address-list=\$AddressList forward-to=\$ForwardTo comment="microsoft" match-subdomain=yes type=FWD name="microsofthouse.net" }
+:if ([:len [/ip dns static find name="microsoftinternetsafety.net"]] = 0) do={ add address-list=\$AddressList forward-to=\$ForwardTo comment="microsoft" match-subdomain=yes type=FWD name="microsoftinternetsafety.net" }
+:if ([:len [/ip dns static find name="microsoftiotcentral.com"]] = 0) do={ add address-list=\$AddressList forward-to=\$ForwardTo comment="microsoft" match-subdomain=yes type=FWD name="microsoftiotcentral.com" }
+:if ([:len [/ip dns static find name="microsoftiotinsiderlabs.com"]] = 0) do={ add address-list=\$AddressList forward-to=\$ForwardTo comment="microsoft" match-subdomain=yes type=FWD name="microsoftiotinsiderlabs.com" }
+:if ([:len [/ip dns static find name="microsoftlatamaitour.com"]] = 0) do={ add address-list=\$AddressList forward-to=\$ForwardTo comment="microsoft" match-subdomain=yes type=FWD name="microsoftlatamaitour.com" }
+:if ([:len [/ip dns static find name="microsoftlatamholiday.com"]] = 0) do={ add address-list=\$AddressList forward-to=\$ForwardTo comment="microsoft" match-subdomain=yes type=FWD name="microsoftlatamholiday.com" }
+:if ([:len [/ip dns static find name="microsoftlinc.com"]] = 0) do={ add address-list=\$AddressList forward-to=\$ForwardTo comment="microsoft" match-subdomain=yes type=FWD name="microsoftlinc.com" }
+:if ([:len [/ip dns static find name="microsoftmxfilantropia.com"]] = 0) do={ add address-list=\$AddressList forward-to=\$ForwardTo comment="microsoft" match-subdomain=yes type=FWD name="microsoftmxfilantropia.com" }
+:if ([:len [/ip dns static find name="microsoftnews.cc"]] = 0) do={ add address-list=\$AddressList forward-to=\$ForwardTo comment="microsoft" match-subdomain=yes type=FWD name="microsoftnews.cc" }
+:if ([:len [/ip dns static find name="microsoftnews.com"]] = 0) do={ add address-list=\$AddressList forward-to=\$ForwardTo comment="microsoft" match-subdomain=yes type=FWD name="microsoftnews.com" }
+:if ([:len [/ip dns static find name="microsoftnews.net"]] = 0) do={ add address-list=\$AddressList forward-to=\$ForwardTo comment="microsoft" match-subdomain=yes type=FWD name="microsoftnews.net" }
+:if ([:len [/ip dns static find name="microsoftnews.org"]] = 0) do={ add address-list=\$AddressList forward-to=\$ForwardTo comment="microsoft" match-subdomain=yes type=FWD name="microsoftnews.org" }
+:if ([:len [/ip dns static find name="microsoftnewsforkids.com"]] = 0) do={ add address-list=\$AddressList forward-to=\$ForwardTo comment="microsoft" match-subdomain=yes type=FWD name="microsoftnewsforkids.com" }
+:if ([:len [/ip dns static find name="microsoftnewsforkids.net"]] = 0) do={ add address-list=\$AddressList forward-to=\$ForwardTo comment="microsoft" match-subdomain=yes type=FWD name="microsoftnewsforkids.net" }
+:if ([:len [/ip dns static find name="microsoftnewsforkids.org"]] = 0) do={ add address-list=\$AddressList forward-to=\$ForwardTo comment="microsoft" match-subdomain=yes type=FWD name="microsoftnewsforkids.org" }
+:if ([:len [/ip dns static find name="microsoftnewskids.com"]] = 0) do={ add address-list=\$AddressList forward-to=\$ForwardTo comment="microsoft" match-subdomain=yes type=FWD name="microsoftnewskids.com" }
+:if ([:len [/ip dns static find name="microsoftnewskids.net"]] = 0) do={ add address-list=\$AddressList forward-to=\$ForwardTo comment="microsoft" match-subdomain=yes type=FWD name="microsoftnewskids.net" }
+:if ([:len [/ip dns static find name="microsoftnewskids.org"]] = 0) do={ add address-list=\$AddressList forward-to=\$ForwardTo comment="microsoft" match-subdomain=yes type=FWD name="microsoftnewskids.org" }
+:if ([:len [/ip dns static find name="microsoftonline-p.com"]] = 0) do={ add address-list=\$AddressList forward-to=\$ForwardTo comment="microsoft" match-subdomain=yes type=FWD name="microsoftonline-p.com" }
+:if ([:len [/ip dns static find name="microsoftonline.com"]] = 0) do={ add address-list=\$AddressList forward-to=\$ForwardTo comment="microsoft" match-subdomain=yes type=FWD name="microsoftonline.com" }
+:if ([:len [/ip dns static find name="microsoftpartnercommunity.com"]] = 0) do={ add address-list=\$AddressList forward-to=\$ForwardTo comment="microsoft" match-subdomain=yes type=FWD name="microsoftpartnercommunity.com" }
+:if ([:len [/ip dns static find name="microsoftpartnersolutions.com"]] = 0) do={ add address-list=\$AddressList forward-to=\$ForwardTo comment="microsoft" match-subdomain=yes type=FWD name="microsoftpartnersolutions.com" }
+:if ([:len [/ip dns static find name="microsoftpersonalcontent.com"]] = 0) do={ add address-list=\$AddressList forward-to=\$ForwardTo comment="microsoft" match-subdomain=yes type=FWD name="microsoftpersonalcontent.com" }
+:if ([:len [/ip dns static find name="microsoftreactor.info"]] = 0) do={ add address-list=\$AddressList forward-to=\$ForwardTo comment="microsoft" match-subdomain=yes type=FWD name="microsoftreactor.info" }
+:if ([:len [/ip dns static find name="microsoftreactor.net"]] = 0) do={ add address-list=\$AddressList forward-to=\$ForwardTo comment="microsoft" match-subdomain=yes type=FWD name="microsoftreactor.net" }
+:if ([:len [/ip dns static find name="microsoftreactor.org"]] = 0) do={ add address-list=\$AddressList forward-to=\$ForwardTo comment="microsoft" match-subdomain=yes type=FWD name="microsoftreactor.org" }
+:if ([:len [/ip dns static find name="microsoftready.com"]] = 0) do={ add address-list=\$AddressList forward-to=\$ForwardTo comment="microsoft" match-subdomain=yes type=FWD name="microsoftready.com" }
+:if ([:len [/ip dns static find name="microsoftsilverlight.com"]] = 0) do={ add address-list=\$AddressList forward-to=\$ForwardTo comment="microsoft" match-subdomain=yes type=FWD name="microsoftsilverlight.com" }
+:if ([:len [/ip dns static find name="microsoftsilverlight.net"]] = 0) do={ add address-list=\$AddressList forward-to=\$ForwardTo comment="microsoft" match-subdomain=yes type=FWD name="microsoftsilverlight.net" }
+:if ([:len [/ip dns static find name="microsoftsilverlight.org"]] = 0) do={ add address-list=\$AddressList forward-to=\$ForwardTo comment="microsoft" match-subdomain=yes type=FWD name="microsoftsilverlight.org" }
+:if ([:len [/ip dns static find name="microsoftsiteselection.com"]] = 0) do={ add address-list=\$AddressList forward-to=\$ForwardTo comment="microsoft" match-subdomain=yes type=FWD name="microsoftsiteselection.com" }
+:if ([:len [/ip dns static find name="microsoftsqlserver.com"]] = 0) do={ add address-list=\$AddressList forward-to=\$ForwardTo comment="microsoft" match-subdomain=yes type=FWD name="microsoftsqlserver.com" }
+:if ([:len [/ip dns static find name="microsoftstart.com"]] = 0) do={ add address-list=\$AddressList forward-to=\$ForwardTo comment="microsoft" match-subdomain=yes type=FWD name="microsoftstart.com" }
+:if ([:len [/ip dns static find name="microsoftstore.com"]] = 0) do={ add address-list=\$AddressList forward-to=\$ForwardTo comment="microsoft" match-subdomain=yes type=FWD name="microsoftstore.com" }
+:if ([:len [/ip dns static find name="microsoftstream.com"]] = 0) do={ add address-list=\$AddressList forward-to=\$ForwardTo comment="microsoft" match-subdomain=yes type=FWD name="microsoftstream.com" }
+:if ([:len [/ip dns static find name="microsoftteams.com"]] = 0) do={ add address-list=\$AddressList forward-to=\$ForwardTo comment="microsoft" match-subdomain=yes type=FWD name="microsoftteams.com" }
+:if ([:len [/ip dns static find name="microsofttradein.com"]] = 0) do={ add address-list=\$AddressList forward-to=\$ForwardTo comment="microsoft" match-subdomain=yes type=FWD name="microsofttradein.com" }
+:if ([:len [/ip dns static find name="microsofttranslator.com"]] = 0) do={ add address-list=\$AddressList forward-to=\$ForwardTo comment="microsoft" match-subdomain=yes type=FWD name="microsofttranslator.com" }
+:if ([:len [/ip dns static find name="microsoftuwp.com"]] = 0) do={ add address-list=\$AddressList forward-to=\$ForwardTo comment="microsoft" match-subdomain=yes type=FWD name="microsoftuwp.com" }
+:if ([:len [/ip dns static find name="minecraft-services.net"]] = 0) do={ add address-list=\$AddressList forward-to=\$ForwardTo comment="microsoft" match-subdomain=yes type=FWD name="minecraft-services.net" }
+:if ([:len [/ip dns static find name="minecraft.net"]] = 0) do={ add address-list=\$AddressList forward-to=\$ForwardTo comment="microsoft" match-subdomain=yes type=FWD name="minecraft.net" }
+:if ([:len [/ip dns static find name="minecraftservices.com"]] = 0) do={ add address-list=\$AddressList forward-to=\$ForwardTo comment="microsoft" match-subdomain=yes type=FWD name="minecraftservices.com" }
+:if ([:len [/ip dns static find name="minecraftshop.com"]] = 0) do={ add address-list=\$AddressList forward-to=\$ForwardTo comment="microsoft" match-subdomain=yes type=FWD name="minecraftshop.com" }
+:if ([:len [/ip dns static find name="mmdnn.com"]] = 0) do={ add address-list=\$AddressList forward-to=\$ForwardTo comment="microsoft" match-subdomain=yes type=FWD name="mmdnn.com" }
+:if ([:len [/ip dns static find name="mojang.com"]] = 0) do={ add address-list=\$AddressList forward-to=\$ForwardTo comment="microsoft" match-subdomain=yes type=FWD name="mojang.com" }
+:if ([:len [/ip dns static find name="momentumms.com"]] = 0) do={ add address-list=\$AddressList forward-to=\$ForwardTo comment="microsoft" match-subdomain=yes type=FWD name="momentumms.com" }
+:if ([:len [/ip dns static find name="mono-project.com"]] = 0) do={ add address-list=\$AddressList forward-to=\$ForwardTo comment="microsoft" match-subdomain=yes type=FWD name="mono-project.com" }
+:if ([:len [/ip dns static find name="morphcharts.com"]] = 0) do={ add address-list=\$AddressList forward-to=\$ForwardTo comment="microsoft" match-subdomain=yes type=FWD name="morphcharts.com" }
+:if ([:len [/ip dns static find name="mpnevolution.com"]] = 0) do={ add address-list=\$AddressList forward-to=\$ForwardTo comment="microsoft" match-subdomain=yes type=FWD name="mpnevolution.com" }
+:if ([:len [/ip dns static find name="ms-studiosmedia.com"]] = 0) do={ add address-list=\$AddressList forward-to=\$ForwardTo comment="microsoft" match-subdomain=yes type=FWD name="ms-studiosmedia.com" }
+:if ([:len [/ip dns static find name="ms365surfaceoffer.com"]] = 0) do={ add address-list=\$AddressList forward-to=\$ForwardTo comment="microsoft" match-subdomain=yes type=FWD name="ms365surfaceoffer.com" }
+:if ([:len [/ip dns static find name="msads.net"]] = 0) do={ add address-list=\$AddressList forward-to=\$ForwardTo comment="microsoft" match-subdomain=yes type=FWD name="msads.net" }
+:if ([:len [/ip dns static find name="msauth.net"]] = 0) do={ add address-list=\$AddressList forward-to=\$ForwardTo comment="microsoft" match-subdomain=yes type=FWD name="msauth.net" }
+:if ([:len [/ip dns static find name="mschallenge2018.com"]] = 0) do={ add address-list=\$AddressList forward-to=\$ForwardTo comment="microsoft" match-subdomain=yes type=FWD name="mschallenge2018.com" }
+:if ([:len [/ip dns static find name="mschcdn.com"]] = 0) do={ add address-list=\$AddressList forward-to=\$ForwardTo comment="microsoft" match-subdomain=yes type=FWD name="mschcdn.com" }
+:if ([:len [/ip dns static find name="msdn.com"]] = 0) do={ add address-list=\$AddressList forward-to=\$ForwardTo comment="microsoft" match-subdomain=yes type=FWD name="msdn.com" }
+:if ([:len [/ip dns static find name="msecnd.net"]] = 0) do={ add address-list=\$AddressList forward-to=\$ForwardTo comment="microsoft" match-subdomain=yes type=FWD name="msecnd.net" }
+:if ([:len [/ip dns static find name="msedge.net"]] = 0) do={ add address-list=\$AddressList forward-to=\$ForwardTo comment="microsoft" match-subdomain=yes type=FWD name="msedge.net" }
+:if ([:len [/ip dns static find name="msft.info"]] = 0) do={ add address-list=\$AddressList forward-to=\$ForwardTo comment="microsoft" match-subdomain=yes type=FWD name="msft.info" }
+:if ([:len [/ip dns static find name="msft.net"]] = 0) do={ add address-list=\$AddressList forward-to=\$ForwardTo comment="microsoft" match-subdomain=yes type=FWD name="msft.net" }
+:if ([:len [/ip dns static find name="msftauth.net"]] = 0) do={ add address-list=\$AddressList forward-to=\$ForwardTo comment="microsoft" match-subdomain=yes type=FWD name="msftauth.net" }
+:if ([:len [/ip dns static find name="msftauthimages.net"]] = 0) do={ add address-list=\$AddressList forward-to=\$ForwardTo comment="microsoft" match-subdomain=yes type=FWD name="msftauthimages.net" }
+:if ([:len [/ip dns static find name="msftconnecttest.com"]] = 0) do={ add address-list=\$AddressList forward-to=\$ForwardTo comment="microsoft" match-subdomain=yes type=FWD name="msftconnecttest.com" }
+:if ([:len [/ip dns static find name="msftncsi.com"]] = 0) do={ add address-list=\$AddressList forward-to=\$ForwardTo comment="microsoft" match-subdomain=yes type=FWD name="msftncsi.com" }
+:if ([:len [/ip dns static find name="msftnet.org"]] = 0) do={ add address-list=\$AddressList forward-to=\$ForwardTo comment="microsoft" match-subdomain=yes type=FWD name="msftnet.org" }
+:if ([:len [/ip dns static find name="msgamesresearch.com"]] = 0) do={ add address-list=\$AddressList forward-to=\$ForwardTo comment="microsoft" match-subdomain=yes type=FWD name="msgamesresearch.com" }
+:if ([:len [/ip dns static find name="msgamestudios.com"]] = 0) do={ add address-list=\$AddressList forward-to=\$ForwardTo comment="microsoft" match-subdomain=yes type=FWD name="msgamestudios.com" }
+:if ([:len [/ip dns static find name="mshome.net"]] = 0) do={ add address-list=\$AddressList forward-to=\$ForwardTo comment="microsoft" match-subdomain=yes type=FWD name="mshome.net" }
+:if ([:len [/ip dns static find name="msidentity.com"]] = 0) do={ add address-list=\$AddressList forward-to=\$ForwardTo comment="microsoft" match-subdomain=yes type=FWD name="msidentity.com" }
+:if ([:len [/ip dns static find name="msinnovationchallenge.com"]] = 0) do={ add address-list=\$AddressList forward-to=\$ForwardTo comment="microsoft" match-subdomain=yes type=FWD name="msinnovationchallenge.com" }
+:if ([:len [/ip dns static find name="msn.com"]] = 0) do={ add address-list=\$AddressList forward-to=\$ForwardTo comment="microsoft" match-subdomain=yes type=FWD name="msn.com" }
+:if ([:len [/ip dns static find name="msn.net"]] = 0) do={ add address-list=\$AddressList forward-to=\$ForwardTo comment="microsoft" match-subdomain=yes type=FWD name="msn.net" }
+:if ([:len [/ip dns static find name="msnewskids.com"]] = 0) do={ add address-list=\$AddressList forward-to=\$ForwardTo comment="microsoft" match-subdomain=yes type=FWD name="msnewskids.com" }
+:if ([:len [/ip dns static find name="msnewskids.net"]] = 0) do={ add address-list=\$AddressList forward-to=\$ForwardTo comment="microsoft" match-subdomain=yes type=FWD name="msnewskids.net" }
+:if ([:len [/ip dns static find name="msnewskids.org"]] = 0) do={ add address-list=\$AddressList forward-to=\$ForwardTo comment="microsoft" match-subdomain=yes type=FWD name="msnewskids.org" }
+:if ([:len [/ip dns static find name="msnkids.com"]] = 0) do={ add address-list=\$AddressList forward-to=\$ForwardTo comment="microsoft" match-subdomain=yes type=FWD name="msnkids.com" }
+:if ([:len [/ip dns static find name="msocdn.com"]] = 0) do={ add address-list=\$AddressList forward-to=\$ForwardTo comment="microsoft" match-subdomain=yes type=FWD name="msocdn.com" }
+:if ([:len [/ip dns static find name="msocsp.com"]] = 0) do={ add address-list=\$AddressList forward-to=\$ForwardTo comment="microsoft" match-subdomain=yes type=FWD name="msocsp.com" }
+:if ([:len [/ip dns static find name="mspairlift.com"]] = 0) do={ add address-list=\$AddressList forward-to=\$ForwardTo comment="microsoft" match-subdomain=yes type=FWD name="mspairlift.com" }
+:if ([:len [/ip dns static find name="msropendata.com"]] = 0) do={ add address-list=\$AddressList forward-to=\$ForwardTo comment="microsoft" match-subdomain=yes type=FWD name="msropendata.com" }
+:if ([:len [/ip dns static find name="msturing.org"]] = 0) do={ add address-list=\$AddressList forward-to=\$ForwardTo comment="microsoft" match-subdomain=yes type=FWD name="msturing.org" }
+:if ([:len [/ip dns static find name="msudalosti.com"]] = 0) do={ add address-list=\$AddressList forward-to=\$ForwardTo comment="microsoft" match-subdomain=yes type=FWD name="msudalosti.com" }
+:if ([:len [/ip dns static find name="msunlimitedcloudsummit.com"]] = 0) do={ add address-list=\$AddressList forward-to=\$ForwardTo comment="microsoft" match-subdomain=yes type=FWD name="msunlimitedcloudsummit.com" }
+:if ([:len [/ip dns static find name="mymicrosoft.com"]] = 0) do={ add address-list=\$AddressList forward-to=\$ForwardTo comment="microsoft" match-subdomain=yes type=FWD name="mymicrosoft.com" }
+:if ([:len [/ip dns static find name="myoctocat.com"]] = 0) do={ add address-list=\$AddressList forward-to=\$ForwardTo comment="microsoft" match-subdomain=yes type=FWD name="myoctocat.com" }
+:if ([:len [/ip dns static find name="nelreports.net"]] = 0) do={ add address-list=\$AddressList forward-to=\$ForwardTo comment="microsoft" match-subdomain=yes type=FWD name="nelreports.net" }
+:if ([:len [/ip dns static find name="nextechafrica.net"]] = 0) do={ add address-list=\$AddressList forward-to=\$ForwardTo comment="microsoft" match-subdomain=yes type=FWD name="nextechafrica.net" }
+:if ([:len [/ip dns static find name="npm.community"]] = 0) do={ add address-list=\$AddressList forward-to=\$ForwardTo comment="microsoft" match-subdomain=yes type=FWD name="npm.community" }
+:if ([:len [/ip dns static find name="npmjs.com"]] = 0) do={ add address-list=\$AddressList forward-to=\$ForwardTo comment="microsoft" match-subdomain=yes type=FWD name="npmjs.com" }
+:if ([:len [/ip dns static find name="npmjs.org"]] = 0) do={ add address-list=\$AddressList forward-to=\$ForwardTo comment="microsoft" match-subdomain=yes type=FWD name="npmjs.org" }
+:if ([:len [/ip dns static find name="nuget.org"]] = 0) do={ add address-list=\$AddressList forward-to=\$ForwardTo comment="microsoft" match-subdomain=yes type=FWD name="nuget.org" }
+:if ([:len [/ip dns static find name="nugettest.org"]] = 0) do={ add address-list=\$AddressList forward-to=\$ForwardTo comment="microsoft" match-subdomain=yes type=FWD name="nugettest.org" }
+:if ([:len [/ip dns static find name="nxta.org"]] = 0) do={ add address-list=\$AddressList forward-to=\$ForwardTo comment="microsoft" match-subdomain=yes type=FWD name="nxta.org" }
+:if ([:len [/ip dns static find name="o365cn.com"]] = 0) do={ add address-list=\$AddressList forward-to=\$ForwardTo comment="microsoft" match-subdomain=yes type=FWD name="o365cn.com" }
+:if ([:len [/ip dns static find name="o365weve-dev.com"]] = 0) do={ add address-list=\$AddressList forward-to=\$ForwardTo comment="microsoft" match-subdomain=yes type=FWD name="o365weve-dev.com" }
+:if ([:len [/ip dns static find name="o365weve-ppe.com"]] = 0) do={ add address-list=\$AddressList forward-to=\$ForwardTo comment="microsoft" match-subdomain=yes type=FWD name="o365weve-ppe.com" }
+:if ([:len [/ip dns static find name="o365weve.com"]] = 0) do={ add address-list=\$AddressList forward-to=\$ForwardTo comment="microsoft" match-subdomain=yes type=FWD name="o365weve.com" }
+:if ([:len [/ip dns static find name="octocaptcha.com"]] = 0) do={ add address-list=\$AddressList forward-to=\$ForwardTo comment="microsoft" match-subdomain=yes type=FWD name="octocaptcha.com" }
+:if ([:len [/ip dns static find name="office"]] = 0) do={ add address-list=\$AddressList forward-to=\$ForwardTo comment="microsoft" match-subdomain=yes type=FWD name="office" }
+:if ([:len [/ip dns static find name="office.com"]] = 0) do={ add address-list=\$AddressList forward-to=\$ForwardTo comment="microsoft" match-subdomain=yes type=FWD name="office.com" }
+:if ([:len [/ip dns static find name="office.net"]] = 0) do={ add address-list=\$AddressList forward-to=\$ForwardTo comment="microsoft" match-subdomain=yes type=FWD name="office.net" }
+:if ([:len [/ip dns static find name="office365.com"]] = 0) do={ add address-list=\$AddressList forward-to=\$ForwardTo comment="microsoft" match-subdomain=yes type=FWD name="office365.com" }
+:if ([:len [/ip dns static find name="office365love.com"]] = 0) do={ add address-list=\$AddressList forward-to=\$ForwardTo comment="microsoft" match-subdomain=yes type=FWD name="office365love.com" }
+:if ([:len [/ip dns static find name="office365tw.com"]] = 0) do={ add address-list=\$AddressList forward-to=\$ForwardTo comment="microsoft" match-subdomain=yes type=FWD name="office365tw.com" }
+:if ([:len [/ip dns static find name="onedrive"]] = 0) do={ add address-list=\$AddressList forward-to=\$ForwardTo comment="microsoft" match-subdomain=yes type=FWD name="onedrive" }
+:if ([:len [/ip dns static find name="onedrive.com"]] = 0) do={ add address-list=\$AddressList forward-to=\$ForwardTo comment="microsoft" match-subdomain=yes type=FWD name="onedrive.com" }
+:if ([:len [/ip dns static find name="onedriveupdater"]] = 0) do={ add address-list=\$AddressList forward-to=\$ForwardTo comment="microsoft" match-subdomain=yes type=FWD name="onedriveupdater" }
+:if ([:len [/ip dns static find name="onenote.com"]] = 0) do={ add address-list=\$AddressList forward-to=\$ForwardTo comment="microsoft" match-subdomain=yes type=FWD name="onenote.com" }
+:if ([:len [/ip dns static find name="onenote.net"]] = 0) do={ add address-list=\$AddressList forward-to=\$ForwardTo comment="microsoft" match-subdomain=yes type=FWD name="onenote.net" }
+:if ([:len [/ip dns static find name="onestore.ms"]] = 0) do={ add address-list=\$AddressList forward-to=\$ForwardTo comment="microsoft" match-subdomain=yes type=FWD name="onestore.ms" }
+:if ([:len [/ip dns static find name="opensource.guide"]] = 0) do={ add address-list=\$AddressList forward-to=\$ForwardTo comment="microsoft" match-subdomain=yes type=FWD name="opensource.guide" }
+:if ([:len [/ip dns static find name="opentranslatorstothings.org"]] = 0) do={ add address-list=\$AddressList forward-to=\$ForwardTo comment="microsoft" match-subdomain=yes type=FWD name="opentranslatorstothings.org" }
+:if ([:len [/ip dns static find name="opticsforthecloud.net"]] = 0) do={ add address-list=\$AddressList forward-to=\$ForwardTo comment="microsoft" match-subdomain=yes type=FWD name="opticsforthecloud.net" }
+:if ([:len [/ip dns static find name="orithegame.com"]] = 0) do={ add address-list=\$AddressList forward-to=\$ForwardTo comment="microsoft" match-subdomain=yes type=FWD name="orithegame.com" }
+:if ([:len [/ip dns static find name="outingsapp.com"]] = 0) do={ add address-list=\$AddressList forward-to=\$ForwardTo comment="microsoft" match-subdomain=yes type=FWD name="outingsapp.com" }
+:if ([:len [/ip dns static find name="outlook.com"]] = 0) do={ add address-list=\$AddressList forward-to=\$ForwardTo comment="microsoft" match-subdomain=yes type=FWD name="outlook.com" }
+:if ([:len [/ip dns static find name="passport.net"]] = 0) do={ add address-list=\$AddressList forward-to=\$ForwardTo comment="microsoft" match-subdomain=yes type=FWD name="passport.net" }
+:if ([:len [/ip dns static find name="pixapp.net"]] = 0) do={ add address-list=\$AddressList forward-to=\$ForwardTo comment="microsoft" match-subdomain=yes type=FWD name="pixapp.net" }
+:if ([:len [/ip dns static find name="playfab.com"]] = 0) do={ add address-list=\$AddressList forward-to=\$ForwardTo comment="microsoft" match-subdomain=yes type=FWD name="playfab.com" }
+:if ([:len [/ip dns static find name="playfabapi.com"]] = 0) do={ add address-list=\$AddressList forward-to=\$ForwardTo comment="microsoft" match-subdomain=yes type=FWD name="playfabapi.com" }
+:if ([:len [/ip dns static find name="poshtestgallery.com"]] = 0) do={ add address-list=\$AddressList forward-to=\$ForwardTo comment="microsoft" match-subdomain=yes type=FWD name="poshtestgallery.com" }
+:if ([:len [/ip dns static find name="powerappscdn.net"]] = 0) do={ add address-list=\$AddressList forward-to=\$ForwardTo comment="microsoft" match-subdomain=yes type=FWD name="powerappscdn.net" }
+:if ([:len [/ip dns static find name="powerautomate.com"]] = 0) do={ add address-list=\$AddressList forward-to=\$ForwardTo comment="microsoft" match-subdomain=yes type=FWD name="powerautomate.com" }
+:if ([:len [/ip dns static find name="powerbi.com"]] = 0) do={ add address-list=\$AddressList forward-to=\$ForwardTo comment="microsoft" match-subdomain=yes type=FWD name="powerbi.com" }
+:if ([:len [/ip dns static find name="powershellgallery.com"]] = 0) do={ add address-list=\$AddressList forward-to=\$ForwardTo comment="microsoft" match-subdomain=yes type=FWD name="powershellgallery.com" }
+:if ([:len [/ip dns static find name="projectmurphy.net"]] = 0) do={ add address-list=\$AddressList forward-to=\$ForwardTo comment="microsoft" match-subdomain=yes type=FWD name="projectmurphy.net" }
+:if ([:len [/ip dns static find name="projectsangam.com"]] = 0) do={ add address-list=\$AddressList forward-to=\$ForwardTo comment="microsoft" match-subdomain=yes type=FWD name="projectsangam.com" }
+:if ([:len [/ip dns static find name="pwabuilder.com"]] = 0) do={ add address-list=\$AddressList forward-to=\$ForwardTo comment="microsoft" match-subdomain=yes type=FWD name="pwabuilder.com" }
+:if ([:len [/ip dns static find name="pxt.io"]] = 0) do={ add address-list=\$AddressList forward-to=\$ForwardTo comment="microsoft" match-subdomain=yes type=FWD name="pxt.io" }
+:if ([:len [/ip dns static find name="r.bing.com"]] = 0) do={ add address-list=\$AddressList forward-to=\$ForwardTo comment="microsoft" match-subdomain=yes type=FWD name="r.bing.com" }
+:if ([:len [/ip dns static find name="renovacionoffice.com"]] = 0) do={ add address-list=\$AddressList forward-to=\$ForwardTo comment="microsoft" match-subdomain=yes type=FWD name="renovacionoffice.com" }
+:if ([:len [/ip dns static find name="renovacionxboxlive.com"]] = 0) do={ add address-list=\$AddressList forward-to=\$ForwardTo comment="microsoft" match-subdomain=yes type=FWD name="renovacionxboxlive.com" }

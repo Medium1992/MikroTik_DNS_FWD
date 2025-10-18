@@ -1,153 +1,153 @@
 :global AddressList
 :global ForwardTo
 /ip dns static
-:if ([:len [/ip dns static find regexp="feanonlinear.com"]] = 0) do={ add address-list=\$AddressList forward-to=\$ForwardTo comment="autodesk" type=FWD regexp="feanonlinear.com" }
-:if ([:len [/ip dns static find regexp="featurecam.com"]] = 0) do={ add address-list=\$AddressList forward-to=\$ForwardTo comment="autodesk" type=FWD regexp="featurecam.com" }
-:if ([:len [/ip dns static find regexp="five-d.com"]] = 0) do={ add address-list=\$AddressList forward-to=\$ForwardTo comment="autodesk" type=FWD regexp="five-d.com" }
-:if ([:len [/ip dns static find regexp="flameunleashed.com"]] = 0) do={ add address-list=\$AddressList forward-to=\$ForwardTo comment="autodesk" type=FWD regexp="flameunleashed.com" }
-:if ([:len [/ip dns static find regexp="flowfront.com"]] = 0) do={ add address-list=\$AddressList forward-to=\$ForwardTo comment="autodesk" type=FWD regexp="flowfront.com" }
-:if ([:len [/ip dns static find regexp="flowfront.net"]] = 0) do={ add address-list=\$AddressList forward-to=\$ForwardTo comment="autodesk" type=FWD regexp="flowfront.net" }
-:if ([:len [/ip dns static find regexp="fluidfxapp.com"]] = 0) do={ add address-list=\$AddressList forward-to=\$ForwardTo comment="autodesk" type=FWD regexp="fluidfxapp.com" }
-:if ([:len [/ip dns static find regexp="fmdesktop.com"]] = 0) do={ add address-list=\$AddressList forward-to=\$ForwardTo comment="autodesk" type=FWD regexp="fmdesktop.com" }
-:if ([:len [/ip dns static find regexp="followpype.com"]] = 0) do={ add address-list=\$AddressList forward-to=\$ForwardTo comment="autodesk" type=FWD regexp="followpype.com" }
-:if ([:len [/ip dns static find regexp="footwear-cadcam.com"]] = 0) do={ add address-list=\$AddressList forward-to=\$ForwardTo comment="autodesk" type=FWD regexp="footwear-cadcam.com" }
-:if ([:len [/ip dns static find regexp="formit360.com"]] = 0) do={ add address-list=\$AddressList forward-to=\$ForwardTo comment="autodesk" type=FWD regexp="formit360.com" }
-:if ([:len [/ip dns static find regexp="formitfactory.com"]] = 0) do={ add address-list=\$AddressList forward-to=\$ForwardTo comment="autodesk" type=FWD regexp="formitfactory.com" }
-:if ([:len [/ip dns static find regexp="freefbx.com"]] = 0) do={ add address-list=\$AddressList forward-to=\$ForwardTo comment="autodesk" type=FWD regexp="freefbx.com" }
-:if ([:len [/ip dns static find regexp="fusionlifecycle.com"]] = 0) do={ add address-list=\$AddressList forward-to=\$ForwardTo comment="autodesk" type=FWD regexp="fusionlifecycle.com" }
-:if ([:len [/ip dns static find regexp="fusionproductionapps.com"]] = 0) do={ add address-list=\$AddressList forward-to=\$ForwardTo comment="autodesk" type=FWD regexp="fusionproductionapps.com" }
-:if ([:len [/ip dns static find regexp="futureofbritishmanufacturing.com"]] = 0) do={ add address-list=\$AddressList forward-to=\$ForwardTo comment="autodesk" type=FWD regexp="futureofbritishmanufacturing.com" }
-:if ([:len [/ip dns static find regexp="futureofmaktingthings.com"]] = 0) do={ add address-list=\$AddressList forward-to=\$ForwardTo comment="autodesk" type=FWD regexp="futureofmaktingthings.com" }
-:if ([:len [/ip dns static find regexp="gbxml.net"]] = 0) do={ add address-list=\$AddressList forward-to=\$ForwardTo comment="autodesk" type=FWD regexp="gbxml.net" }
-:if ([:len [/ip dns static find regexp="geneticconstructor.com"]] = 0) do={ add address-list=\$AddressList forward-to=\$ForwardTo comment="autodesk" type=FWD regexp="geneticconstructor.com" }
-:if ([:len [/ip dns static find regexp="geospatialimaging.com"]] = 0) do={ add address-list=\$AddressList forward-to=\$ForwardTo comment="autodesk" type=FWD regexp="geospatialimaging.com" }
-:if ([:len [/ip dns static find regexp="geospatialinfo.com"]] = 0) do={ add address-list=\$AddressList forward-to=\$ForwardTo comment="autodesk" type=FWD regexp="geospatialinfo.com" }
-:if ([:len [/ip dns static find regexp="getbuzzsaw.com"]] = 0) do={ add address-list=\$AddressList forward-to=\$ForwardTo comment="autodesk" type=FWD regexp="getbuzzsaw.com" }
-:if ([:len [/ip dns static find regexp="givemebuzzsaw.com"]] = 0) do={ add address-list=\$AddressList forward-to=\$ForwardTo comment="autodesk" type=FWD regexp="givemebuzzsaw.com" }
-:if ([:len [/ip dns static find regexp="gobuildx.net"]] = 0) do={ add address-list=\$AddressList forward-to=\$ForwardTo comment="autodesk" type=FWD regexp="gobuildx.net" }
-:if ([:len [/ip dns static find regexp="governmentengineer.com"]] = 0) do={ add address-list=\$AddressList forward-to=\$ForwardTo comment="autodesk" type=FWD regexp="governmentengineer.com" }
-:if ([:len [/ip dns static find regexp="greenbuildingstudio.com"]] = 0) do={ add address-list=\$AddressList forward-to=\$ForwardTo comment="autodesk" type=FWD regexp="greenbuildingstudio.com" }
-:if ([:len [/ip dns static find regexp="hmsxpress.com"]] = 0) do={ add address-list=\$AddressList forward-to=\$ForwardTo comment="autodesk" type=FWD regexp="hmsxpress.com" }
-:if ([:len [/ip dns static find regexp="homestylerapp.com"]] = 0) do={ add address-list=\$AddressList forward-to=\$ForwardTo comment="autodesk" type=FWD regexp="homestylerapp.com" }
-:if ([:len [/ip dns static find regexp="homestylernews.com"]] = 0) do={ add address-list=\$AddressList forward-to=\$ForwardTo comment="autodesk" type=FWD regexp="homestylernews.com" }
-:if ([:len [/ip dns static find regexp="horizontal-llc.com"]] = 0) do={ add address-list=\$AddressList forward-to=\$ForwardTo comment="autodesk" type=FWD regexp="horizontal-llc.com" }
-:if ([:len [/ip dns static find regexp="horizontal-systems.com"]] = 0) do={ add address-list=\$AddressList forward-to=\$ForwardTo comment="autodesk" type=FWD regexp="horizontal-systems.com" }
-:if ([:len [/ip dns static find regexp="horizontalglue.com"]] = 0) do={ add address-list=\$AddressList forward-to=\$ForwardTo comment="autodesk" type=FWD regexp="horizontalglue.com" }
-:if ([:len [/ip dns static find regexp="horizontalsystems.com"]] = 0) do={ add address-list=\$AddressList forward-to=\$ForwardTo comment="autodesk" type=FWD regexp="horizontalsystems.com" }
-:if ([:len [/ip dns static find regexp="hsm-works.com"]] = 0) do={ add address-list=\$AddressList forward-to=\$ForwardTo comment="autodesk" type=FWD regexp="hsm-works.com" }
-:if ([:len [/ip dns static find regexp="hsm-xpress.com"]] = 0) do={ add address-list=\$AddressList forward-to=\$ForwardTo comment="autodesk" type=FWD regexp="hsm-xpress.com" }
-:if ([:len [/ip dns static find regexp="hsmexpress.com"]] = 0) do={ add address-list=\$AddressList forward-to=\$ForwardTo comment="autodesk" type=FWD regexp="hsmexpress.com" }
-:if ([:len [/ip dns static find regexp="hsmworks.com"]] = 0) do={ add address-list=\$AddressList forward-to=\$ForwardTo comment="autodesk" type=FWD regexp="hsmworks.com" }
-:if ([:len [/ip dns static find regexp="hsmxpress.com"]] = 0) do={ add address-list=\$AddressList forward-to=\$ForwardTo comment="autodesk" type=FWD regexp="hsmxpress.com" }
-:if ([:len [/ip dns static find regexp="idea-server.com"]] = 0) do={ add address-list=\$AddressList forward-to=\$ForwardTo comment="autodesk" type=FWD regexp="idea-server.com" }
-:if ([:len [/ip dns static find regexp="imagemodeler.com"]] = 0) do={ add address-list=\$AddressList forward-to=\$ForwardTo comment="autodesk" type=FWD regexp="imagemodeler.com" }
-:if ([:len [/ip dns static find regexp="imaginationsengine.com"]] = 0) do={ add address-list=\$AddressList forward-to=\$ForwardTo comment="autodesk" type=FWD regexp="imaginationsengine.com" }
-:if ([:len [/ip dns static find regexp="impactdesignhub.com"]] = 0) do={ add address-list=\$AddressList forward-to=\$ForwardTo comment="autodesk" type=FWD regexp="impactdesignhub.com" }
-:if ([:len [/ip dns static find regexp="infraworks.com"]] = 0) do={ add address-list=\$AddressList forward-to=\$ForwardTo comment="autodesk" type=FWD regexp="infraworks.com" }
-:if ([:len [/ip dns static find regexp="installbuzzsaw.com"]] = 0) do={ add address-list=\$AddressList forward-to=\$ForwardTo comment="autodesk" type=FWD regexp="installbuzzsaw.com" }
-:if ([:len [/ip dns static find regexp="intelisolve.com"]] = 0) do={ add address-list=\$AddressList forward-to=\$ForwardTo comment="autodesk" type=FWD regexp="intelisolve.com" }
-:if ([:len [/ip dns static find regexp="inventor-certified.com"]] = 0) do={ add address-list=\$AddressList forward-to=\$ForwardTo comment="autodesk" type=FWD regexp="inventor-certified.com" }
-:if ([:len [/ip dns static find regexp="inventorfusion.com"]] = 0) do={ add address-list=\$AddressList forward-to=\$ForwardTo comment="autodesk" type=FWD regexp="inventorfusion.com" }
-:if ([:len [/ip dns static find regexp="inventorseries.com"]] = 0) do={ add address-list=\$AddressList forward-to=\$ForwardTo comment="autodesk" type=FWD regexp="inventorseries.com" }
-:if ([:len [/ip dns static find regexp="istorytell.com"]] = 0) do={ add address-list=\$AddressList forward-to=\$ForwardTo comment="autodesk" type=FWD regexp="istorytell.com" }
-:if ([:len [/ip dns static find regexp="izmirautodeskegitimleri.com"]] = 0) do={ add address-list=\$AddressList forward-to=\$ForwardTo comment="autodesk" type=FWD regexp="izmirautodeskegitimleri.com" }
-:if ([:len [/ip dns static find regexp="jasa3dmax.com"]] = 0) do={ add address-list=\$AddressList forward-to=\$ForwardTo comment="autodesk" type=FWD regexp="jasa3dmax.com" }
-:if ([:len [/ip dns static find regexp="jasaautocad.com"]] = 0) do={ add address-list=\$AddressList forward-to=\$ForwardTo comment="autodesk" type=FWD regexp="jasaautocad.com" }
-:if ([:len [/ip dns static find regexp="kaydara.com"]] = 0) do={ add address-list=\$AddressList forward-to=\$ForwardTo comment="autodesk" type=FWD regexp="kaydara.com" }
-:if ([:len [/ip dns static find regexp="keepyourcad.com"]] = 0) do={ add address-list=\$AddressList forward-to=\$ForwardTo comment="autodesk" type=FWD regexp="keepyourcad.com" }
-:if ([:len [/ip dns static find regexp="kynogon.com"]] = 0) do={ add address-list=\$AddressList forward-to=\$ForwardTo comment="autodesk" type=FWD regexp="kynogon.com" }
-:if ([:len [/ip dns static find regexp="lasersawapp.com"]] = 0) do={ add address-list=\$AddressList forward-to=\$ForwardTo comment="autodesk" type=FWD regexp="lasersawapp.com" }
-:if ([:len [/ip dns static find regexp="licenseparser.com"]] = 0) do={ add address-list=\$AddressList forward-to=\$ForwardTo comment="autodesk" type=FWD regexp="licenseparser.com" }
-:if ([:len [/ip dns static find regexp="livesketchshare.com"]] = 0) do={ add address-list=\$AddressList forward-to=\$ForwardTo comment="autodesk" type=FWD regexp="livesketchshare.com" }
-:if ([:len [/ip dns static find regexp="lrfdsoftware.com"]] = 0) do={ add address-list=\$AddressList forward-to=\$ForwardTo comment="autodesk" type=FWD regexp="lrfdsoftware.com" }
-:if ([:len [/ip dns static find regexp="lunchwithpype.com"]] = 0) do={ add address-list=\$AddressList forward-to=\$ForwardTo comment="autodesk" type=FWD regexp="lunchwithpype.com" }
-:if ([:len [/ip dns static find regexp="machine-dna.com"]] = 0) do={ add address-list=\$AddressList forward-to=\$ForwardTo comment="autodesk" type=FWD regexp="machine-dna.com" }
-:if ([:len [/ip dns static find regexp="madewithmaya.com"]] = 0) do={ add address-list=\$AddressList forward-to=\$ForwardTo comment="autodesk" type=FWD regexp="madewithmaya.com" }
-:if ([:len [/ip dns static find regexp="madewithstudiotools.com"]] = 0) do={ add address-list=\$AddressList forward-to=\$ForwardTo comment="autodesk" type=FWD regexp="madewithstudiotools.com" }
-:if ([:len [/ip dns static find regexp="magestic.com"]] = 0) do={ add address-list=\$AddressList forward-to=\$ForwardTo comment="autodesk" type=FWD regexp="magestic.com" }
-:if ([:len [/ip dns static find regexp="makeanything.com"]] = 0) do={ add address-list=\$AddressList forward-to=\$ForwardTo comment="autodesk" type=FWD regexp="makeanything.com" }
-:if ([:len [/ip dns static find regexp="makeitrealcontest.com"]] = 0) do={ add address-list=\$AddressList forward-to=\$ForwardTo comment="autodesk" type=FWD regexp="makeitrealcontest.com" }
-:if ([:len [/ip dns static find regexp="makingstartshere.com"]] = 0) do={ add address-list=\$AddressList forward-to=\$ForwardTo comment="autodesk" type=FWD regexp="makingstartshere.com" }
-:if ([:len [/ip dns static find regexp="map-software.com"]] = 0) do={ add address-list=\$AddressList forward-to=\$ForwardTo comment="autodesk" type=FWD regexp="map-software.com" }
-:if ([:len [/ip dns static find regexp="mapguide.com"]] = 0) do={ add address-list=\$AddressList forward-to=\$ForwardTo comment="autodesk" type=FWD regexp="mapguide.com" }
-:if ([:len [/ip dns static find regexp="mappingonline.com"]] = 0) do={ add address-list=\$AddressList forward-to=\$ForwardTo comment="autodesk" type=FWD regexp="mappingonline.com" }
-:if ([:len [/ip dns static find regexp="marinecadcam.com"]] = 0) do={ add address-list=\$AddressList forward-to=\$ForwardTo comment="autodesk" type=FWD regexp="marinecadcam.com" }
-:if ([:len [/ip dns static find regexp="markingmenus.com"]] = 0) do={ add address-list=\$AddressList forward-to=\$ForwardTo comment="autodesk" type=FWD regexp="markingmenus.com" }
-:if ([:len [/ip dns static find regexp="matchmover.com"]] = 0) do={ add address-list=\$AddressList forward-to=\$ForwardTo comment="autodesk" type=FWD regexp="matchmover.com" }
-:if ([:len [/ip dns static find regexp="maxillofacial-cadcam.com"]] = 0) do={ add address-list=\$AddressList forward-to=\$ForwardTo comment="autodesk" type=FWD regexp="maxillofacial-cadcam.com" }
-:if ([:len [/ip dns static find regexp="mayacomplete.com"]] = 0) do={ add address-list=\$AddressList forward-to=\$ForwardTo comment="autodesk" type=FWD regexp="mayacomplete.com" }
-:if ([:len [/ip dns static find regexp="mayaconductors.com"]] = 0) do={ add address-list=\$AddressList forward-to=\$ForwardTo comment="autodesk" type=FWD regexp="mayaconductors.com" }
-:if ([:len [/ip dns static find regexp="mayafluideffects.com"]] = 0) do={ add address-list=\$AddressList forward-to=\$ForwardTo comment="autodesk" type=FWD regexp="mayafluideffects.com" }
-:if ([:len [/ip dns static find regexp="mayaformotiongraphics.com"]] = 0) do={ add address-list=\$AddressList forward-to=\$ForwardTo comment="autodesk" type=FWD regexp="mayaformotiongraphics.com" }
-:if ([:len [/ip dns static find regexp="mayagames.com"]] = 0) do={ add address-list=\$AddressList forward-to=\$ForwardTo comment="autodesk" type=FWD regexp="mayagames.com" }
-:if ([:len [/ip dns static find regexp="mayamasters.com"]] = 0) do={ add address-list=\$AddressList forward-to=\$ForwardTo comment="autodesk" type=FWD regexp="mayamasters.com" }
-:if ([:len [/ip dns static find regexp="mayamentor.net"]] = 0) do={ add address-list=\$AddressList forward-to=\$ForwardTo comment="autodesk" type=FWD regexp="mayamentor.net" }
-:if ([:len [/ip dns static find regexp="mayamentors.com"]] = 0) do={ add address-list=\$AddressList forward-to=\$ForwardTo comment="autodesk" type=FWD regexp="mayamentors.com" }
-:if ([:len [/ip dns static find regexp="mayamentors.net"]] = 0) do={ add address-list=\$AddressList forward-to=\$ForwardTo comment="autodesk" type=FWD regexp="mayamentors.net" }
-:if ([:len [/ip dns static find regexp="mayaonlinux.com"]] = 0) do={ add address-list=\$AddressList forward-to=\$ForwardTo comment="autodesk" type=FWD regexp="mayaonlinux.com" }
-:if ([:len [/ip dns static find regexp="mayaonmac.com"]] = 0) do={ add address-list=\$AddressList forward-to=\$ForwardTo comment="autodesk" type=FWD regexp="mayaonmac.com" }
-:if ([:len [/ip dns static find regexp="mayaonosx.com"]] = 0) do={ add address-list=\$AddressList forward-to=\$ForwardTo comment="autodesk" type=FWD regexp="mayaonosx.com" }
-:if ([:len [/ip dns static find regexp="mayapressbooks.com"]] = 0) do={ add address-list=\$AddressList forward-to=\$ForwardTo comment="autodesk" type=FWD regexp="mayapressbooks.com" }
-:if ([:len [/ip dns static find regexp="mayasucks.com"]] = 0) do={ add address-list=\$AddressList forward-to=\$ForwardTo comment="autodesk" type=FWD regexp="mayasucks.com" }
-:if ([:len [/ip dns static find regexp="mayaunlimited.com"]] = 0) do={ add address-list=\$AddressList forward-to=\$ForwardTo comment="autodesk" type=FWD regexp="mayaunlimited.com" }
-:if ([:len [/ip dns static find regexp="mayauser.com"]] = 0) do={ add address-list=\$AddressList forward-to=\$ForwardTo comment="autodesk" type=FWD regexp="mayauser.com" }
-:if ([:len [/ip dns static find regexp="mayauser.net"]] = 0) do={ add address-list=\$AddressList forward-to=\$ForwardTo comment="autodesk" type=FWD regexp="mayauser.net" }
-:if ([:len [/ip dns static find regexp="mayavisualization.com"]] = 0) do={ add address-list=\$AddressList forward-to=\$ForwardTo comment="autodesk" type=FWD regexp="mayavisualization.com" }
-:if ([:len [/ip dns static find regexp="medicalimplants-cadcam.com"]] = 0) do={ add address-list=\$AddressList forward-to=\$ForwardTo comment="autodesk" type=FWD regexp="medicalimplants-cadcam.com" }
-:if ([:len [/ip dns static find regexp="meshmixer.com"]] = 0) do={ add address-list=\$AddressList forward-to=\$ForwardTo comment="autodesk" type=FWD regexp="meshmixer.com" }
-:if ([:len [/ip dns static find regexp="meshmixerforum.com"]] = 0) do={ add address-list=\$AddressList forward-to=\$ForwardTo comment="autodesk" type=FWD regexp="meshmixerforum.com" }
-:if ([:len [/ip dns static find regexp="mimistudio.com"]] = 0) do={ add address-list=\$AddressList forward-to=\$ForwardTo comment="autodesk" type=FWD regexp="mimistudio.com" }
-:if ([:len [/ip dns static find regexp="mimistyler.com"]] = 0) do={ add address-list=\$AddressList forward-to=\$ForwardTo comment="autodesk" type=FWD regexp="mimistyler.com" }
-:if ([:len [/ip dns static find regexp="mmmanual.com"]] = 0) do={ add address-list=\$AddressList forward-to=\$ForwardTo comment="autodesk" type=FWD regexp="mmmanual.com" }
-:if ([:len [/ip dns static find regexp="moldflow.com"]] = 0) do={ add address-list=\$AddressList forward-to=\$ForwardTo comment="autodesk" type=FWD regexp="moldflow.com" }
-:if ([:len [/ip dns static find regexp="moldflowexpress.com"]] = 0) do={ add address-list=\$AddressList forward-to=\$ForwardTo comment="autodesk" type=FWD regexp="moldflowexpress.com" }
-:if ([:len [/ip dns static find regexp="moleculardesigntoolkit.com"]] = 0) do={ add address-list=\$AddressList forward-to=\$ForwardTo comment="autodesk" type=FWD regexp="moleculardesigntoolkit.com" }
-:if ([:len [/ip dns static find regexp="molecularsimulationtools.com"]] = 0) do={ add address-list=\$AddressList forward-to=\$ForwardTo comment="autodesk" type=FWD regexp="molecularsimulationtools.com" }
-:if ([:len [/ip dns static find regexp="molecularviewer.com"]] = 0) do={ add address-list=\$AddressList forward-to=\$ForwardTo comment="autodesk" type=FWD regexp="molecularviewer.com" }
-:if ([:len [/ip dns static find regexp="molviewer.com"]] = 0) do={ add address-list=\$AddressList forward-to=\$ForwardTo comment="autodesk" type=FWD regexp="molviewer.com" }
-:if ([:len [/ip dns static find regexp="morewithautodesk.com"]] = 0) do={ add address-list=\$AddressList forward-to=\$ForwardTo comment="autodesk" type=FWD regexp="morewithautodesk.com" }
-:if ([:len [/ip dns static find regexp="motiongraphicsandmore.com"]] = 0) do={ add address-list=\$AddressList forward-to=\$ForwardTo comment="autodesk" type=FWD regexp="motiongraphicsandmore.com" }
-:if ([:len [/ip dns static find regexp="mudbox3d.com"]] = 0) do={ add address-list=\$AddressList forward-to=\$ForwardTo comment="autodesk" type=FWD regexp="mudbox3d.com" }
-:if ([:len [/ip dns static find regexp="my1stflame.com"]] = 0) do={ add address-list=\$AddressList forward-to=\$ForwardTo comment="autodesk" type=FWD regexp="my1stflame.com" }
-:if ([:len [/ip dns static find regexp="myautocad.com"]] = 0) do={ add address-list=\$AddressList forward-to=\$ForwardTo comment="autodesk" type=FWD regexp="myautocad.com" }
-:if ([:len [/ip dns static find regexp="myautodeskbenefits.com"]] = 0) do={ add address-list=\$AddressList forward-to=\$ForwardTo comment="autodesk" type=FWD regexp="myautodeskbenefits.com" }
-:if ([:len [/ip dns static find regexp="myfirstflame.com"]] = 0) do={ add address-list=\$AddressList forward-to=\$ForwardTo comment="autodesk" type=FWD regexp="myfirstflame.com" }
-:if ([:len [/ip dns static find regexp="mymapportal.com"]] = 0) do={ add address-list=\$AddressList forward-to=\$ForwardTo comment="autodesk" type=FWD regexp="mymapportal.com" }
-:if ([:len [/ip dns static find regexp="nastranincad.com"]] = 0) do={ add address-list=\$AddressList forward-to=\$ForwardTo comment="autodesk" type=FWD regexp="nastranincad.com" }
-:if ([:len [/ip dns static find regexp="nastrannx.com"]] = 0) do={ add address-list=\$AddressList forward-to=\$ForwardTo comment="autodesk" type=FWD regexp="nastrannx.com" }
-:if ([:len [/ip dns static find regexp="nastrantraining.com"]] = 0) do={ add address-list=\$AddressList forward-to=\$ForwardTo comment="autodesk" type=FWD regexp="nastrantraining.com" }
-:if ([:len [/ip dns static find regexp="nastranworldwide.com"]] = 0) do={ add address-list=\$AddressList forward-to=\$ForwardTo comment="autodesk" type=FWD regexp="nastranworldwide.com" }
-:if ([:len [/ip dns static find regexp="navisworks.com"]] = 0) do={ add address-list=\$AddressList forward-to=\$ForwardTo comment="autodesk" type=FWD regexp="navisworks.com" }
-:if ([:len [/ip dns static find regexp="navisworks.net"]] = 0) do={ add address-list=\$AddressList forward-to=\$ForwardTo comment="autodesk" type=FWD regexp="navisworks.net" }
-:if ([:len [/ip dns static find regexp="neicad.com"]] = 0) do={ add address-list=\$AddressList forward-to=\$ForwardTo comment="autodesk" type=FWD regexp="neicad.com" }
-:if ([:len [/ip dns static find regexp="neiexplicit.com"]] = 0) do={ add address-list=\$AddressList forward-to=\$ForwardTo comment="autodesk" type=FWD regexp="neiexplicit.com" }
-:if ([:len [/ip dns static find regexp="neifea.com"]] = 0) do={ add address-list=\$AddressList forward-to=\$ForwardTo comment="autodesk" type=FWD regexp="neifea.com" }
-:if ([:len [/ip dns static find regexp="neimotion.com"]] = 0) do={ add address-list=\$AddressList forward-to=\$ForwardTo comment="autodesk" type=FWD regexp="neimotion.com" }
-:if ([:len [/ip dns static find regexp="neinastranincad.com"]] = 0) do={ add address-list=\$AddressList forward-to=\$ForwardTo comment="autodesk" type=FWD regexp="neinastranincad.com" }
-:if ([:len [/ip dns static find regexp="neisoftware.com"]] = 0) do={ add address-list=\$AddressList forward-to=\$ForwardTo comment="autodesk" type=FWD regexp="neisoftware.com" }
-:if ([:len [/ip dns static find regexp="neisolutions.com"]] = 0) do={ add address-list=\$AddressList forward-to=\$ForwardTo comment="autodesk" type=FWD regexp="neisolutions.com" }
-:if ([:len [/ip dns static find regexp="neiworks.com"]] = 0) do={ add address-list=\$AddressList forward-to=\$ForwardTo comment="autodesk" type=FWD regexp="neiworks.com" }
-:if ([:len [/ip dns static find regexp="nenastran.com"]] = 0) do={ add address-list=\$AddressList forward-to=\$ForwardTo comment="autodesk" type=FWD regexp="nenastran.com" }
-:if ([:len [/ip dns static find regexp="netzerobuildings.com"]] = 0) do={ add address-list=\$AddressList forward-to=\$ForwardTo comment="autodesk" type=FWD regexp="netzerobuildings.com" }
-:if ([:len [/ip dns static find regexp="netzerobuildingstudio.com"]] = 0) do={ add address-list=\$AddressList forward-to=\$ForwardTo comment="autodesk" type=FWD regexp="netzerobuildingstudio.com" }
-:if ([:len [/ip dns static find regexp="new2fea.com"]] = 0) do={ add address-list=\$AddressList forward-to=\$ForwardTo comment="autodesk" type=FWD regexp="new2fea.com" }
-:if ([:len [/ip dns static find regexp="newtofea.com"]] = 0) do={ add address-list=\$AddressList forward-to=\$ForwardTo comment="autodesk" type=FWD regexp="newtofea.com" }
-:if ([:len [/ip dns static find regexp="nextgenerationcam.com"]] = 0) do={ add address-list=\$AddressList forward-to=\$ForwardTo comment="autodesk" type=FWD regexp="nextgenerationcam.com" }
-:if ([:len [/ip dns static find regexp="nonlinearnastran.com"]] = 0) do={ add address-list=\$AddressList forward-to=\$ForwardTo comment="autodesk" type=FWD regexp="nonlinearnastran.com" }
-:if ([:len [/ip dns static find regexp="objectarx.com"]] = 0) do={ add address-list=\$AddressList forward-to=\$ForwardTo comment="autodesk" type=FWD regexp="objectarx.com" }
-:if ([:len [/ip dns static find regexp="oneteamconference.com"]] = 0) do={ add address-list=\$AddressList forward-to=\$ForwardTo comment="autodesk" type=FWD regexp="oneteamconference.com" }
-:if ([:len [/ip dns static find regexp="openreality.com"]] = 0) do={ add address-list=\$AddressList forward-to=\$ForwardTo comment="autodesk" type=FWD regexp="openreality.com" }
-:if ([:len [/ip dns static find regexp="opticore.com"]] = 0) do={ add address-list=\$AddressList forward-to=\$ForwardTo comment="autodesk" type=FWD regexp="opticore.com" }
-:if ([:len [/ip dns static find regexp="orthopaedic-cadcam.com"]] = 0) do={ add address-list=\$AddressList forward-to=\$ForwardTo comment="autodesk" type=FWD regexp="orthopaedic-cadcam.com" }
-:if ([:len [/ip dns static find regexp="orthotics-cadcam.com"]] = 0) do={ add address-list=\$AddressList forward-to=\$ForwardTo comment="autodesk" type=FWD regexp="orthotics-cadcam.com" }
-:if ([:len [/ip dns static find regexp="packaging-cadcam.com"]] = 0) do={ add address-list=\$AddressList forward-to=\$ForwardTo comment="autodesk" type=FWD regexp="packaging-cadcam.com" }
-:if ([:len [/ip dns static find regexp="packagingcadcam.com"]] = 0) do={ add address-list=\$AddressList forward-to=\$ForwardTo comment="autodesk" type=FWD regexp="packagingcadcam.com" }
-:if ([:len [/ip dns static find regexp="partmaker.com"]] = 0) do={ add address-list=\$AddressList forward-to=\$ForwardTo comment="autodesk" type=FWD regexp="partmaker.com" }
-:if ([:len [/ip dns static find regexp="pi-vr.com"]] = 0) do={ add address-list=\$AddressList forward-to=\$ForwardTo comment="autodesk" type=FWD regexp="pi-vr.com" }
-:if ([:len [/ip dns static find regexp="pixlr-o-matic.com"]] = 0) do={ add address-list=\$AddressList forward-to=\$ForwardTo comment="autodesk" type=FWD regexp="pixlr-o-matic.com" }
-:if ([:len [/ip dns static find regexp="pixlromatic.com"]] = 0) do={ add address-list=\$AddressList forward-to=\$ForwardTo comment="autodesk" type=FWD regexp="pixlromatic.com" }
-:if ([:len [/ip dns static find regexp="plansondemand.com"]] = 0) do={ add address-list=\$AddressList forward-to=\$ForwardTo comment="autodesk" type=FWD regexp="plansondemand.com" }
-:if ([:len [/ip dns static find regexp="plasticlabs.com"]] = 0) do={ add address-list=\$AddressList forward-to=\$ForwardTo comment="autodesk" type=FWD regexp="plasticlabs.com" }
-:if ([:len [/ip dns static find regexp="plastics-cadcam.com"]] = 0) do={ add address-list=\$AddressList forward-to=\$ForwardTo comment="autodesk" type=FWD regexp="plastics-cadcam.com" }
-:if ([:len [/ip dns static find regexp="plug-into.com"]] = 0) do={ add address-list=\$AddressList forward-to=\$ForwardTo comment="autodesk" type=FWD regexp="plug-into.com" }
-:if ([:len [/ip dns static find regexp="portfoliowall.com"]] = 0) do={ add address-list=\$AddressList forward-to=\$ForwardTo comment="autodesk" type=FWD regexp="portfoliowall.com" }
+:if ([:len [/ip dns static find name="feanonlinear.com"]] = 0) do={ add address-list=\$AddressList forward-to=\$ForwardTo comment="autodesk" match-subdomain=yes type=FWD name="feanonlinear.com" }
+:if ([:len [/ip dns static find name="featurecam.com"]] = 0) do={ add address-list=\$AddressList forward-to=\$ForwardTo comment="autodesk" match-subdomain=yes type=FWD name="featurecam.com" }
+:if ([:len [/ip dns static find name="five-d.com"]] = 0) do={ add address-list=\$AddressList forward-to=\$ForwardTo comment="autodesk" match-subdomain=yes type=FWD name="five-d.com" }
+:if ([:len [/ip dns static find name="flameunleashed.com"]] = 0) do={ add address-list=\$AddressList forward-to=\$ForwardTo comment="autodesk" match-subdomain=yes type=FWD name="flameunleashed.com" }
+:if ([:len [/ip dns static find name="flowfront.com"]] = 0) do={ add address-list=\$AddressList forward-to=\$ForwardTo comment="autodesk" match-subdomain=yes type=FWD name="flowfront.com" }
+:if ([:len [/ip dns static find name="flowfront.net"]] = 0) do={ add address-list=\$AddressList forward-to=\$ForwardTo comment="autodesk" match-subdomain=yes type=FWD name="flowfront.net" }
+:if ([:len [/ip dns static find name="fluidfxapp.com"]] = 0) do={ add address-list=\$AddressList forward-to=\$ForwardTo comment="autodesk" match-subdomain=yes type=FWD name="fluidfxapp.com" }
+:if ([:len [/ip dns static find name="fmdesktop.com"]] = 0) do={ add address-list=\$AddressList forward-to=\$ForwardTo comment="autodesk" match-subdomain=yes type=FWD name="fmdesktop.com" }
+:if ([:len [/ip dns static find name="followpype.com"]] = 0) do={ add address-list=\$AddressList forward-to=\$ForwardTo comment="autodesk" match-subdomain=yes type=FWD name="followpype.com" }
+:if ([:len [/ip dns static find name="footwear-cadcam.com"]] = 0) do={ add address-list=\$AddressList forward-to=\$ForwardTo comment="autodesk" match-subdomain=yes type=FWD name="footwear-cadcam.com" }
+:if ([:len [/ip dns static find name="formit360.com"]] = 0) do={ add address-list=\$AddressList forward-to=\$ForwardTo comment="autodesk" match-subdomain=yes type=FWD name="formit360.com" }
+:if ([:len [/ip dns static find name="formitfactory.com"]] = 0) do={ add address-list=\$AddressList forward-to=\$ForwardTo comment="autodesk" match-subdomain=yes type=FWD name="formitfactory.com" }
+:if ([:len [/ip dns static find name="freefbx.com"]] = 0) do={ add address-list=\$AddressList forward-to=\$ForwardTo comment="autodesk" match-subdomain=yes type=FWD name="freefbx.com" }
+:if ([:len [/ip dns static find name="fusionlifecycle.com"]] = 0) do={ add address-list=\$AddressList forward-to=\$ForwardTo comment="autodesk" match-subdomain=yes type=FWD name="fusionlifecycle.com" }
+:if ([:len [/ip dns static find name="fusionproductionapps.com"]] = 0) do={ add address-list=\$AddressList forward-to=\$ForwardTo comment="autodesk" match-subdomain=yes type=FWD name="fusionproductionapps.com" }
+:if ([:len [/ip dns static find name="futureofbritishmanufacturing.com"]] = 0) do={ add address-list=\$AddressList forward-to=\$ForwardTo comment="autodesk" match-subdomain=yes type=FWD name="futureofbritishmanufacturing.com" }
+:if ([:len [/ip dns static find name="futureofmaktingthings.com"]] = 0) do={ add address-list=\$AddressList forward-to=\$ForwardTo comment="autodesk" match-subdomain=yes type=FWD name="futureofmaktingthings.com" }
+:if ([:len [/ip dns static find name="gbxml.net"]] = 0) do={ add address-list=\$AddressList forward-to=\$ForwardTo comment="autodesk" match-subdomain=yes type=FWD name="gbxml.net" }
+:if ([:len [/ip dns static find name="geneticconstructor.com"]] = 0) do={ add address-list=\$AddressList forward-to=\$ForwardTo comment="autodesk" match-subdomain=yes type=FWD name="geneticconstructor.com" }
+:if ([:len [/ip dns static find name="geospatialimaging.com"]] = 0) do={ add address-list=\$AddressList forward-to=\$ForwardTo comment="autodesk" match-subdomain=yes type=FWD name="geospatialimaging.com" }
+:if ([:len [/ip dns static find name="geospatialinfo.com"]] = 0) do={ add address-list=\$AddressList forward-to=\$ForwardTo comment="autodesk" match-subdomain=yes type=FWD name="geospatialinfo.com" }
+:if ([:len [/ip dns static find name="getbuzzsaw.com"]] = 0) do={ add address-list=\$AddressList forward-to=\$ForwardTo comment="autodesk" match-subdomain=yes type=FWD name="getbuzzsaw.com" }
+:if ([:len [/ip dns static find name="givemebuzzsaw.com"]] = 0) do={ add address-list=\$AddressList forward-to=\$ForwardTo comment="autodesk" match-subdomain=yes type=FWD name="givemebuzzsaw.com" }
+:if ([:len [/ip dns static find name="gobuildx.net"]] = 0) do={ add address-list=\$AddressList forward-to=\$ForwardTo comment="autodesk" match-subdomain=yes type=FWD name="gobuildx.net" }
+:if ([:len [/ip dns static find name="governmentengineer.com"]] = 0) do={ add address-list=\$AddressList forward-to=\$ForwardTo comment="autodesk" match-subdomain=yes type=FWD name="governmentengineer.com" }
+:if ([:len [/ip dns static find name="greenbuildingstudio.com"]] = 0) do={ add address-list=\$AddressList forward-to=\$ForwardTo comment="autodesk" match-subdomain=yes type=FWD name="greenbuildingstudio.com" }
+:if ([:len [/ip dns static find name="hmsxpress.com"]] = 0) do={ add address-list=\$AddressList forward-to=\$ForwardTo comment="autodesk" match-subdomain=yes type=FWD name="hmsxpress.com" }
+:if ([:len [/ip dns static find name="homestylerapp.com"]] = 0) do={ add address-list=\$AddressList forward-to=\$ForwardTo comment="autodesk" match-subdomain=yes type=FWD name="homestylerapp.com" }
+:if ([:len [/ip dns static find name="homestylernews.com"]] = 0) do={ add address-list=\$AddressList forward-to=\$ForwardTo comment="autodesk" match-subdomain=yes type=FWD name="homestylernews.com" }
+:if ([:len [/ip dns static find name="horizontal-llc.com"]] = 0) do={ add address-list=\$AddressList forward-to=\$ForwardTo comment="autodesk" match-subdomain=yes type=FWD name="horizontal-llc.com" }
+:if ([:len [/ip dns static find name="horizontal-systems.com"]] = 0) do={ add address-list=\$AddressList forward-to=\$ForwardTo comment="autodesk" match-subdomain=yes type=FWD name="horizontal-systems.com" }
+:if ([:len [/ip dns static find name="horizontalglue.com"]] = 0) do={ add address-list=\$AddressList forward-to=\$ForwardTo comment="autodesk" match-subdomain=yes type=FWD name="horizontalglue.com" }
+:if ([:len [/ip dns static find name="horizontalsystems.com"]] = 0) do={ add address-list=\$AddressList forward-to=\$ForwardTo comment="autodesk" match-subdomain=yes type=FWD name="horizontalsystems.com" }
+:if ([:len [/ip dns static find name="hsm-works.com"]] = 0) do={ add address-list=\$AddressList forward-to=\$ForwardTo comment="autodesk" match-subdomain=yes type=FWD name="hsm-works.com" }
+:if ([:len [/ip dns static find name="hsm-xpress.com"]] = 0) do={ add address-list=\$AddressList forward-to=\$ForwardTo comment="autodesk" match-subdomain=yes type=FWD name="hsm-xpress.com" }
+:if ([:len [/ip dns static find name="hsmexpress.com"]] = 0) do={ add address-list=\$AddressList forward-to=\$ForwardTo comment="autodesk" match-subdomain=yes type=FWD name="hsmexpress.com" }
+:if ([:len [/ip dns static find name="hsmworks.com"]] = 0) do={ add address-list=\$AddressList forward-to=\$ForwardTo comment="autodesk" match-subdomain=yes type=FWD name="hsmworks.com" }
+:if ([:len [/ip dns static find name="hsmxpress.com"]] = 0) do={ add address-list=\$AddressList forward-to=\$ForwardTo comment="autodesk" match-subdomain=yes type=FWD name="hsmxpress.com" }
+:if ([:len [/ip dns static find name="idea-server.com"]] = 0) do={ add address-list=\$AddressList forward-to=\$ForwardTo comment="autodesk" match-subdomain=yes type=FWD name="idea-server.com" }
+:if ([:len [/ip dns static find name="imagemodeler.com"]] = 0) do={ add address-list=\$AddressList forward-to=\$ForwardTo comment="autodesk" match-subdomain=yes type=FWD name="imagemodeler.com" }
+:if ([:len [/ip dns static find name="imaginationsengine.com"]] = 0) do={ add address-list=\$AddressList forward-to=\$ForwardTo comment="autodesk" match-subdomain=yes type=FWD name="imaginationsengine.com" }
+:if ([:len [/ip dns static find name="impactdesignhub.com"]] = 0) do={ add address-list=\$AddressList forward-to=\$ForwardTo comment="autodesk" match-subdomain=yes type=FWD name="impactdesignhub.com" }
+:if ([:len [/ip dns static find name="infraworks.com"]] = 0) do={ add address-list=\$AddressList forward-to=\$ForwardTo comment="autodesk" match-subdomain=yes type=FWD name="infraworks.com" }
+:if ([:len [/ip dns static find name="installbuzzsaw.com"]] = 0) do={ add address-list=\$AddressList forward-to=\$ForwardTo comment="autodesk" match-subdomain=yes type=FWD name="installbuzzsaw.com" }
+:if ([:len [/ip dns static find name="intelisolve.com"]] = 0) do={ add address-list=\$AddressList forward-to=\$ForwardTo comment="autodesk" match-subdomain=yes type=FWD name="intelisolve.com" }
+:if ([:len [/ip dns static find name="inventor-certified.com"]] = 0) do={ add address-list=\$AddressList forward-to=\$ForwardTo comment="autodesk" match-subdomain=yes type=FWD name="inventor-certified.com" }
+:if ([:len [/ip dns static find name="inventorfusion.com"]] = 0) do={ add address-list=\$AddressList forward-to=\$ForwardTo comment="autodesk" match-subdomain=yes type=FWD name="inventorfusion.com" }
+:if ([:len [/ip dns static find name="inventorseries.com"]] = 0) do={ add address-list=\$AddressList forward-to=\$ForwardTo comment="autodesk" match-subdomain=yes type=FWD name="inventorseries.com" }
+:if ([:len [/ip dns static find name="istorytell.com"]] = 0) do={ add address-list=\$AddressList forward-to=\$ForwardTo comment="autodesk" match-subdomain=yes type=FWD name="istorytell.com" }
+:if ([:len [/ip dns static find name="izmirautodeskegitimleri.com"]] = 0) do={ add address-list=\$AddressList forward-to=\$ForwardTo comment="autodesk" match-subdomain=yes type=FWD name="izmirautodeskegitimleri.com" }
+:if ([:len [/ip dns static find name="jasa3dmax.com"]] = 0) do={ add address-list=\$AddressList forward-to=\$ForwardTo comment="autodesk" match-subdomain=yes type=FWD name="jasa3dmax.com" }
+:if ([:len [/ip dns static find name="jasaautocad.com"]] = 0) do={ add address-list=\$AddressList forward-to=\$ForwardTo comment="autodesk" match-subdomain=yes type=FWD name="jasaautocad.com" }
+:if ([:len [/ip dns static find name="kaydara.com"]] = 0) do={ add address-list=\$AddressList forward-to=\$ForwardTo comment="autodesk" match-subdomain=yes type=FWD name="kaydara.com" }
+:if ([:len [/ip dns static find name="keepyourcad.com"]] = 0) do={ add address-list=\$AddressList forward-to=\$ForwardTo comment="autodesk" match-subdomain=yes type=FWD name="keepyourcad.com" }
+:if ([:len [/ip dns static find name="kynogon.com"]] = 0) do={ add address-list=\$AddressList forward-to=\$ForwardTo comment="autodesk" match-subdomain=yes type=FWD name="kynogon.com" }
+:if ([:len [/ip dns static find name="lasersawapp.com"]] = 0) do={ add address-list=\$AddressList forward-to=\$ForwardTo comment="autodesk" match-subdomain=yes type=FWD name="lasersawapp.com" }
+:if ([:len [/ip dns static find name="licenseparser.com"]] = 0) do={ add address-list=\$AddressList forward-to=\$ForwardTo comment="autodesk" match-subdomain=yes type=FWD name="licenseparser.com" }
+:if ([:len [/ip dns static find name="livesketchshare.com"]] = 0) do={ add address-list=\$AddressList forward-to=\$ForwardTo comment="autodesk" match-subdomain=yes type=FWD name="livesketchshare.com" }
+:if ([:len [/ip dns static find name="lrfdsoftware.com"]] = 0) do={ add address-list=\$AddressList forward-to=\$ForwardTo comment="autodesk" match-subdomain=yes type=FWD name="lrfdsoftware.com" }
+:if ([:len [/ip dns static find name="lunchwithpype.com"]] = 0) do={ add address-list=\$AddressList forward-to=\$ForwardTo comment="autodesk" match-subdomain=yes type=FWD name="lunchwithpype.com" }
+:if ([:len [/ip dns static find name="machine-dna.com"]] = 0) do={ add address-list=\$AddressList forward-to=\$ForwardTo comment="autodesk" match-subdomain=yes type=FWD name="machine-dna.com" }
+:if ([:len [/ip dns static find name="madewithmaya.com"]] = 0) do={ add address-list=\$AddressList forward-to=\$ForwardTo comment="autodesk" match-subdomain=yes type=FWD name="madewithmaya.com" }
+:if ([:len [/ip dns static find name="madewithstudiotools.com"]] = 0) do={ add address-list=\$AddressList forward-to=\$ForwardTo comment="autodesk" match-subdomain=yes type=FWD name="madewithstudiotools.com" }
+:if ([:len [/ip dns static find name="magestic.com"]] = 0) do={ add address-list=\$AddressList forward-to=\$ForwardTo comment="autodesk" match-subdomain=yes type=FWD name="magestic.com" }
+:if ([:len [/ip dns static find name="makeanything.com"]] = 0) do={ add address-list=\$AddressList forward-to=\$ForwardTo comment="autodesk" match-subdomain=yes type=FWD name="makeanything.com" }
+:if ([:len [/ip dns static find name="makeitrealcontest.com"]] = 0) do={ add address-list=\$AddressList forward-to=\$ForwardTo comment="autodesk" match-subdomain=yes type=FWD name="makeitrealcontest.com" }
+:if ([:len [/ip dns static find name="makingstartshere.com"]] = 0) do={ add address-list=\$AddressList forward-to=\$ForwardTo comment="autodesk" match-subdomain=yes type=FWD name="makingstartshere.com" }
+:if ([:len [/ip dns static find name="map-software.com"]] = 0) do={ add address-list=\$AddressList forward-to=\$ForwardTo comment="autodesk" match-subdomain=yes type=FWD name="map-software.com" }
+:if ([:len [/ip dns static find name="mapguide.com"]] = 0) do={ add address-list=\$AddressList forward-to=\$ForwardTo comment="autodesk" match-subdomain=yes type=FWD name="mapguide.com" }
+:if ([:len [/ip dns static find name="mappingonline.com"]] = 0) do={ add address-list=\$AddressList forward-to=\$ForwardTo comment="autodesk" match-subdomain=yes type=FWD name="mappingonline.com" }
+:if ([:len [/ip dns static find name="marinecadcam.com"]] = 0) do={ add address-list=\$AddressList forward-to=\$ForwardTo comment="autodesk" match-subdomain=yes type=FWD name="marinecadcam.com" }
+:if ([:len [/ip dns static find name="markingmenus.com"]] = 0) do={ add address-list=\$AddressList forward-to=\$ForwardTo comment="autodesk" match-subdomain=yes type=FWD name="markingmenus.com" }
+:if ([:len [/ip dns static find name="matchmover.com"]] = 0) do={ add address-list=\$AddressList forward-to=\$ForwardTo comment="autodesk" match-subdomain=yes type=FWD name="matchmover.com" }
+:if ([:len [/ip dns static find name="maxillofacial-cadcam.com"]] = 0) do={ add address-list=\$AddressList forward-to=\$ForwardTo comment="autodesk" match-subdomain=yes type=FWD name="maxillofacial-cadcam.com" }
+:if ([:len [/ip dns static find name="mayacomplete.com"]] = 0) do={ add address-list=\$AddressList forward-to=\$ForwardTo comment="autodesk" match-subdomain=yes type=FWD name="mayacomplete.com" }
+:if ([:len [/ip dns static find name="mayaconductors.com"]] = 0) do={ add address-list=\$AddressList forward-to=\$ForwardTo comment="autodesk" match-subdomain=yes type=FWD name="mayaconductors.com" }
+:if ([:len [/ip dns static find name="mayafluideffects.com"]] = 0) do={ add address-list=\$AddressList forward-to=\$ForwardTo comment="autodesk" match-subdomain=yes type=FWD name="mayafluideffects.com" }
+:if ([:len [/ip dns static find name="mayaformotiongraphics.com"]] = 0) do={ add address-list=\$AddressList forward-to=\$ForwardTo comment="autodesk" match-subdomain=yes type=FWD name="mayaformotiongraphics.com" }
+:if ([:len [/ip dns static find name="mayagames.com"]] = 0) do={ add address-list=\$AddressList forward-to=\$ForwardTo comment="autodesk" match-subdomain=yes type=FWD name="mayagames.com" }
+:if ([:len [/ip dns static find name="mayamasters.com"]] = 0) do={ add address-list=\$AddressList forward-to=\$ForwardTo comment="autodesk" match-subdomain=yes type=FWD name="mayamasters.com" }
+:if ([:len [/ip dns static find name="mayamentor.net"]] = 0) do={ add address-list=\$AddressList forward-to=\$ForwardTo comment="autodesk" match-subdomain=yes type=FWD name="mayamentor.net" }
+:if ([:len [/ip dns static find name="mayamentors.com"]] = 0) do={ add address-list=\$AddressList forward-to=\$ForwardTo comment="autodesk" match-subdomain=yes type=FWD name="mayamentors.com" }
+:if ([:len [/ip dns static find name="mayamentors.net"]] = 0) do={ add address-list=\$AddressList forward-to=\$ForwardTo comment="autodesk" match-subdomain=yes type=FWD name="mayamentors.net" }
+:if ([:len [/ip dns static find name="mayaonlinux.com"]] = 0) do={ add address-list=\$AddressList forward-to=\$ForwardTo comment="autodesk" match-subdomain=yes type=FWD name="mayaonlinux.com" }
+:if ([:len [/ip dns static find name="mayaonmac.com"]] = 0) do={ add address-list=\$AddressList forward-to=\$ForwardTo comment="autodesk" match-subdomain=yes type=FWD name="mayaonmac.com" }
+:if ([:len [/ip dns static find name="mayaonosx.com"]] = 0) do={ add address-list=\$AddressList forward-to=\$ForwardTo comment="autodesk" match-subdomain=yes type=FWD name="mayaonosx.com" }
+:if ([:len [/ip dns static find name="mayapressbooks.com"]] = 0) do={ add address-list=\$AddressList forward-to=\$ForwardTo comment="autodesk" match-subdomain=yes type=FWD name="mayapressbooks.com" }
+:if ([:len [/ip dns static find name="mayasucks.com"]] = 0) do={ add address-list=\$AddressList forward-to=\$ForwardTo comment="autodesk" match-subdomain=yes type=FWD name="mayasucks.com" }
+:if ([:len [/ip dns static find name="mayaunlimited.com"]] = 0) do={ add address-list=\$AddressList forward-to=\$ForwardTo comment="autodesk" match-subdomain=yes type=FWD name="mayaunlimited.com" }
+:if ([:len [/ip dns static find name="mayauser.com"]] = 0) do={ add address-list=\$AddressList forward-to=\$ForwardTo comment="autodesk" match-subdomain=yes type=FWD name="mayauser.com" }
+:if ([:len [/ip dns static find name="mayauser.net"]] = 0) do={ add address-list=\$AddressList forward-to=\$ForwardTo comment="autodesk" match-subdomain=yes type=FWD name="mayauser.net" }
+:if ([:len [/ip dns static find name="mayavisualization.com"]] = 0) do={ add address-list=\$AddressList forward-to=\$ForwardTo comment="autodesk" match-subdomain=yes type=FWD name="mayavisualization.com" }
+:if ([:len [/ip dns static find name="medicalimplants-cadcam.com"]] = 0) do={ add address-list=\$AddressList forward-to=\$ForwardTo comment="autodesk" match-subdomain=yes type=FWD name="medicalimplants-cadcam.com" }
+:if ([:len [/ip dns static find name="meshmixer.com"]] = 0) do={ add address-list=\$AddressList forward-to=\$ForwardTo comment="autodesk" match-subdomain=yes type=FWD name="meshmixer.com" }
+:if ([:len [/ip dns static find name="meshmixerforum.com"]] = 0) do={ add address-list=\$AddressList forward-to=\$ForwardTo comment="autodesk" match-subdomain=yes type=FWD name="meshmixerforum.com" }
+:if ([:len [/ip dns static find name="mimistudio.com"]] = 0) do={ add address-list=\$AddressList forward-to=\$ForwardTo comment="autodesk" match-subdomain=yes type=FWD name="mimistudio.com" }
+:if ([:len [/ip dns static find name="mimistyler.com"]] = 0) do={ add address-list=\$AddressList forward-to=\$ForwardTo comment="autodesk" match-subdomain=yes type=FWD name="mimistyler.com" }
+:if ([:len [/ip dns static find name="mmmanual.com"]] = 0) do={ add address-list=\$AddressList forward-to=\$ForwardTo comment="autodesk" match-subdomain=yes type=FWD name="mmmanual.com" }
+:if ([:len [/ip dns static find name="moldflow.com"]] = 0) do={ add address-list=\$AddressList forward-to=\$ForwardTo comment="autodesk" match-subdomain=yes type=FWD name="moldflow.com" }
+:if ([:len [/ip dns static find name="moldflowexpress.com"]] = 0) do={ add address-list=\$AddressList forward-to=\$ForwardTo comment="autodesk" match-subdomain=yes type=FWD name="moldflowexpress.com" }
+:if ([:len [/ip dns static find name="moleculardesigntoolkit.com"]] = 0) do={ add address-list=\$AddressList forward-to=\$ForwardTo comment="autodesk" match-subdomain=yes type=FWD name="moleculardesigntoolkit.com" }
+:if ([:len [/ip dns static find name="molecularsimulationtools.com"]] = 0) do={ add address-list=\$AddressList forward-to=\$ForwardTo comment="autodesk" match-subdomain=yes type=FWD name="molecularsimulationtools.com" }
+:if ([:len [/ip dns static find name="molecularviewer.com"]] = 0) do={ add address-list=\$AddressList forward-to=\$ForwardTo comment="autodesk" match-subdomain=yes type=FWD name="molecularviewer.com" }
+:if ([:len [/ip dns static find name="molviewer.com"]] = 0) do={ add address-list=\$AddressList forward-to=\$ForwardTo comment="autodesk" match-subdomain=yes type=FWD name="molviewer.com" }
+:if ([:len [/ip dns static find name="morewithautodesk.com"]] = 0) do={ add address-list=\$AddressList forward-to=\$ForwardTo comment="autodesk" match-subdomain=yes type=FWD name="morewithautodesk.com" }
+:if ([:len [/ip dns static find name="motiongraphicsandmore.com"]] = 0) do={ add address-list=\$AddressList forward-to=\$ForwardTo comment="autodesk" match-subdomain=yes type=FWD name="motiongraphicsandmore.com" }
+:if ([:len [/ip dns static find name="mudbox3d.com"]] = 0) do={ add address-list=\$AddressList forward-to=\$ForwardTo comment="autodesk" match-subdomain=yes type=FWD name="mudbox3d.com" }
+:if ([:len [/ip dns static find name="my1stflame.com"]] = 0) do={ add address-list=\$AddressList forward-to=\$ForwardTo comment="autodesk" match-subdomain=yes type=FWD name="my1stflame.com" }
+:if ([:len [/ip dns static find name="myautocad.com"]] = 0) do={ add address-list=\$AddressList forward-to=\$ForwardTo comment="autodesk" match-subdomain=yes type=FWD name="myautocad.com" }
+:if ([:len [/ip dns static find name="myautodeskbenefits.com"]] = 0) do={ add address-list=\$AddressList forward-to=\$ForwardTo comment="autodesk" match-subdomain=yes type=FWD name="myautodeskbenefits.com" }
+:if ([:len [/ip dns static find name="myfirstflame.com"]] = 0) do={ add address-list=\$AddressList forward-to=\$ForwardTo comment="autodesk" match-subdomain=yes type=FWD name="myfirstflame.com" }
+:if ([:len [/ip dns static find name="mymapportal.com"]] = 0) do={ add address-list=\$AddressList forward-to=\$ForwardTo comment="autodesk" match-subdomain=yes type=FWD name="mymapportal.com" }
+:if ([:len [/ip dns static find name="nastranincad.com"]] = 0) do={ add address-list=\$AddressList forward-to=\$ForwardTo comment="autodesk" match-subdomain=yes type=FWD name="nastranincad.com" }
+:if ([:len [/ip dns static find name="nastrannx.com"]] = 0) do={ add address-list=\$AddressList forward-to=\$ForwardTo comment="autodesk" match-subdomain=yes type=FWD name="nastrannx.com" }
+:if ([:len [/ip dns static find name="nastrantraining.com"]] = 0) do={ add address-list=\$AddressList forward-to=\$ForwardTo comment="autodesk" match-subdomain=yes type=FWD name="nastrantraining.com" }
+:if ([:len [/ip dns static find name="nastranworldwide.com"]] = 0) do={ add address-list=\$AddressList forward-to=\$ForwardTo comment="autodesk" match-subdomain=yes type=FWD name="nastranworldwide.com" }
+:if ([:len [/ip dns static find name="navisworks.com"]] = 0) do={ add address-list=\$AddressList forward-to=\$ForwardTo comment="autodesk" match-subdomain=yes type=FWD name="navisworks.com" }
+:if ([:len [/ip dns static find name="navisworks.net"]] = 0) do={ add address-list=\$AddressList forward-to=\$ForwardTo comment="autodesk" match-subdomain=yes type=FWD name="navisworks.net" }
+:if ([:len [/ip dns static find name="neicad.com"]] = 0) do={ add address-list=\$AddressList forward-to=\$ForwardTo comment="autodesk" match-subdomain=yes type=FWD name="neicad.com" }
+:if ([:len [/ip dns static find name="neiexplicit.com"]] = 0) do={ add address-list=\$AddressList forward-to=\$ForwardTo comment="autodesk" match-subdomain=yes type=FWD name="neiexplicit.com" }
+:if ([:len [/ip dns static find name="neifea.com"]] = 0) do={ add address-list=\$AddressList forward-to=\$ForwardTo comment="autodesk" match-subdomain=yes type=FWD name="neifea.com" }
+:if ([:len [/ip dns static find name="neimotion.com"]] = 0) do={ add address-list=\$AddressList forward-to=\$ForwardTo comment="autodesk" match-subdomain=yes type=FWD name="neimotion.com" }
+:if ([:len [/ip dns static find name="neinastranincad.com"]] = 0) do={ add address-list=\$AddressList forward-to=\$ForwardTo comment="autodesk" match-subdomain=yes type=FWD name="neinastranincad.com" }
+:if ([:len [/ip dns static find name="neisoftware.com"]] = 0) do={ add address-list=\$AddressList forward-to=\$ForwardTo comment="autodesk" match-subdomain=yes type=FWD name="neisoftware.com" }
+:if ([:len [/ip dns static find name="neisolutions.com"]] = 0) do={ add address-list=\$AddressList forward-to=\$ForwardTo comment="autodesk" match-subdomain=yes type=FWD name="neisolutions.com" }
+:if ([:len [/ip dns static find name="neiworks.com"]] = 0) do={ add address-list=\$AddressList forward-to=\$ForwardTo comment="autodesk" match-subdomain=yes type=FWD name="neiworks.com" }
+:if ([:len [/ip dns static find name="nenastran.com"]] = 0) do={ add address-list=\$AddressList forward-to=\$ForwardTo comment="autodesk" match-subdomain=yes type=FWD name="nenastran.com" }
+:if ([:len [/ip dns static find name="netzerobuildings.com"]] = 0) do={ add address-list=\$AddressList forward-to=\$ForwardTo comment="autodesk" match-subdomain=yes type=FWD name="netzerobuildings.com" }
+:if ([:len [/ip dns static find name="netzerobuildingstudio.com"]] = 0) do={ add address-list=\$AddressList forward-to=\$ForwardTo comment="autodesk" match-subdomain=yes type=FWD name="netzerobuildingstudio.com" }
+:if ([:len [/ip dns static find name="new2fea.com"]] = 0) do={ add address-list=\$AddressList forward-to=\$ForwardTo comment="autodesk" match-subdomain=yes type=FWD name="new2fea.com" }
+:if ([:len [/ip dns static find name="newtofea.com"]] = 0) do={ add address-list=\$AddressList forward-to=\$ForwardTo comment="autodesk" match-subdomain=yes type=FWD name="newtofea.com" }
+:if ([:len [/ip dns static find name="nextgenerationcam.com"]] = 0) do={ add address-list=\$AddressList forward-to=\$ForwardTo comment="autodesk" match-subdomain=yes type=FWD name="nextgenerationcam.com" }
+:if ([:len [/ip dns static find name="nonlinearnastran.com"]] = 0) do={ add address-list=\$AddressList forward-to=\$ForwardTo comment="autodesk" match-subdomain=yes type=FWD name="nonlinearnastran.com" }
+:if ([:len [/ip dns static find name="objectarx.com"]] = 0) do={ add address-list=\$AddressList forward-to=\$ForwardTo comment="autodesk" match-subdomain=yes type=FWD name="objectarx.com" }
+:if ([:len [/ip dns static find name="oneteamconference.com"]] = 0) do={ add address-list=\$AddressList forward-to=\$ForwardTo comment="autodesk" match-subdomain=yes type=FWD name="oneteamconference.com" }
+:if ([:len [/ip dns static find name="openreality.com"]] = 0) do={ add address-list=\$AddressList forward-to=\$ForwardTo comment="autodesk" match-subdomain=yes type=FWD name="openreality.com" }
+:if ([:len [/ip dns static find name="opticore.com"]] = 0) do={ add address-list=\$AddressList forward-to=\$ForwardTo comment="autodesk" match-subdomain=yes type=FWD name="opticore.com" }
+:if ([:len [/ip dns static find name="orthopaedic-cadcam.com"]] = 0) do={ add address-list=\$AddressList forward-to=\$ForwardTo comment="autodesk" match-subdomain=yes type=FWD name="orthopaedic-cadcam.com" }
+:if ([:len [/ip dns static find name="orthotics-cadcam.com"]] = 0) do={ add address-list=\$AddressList forward-to=\$ForwardTo comment="autodesk" match-subdomain=yes type=FWD name="orthotics-cadcam.com" }
+:if ([:len [/ip dns static find name="packaging-cadcam.com"]] = 0) do={ add address-list=\$AddressList forward-to=\$ForwardTo comment="autodesk" match-subdomain=yes type=FWD name="packaging-cadcam.com" }
+:if ([:len [/ip dns static find name="packagingcadcam.com"]] = 0) do={ add address-list=\$AddressList forward-to=\$ForwardTo comment="autodesk" match-subdomain=yes type=FWD name="packagingcadcam.com" }
+:if ([:len [/ip dns static find name="partmaker.com"]] = 0) do={ add address-list=\$AddressList forward-to=\$ForwardTo comment="autodesk" match-subdomain=yes type=FWD name="partmaker.com" }
+:if ([:len [/ip dns static find name="pi-vr.com"]] = 0) do={ add address-list=\$AddressList forward-to=\$ForwardTo comment="autodesk" match-subdomain=yes type=FWD name="pi-vr.com" }
+:if ([:len [/ip dns static find name="pixlr-o-matic.com"]] = 0) do={ add address-list=\$AddressList forward-to=\$ForwardTo comment="autodesk" match-subdomain=yes type=FWD name="pixlr-o-matic.com" }
+:if ([:len [/ip dns static find name="pixlromatic.com"]] = 0) do={ add address-list=\$AddressList forward-to=\$ForwardTo comment="autodesk" match-subdomain=yes type=FWD name="pixlromatic.com" }
+:if ([:len [/ip dns static find name="plansondemand.com"]] = 0) do={ add address-list=\$AddressList forward-to=\$ForwardTo comment="autodesk" match-subdomain=yes type=FWD name="plansondemand.com" }
+:if ([:len [/ip dns static find name="plasticlabs.com"]] = 0) do={ add address-list=\$AddressList forward-to=\$ForwardTo comment="autodesk" match-subdomain=yes type=FWD name="plasticlabs.com" }
+:if ([:len [/ip dns static find name="plastics-cadcam.com"]] = 0) do={ add address-list=\$AddressList forward-to=\$ForwardTo comment="autodesk" match-subdomain=yes type=FWD name="plastics-cadcam.com" }
+:if ([:len [/ip dns static find name="plug-into.com"]] = 0) do={ add address-list=\$AddressList forward-to=\$ForwardTo comment="autodesk" match-subdomain=yes type=FWD name="plug-into.com" }
+:if ([:len [/ip dns static find name="portfoliowall.com"]] = 0) do={ add address-list=\$AddressList forward-to=\$ForwardTo comment="autodesk" match-subdomain=yes type=FWD name="portfoliowall.com" }
