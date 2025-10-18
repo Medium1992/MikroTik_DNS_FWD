@@ -1,17 +1,16 @@
 name: Generate MikroTik RSC Files
-
 on:
   workflow_dispatch:
   push:
     branches: [main]
-    
+
 permissions:
   contents: write
 
 env:
-  RESOURCES: openai,youtube,facebook,intel
+  RESOURCES: openai,another_resource
   FORWARD_TO: Google
-  ADDRESS_LIST: BlackList
+  ADDRESS_LIST: false
   JSON_URL_TEMPLATE: https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/refs/heads/sing/geo/geosite/{resource}.json
 
 jobs:
@@ -21,12 +20,10 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v4
 
-      - name: Install dependencies
-        run: |
-          sudo apt-get update
-          sudo apt-get install -y jq curl
+      - name: Install jq
+        run: sudo apt-get update && sudo apt-get install -y jq
 
-      - name: Process and update files via API
+      - name: Process each resource
         run: |
           set -e
           IFS=',' read -ra resource_array <<< "${{ env.RESOURCES }}"
@@ -39,96 +36,75 @@ jobs:
             echo "Processing resource: $resource"
             json_url="${JSON_URL_TEMPLATE//\{resource\}/$resource}"
             
-            # Скачиваем JSON
+            mkdir -p "$resource"
+            
             if ! curl -s -f "$json_url" > "input_$resource.json"; then
               echo "Failed to fetch JSON for $resource, skipping..."
               continue
             fi
             
+            # Determine address list part
             if [ "$ADDRESS_LIST" = "false" ]; then
               ADDR_ARG=""
+              LIST_SUFFIX="NoList"
             else
               ADDR_ARG=" address-list=$ADDRESS_LIST"
+              LIST_SUFFIX="$ADDRESS_LIST"
             fi
             
-            # Генерируем содержимое файла
-            file_content="/ip dns static"
+            output_file="$resource/FWD_${resource}_${FORWARD_TO}_${LIST_SUFFIX}.rsc"
+            echo "/ip dns static" > "$output_file"
             
-            # domain rules
+            # domain (match-subdomain=no)
             domains=$(jq -r '
               .rules[]
               | if (.domain | type == "string") then [.domain]
                 elif (.domain | type == "array") then .domain
                 else [] end
-              | .[]' "input_$resource.json" | sort -u)
+              | .[]
+            ' "input_$resource.json" | sort -u)
             if [ -n "$domains" ]; then
-              while read -r domain; do
-                file_content="${file_content}"$'\n'"add${ADDR_ARG} forward-to=$FORWARD_TO comment=$resource match-subdomain=no type=FWD name=$domain"
-              done <<< "$domains"
+              echo "$domains" | while read -r domain; do
+                echo "add$ADDR_ARG forward-to=$FORWARD_TO comment=$resource type=FWD name=$domain" >> "$output_file"
+              done
             fi
 
-            # domain_suffix rules
+
+            # domain_suffix (match-subdomain=yes)
             suffixes=$(jq -r '
               .rules[]
               | if (.domain_suffix | type == "string") then [.domain_suffix]
                 elif (.domain_suffix | type == "array") then .domain_suffix
                 else [] end
-              | .[]' "input_$resource.json" | sort -u)
+              | .[]
+            ' "input_$resource.json" | sort -u)
             if [ -n "$suffixes" ]; then
-              while read -r suffix; do
-                file_content="${file_content}"$'\n'"add${ADDR_ARG} forward-to=$FORWARD_TO comment=$resource match-subdomain=yes type=FWD name=$suffix"
-              done <<< "$suffixes"
+              echo "$suffixes" | while read -r domain_suffix; do
+                echo "add$ADDR_ARG forward-to=$FORWARD_TO comment=$resource match-subdomain=yes type=FWD name=$domain_suffix" >> "$output_file"
+              done
             fi
 
-            # domain_regex rules
-            mapfile -t regex_array < <(jq -r '
+
+            # domain_regex (handle both string and array)
+            regex_list=$(jq -r '
               .rules[]
               | if (.domain_regex | type == "string") then [.domain_regex]
                 elif (.domain_regex | type == "array") then .domain_regex
                 else [] end
-              | .[]' "input_$resource.json" | sort -u)
-            for regex in "${regex_array[@]}"; do
-                [ -z "$regex" ] && continue
-                # Удваиваем каждый обратный слеш (из \\ делаем \\\\)
-                escaped_regex=$(echo "$regex" | sed -e 's/\\\\/\\\\\\\\/g' -e 's/\\/\\\\/g')
-                # Затем экранируем остальные спецсимволы
-                escaped_regex=$(echo "$escaped_regex" | sed -e 's/"/\\"/g' -e 's/\$/\\\$/g' -e 's/?/\\?/g' -e 's/ /\\_/g')
-                file_content="${file_content}"$'\n'"add${ADDR_ARG} forward-to=$FORWARD_TO comment=$resource type=FWD regexp=\"$escaped_regex\""
-            done
-
-            # Обновляем файл через GitHub API
-            output_file="$resource/FWD_${resource}_${FORWARD_TO}_${ADDRESS_LIST}.rsc"
-            
-            # Получаем текущий SHA файла (если существует)
-            current_sha=$(curl -s -H "Authorization: token ${{ secrets.GITHUB_TOKEN }}" \
-              "https://api.github.com/repos/${{ github.repository }}/contents/$output_file" | jq -r .sha) || current_sha=""
-            
-            # Кодируем содержимое в base64
-            encoded_content=$(echo "$file_content" | base64 -w0)
-            
-            # Создаем/обновляем файл через API
-            api_data="{
-              \"message\": \"Update $output_file\",
-              \"content\": \"$encoded_content\"
-            }"
-            
-            if [ -n "$current_sha" ] && [ "$current_sha" != "null" ]; then
-              api_data=$(echo "$api_data" | jq -c ". + {\"sha\": \"$current_sha\"}")
+              | .[]
+            ' "input_$resource.json" | sort -u)
+            if [ -n "$regex_list" ]; then
+              echo "$regex_list" | while read -r regex; do
+                escaped_regex=$(echo "$regex" | sed 's/"/\\"/g; s/\\/\\\\/g; s/\n/\\n/g; s/\r/\\r/g; s/\t/\\t/g; s/\$/\\\$/g; s/?/\\?/g; s/ /\\_/g; s/\a/\\a/g; s/\b/\\b/g; s/\f/\\f/g; s/\v/\\v/g; s/\\x\([0-9A-Fa-f]\{2\}\)/\\\\\\U\1/g')
+                echo "add$ADDR_ARG forward-to=$FORWARD_TO comment=$resource type=FWD regexp=\"$escaped_regex\"" >> "$output_file"
+              done
             fi
-            
-            response=$(curl -s -w "%{http_code}" -X PUT \
-              -H "Authorization: token ${{ secrets.GITHUB_TOKEN }}" \
-              -H "Content-Type: application/json" \
-              "https://api.github.com/repos/${{ github.repository }}/contents/$output_file" \
-              -d "$api_data")
-            
-            http_code=${response: -3}
-            if [ "$http_code" -eq 200 ] || [ "$http_code" -eq 201 ]; then
-              echo "✅ Updated $output_file via API"
-            else
-              echo "❌ Failed to update $output_file. HTTP code: $http_code"
-              echo "Response: ${response%???}"
-            fi
-            
-            rm -f "input_$resource.json"
           done
+
+      - name: Commit and push changes
+        run: |
+          git config --global user.name 'github-actions[bot]'
+          git config --global user.email 'github-actions[bot]@users.noreply.github.com'
+          git add */FWD_*.rsc
+          git commit -m "Update RSC files for ${{ env.RESOURCES }}"
+          git push
