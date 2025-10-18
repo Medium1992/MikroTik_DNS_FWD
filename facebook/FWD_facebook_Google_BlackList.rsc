@@ -96,7 +96,6 @@ add address-list=BlackList forward-to=Google comment=facebook match-subdomain=ye
 add address-list=BlackList forward-to=Google comment=facebook match-subdomain=yes type=FWD name=facebook.design
 add address-list=BlackList forward-to=Google comment=facebook match-subdomain=yes type=FWD name=facebook.net
 add address-list=BlackList forward-to=Google comment=facebook match-subdomain=yes type=FWD name=facebook.org
-add address-list=BlackList forward-to=Google comment=facebook match-subdomain=yes type=FWD name=facebook.se
 add address-list=BlackList forward-to=Google comment=facebook match-subdomain=yes type=FWD name=facebook.shop
 add address-list=BlackList forward-to=Google comment=facebook match-subdomain=yes type=FWD name=facebook.us
 add address-list=BlackList forward-to=Google comment=facebook match-subdomain=yes type=FWD name=facebook.wang

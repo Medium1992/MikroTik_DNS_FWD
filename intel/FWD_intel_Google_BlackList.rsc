@@ -47,15 +47,8 @@ add address-list=BlackList forward-to=Google comment=intel match-subdomain=yes t
 add address-list=BlackList forward-to=Google comment=intel match-subdomain=yes type=FWD name=intel.cg
 add address-list=BlackList forward-to=Google comment=intel match-subdomain=yes type=FWD name=intel.cm
 add address-list=BlackList forward-to=Google comment=intel match-subdomain=yes type=FWD name=intel.com
-add address-list=BlackList forward-to=Google comment=intel match-subdomain=yes type=FWD name=intel.com.ec
-add address-list=BlackList forward-to=Google comment=intel match-subdomain=yes type=FWD name=intel.com.jm
-add address-list=BlackList forward-to=Google comment=intel match-subdomain=yes type=FWD name=intel.com.py
-add address-list=BlackList forward-to=Google comment=intel match-subdomain=yes type=FWD name=intel.com.tr
-add address-list=BlackList forward-to=Google comment=intel match-subdomain=yes type=FWD name=intel.com.tw
 add address-list=BlackList forward-to=Google comment=intel match-subdomain=yes type=FWD name=intel.cu
 add address-list=BlackList forward-to=Google comment=intel match-subdomain=yes type=FWD name=intel.dz
-add address-list=BlackList forward-to=Google comment=intel match-subdomain=yes type=FWD name=intel.ec
-add address-list=BlackList forward-to=Google comment=intel match-subdomain=yes type=FWD name=intel.eg
 add address-list=BlackList forward-to=Google comment=intel match-subdomain=yes type=FWD name=intel.eu
 add address-list=BlackList forward-to=Google comment=intel match-subdomain=yes type=FWD name=intel.ga
 add address-list=BlackList forward-to=Google comment=intel match-subdomain=yes type=FWD name=intel.gd
@@ -63,14 +56,12 @@ add address-list=BlackList forward-to=Google comment=intel match-subdomain=yes t
 add address-list=BlackList forward-to=Google comment=intel match-subdomain=yes type=FWD name=intel.gm
 add address-list=BlackList forward-to=Google comment=intel match-subdomain=yes type=FWD name=intel.gs
 add address-list=BlackList forward-to=Google comment=intel match-subdomain=yes type=FWD name=intel.gy
-add address-list=BlackList forward-to=Google comment=intel match-subdomain=yes type=FWD name=intel.hn
 add address-list=BlackList forward-to=Google comment=intel match-subdomain=yes type=FWD name=intel.ht
 add address-list=BlackList forward-to=Google comment=intel match-subdomain=yes type=FWD name=intel.io
 add address-list=BlackList forward-to=Google comment=intel match-subdomain=yes type=FWD name=intel.je
 add address-list=BlackList forward-to=Google comment=intel match-subdomain=yes type=FWD name=intel.lc
 add address-list=BlackList forward-to=Google comment=intel match-subdomain=yes type=FWD name=intel.mg
 add address-list=BlackList forward-to=Google comment=intel match-subdomain=yes type=FWD name=intel.mp
-add address-list=BlackList forward-to=Google comment=intel match-subdomain=yes type=FWD name=intel.mt
 add address-list=BlackList forward-to=Google comment=intel match-subdomain=yes type=FWD name=intel.mu
 add address-list=BlackList forward-to=Google comment=intel match-subdomain=yes type=FWD name=intel.mw
 add address-list=BlackList forward-to=Google comment=intel match-subdomain=yes type=FWD name=intel.nu
@@ -79,7 +70,6 @@ add address-list=BlackList forward-to=Google comment=intel match-subdomain=yes t
 add address-list=BlackList forward-to=Google comment=intel match-subdomain=yes type=FWD name=intel.ru
 add address-list=BlackList forward-to=Google comment=intel match-subdomain=yes type=FWD name=intel.rw
 add address-list=BlackList forward-to=Google comment=intel match-subdomain=yes type=FWD name=intel.sc
-add address-list=BlackList forward-to=Google comment=intel match-subdomain=yes type=FWD name=intel.se
 add address-list=BlackList forward-to=Google comment=intel match-subdomain=yes type=FWD name=intel.sr
 add address-list=BlackList forward-to=Google comment=intel match-subdomain=yes type=FWD name=intel.st
 add address-list=BlackList forward-to=Google comment=intel match-subdomain=yes type=FWD name=intel.sx
@@ -88,7 +78,6 @@ add address-list=BlackList forward-to=Google comment=intel match-subdomain=yes t
 add address-list=BlackList forward-to=Google comment=intel match-subdomain=yes type=FWD name=intel.tj
 add address-list=BlackList forward-to=Google comment=intel match-subdomain=yes type=FWD name=intel.tl
 add address-list=BlackList forward-to=Google comment=intel match-subdomain=yes type=FWD name=intel.tt
-add address-list=BlackList forward-to=Google comment=intel match-subdomain=yes type=FWD name=intel.tw
 add address-list=BlackList forward-to=Google comment=intel match-subdomain=yes type=FWD name=intel.us
 add address-list=BlackList forward-to=Google comment=intel match-subdomain=yes type=FWD name=intel.vg
 add address-list=BlackList forward-to=Google comment=intel match-subdomain=yes type=FWD name=intel.vu
