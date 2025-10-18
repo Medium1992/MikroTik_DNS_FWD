@@ -9,7 +9,7 @@ permissions:
   contents: write
 
 env:
-  RESOURCES: openai,youtube,facebook,intel
+  RESOURCES: openai,youtube,facebook,intel,netflix
   FORWARD_TO: Google
   ADDRESS_LIST: BlackList
   JSON_URL_TEMPLATE: https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/refs/heads/sing/geo/geosite/{resource}.json
@@ -98,7 +98,7 @@ jobs:
             if [ -n "$regex_list" ]; then
               echo "$regex_list" | while read -r regex; do
                 escaped_regex=$(echo "$regex" | sed -E '
-                  s/\\/\\\\\\/g;      # сначала экранируем все обратные слэши
+                  s/\\/\\\\\\\\/g;      # сначала экранируем все обратные слэши
                   s/\$/\\$/g;       # $ → \$
                   s/"/\\"/g;        # " → \"
                   s/ /\\_/g;        # пробел → \_
