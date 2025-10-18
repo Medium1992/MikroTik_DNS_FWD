@@ -1,3 +1,5 @@
+:global AddressList
+:global ForwardTo
 /ip dns static
 add forward-to=\$ForwardTo comment=microsoft type=FWD name=az764295.vo.msecnd.net
 add forward-to=\$ForwardTo comment=microsoft type=FWD name=azure.microsoft.com

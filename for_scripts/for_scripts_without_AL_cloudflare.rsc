@@ -1,3 +1,5 @@
+:global AddressList
+:global ForwardTo
 /ip dns static
 add forward-to=\$ForwardTo comment=cloudflare match-subdomain=yes type=FWD name=argotunnel.com
 add forward-to=\$ForwardTo comment=cloudflare match-subdomain=yes type=FWD name=cf-ipfs.com

@@ -1,3 +1,5 @@
+:global AddressList
+:global ForwardTo
 /ip dns static
 add address-list=\$AddressList forward-to=\$ForwardTo comment=telegram match-subdomain=yes type=FWD name=cdn-telegram.org
 add address-list=\$AddressList forward-to=\$ForwardTo comment=telegram match-subdomain=yes type=FWD name=comments.app

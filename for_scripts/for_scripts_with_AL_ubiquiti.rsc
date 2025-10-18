@@ -1,3 +1,5 @@
+:global AddressList
+:global ForwardTo
 /ip dns static
 add address-list=\$AddressList forward-to=\$ForwardTo comment=ubiquiti match-subdomain=yes type=FWD name=amplifi.com
 add address-list=\$AddressList forward-to=\$ForwardTo comment=ubiquiti match-subdomain=yes type=FWD name=frontrow.com

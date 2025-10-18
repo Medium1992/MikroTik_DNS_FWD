@@ -1,3 +1,5 @@
+:global AddressList
+:global ForwardTo
 /ip dns static
 add address-list=\$AddressList forward-to=\$ForwardTo comment=instagram match-subdomain=yes type=FWD name=achat-followers-instagram.com
 add address-list=\$AddressList forward-to=\$ForwardTo comment=instagram match-subdomain=yes type=FWD name=acheter-followers-instagram.com

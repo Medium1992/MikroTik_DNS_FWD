@@ -1,3 +1,5 @@
+:global AddressList
+:global ForwardTo
 /ip dns static
 add forward-to=\$ForwardTo comment=spotify type=FWD name=audio-ak-spotify-com.akamaized.net
 add forward-to=\$ForwardTo comment=spotify type=FWD name=audio4-ak-spotify-com.akamaized.net

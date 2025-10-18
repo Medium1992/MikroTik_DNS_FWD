@@ -1,3 +1,5 @@
+:global AddressList
+:global ForwardTo
 /ip dns static
 add forward-to=\$ForwardTo comment=samsung match-subdomain=yes type=FWD name=galaxyappstore.com
 add forward-to=\$ForwardTo comment=samsung match-subdomain=yes type=FWD name=game-platform.net

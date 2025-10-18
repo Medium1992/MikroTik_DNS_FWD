@@ -1,3 +1,5 @@
+:global AddressList
+:global ForwardTo
 /ip dns static
 add address-list=\$AddressList forward-to=\$ForwardTo comment=speedtest type=FWD name=www.speedtest.net.cdn.cloudflare.net
 add address-list=\$AddressList forward-to=\$ForwardTo comment=speedtest match-subdomain=yes type=FWD name=cdnst.net

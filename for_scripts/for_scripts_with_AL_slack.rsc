@@ -1,3 +1,5 @@
+:global AddressList
+:global ForwardTo
 /ip dns static
 add address-list=\$AddressList forward-to=\$ForwardTo comment=slack match-subdomain=yes type=FWD name=slack-core.com
 add address-list=\$AddressList forward-to=\$ForwardTo comment=slack match-subdomain=yes type=FWD name=slack-edge.com

@@ -1,3 +1,5 @@
+:global AddressList
+:global ForwardTo
 /ip dns static
 add address-list=\$AddressList forward-to=\$ForwardTo comment=tiktok type=FWD name=p16-tiktokcdn-com.akamaized.net
 add address-list=\$AddressList forward-to=\$ForwardTo comment=tiktok match-subdomain=yes type=FWD name=byteoversea.com

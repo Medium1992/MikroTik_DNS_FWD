@@ -1,3 +1,5 @@
+:global AddressList
+:global ForwardTo
 /ip dns static
 add address-list=\$AddressList forward-to=\$ForwardTo comment=autodesk match-subdomain=yes type=FWD name=123dapp.com
 add address-list=\$AddressList forward-to=\$ForwardTo comment=autodesk match-subdomain=yes type=FWD name=123dappipad.com

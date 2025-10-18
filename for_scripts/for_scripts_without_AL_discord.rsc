@@ -1,3 +1,5 @@
+:global AddressList
+:global ForwardTo
 /ip dns static
 add forward-to=\$ForwardTo comment=discord type=FWD name=discord-attachments-uploads-prd.storage.googleapis.com
 add forward-to=\$ForwardTo comment=discord type=FWD name=hammerandchisel.ssl.zendesk.com

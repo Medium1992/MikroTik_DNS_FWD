@@ -1,3 +1,5 @@
+:global AddressList
+:global ForwardTo
 /ip dns static
 add forward-to=\$ForwardTo comment=rutracker match-subdomain=yes type=FWD name=maintracker.org
 add forward-to=\$ForwardTo comment=rutracker match-subdomain=yes type=FWD name=rutracker.cc

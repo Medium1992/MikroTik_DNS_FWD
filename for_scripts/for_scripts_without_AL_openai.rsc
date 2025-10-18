@@ -1,3 +1,5 @@
+:global AddressList
+:global ForwardTo
 /ip dns static
 add forward-to=\$ForwardTo comment=openai type=FWD name=browser-intake-datadoghq.com
 add forward-to=\$ForwardTo comment=openai type=FWD name=o33249.ingest.sentry.io

@@ -1,3 +1,5 @@
+:global AddressList
+:global ForwardTo
 /ip dns static
 add forward-to=\$ForwardTo comment=xbox type=FWD name=flightsimulator.azureedge.net
 add forward-to=\$ForwardTo comment=xbox type=FWD name=prodforza.blob.core.windows.net

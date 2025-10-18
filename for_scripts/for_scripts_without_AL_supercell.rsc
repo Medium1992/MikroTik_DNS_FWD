@@ -1,3 +1,5 @@
+:global AddressList
+:global ForwardTo
 /ip dns static
 add forward-to=\$ForwardTo comment=supercell match-subdomain=yes type=FWD name=boombeach.com
 add forward-to=\$ForwardTo comment=supercell match-subdomain=yes type=FWD name=brawlstars.com

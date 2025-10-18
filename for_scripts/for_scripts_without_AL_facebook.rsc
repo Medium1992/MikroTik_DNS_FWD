@@ -1,3 +1,5 @@
+:global AddressList
+:global ForwardTo
 /ip dns static
 add forward-to=\$ForwardTo comment=facebook type=FWD name=fbcdn-a.akamaihd.net
 add forward-to=\$ForwardTo comment=facebook match-subdomain=yes type=FWD name=aboutfacebook.com

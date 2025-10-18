@@ -1,3 +1,5 @@
+:global AddressList
+:global ForwardTo
 /ip dns static
 add address-list=\$AddressList forward-to=\$ForwardTo comment=netflix type=FWD name=netflix.com.edgesuite.net
 add address-list=\$AddressList forward-to=\$ForwardTo comment=netflix match-subdomain=yes type=FWD name=fast.com

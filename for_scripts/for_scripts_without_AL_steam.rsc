@@ -1,3 +1,5 @@
+:global AddressList
+:global ForwardTo
 /ip dns static
 add forward-to=\$ForwardTo comment=steam type=FWD name=a4e8s8k3.map2.ssl.hwcdn.net
 add forward-to=\$ForwardTo comment=steam type=FWD name=alibaba.cdn.steampipe.steamcontent.com

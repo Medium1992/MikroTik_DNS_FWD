@@ -1,3 +1,5 @@
+:global AddressList
+:global ForwardTo
 /ip dns static
 add forward-to=\$ForwardTo comment=linkedin type=FWD name=e122475.dscg.akamaiedge.net
 add forward-to=\$ForwardTo comment=linkedin type=FWD name=licdn.cn.cdn20.com

@@ -1,3 +1,5 @@
+:global AddressList
+:global ForwardTo
 /ip dns static
 add address-list=\$AddressList forward-to=\$ForwardTo comment=dell type=FWD name=afcs.dell.com
 add address-list=\$AddressList forward-to=\$ForwardTo comment=dell type=FWD name=clientperipherals.dell.com

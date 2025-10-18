@@ -1,3 +1,5 @@
+:global AddressList
+:global ForwardTo
 /ip dns static
 add address-list=\$AddressList forward-to=\$ForwardTo comment=sony match-subdomain=yes type=FWD name=imageworks.com
 add address-list=\$AddressList forward-to=\$ForwardTo comment=sony match-subdomain=yes type=FWD name=motionpictureser.com

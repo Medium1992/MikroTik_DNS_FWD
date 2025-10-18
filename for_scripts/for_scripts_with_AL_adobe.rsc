@@ -1,3 +1,5 @@
+:global AddressList
+:global ForwardTo
 /ip dns static
 add address-list=\$AddressList forward-to=\$ForwardTo comment=adobe type=FWD name=3dns-1.adobe.com
 add address-list=\$AddressList forward-to=\$ForwardTo comment=adobe type=FWD name=3dns-2.adobe.com

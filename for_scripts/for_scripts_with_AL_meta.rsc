@@ -1,3 +1,5 @@
+:global AddressList
+:global ForwardTo
 /ip dns static
 add address-list=\$AddressList forward-to=\$ForwardTo comment=meta type=FWD name=developers.facebook.com
 add address-list=\$AddressList forward-to=\$ForwardTo comment=meta type=FWD name=fbcdn-a.akamaihd.net

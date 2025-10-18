@@ -1,3 +1,5 @@
+:global AddressList
+:global ForwardTo
 /ip dns static
 add forward-to=\$ForwardTo comment=google-gemini type=FWD name=ai.google.dev
 add forward-to=\$ForwardTo comment=google-gemini type=FWD name=alkalicore-pa.clients6.google.com

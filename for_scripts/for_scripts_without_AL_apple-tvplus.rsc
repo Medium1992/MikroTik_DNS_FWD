@@ -1,3 +1,5 @@
+:global AddressList
+:global ForwardTo
 /ip dns static
 add forward-to=\$ForwardTo comment=apple-tvplus type=FWD name=apple-tv-plus-press.apple.com
 add forward-to=\$ForwardTo comment=apple-tvplus type=FWD name=hls-amt.itunes.apple.com

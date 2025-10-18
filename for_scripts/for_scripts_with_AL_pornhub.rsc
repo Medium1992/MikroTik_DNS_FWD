@@ -1,3 +1,5 @@
+:global AddressList
+:global ForwardTo
 /ip dns static
 add address-list=\$AddressList forward-to=\$ForwardTo comment=pornhub match-subdomain=yes type=FWD name=gaytube.com
 add address-list=\$AddressList forward-to=\$ForwardTo comment=pornhub match-subdomain=yes type=FWD name=phncdn.com

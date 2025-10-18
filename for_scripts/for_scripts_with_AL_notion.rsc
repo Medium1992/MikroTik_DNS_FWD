@@ -1,3 +1,5 @@
+:global AddressList
+:global ForwardTo
 /ip dns static
 add address-list=\$AddressList forward-to=\$ForwardTo comment=notion match-subdomain=yes type=FWD name=notion-static.com
 add address-list=\$AddressList forward-to=\$ForwardTo comment=notion match-subdomain=yes type=FWD name=notion.com

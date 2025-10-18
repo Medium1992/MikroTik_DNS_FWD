@@ -1,3 +1,5 @@
+:global AddressList
+:global ForwardTo
 /ip dns static
 add forward-to=\$ForwardTo comment=github type=FWD name=github-api.arkoselabs.com
 add forward-to=\$ForwardTo comment=github type=FWD name=github-cloud.s3.amazonaws.com

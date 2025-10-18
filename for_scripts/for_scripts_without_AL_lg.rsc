@@ -1,3 +1,5 @@
+:global AddressList
+:global ForwardTo
 /ip dns static
 add forward-to=\$ForwardTo comment=lg type=FWD name=lgelectronics.122.2o7.net
 add forward-to=\$ForwardTo comment=lg match-subdomain=yes type=FWD name=lg.com

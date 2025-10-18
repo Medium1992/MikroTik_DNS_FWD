@@ -1,3 +1,5 @@
+:global AddressList
+:global ForwardTo
 /ip dns static
 add forward-to=\$ForwardTo comment=whatsapp match-subdomain=yes type=FWD name=graph.whatsapp.com
 add forward-to=\$ForwardTo comment=whatsapp match-subdomain=yes type=FWD name=graph.whatsapp.net

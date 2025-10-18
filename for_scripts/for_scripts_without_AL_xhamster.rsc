@@ -1,3 +1,5 @@
+:global AddressList
+:global ForwardTo
 /ip dns static
 add forward-to=\$ForwardTo comment=xhamster type=FWD name=widgets.stripst.com
 add forward-to=\$ForwardTo comment=xhamster match-subdomain=yes type=FWD name=collector.xhamster.com

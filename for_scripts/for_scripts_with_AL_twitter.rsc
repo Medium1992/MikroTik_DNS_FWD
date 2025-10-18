@@ -1,3 +1,5 @@
+:global AddressList
+:global ForwardTo
 /ip dns static
 add address-list=\$AddressList forward-to=\$ForwardTo comment=twitter match-subdomain=yes type=FWD name=ads-twitter.com
 add address-list=\$AddressList forward-to=\$ForwardTo comment=twitter match-subdomain=yes type=FWD name=cms-twdigitalassets.com

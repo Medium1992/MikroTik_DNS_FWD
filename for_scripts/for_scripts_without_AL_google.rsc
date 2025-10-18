@@ -1,3 +1,5 @@
+:global AddressList
+:global ForwardTo
 /ip dns static
 add forward-to=\$ForwardTo comment=google type=FWD name=265.com
 add forward-to=\$ForwardTo comment=google type=FWD name=2mdn-cn.net

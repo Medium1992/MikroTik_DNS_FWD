@@ -1,3 +1,5 @@
+:global AddressList
+:global ForwardTo
 /ip dns static
 add forward-to=\$ForwardTo comment=kinopub match-subdomain=yes type=FWD name=gfw.ovh
 add forward-to=\$ForwardTo comment=kinopub match-subdomain=yes type=FWD name=kino.pub

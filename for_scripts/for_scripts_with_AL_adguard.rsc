@@ -1,3 +1,5 @@
+:global AddressList
+:global ForwardTo
 /ip dns static
 add address-list=\$AddressList forward-to=\$ForwardTo comment=adguard match-subdomain=yes type=FWD name=adguard-dns.com
 add address-list=\$AddressList forward-to=\$ForwardTo comment=adguard match-subdomain=yes type=FWD name=adguard-dns.io

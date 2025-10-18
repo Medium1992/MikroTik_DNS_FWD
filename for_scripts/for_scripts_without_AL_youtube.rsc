@@ -1,3 +1,5 @@
+:global AddressList
+:global ForwardTo
 /ip dns static
 add forward-to=\$ForwardTo comment=youtube type=FWD name=yt3.googleusercontent.com
 add forward-to=\$ForwardTo comment=youtube match-subdomain=yes type=FWD name=ggpht.com

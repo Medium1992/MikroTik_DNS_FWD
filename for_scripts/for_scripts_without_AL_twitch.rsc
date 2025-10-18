@@ -1,3 +1,5 @@
+:global AddressList
+:global ForwardTo
 /ip dns static
 add forward-to=\$ForwardTo comment=twitch type=FWD name=d1g1f25tn8m2e6.cloudfront.net
 add forward-to=\$ForwardTo comment=twitch type=FWD name=d1m7jfoe9zdc1j.cloudfront.net

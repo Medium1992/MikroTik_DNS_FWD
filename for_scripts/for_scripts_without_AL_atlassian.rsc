@@ -1,3 +1,5 @@
+:global AddressList
+:global ForwardTo
 /ip dns static
 add forward-to=\$ForwardTo comment=atlassian match-subdomain=yes type=FWD name=atlassian.com
 add forward-to=\$ForwardTo comment=atlassian match-subdomain=yes type=FWD name=atlassian.net

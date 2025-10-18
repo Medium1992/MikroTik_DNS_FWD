@@ -1,3 +1,5 @@
+:global AddressList
+:global ForwardTo
 /ip dns static
 add address-list=\$AddressList forward-to=\$ForwardTo comment=oracle match-subdomain=yes type=FWD name=addthis.com
 add address-list=\$AddressList forward-to=\$ForwardTo comment=oracle match-subdomain=yes type=FWD name=addthiscdn.com

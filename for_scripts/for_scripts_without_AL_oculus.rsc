@@ -1,3 +1,5 @@
+:global AddressList
+:global ForwardTo
 /ip dns static
 add forward-to=\$ForwardTo comment=oculus match-subdomain=yes type=FWD name=binoculus.com
 add forward-to=\$ForwardTo comment=oculus match-subdomain=yes type=FWD name=buyoculus.com
