@@ -16,4 +16,4 @@ add address-list=BlackList forward-to=Google comment=openai match-subdomain=yes 
 add address-list=BlackList forward-to=Google comment=openai match-subdomain=yes type=FWD name=openai.com.cdn.cloudflare.net
 add address-list=BlackList forward-to=Google comment=openai match-subdomain=yes type=FWD name=sora.com
 add address-list=BlackList forward-to=Google comment=openai match-subdomain=yes type=FWD name=turn.livekit.cloud
-add address-list=BlackList forward-to=Google comment=openai type=FWD regexp="^chatgpt-async-webps-prod-\\S+-\\d+\\\.webpubsub\\\.azure\\\.com\$"
+add address-list=BlackList forward-to=Google comment=openai type=FWD regexp="^chatgpt-async-webps-prod-\\\\S+-\\\\d+\\\\\.webpubsub\\\\\.azure\\\\\.com\$"
