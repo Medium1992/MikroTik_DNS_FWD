@@ -1,7 +1,6 @@
 /ip dns static
 add address-list=BlackList forward-to=Google comment=netflix type=FWD name=netflix.com.edgesuite.net
 add address-list=BlackList forward-to=Google comment=netflix match-subdomain=yes type=FWD name=fast.com
-add address-list=BlackList forward-to=Google comment=netflix match-subdomain=yes type=FWD name=netflix.ca
 add address-list=BlackList forward-to=Google comment=netflix match-subdomain=yes type=FWD name=netflix.com
 add address-list=BlackList forward-to=Google comment=netflix match-subdomain=yes type=FWD name=netflix.net
 add address-list=BlackList forward-to=Google comment=netflix match-subdomain=yes type=FWD name=netflixdnstest0.com

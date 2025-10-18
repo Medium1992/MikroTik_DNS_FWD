@@ -92,12 +92,10 @@ add address-list=BlackList forward-to=Google comment=facebook match-subdomain=ye
 add address-list=BlackList forward-to=Google comment=facebook match-subdomain=yes type=FWD name=facebook-texas-holdem.com
 add address-list=BlackList forward-to=Google comment=facebook match-subdomain=yes type=FWD name=facebook-texas-holdem.net
 add address-list=BlackList forward-to=Google comment=facebook match-subdomain=yes type=FWD name=facebook.br
-add address-list=BlackList forward-to=Google comment=facebook match-subdomain=yes type=FWD name=facebook.ca
 add address-list=BlackList forward-to=Google comment=facebook match-subdomain=yes type=FWD name=facebook.cc
 add address-list=BlackList forward-to=Google comment=facebook match-subdomain=yes type=FWD name=facebook.com
 add address-list=BlackList forward-to=Google comment=facebook match-subdomain=yes type=FWD name=facebook.design
 add address-list=BlackList forward-to=Google comment=facebook match-subdomain=yes type=FWD name=facebook.hu
-add address-list=BlackList forward-to=Google comment=facebook match-subdomain=yes type=FWD name=facebook.in
 add address-list=BlackList forward-to=Google comment=facebook match-subdomain=yes type=FWD name=facebook.net
 add address-list=BlackList forward-to=Google comment=facebook match-subdomain=yes type=FWD name=facebook.nl
 add address-list=BlackList forward-to=Google comment=facebook match-subdomain=yes type=FWD name=facebook.org
@@ -269,7 +267,6 @@ add address-list=BlackList forward-to=Google comment=facebook match-subdomain=ye
 add address-list=BlackList forward-to=Google comment=facebook match-subdomain=yes type=FWD name=fb.careers
 add address-list=BlackList forward-to=Google comment=facebook match-subdomain=yes type=FWD name=fb.com
 add address-list=BlackList forward-to=Google comment=facebook match-subdomain=yes type=FWD name=fb.gg
-add address-list=BlackList forward-to=Google comment=facebook match-subdomain=yes type=FWD name=fb.me
 add address-list=BlackList forward-to=Google comment=facebook match-subdomain=yes type=FWD name=fb.watch
 add address-list=BlackList forward-to=Google comment=facebook match-subdomain=yes type=FWD name=fbacebook.com
 add address-list=BlackList forward-to=Google comment=facebook match-subdomain=yes type=FWD name=fbbmarket.com
@@ -358,7 +355,6 @@ add address-list=BlackList forward-to=Google comment=facebook match-subdomain=ye
 add address-list=BlackList forward-to=Google comment=facebook match-subdomain=yes type=FWD name=httpwwwfacebook.com
 add address-list=BlackList forward-to=Google comment=facebook match-subdomain=yes type=FWD name=i.org
 add address-list=BlackList forward-to=Google comment=facebook match-subdomain=yes type=FWD name=internet.org
-add address-list=BlackList forward-to=Google comment=facebook match-subdomain=yes type=FWD name=klik.me
 add address-list=BlackList forward-to=Google comment=facebook match-subdomain=yes type=FWD name=liverail.com
 add address-list=BlackList forward-to=Google comment=facebook match-subdomain=yes type=FWD name=liverail.tv
 add address-list=BlackList forward-to=Google comment=facebook match-subdomain=yes type=FWD name=login-account.net
