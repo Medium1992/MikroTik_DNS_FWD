@@ -9,9 +9,36 @@ permissions:
   contents: write
 
 env:
-  RESOURCES: openai,youtube,facebook,instagram,meta,oculus,intel,netflix,adobe,twitch
-  FORWARD_TO: Google,CloudFlare,Quad9,OwnDNS,fakeip
+  RESOURCES: |
+    autodesk
+    apple-tvplus
+    akamai
+    kinopub
+    rutracker
+    linkedin
+    adguard
+    whatsapp
+    twitter
+    openai
+    youtube
+    facebook
+    instagram
+    meta
+    oculus
+    intel
+    netflix
+    adobe
+    twitch
+
+  FORWARD_TO: |
+    Google
+    CloudFlare
+    Quad9
+    OwnDNS
+    fakeip
+
   ADDRESS_LIST: BlackList
+
   JSON_URL_TEMPLATE: https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/refs/heads/sing/geo/geosite/{resource}.json
 
 jobs:
