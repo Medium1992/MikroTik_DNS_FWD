@@ -125,12 +125,12 @@ jobs:
 
               # Combine all entries into one array
               all_entries=()
-              while IFS= read -r domain; do
-                  all_entries+=("domain:$domain")
-              done <<< "$filtered_domains"
               while IFS= read -r suffix; do
                   all_entries+=("suffix:$suffix")
               done <<< "$filtered_suffixes"
+              while IFS= read -r domain; do
+                  all_entries+=("domain:$domain")
+              done <<< "$filtered_domains"
               while IFS= read -r regex; do
                   escaped_regex=$(echo "$regex" | sed -E '
                     s/\\/\\\\\\\\/g;      # Escape backslashes first
