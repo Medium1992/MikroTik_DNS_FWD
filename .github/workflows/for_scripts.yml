@@ -117,11 +117,12 @@ jobs:
               ' "input_$resource.json" | sort -u)
 
               # Blacklist of TLDs to exclude
-              excluded_tlds="ad|as|bf|bj|bt|cd|cf|ci|ao|bw|ck|ls|mz|vi|zm|bn|bz|cy|et|fj|gi|kh|mm|na|np|pg|sb|sl|vc|mg|ac|af|ag|ai|bi|bs|cg|cm|cu|dz|ga|gd|gl|gm|gs|gy|ht|je|lc|mp|mu|mw|nu|pn|re|rw|sc|sr|st|sx|sy|tf|tj|tl|tt|vg|vu|wf|yt|do|ec|eg|gh|hn|jm|kw|lb|mt|om|py|tr|tw|se|ae|al|am|at|bg|ch|id|cn|ve|uk|za|zw|ar|au|bd|br|il|ke|nz|th|tz|de|es|fr|gr|hr|hu|ie|is|it|ng|nl|pl|ro|rs|sa|ua|jo|uz|tm|az|ba|bh|bo|by|ca|qa|vn|uy|ug|tn|sv|sk|si|sg|ee|sn|cl|pt|pr|pk|ph|pe|pa|no|ni|my|mx|mn|mk|me|md|ma|ly|lv|lu|lt|lk|la|kz|kr|jp|iq|in|hk|gt|ge|fi|cr|cz|dk"
+              excluded_tlds="cv|dj|dm|im|kg|ki|li|ml|ms|mv|ne|nr|sm|ad|as|bf|bj|bt|cd|cf|ci|ao|bw|ck|ls|mz|vi|zm|bn|bz|cy|et|fj|gi|kh|mm|na|np|pg|sb|sl|vc|mg|ac|af|ag|ai|bi|bs|cg|cm|cu|dz|ga|gd|gl|gm|gs|gy|ht|je|lc|mp|mu|mw|nu|pn|re|rw|sc|sr|st|sx|sy|tf|tj|tl|tt|vg|vu|wf|yt|do|ec|eg|gh|hn|jm|kw|lb|mt|om|py|tr|tw|se|ae|al|am|at|bg|ch|id|cn|ve|uk|za|zw|ar|au|bd|br|il|ke|nz|th|tz|de|es|fr|gr|hr|hu|ie|is|it|ng|nl|pl|ro|rs|sa|ua|jo|uz|tm|az|ba|bh|bo|by|ca|qa|vn|uy|ug|tn|sv|sk|si|sg|ee|sn|cl|pt|pr|pk|ph|pe|pa|no|ni|my|mx|mn|mk|md|ma|ly|lv|lu|lt|lk|la|kz|kr|jp|iq|in|hk|gt|ge|fi|cr|cz|dk"
 
-              # Filter domains and suffixes, excluding rare TLDs
-              filtered_domains=$(echo "$domains" | grep -Ev "\.($excluded_tlds)$" || true)
-              filtered_suffixes=$(echo "$suffixes" | grep -Ev "\.($excluded_tlds)$" || true)
+              # Filter domains and suffixes, excluding rare TLDs and empty lines
+              filtered_domains=$(echo "$domains" | grep -Ev "\.($excluded_tlds)$" | grep -v '^$' || true)
+              filtered_suffixes=$(echo "$suffixes" | grep -Ev "\.($excluded_tlds)$" | grep -v '^$' || true)
+              filtered_regex_list=$(echo "$regex_list" | grep -v '^$' || true)
 
               # Combine all entries into one array
               all_entries=()
@@ -140,7 +141,7 @@ jobs:
                     s/\?/\\?/g;           # ? → \?
                   ')
                   all_entries+=("regex:$escaped_regex")
-              done <<< "$regex_list"
+              done <<< "$filtered_regex_list"
 
               # Split entries into chunks of MAX_ENTRIES_PER_FILE
               entry_count=${#all_entries[@]}
