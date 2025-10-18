@@ -12,6 +12,7 @@ add address-list=BlackList forward-to=Google comment=youtube match-subdomain=yes
 add address-list=BlackList forward-to=Google comment=youtube match-subdomain=yes type=FWD name=youtube.com
 add address-list=BlackList forward-to=Google comment=youtube match-subdomain=yes type=FWD name=youtube.googleapis.com
 add address-list=BlackList forward-to=Google comment=youtube match-subdomain=yes type=FWD name=youtube.ru
+add address-list=BlackList forward-to=Google comment=youtube match-subdomain=yes type=FWD name=youtube.tv
 add address-list=BlackList forward-to=Google comment=youtube match-subdomain=yes type=FWD name=youtubeeducation.com
 add address-list=BlackList forward-to=Google comment=youtube match-subdomain=yes type=FWD name=youtubeembeddedplayer.googleapis.com
 add address-list=BlackList forward-to=Google comment=youtube match-subdomain=yes type=FWD name=youtubefanfest.com

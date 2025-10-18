@@ -213,6 +213,7 @@ add address-list=BlackList forward-to=Google comment=adobe match-subdomain=yes t
 add address-list=BlackList forward-to=Google comment=adobe match-subdomain=yes type=FWD name=fotolia-noticias.com
 add address-list=BlackList forward-to=Google comment=adobe match-subdomain=yes type=FWD name=fotolia.cc
 add address-list=BlackList forward-to=Google comment=adobe match-subdomain=yes type=FWD name=fotolia.com
+add address-list=BlackList forward-to=Google comment=adobe match-subdomain=yes type=FWD name=fotolia.tv
 add address-list=BlackList forward-to=Google comment=adobe match-subdomain=yes type=FWD name=fotolja.com
 add address-list=BlackList forward-to=Google comment=adobe match-subdomain=yes type=FWD name=fptolia.com
 add address-list=BlackList forward-to=Google comment=adobe match-subdomain=yes type=FWD name=ftcdn.net
@@ -230,6 +231,7 @@ add address-list=BlackList forward-to=Google comment=adobe match-subdomain=yes t
 add address-list=BlackList forward-to=Google comment=adobe match-subdomain=yes type=FWD name=marketing-nirvana.com
 add address-list=BlackList forward-to=Google comment=adobe match-subdomain=yes type=FWD name=marketo.com
 add address-list=BlackList forward-to=Google comment=adobe match-subdomain=yes type=FWD name=marketo.net
+add address-list=BlackList forward-to=Google comment=adobe match-subdomain=yes type=FWD name=marketo.tv
 add address-list=BlackList forward-to=Google comment=adobe match-subdomain=yes type=FWD name=marketodesigner.com
 add address-list=BlackList forward-to=Google comment=adobe match-subdomain=yes type=FWD name=marketolive.com
 add address-list=BlackList forward-to=Google comment=adobe match-subdomain=yes type=FWD name=mktdns.com

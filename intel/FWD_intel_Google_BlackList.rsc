@@ -41,8 +41,8 @@ add address-list=BlackList forward-to=Google comment=intel match-subdomain=yes t
 add address-list=BlackList forward-to=Google comment=intel match-subdomain=yes type=FWD name=intel.com
 add address-list=BlackList forward-to=Google comment=intel match-subdomain=yes type=FWD name=intel.eu
 add address-list=BlackList forward-to=Google comment=intel match-subdomain=yes type=FWD name=intel.io
-add address-list=BlackList forward-to=Google comment=intel match-subdomain=yes type=FWD name=intel.mg
 add address-list=BlackList forward-to=Google comment=intel match-subdomain=yes type=FWD name=intel.ru
+add address-list=BlackList forward-to=Google comment=intel match-subdomain=yes type=FWD name=intel.tv
 add address-list=BlackList forward-to=Google comment=intel match-subdomain=yes type=FWD name=intel.us
 add address-list=BlackList forward-to=Google comment=intel match-subdomain=yes type=FWD name=intelamericasstore.com
 add address-list=BlackList forward-to=Google comment=intel match-subdomain=yes type=FWD name=intelapacstore.com
@@ -89,6 +89,7 @@ add address-list=BlackList forward-to=Google comment=intel match-subdomain=yes t
 add address-list=BlackList forward-to=Google comment=intel match-subdomain=yes type=FWD name=niosii.com
 add address-list=BlackList forward-to=Google comment=intel match-subdomain=yes type=FWD name=niosii.net
 add address-list=BlackList forward-to=Google comment=intel match-subdomain=yes type=FWD name=omekinteractive.com
+add address-list=BlackList forward-to=Google comment=intel match-subdomain=yes type=FWD name=omnitek.tv
 add address-list=BlackList forward-to=Google comment=intel match-subdomain=yes type=FWD name=oneapi.com
 add address-list=BlackList forward-to=Google comment=intel match-subdomain=yes type=FWD name=openamt.com
 add address-list=BlackList forward-to=Google comment=intel match-subdomain=yes type=FWD name=opendroneid.org
