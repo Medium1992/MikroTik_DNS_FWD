@@ -1,4 +1,4 @@
-name: Generate MikroTik BlackList RSC Files
+name: Generate MikroTik RSC Files for scripts
 
 on:
   schedule:
