@@ -1,5 +1,5 @@
 /ip dns static
-add address-list=BlackList forward-to=Google comment=youtube match-subdomain=no type=FWD name=yt3.googleusercontent.com
+add address-list=BlackList forward-to=Google comment=youtube type=FWD name=yt3.googleusercontent.com
 add address-list=BlackList forward-to=Google comment=youtube match-subdomain=yes type=FWD name=ggpht.cn
 add address-list=BlackList forward-to=Google comment=youtube match-subdomain=yes type=FWD name=ggpht.com
 add address-list=BlackList forward-to=Google comment=youtube match-subdomain=yes type=FWD name=googlevideo.com

@@ -1,5 +1,5 @@
 /ip dns static
-add address-list=BlackList forward-to=Google comment=facebook match-subdomain=no type=FWD name=fbcdn-a.akamaihd.net
+add address-list=BlackList forward-to=Google comment=facebook type=FWD name=fbcdn-a.akamaihd.net
 add address-list=BlackList forward-to=Google comment=facebook match-subdomain=yes type=FWD name=aboutfacebook.com
 add address-list=BlackList forward-to=Google comment=facebook match-subdomain=yes type=FWD name=accessfacebookfromschool.com
 add address-list=BlackList forward-to=Google comment=facebook match-subdomain=yes type=FWD name=acebooik.com
