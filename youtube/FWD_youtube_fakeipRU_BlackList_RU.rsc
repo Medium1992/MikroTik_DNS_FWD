@@ -9,9 +9,13 @@ add forward-to=fakeipRU comment=youtube match-subdomain=yes type=FWD name=youtub
 add forward-to=fakeipRU comment=youtube match-subdomain=yes type=FWD name=youtube-nocookie.com
 add forward-to=fakeipRU comment=youtube match-subdomain=yes type=FWD name=youtube-ui.l.google.com
 add forward-to=fakeipRU comment=youtube match-subdomain=yes type=FWD name=youtube.be
+add forward-to=fakeipRU comment=youtube match-subdomain=yes type=FWD name=youtube.cat
+add forward-to=fakeipRU comment=youtube match-subdomain=yes type=FWD name=youtube.co
 add forward-to=fakeipRU comment=youtube match-subdomain=yes type=FWD name=youtube.com
+add forward-to=fakeipRU comment=youtube match-subdomain=yes type=FWD name=youtube.com.co
 add forward-to=fakeipRU comment=youtube match-subdomain=yes type=FWD name=youtube.googleapis.com
 add forward-to=fakeipRU comment=youtube match-subdomain=yes type=FWD name=youtube.ru
+add forward-to=fakeipRU comment=youtube match-subdomain=yes type=FWD name=youtube.soy
 add forward-to=fakeipRU comment=youtube match-subdomain=yes type=FWD name=youtube.tv
 add forward-to=fakeipRU comment=youtube match-subdomain=yes type=FWD name=youtubeeducation.com
 add forward-to=fakeipRU comment=youtube match-subdomain=yes type=FWD name=youtubeembeddedplayer.googleapis.com

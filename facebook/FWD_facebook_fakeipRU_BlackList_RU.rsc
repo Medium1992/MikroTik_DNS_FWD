@@ -236,6 +236,7 @@ add forward-to=fakeipRU comment=facebook match-subdomain=yes type=FWD name=faces
 add forward-to=fakeipRU comment=facebook match-subdomain=yes type=FWD name=facesounds.com
 add forward-to=fakeipRU comment=facebook match-subdomain=yes type=FWD name=facetook.com
 add forward-to=fakeipRU comment=facebook match-subdomain=yes type=FWD name=facevbook.com
+add forward-to=fakeipRU comment=facebook match-subdomain=yes type=FWD name=facewbook.co
 add forward-to=fakeipRU comment=facebook match-subdomain=yes type=FWD name=facewook.com
 add forward-to=fakeipRU comment=facebook match-subdomain=yes type=FWD name=facfacebook.com
 add forward-to=fakeipRU comment=facebook match-subdomain=yes type=FWD name=facfebook.com

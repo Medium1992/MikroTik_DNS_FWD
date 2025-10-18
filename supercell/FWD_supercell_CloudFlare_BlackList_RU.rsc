@@ -10,6 +10,7 @@ add address-list=BlackList_RU forward-to=CloudFlare comment=supercell match-subd
 add address-list=BlackList_RU forward-to=CloudFlare comment=supercell match-subdomain=yes type=FWD name=gamesfirsthelsinki.com
 add address-list=BlackList_RU forward-to=CloudFlare comment=supercell match-subdomain=yes type=FWD name=hayday.com
 add address-list=BlackList_RU forward-to=CloudFlare comment=supercell match-subdomain=yes type=FWD name=haydaygame.com
+add address-list=BlackList_RU forward-to=CloudFlare comment=supercell match-subdomain=yes type=FWD name=mo.co
 add address-list=BlackList_RU forward-to=CloudFlare comment=supercell match-subdomain=yes type=FWD name=seeurlpcl.com
 add address-list=BlackList_RU forward-to=CloudFlare comment=supercell match-subdomain=yes type=FWD name=squadbusters.com
 add address-list=BlackList_RU forward-to=CloudFlare comment=supercell match-subdomain=yes type=FWD name=supercell.com

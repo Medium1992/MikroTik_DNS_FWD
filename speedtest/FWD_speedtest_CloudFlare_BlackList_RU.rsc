@@ -7,6 +7,7 @@ add address-list=BlackList_RU forward-to=CloudFlare comment=speedtest match-subd
 add address-list=BlackList_RU forward-to=CloudFlare comment=speedtest match-subdomain=yes type=FWD name=ookla.com
 add address-list=BlackList_RU forward-to=CloudFlare comment=speedtest match-subdomain=yes type=FWD name=ooklaserver.net
 add address-list=BlackList_RU forward-to=CloudFlare comment=speedtest match-subdomain=yes type=FWD name=pingtest.net
+add address-list=BlackList_RU forward-to=CloudFlare comment=speedtest match-subdomain=yes type=FWD name=speedtest.co
 add address-list=BlackList_RU forward-to=CloudFlare comment=speedtest match-subdomain=yes type=FWD name=speedtest.net
 add address-list=BlackList_RU forward-to=CloudFlare comment=speedtest match-subdomain=yes type=FWD name=speedtestcustom.com
 add address-list=BlackList_RU forward-to=CloudFlare comment=speedtest match-subdomain=yes type=FWD name=webtest.net

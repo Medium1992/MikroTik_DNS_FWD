@@ -7,6 +7,7 @@ add forward-to=fakeipRU comment=speedtest match-subdomain=yes type=FWD name=ekah
 add forward-to=fakeipRU comment=speedtest match-subdomain=yes type=FWD name=ookla.com
 add forward-to=fakeipRU comment=speedtest match-subdomain=yes type=FWD name=ooklaserver.net
 add forward-to=fakeipRU comment=speedtest match-subdomain=yes type=FWD name=pingtest.net
+add forward-to=fakeipRU comment=speedtest match-subdomain=yes type=FWD name=speedtest.co
 add forward-to=fakeipRU comment=speedtest match-subdomain=yes type=FWD name=speedtest.net
 add forward-to=fakeipRU comment=speedtest match-subdomain=yes type=FWD name=speedtestcustom.com
 add forward-to=fakeipRU comment=speedtest match-subdomain=yes type=FWD name=webtest.net

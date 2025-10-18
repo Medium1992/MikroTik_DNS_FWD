@@ -3,6 +3,7 @@ add address-list=BlackList_RU forward-to=Google comment=twitter match-subdomain=
 add address-list=BlackList_RU forward-to=Google comment=twitter match-subdomain=yes type=FWD name=cms-twdigitalassets.com
 add address-list=BlackList_RU forward-to=Google comment=twitter match-subdomain=yes type=FWD name=periscope.tv
 add address-list=BlackList_RU forward-to=Google comment=twitter match-subdomain=yes type=FWD name=pscp.tv
+add address-list=BlackList_RU forward-to=Google comment=twitter match-subdomain=yes type=FWD name=t.co
 add address-list=BlackList_RU forward-to=Google comment=twitter match-subdomain=yes type=FWD name=tellapart.com
 add address-list=BlackList_RU forward-to=Google comment=twitter match-subdomain=yes type=FWD name=tweetdeck.com
 add address-list=BlackList_RU forward-to=Google comment=twitter match-subdomain=yes type=FWD name=twimg.com
@@ -19,4 +20,5 @@ add address-list=BlackList_RU forward-to=Google comment=twitter match-subdomain=
 add address-list=BlackList_RU forward-to=Google comment=twitter match-subdomain=yes type=FWD name=twttr.com
 add address-list=BlackList_RU forward-to=Google comment=twitter match-subdomain=yes type=FWD name=twttr.net
 add address-list=BlackList_RU forward-to=Google comment=twitter match-subdomain=yes type=FWD name=twvid.com
+add address-list=BlackList_RU forward-to=Google comment=twitter match-subdomain=yes type=FWD name=vine.co
 add address-list=BlackList_RU forward-to=Google comment=twitter match-subdomain=yes type=FWD name=x.com

@@ -260,6 +260,7 @@ add forward-to=fakeipRU comment=meta match-subdomain=yes type=FWD name=facesbooc
 add forward-to=fakeipRU comment=meta match-subdomain=yes type=FWD name=facesounds.com
 add forward-to=fakeipRU comment=meta match-subdomain=yes type=FWD name=facetook.com
 add forward-to=fakeipRU comment=meta match-subdomain=yes type=FWD name=facevbook.com
+add forward-to=fakeipRU comment=meta match-subdomain=yes type=FWD name=facewbook.co
 add forward-to=fakeipRU comment=meta match-subdomain=yes type=FWD name=facewook.com
 add forward-to=fakeipRU comment=meta match-subdomain=yes type=FWD name=facfacebook.com
 add forward-to=fakeipRU comment=meta match-subdomain=yes type=FWD name=facfebook.com

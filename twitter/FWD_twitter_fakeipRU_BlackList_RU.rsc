@@ -3,6 +3,7 @@ add forward-to=fakeipRU comment=twitter match-subdomain=yes type=FWD name=ads-tw
 add forward-to=fakeipRU comment=twitter match-subdomain=yes type=FWD name=cms-twdigitalassets.com
 add forward-to=fakeipRU comment=twitter match-subdomain=yes type=FWD name=periscope.tv
 add forward-to=fakeipRU comment=twitter match-subdomain=yes type=FWD name=pscp.tv
+add forward-to=fakeipRU comment=twitter match-subdomain=yes type=FWD name=t.co
 add forward-to=fakeipRU comment=twitter match-subdomain=yes type=FWD name=tellapart.com
 add forward-to=fakeipRU comment=twitter match-subdomain=yes type=FWD name=tweetdeck.com
 add forward-to=fakeipRU comment=twitter match-subdomain=yes type=FWD name=twimg.com
@@ -19,4 +20,5 @@ add forward-to=fakeipRU comment=twitter match-subdomain=yes type=FWD name=twtrdn
 add forward-to=fakeipRU comment=twitter match-subdomain=yes type=FWD name=twttr.com
 add forward-to=fakeipRU comment=twitter match-subdomain=yes type=FWD name=twttr.net
 add forward-to=fakeipRU comment=twitter match-subdomain=yes type=FWD name=twvid.com
+add forward-to=fakeipRU comment=twitter match-subdomain=yes type=FWD name=vine.co
 add forward-to=fakeipRU comment=twitter match-subdomain=yes type=FWD name=x.com

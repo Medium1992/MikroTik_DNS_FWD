@@ -236,6 +236,7 @@ add address-list=BlackList_RU forward-to=OwnDNS comment=facebook match-subdomain
 add address-list=BlackList_RU forward-to=OwnDNS comment=facebook match-subdomain=yes type=FWD name=facesounds.com
 add address-list=BlackList_RU forward-to=OwnDNS comment=facebook match-subdomain=yes type=FWD name=facetook.com
 add address-list=BlackList_RU forward-to=OwnDNS comment=facebook match-subdomain=yes type=FWD name=facevbook.com
+add address-list=BlackList_RU forward-to=OwnDNS comment=facebook match-subdomain=yes type=FWD name=facewbook.co
 add address-list=BlackList_RU forward-to=OwnDNS comment=facebook match-subdomain=yes type=FWD name=facewook.com
 add address-list=BlackList_RU forward-to=OwnDNS comment=facebook match-subdomain=yes type=FWD name=facfacebook.com
 add address-list=BlackList_RU forward-to=OwnDNS comment=facebook match-subdomain=yes type=FWD name=facfebook.com

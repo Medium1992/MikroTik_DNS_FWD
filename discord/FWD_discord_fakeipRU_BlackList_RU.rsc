@@ -5,6 +5,7 @@ add forward-to=fakeipRU comment=discord match-subdomain=yes type=FWD name=airhor
 add forward-to=fakeipRU comment=discord match-subdomain=yes type=FWD name=airhornbot.com
 add forward-to=fakeipRU comment=discord match-subdomain=yes type=FWD name=bigbeans.solutions
 add forward-to=fakeipRU comment=discord match-subdomain=yes type=FWD name=discord-activities.com
+add forward-to=fakeipRU comment=discord match-subdomain=yes type=FWD name=discord.co
 add forward-to=fakeipRU comment=discord match-subdomain=yes type=FWD name=discord.com
 add forward-to=fakeipRU comment=discord match-subdomain=yes type=FWD name=discord.design
 add forward-to=fakeipRU comment=discord match-subdomain=yes type=FWD name=discord.dev

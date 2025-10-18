@@ -10,6 +10,7 @@ add forward-to=fakeipRU comment=supercell match-subdomain=yes type=FWD name=clas
 add forward-to=fakeipRU comment=supercell match-subdomain=yes type=FWD name=gamesfirsthelsinki.com
 add forward-to=fakeipRU comment=supercell match-subdomain=yes type=FWD name=hayday.com
 add forward-to=fakeipRU comment=supercell match-subdomain=yes type=FWD name=haydaygame.com
+add forward-to=fakeipRU comment=supercell match-subdomain=yes type=FWD name=mo.co
 add forward-to=fakeipRU comment=supercell match-subdomain=yes type=FWD name=seeurlpcl.com
 add forward-to=fakeipRU comment=supercell match-subdomain=yes type=FWD name=squadbusters.com
 add forward-to=fakeipRU comment=supercell match-subdomain=yes type=FWD name=supercell.com
