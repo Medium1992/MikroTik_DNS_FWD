@@ -90,17 +90,12 @@ jobs:
               fi
 
               # File with address-list
-              output_file_with_al="for_scripts/for_scripts_with_AL_$resource.rsc"
-              # File without address-list
-              output_file_without_al="for_scripts/for_scripts_without_AL_$resource.rsc"
+              output_file="for_scripts/$resource.rsc"
               
               # Initialize both files with global variable declarations and header
-              echo ":global AddressList" > "$output_file_with_al"
-              echo ":global ForwardTo" >> "$output_file_with_al"
-              echo "/ip dns static" >> "$output_file_with_al"
-              echo ":global AddressList" > "$output_file_without_al"
-              echo ":global ForwardTo" >> "$output_file_without_al"
-              echo "/ip dns static" >> "$output_file_without_al"
+              echo ":global AddressList" > "$output_file"
+              echo ":global ForwardTo" >> "$output_file"
+              echo "/ip dns static" >> "$output_file"
 
               # domain (match-subdomain=no)
               domains=$(jq -r '
@@ -112,15 +107,14 @@ jobs:
               ' "input_$resource.json" | sort -u)
 
               # Чёрный список стран, которые хотим исключить
-              excluded_tlds="mg|ac|af|ag|ai|bi|bs|cg|cm|cu|dz|ga|gd|gl|gm|gs|gy|ht|je|lc|mp|mu|mw|nu|pn|re|rw|sc|sr|st|sx|sy|tf|tj|tl|tt|vg|vu|wf|yt|do|ec|eg|gh|hn|jm|kw|lb|mt|om|py|tr|tw|se|ae|al|am|at|bg|ch|id|cn|ve|uk|za|zw|ar|au|bd|br|il|ke|nz|th|tz|de|es|fr|gr|hr|hu|ie|is|it|ng|nl|pl|ro|rs|sa|ua|jo|uz|tm|az|ba|bh|bo|by|ca|qa|vn|uy|ug|tn|sv|sk|si|sg|ee|sn|cl|pt|pr|pk|ph|pe|pa|no|ni|my|mx|mn|mk|me|md|ma|ly|lv|lu|lt|lk|la|kz|kr|jp|iq|in|hk|gt|ge|fi|cr|cz|dk"
+              excluded_tlds="ad|as|bf|bj|bt|cd|cf|ci|ao|bw|ck|ls|mz|vi|zm|bn|bz|cy|et|fj|gi|kh|mm|na|np|pg|sb|sl|vc|mg|ac|af|ag|ai|bi|bs|cg|cm|cu|dz|ga|gd|gl|gm|gs|gy|ht|je|lc|mp|mu|mw|nu|pn|re|rw|sc|sr|st|sx|sy|tf|tj|tl|tt|vg|vu|wf|yt|do|ec|eg|gh|hn|jm|kw|lb|mt|om|py|tr|tw|se|ae|al|am|at|bg|ch|id|cn|ve|uk|za|zw|ar|au|bd|br|il|ke|nz|th|tz|de|es|fr|gr|hr|hu|ie|is|it|ng|nl|pl|ro|rs|sa|ua|jo|uz|tm|az|ba|bh|bo|by|ca|qa|vn|uy|ug|tn|sv|sk|si|sg|ee|sn|cl|pt|pr|pk|ph|pe|pa|no|ni|my|mx|mn|mk|me|md|ma|ly|lv|lu|lt|lk|la|kz|kr|jp|iq|in|hk|gt|ge|fi|cr|cz|dk"
 
               # Фильтруем, исключая редкие TLD
               filtered_domains=$(echo "$domains" | grep -Ev "\.($excluded_tlds)$")
 
               if [ -n "$filtered_domains" ]; then
                 echo "$filtered_domains" | while read -r domain; do
-                  echo ":if ([:len [/ip dns static find name=\"$domain\" comment=\"$resource\"]] = 0) do={ add address-list=\$AddressList forward-to=\$ForwardTo comment=\"$resource\" type=FWD name=\"$domain\" }" >> "$output_file_with_al"
-                  echo ":if ([:len [/ip dns static find name=\"$domain\" comment=\"$resource\"]] = 0) do={ add forward-to=\$ForwardTo comment=\"$resource\" type=FWD name=\"$domain\" }" >> "$output_file_without_al"
+                  echo ":if ([:len [/ip dns static find name=\"$domain\"]] = 0) do={ add address-list=\$AddressList forward-to=\$ForwardTo comment=\"$resource\" type=FWD name=\"$domain\" }" >> "$output_file"
                 done
               fi
 
@@ -138,8 +132,7 @@ jobs:
 
               if [ -n "$filtered_suffixes" ]; then
                 echo "$filtered_suffixes" | while read -r domain_suffix; do
-                  echo ":if ([:len [/ip dns static find name=\"$domain_suffix\" comment=\"$resource\"]] = 0) do={ add address-list=\$AddressList forward-to=\$ForwardTo comment=\"$resource\" match-subdomain=yes type=FWD name=\"$domain_suffix\" }" >> "$output_file_with_al"
-                  echo ":if ([:len [/ip dns static find name=\"$domain_suffix\" comment=\"$resource\"]] = 0) do={ add forward-to=\$ForwardTo comment=\"$resource\" match-subdomain=yes type=FWD name=\"$domain_suffix\" }" >> "$output_file_without_al"
+                  echo ":if ([:len [/ip dns static find name=\"$domain_suffix\"]] = 0) do={ add address-list=\$AddressList forward-to=\$ForwardTo comment=\"$resource\" match-subdomain=yes type=FWD name=\"$domain_suffix\" }" >> "$output_file"
                 done
               fi
 
@@ -160,8 +153,7 @@ jobs:
                     s/ /\\_/g;        # пробел → \_
                     s/\?/\\?/g;       # ? → \?
                   ')
-                  echo ":if ([:len [/ip dns static find regexp=\"$escaped_regex\" comment=\"$resource\"]] = 0) do={ add address-list=\$AddressList forward-to=\$ForwardTo comment=\"$resource\" type=FWD regexp=\"$escaped_regex\" }" >> "$output_file_with_al"
-                  echo ":if ([:len [/ip dns static find regexp=\"$escaped_regex\" comment=\"$resource\"]] = 0) do={ add forward-to=\$ForwardTo comment=\"$resource\" type=FWD regexp=\"$escaped_regex\" }" >> "$output_file_without_al"
+                  echo ":if ([:len [/ip dns static find regexp=\"$escaped_regex\"]] = 0) do={ add address-list=\$AddressList forward-to=\$ForwardTo comment=\"$resource\" type=FWD regexp=\"$escaped_regex\" }" >> "$output_file"
                 done
               fi
           done
