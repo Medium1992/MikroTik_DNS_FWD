@@ -1,4 +1,4 @@
-name: Generate MikroTik RSC Files for scripts
+name: Generate MikroTik BlackList RSC Files
 
 on:
   schedule:
@@ -59,10 +59,6 @@ env:
     adobe, \
     twitch"
 
-  FORWARD_TO: \$ForwardTo
-
-  ADDRESS_LIST: \$AddressList
-
   JSON_URL_TEMPLATE: https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/refs/heads/sing/geo/geosite/{resource}.json
 
 jobs:
@@ -79,8 +75,6 @@ jobs:
         run: |
           set -e
           IFS=',' read -ra resource_array <<< "${{ env.RESOURCES }}"
-          FORWARD_TO="\${{ env.FORWARD_TO }}"
-          ADDRESS_LIST="\${{ env.ADDRESS_LIST }}"
           JSON_URL_TEMPLATE="${{ env.JSON_URL_TEMPLATE }}"
 
           mkdir -p for_scripts
@@ -121,8 +115,8 @@ jobs:
 
               if [ -n "$filtered_domains" ]; then
                 echo "$filtered_domains" | while read -r domain; do
-                  echo "add address-list=$ADDRESS_LIST forward-to=$FORWARD_TO comment=$resource type=FWD name=$domain" >> "$output_file_with_al"
-                  echo "add forward-to=$FORWARD_TO comment=$resource type=FWD name=$domain" >> "$output_file_without_al"
+                  echo "add address-list=\\\$AddressList forward-to=\\\$ForwardTo comment=$resource type=FWD name=$domain" >> "$output_file_with_al"
+                  echo "add forward-to=\\\$ForwardTo comment=$resource type=FWD name=$domain" >> "$output_file_without_al"
                 done
               fi
 
@@ -140,8 +134,8 @@ jobs:
 
               if [ -n "$filtered_suffixes" ]; then
                 echo "$filtered_suffixes" | while read -r domain_suffix; do
-                  echo "add address-list=$ADDRESS_LIST forward-to=$FORWARD_TO comment=$resource match-subdomain=yes type=FWD name=$domain_suffix" >> "$output_file_with_al"
-                  echo "add forward-to=$FORWARD_TO comment=$resource match-subdomain=yes type=FWD name=$domain_suffix" >> "$output_file_without_al"
+                  echo "add address-list=\\\$AddressList forward-to=\\\$ForwardTo comment=$resource match-subdomain=yes type=FWD name=$domain_suffix" >> "$output_file_with_al"
+                  echo "add forward-to=\\\$ForwardTo comment=$resource match-subdomain=yes type=FWD name=$domain_suffix" >> "$output_file_without_al"
                 done
               fi
 
@@ -162,8 +156,8 @@ jobs:
                     s/ /\\_/g;        # пробел → \_
                     s/\?/\\?/g;       # ? → \?
                   ')
-                  echo "add address-list=$ADDRESS_LIST forward-to=$FORWARD_TO comment=$resource type=FWD regexp=\"$escaped_regex\"" >> "$output_file_with_al"
-                  echo "add forward-to=$FORWARD_TO comment=$resource type=FWD regexp=\"$escaped_regex\"" >> "$output_file_without_al"
+                  echo "add address-list=\\\$AddressList forward-to=\\\$ForwardTo comment=$resource type=FWD regexp=\"$escaped_regex\"" >> "$output_file_with_al"
+                  echo "add forward-to=\\\$ForwardTo comment=$resource type=FWD regexp=\"$escaped_regex\"" >> "$output_file_without_al"
                 done
               fi
           done
