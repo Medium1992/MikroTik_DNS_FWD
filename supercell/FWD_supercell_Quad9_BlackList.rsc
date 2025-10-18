@@ -1,0 +1,21 @@
+/ip dns static
+add address-list=BlackList forward-to=Quad9 comment=supercell match-subdomain=yes type=FWD name=boombeach.com
+add address-list=BlackList forward-to=Quad9 comment=supercell match-subdomain=yes type=FWD name=brawlstars.com
+add address-list=BlackList forward-to=Quad9 comment=supercell match-subdomain=yes type=FWD name=brawlstarsgame.com
+add address-list=BlackList forward-to=Quad9 comment=supercell match-subdomain=yes type=FWD name=clash.com
+add address-list=BlackList forward-to=Quad9 comment=supercell match-subdomain=yes type=FWD name=clashmini.com
+add address-list=BlackList forward-to=Quad9 comment=supercell match-subdomain=yes type=FWD name=clashofclans.com
+add address-list=BlackList forward-to=Quad9 comment=supercell match-subdomain=yes type=FWD name=clashroyale.com
+add address-list=BlackList forward-to=Quad9 comment=supercell match-subdomain=yes type=FWD name=clashroyaleapp.com
+add address-list=BlackList forward-to=Quad9 comment=supercell match-subdomain=yes type=FWD name=gamesfirsthelsinki.com
+add address-list=BlackList forward-to=Quad9 comment=supercell match-subdomain=yes type=FWD name=hayday.com
+add address-list=BlackList forward-to=Quad9 comment=supercell match-subdomain=yes type=FWD name=haydaygame.com
+add address-list=BlackList forward-to=Quad9 comment=supercell match-subdomain=yes type=FWD name=seeurlpcl.com
+add address-list=BlackList forward-to=Quad9 comment=supercell match-subdomain=yes type=FWD name=squadbusters.com
+add address-list=BlackList forward-to=Quad9 comment=supercell match-subdomain=yes type=FWD name=supercell.com
+add address-list=BlackList forward-to=Quad9 comment=supercell match-subdomain=yes type=FWD name=supercell.helpshift.com
+add address-list=BlackList forward-to=Quad9 comment=supercell match-subdomain=yes type=FWD name=supercell.net
+add address-list=BlackList forward-to=Quad9 comment=supercell match-subdomain=yes type=FWD name=supercellcreators.com
+add address-list=BlackList forward-to=Quad9 comment=supercell match-subdomain=yes type=FWD name=supercellgames.com
+add address-list=BlackList forward-to=Quad9 comment=supercell match-subdomain=yes type=FWD name=supercellid.com
+add address-list=BlackList forward-to=Quad9 comment=supercell match-subdomain=yes type=FWD name=supercellstore.com

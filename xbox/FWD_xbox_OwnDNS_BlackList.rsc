@@ -1,0 +1,41 @@
+/ip dns static
+add address-list=BlackList forward-to=OwnDNS comment=xbox type=FWD name=flightsimulator.azureedge.net
+add address-list=BlackList forward-to=OwnDNS comment=xbox type=FWD name=prodforza.blob.core.windows.net
+add address-list=BlackList forward-to=OwnDNS comment=xbox match-subdomain=yes type=FWD name=asobostudio.com
+add address-list=BlackList forward-to=OwnDNS comment=xbox match-subdomain=yes type=FWD name=beth.games
+add address-list=BlackList forward-to=OwnDNS comment=xbox match-subdomain=yes type=FWD name=bethesda.net
+add address-list=BlackList forward-to=OwnDNS comment=xbox match-subdomain=yes type=FWD name=bethesdagamestudios.com
+add address-list=BlackList forward-to=OwnDNS comment=xbox match-subdomain=yes type=FWD name=bethsoft.com
+add address-list=BlackList forward-to=OwnDNS comment=xbox match-subdomain=yes type=FWD name=callersbane.com
+add address-list=BlackList forward-to=OwnDNS comment=xbox match-subdomain=yes type=FWD name=doom.com
+add address-list=BlackList forward-to=OwnDNS comment=xbox match-subdomain=yes type=FWD name=elderscrolls.com
+add address-list=BlackList forward-to=OwnDNS comment=xbox match-subdomain=yes type=FWD name=flightsimulator.com
+add address-list=BlackList forward-to=OwnDNS comment=xbox match-subdomain=yes type=FWD name=forza.net
+add address-list=BlackList forward-to=OwnDNS comment=xbox match-subdomain=yes type=FWD name=forzamotorsport.net
+add address-list=BlackList forward-to=OwnDNS comment=xbox match-subdomain=yes type=FWD name=forzaracingchampionship.com
+add address-list=BlackList forward-to=OwnDNS comment=xbox match-subdomain=yes type=FWD name=forzarc.com
+add address-list=BlackList forward-to=OwnDNS comment=xbox match-subdomain=yes type=FWD name=gamepass.com
+add address-list=BlackList forward-to=OwnDNS comment=xbox match-subdomain=yes type=FWD name=minecraft-services.net
+add address-list=BlackList forward-to=OwnDNS comment=xbox match-subdomain=yes type=FWD name=minecraft.net
+add address-list=BlackList forward-to=OwnDNS comment=xbox match-subdomain=yes type=FWD name=minecraftservices.com
+add address-list=BlackList forward-to=OwnDNS comment=xbox match-subdomain=yes type=FWD name=minecraftshop.com
+add address-list=BlackList forward-to=OwnDNS comment=xbox match-subdomain=yes type=FWD name=mojang.com
+add address-list=BlackList forward-to=OwnDNS comment=xbox match-subdomain=yes type=FWD name=orithegame.com
+add address-list=BlackList forward-to=OwnDNS comment=xbox match-subdomain=yes type=FWD name=renovacionxboxlive.com
+add address-list=BlackList forward-to=OwnDNS comment=xbox match-subdomain=yes type=FWD name=tellmewhygame.com
+add address-list=BlackList forward-to=OwnDNS comment=xbox match-subdomain=yes type=FWD name=xbox
+add address-list=BlackList forward-to=OwnDNS comment=xbox match-subdomain=yes type=FWD name=xbox.com
+add address-list=BlackList forward-to=OwnDNS comment=xbox match-subdomain=yes type=FWD name=xbox.eu
+add address-list=BlackList forward-to=OwnDNS comment=xbox match-subdomain=yes type=FWD name=xbox.org
+add address-list=BlackList forward-to=OwnDNS comment=xbox match-subdomain=yes type=FWD name=xbox360.com
+add address-list=BlackList forward-to=OwnDNS comment=xbox match-subdomain=yes type=FWD name=xbox360.eu
+add address-list=BlackList forward-to=OwnDNS comment=xbox match-subdomain=yes type=FWD name=xbox360.org
+add address-list=BlackList forward-to=OwnDNS comment=xbox match-subdomain=yes type=FWD name=xboxab.com
+add address-list=BlackList forward-to=OwnDNS comment=xbox match-subdomain=yes type=FWD name=xboxgamepass.com
+add address-list=BlackList forward-to=OwnDNS comment=xbox match-subdomain=yes type=FWD name=xboxgamestudios.com
+add address-list=BlackList forward-to=OwnDNS comment=xbox match-subdomain=yes type=FWD name=xboxlive.com
+add address-list=BlackList forward-to=OwnDNS comment=xbox match-subdomain=yes type=FWD name=xboxone.com
+add address-list=BlackList forward-to=OwnDNS comment=xbox match-subdomain=yes type=FWD name=xboxone.eu
+add address-list=BlackList forward-to=OwnDNS comment=xbox match-subdomain=yes type=FWD name=xboxplayanywhere.com
+add address-list=BlackList forward-to=OwnDNS comment=xbox match-subdomain=yes type=FWD name=xboxservices.com
+add address-list=BlackList forward-to=OwnDNS comment=xbox match-subdomain=yes type=FWD name=xboxstudios.com
