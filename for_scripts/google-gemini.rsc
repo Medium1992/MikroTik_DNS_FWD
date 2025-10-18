@@ -23,4 +23,3 @@
 :if ([:len [/ip dns static find name="alkalicore-pa.clients6.google.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="google-gemini" type=FWD name="alkalicore-pa.clients6.google.com" }
 :if ([:len [/ip dns static find name="alkalimakersuite-pa.clients6.google.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="google-gemini" type=FWD name="alkalimakersuite-pa.clients6.google.com" }
 :if ([:len [/ip dns static find name="webchannel-alkalimakersuite-pa.clients6.google.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="google-gemini" type=FWD name="webchannel-alkalimakersuite-pa.clients6.google.com" }
-:if ([:len [/ip dns static find regexp=""]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="google-gemini" type=FWD regexp="" }

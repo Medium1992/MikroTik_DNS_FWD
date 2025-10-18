@@ -123,5 +123,3 @@
 :if ([:len [/ip dns static find name="vpro.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="intel" match-subdomain=yes type=FWD name="vpro.net" }
 :if ([:len [/ip dns static find name="xeon.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="intel" match-subdomain=yes type=FWD name="xeon.com" }
 :if ([:len [/ip dns static find name="xscale.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="intel" match-subdomain=yes type=FWD name="xscale.com" }
-:if ([:len [/ip dns static find name=""]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="intel" type=FWD name="" }
-:if ([:len [/ip dns static find regexp=""]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="intel" type=FWD regexp="" }

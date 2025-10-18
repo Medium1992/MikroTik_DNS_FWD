@@ -50,4 +50,3 @@
 :if ([:len [/ip dns static find name="steamuserimages-a.akamaihd.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="steam" type=FWD name="steamuserimages-a.akamaihd.net" }
 :if ([:len [/ip dns static find name="steamvideo-a.akamaihd.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="steam" type=FWD name="steamvideo-a.akamaihd.net" }
 :if ([:len [/ip dns static find name="xz.pphimalayanrt.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="steam" type=FWD name="xz.pphimalayanrt.com" }
-:if ([:len [/ip dns static find regexp=""]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="steam" type=FWD regexp="" }

@@ -109,5 +109,3 @@
 :if ([:len [/ip dns static find name="vrnastran.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="autodesk" match-subdomain=yes type=FWD name="vrnastran.com" }
 :if ([:len [/ip dns static find name="xn--74q434dwff.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="autodesk" match-subdomain=yes type=FWD name="xn--74q434dwff.com" }
 :if ([:len [/ip dns static find name="xn--74q434dwff.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="autodesk" match-subdomain=yes type=FWD name="xn--74q434dwff.net" }
-:if ([:len [/ip dns static find name=""]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="autodesk" type=FWD name="" }
-:if ([:len [/ip dns static find regexp=""]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="autodesk" type=FWD regexp="" }

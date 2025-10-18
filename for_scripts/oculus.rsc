@@ -18,5 +18,3 @@
 :if ([:len [/ip dns static find name="oculusrift.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="oculus" match-subdomain=yes type=FWD name="oculusrift.com" }
 :if ([:len [/ip dns static find name="oculusvr.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="oculus" match-subdomain=yes type=FWD name="oculusvr.com" }
 :if ([:len [/ip dns static find name="powersunitedvr.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="oculus" match-subdomain=yes type=FWD name="powersunitedvr.com" }
-:if ([:len [/ip dns static find name=""]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="oculus" type=FWD name="" }
-:if ([:len [/ip dns static find regexp=""]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="oculus" type=FWD regexp="" }

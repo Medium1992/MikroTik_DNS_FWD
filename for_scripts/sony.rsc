@@ -40,5 +40,3 @@
 :if ([:len [/ip dns static find name="wheelpop.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="sony" match-subdomain=yes type=FWD name="wheelpop.com" }
 :if ([:len [/ip dns static find name="wwtbam.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="sony" match-subdomain=yes type=FWD name="wwtbam.com" }
 :if ([:len [/ip dns static find name="yourfantasybeginsnow.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="sony" match-subdomain=yes type=FWD name="yourfantasybeginsnow.com" }
-:if ([:len [/ip dns static find name=""]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="sony" type=FWD name="" }
-:if ([:len [/ip dns static find regexp=""]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="sony" type=FWD regexp="" }

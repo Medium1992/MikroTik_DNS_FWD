@@ -18,5 +18,3 @@
 :if ([:len [/ip dns static find name="agrd.eu"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="adguard" match-subdomain=yes type=FWD name="agrd.eu" }
 :if ([:len [/ip dns static find name="agrd.io"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="adguard" match-subdomain=yes type=FWD name="agrd.io" }
 :if ([:len [/ip dns static find name="mask.me"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="adguard" match-subdomain=yes type=FWD name="mask.me" }
-:if ([:len [/ip dns static find name=""]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="adguard" type=FWD name="" }
-:if ([:len [/ip dns static find regexp=""]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="adguard" type=FWD regexp="" }

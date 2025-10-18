@@ -19,5 +19,3 @@
 :if ([:len [/ip dns static find name="oracleinfinity.io"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="oracle" match-subdomain=yes type=FWD name="oracleinfinity.io" }
 :if ([:len [/ip dns static find name="sun.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="oracle" match-subdomain=yes type=FWD name="sun.com" }
 :if ([:len [/ip dns static find name="virtualbox.org"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="oracle" match-subdomain=yes type=FWD name="virtualbox.org" }
-:if ([:len [/ip dns static find name=""]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="oracle" type=FWD name="" }
-:if ([:len [/ip dns static find regexp=""]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="oracle" type=FWD regexp="" }

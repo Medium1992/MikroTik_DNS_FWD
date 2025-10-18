@@ -24,5 +24,3 @@
 :if ([:len [/ip dns static find name="twvid.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="twitter" match-subdomain=yes type=FWD name="twvid.com" }
 :if ([:len [/ip dns static find name="vine.co"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="twitter" match-subdomain=yes type=FWD name="vine.co" }
 :if ([:len [/ip dns static find name="x.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="twitter" match-subdomain=yes type=FWD name="x.com" }
-:if ([:len [/ip dns static find name=""]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="twitter" type=FWD name="" }
-:if ([:len [/ip dns static find regexp=""]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="twitter" type=FWD regexp="" }

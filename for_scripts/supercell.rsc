@@ -22,5 +22,3 @@
 :if ([:len [/ip dns static find name="supercellgames.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="supercell" match-subdomain=yes type=FWD name="supercellgames.com" }
 :if ([:len [/ip dns static find name="supercellid.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="supercell" match-subdomain=yes type=FWD name="supercellid.com" }
 :if ([:len [/ip dns static find name="supercellstore.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="supercell" match-subdomain=yes type=FWD name="supercellstore.com" }
-:if ([:len [/ip dns static find name=""]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="supercell" type=FWD name="" }
-:if ([:len [/ip dns static find regexp=""]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="supercell" type=FWD regexp="" }

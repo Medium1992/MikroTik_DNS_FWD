@@ -21,4 +21,3 @@
 :if ([:len [/ip dns static find name="ttoverseaus.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="tiktok" match-subdomain=yes type=FWD name="ttoverseaus.net" }
 :if ([:len [/ip dns static find name="ttwstatic.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="tiktok" match-subdomain=yes type=FWD name="ttwstatic.com" }
 :if ([:len [/ip dns static find name="p16-tiktokcdn-com.akamaized.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="tiktok" type=FWD name="p16-tiktokcdn-com.akamaized.net" }
-:if ([:len [/ip dns static find regexp=""]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="tiktok" type=FWD regexp="" }

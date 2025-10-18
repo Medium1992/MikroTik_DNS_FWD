@@ -10,4 +10,3 @@
 :if ([:len [/ip dns static find name="lgrecyclingprogram.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="lg" match-subdomain=yes type=FWD name="lgrecyclingprogram.com" }
 :if ([:len [/ip dns static find name="lgsalesportal.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="lg" match-subdomain=yes type=FWD name="lgsalesportal.com" }
 :if ([:len [/ip dns static find name="lgelectronics.122.2o7.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="lg" type=FWD name="lgelectronics.122.2o7.net" }
-:if ([:len [/ip dns static find regexp=""]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="lg" type=FWD regexp="" }

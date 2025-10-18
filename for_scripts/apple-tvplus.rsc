@@ -9,4 +9,3 @@
 :if ([:len [/ip dns static find name="play-edge.itunes.apple.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="apple-tvplus" type=FWD name="play-edge.itunes.apple.com" }
 :if ([:len [/ip dns static find name="tv.applemusic.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="apple-tvplus" type=FWD name="tv.applemusic.com" }
 :if ([:len [/ip dns static find name="uts-api.itunes.apple.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="apple-tvplus" type=FWD name="uts-api.itunes.apple.com" }
-:if ([:len [/ip dns static find regexp=""]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="apple-tvplus" type=FWD regexp="" }

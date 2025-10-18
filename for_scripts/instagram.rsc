@@ -75,5 +75,3 @@
 :if ([:len [/ip dns static find name="theinstagramhack.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="instagram" match-subdomain=yes type=FWD name="theinstagramhack.com" }
 :if ([:len [/ip dns static find name="web-instagram.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="instagram" match-subdomain=yes type=FWD name="web-instagram.net" }
 :if ([:len [/ip dns static find name="wwwinstagram.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="instagram" match-subdomain=yes type=FWD name="wwwinstagram.com" }
-:if ([:len [/ip dns static find name=""]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="instagram" type=FWD name="" }
-:if ([:len [/ip dns static find regexp=""]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="instagram" type=FWD regexp="" }

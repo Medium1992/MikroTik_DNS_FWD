@@ -65,4 +65,3 @@
 :if ([:len [/ip dns static find name="vscode.blob.core.windows.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="microsoft-dev" type=FWD name="vscode.blob.core.windows.net" }
 :if ([:len [/ip dns static find name="vscode.search.windows.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="microsoft-dev" type=FWD name="vscode.search.windows.net" }
 :if ([:len [/ip dns static find name="vsmarketplacebadge.apphb.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="microsoft-dev" type=FWD name="vsmarketplacebadge.apphb.com" }
-:if ([:len [/ip dns static find regexp=""]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="microsoft-dev" type=FWD regexp="" }

@@ -76,5 +76,3 @@
 :if ([:len [/ip dns static find name="janrainservices.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="akamai" match-subdomain=yes type=FWD name="janrainservices.com" }
 :if ([:len [/ip dns static find name="soasta-dswb.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="akamai" match-subdomain=yes type=FWD name="soasta-dswb.com" }
 :if ([:len [/ip dns static find name="srtcdn.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="akamai" match-subdomain=yes type=FWD name="srtcdn.net" }
-:if ([:len [/ip dns static find name=""]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="akamai" type=FWD name="" }
-:if ([:len [/ip dns static find regexp=""]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="akamai" type=FWD regexp="" }

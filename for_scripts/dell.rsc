@@ -82,4 +82,3 @@
 :if ([:len [/ip dns static find name="supportassist.dell.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="dell" type=FWD name="supportassist.dell.com" }
 :if ([:len [/ip dns static find name="www-csb.dell.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="dell" type=FWD name="www-csb.dell.com" }
 :if ([:len [/ip dns static find name="www.dell.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="dell" type=FWD name="www.dell.com" }
-:if ([:len [/ip dns static find regexp=""]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="dell" type=FWD regexp="" }

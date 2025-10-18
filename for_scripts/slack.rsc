@@ -12,5 +12,3 @@
 :if ([:len [/ip dns static find name="slackcertified.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="slack" match-subdomain=yes type=FWD name="slackcertified.com" }
 :if ([:len [/ip dns static find name="slackdemo.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="slack" match-subdomain=yes type=FWD name="slackdemo.com" }
 :if ([:len [/ip dns static find name="slackhq.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="slack" match-subdomain=yes type=FWD name="slackhq.com" }
-:if ([:len [/ip dns static find name=""]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="slack" type=FWD name="" }
-:if ([:len [/ip dns static find regexp=""]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="slack" type=FWD regexp="" }

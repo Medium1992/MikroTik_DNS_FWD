@@ -28,4 +28,3 @@
 :if ([:len [/ip dns static find name="watchanimeattheoffice.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="discord" match-subdomain=yes type=FWD name="watchanimeattheoffice.com" }
 :if ([:len [/ip dns static find name="discord-attachments-uploads-prd.storage.googleapis.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="discord" type=FWD name="discord-attachments-uploads-prd.storage.googleapis.com" }
 :if ([:len [/ip dns static find name="hammerandchisel.ssl.zendesk.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="discord" type=FWD name="hammerandchisel.ssl.zendesk.com" }
-:if ([:len [/ip dns static find regexp=""]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="discord" type=FWD regexp="" }

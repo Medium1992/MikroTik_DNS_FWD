@@ -96,4 +96,3 @@
 :if ([:len [/ip dns static find name="youtubecisco.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="cisco" match-subdomain=yes type=FWD name="youtubecisco.com" }
 :if ([:len [/ip dns static find name="cisco.evergage.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="cisco" type=FWD name="cisco.evergage.com" }
 :if ([:len [/ip dns static find name="ciscolivehls-i.akamaihd.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="cisco" type=FWD name="ciscolivehls-i.akamaihd.net" }
-:if ([:len [/ip dns static find regexp=""]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="cisco" type=FWD regexp="" }

@@ -53,5 +53,3 @@
 :if ([:len [/ip dns static find name="videodelivery.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="cloudflare" match-subdomain=yes type=FWD name="videodelivery.net" }
 :if ([:len [/ip dns static find name="warp.plus"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="cloudflare" match-subdomain=yes type=FWD name="warp.plus" }
 :if ([:len [/ip dns static find name="workers.dev"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="cloudflare" match-subdomain=yes type=FWD name="workers.dev" }
-:if ([:len [/ip dns static find name=""]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="cloudflare" type=FWD name="" }
-:if ([:len [/ip dns static find regexp=""]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="cloudflare" type=FWD regexp="" }

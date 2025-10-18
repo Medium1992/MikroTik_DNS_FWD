@@ -111,4 +111,3 @@
 :if ([:len [/ip dns static find name="wwis-dubc1-vip97.adobe.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="adobe" type=FWD name="wwis-dubc1-vip97.adobe.com" }
 :if ([:len [/ip dns static find name="wwis-dubc1-vip98.adobe.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="adobe" type=FWD name="wwis-dubc1-vip98.adobe.com" }
 :if ([:len [/ip dns static find name="wwis-dubc1-vip99.adobe.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="adobe" type=FWD name="wwis-dubc1-vip99.adobe.com" }
-:if ([:len [/ip dns static find regexp=""]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="adobe" type=FWD regexp="" }

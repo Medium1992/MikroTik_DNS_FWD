@@ -18,5 +18,3 @@
 :if ([:len [/ip dns static find name="tg.dev"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="telegram" match-subdomain=yes type=FWD name="tg.dev" }
 :if ([:len [/ip dns static find name="tx.me"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="telegram" match-subdomain=yes type=FWD name="tx.me" }
 :if ([:len [/ip dns static find name="usercontent.dev"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="telegram" match-subdomain=yes type=FWD name="usercontent.dev" }
-:if ([:len [/ip dns static find name=""]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="telegram" type=FWD name="" }
-:if ([:len [/ip dns static find regexp=""]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="telegram" type=FWD regexp="" }

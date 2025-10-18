@@ -33,4 +33,3 @@
 :if ([:len [/ip dns static find name="dqrpb9wgowsf5.cloudfront.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="twitch" type=FWD name="dqrpb9wgowsf5.cloudfront.net" }
 :if ([:len [/ip dns static find name="ds0h3roq6wcgc.cloudfront.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="twitch" type=FWD name="ds0h3roq6wcgc.cloudfront.net" }
 :if ([:len [/ip dns static find name="dykkng5hnh52u.cloudfront.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="twitch" type=FWD name="dykkng5hnh52u.cloudfront.net" }
-:if ([:len [/ip dns static find regexp=""]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="twitch" type=FWD regexp="" }

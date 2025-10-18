@@ -14,5 +14,3 @@
 :if ([:len [/ip dns static find name="whatsapp.org"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="whatsapp" match-subdomain=yes type=FWD name="whatsapp.org" }
 :if ([:len [/ip dns static find name="whatsapp.tv"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="whatsapp" match-subdomain=yes type=FWD name="whatsapp.tv" }
 :if ([:len [/ip dns static find name="whatsappbrand.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="whatsapp" match-subdomain=yes type=FWD name="whatsappbrand.com" }
-:if ([:len [/ip dns static find name=""]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="whatsapp" type=FWD name="" }
-:if ([:len [/ip dns static find regexp=""]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="whatsapp" type=FWD regexp="" }

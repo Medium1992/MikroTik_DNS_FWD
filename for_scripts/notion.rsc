@@ -7,5 +7,3 @@
 :if ([:len [/ip dns static find name="notion.site"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="notion" match-subdomain=yes type=FWD name="notion.site" }
 :if ([:len [/ip dns static find name="notion.so"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="notion" match-subdomain=yes type=FWD name="notion.so" }
 :if ([:len [/ip dns static find name="notionusercontent.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="notion" match-subdomain=yes type=FWD name="notionusercontent.com" }
-:if ([:len [/ip dns static find name=""]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="notion" type=FWD name="" }
-:if ([:len [/ip dns static find regexp=""]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="notion" type=FWD regexp="" }

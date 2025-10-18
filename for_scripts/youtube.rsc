@@ -30,4 +30,3 @@
 :if ([:len [/ip dns static find name="yt.be"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="youtube" match-subdomain=yes type=FWD name="yt.be" }
 :if ([:len [/ip dns static find name="ytimg.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="youtube" match-subdomain=yes type=FWD name="ytimg.com" }
 :if ([:len [/ip dns static find name="yt3.googleusercontent.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="youtube" type=FWD name="yt3.googleusercontent.com" }
-:if ([:len [/ip dns static find regexp=""]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="youtube" type=FWD regexp="" }

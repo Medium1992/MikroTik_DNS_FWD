@@ -47,4 +47,3 @@
 :if ([:len [/ip dns static find name="supremacy.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="riot" match-subdomain=yes type=FWD name="supremacy.net" }
 :if ([:len [/ip dns static find name="ulol.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="riot" match-subdomain=yes type=FWD name="ulol.com" }
 :if ([:len [/ip dns static find name="lolstatic-a.akamaihd.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="riot" type=FWD name="lolstatic-a.akamaihd.net" }
-:if ([:len [/ip dns static find regexp=""]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="riot" type=FWD regexp="" }

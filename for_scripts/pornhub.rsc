@@ -10,5 +10,3 @@
 :if ([:len [/ip dns static find name="pornhub.org"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="pornhub" match-subdomain=yes type=FWD name="pornhub.org" }
 :if ([:len [/ip dns static find name="pornhubapparel.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="pornhub" match-subdomain=yes type=FWD name="pornhubapparel.com" }
 :if ([:len [/ip dns static find name="pornhubpremium.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="pornhub" match-subdomain=yes type=FWD name="pornhubpremium.com" }
-:if ([:len [/ip dns static find name=""]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="pornhub" type=FWD name="" }
-:if ([:len [/ip dns static find regexp=""]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="pornhub" type=FWD regexp="" }

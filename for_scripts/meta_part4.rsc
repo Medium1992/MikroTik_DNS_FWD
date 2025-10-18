@@ -93,4 +93,3 @@
 :if ([:len [/ip dns static find name="zuckerberg.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="meta" match-subdomain=yes type=FWD name="zuckerberg.net" }
 :if ([:len [/ip dns static find name="developers.facebook.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="meta" type=FWD name="developers.facebook.com" }
 :if ([:len [/ip dns static find name="fbcdn-a.akamaihd.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="meta" type=FWD name="fbcdn-a.akamaihd.net" }
-:if ([:len [/ip dns static find regexp=""]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="meta" type=FWD regexp="" }

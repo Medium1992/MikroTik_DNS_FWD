@@ -9,5 +9,3 @@
 :if ([:len [/ip dns static find name="uisp.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="ubiquiti" match-subdomain=yes type=FWD name="uisp.com" }
 :if ([:len [/ip dns static find name="uwn.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="ubiquiti" match-subdomain=yes type=FWD name="uwn.com" }
 :if ([:len [/ip dns static find name="wifiman.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="ubiquiti" match-subdomain=yes type=FWD name="wifiman.com" }
-:if ([:len [/ip dns static find name=""]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="ubiquiti" type=FWD name="" }
-:if ([:len [/ip dns static find regexp=""]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="ubiquiti" type=FWD regexp="" }
