@@ -1,89 +1,89 @@
 :global AddressList
 :global ForwardTo
 /ip dns static
-:if ([:len [/ip dns static find name="liverail.tv" type=FWD match-subdomain=yes]] = 0) do={ add address-list=\$AddressList forward-to=\$ForwardTo comment="meta" match-subdomain=yes type=FWD name="liverail.tv" }
-:if ([:len [/ip dns static find name="lnstagram-help.com" type=FWD match-subdomain=yes]] = 0) do={ add address-list=\$AddressList forward-to=\$ForwardTo comment="meta" match-subdomain=yes type=FWD name="lnstagram-help.com" }
-:if ([:len [/ip dns static find name="login-account.net" type=FWD match-subdomain=yes]] = 0) do={ add address-list=\$AddressList forward-to=\$ForwardTo comment="meta" match-subdomain=yes type=FWD name="login-account.net" }
-:if ([:len [/ip dns static find name="makeitopen.com" type=FWD match-subdomain=yes]] = 0) do={ add address-list=\$AddressList forward-to=\$ForwardTo comment="meta" match-subdomain=yes type=FWD name="makeitopen.com" }
-:if ([:len [/ip dns static find name="markzuckerberg.com" type=FWD match-subdomain=yes]] = 0) do={ add address-list=\$AddressList forward-to=\$ForwardTo comment="meta" match-subdomain=yes type=FWD name="markzuckerberg.com" }
-:if ([:len [/ip dns static find name="mcrouter.net" type=FWD match-subdomain=yes]] = 0) do={ add address-list=\$AddressList forward-to=\$ForwardTo comment="meta" match-subdomain=yes type=FWD name="mcrouter.net" }
-:if ([:len [/ip dns static find name="mcrouter.org" type=FWD match-subdomain=yes]] = 0) do={ add address-list=\$AddressList forward-to=\$ForwardTo comment="meta" match-subdomain=yes type=FWD name="mcrouter.org" }
-:if ([:len [/ip dns static find name="messenger.com" type=FWD match-subdomain=yes]] = 0) do={ add address-list=\$AddressList forward-to=\$ForwardTo comment="meta" match-subdomain=yes type=FWD name="messenger.com" }
-:if ([:len [/ip dns static find name="messengerdevelopers.com" type=FWD match-subdomain=yes]] = 0) do={ add address-list=\$AddressList forward-to=\$ForwardTo comment="meta" match-subdomain=yes type=FWD name="messengerdevelopers.com" }
-:if ([:len [/ip dns static find name="meta.com" type=FWD match-subdomain=yes]] = 0) do={ add address-list=\$AddressList forward-to=\$ForwardTo comment="meta" match-subdomain=yes type=FWD name="meta.com" }
-:if ([:len [/ip dns static find name="midentsolutions.com" type=FWD match-subdomain=yes]] = 0) do={ add address-list=\$AddressList forward-to=\$ForwardTo comment="meta" match-subdomain=yes type=FWD name="midentsolutions.com" }
-:if ([:len [/ip dns static find name="mobilefacebook.com" type=FWD match-subdomain=yes]] = 0) do={ add address-list=\$AddressList forward-to=\$ForwardTo comment="meta" match-subdomain=yes type=FWD name="mobilefacebook.com" }
-:if ([:len [/ip dns static find name="moneywithfacebook.com" type=FWD match-subdomain=yes]] = 0) do={ add address-list=\$AddressList forward-to=\$ForwardTo comment="meta" match-subdomain=yes type=FWD name="moneywithfacebook.com" }
-:if ([:len [/ip dns static find name="myfbfans.com" type=FWD match-subdomain=yes]] = 0) do={ add address-list=\$AddressList forward-to=\$ForwardTo comment="meta" match-subdomain=yes type=FWD name="myfbfans.com" }
-:if ([:len [/ip dns static find name="nbabot.net" type=FWD match-subdomain=yes]] = 0) do={ add address-list=\$AddressList forward-to=\$ForwardTo comment="meta" match-subdomain=yes type=FWD name="nbabot.net" }
-:if ([:len [/ip dns static find name="newsfeed.com" type=FWD match-subdomain=yes]] = 0) do={ add address-list=\$AddressList forward-to=\$ForwardTo comment="meta" match-subdomain=yes type=FWD name="newsfeed.com" }
-:if ([:len [/ip dns static find name="nextstop.com" type=FWD match-subdomain=yes]] = 0) do={ add address-list=\$AddressList forward-to=\$ForwardTo comment="meta" match-subdomain=yes type=FWD name="nextstop.com" }
-:if ([:len [/ip dns static find name="ocul.us" type=FWD match-subdomain=yes]] = 0) do={ add address-list=\$AddressList forward-to=\$ForwardTo comment="meta" match-subdomain=yes type=FWD name="ocul.us" }
-:if ([:len [/ip dns static find name="oculus-china.com" type=FWD match-subdomain=yes]] = 0) do={ add address-list=\$AddressList forward-to=\$ForwardTo comment="meta" match-subdomain=yes type=FWD name="oculus-china.com" }
-:if ([:len [/ip dns static find name="oculus.com" type=FWD match-subdomain=yes]] = 0) do={ add address-list=\$AddressList forward-to=\$ForwardTo comment="meta" match-subdomain=yes type=FWD name="oculus.com" }
-:if ([:len [/ip dns static find name="oculus2014.com" type=FWD match-subdomain=yes]] = 0) do={ add address-list=\$AddressList forward-to=\$ForwardTo comment="meta" match-subdomain=yes type=FWD name="oculus2014.com" }
-:if ([:len [/ip dns static find name="oculus3d.com" type=FWD match-subdomain=yes]] = 0) do={ add address-list=\$AddressList forward-to=\$ForwardTo comment="meta" match-subdomain=yes type=FWD name="oculus3d.com" }
-:if ([:len [/ip dns static find name="oculusblog.com" type=FWD match-subdomain=yes]] = 0) do={ add address-list=\$AddressList forward-to=\$ForwardTo comment="meta" match-subdomain=yes type=FWD name="oculusblog.com" }
-:if ([:len [/ip dns static find name="oculusbrand.com" type=FWD match-subdomain=yes]] = 0) do={ add address-list=\$AddressList forward-to=\$ForwardTo comment="meta" match-subdomain=yes type=FWD name="oculusbrand.com" }
-:if ([:len [/ip dns static find name="oculuscasino.net" type=FWD match-subdomain=yes]] = 0) do={ add address-list=\$AddressList forward-to=\$ForwardTo comment="meta" match-subdomain=yes type=FWD name="oculuscasino.net" }
-:if ([:len [/ip dns static find name="oculuscdn.com" type=FWD match-subdomain=yes]] = 0) do={ add address-list=\$AddressList forward-to=\$ForwardTo comment="meta" match-subdomain=yes type=FWD name="oculuscdn.com" }
-:if ([:len [/ip dns static find name="oculusconnect.com" type=FWD match-subdomain=yes]] = 0) do={ add address-list=\$AddressList forward-to=\$ForwardTo comment="meta" match-subdomain=yes type=FWD name="oculusconnect.com" }
-:if ([:len [/ip dns static find name="oculusdiving.com" type=FWD match-subdomain=yes]] = 0) do={ add address-list=\$AddressList forward-to=\$ForwardTo comment="meta" match-subdomain=yes type=FWD name="oculusdiving.com" }
-:if ([:len [/ip dns static find name="oculusforbusiness.com" type=FWD match-subdomain=yes]] = 0) do={ add address-list=\$AddressList forward-to=\$ForwardTo comment="meta" match-subdomain=yes type=FWD name="oculusforbusiness.com" }
-:if ([:len [/ip dns static find name="oculusrift.com" type=FWD match-subdomain=yes]] = 0) do={ add address-list=\$AddressList forward-to=\$ForwardTo comment="meta" match-subdomain=yes type=FWD name="oculusrift.com" }
-:if ([:len [/ip dns static find name="oculusvr.com" type=FWD match-subdomain=yes]] = 0) do={ add address-list=\$AddressList forward-to=\$ForwardTo comment="meta" match-subdomain=yes type=FWD name="oculusvr.com" }
-:if ([:len [/ip dns static find name="oninstagram.com" type=FWD match-subdomain=yes]] = 0) do={ add address-list=\$AddressList forward-to=\$ForwardTo comment="meta" match-subdomain=yes type=FWD name="oninstagram.com" }
-:if ([:len [/ip dns static find name="online-deals.net" type=FWD match-subdomain=yes]] = 0) do={ add address-list=\$AddressList forward-to=\$ForwardTo comment="meta" match-subdomain=yes type=FWD name="online-deals.net" }
-:if ([:len [/ip dns static find name="online-instagram.com" type=FWD match-subdomain=yes]] = 0) do={ add address-list=\$AddressList forward-to=\$ForwardTo comment="meta" match-subdomain=yes type=FWD name="online-instagram.com" }
-:if ([:len [/ip dns static find name="onlineinstagram.com" type=FWD match-subdomain=yes]] = 0) do={ add address-list=\$AddressList forward-to=\$ForwardTo comment="meta" match-subdomain=yes type=FWD name="onlineinstagram.com" }
-:if ([:len [/ip dns static find name="opencreate.org" type=FWD match-subdomain=yes]] = 0) do={ add address-list=\$AddressList forward-to=\$ForwardTo comment="meta" match-subdomain=yes type=FWD name="opencreate.org" }
-:if ([:len [/ip dns static find name="opengraphprotocol.com" type=FWD match-subdomain=yes]] = 0) do={ add address-list=\$AddressList forward-to=\$ForwardTo comment="meta" match-subdomain=yes type=FWD name="opengraphprotocol.com" }
-:if ([:len [/ip dns static find name="opengraphprotocol.org" type=FWD match-subdomain=yes]] = 0) do={ add address-list=\$AddressList forward-to=\$ForwardTo comment="meta" match-subdomain=yes type=FWD name="opengraphprotocol.org" }
-:if ([:len [/ip dns static find name="parse.com" type=FWD match-subdomain=yes]] = 0) do={ add address-list=\$AddressList forward-to=\$ForwardTo comment="meta" match-subdomain=yes type=FWD name="parse.com" }
-:if ([:len [/ip dns static find name="powersunitedvr.com" type=FWD match-subdomain=yes]] = 0) do={ add address-list=\$AddressList forward-to=\$ForwardTo comment="meta" match-subdomain=yes type=FWD name="powersunitedvr.com" }
-:if ([:len [/ip dns static find name="pyrobot.org" type=FWD match-subdomain=yes]] = 0) do={ add address-list=\$AddressList forward-to=\$ForwardTo comment="meta" match-subdomain=yes type=FWD name="pyrobot.org" }
-:if ([:len [/ip dns static find name="reachtheworldonfacebook.com" type=FWD match-subdomain=yes]] = 0) do={ add address-list=\$AddressList forward-to=\$ForwardTo comment="meta" match-subdomain=yes type=FWD name="reachtheworldonfacebook.com" }
-:if ([:len [/ip dns static find name="react.com" type=FWD match-subdomain=yes]] = 0) do={ add address-list=\$AddressList forward-to=\$ForwardTo comment="meta" match-subdomain=yes type=FWD name="react.com" }
-:if ([:len [/ip dns static find name="reactjs.com" type=FWD match-subdomain=yes]] = 0) do={ add address-list=\$AddressList forward-to=\$ForwardTo comment="meta" match-subdomain=yes type=FWD name="reactjs.com" }
-:if ([:len [/ip dns static find name="reactjs.org" type=FWD match-subdomain=yes]] = 0) do={ add address-list=\$AddressList forward-to=\$ForwardTo comment="meta" match-subdomain=yes type=FWD name="reactjs.org" }
-:if ([:len [/ip dns static find name="recoiljs.org" type=FWD match-subdomain=yes]] = 0) do={ add address-list=\$AddressList forward-to=\$ForwardTo comment="meta" match-subdomain=yes type=FWD name="recoiljs.org" }
-:if ([:len [/ip dns static find name="redkix.com" type=FWD match-subdomain=yes]] = 0) do={ add address-list=\$AddressList forward-to=\$ForwardTo comment="meta" match-subdomain=yes type=FWD name="redkix.com" }
-:if ([:len [/ip dns static find name="rocksdb.com" type=FWD match-subdomain=yes]] = 0) do={ add address-list=\$AddressList forward-to=\$ForwardTo comment="meta" match-subdomain=yes type=FWD name="rocksdb.com" }
-:if ([:len [/ip dns static find name="rocksdb.net" type=FWD match-subdomain=yes]] = 0) do={ add address-list=\$AddressList forward-to=\$ForwardTo comment="meta" match-subdomain=yes type=FWD name="rocksdb.net" }
-:if ([:len [/ip dns static find name="rocksdb.org" type=FWD match-subdomain=yes]] = 0) do={ add address-list=\$AddressList forward-to=\$ForwardTo comment="meta" match-subdomain=yes type=FWD name="rocksdb.org" }
-:if ([:len [/ip dns static find name="shopfacebook.com" type=FWD match-subdomain=yes]] = 0) do={ add address-list=\$AddressList forward-to=\$ForwardTo comment="meta" match-subdomain=yes type=FWD name="shopfacebook.com" }
-:if ([:len [/ip dns static find name="sportsfacebook.com" type=FWD match-subdomain=yes]] = 0) do={ add address-list=\$AddressList forward-to=\$ForwardTo comment="meta" match-subdomain=yes type=FWD name="sportsfacebook.com" }
-:if ([:len [/ip dns static find name="sportstream.com" type=FWD match-subdomain=yes]] = 0) do={ add address-list=\$AddressList forward-to=\$ForwardTo comment="meta" match-subdomain=yes type=FWD name="sportstream.com" }
-:if ([:len [/ip dns static find name="supportfacebook.com" type=FWD match-subdomain=yes]] = 0) do={ add address-list=\$AddressList forward-to=\$ForwardTo comment="meta" match-subdomain=yes type=FWD name="supportfacebook.com" }
-:if ([:len [/ip dns static find name="terragraph.com" type=FWD match-subdomain=yes]] = 0) do={ add address-list=\$AddressList forward-to=\$ForwardTo comment="meta" match-subdomain=yes type=FWD name="terragraph.com" }
-:if ([:len [/ip dns static find name="thefacebook.com" type=FWD match-subdomain=yes]] = 0) do={ add address-list=\$AddressList forward-to=\$ForwardTo comment="meta" match-subdomain=yes type=FWD name="thefacebook.com" }
-:if ([:len [/ip dns static find name="thefacebook.net" type=FWD match-subdomain=yes]] = 0) do={ add address-list=\$AddressList forward-to=\$ForwardTo comment="meta" match-subdomain=yes type=FWD name="thefacebook.net" }
-:if ([:len [/ip dns static find name="thefind.com" type=FWD match-subdomain=yes]] = 0) do={ add address-list=\$AddressList forward-to=\$ForwardTo comment="meta" match-subdomain=yes type=FWD name="thefind.com" }
-:if ([:len [/ip dns static find name="theinstagramhack.com" type=FWD match-subdomain=yes]] = 0) do={ add address-list=\$AddressList forward-to=\$ForwardTo comment="meta" match-subdomain=yes type=FWD name="theinstagramhack.com" }
-:if ([:len [/ip dns static find name="threads.com" type=FWD match-subdomain=yes]] = 0) do={ add address-list=\$AddressList forward-to=\$ForwardTo comment="meta" match-subdomain=yes type=FWD name="threads.com" }
-:if ([:len [/ip dns static find name="threads.net" type=FWD match-subdomain=yes]] = 0) do={ add address-list=\$AddressList forward-to=\$ForwardTo comment="meta" match-subdomain=yes type=FWD name="threads.net" }
-:if ([:len [/ip dns static find name="toplayerserver.com" type=FWD match-subdomain=yes]] = 0) do={ add address-list=\$AddressList forward-to=\$ForwardTo comment="meta" match-subdomain=yes type=FWD name="toplayerserver.com" }
-:if ([:len [/ip dns static find name="viewpointsfromfacebook.com" type=FWD match-subdomain=yes]] = 0) do={ add address-list=\$AddressList forward-to=\$ForwardTo comment="meta" match-subdomain=yes type=FWD name="viewpointsfromfacebook.com" }
-:if ([:len [/ip dns static find name="web-instagram.net" type=FWD match-subdomain=yes]] = 0) do={ add address-list=\$AddressList forward-to=\$ForwardTo comment="meta" match-subdomain=yes type=FWD name="web-instagram.net" }
-:if ([:len [/ip dns static find name="whatsapp-plus.info" type=FWD match-subdomain=yes]] = 0) do={ add address-list=\$AddressList forward-to=\$ForwardTo comment="meta" match-subdomain=yes type=FWD name="whatsapp-plus.info" }
-:if ([:len [/ip dns static find name="whatsapp-plus.net" type=FWD match-subdomain=yes]] = 0) do={ add address-list=\$AddressList forward-to=\$ForwardTo comment="meta" match-subdomain=yes type=FWD name="whatsapp-plus.net" }
-:if ([:len [/ip dns static find name="whatsapp.cc" type=FWD match-subdomain=yes]] = 0) do={ add address-list=\$AddressList forward-to=\$ForwardTo comment="meta" match-subdomain=yes type=FWD name="whatsapp.cc" }
-:if ([:len [/ip dns static find name="whatsapp.com" type=FWD match-subdomain=yes]] = 0) do={ add address-list=\$AddressList forward-to=\$ForwardTo comment="meta" match-subdomain=yes type=FWD name="whatsapp.com" }
-:if ([:len [/ip dns static find name="whatsapp.info" type=FWD match-subdomain=yes]] = 0) do={ add address-list=\$AddressList forward-to=\$ForwardTo comment="meta" match-subdomain=yes type=FWD name="whatsapp.info" }
-:if ([:len [/ip dns static find name="whatsapp.net" type=FWD match-subdomain=yes]] = 0) do={ add address-list=\$AddressList forward-to=\$ForwardTo comment="meta" match-subdomain=yes type=FWD name="whatsapp.net" }
-:if ([:len [/ip dns static find name="whatsapp.org" type=FWD match-subdomain=yes]] = 0) do={ add address-list=\$AddressList forward-to=\$ForwardTo comment="meta" match-subdomain=yes type=FWD name="whatsapp.org" }
-:if ([:len [/ip dns static find name="whatsapp.tv" type=FWD match-subdomain=yes]] = 0) do={ add address-list=\$AddressList forward-to=\$ForwardTo comment="meta" match-subdomain=yes type=FWD name="whatsapp.tv" }
-:if ([:len [/ip dns static find name="whatsappbrand.com" type=FWD match-subdomain=yes]] = 0) do={ add address-list=\$AddressList forward-to=\$ForwardTo comment="meta" match-subdomain=yes type=FWD name="whatsappbrand.com" }
-:if ([:len [/ip dns static find name="whyfacebook.com" type=FWD match-subdomain=yes]] = 0) do={ add address-list=\$AddressList forward-to=\$ForwardTo comment="meta" match-subdomain=yes type=FWD name="whyfacebook.com" }
-:if ([:len [/ip dns static find name="workplace.com" type=FWD match-subdomain=yes]] = 0) do={ add address-list=\$AddressList forward-to=\$ForwardTo comment="meta" match-subdomain=yes type=FWD name="workplace.com" }
-:if ([:len [/ip dns static find name="workplaceusecases.com" type=FWD match-subdomain=yes]] = 0) do={ add address-list=\$AddressList forward-to=\$ForwardTo comment="meta" match-subdomain=yes type=FWD name="workplaceusecases.com" }
-:if ([:len [/ip dns static find name="worldhack.com" type=FWD match-subdomain=yes]] = 0) do={ add address-list=\$AddressList forward-to=\$ForwardTo comment="meta" match-subdomain=yes type=FWD name="worldhack.com" }
-:if ([:len [/ip dns static find name="www-facebook.com" type=FWD match-subdomain=yes]] = 0) do={ add address-list=\$AddressList forward-to=\$ForwardTo comment="meta" match-subdomain=yes type=FWD name="www-facebook.com" }
-:if ([:len [/ip dns static find name="wwwfacebok.com" type=FWD match-subdomain=yes]] = 0) do={ add address-list=\$AddressList forward-to=\$ForwardTo comment="meta" match-subdomain=yes type=FWD name="wwwfacebok.com" }
-:if ([:len [/ip dns static find name="wwwfacebook.com" type=FWD match-subdomain=yes]] = 0) do={ add address-list=\$AddressList forward-to=\$ForwardTo comment="meta" match-subdomain=yes type=FWD name="wwwfacebook.com" }
-:if ([:len [/ip dns static find name="wwwinstagram.com" type=FWD match-subdomain=yes]] = 0) do={ add address-list=\$AddressList forward-to=\$ForwardTo comment="meta" match-subdomain=yes type=FWD name="wwwinstagram.com" }
-:if ([:len [/ip dns static find name="wwwmfacebook.com" type=FWD match-subdomain=yes]] = 0) do={ add address-list=\$AddressList forward-to=\$ForwardTo comment="meta" match-subdomain=yes type=FWD name="wwwmfacebook.com" }
-:if ([:len [/ip dns static find name="yogalayout.com" type=FWD match-subdomain=yes]] = 0) do={ add address-list=\$AddressList forward-to=\$ForwardTo comment="meta" match-subdomain=yes type=FWD name="yogalayout.com" }
-:if ([:len [/ip dns static find name="zuckerberg.com" type=FWD match-subdomain=yes]] = 0) do={ add address-list=\$AddressList forward-to=\$ForwardTo comment="meta" match-subdomain=yes type=FWD name="zuckerberg.com" }
-:if ([:len [/ip dns static find name="zuckerberg.net" type=FWD match-subdomain=yes]] = 0) do={ add address-list=\$AddressList forward-to=\$ForwardTo comment="meta" match-subdomain=yes type=FWD name="zuckerberg.net" }
-:if ([:len [/ip dns static find regexp="" type=FWD]] = 0) do={ add address-list=\$AddressList forward-to=\$ForwardTo comment="meta" type=FWD regexp="" }
+:if ([:len [/ip dns static find regexp="liverail.tv"]] = 0) do={ add address-list=\$AddressList forward-to=\$ForwardTo comment="meta" type=FWD regexp="liverail.tv" }
+:if ([:len [/ip dns static find regexp="lnstagram-help.com"]] = 0) do={ add address-list=\$AddressList forward-to=\$ForwardTo comment="meta" type=FWD regexp="lnstagram-help.com" }
+:if ([:len [/ip dns static find regexp="login-account.net"]] = 0) do={ add address-list=\$AddressList forward-to=\$ForwardTo comment="meta" type=FWD regexp="login-account.net" }
+:if ([:len [/ip dns static find regexp="makeitopen.com"]] = 0) do={ add address-list=\$AddressList forward-to=\$ForwardTo comment="meta" type=FWD regexp="makeitopen.com" }
+:if ([:len [/ip dns static find regexp="markzuckerberg.com"]] = 0) do={ add address-list=\$AddressList forward-to=\$ForwardTo comment="meta" type=FWD regexp="markzuckerberg.com" }
+:if ([:len [/ip dns static find regexp="mcrouter.net"]] = 0) do={ add address-list=\$AddressList forward-to=\$ForwardTo comment="meta" type=FWD regexp="mcrouter.net" }
+:if ([:len [/ip dns static find regexp="mcrouter.org"]] = 0) do={ add address-list=\$AddressList forward-to=\$ForwardTo comment="meta" type=FWD regexp="mcrouter.org" }
+:if ([:len [/ip dns static find regexp="messenger.com"]] = 0) do={ add address-list=\$AddressList forward-to=\$ForwardTo comment="meta" type=FWD regexp="messenger.com" }
+:if ([:len [/ip dns static find regexp="messengerdevelopers.com"]] = 0) do={ add address-list=\$AddressList forward-to=\$ForwardTo comment="meta" type=FWD regexp="messengerdevelopers.com" }
+:if ([:len [/ip dns static find regexp="meta.com"]] = 0) do={ add address-list=\$AddressList forward-to=\$ForwardTo comment="meta" type=FWD regexp="meta.com" }
+:if ([:len [/ip dns static find regexp="midentsolutions.com"]] = 0) do={ add address-list=\$AddressList forward-to=\$ForwardTo comment="meta" type=FWD regexp="midentsolutions.com" }
+:if ([:len [/ip dns static find regexp="mobilefacebook.com"]] = 0) do={ add address-list=\$AddressList forward-to=\$ForwardTo comment="meta" type=FWD regexp="mobilefacebook.com" }
+:if ([:len [/ip dns static find regexp="moneywithfacebook.com"]] = 0) do={ add address-list=\$AddressList forward-to=\$ForwardTo comment="meta" type=FWD regexp="moneywithfacebook.com" }
+:if ([:len [/ip dns static find regexp="myfbfans.com"]] = 0) do={ add address-list=\$AddressList forward-to=\$ForwardTo comment="meta" type=FWD regexp="myfbfans.com" }
+:if ([:len [/ip dns static find regexp="nbabot.net"]] = 0) do={ add address-list=\$AddressList forward-to=\$ForwardTo comment="meta" type=FWD regexp="nbabot.net" }
+:if ([:len [/ip dns static find regexp="newsfeed.com"]] = 0) do={ add address-list=\$AddressList forward-to=\$ForwardTo comment="meta" type=FWD regexp="newsfeed.com" }
+:if ([:len [/ip dns static find regexp="nextstop.com"]] = 0) do={ add address-list=\$AddressList forward-to=\$ForwardTo comment="meta" type=FWD regexp="nextstop.com" }
+:if ([:len [/ip dns static find regexp="ocul.us"]] = 0) do={ add address-list=\$AddressList forward-to=\$ForwardTo comment="meta" type=FWD regexp="ocul.us" }
+:if ([:len [/ip dns static find regexp="oculus-china.com"]] = 0) do={ add address-list=\$AddressList forward-to=\$ForwardTo comment="meta" type=FWD regexp="oculus-china.com" }
+:if ([:len [/ip dns static find regexp="oculus.com"]] = 0) do={ add address-list=\$AddressList forward-to=\$ForwardTo comment="meta" type=FWD regexp="oculus.com" }
+:if ([:len [/ip dns static find regexp="oculus2014.com"]] = 0) do={ add address-list=\$AddressList forward-to=\$ForwardTo comment="meta" type=FWD regexp="oculus2014.com" }
+:if ([:len [/ip dns static find regexp="oculus3d.com"]] = 0) do={ add address-list=\$AddressList forward-to=\$ForwardTo comment="meta" type=FWD regexp="oculus3d.com" }
+:if ([:len [/ip dns static find regexp="oculusblog.com"]] = 0) do={ add address-list=\$AddressList forward-to=\$ForwardTo comment="meta" type=FWD regexp="oculusblog.com" }
+:if ([:len [/ip dns static find regexp="oculusbrand.com"]] = 0) do={ add address-list=\$AddressList forward-to=\$ForwardTo comment="meta" type=FWD regexp="oculusbrand.com" }
+:if ([:len [/ip dns static find regexp="oculuscasino.net"]] = 0) do={ add address-list=\$AddressList forward-to=\$ForwardTo comment="meta" type=FWD regexp="oculuscasino.net" }
+:if ([:len [/ip dns static find regexp="oculuscdn.com"]] = 0) do={ add address-list=\$AddressList forward-to=\$ForwardTo comment="meta" type=FWD regexp="oculuscdn.com" }
+:if ([:len [/ip dns static find regexp="oculusconnect.com"]] = 0) do={ add address-list=\$AddressList forward-to=\$ForwardTo comment="meta" type=FWD regexp="oculusconnect.com" }
+:if ([:len [/ip dns static find regexp="oculusdiving.com"]] = 0) do={ add address-list=\$AddressList forward-to=\$ForwardTo comment="meta" type=FWD regexp="oculusdiving.com" }
+:if ([:len [/ip dns static find regexp="oculusforbusiness.com"]] = 0) do={ add address-list=\$AddressList forward-to=\$ForwardTo comment="meta" type=FWD regexp="oculusforbusiness.com" }
+:if ([:len [/ip dns static find regexp="oculusrift.com"]] = 0) do={ add address-list=\$AddressList forward-to=\$ForwardTo comment="meta" type=FWD regexp="oculusrift.com" }
+:if ([:len [/ip dns static find regexp="oculusvr.com"]] = 0) do={ add address-list=\$AddressList forward-to=\$ForwardTo comment="meta" type=FWD regexp="oculusvr.com" }
+:if ([:len [/ip dns static find regexp="oninstagram.com"]] = 0) do={ add address-list=\$AddressList forward-to=\$ForwardTo comment="meta" type=FWD regexp="oninstagram.com" }
+:if ([:len [/ip dns static find regexp="online-deals.net"]] = 0) do={ add address-list=\$AddressList forward-to=\$ForwardTo comment="meta" type=FWD regexp="online-deals.net" }
+:if ([:len [/ip dns static find regexp="online-instagram.com"]] = 0) do={ add address-list=\$AddressList forward-to=\$ForwardTo comment="meta" type=FWD regexp="online-instagram.com" }
+:if ([:len [/ip dns static find regexp="onlineinstagram.com"]] = 0) do={ add address-list=\$AddressList forward-to=\$ForwardTo comment="meta" type=FWD regexp="onlineinstagram.com" }
+:if ([:len [/ip dns static find regexp="opencreate.org"]] = 0) do={ add address-list=\$AddressList forward-to=\$ForwardTo comment="meta" type=FWD regexp="opencreate.org" }
+:if ([:len [/ip dns static find regexp="opengraphprotocol.com"]] = 0) do={ add address-list=\$AddressList forward-to=\$ForwardTo comment="meta" type=FWD regexp="opengraphprotocol.com" }
+:if ([:len [/ip dns static find regexp="opengraphprotocol.org"]] = 0) do={ add address-list=\$AddressList forward-to=\$ForwardTo comment="meta" type=FWD regexp="opengraphprotocol.org" }
+:if ([:len [/ip dns static find regexp="parse.com"]] = 0) do={ add address-list=\$AddressList forward-to=\$ForwardTo comment="meta" type=FWD regexp="parse.com" }
+:if ([:len [/ip dns static find regexp="powersunitedvr.com"]] = 0) do={ add address-list=\$AddressList forward-to=\$ForwardTo comment="meta" type=FWD regexp="powersunitedvr.com" }
+:if ([:len [/ip dns static find regexp="pyrobot.org"]] = 0) do={ add address-list=\$AddressList forward-to=\$ForwardTo comment="meta" type=FWD regexp="pyrobot.org" }
+:if ([:len [/ip dns static find regexp="reachtheworldonfacebook.com"]] = 0) do={ add address-list=\$AddressList forward-to=\$ForwardTo comment="meta" type=FWD regexp="reachtheworldonfacebook.com" }
+:if ([:len [/ip dns static find regexp="react.com"]] = 0) do={ add address-list=\$AddressList forward-to=\$ForwardTo comment="meta" type=FWD regexp="react.com" }
+:if ([:len [/ip dns static find regexp="reactjs.com"]] = 0) do={ add address-list=\$AddressList forward-to=\$ForwardTo comment="meta" type=FWD regexp="reactjs.com" }
+:if ([:len [/ip dns static find regexp="reactjs.org"]] = 0) do={ add address-list=\$AddressList forward-to=\$ForwardTo comment="meta" type=FWD regexp="reactjs.org" }
+:if ([:len [/ip dns static find regexp="recoiljs.org"]] = 0) do={ add address-list=\$AddressList forward-to=\$ForwardTo comment="meta" type=FWD regexp="recoiljs.org" }
+:if ([:len [/ip dns static find regexp="redkix.com"]] = 0) do={ add address-list=\$AddressList forward-to=\$ForwardTo comment="meta" type=FWD regexp="redkix.com" }
+:if ([:len [/ip dns static find regexp="rocksdb.com"]] = 0) do={ add address-list=\$AddressList forward-to=\$ForwardTo comment="meta" type=FWD regexp="rocksdb.com" }
+:if ([:len [/ip dns static find regexp="rocksdb.net"]] = 0) do={ add address-list=\$AddressList forward-to=\$ForwardTo comment="meta" type=FWD regexp="rocksdb.net" }
+:if ([:len [/ip dns static find regexp="rocksdb.org"]] = 0) do={ add address-list=\$AddressList forward-to=\$ForwardTo comment="meta" type=FWD regexp="rocksdb.org" }
+:if ([:len [/ip dns static find regexp="shopfacebook.com"]] = 0) do={ add address-list=\$AddressList forward-to=\$ForwardTo comment="meta" type=FWD regexp="shopfacebook.com" }
+:if ([:len [/ip dns static find regexp="sportsfacebook.com"]] = 0) do={ add address-list=\$AddressList forward-to=\$ForwardTo comment="meta" type=FWD regexp="sportsfacebook.com" }
+:if ([:len [/ip dns static find regexp="sportstream.com"]] = 0) do={ add address-list=\$AddressList forward-to=\$ForwardTo comment="meta" type=FWD regexp="sportstream.com" }
+:if ([:len [/ip dns static find regexp="supportfacebook.com"]] = 0) do={ add address-list=\$AddressList forward-to=\$ForwardTo comment="meta" type=FWD regexp="supportfacebook.com" }
+:if ([:len [/ip dns static find regexp="terragraph.com"]] = 0) do={ add address-list=\$AddressList forward-to=\$ForwardTo comment="meta" type=FWD regexp="terragraph.com" }
+:if ([:len [/ip dns static find regexp="thefacebook.com"]] = 0) do={ add address-list=\$AddressList forward-to=\$ForwardTo comment="meta" type=FWD regexp="thefacebook.com" }
+:if ([:len [/ip dns static find regexp="thefacebook.net"]] = 0) do={ add address-list=\$AddressList forward-to=\$ForwardTo comment="meta" type=FWD regexp="thefacebook.net" }
+:if ([:len [/ip dns static find regexp="thefind.com"]] = 0) do={ add address-list=\$AddressList forward-to=\$ForwardTo comment="meta" type=FWD regexp="thefind.com" }
+:if ([:len [/ip dns static find regexp="theinstagramhack.com"]] = 0) do={ add address-list=\$AddressList forward-to=\$ForwardTo comment="meta" type=FWD regexp="theinstagramhack.com" }
+:if ([:len [/ip dns static find regexp="threads.com"]] = 0) do={ add address-list=\$AddressList forward-to=\$ForwardTo comment="meta" type=FWD regexp="threads.com" }
+:if ([:len [/ip dns static find regexp="threads.net"]] = 0) do={ add address-list=\$AddressList forward-to=\$ForwardTo comment="meta" type=FWD regexp="threads.net" }
+:if ([:len [/ip dns static find regexp="toplayerserver.com"]] = 0) do={ add address-list=\$AddressList forward-to=\$ForwardTo comment="meta" type=FWD regexp="toplayerserver.com" }
+:if ([:len [/ip dns static find regexp="viewpointsfromfacebook.com"]] = 0) do={ add address-list=\$AddressList forward-to=\$ForwardTo comment="meta" type=FWD regexp="viewpointsfromfacebook.com" }
+:if ([:len [/ip dns static find regexp="web-instagram.net"]] = 0) do={ add address-list=\$AddressList forward-to=\$ForwardTo comment="meta" type=FWD regexp="web-instagram.net" }
+:if ([:len [/ip dns static find regexp="whatsapp-plus.info"]] = 0) do={ add address-list=\$AddressList forward-to=\$ForwardTo comment="meta" type=FWD regexp="whatsapp-plus.info" }
+:if ([:len [/ip dns static find regexp="whatsapp-plus.net"]] = 0) do={ add address-list=\$AddressList forward-to=\$ForwardTo comment="meta" type=FWD regexp="whatsapp-plus.net" }
+:if ([:len [/ip dns static find regexp="whatsapp.cc"]] = 0) do={ add address-list=\$AddressList forward-to=\$ForwardTo comment="meta" type=FWD regexp="whatsapp.cc" }
+:if ([:len [/ip dns static find regexp="whatsapp.com"]] = 0) do={ add address-list=\$AddressList forward-to=\$ForwardTo comment="meta" type=FWD regexp="whatsapp.com" }
+:if ([:len [/ip dns static find regexp="whatsapp.info"]] = 0) do={ add address-list=\$AddressList forward-to=\$ForwardTo comment="meta" type=FWD regexp="whatsapp.info" }
+:if ([:len [/ip dns static find regexp="whatsapp.net"]] = 0) do={ add address-list=\$AddressList forward-to=\$ForwardTo comment="meta" type=FWD regexp="whatsapp.net" }
+:if ([:len [/ip dns static find regexp="whatsapp.org"]] = 0) do={ add address-list=\$AddressList forward-to=\$ForwardTo comment="meta" type=FWD regexp="whatsapp.org" }
+:if ([:len [/ip dns static find regexp="whatsapp.tv"]] = 0) do={ add address-list=\$AddressList forward-to=\$ForwardTo comment="meta" type=FWD regexp="whatsapp.tv" }
+:if ([:len [/ip dns static find regexp="whatsappbrand.com"]] = 0) do={ add address-list=\$AddressList forward-to=\$ForwardTo comment="meta" type=FWD regexp="whatsappbrand.com" }
+:if ([:len [/ip dns static find regexp="whyfacebook.com"]] = 0) do={ add address-list=\$AddressList forward-to=\$ForwardTo comment="meta" type=FWD regexp="whyfacebook.com" }
+:if ([:len [/ip dns static find regexp="workplace.com"]] = 0) do={ add address-list=\$AddressList forward-to=\$ForwardTo comment="meta" type=FWD regexp="workplace.com" }
+:if ([:len [/ip dns static find regexp="workplaceusecases.com"]] = 0) do={ add address-list=\$AddressList forward-to=\$ForwardTo comment="meta" type=FWD regexp="workplaceusecases.com" }
+:if ([:len [/ip dns static find regexp="worldhack.com"]] = 0) do={ add address-list=\$AddressList forward-to=\$ForwardTo comment="meta" type=FWD regexp="worldhack.com" }
+:if ([:len [/ip dns static find regexp="www-facebook.com"]] = 0) do={ add address-list=\$AddressList forward-to=\$ForwardTo comment="meta" type=FWD regexp="www-facebook.com" }
+:if ([:len [/ip dns static find regexp="wwwfacebok.com"]] = 0) do={ add address-list=\$AddressList forward-to=\$ForwardTo comment="meta" type=FWD regexp="wwwfacebok.com" }
+:if ([:len [/ip dns static find regexp="wwwfacebook.com"]] = 0) do={ add address-list=\$AddressList forward-to=\$ForwardTo comment="meta" type=FWD regexp="wwwfacebook.com" }
+:if ([:len [/ip dns static find regexp="wwwinstagram.com"]] = 0) do={ add address-list=\$AddressList forward-to=\$ForwardTo comment="meta" type=FWD regexp="wwwinstagram.com" }
+:if ([:len [/ip dns static find regexp="wwwmfacebook.com"]] = 0) do={ add address-list=\$AddressList forward-to=\$ForwardTo comment="meta" type=FWD regexp="wwwmfacebook.com" }
+:if ([:len [/ip dns static find regexp="yogalayout.com"]] = 0) do={ add address-list=\$AddressList forward-to=\$ForwardTo comment="meta" type=FWD regexp="yogalayout.com" }
+:if ([:len [/ip dns static find regexp="zuckerberg.com"]] = 0) do={ add address-list=\$AddressList forward-to=\$ForwardTo comment="meta" type=FWD regexp="zuckerberg.com" }
+:if ([:len [/ip dns static find regexp="zuckerberg.net"]] = 0) do={ add address-list=\$AddressList forward-to=\$ForwardTo comment="meta" type=FWD regexp="zuckerberg.net" }
+:if ([:len [/ip dns static find name=""]] = 0) do={ add address-list=\$AddressList forward-to=\$ForwardTo comment="meta" type=FWD name="" }
