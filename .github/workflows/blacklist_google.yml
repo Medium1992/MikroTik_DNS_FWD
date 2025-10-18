@@ -10,7 +10,7 @@ permissions:
 
 env:
   RESOURCES: openai,youtube,facebook,instagram,meta,oculus,intel,netflix,adobe,twitch
-  FORWARD_TO: Google,CloudFlare
+  FORWARD_TO: Google,CloudFlare,Quad9,OwnDNS,fakeip
   ADDRESS_LIST: BlackList
   JSON_URL_TEMPLATE: https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/refs/heads/sing/geo/geosite/{resource}.json
 
@@ -74,10 +74,16 @@ jobs:
 
                 if [ -n "$filtered_domains" ]; then
                   echo "$filtered_domains" | while read -r domain; do
-                    echo "add$ADDR_ARG forward-to=$TO comment=$resource type=FWD name=$domain" >> "$output_file"
+                        if [[ "$TO" == *fakeip* ]]; then
+                          echo "add forward-to=$TO comment=$resource type=FWD name=$domain" >> "$output_file"
+                        else
+                          echo "add$ADDR_ARG forward-to=$TO comment=$resource type=FWD name=$domain" >> "$output_file"
+                        fi
                   done
                 fi
 
+
+                
                 # domain_suffix (match-subdomain=yes)
                 suffixes=$(jq -r '
                   .rules[]
@@ -95,7 +101,12 @@ jobs:
 
                 if [ -n "$filtered_suffixes" ]; then
                   echo "$filtered_suffixes" | while read -r domain_suffix; do
-                    echo "add$ADDR_ARG forward-to=$TO comment=$resource match-subdomain=yes type=FWD name=$domain_suffix" >> "$output_file"
+
+                      if [[ "$TO" == *fakeip* ]]; then
+                        echo "add forward-to=$TO comment=$resource match-subdomain=yes type=FWD name=$domain_suffix" >> "$output_file"
+                      else
+                        echo "add$ADDR_ARG forward-to=$TO comment=$resource match-subdomain=yes type=FWD name=$domain_suffix" >> "$output_file"
+                      fi
                   done
                 fi
 
@@ -117,7 +128,11 @@ jobs:
                       s/ /\\_/g;        # пробел → \_
                       s/\?/\\?/g;       # ? → \?
                     ')
-                    echo "add$ADDR_ARG forward-to=$TO comment=$resource type=FWD regexp=\"$escaped_regex\"" >> "$output_file"
+                      if [[ "$TO" == *fakeip* ]]; then
+                        echo "add forward-to=$TO comment=$resource type=FWD regexp=\"$escaped_regex\"" >> "$output_file"
+                      else
+                        echo "add$ADDR_ARG forward-to=$TO comment=$resource type=FWD regexp=\"$escaped_regex\"" >> "$output_file"
+                      fi
                   done
                 fi
             done
