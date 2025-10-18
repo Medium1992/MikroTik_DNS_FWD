@@ -65,12 +65,18 @@ jobs:
                 else [] end
               | .[]
             ' "input_$resource.json" | sort -u)
-            if [ -n "$domains" ]; then
-              echo "$domains" | while read -r domain; do
+
+            # Чёрный список стран, которые хотим исключить
+            excluded_tlds="jo|uz|tm|az|ba|bh|bo|by|ca|cat|qa|vn|uy|ug|tn|sv|soy|sk|si|sg|ee|sn|cl|pt|pr|pk|ph|pe|pa|no|ni|my|mx|mn|mk|me|md|ma|ly|lv|lu|lt|lk|la|kz|kr|jp|iq|in|hk|gt|ge|fi|cr|cz|dk"
+
+            # Фильтруем, исключая редкие TLD
+            filtered_domains=$(echo "$domains" | grep -Ev "\.($excluded_tlds)$")
+
+            if [ -n "$filtered_domains" ]; then
+              echo "$filtered_domains" | while read -r domain; do
                 echo "add$ADDR_ARG forward-to=$FORWARD_TO comment=$resource type=FWD name=$domain" >> "$output_file"
               done
             fi
-
 
             # domain_suffix (match-subdomain=yes)
             suffixes=$(jq -r '
@@ -80,8 +86,15 @@ jobs:
                 else [] end
               | .[]
             ' "input_$resource.json" | sort -u)
-            if [ -n "$suffixes" ]; then
-              echo "$suffixes" | while read -r domain_suffix; do
+           
+            # Чёрный список стран, которые хотим исключить
+            excluded_tlds="jo|uz|tm|az|ba|bh|bo|by|ca|cat|qa|vn|uy|ug|tn|sv|soy|sk|si|sg|ee|sn|cl|pt|pr|pk|ph|pe|pa|no|ni|my|mx|mn|mk|me|md|ma|ly|lv|lu|lt|lk|la|kz|kr|jp|iq|in|hk|gt|ge|fi|cr|cz|dk"
+
+            # Фильтруем, исключая редкие TLD
+            filtered_suffixes=$(echo "$suffixes" | grep -Ev "\.($excluded_tlds)$")
+
+            if [ -n "$filtered_suffixes" ]; then
+              echo "$filtered_suffixes" | while read -r domain_suffix; do
                 echo "add$ADDR_ARG forward-to=$FORWARD_TO comment=$resource match-subdomain=yes type=FWD name=$domain_suffix" >> "$output_file"
               done
             fi
