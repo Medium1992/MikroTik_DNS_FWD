@@ -101,7 +101,7 @@ jobs:
                 ' "input_$resource.json" | sort -u)
 
                 # Чёрный список стран, которые хотим исключить
-                excluded_tlds="mg|ac|af|ag|ai|bi|bs|cg|cm|cu|dz|ga|gd|gl|gm|gs|gy|ht|je|lc|mp|mu|mw|nu|pn|re|rw|sc|sr|st|sx|sy|tf|tj|tl|tt|vg|vu|wf|yt|do|ec|eg|gh|hn|jm|kw|lb|mt|om|py|tr|tw|se|ae|al|am|at|bg|ch|co|id|cn|ve|uk|za|zw|ar|au|bd|br|il|ke|nz|th|tz|de|es|fr|gr|hr|hu|ie|is|it|ng|nl|pl|ro|rs|sa|ua|jo|uz|tm|az|ba|bh|bo|by|ca|cat|qa|vn|uy|ug|tn|sv|soy|sk|si|sg|ee|sn|cl|pt|pr|pk|ph|pe|pa|no|ni|my|mx|mn|mk|me|md|ma|ly|lv|lu|lt|lk|la|kz|kr|jp|iq|in|hk|gt|ge|fi|cr|cz|dk"
+                excluded_tlds="mg|ac|af|ag|ai|bi|bs|cg|cm|cu|dz|ga|gd|gl|gm|gs|gy|ht|je|lc|mp|mu|mw|nu|pn|re|rw|sc|sr|st|sx|sy|tf|tj|tl|tt|vg|vu|wf|yt|do|ec|eg|gh|hn|jm|kw|lb|mt|om|py|tr|tw|se|ae|al|am|at|bg|ch|id|cn|ve|uk|za|zw|ar|au|bd|br|il|ke|nz|th|tz|de|es|fr|gr|hr|hu|ie|is|it|ng|nl|pl|ro|rs|sa|ua|jo|uz|tm|az|ba|bh|bo|by|ca|qa|vn|uy|ug|tn|sv|sk|si|sg|ee|sn|cl|pt|pr|pk|ph|pe|pa|no|ni|my|mx|mn|mk|me|md|ma|ly|lv|lu|lt|lk|la|kz|kr|jp|iq|in|hk|gt|ge|fi|cr|cz|dk"
 
                 # Фильтруем, исключая редкие TLD
                 filtered_domains=$(echo "$domains" | grep -Ev "\.($excluded_tlds)$")
@@ -128,7 +128,7 @@ jobs:
                 ' "input_$resource.json" | sort -u)
               
                 # Чёрный список стран, которые хотим исключить
-                excluded_tlds="mg|ac|af|ag|ai|bi|bs|cg|cm|cu|dz|ga|gd|gl|gm|gs|gy|ht|je|lc|mp|mu|mw|nu|pn|re|rw|sc|sr|st|sx|sy|tf|tj|tl|tt|vg|vu|wf|yt|do|ec|eg|gh|hn|jm|kw|lb|mt|om|py|tr|tw|se|ae|al|am|at|bg|ch|co|id|cn|ve|uk|za|zw|ar|au|bd|br|il|ke|nz|th|tz|de|es|fr|gr|hr|hu|ie|is|it|ng|nl|pl|ro|rs|sa|ua|jo|uz|tm|az|ba|bh|bo|by|ca|cat|qa|vn|uy|ug|tn|sv|soy|sk|si|sg|ee|sn|cl|pt|pr|pk|ph|pe|pa|no|ni|my|mx|mn|mk|me|md|ma|ly|lv|lu|lt|lk|la|kz|kr|jp|iq|in|hk|gt|ge|fi|cr|cz|dk"
+                excluded_tlds="mg|ac|af|ag|ai|bi|bs|cg|cm|cu|dz|ga|gd|gl|gm|gs|gy|ht|je|lc|mp|mu|mw|nu|pn|re|rw|sc|sr|st|sx|sy|tf|tj|tl|tt|vg|vu|wf|yt|do|ec|eg|gh|hn|jm|kw|lb|mt|om|py|tr|tw|se|ae|al|am|at|bg|ch|id|cn|ve|uk|za|zw|ar|au|bd|br|il|ke|nz|th|tz|de|es|fr|gr|hr|hu|ie|is|it|ng|nl|pl|ro|rs|sa|ua|jo|uz|tm|az|ba|bh|bo|by|ca|qa|vn|uy|ug|tn|sv|sk|si|sg|ee|sn|cl|pt|pr|pk|ph|pe|pa|no|ni|my|mx|mn|mk|me|md|ma|ly|lv|lu|lt|lk|la|kz|kr|jp|iq|in|hk|gt|ge|fi|cr|cz|dk"
 
                 # Фильтруем, исключая редкие TLD
                 filtered_suffixes=$(echo "$suffixes" | grep -Ev "\.($excluded_tlds)$")
