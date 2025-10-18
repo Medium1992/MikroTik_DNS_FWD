@@ -10,7 +10,7 @@ permissions:
 env:
   RESOURCES: openai,another_resource
   FORWARD_TO: Google
-  ADDRESS_LIST: false
+  ADDRESS_LIST: BlackList
   JSON_URL_TEMPLATE: https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/refs/heads/sing/geo/geosite/{resource}.json
 
 jobs:
@@ -53,52 +53,62 @@ jobs:
             fi
             
             output_file="$resource/FWD_${resource}_${FORWARD_TO}_${LIST_SUFFIX}.rsc"
+            # Always create the file with header (so file exists even if no entries)
             echo "/ip dns static" > "$output_file"
             
-            # domain (match-subdomain=no)
+            # ---- domain (match-subdomain=no) ----
+            # .rules[]? safely handles missing .rules; if domain is string -> emit it, if array -> emit each element
             domains=$(jq -r '
-              .rules[]
-              | if (.domain | type == "string") then [.domain]
-                elif (.domain | type == "array") then .domain
-                else [] end
-              | .[]
+              .rules[]? 
+              | (.domain // empty)
+              | if type=="string" then . else .[] end
             ' "input_$resource.json" | sort -u)
+            
             if [ -n "$domains" ]; then
-              echo "$domains" | while read -r domain; do
-                echo "add$ADDR_ARG forward-to=$FORWARD_TO comment=$resource type=FWD name=$domain" >> "$output_file"
+              echo "$domains" | while IFS= read -r domain; do
+                domain_trimmed=$(echo "$domain" | sed -e 's/^[[:space:]]*//; s/[[:space:]]*$//')
+                if [ -n "$domain_trimmed" ]; then
+                  echo "add$ADDR_ARG forward-to=$FORWARD_TO comment=$resource type=FWD name=$domain_trimmed" >> "$output_file"
+                fi
               done
             fi
 
-
-            # domain_suffix (match-subdomain=yes)
+            # ---- domain_suffix (match-subdomain=yes) ----
             suffixes=$(jq -r '
-              .rules[]
-              | if (.domain_suffix | type == "string") then [.domain_suffix]
-                elif (.domain_suffix | type == "array") then .domain_suffix
-                else [] end
-              | .[]
+              .rules[]?
+              | (.domain_suffix // empty)
+              | if type=="string" then . else .[] end
             ' "input_$resource.json" | sort -u)
+            
             if [ -n "$suffixes" ]; then
-              echo "$suffixes" | while read -r domain_suffix; do
-                echo "add$ADDR_ARG forward-to=$FORWARD_TO comment=$resource match-subdomain=yes type=FWD name=$domain_suffix" >> "$output_file"
+              echo "$suffixes" | while IFS= read -r domain_suffix; do
+                suf_trimmed=$(echo "$domain_suffix" | sed -e 's/^[[:space:]]*//; s/[[:space:]]*$//')
+                if [ -n "$suf_trimmed" ]; then
+                  echo "add$ADDR_ARG forward-to=$FORWARD_TO comment=$resource match-subdomain=yes type=FWD name=$suf_trimmed" >> "$output_file"
+                fi
               done
             fi
 
-
-            # domain_regex (handle both string and array)
+            # ---- domain_regex (regexp entries) ----
             regex_list=$(jq -r '
-              .rules[]
-              | if (.domain_regex | type == "string") then [.domain_regex]
-                elif (.domain_regex | type == "array") then .domain_regex
-                else [] end
-              | .[]
+              .rules[]?
+              | (.domain_regex // empty)
+              | if type=="string" then . else .[] end
             ' "input_$resource.json" | sort -u)
+            
             if [ -n "$regex_list" ]; then
-              echo "$regex_list" | while read -r regex; do
-                escaped_regex=$(echo "$regex" | sed 's/"/\\"/g; s/\\/\\\\/g; s/\n/\\n/g; s/\r/\\r/g; s/\t/\\t/g; s/\$/\\\$/g; s/?/\\?/g; s/ /\\_/g; s/\a/\\a/g; s/\b/\\b/g; s/\f/\\f/g; s/\v/\\v/g; s/\\x\([0-9A-Fa-f]\{2\}\)/\\\\\\U\1/g')
-                echo "add$ADDR_ARG forward-to=$FORWARD_TO comment=$resource type=FWD regexp=\"$escaped_regex\"" >> "$output_file"
+              echo "$regex_list" | while IFS= read -r regex; do
+                # escape backslashes and double quotes for safe embedding in double-quoted RSC attribute
+                escaped_regex=$(printf '%s' "$regex" | sed -e 's/\\/\\\\/g' -e 's/"/\\"/g')
+                # trim
+                escaped_regex=$(echo "$escaped_regex" | sed -e 's/^[[:space:]]*//; s/[[:space:]]*$//')
+                if [ -n "$escaped_regex" ]; then
+                  echo "add$ADDR_ARG forward-to=$FORWARD_TO comment=$resource type=FWD regexp=\"$escaped_regex\"" >> "$output_file"
+                fi
               done
             fi
+
+            echo "Wrote $output_file"
           done
 
       - name: Commit and push changes
