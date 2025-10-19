@@ -47,6 +47,9 @@ jobs:
                   continue
               fi
 
+              # Initialize array for all suffixes in the group
+              group_suffixes=()
+
               # Get resource names (keys) from JSON
               resources=$(jq -r 'keys[]' "input_$group.json" | sort -u)
 
@@ -59,7 +62,14 @@ jobs:
                   # Get domains for the resource (all treated as suffixes with match-subdomain=yes)
                   suffixes=$(jq -r --arg resource "$resource" '.[$resource][]' "input_$group.json" | sort -u | grep -v '^$' || true)
 
-                  # Combine suffixes into entries, only if non-empty
+                  # Add suffixes to group_suffixes for combined group file
+                  if [ -n "$suffixes" ]; then
+                      while IFS= read -r suffix; do
+                          group_suffixes+=("$suffix")
+                      done <<< "$suffixes"
+                  fi
+
+                  # Combine suffixes into entries for individual resource, only if non-empty
                   all_entries=()
                   if [ -n "$suffixes" ]; then
                       while IFS= read -r suffix; do
@@ -108,6 +118,59 @@ jobs:
                       done
                   fi
               done <<< "$resources"
+
+              # Create combined group file
+              if [ ${#group_suffixes[@]} -gt 0 ]; then
+                  echo "Creating combined file for group: $group"
+                  all_entries=()
+                  # Sort and deduplicate group_suffixes
+                  sorted_suffixes=$(printf '%s\n' "${group_suffixes[@]}" | sort -u | grep -v '^$' || true)
+                  if [ -n "$sorted_suffixes" ]; then
+                      while IFS= read -r suffix; do
+                          all_entries+=("suffix:$suffix")
+                      done <<< "$sorted_suffixes"
+                  fi
+
+                  entry_count=${#all_entries[@]}
+                  if [ $entry_count -eq 0 ]; then
+                      echo "No valid entries for group $group, skipping combined file..."
+                  else
+                      if [ $entry_count -le $MAX_ENTRIES_PER_FILE ]; then
+                          output_file="for_scripts/$group.rsc"
+                          echo ":global AddressList" > "$output_file"
+                          echo ":global ForwardTo" >> "$output_file"
+                          echo "/ip dns static" >> "$output_file"
+                          for entry in "${all_entries[@]}"; do
+                              type=$(echo "$entry" | cut -d':' -f1)
+                              value=$(echo "$entry" | cut -d':' -f2-)
+                              if [ "$type" = "suffix" ]; then
+                                  echo ":if ([:len [/ip dns static find name=\"$value\"]] = 0) do={ add address-list=\$AddressList forward-to=\$ForwardTo comment=\"$group\" match-subdomain=yes type=FWD name=\"$value\" }" >> "$output_file"
+                              fi
+                          done
+                      else
+                          # Split into multiple files
+                          part=1
+                          entry_index=0
+                          while [ $entry_index -lt $entry_count ]; do
+                              output_file="for_scripts/${group}_part${part}.rsc"
+                              echo ":global AddressList" > "$output_file"
+                              echo ":global ForwardTo" >> "$output_file"
+                              echo "/ip dns static" >> "$output_file"
+                              for ((i=0; i<MAX_ENTRIES_PER_FILE && entry_index<entry_count; i++, entry_index++)); do
+                                  entry=${all_entries[$entry_index]}
+                                  type=$(echo "$entry" | cut -d':' -f1)
+                                  value=$(echo "$entry" | cut -d':' -f2-)
+                                  if [ "$type" = "suffix" ]; then
+                                      echo ":if ([:len [/ip dns static find name=\"$value\"]] = 0) do={ add address-list=\$AddressList forward-to=\$ForwardTo comment=\"$group\" match-subdomain=yes type=FWD name=\"$value\" }" >> "$output_file"
+                                  fi
+                              done
+                              part=$((part + 1))
+                          done
+                      fi
+                  fi
+              else
+                  echo "No valid suffixes for group $group, skipping combined file..."
+              fi
           done
 
           # Process individual sites
