@@ -1,98 +1,98 @@
 :global AddressList
 :global ForwardTo
 /ip dns static
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="cisco" match-subdomain=yes type=FWD name="academynetriders.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="cisco" match-subdomain=yes type=FWD name="app-dynamics.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="cisco" match-subdomain=yes type=FWD name="appdynamics.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="cisco" match-subdomain=yes type=FWD name="appdynamics.info"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="cisco" match-subdomain=yes type=FWD name="appdynamics.org"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="cisco" match-subdomain=yes type=FWD name="cciernslabs.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="cisco" match-subdomain=yes type=FWD name="cciesecuritylabs.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="cisco" match-subdomain=yes type=FWD name="ccievoicelabs.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="cisco" match-subdomain=yes type=FWD name="ccna5.net"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="cisco" match-subdomain=yes type=FWD name="cisco"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="cisco" match-subdomain=yes type=FWD name="cisco-returns.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="cisco" match-subdomain=yes type=FWD name="cisco-warrantyfinder.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="cisco" match-subdomain=yes type=FWD name="cisco.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="cisco" match-subdomain=yes type=FWD name="cisco.mobi"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="cisco" match-subdomain=yes type=FWD name="ciscoccservice.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="cisco" match-subdomain=yes type=FWD name="ciscoconnectcloud.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="cisco" match-subdomain=yes type=FWD name="ciscoconnectcloud.net"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="cisco" match-subdomain=yes type=FWD name="ciscoconnectcloud.org"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="cisco" match-subdomain=yes type=FWD name="ciscocontest.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="cisco" match-subdomain=yes type=FWD name="ciscoerate.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="cisco" match-subdomain=yes type=FWD name="ciscofax.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="cisco" match-subdomain=yes type=FWD name="ciscoinvestments.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="cisco" match-subdomain=yes type=FWD name="ciscojabbervideo.net"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="cisco" match-subdomain=yes type=FWD name="ciscokinetic.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="cisco" match-subdomain=yes type=FWD name="ciscoknowledgenetwork.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="cisco" match-subdomain=yes type=FWD name="ciscolearningsociety.org"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="cisco" match-subdomain=yes type=FWD name="ciscolearningsystem.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="cisco" match-subdomain=yes type=FWD name="ciscolive.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="cisco" match-subdomain=yes type=FWD name="cisconetapp.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="cisco" match-subdomain=yes type=FWD name="cisconetspace.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="cisco" match-subdomain=yes type=FWD name="cisconetspace.info"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="cisco" match-subdomain=yes type=FWD name="cisconetspace.net"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="cisco" match-subdomain=yes type=FWD name="ciscopartnermarketing.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="cisco" match-subdomain=yes type=FWD name="ciscopowercube.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="cisco" match-subdomain=yes type=FWD name="ciscoprice.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="cisco" match-subdomain=yes type=FWD name="ciscoresearch.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="cisco" match-subdomain=yes type=FWD name="ciscosoftware.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="cisco" match-subdomain=yes type=FWD name="ciscospark.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="cisco" match-subdomain=yes type=FWD name="ciscotaccc.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="cisco" match-subdomain=yes type=FWD name="ciscotr.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="cisco" match-subdomain=yes type=FWD name="ciscoturk.net"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="cisco" match-subdomain=yes type=FWD name="ciscovideo.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="cisco" match-subdomain=yes type=FWD name="ciscowebseminars.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="cisco" match-subdomain=yes type=FWD name="cloudlock.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="cisco" match-subdomain=yes type=FWD name="cloupia.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="cisco" match-subdomain=yes type=FWD name="cloupia.net"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="cisco" match-subdomain=yes type=FWD name="connect-in-canada.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="cisco" match-subdomain=yes type=FWD name="coreoptics.net"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="cisco" match-subdomain=yes type=FWD name="cs.co"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="cisco" match-subdomain=yes type=FWD name="devm2m.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="cisco" match-subdomain=yes type=FWD name="dnaspaces.io"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="cisco" match-subdomain=yes type=FWD name="flipshare.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="cisco" match-subdomain=yes type=FWD name="gpstheseries.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="cisco" match-subdomain=yes type=FWD name="inlethd.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="cisco" match-subdomain=yes type=FWD name="internetofeverything.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="cisco" match-subdomain=yes type=FWD name="ioe.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="cisco" match-subdomain=yes type=FWD name="kscisco.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="cisco" match-subdomain=yes type=FWD name="m2m.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="cisco" match-subdomain=yes type=FWD name="mcisco.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="cisco" match-subdomain=yes type=FWD name="mearki.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="cisco" match-subdomain=yes type=FWD name="mediafiles-cisco.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="cisco" match-subdomain=yes type=FWD name="meraki-go.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="cisco" match-subdomain=yes type=FWD name="merakigo.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="cisco" match-subdomain=yes type=FWD name="metacloud.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="cisco" match-subdomain=yes type=FWD name="mindmeld.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="cisco" match-subdomain=yes type=FWD name="multiplydiversity.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="cisco" match-subdomain=yes type=FWD name="myciscobenefits.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="cisco" match-subdomain=yes type=FWD name="mysdn.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="cisco" match-subdomain=yes type=FWD name="mysdn.info"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="cisco" match-subdomain=yes type=FWD name="mysdn.net"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="cisco" match-subdomain=yes type=FWD name="netacad.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="cisco" match-subdomain=yes type=FWD name="netacad.net"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="cisco" match-subdomain=yes type=FWD name="observable.net"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="cisco" match-subdomain=yes type=FWD name="obsrvbl.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="cisco" match-subdomain=yes type=FWD name="opendns.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="cisco" match-subdomain=yes type=FWD name="parstream.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="cisco" match-subdomain=yes type=FWD name="parstream.net"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="cisco" match-subdomain=yes type=FWD name="parstream.org"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="cisco" match-subdomain=yes type=FWD name="services-exchange.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="cisco" match-subdomain=yes type=FWD name="static-cisco.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="cisco" match-subdomain=yes type=FWD name="tail-f.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="cisco" match-subdomain=yes type=FWD name="tailf.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="cisco" match-subdomain=yes type=FWD name="tandberg-china.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="cisco" match-subdomain=yes type=FWD name="tandberg.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="cisco" match-subdomain=yes type=FWD name="umbrella.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="cisco" match-subdomain=yes type=FWD name="versly.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="cisco" match-subdomain=yes type=FWD name="videochampion.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="cisco" match-subdomain=yes type=FWD name="virtuata.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="cisco" match-subdomain=yes type=FWD name="wballiance.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="cisco" match-subdomain=yes type=FWD name="webex.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="cisco" match-subdomain=yes type=FWD name="whyiwantciscotelepresence.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="cisco" match-subdomain=yes type=FWD name="wifi-mx.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="cisco" match-subdomain=yes type=FWD name="youtubecisco.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="cisco" type=FWD name="cisco.evergage.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="cisco" type=FWD name="ciscolivehls-i.akamaihd.net"} on-error {}
+:if ([:len [/ip dns static find name="academynetriders.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="cisco" match-subdomain=yes type=FWD name="academynetriders.com" }
+:if ([:len [/ip dns static find name="app-dynamics.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="cisco" match-subdomain=yes type=FWD name="app-dynamics.com" }
+:if ([:len [/ip dns static find name="appdynamics.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="cisco" match-subdomain=yes type=FWD name="appdynamics.com" }
+:if ([:len [/ip dns static find name="appdynamics.info"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="cisco" match-subdomain=yes type=FWD name="appdynamics.info" }
+:if ([:len [/ip dns static find name="appdynamics.org"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="cisco" match-subdomain=yes type=FWD name="appdynamics.org" }
+:if ([:len [/ip dns static find name="cciernslabs.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="cisco" match-subdomain=yes type=FWD name="cciernslabs.com" }
+:if ([:len [/ip dns static find name="cciesecuritylabs.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="cisco" match-subdomain=yes type=FWD name="cciesecuritylabs.com" }
+:if ([:len [/ip dns static find name="ccievoicelabs.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="cisco" match-subdomain=yes type=FWD name="ccievoicelabs.com" }
+:if ([:len [/ip dns static find name="ccna5.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="cisco" match-subdomain=yes type=FWD name="ccna5.net" }
+:if ([:len [/ip dns static find name="cisco"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="cisco" match-subdomain=yes type=FWD name="cisco" }
+:if ([:len [/ip dns static find name="cisco-returns.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="cisco" match-subdomain=yes type=FWD name="cisco-returns.com" }
+:if ([:len [/ip dns static find name="cisco-warrantyfinder.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="cisco" match-subdomain=yes type=FWD name="cisco-warrantyfinder.com" }
+:if ([:len [/ip dns static find name="cisco.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="cisco" match-subdomain=yes type=FWD name="cisco.com" }
+:if ([:len [/ip dns static find name="cisco.mobi"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="cisco" match-subdomain=yes type=FWD name="cisco.mobi" }
+:if ([:len [/ip dns static find name="ciscoccservice.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="cisco" match-subdomain=yes type=FWD name="ciscoccservice.com" }
+:if ([:len [/ip dns static find name="ciscoconnectcloud.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="cisco" match-subdomain=yes type=FWD name="ciscoconnectcloud.com" }
+:if ([:len [/ip dns static find name="ciscoconnectcloud.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="cisco" match-subdomain=yes type=FWD name="ciscoconnectcloud.net" }
+:if ([:len [/ip dns static find name="ciscoconnectcloud.org"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="cisco" match-subdomain=yes type=FWD name="ciscoconnectcloud.org" }
+:if ([:len [/ip dns static find name="ciscocontest.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="cisco" match-subdomain=yes type=FWD name="ciscocontest.com" }
+:if ([:len [/ip dns static find name="ciscoerate.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="cisco" match-subdomain=yes type=FWD name="ciscoerate.com" }
+:if ([:len [/ip dns static find name="ciscofax.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="cisco" match-subdomain=yes type=FWD name="ciscofax.com" }
+:if ([:len [/ip dns static find name="ciscoinvestments.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="cisco" match-subdomain=yes type=FWD name="ciscoinvestments.com" }
+:if ([:len [/ip dns static find name="ciscojabbervideo.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="cisco" match-subdomain=yes type=FWD name="ciscojabbervideo.net" }
+:if ([:len [/ip dns static find name="ciscokinetic.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="cisco" match-subdomain=yes type=FWD name="ciscokinetic.com" }
+:if ([:len [/ip dns static find name="ciscoknowledgenetwork.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="cisco" match-subdomain=yes type=FWD name="ciscoknowledgenetwork.com" }
+:if ([:len [/ip dns static find name="ciscolearningsociety.org"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="cisco" match-subdomain=yes type=FWD name="ciscolearningsociety.org" }
+:if ([:len [/ip dns static find name="ciscolearningsystem.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="cisco" match-subdomain=yes type=FWD name="ciscolearningsystem.com" }
+:if ([:len [/ip dns static find name="ciscolive.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="cisco" match-subdomain=yes type=FWD name="ciscolive.com" }
+:if ([:len [/ip dns static find name="cisconetapp.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="cisco" match-subdomain=yes type=FWD name="cisconetapp.com" }
+:if ([:len [/ip dns static find name="cisconetspace.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="cisco" match-subdomain=yes type=FWD name="cisconetspace.com" }
+:if ([:len [/ip dns static find name="cisconetspace.info"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="cisco" match-subdomain=yes type=FWD name="cisconetspace.info" }
+:if ([:len [/ip dns static find name="cisconetspace.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="cisco" match-subdomain=yes type=FWD name="cisconetspace.net" }
+:if ([:len [/ip dns static find name="ciscopartnermarketing.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="cisco" match-subdomain=yes type=FWD name="ciscopartnermarketing.com" }
+:if ([:len [/ip dns static find name="ciscopowercube.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="cisco" match-subdomain=yes type=FWD name="ciscopowercube.com" }
+:if ([:len [/ip dns static find name="ciscoprice.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="cisco" match-subdomain=yes type=FWD name="ciscoprice.com" }
+:if ([:len [/ip dns static find name="ciscoresearch.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="cisco" match-subdomain=yes type=FWD name="ciscoresearch.com" }
+:if ([:len [/ip dns static find name="ciscosoftware.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="cisco" match-subdomain=yes type=FWD name="ciscosoftware.com" }
+:if ([:len [/ip dns static find name="ciscospark.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="cisco" match-subdomain=yes type=FWD name="ciscospark.com" }
+:if ([:len [/ip dns static find name="ciscotaccc.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="cisco" match-subdomain=yes type=FWD name="ciscotaccc.com" }
+:if ([:len [/ip dns static find name="ciscotr.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="cisco" match-subdomain=yes type=FWD name="ciscotr.com" }
+:if ([:len [/ip dns static find name="ciscoturk.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="cisco" match-subdomain=yes type=FWD name="ciscoturk.net" }
+:if ([:len [/ip dns static find name="ciscovideo.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="cisco" match-subdomain=yes type=FWD name="ciscovideo.com" }
+:if ([:len [/ip dns static find name="ciscowebseminars.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="cisco" match-subdomain=yes type=FWD name="ciscowebseminars.com" }
+:if ([:len [/ip dns static find name="cloudlock.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="cisco" match-subdomain=yes type=FWD name="cloudlock.com" }
+:if ([:len [/ip dns static find name="cloupia.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="cisco" match-subdomain=yes type=FWD name="cloupia.com" }
+:if ([:len [/ip dns static find name="cloupia.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="cisco" match-subdomain=yes type=FWD name="cloupia.net" }
+:if ([:len [/ip dns static find name="connect-in-canada.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="cisco" match-subdomain=yes type=FWD name="connect-in-canada.com" }
+:if ([:len [/ip dns static find name="coreoptics.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="cisco" match-subdomain=yes type=FWD name="coreoptics.net" }
+:if ([:len [/ip dns static find name="cs.co"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="cisco" match-subdomain=yes type=FWD name="cs.co" }
+:if ([:len [/ip dns static find name="devm2m.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="cisco" match-subdomain=yes type=FWD name="devm2m.com" }
+:if ([:len [/ip dns static find name="dnaspaces.io"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="cisco" match-subdomain=yes type=FWD name="dnaspaces.io" }
+:if ([:len [/ip dns static find name="flipshare.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="cisco" match-subdomain=yes type=FWD name="flipshare.com" }
+:if ([:len [/ip dns static find name="gpstheseries.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="cisco" match-subdomain=yes type=FWD name="gpstheseries.com" }
+:if ([:len [/ip dns static find name="inlethd.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="cisco" match-subdomain=yes type=FWD name="inlethd.com" }
+:if ([:len [/ip dns static find name="internetofeverything.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="cisco" match-subdomain=yes type=FWD name="internetofeverything.com" }
+:if ([:len [/ip dns static find name="ioe.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="cisco" match-subdomain=yes type=FWD name="ioe.com" }
+:if ([:len [/ip dns static find name="kscisco.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="cisco" match-subdomain=yes type=FWD name="kscisco.com" }
+:if ([:len [/ip dns static find name="m2m.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="cisco" match-subdomain=yes type=FWD name="m2m.com" }
+:if ([:len [/ip dns static find name="mcisco.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="cisco" match-subdomain=yes type=FWD name="mcisco.com" }
+:if ([:len [/ip dns static find name="mearki.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="cisco" match-subdomain=yes type=FWD name="mearki.com" }
+:if ([:len [/ip dns static find name="mediafiles-cisco.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="cisco" match-subdomain=yes type=FWD name="mediafiles-cisco.com" }
+:if ([:len [/ip dns static find name="meraki-go.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="cisco" match-subdomain=yes type=FWD name="meraki-go.com" }
+:if ([:len [/ip dns static find name="merakigo.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="cisco" match-subdomain=yes type=FWD name="merakigo.com" }
+:if ([:len [/ip dns static find name="metacloud.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="cisco" match-subdomain=yes type=FWD name="metacloud.com" }
+:if ([:len [/ip dns static find name="mindmeld.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="cisco" match-subdomain=yes type=FWD name="mindmeld.com" }
+:if ([:len [/ip dns static find name="multiplydiversity.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="cisco" match-subdomain=yes type=FWD name="multiplydiversity.com" }
+:if ([:len [/ip dns static find name="myciscobenefits.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="cisco" match-subdomain=yes type=FWD name="myciscobenefits.com" }
+:if ([:len [/ip dns static find name="mysdn.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="cisco" match-subdomain=yes type=FWD name="mysdn.com" }
+:if ([:len [/ip dns static find name="mysdn.info"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="cisco" match-subdomain=yes type=FWD name="mysdn.info" }
+:if ([:len [/ip dns static find name="mysdn.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="cisco" match-subdomain=yes type=FWD name="mysdn.net" }
+:if ([:len [/ip dns static find name="netacad.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="cisco" match-subdomain=yes type=FWD name="netacad.com" }
+:if ([:len [/ip dns static find name="netacad.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="cisco" match-subdomain=yes type=FWD name="netacad.net" }
+:if ([:len [/ip dns static find name="observable.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="cisco" match-subdomain=yes type=FWD name="observable.net" }
+:if ([:len [/ip dns static find name="obsrvbl.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="cisco" match-subdomain=yes type=FWD name="obsrvbl.com" }
+:if ([:len [/ip dns static find name="opendns.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="cisco" match-subdomain=yes type=FWD name="opendns.com" }
+:if ([:len [/ip dns static find name="parstream.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="cisco" match-subdomain=yes type=FWD name="parstream.com" }
+:if ([:len [/ip dns static find name="parstream.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="cisco" match-subdomain=yes type=FWD name="parstream.net" }
+:if ([:len [/ip dns static find name="parstream.org"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="cisco" match-subdomain=yes type=FWD name="parstream.org" }
+:if ([:len [/ip dns static find name="services-exchange.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="cisco" match-subdomain=yes type=FWD name="services-exchange.com" }
+:if ([:len [/ip dns static find name="static-cisco.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="cisco" match-subdomain=yes type=FWD name="static-cisco.com" }
+:if ([:len [/ip dns static find name="tail-f.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="cisco" match-subdomain=yes type=FWD name="tail-f.com" }
+:if ([:len [/ip dns static find name="tailf.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="cisco" match-subdomain=yes type=FWD name="tailf.com" }
+:if ([:len [/ip dns static find name="tandberg-china.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="cisco" match-subdomain=yes type=FWD name="tandberg-china.com" }
+:if ([:len [/ip dns static find name="tandberg.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="cisco" match-subdomain=yes type=FWD name="tandberg.com" }
+:if ([:len [/ip dns static find name="umbrella.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="cisco" match-subdomain=yes type=FWD name="umbrella.com" }
+:if ([:len [/ip dns static find name="versly.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="cisco" match-subdomain=yes type=FWD name="versly.com" }
+:if ([:len [/ip dns static find name="videochampion.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="cisco" match-subdomain=yes type=FWD name="videochampion.com" }
+:if ([:len [/ip dns static find name="virtuata.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="cisco" match-subdomain=yes type=FWD name="virtuata.com" }
+:if ([:len [/ip dns static find name="wballiance.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="cisco" match-subdomain=yes type=FWD name="wballiance.com" }
+:if ([:len [/ip dns static find name="webex.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="cisco" match-subdomain=yes type=FWD name="webex.com" }
+:if ([:len [/ip dns static find name="whyiwantciscotelepresence.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="cisco" match-subdomain=yes type=FWD name="whyiwantciscotelepresence.com" }
+:if ([:len [/ip dns static find name="wifi-mx.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="cisco" match-subdomain=yes type=FWD name="wifi-mx.com" }
+:if ([:len [/ip dns static find name="youtubecisco.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="cisco" match-subdomain=yes type=FWD name="youtubecisco.com" }
+:if ([:len [/ip dns static find name="cisco.evergage.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="cisco" type=FWD name="cisco.evergage.com" }
+:if ([:len [/ip dns static find name="ciscolivehls-i.akamaihd.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="cisco" type=FWD name="ciscolivehls-i.akamaihd.net" }

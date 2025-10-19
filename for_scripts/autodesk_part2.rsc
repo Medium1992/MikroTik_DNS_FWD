@@ -1,253 +1,153 @@
 :global AddressList
 :global ForwardTo
 /ip dns static
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="autodesk" match-subdomain=yes type=FWD name="delcam.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="autodesk" match-subdomain=yes type=FWD name="delcamconsulting.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="autodesk" match-subdomain=yes type=FWD name="delcamforsolidworks.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="autodesk" match-subdomain=yes type=FWD name="delcamna.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="autodesk" match-subdomain=yes type=FWD name="delcamtv.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="autodesk" match-subdomain=yes type=FWD name="delcamuniversity.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="autodesk" match-subdomain=yes type=FWD name="delcamusa.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="autodesk" match-subdomain=yes type=FWD name="design-ledrev.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="autodesk" match-subdomain=yes type=FWD name="design-ledrevolution.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="autodesk" match-subdomain=yes type=FWD name="designledrevolution.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="autodesk" match-subdomain=yes type=FWD name="designsformovement.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="autodesk" match-subdomain=yes type=FWD name="designxml.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="autodesk" match-subdomain=yes type=FWD name="designxml.net"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="autodesk" match-subdomain=yes type=FWD name="destinationbim.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="autodesk" match-subdomain=yes type=FWD name="digitalprototyping.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="autodesk" match-subdomain=yes type=FWD name="discreet.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="autodesk" match-subdomain=yes type=FWD name="dodv.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="autodesk" match-subdomain=yes type=FWD name="drainage.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="autodesk" match-subdomain=yes type=FWD name="drnastran.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="autodesk" match-subdomain=yes type=FWD name="dwg.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="autodesk" match-subdomain=yes type=FWD name="dwgtrueconvert.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="autodesk" match-subdomain=yes type=FWD name="dwgtrueview.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="autodesk" match-subdomain=yes type=FWD name="dynamobuilds.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="autodesk" match-subdomain=yes type=FWD name="dynamopackages.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="autodesk" match-subdomain=yes type=FWD name="dynamoreach.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="autodesk" match-subdomain=yes type=FWD name="ecotect.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="autodesk" match-subdomain=yes type=FWD name="ecotect.net"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="autodesk" match-subdomain=yes type=FWD name="ecscad.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="autodesk" match-subdomain=yes type=FWD name="ecspublisher.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="autodesk" match-subdomain=yes type=FWD name="education-cadcam.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="autodesk" match-subdomain=yes type=FWD name="ember3dp.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="autodesk" match-subdomain=yes type=FWD name="emberprinter.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="autodesk" match-subdomain=yes type=FWD name="emergingsolutions.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="autodesk" match-subdomain=yes type=FWD name="energystarbuildings.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="autodesk" match-subdomain=yes type=FWD name="eraofconnection.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="autodesk" match-subdomain=yes type=FWD name="esopworld.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="autodesk" match-subdomain=yes type=FWD name="eueuropeansustainabledesign.net"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="autodesk" match-subdomain=yes type=FWD name="eurocodesoftware.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="autodesk" match-subdomain=yes type=FWD name="europeansustainabledesign.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="autodesk" match-subdomain=yes type=FWD name="europeansustainabledesign.net"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="autodesk" match-subdomain=yes type=FWD name="europeansustainabledesigncouncil.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="autodesk" match-subdomain=yes type=FWD name="europeansustainabledesigncouncil.net"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="autodesk" match-subdomain=yes type=FWD name="evalviewer.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="autodesk" match-subdomain=yes type=FWD name="evolver.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="autodesk" match-subdomain=yes type=FWD name="evolver3d.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="autodesk" match-subdomain=yes type=FWD name="evolverpro.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="autodesk" match-subdomain=yes type=FWD name="extensions4revit.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="autodesk" match-subdomain=yes type=FWD name="fakeorfoto.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="autodesk" match-subdomain=yes type=FWD name="fakeorphoto.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="autodesk" match-subdomain=yes type=FWD name="feanonlinear.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="autodesk" match-subdomain=yes type=FWD name="featurecam.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="autodesk" match-subdomain=yes type=FWD name="five-d.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="autodesk" match-subdomain=yes type=FWD name="flameunleashed.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="autodesk" match-subdomain=yes type=FWD name="flowfront.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="autodesk" match-subdomain=yes type=FWD name="flowfront.net"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="autodesk" match-subdomain=yes type=FWD name="fluidfxapp.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="autodesk" match-subdomain=yes type=FWD name="fmdesktop.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="autodesk" match-subdomain=yes type=FWD name="followpype.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="autodesk" match-subdomain=yes type=FWD name="footwear-cadcam.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="autodesk" match-subdomain=yes type=FWD name="formit360.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="autodesk" match-subdomain=yes type=FWD name="formitfactory.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="autodesk" match-subdomain=yes type=FWD name="freefbx.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="autodesk" match-subdomain=yes type=FWD name="fusionlifecycle.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="autodesk" match-subdomain=yes type=FWD name="fusionproductionapps.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="autodesk" match-subdomain=yes type=FWD name="futureofbritishmanufacturing.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="autodesk" match-subdomain=yes type=FWD name="futureofmaktingthings.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="autodesk" match-subdomain=yes type=FWD name="gbxml.net"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="autodesk" match-subdomain=yes type=FWD name="geneticconstructor.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="autodesk" match-subdomain=yes type=FWD name="geospatialimaging.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="autodesk" match-subdomain=yes type=FWD name="geospatialinfo.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="autodesk" match-subdomain=yes type=FWD name="getbuzzsaw.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="autodesk" match-subdomain=yes type=FWD name="givemebuzzsaw.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="autodesk" match-subdomain=yes type=FWD name="gobuildx.net"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="autodesk" match-subdomain=yes type=FWD name="governmentengineer.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="autodesk" match-subdomain=yes type=FWD name="greenbuildingstudio.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="autodesk" match-subdomain=yes type=FWD name="hmsxpress.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="autodesk" match-subdomain=yes type=FWD name="homestylerapp.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="autodesk" match-subdomain=yes type=FWD name="homestylernews.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="autodesk" match-subdomain=yes type=FWD name="horizontal-llc.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="autodesk" match-subdomain=yes type=FWD name="horizontal-systems.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="autodesk" match-subdomain=yes type=FWD name="horizontalglue.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="autodesk" match-subdomain=yes type=FWD name="horizontalsystems.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="autodesk" match-subdomain=yes type=FWD name="hsm-works.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="autodesk" match-subdomain=yes type=FWD name="hsm-xpress.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="autodesk" match-subdomain=yes type=FWD name="hsmexpress.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="autodesk" match-subdomain=yes type=FWD name="hsmworks.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="autodesk" match-subdomain=yes type=FWD name="hsmxpress.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="autodesk" match-subdomain=yes type=FWD name="idea-server.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="autodesk" match-subdomain=yes type=FWD name="imagemodeler.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="autodesk" match-subdomain=yes type=FWD name="imaginationsengine.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="autodesk" match-subdomain=yes type=FWD name="impactdesignhub.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="autodesk" match-subdomain=yes type=FWD name="infraworks.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="autodesk" match-subdomain=yes type=FWD name="installbuzzsaw.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="autodesk" match-subdomain=yes type=FWD name="intelisolve.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="autodesk" match-subdomain=yes type=FWD name="inventor-certified.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="autodesk" match-subdomain=yes type=FWD name="inventorfusion.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="autodesk" match-subdomain=yes type=FWD name="inventorseries.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="autodesk" match-subdomain=yes type=FWD name="istorytell.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="autodesk" match-subdomain=yes type=FWD name="izmirautodeskegitimleri.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="autodesk" match-subdomain=yes type=FWD name="jasa3dmax.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="autodesk" match-subdomain=yes type=FWD name="jasaautocad.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="autodesk" match-subdomain=yes type=FWD name="kaydara.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="autodesk" match-subdomain=yes type=FWD name="keepyourcad.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="autodesk" match-subdomain=yes type=FWD name="kynogon.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="autodesk" match-subdomain=yes type=FWD name="lasersawapp.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="autodesk" match-subdomain=yes type=FWD name="licenseparser.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="autodesk" match-subdomain=yes type=FWD name="livesketchshare.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="autodesk" match-subdomain=yes type=FWD name="lrfdsoftware.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="autodesk" match-subdomain=yes type=FWD name="lunchwithpype.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="autodesk" match-subdomain=yes type=FWD name="machine-dna.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="autodesk" match-subdomain=yes type=FWD name="madewithmaya.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="autodesk" match-subdomain=yes type=FWD name="madewithstudiotools.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="autodesk" match-subdomain=yes type=FWD name="magestic.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="autodesk" match-subdomain=yes type=FWD name="makeanything.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="autodesk" match-subdomain=yes type=FWD name="makeitrealcontest.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="autodesk" match-subdomain=yes type=FWD name="makingstartshere.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="autodesk" match-subdomain=yes type=FWD name="map-software.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="autodesk" match-subdomain=yes type=FWD name="mapguide.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="autodesk" match-subdomain=yes type=FWD name="mappingonline.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="autodesk" match-subdomain=yes type=FWD name="marinecadcam.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="autodesk" match-subdomain=yes type=FWD name="markingmenus.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="autodesk" match-subdomain=yes type=FWD name="matchmover.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="autodesk" match-subdomain=yes type=FWD name="maxillofacial-cadcam.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="autodesk" match-subdomain=yes type=FWD name="mayacomplete.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="autodesk" match-subdomain=yes type=FWD name="mayaconductors.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="autodesk" match-subdomain=yes type=FWD name="mayafluideffects.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="autodesk" match-subdomain=yes type=FWD name="mayaformotiongraphics.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="autodesk" match-subdomain=yes type=FWD name="mayagames.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="autodesk" match-subdomain=yes type=FWD name="mayamasters.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="autodesk" match-subdomain=yes type=FWD name="mayamentor.net"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="autodesk" match-subdomain=yes type=FWD name="mayamentors.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="autodesk" match-subdomain=yes type=FWD name="mayamentors.net"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="autodesk" match-subdomain=yes type=FWD name="mayaonlinux.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="autodesk" match-subdomain=yes type=FWD name="mayaonmac.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="autodesk" match-subdomain=yes type=FWD name="mayaonosx.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="autodesk" match-subdomain=yes type=FWD name="mayapressbooks.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="autodesk" match-subdomain=yes type=FWD name="mayasucks.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="autodesk" match-subdomain=yes type=FWD name="mayaunlimited.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="autodesk" match-subdomain=yes type=FWD name="mayauser.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="autodesk" match-subdomain=yes type=FWD name="mayauser.net"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="autodesk" match-subdomain=yes type=FWD name="mayavisualization.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="autodesk" match-subdomain=yes type=FWD name="medicalimplants-cadcam.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="autodesk" match-subdomain=yes type=FWD name="meshmixer.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="autodesk" match-subdomain=yes type=FWD name="meshmixerforum.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="autodesk" match-subdomain=yes type=FWD name="mimistudio.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="autodesk" match-subdomain=yes type=FWD name="mimistyler.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="autodesk" match-subdomain=yes type=FWD name="mmmanual.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="autodesk" match-subdomain=yes type=FWD name="moldflow.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="autodesk" match-subdomain=yes type=FWD name="moldflowexpress.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="autodesk" match-subdomain=yes type=FWD name="moleculardesigntoolkit.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="autodesk" match-subdomain=yes type=FWD name="molecularsimulationtools.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="autodesk" match-subdomain=yes type=FWD name="molecularviewer.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="autodesk" match-subdomain=yes type=FWD name="molviewer.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="autodesk" match-subdomain=yes type=FWD name="morewithautodesk.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="autodesk" match-subdomain=yes type=FWD name="motiongraphicsandmore.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="autodesk" match-subdomain=yes type=FWD name="mudbox3d.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="autodesk" match-subdomain=yes type=FWD name="my1stflame.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="autodesk" match-subdomain=yes type=FWD name="myautocad.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="autodesk" match-subdomain=yes type=FWD name="myautodeskbenefits.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="autodesk" match-subdomain=yes type=FWD name="myfirstflame.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="autodesk" match-subdomain=yes type=FWD name="mymapportal.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="autodesk" match-subdomain=yes type=FWD name="nastranincad.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="autodesk" match-subdomain=yes type=FWD name="nastrannx.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="autodesk" match-subdomain=yes type=FWD name="nastrantraining.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="autodesk" match-subdomain=yes type=FWD name="nastranworldwide.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="autodesk" match-subdomain=yes type=FWD name="navisworks.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="autodesk" match-subdomain=yes type=FWD name="navisworks.net"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="autodesk" match-subdomain=yes type=FWD name="neicad.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="autodesk" match-subdomain=yes type=FWD name="neiexplicit.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="autodesk" match-subdomain=yes type=FWD name="neifea.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="autodesk" match-subdomain=yes type=FWD name="neimotion.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="autodesk" match-subdomain=yes type=FWD name="neinastranincad.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="autodesk" match-subdomain=yes type=FWD name="neisoftware.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="autodesk" match-subdomain=yes type=FWD name="neisolutions.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="autodesk" match-subdomain=yes type=FWD name="neiworks.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="autodesk" match-subdomain=yes type=FWD name="nenastran.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="autodesk" match-subdomain=yes type=FWD name="netzerobuildings.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="autodesk" match-subdomain=yes type=FWD name="netzerobuildingstudio.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="autodesk" match-subdomain=yes type=FWD name="new2fea.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="autodesk" match-subdomain=yes type=FWD name="newtofea.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="autodesk" match-subdomain=yes type=FWD name="nextgenerationcam.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="autodesk" match-subdomain=yes type=FWD name="nonlinearnastran.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="autodesk" match-subdomain=yes type=FWD name="objectarx.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="autodesk" match-subdomain=yes type=FWD name="oneteamconference.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="autodesk" match-subdomain=yes type=FWD name="openreality.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="autodesk" match-subdomain=yes type=FWD name="opticore.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="autodesk" match-subdomain=yes type=FWD name="orthopaedic-cadcam.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="autodesk" match-subdomain=yes type=FWD name="orthotics-cadcam.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="autodesk" match-subdomain=yes type=FWD name="packaging-cadcam.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="autodesk" match-subdomain=yes type=FWD name="packagingcadcam.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="autodesk" match-subdomain=yes type=FWD name="partmaker.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="autodesk" match-subdomain=yes type=FWD name="pi-vr.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="autodesk" match-subdomain=yes type=FWD name="pixlr-o-matic.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="autodesk" match-subdomain=yes type=FWD name="pixlromatic.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="autodesk" match-subdomain=yes type=FWD name="plansondemand.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="autodesk" match-subdomain=yes type=FWD name="plasticlabs.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="autodesk" match-subdomain=yes type=FWD name="plastics-cadcam.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="autodesk" match-subdomain=yes type=FWD name="plug-into.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="autodesk" match-subdomain=yes type=FWD name="portfoliowall.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="autodesk" match-subdomain=yes type=FWD name="poweranimator.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="autodesk" match-subdomain=yes type=FWD name="powerinspect.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="autodesk" match-subdomain=yes type=FWD name="powermill.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="autodesk" match-subdomain=yes type=FWD name="powermillna.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="autodesk" match-subdomain=yes type=FWD name="powershape-e.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="autodesk" match-subdomain=yes type=FWD name="powershape.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="autodesk" match-subdomain=yes type=FWD name="profilemaster.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="autodesk" match-subdomain=yes type=FWD name="projectpoint.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="autodesk" match-subdomain=yes type=FWD name="projectpoint.net"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="autodesk" match-subdomain=yes type=FWD name="projectshoreline.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="autodesk" match-subdomain=yes type=FWD name="projectvasari.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="autodesk" match-subdomain=yes type=FWD name="ps-exchange.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="autodesk" match-subdomain=yes type=FWD name="rapidprototyping-cadcam.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="autodesk" match-subdomain=yes type=FWD name="reality-computing.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="autodesk" match-subdomain=yes type=FWD name="realpeople-realprojects.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="autodesk" match-subdomain=yes type=FWD name="realpeoplerealprojects.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="autodesk" match-subdomain=yes type=FWD name="realviz.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="autodesk" match-subdomain=yes type=FWD name="retimer.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="autodesk" match-subdomain=yes type=FWD name="revit.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="autodesk" match-subdomain=yes type=FWD name="revitcc.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="autodesk" match-subdomain=yes type=FWD name="revitsucks.net"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="autodesk" match-subdomain=yes type=FWD name="robobat.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="autodesk" match-subdomain=yes type=FWD name="robotoffice.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="autodesk" match-subdomain=yes type=FWD name="savoycomputing.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="autodesk" match-subdomain=yes type=FWD name="scaleform.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="autodesk" match-subdomain=yes type=FWD name="scpic.net"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="autodesk" match-subdomain=yes type=FWD name="sculpoly.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="autodesk" match-subdomain=yes type=FWD name="shotgridsoftware.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="autodesk" match-subdomain=yes type=FWD name="shotgridstudio.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="autodesk" match-subdomain=yes type=FWD name="shotguncloud.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="autodesk" match-subdomain=yes type=FWD name="shotgunfx.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="autodesk" match-subdomain=yes type=FWD name="shotgunlocalhost.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="autodesk" match-subdomain=yes type=FWD name="shotgunsoftware.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="autodesk" match-subdomain=yes type=FWD name="shotgunsoftware.net"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="autodesk" match-subdomain=yes type=FWD name="shotgunstudio-test.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="autodesk" match-subdomain=yes type=FWD name="shotgunstudio.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="autodesk" match-subdomain=yes type=FWD name="shotgunvfx.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="autodesk" match-subdomain=yes type=FWD name="simsquad.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="autodesk" match-subdomain=yes type=FWD name="simulationsquad.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="autodesk" match-subdomain=yes type=FWD name="sketchbookdesigner.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="autodesk" match-subdomain=yes type=FWD name="sketchbookmobile.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="autodesk" match-subdomain=yes type=FWD name="sketchbooknews.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="autodesk" match-subdomain=yes type=FWD name="sketchbookpro.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="autodesk" match-subdomain=yes type=FWD name="skymatter.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="autodesk" match-subdomain=yes type=FWD name="smartfea.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="autodesk" match-subdomain=yes type=FWD name="smartnastran.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="autodesk" match-subdomain=yes type=FWD name="socailcam.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="autodesk" match-subdomain=yes type=FWD name="socialcam.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="autodesk" match-subdomain=yes type=FWD name="socialcammail.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="autodesk" match-subdomain=yes type=FWD name="socialkam.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="autodesk" match-subdomain=yes type=FWD name="squ1.com"} on-error {}
+:if ([:len [/ip dns static find name="autodesklms.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="autodesk" match-subdomain=yes type=FWD name="autodesklms.com" }
+:if ([:len [/ip dns static find name="autodeskmanufacturingacademy.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="autodesk" match-subdomain=yes type=FWD name="autodeskmanufacturingacademy.com" }
+:if ([:len [/ip dns static find name="autodeskmayaformotiongraphics.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="autodesk" match-subdomain=yes type=FWD name="autodeskmayaformotiongraphics.com" }
+:if ([:len [/ip dns static find name="autodeskmedbookrequest.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="autodesk" match-subdomain=yes type=FWD name="autodeskmedbookrequest.com" }
+:if ([:len [/ip dns static find name="autodeskmedia.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="autodesk" match-subdomain=yes type=FWD name="autodeskmedia.com" }
+:if ([:len [/ip dns static find name="autodeskmediarequest.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="autodesk" match-subdomain=yes type=FWD name="autodeskmediarequest.com" }
+:if ([:len [/ip dns static find name="autodeskmeetings.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="autodesk" match-subdomain=yes type=FWD name="autodeskmeetings.com" }
+:if ([:len [/ip dns static find name="autodeskmfg.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="autodesk" match-subdomain=yes type=FWD name="autodeskmfg.com" }
+:if ([:len [/ip dns static find name="autodeskmotiongraphicsandmore.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="autodesk" match-subdomain=yes type=FWD name="autodeskmotiongraphicsandmore.com" }
+:if ([:len [/ip dns static find name="autodesknews.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="autodesk" match-subdomain=yes type=FWD name="autodesknews.com" }
+:if ([:len [/ip dns static find name="autodeskonline.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="autodesk" match-subdomain=yes type=FWD name="autodeskonline.com" }
+:if ([:len [/ip dns static find name="autodeskpartner.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="autodesk" match-subdomain=yes type=FWD name="autodeskpartner.com" }
+:if ([:len [/ip dns static find name="autodeskplm.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="autodesk" match-subdomain=yes type=FWD name="autodeskplm.com" }
+:if ([:len [/ip dns static find name="autodeskplm360.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="autodesk" match-subdomain=yes type=FWD name="autodeskplm360.com" }
+:if ([:len [/ip dns static find name="autodeskplm360.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="autodesk" match-subdomain=yes type=FWD name="autodeskplm360.net" }
+:if ([:len [/ip dns static find name="autodeskproductreviews.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="autodesk" match-subdomain=yes type=FWD name="autodeskproductreviews.com" }
+:if ([:len [/ip dns static find name="autodeskprofiles.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="autodesk" match-subdomain=yes type=FWD name="autodeskprofiles.com" }
+:if ([:len [/ip dns static find name="autodeskprograms.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="autodesk" match-subdomain=yes type=FWD name="autodeskprograms.com" }
+:if ([:len [/ip dns static find name="autodeskresearch.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="autodesk" match-subdomain=yes type=FWD name="autodeskresearch.com" }
+:if ([:len [/ip dns static find name="autodeskrevit.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="autodesk" match-subdomain=yes type=FWD name="autodeskrevit.com" }
+:if ([:len [/ip dns static find name="autodeskrevit.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="autodesk" match-subdomain=yes type=FWD name="autodeskrevit.net" }
+:if ([:len [/ip dns static find name="autodeskrevitsucks.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="autodesk" match-subdomain=yes type=FWD name="autodeskrevitsucks.com" }
+:if ([:len [/ip dns static find name="autodeskrevitsucks.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="autodesk" match-subdomain=yes type=FWD name="autodeskrevitsucks.net" }
+:if ([:len [/ip dns static find name="autodeskseek.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="autodesk" match-subdomain=yes type=FWD name="autodeskseek.com" }
+:if ([:len [/ip dns static find name="autodesksketchbook.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="autodesk" match-subdomain=yes type=FWD name="autodesksketchbook.com" }
+:if ([:len [/ip dns static find name="autodesksketchbookdesigner.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="autodesk" match-subdomain=yes type=FWD name="autodesksketchbookdesigner.com" }
+:if ([:len [/ip dns static find name="autodeskstylebook.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="autodesk" match-subdomain=yes type=FWD name="autodeskstylebook.com" }
+:if ([:len [/ip dns static find name="autodesksubscription.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="autodesk" match-subdomain=yes type=FWD name="autodesksubscription.com" }
+:if ([:len [/ip dns static find name="autodesksucks.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="autodesk" match-subdomain=yes type=FWD name="autodesksucks.com" }
+:if ([:len [/ip dns static find name="autodesksucks.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="autodesk" match-subdomain=yes type=FWD name="autodesksucks.net" }
+:if ([:len [/ip dns static find name="autodesktechdays.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="autodesk" match-subdomain=yes type=FWD name="autodesktechdays.com" }
+:if ([:len [/ip dns static find name="autodesktechx.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="autodesk" match-subdomain=yes type=FWD name="autodesktechx.com" }
+:if ([:len [/ip dns static find name="autodesktinkerbox.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="autodesk" match-subdomain=yes type=FWD name="autodesktinkerbox.com" }
+:if ([:len [/ip dns static find name="autodesktravel.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="autodesk" match-subdomain=yes type=FWD name="autodesktravel.com" }
+:if ([:len [/ip dns static find name="autodeskturkiye.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="autodesk" match-subdomain=yes type=FWD name="autodeskturkiye.com" }
+:if ([:len [/ip dns static find name="autodeskuniversity.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="autodesk" match-subdomain=yes type=FWD name="autodeskuniversity.com" }
+:if ([:len [/ip dns static find name="autodeskuniversity2013.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="autodesk" match-subdomain=yes type=FWD name="autodeskuniversity2013.com" }
+:if ([:len [/ip dns static find name="autodeskvasari.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="autodesk" match-subdomain=yes type=FWD name="autodeskvasari.com" }
+:if ([:len [/ip dns static find name="autodeskvasari.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="autodesk" match-subdomain=yes type=FWD name="autodeskvasari.net" }
+:if ([:len [/ip dns static find name="autodeskvietnam.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="autodesk" match-subdomain=yes type=FWD name="autodeskvietnam.com" }
+:if ([:len [/ip dns static find name="autodeskviewer.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="autodesk" match-subdomain=yes type=FWD name="autodeskviewer.com" }
+:if ([:len [/ip dns static find name="autodeskworkshop.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="autodesk" match-subdomain=yes type=FWD name="autodeskworkshop.com" }
+:if ([:len [/ip dns static find name="autodeskworkshop.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="autodesk" match-subdomain=yes type=FWD name="autodeskworkshop.net" }
+:if ([:len [/ip dns static find name="automotive-cadcam.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="autodesk" match-subdomain=yes type=FWD name="automotive-cadcam.com" }
+:if ([:len [/ip dns static find name="autosketch.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="autodesk" match-subdomain=yes type=FWD name="autosketch.com" }
+:if ([:len [/ip dns static find name="auxdubai.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="autodesk" match-subdomain=yes type=FWD name="auxdubai.com" }
+:if ([:len [/ip dns static find name="avatara.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="autodesk" match-subdomain=yes type=FWD name="avatara.com" }
+:if ([:len [/ip dns static find name="behindthescreenz.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="autodesk" match-subdomain=yes type=FWD name="behindthescreenz.com" }
+:if ([:len [/ip dns static find name="best4bim.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="autodesk" match-subdomain=yes type=FWD name="best4bim.com" }
+:if ([:len [/ip dns static find name="bestbim.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="autodesk" match-subdomain=yes type=FWD name="bestbim.com" }
+:if ([:len [/ip dns static find name="betterbim.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="autodesk" match-subdomain=yes type=FWD name="betterbim.com" }
+:if ([:len [/ip dns static find name="betterwithautodesk.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="autodesk" match-subdomain=yes type=FWD name="betterwithautodesk.com" }
+:if ([:len [/ip dns static find name="bim-360.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="autodesk" match-subdomain=yes type=FWD name="bim-360.com" }
+:if ([:len [/ip dns static find name="bim360.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="autodesk" match-subdomain=yes type=FWD name="bim360.com" }
+:if ([:len [/ip dns static find name="bim360.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="autodesk" match-subdomain=yes type=FWD name="bim360.net" }
+:if ([:len [/ip dns static find name="bim360field.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="autodesk" match-subdomain=yes type=FWD name="bim360field.com" }
+:if ([:len [/ip dns static find name="bim360glue.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="autodesk" match-subdomain=yes type=FWD name="bim360glue.com" }
+:if ([:len [/ip dns static find name="bim360ops.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="autodesk" match-subdomain=yes type=FWD name="bim360ops.com" }
+:if ([:len [/ip dns static find name="bim3dcontent.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="autodesk" match-subdomain=yes type=FWD name="bim3dcontent.com" }
+:if ([:len [/ip dns static find name="bimadsk.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="autodesk" match-subdomain=yes type=FWD name="bimadsk.com" }
+:if ([:len [/ip dns static find name="bimglue.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="autodesk" match-subdomain=yes type=FWD name="bimglue.com" }
+:if ([:len [/ip dns static find name="bimlibrary.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="autodesk" match-subdomain=yes type=FWD name="bimlibrary.com" }
+:if ([:len [/ip dns static find name="bimseeker.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="autodesk" match-subdomain=yes type=FWD name="bimseeker.com" }
+:if ([:len [/ip dns static find name="bimsource.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="autodesk" match-subdomain=yes type=FWD name="bimsource.com" }
+:if ([:len [/ip dns static find name="bimworld.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="autodesk" match-subdomain=yes type=FWD name="bimworld.com" }
+:if ([:len [/ip dns static find name="bridgebim.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="autodesk" match-subdomain=yes type=FWD name="bridgebim.com" }
+:if ([:len [/ip dns static find name="brni.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="autodesk" match-subdomain=yes type=FWD name="brni.com" }
+:if ([:len [/ip dns static find name="building3dcontent.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="autodesk" match-subdomain=yes type=FWD name="building3dcontent.com" }
+:if ([:len [/ip dns static find name="cad-mep.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="autodesk" match-subdomain=yes type=FWD name="cad-mep.com" }
+:if ([:len [/ip dns static find name="cadcamsystemsinc.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="autodesk" match-subdomain=yes type=FWD name="cadcamsystemsinc.com" }
+:if ([:len [/ip dns static find name="cadduct.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="autodesk" match-subdomain=yes type=FWD name="cadduct.com" }
+:if ([:len [/ip dns static find name="cadmep.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="autodesk" match-subdomain=yes type=FWD name="cadmep.com" }
+:if ([:len [/ip dns static find name="cadoverlay.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="autodesk" match-subdomain=yes type=FWD name="cadoverlay.com" }
+:if ([:len [/ip dns static find name="cadren.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="autodesk" match-subdomain=yes type=FWD name="cadren.com" }
+:if ([:len [/ip dns static find name="caice.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="autodesk" match-subdomain=yes type=FWD name="caice.com" }
+:if ([:len [/ip dns static find name="cam-duct.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="autodesk" match-subdomain=yes type=FWD name="cam-duct.com" }
+:if ([:len [/ip dns static find name="camduct.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="autodesk" match-subdomain=yes type=FWD name="camduct.com" }
+:if ([:len [/ip dns static find name="ceramics-cadcam.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="autodesk" match-subdomain=yes type=FWD name="ceramics-cadcam.com" }
+:if ([:len [/ip dns static find name="cfd-tv.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="autodesk" match-subdomain=yes type=FWD name="cfd-tv.com" }
+:if ([:len [/ip dns static find name="cfdesign.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="autodesk" match-subdomain=yes type=FWD name="cfdesign.com" }
+:if ([:len [/ip dns static find name="china-autodesk.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="autodesk" match-subdomain=yes type=FWD name="china-autodesk.com" }
+:if ([:len [/ip dns static find name="citrixandautodesk.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="autodesk" match-subdomain=yes type=FWD name="citrixandautodesk.com" }
+:if ([:len [/ip dns static find name="civil3d.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="autodesk" match-subdomain=yes type=FWD name="civil3d.com" }
+:if ([:len [/ip dns static find name="civilcc.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="autodesk" match-subdomain=yes type=FWD name="civilcc.com" }
+:if ([:len [/ip dns static find name="civilsoftware.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="autodesk" match-subdomain=yes type=FWD name="civilsoftware.net" }
+:if ([:len [/ip dns static find name="climate-server.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="autodesk" match-subdomain=yes type=FWD name="climate-server.com" }
+:if ([:len [/ip dns static find name="compass-system.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="autodesk" match-subdomain=yes type=FWD name="compass-system.com" }
+:if ([:len [/ip dns static find name="compass-systems.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="autodesk" match-subdomain=yes type=FWD name="compass-systems.com" }
+:if ([:len [/ip dns static find name="constructware.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="autodesk" match-subdomain=yes type=FWD name="constructware.com" }
+:if ([:len [/ip dns static find name="contechacademy.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="autodesk" match-subdomain=yes type=FWD name="contechacademy.com" }
+:if ([:len [/ip dns static find name="crankplayer.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="autodesk" match-subdomain=yes type=FWD name="crankplayer.com" }
+:if ([:len [/ip dns static find name="createwhatsnext.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="autodesk" match-subdomain=yes type=FWD name="createwhatsnext.com" }
+:if ([:len [/ip dns static find name="creativepass.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="autodesk" match-subdomain=yes type=FWD name="creativepass.com" }
+:if ([:len [/ip dns static find name="creatwhatsnext.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="autodesk" match-subdomain=yes type=FWD name="creatwhatsnext.com" }
+:if ([:len [/ip dns static find name="darwindimensions.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="autodesk" match-subdomain=yes type=FWD name="darwindimensions.com" }
+:if ([:len [/ip dns static find name="delcam-ams.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="autodesk" match-subdomain=yes type=FWD name="delcam-ams.com" }
+:if ([:len [/ip dns static find name="delcam-electrode.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="autodesk" match-subdomain=yes type=FWD name="delcam-electrode.com" }
+:if ([:len [/ip dns static find name="delcam-na.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="autodesk" match-subdomain=yes type=FWD name="delcam-na.com" }
+:if ([:len [/ip dns static find name="delcam-robotics.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="autodesk" match-subdomain=yes type=FWD name="delcam-robotics.com" }
+:if ([:len [/ip dns static find name="delcam-services.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="autodesk" match-subdomain=yes type=FWD name="delcam-services.com" }
+:if ([:len [/ip dns static find name="delcam.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="autodesk" match-subdomain=yes type=FWD name="delcam.com" }
+:if ([:len [/ip dns static find name="delcamconsulting.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="autodesk" match-subdomain=yes type=FWD name="delcamconsulting.com" }
+:if ([:len [/ip dns static find name="delcamforsolidworks.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="autodesk" match-subdomain=yes type=FWD name="delcamforsolidworks.com" }
+:if ([:len [/ip dns static find name="delcamna.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="autodesk" match-subdomain=yes type=FWD name="delcamna.com" }
+:if ([:len [/ip dns static find name="delcamtv.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="autodesk" match-subdomain=yes type=FWD name="delcamtv.com" }
+:if ([:len [/ip dns static find name="delcamuniversity.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="autodesk" match-subdomain=yes type=FWD name="delcamuniversity.com" }
+:if ([:len [/ip dns static find name="delcamusa.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="autodesk" match-subdomain=yes type=FWD name="delcamusa.com" }
+:if ([:len [/ip dns static find name="design-ledrev.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="autodesk" match-subdomain=yes type=FWD name="design-ledrev.com" }
+:if ([:len [/ip dns static find name="design-ledrevolution.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="autodesk" match-subdomain=yes type=FWD name="design-ledrevolution.com" }
+:if ([:len [/ip dns static find name="designledrevolution.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="autodesk" match-subdomain=yes type=FWD name="designledrevolution.com" }
+:if ([:len [/ip dns static find name="designsformovement.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="autodesk" match-subdomain=yes type=FWD name="designsformovement.com" }
+:if ([:len [/ip dns static find name="designxml.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="autodesk" match-subdomain=yes type=FWD name="designxml.com" }
+:if ([:len [/ip dns static find name="designxml.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="autodesk" match-subdomain=yes type=FWD name="designxml.net" }
+:if ([:len [/ip dns static find name="destinationbim.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="autodesk" match-subdomain=yes type=FWD name="destinationbim.com" }
+:if ([:len [/ip dns static find name="digitalprototyping.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="autodesk" match-subdomain=yes type=FWD name="digitalprototyping.com" }
+:if ([:len [/ip dns static find name="discreet.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="autodesk" match-subdomain=yes type=FWD name="discreet.com" }
+:if ([:len [/ip dns static find name="dodv.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="autodesk" match-subdomain=yes type=FWD name="dodv.com" }
+:if ([:len [/ip dns static find name="drainage.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="autodesk" match-subdomain=yes type=FWD name="drainage.com" }
+:if ([:len [/ip dns static find name="drnastran.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="autodesk" match-subdomain=yes type=FWD name="drnastran.com" }
+:if ([:len [/ip dns static find name="dwg.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="autodesk" match-subdomain=yes type=FWD name="dwg.com" }
+:if ([:len [/ip dns static find name="dwgtrueconvert.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="autodesk" match-subdomain=yes type=FWD name="dwgtrueconvert.com" }
+:if ([:len [/ip dns static find name="dwgtrueview.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="autodesk" match-subdomain=yes type=FWD name="dwgtrueview.com" }
+:if ([:len [/ip dns static find name="dynamobuilds.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="autodesk" match-subdomain=yes type=FWD name="dynamobuilds.com" }
+:if ([:len [/ip dns static find name="dynamopackages.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="autodesk" match-subdomain=yes type=FWD name="dynamopackages.com" }
+:if ([:len [/ip dns static find name="dynamoreach.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="autodesk" match-subdomain=yes type=FWD name="dynamoreach.com" }
+:if ([:len [/ip dns static find name="ecotect.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="autodesk" match-subdomain=yes type=FWD name="ecotect.com" }
+:if ([:len [/ip dns static find name="ecotect.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="autodesk" match-subdomain=yes type=FWD name="ecotect.net" }
+:if ([:len [/ip dns static find name="ecscad.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="autodesk" match-subdomain=yes type=FWD name="ecscad.com" }
+:if ([:len [/ip dns static find name="ecspublisher.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="autodesk" match-subdomain=yes type=FWD name="ecspublisher.com" }
+:if ([:len [/ip dns static find name="education-cadcam.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="autodesk" match-subdomain=yes type=FWD name="education-cadcam.com" }
+:if ([:len [/ip dns static find name="ember3dp.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="autodesk" match-subdomain=yes type=FWD name="ember3dp.com" }
+:if ([:len [/ip dns static find name="emberprinter.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="autodesk" match-subdomain=yes type=FWD name="emberprinter.com" }
+:if ([:len [/ip dns static find name="emergingsolutions.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="autodesk" match-subdomain=yes type=FWD name="emergingsolutions.com" }
+:if ([:len [/ip dns static find name="energystarbuildings.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="autodesk" match-subdomain=yes type=FWD name="energystarbuildings.com" }
+:if ([:len [/ip dns static find name="eraofconnection.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="autodesk" match-subdomain=yes type=FWD name="eraofconnection.com" }
+:if ([:len [/ip dns static find name="esopworld.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="autodesk" match-subdomain=yes type=FWD name="esopworld.com" }
+:if ([:len [/ip dns static find name="eueuropeansustainabledesign.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="autodesk" match-subdomain=yes type=FWD name="eueuropeansustainabledesign.net" }
+:if ([:len [/ip dns static find name="eurocodesoftware.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="autodesk" match-subdomain=yes type=FWD name="eurocodesoftware.com" }
+:if ([:len [/ip dns static find name="europeansustainabledesign.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="autodesk" match-subdomain=yes type=FWD name="europeansustainabledesign.com" }
+:if ([:len [/ip dns static find name="europeansustainabledesign.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="autodesk" match-subdomain=yes type=FWD name="europeansustainabledesign.net" }
+:if ([:len [/ip dns static find name="europeansustainabledesigncouncil.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="autodesk" match-subdomain=yes type=FWD name="europeansustainabledesigncouncil.com" }
+:if ([:len [/ip dns static find name="europeansustainabledesigncouncil.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="autodesk" match-subdomain=yes type=FWD name="europeansustainabledesigncouncil.net" }
+:if ([:len [/ip dns static find name="evalviewer.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="autodesk" match-subdomain=yes type=FWD name="evalviewer.com" }
+:if ([:len [/ip dns static find name="evolver.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="autodesk" match-subdomain=yes type=FWD name="evolver.com" }
+:if ([:len [/ip dns static find name="evolver3d.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="autodesk" match-subdomain=yes type=FWD name="evolver3d.com" }
+:if ([:len [/ip dns static find name="evolverpro.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="autodesk" match-subdomain=yes type=FWD name="evolverpro.com" }
+:if ([:len [/ip dns static find name="extensions4revit.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="autodesk" match-subdomain=yes type=FWD name="extensions4revit.com" }
+:if ([:len [/ip dns static find name="fakeorfoto.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="autodesk" match-subdomain=yes type=FWD name="fakeorfoto.com" }
+:if ([:len [/ip dns static find name="fakeorphoto.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="autodesk" match-subdomain=yes type=FWD name="fakeorphoto.com" }
+:if ([:len [/ip dns static find name="feanonlinear.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="autodesk" match-subdomain=yes type=FWD name="feanonlinear.com" }

@@ -1,5 +1,5 @@
 :global AddressList
 :global ForwardTo
 /ip dns static
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="grammarly" match-subdomain=yes type=FWD name="grammarly.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="grammarly" match-subdomain=yes type=FWD name="grammarly.io"} on-error {}
+:if ([:len [/ip dns static find name="grammarly.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="grammarly" match-subdomain=yes type=FWD name="grammarly.com" }
+:if ([:len [/ip dns static find name="grammarly.io"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="grammarly" match-subdomain=yes type=FWD name="grammarly.io" }

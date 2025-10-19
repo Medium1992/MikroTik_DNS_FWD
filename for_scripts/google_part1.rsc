@@ -1,253 +1,153 @@
 :global AddressList
 :global ForwardTo
 /ip dns static
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="google" match-subdomain=yes type=FWD name="0emm.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="google" match-subdomain=yes type=FWD name="1e100.net"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="google" match-subdomain=yes type=FWD name="1ucrs.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="google" match-subdomain=yes type=FWD name="2mdn-cn.net"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="google" match-subdomain=yes type=FWD name="2mdn.net"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="google" match-subdomain=yes type=FWD name="466453.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="google" match-subdomain=yes type=FWD name="abc.xyz"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="google" match-subdomain=yes type=FWD name="adgoogle.net"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="google" match-subdomain=yes type=FWD name="admeld.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="google" match-subdomain=yes type=FWD name="admob-cn.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="google" match-subdomain=yes type=FWD name="admob.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="google" match-subdomain=yes type=FWD name="ads.youtube.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="google" match-subdomain=yes type=FWD name="adsense.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="google" match-subdomain=yes type=FWD name="adsensecustomsearchads.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="google" match-subdomain=yes type=FWD name="adsenseformobileapps.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="google" match-subdomain=yes type=FWD name="adservice.google.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="google" match-subdomain=yes type=FWD name="advertisercommunity.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="google" match-subdomain=yes type=FWD name="advertiserscommunity.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="google" match-subdomain=yes type=FWD name="adwords-community.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="google" match-subdomain=yes type=FWD name="adwords.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="google" match-subdomain=yes type=FWD name="adwordsexpress.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="google" match-subdomain=yes type=FWD name="and"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="google" match-subdomain=yes type=FWD name="android.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="google" match-subdomain=yes type=FWD name="androidify.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="google" match-subdomain=yes type=FWD name="angulardart.org"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="google" match-subdomain=yes type=FWD name="apigee.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="google" match-subdomain=yes type=FWD name="app-measurement-cn.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="google" match-subdomain=yes type=FWD name="app-measurement.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="google" match-subdomain=yes type=FWD name="appbridge.io"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="google" match-subdomain=yes type=FWD name="appspot.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="google" match-subdomain=yes type=FWD name="apture.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="google" match-subdomain=yes type=FWD name="area120.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="google" match-subdomain=yes type=FWD name="asp-cc.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="google" match-subdomain=yes type=FWD name="autodraw.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="google" match-subdomain=yes type=FWD name="bandpage.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="google" match-subdomain=yes type=FWD name="baselinestudy.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="google" match-subdomain=yes type=FWD name="baselinestudy.org"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="google" match-subdomain=yes type=FWD name="bazel.build"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="google" match-subdomain=yes type=FWD name="bdn.dev"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="google" match-subdomain=yes type=FWD name="beatthatquote.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="google" match-subdomain=yes type=FWD name="blink.org"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="google" match-subdomain=yes type=FWD name="blogblog.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="google" match-subdomain=yes type=FWD name="blogger.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="google" match-subdomain=yes type=FWD name="blogspot.be"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="google" match-subdomain=yes type=FWD name="blogspot.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="google" match-subdomain=yes type=FWD name="blogspot.com.co"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="google" match-subdomain=yes type=FWD name="blogspot.ru"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="google" match-subdomain=yes type=FWD name="blogspot.td"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="google" match-subdomain=yes type=FWD name="brocaproject.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="google" match-subdomain=yes type=FWD name="brotli.org"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="google" match-subdomain=yes type=FWD name="bumpshare.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="google" match-subdomain=yes type=FWD name="bumptop.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="google" match-subdomain=yes type=FWD name="bumptop.net"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="google" match-subdomain=yes type=FWD name="bumptop.org"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="google" match-subdomain=yes type=FWD name="bumptunes.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="google" match-subdomain=yes type=FWD name="campuslondon.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="google" match-subdomain=yes type=FWD name="certificate-transparency.org"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="google" match-subdomain=yes type=FWD name="charlestonroadregistry.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="google" match-subdomain=yes type=FWD name="chrome"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="google" match-subdomain=yes type=FWD name="chrome.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="google" match-subdomain=yes type=FWD name="chromebook.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="google" match-subdomain=yes type=FWD name="chromecast.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="google" match-subdomain=yes type=FWD name="chromeos.dev"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="google" match-subdomain=yes type=FWD name="chromium.org"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="google" match-subdomain=yes type=FWD name="chronicle.security"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="google" match-subdomain=yes type=FWD name="chroniclesec.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="google" match-subdomain=yes type=FWD name="cloudburstresearch.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="google" match-subdomain=yes type=FWD name="cloudfunctions.net"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="google" match-subdomain=yes type=FWD name="cloudproxy.app"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="google" match-subdomain=yes type=FWD name="cloudrobotics.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="google" match-subdomain=yes type=FWD name="cobrasearch.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="google" match-subdomain=yes type=FWD name="codespot.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="google" match-subdomain=yes type=FWD name="conscrypt.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="google" match-subdomain=yes type=FWD name="conscrypt.org"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="google" match-subdomain=yes type=FWD name="cookiechoices.org"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="google" match-subdomain=yes type=FWD name="coova.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="google" match-subdomain=yes type=FWD name="coova.net"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="google" match-subdomain=yes type=FWD name="coova.org"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="google" match-subdomain=yes type=FWD name="crossmediapanel.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="google" match-subdomain=yes type=FWD name="crr.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="google" match-subdomain=yes type=FWD name="cs4hs.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="google" match-subdomain=yes type=FWD name="dart.dev"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="google" match-subdomain=yes type=FWD name="dartlang.org"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="google" match-subdomain=yes type=FWD name="dartpad.dev"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="google" match-subdomain=yes type=FWD name="dartsearch.net"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="google" match-subdomain=yes type=FWD name="dataliberation.org"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="google" match-subdomain=yes type=FWD name="dclk"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="google" match-subdomain=yes type=FWD name="debug.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="google" match-subdomain=yes type=FWD name="debugproject.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="google" match-subdomain=yes type=FWD name="deepmind.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="google" match-subdomain=yes type=FWD name="deps.dev"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="google" match-subdomain=yes type=FWD name="deps.info"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="google" match-subdomain=yes type=FWD name="devsitetest.how"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="google" match-subdomain=yes type=FWD name="dialogflow.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="google" match-subdomain=yes type=FWD name="digitalassetlinks.org"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="google" match-subdomain=yes type=FWD name="docs.new"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="google" match-subdomain=yes type=FWD name="doubleclick-cn.net"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="google" match-subdomain=yes type=FWD name="doubleclick.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="google" match-subdomain=yes type=FWD name="doubleclick.net"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="google" match-subdomain=yes type=FWD name="episodic.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="google" match-subdomain=yes type=FWD name="fastlane.tools"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="google" match-subdomain=yes type=FWD name="feedburner.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="google" match-subdomain=yes type=FWD name="fflick.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="google" match-subdomain=yes type=FWD name="financeleadsonline.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="google" match-subdomain=yes type=FWD name="firebase.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="google" match-subdomain=yes type=FWD name="firebase.io"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="google" match-subdomain=yes type=FWD name="firebaseapp.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="google" match-subdomain=yes type=FWD name="firebaseio.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="google" match-subdomain=yes type=FWD name="fitbit.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="google" match-subdomain=yes type=FWD name="flutter.dev"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="google" match-subdomain=yes type=FWD name="flutterapp.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="google" match-subdomain=yes type=FWD name="foofle.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="google" match-subdomain=yes type=FWD name="froogle.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="google" match-subdomain=yes type=FWD name="fuchsia.dev"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="google" match-subdomain=yes type=FWD name="g-tun.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="google" match-subdomain=yes type=FWD name="g.co"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="google" match-subdomain=yes type=FWD name="g.dev"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="google" match-subdomain=yes type=FWD name="g.page"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="google" match-subdomain=yes type=FWD name="gateway.dev"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="google" match-subdomain=yes type=FWD name="gbiz"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="google" match-subdomain=yes type=FWD name="gcr.io"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="google" match-subdomain=yes type=FWD name="gerritcodereview.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="google" match-subdomain=yes type=FWD name="get.app"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="google" match-subdomain=yes type=FWD name="get.dev"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="google" match-subdomain=yes type=FWD name="get.how"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="google" match-subdomain=yes type=FWD name="get.new"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="google" match-subdomain=yes type=FWD name="get.page"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="google" match-subdomain=yes type=FWD name="get.rsvp"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="google" match-subdomain=yes type=FWD name="getbumptop.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="google" match-subdomain=yes type=FWD name="ggoogle.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="google" match-subdomain=yes type=FWD name="ggpht.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="google" match-subdomain=yes type=FWD name="gipscorp.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="google" match-subdomain=yes type=FWD name="gle"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="google" match-subdomain=yes type=FWD name="globaledu.org"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="google" match-subdomain=yes type=FWD name="gmail"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="google" match-subdomain=yes type=FWD name="gmail.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="google" match-subdomain=yes type=FWD name="gmodules.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="google" match-subdomain=yes type=FWD name="go-lang.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="google" match-subdomain=yes type=FWD name="go-lang.net"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="google" match-subdomain=yes type=FWD name="go-lang.org"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="google" match-subdomain=yes type=FWD name="go.dev"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="google" match-subdomain=yes type=FWD name="godoc.org"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="google" match-subdomain=yes type=FWD name="gogle.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="google" match-subdomain=yes type=FWD name="gogole.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="google" match-subdomain=yes type=FWD name="golang.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="google" match-subdomain=yes type=FWD name="golang.net"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="google" match-subdomain=yes type=FWD name="golang.org"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="google" match-subdomain=yes type=FWD name="gonglchuangl.net"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="google" match-subdomain=yes type=FWD name="goo"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="google" match-subdomain=yes type=FWD name="goog"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="google" match-subdomain=yes type=FWD name="googel.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="google" match-subdomain=yes type=FWD name="googil.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="google" match-subdomain=yes type=FWD name="googl.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="google" match-subdomain=yes type=FWD name="google"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="google" match-subdomain=yes type=FWD name="google-access.net"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="google" match-subdomain=yes type=FWD name="google-analytics-cn.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="google" match-subdomain=yes type=FWD name="google-analytics.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="google" match-subdomain=yes type=FWD name="google-syndication.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="google" match-subdomain=yes type=FWD name="google.be"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="google" match-subdomain=yes type=FWD name="google.berlin"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="google" match-subdomain=yes type=FWD name="google.cat"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="google" match-subdomain=yes type=FWD name="google.co"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="google" match-subdomain=yes type=FWD name="google.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="google" match-subdomain=yes type=FWD name="google.com.co"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="google" match-subdomain=yes type=FWD name="google.dev"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="google" match-subdomain=yes type=FWD name="google.fm"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="google" match-subdomain=yes type=FWD name="google.gg"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="google" match-subdomain=yes type=FWD name="google.me"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="google" match-subdomain=yes type=FWD name="google.net"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="google" match-subdomain=yes type=FWD name="google.org"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="google" match-subdomain=yes type=FWD name="google.ps"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="google" match-subdomain=yes type=FWD name="google.ru"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="google" match-subdomain=yes type=FWD name="google.sh"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="google" match-subdomain=yes type=FWD name="google.so"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="google" match-subdomain=yes type=FWD name="google.td"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="google" match-subdomain=yes type=FWD name="google.tg"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="google" match-subdomain=yes type=FWD name="google.to"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="google" match-subdomain=yes type=FWD name="google.ventures"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="google" match-subdomain=yes type=FWD name="google.ws"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="google" match-subdomain=yes type=FWD name="googleacquisitionmigration.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="google" match-subdomain=yes type=FWD name="googleadapis.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="google" match-subdomain=yes type=FWD name="googleads-cn.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="google" match-subdomain=yes type=FWD name="googleads.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="google" match-subdomain=yes type=FWD name="googleadservices-cn.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="google" match-subdomain=yes type=FWD name="googleadservices.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="google" match-subdomain=yes type=FWD name="googleanalytics.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="google" match-subdomain=yes type=FWD name="googleapis.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="google" match-subdomain=yes type=FWD name="googleapps.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="google" match-subdomain=yes type=FWD name="googlearth.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="google" match-subdomain=yes type=FWD name="googleblog.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="google" match-subdomain=yes type=FWD name="googlebot.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="google" match-subdomain=yes type=FWD name="googlecapital.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="google" match-subdomain=yes type=FWD name="googlecert.net"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="google" match-subdomain=yes type=FWD name="googlecode.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="google" match-subdomain=yes type=FWD name="googlecommerce.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="google" match-subdomain=yes type=FWD name="googledanmark.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="google" match-subdomain=yes type=FWD name="googledomains.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="google" match-subdomain=yes type=FWD name="googledrive.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="google" match-subdomain=yes type=FWD name="googlee.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="google" match-subdomain=yes type=FWD name="googleearth.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="google" match-subdomain=yes type=FWD name="googlefiber.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="google" match-subdomain=yes type=FWD name="googlefiber.net"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="google" match-subdomain=yes type=FWD name="googlefinland.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="google" match-subdomain=yes type=FWD name="googlemail.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="google" match-subdomain=yes type=FWD name="googlemaps.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="google" match-subdomain=yes type=FWD name="googleoptimize-cn.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="google" match-subdomain=yes type=FWD name="googleoptimize.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="google" match-subdomain=yes type=FWD name="googlepagecreator.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="google" match-subdomain=yes type=FWD name="googlephotos.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="google" match-subdomain=yes type=FWD name="googleplay.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="google" match-subdomain=yes type=FWD name="googleplus.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="google" match-subdomain=yes type=FWD name="googlesource.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="google" match-subdomain=yes type=FWD name="googlestore.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="google" match-subdomain=yes type=FWD name="googlesverige.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="google" match-subdomain=yes type=FWD name="googlesyndication-cn.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="google" match-subdomain=yes type=FWD name="googlesyndication.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="google" match-subdomain=yes type=FWD name="googletagmanager-cn.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="google" match-subdomain=yes type=FWD name="googletagmanager.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="google" match-subdomain=yes type=FWD name="googletagservices-cn.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="google" match-subdomain=yes type=FWD name="googletagservices.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="google" match-subdomain=yes type=FWD name="googletraveladservices-cn.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="google" match-subdomain=yes type=FWD name="googletraveladservices.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="google" match-subdomain=yes type=FWD name="googleusercontent.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="google" match-subdomain=yes type=FWD name="googlevads-cn.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="google" match-subdomain=yes type=FWD name="googleventures.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="google" match-subdomain=yes type=FWD name="googlevideo.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="google" match-subdomain=yes type=FWD name="googlezip.net"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="google" match-subdomain=yes type=FWD name="googlr.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="google" match-subdomain=yes type=FWD name="goolge.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="google" match-subdomain=yes type=FWD name="gooogle.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="google" match-subdomain=yes type=FWD name="gridaware.app"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="google" match-subdomain=yes type=FWD name="gsrc.io"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="google" match-subdomain=yes type=FWD name="gstatic.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="google" match-subdomain=yes type=FWD name="gsuite.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="google" match-subdomain=yes type=FWD name="guge"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="google" match-subdomain=yes type=FWD name="gv.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="google" match-subdomain=yes type=FWD name="gvt0.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="google" match-subdomain=yes type=FWD name="gvt1-cn.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="google" match-subdomain=yes type=FWD name="gvt1.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="google" match-subdomain=yes type=FWD name="gvt2-cn.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="google" match-subdomain=yes type=FWD name="gvt2.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="google" match-subdomain=yes type=FWD name="gvt3.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="google" match-subdomain=yes type=FWD name="gvt5.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="google" match-subdomain=yes type=FWD name="gvt6.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="google" match-subdomain=yes type=FWD name="gvt7.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="google" match-subdomain=yes type=FWD name="gvt9.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="google" match-subdomain=yes type=FWD name="hangout"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="google" match-subdomain=yes type=FWD name="haplorrhini.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="google" match-subdomain=yes type=FWD name="hdrplusdata.org"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="google" match-subdomain=yes type=FWD name="hey.boo"} on-error {}
+:if ([:len [/ip dns static find name="0emm.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="google" match-subdomain=yes type=FWD name="0emm.com" }
+:if ([:len [/ip dns static find name="1e100.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="google" match-subdomain=yes type=FWD name="1e100.net" }
+:if ([:len [/ip dns static find name="1ucrs.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="google" match-subdomain=yes type=FWD name="1ucrs.com" }
+:if ([:len [/ip dns static find name="2mdn-cn.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="google" match-subdomain=yes type=FWD name="2mdn-cn.net" }
+:if ([:len [/ip dns static find name="2mdn.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="google" match-subdomain=yes type=FWD name="2mdn.net" }
+:if ([:len [/ip dns static find name="466453.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="google" match-subdomain=yes type=FWD name="466453.com" }
+:if ([:len [/ip dns static find name="abc.xyz"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="google" match-subdomain=yes type=FWD name="abc.xyz" }
+:if ([:len [/ip dns static find name="adgoogle.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="google" match-subdomain=yes type=FWD name="adgoogle.net" }
+:if ([:len [/ip dns static find name="admeld.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="google" match-subdomain=yes type=FWD name="admeld.com" }
+:if ([:len [/ip dns static find name="admob-cn.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="google" match-subdomain=yes type=FWD name="admob-cn.com" }
+:if ([:len [/ip dns static find name="admob.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="google" match-subdomain=yes type=FWD name="admob.com" }
+:if ([:len [/ip dns static find name="ads.youtube.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="google" match-subdomain=yes type=FWD name="ads.youtube.com" }
+:if ([:len [/ip dns static find name="adsense.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="google" match-subdomain=yes type=FWD name="adsense.com" }
+:if ([:len [/ip dns static find name="adsensecustomsearchads.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="google" match-subdomain=yes type=FWD name="adsensecustomsearchads.com" }
+:if ([:len [/ip dns static find name="adsenseformobileapps.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="google" match-subdomain=yes type=FWD name="adsenseformobileapps.com" }
+:if ([:len [/ip dns static find name="adservice.google.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="google" match-subdomain=yes type=FWD name="adservice.google.com" }
+:if ([:len [/ip dns static find name="advertisercommunity.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="google" match-subdomain=yes type=FWD name="advertisercommunity.com" }
+:if ([:len [/ip dns static find name="advertiserscommunity.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="google" match-subdomain=yes type=FWD name="advertiserscommunity.com" }
+:if ([:len [/ip dns static find name="adwords-community.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="google" match-subdomain=yes type=FWD name="adwords-community.com" }
+:if ([:len [/ip dns static find name="adwords.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="google" match-subdomain=yes type=FWD name="adwords.com" }
+:if ([:len [/ip dns static find name="adwordsexpress.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="google" match-subdomain=yes type=FWD name="adwordsexpress.com" }
+:if ([:len [/ip dns static find name="and"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="google" match-subdomain=yes type=FWD name="and" }
+:if ([:len [/ip dns static find name="android.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="google" match-subdomain=yes type=FWD name="android.com" }
+:if ([:len [/ip dns static find name="androidify.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="google" match-subdomain=yes type=FWD name="androidify.com" }
+:if ([:len [/ip dns static find name="angulardart.org"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="google" match-subdomain=yes type=FWD name="angulardart.org" }
+:if ([:len [/ip dns static find name="apigee.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="google" match-subdomain=yes type=FWD name="apigee.com" }
+:if ([:len [/ip dns static find name="app-measurement-cn.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="google" match-subdomain=yes type=FWD name="app-measurement-cn.com" }
+:if ([:len [/ip dns static find name="app-measurement.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="google" match-subdomain=yes type=FWD name="app-measurement.com" }
+:if ([:len [/ip dns static find name="appbridge.io"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="google" match-subdomain=yes type=FWD name="appbridge.io" }
+:if ([:len [/ip dns static find name="appspot.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="google" match-subdomain=yes type=FWD name="appspot.com" }
+:if ([:len [/ip dns static find name="apture.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="google" match-subdomain=yes type=FWD name="apture.com" }
+:if ([:len [/ip dns static find name="area120.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="google" match-subdomain=yes type=FWD name="area120.com" }
+:if ([:len [/ip dns static find name="asp-cc.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="google" match-subdomain=yes type=FWD name="asp-cc.com" }
+:if ([:len [/ip dns static find name="autodraw.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="google" match-subdomain=yes type=FWD name="autodraw.com" }
+:if ([:len [/ip dns static find name="bandpage.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="google" match-subdomain=yes type=FWD name="bandpage.com" }
+:if ([:len [/ip dns static find name="baselinestudy.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="google" match-subdomain=yes type=FWD name="baselinestudy.com" }
+:if ([:len [/ip dns static find name="baselinestudy.org"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="google" match-subdomain=yes type=FWD name="baselinestudy.org" }
+:if ([:len [/ip dns static find name="bazel.build"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="google" match-subdomain=yes type=FWD name="bazel.build" }
+:if ([:len [/ip dns static find name="bdn.dev"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="google" match-subdomain=yes type=FWD name="bdn.dev" }
+:if ([:len [/ip dns static find name="beatthatquote.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="google" match-subdomain=yes type=FWD name="beatthatquote.com" }
+:if ([:len [/ip dns static find name="blink.org"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="google" match-subdomain=yes type=FWD name="blink.org" }
+:if ([:len [/ip dns static find name="blogblog.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="google" match-subdomain=yes type=FWD name="blogblog.com" }
+:if ([:len [/ip dns static find name="blogger.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="google" match-subdomain=yes type=FWD name="blogger.com" }
+:if ([:len [/ip dns static find name="blogspot.be"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="google" match-subdomain=yes type=FWD name="blogspot.be" }
+:if ([:len [/ip dns static find name="blogspot.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="google" match-subdomain=yes type=FWD name="blogspot.com" }
+:if ([:len [/ip dns static find name="blogspot.com.co"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="google" match-subdomain=yes type=FWD name="blogspot.com.co" }
+:if ([:len [/ip dns static find name="blogspot.ru"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="google" match-subdomain=yes type=FWD name="blogspot.ru" }
+:if ([:len [/ip dns static find name="blogspot.td"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="google" match-subdomain=yes type=FWD name="blogspot.td" }
+:if ([:len [/ip dns static find name="brocaproject.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="google" match-subdomain=yes type=FWD name="brocaproject.com" }
+:if ([:len [/ip dns static find name="brotli.org"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="google" match-subdomain=yes type=FWD name="brotli.org" }
+:if ([:len [/ip dns static find name="bumpshare.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="google" match-subdomain=yes type=FWD name="bumpshare.com" }
+:if ([:len [/ip dns static find name="bumptop.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="google" match-subdomain=yes type=FWD name="bumptop.com" }
+:if ([:len [/ip dns static find name="bumptop.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="google" match-subdomain=yes type=FWD name="bumptop.net" }
+:if ([:len [/ip dns static find name="bumptop.org"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="google" match-subdomain=yes type=FWD name="bumptop.org" }
+:if ([:len [/ip dns static find name="bumptunes.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="google" match-subdomain=yes type=FWD name="bumptunes.com" }
+:if ([:len [/ip dns static find name="campuslondon.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="google" match-subdomain=yes type=FWD name="campuslondon.com" }
+:if ([:len [/ip dns static find name="certificate-transparency.org"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="google" match-subdomain=yes type=FWD name="certificate-transparency.org" }
+:if ([:len [/ip dns static find name="charlestonroadregistry.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="google" match-subdomain=yes type=FWD name="charlestonroadregistry.com" }
+:if ([:len [/ip dns static find name="chrome"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="google" match-subdomain=yes type=FWD name="chrome" }
+:if ([:len [/ip dns static find name="chrome.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="google" match-subdomain=yes type=FWD name="chrome.com" }
+:if ([:len [/ip dns static find name="chromebook.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="google" match-subdomain=yes type=FWD name="chromebook.com" }
+:if ([:len [/ip dns static find name="chromecast.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="google" match-subdomain=yes type=FWD name="chromecast.com" }
+:if ([:len [/ip dns static find name="chromeos.dev"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="google" match-subdomain=yes type=FWD name="chromeos.dev" }
+:if ([:len [/ip dns static find name="chromium.org"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="google" match-subdomain=yes type=FWD name="chromium.org" }
+:if ([:len [/ip dns static find name="chronicle.security"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="google" match-subdomain=yes type=FWD name="chronicle.security" }
+:if ([:len [/ip dns static find name="chroniclesec.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="google" match-subdomain=yes type=FWD name="chroniclesec.com" }
+:if ([:len [/ip dns static find name="cloudburstresearch.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="google" match-subdomain=yes type=FWD name="cloudburstresearch.com" }
+:if ([:len [/ip dns static find name="cloudfunctions.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="google" match-subdomain=yes type=FWD name="cloudfunctions.net" }
+:if ([:len [/ip dns static find name="cloudproxy.app"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="google" match-subdomain=yes type=FWD name="cloudproxy.app" }
+:if ([:len [/ip dns static find name="cloudrobotics.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="google" match-subdomain=yes type=FWD name="cloudrobotics.com" }
+:if ([:len [/ip dns static find name="cobrasearch.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="google" match-subdomain=yes type=FWD name="cobrasearch.com" }
+:if ([:len [/ip dns static find name="codespot.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="google" match-subdomain=yes type=FWD name="codespot.com" }
+:if ([:len [/ip dns static find name="conscrypt.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="google" match-subdomain=yes type=FWD name="conscrypt.com" }
+:if ([:len [/ip dns static find name="conscrypt.org"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="google" match-subdomain=yes type=FWD name="conscrypt.org" }
+:if ([:len [/ip dns static find name="cookiechoices.org"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="google" match-subdomain=yes type=FWD name="cookiechoices.org" }
+:if ([:len [/ip dns static find name="coova.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="google" match-subdomain=yes type=FWD name="coova.com" }
+:if ([:len [/ip dns static find name="coova.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="google" match-subdomain=yes type=FWD name="coova.net" }
+:if ([:len [/ip dns static find name="coova.org"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="google" match-subdomain=yes type=FWD name="coova.org" }
+:if ([:len [/ip dns static find name="crossmediapanel.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="google" match-subdomain=yes type=FWD name="crossmediapanel.com" }
+:if ([:len [/ip dns static find name="crr.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="google" match-subdomain=yes type=FWD name="crr.com" }
+:if ([:len [/ip dns static find name="cs4hs.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="google" match-subdomain=yes type=FWD name="cs4hs.com" }
+:if ([:len [/ip dns static find name="dart.dev"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="google" match-subdomain=yes type=FWD name="dart.dev" }
+:if ([:len [/ip dns static find name="dartlang.org"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="google" match-subdomain=yes type=FWD name="dartlang.org" }
+:if ([:len [/ip dns static find name="dartpad.dev"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="google" match-subdomain=yes type=FWD name="dartpad.dev" }
+:if ([:len [/ip dns static find name="dartsearch.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="google" match-subdomain=yes type=FWD name="dartsearch.net" }
+:if ([:len [/ip dns static find name="dataliberation.org"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="google" match-subdomain=yes type=FWD name="dataliberation.org" }
+:if ([:len [/ip dns static find name="dclk"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="google" match-subdomain=yes type=FWD name="dclk" }
+:if ([:len [/ip dns static find name="debug.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="google" match-subdomain=yes type=FWD name="debug.com" }
+:if ([:len [/ip dns static find name="debugproject.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="google" match-subdomain=yes type=FWD name="debugproject.com" }
+:if ([:len [/ip dns static find name="deepmind.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="google" match-subdomain=yes type=FWD name="deepmind.com" }
+:if ([:len [/ip dns static find name="deps.dev"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="google" match-subdomain=yes type=FWD name="deps.dev" }
+:if ([:len [/ip dns static find name="deps.info"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="google" match-subdomain=yes type=FWD name="deps.info" }
+:if ([:len [/ip dns static find name="devsitetest.how"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="google" match-subdomain=yes type=FWD name="devsitetest.how" }
+:if ([:len [/ip dns static find name="dialogflow.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="google" match-subdomain=yes type=FWD name="dialogflow.com" }
+:if ([:len [/ip dns static find name="digitalassetlinks.org"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="google" match-subdomain=yes type=FWD name="digitalassetlinks.org" }
+:if ([:len [/ip dns static find name="docs.new"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="google" match-subdomain=yes type=FWD name="docs.new" }
+:if ([:len [/ip dns static find name="doubleclick-cn.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="google" match-subdomain=yes type=FWD name="doubleclick-cn.net" }
+:if ([:len [/ip dns static find name="doubleclick.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="google" match-subdomain=yes type=FWD name="doubleclick.com" }
+:if ([:len [/ip dns static find name="doubleclick.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="google" match-subdomain=yes type=FWD name="doubleclick.net" }
+:if ([:len [/ip dns static find name="episodic.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="google" match-subdomain=yes type=FWD name="episodic.com" }
+:if ([:len [/ip dns static find name="fastlane.tools"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="google" match-subdomain=yes type=FWD name="fastlane.tools" }
+:if ([:len [/ip dns static find name="feedburner.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="google" match-subdomain=yes type=FWD name="feedburner.com" }
+:if ([:len [/ip dns static find name="fflick.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="google" match-subdomain=yes type=FWD name="fflick.com" }
+:if ([:len [/ip dns static find name="financeleadsonline.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="google" match-subdomain=yes type=FWD name="financeleadsonline.com" }
+:if ([:len [/ip dns static find name="firebase.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="google" match-subdomain=yes type=FWD name="firebase.com" }
+:if ([:len [/ip dns static find name="firebase.io"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="google" match-subdomain=yes type=FWD name="firebase.io" }
+:if ([:len [/ip dns static find name="firebaseapp.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="google" match-subdomain=yes type=FWD name="firebaseapp.com" }
+:if ([:len [/ip dns static find name="firebaseio.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="google" match-subdomain=yes type=FWD name="firebaseio.com" }
+:if ([:len [/ip dns static find name="fitbit.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="google" match-subdomain=yes type=FWD name="fitbit.com" }
+:if ([:len [/ip dns static find name="flutter.dev"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="google" match-subdomain=yes type=FWD name="flutter.dev" }
+:if ([:len [/ip dns static find name="flutterapp.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="google" match-subdomain=yes type=FWD name="flutterapp.com" }
+:if ([:len [/ip dns static find name="foofle.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="google" match-subdomain=yes type=FWD name="foofle.com" }
+:if ([:len [/ip dns static find name="froogle.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="google" match-subdomain=yes type=FWD name="froogle.com" }
+:if ([:len [/ip dns static find name="fuchsia.dev"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="google" match-subdomain=yes type=FWD name="fuchsia.dev" }
+:if ([:len [/ip dns static find name="g-tun.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="google" match-subdomain=yes type=FWD name="g-tun.com" }
+:if ([:len [/ip dns static find name="g.co"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="google" match-subdomain=yes type=FWD name="g.co" }
+:if ([:len [/ip dns static find name="g.dev"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="google" match-subdomain=yes type=FWD name="g.dev" }
+:if ([:len [/ip dns static find name="g.page"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="google" match-subdomain=yes type=FWD name="g.page" }
+:if ([:len [/ip dns static find name="gateway.dev"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="google" match-subdomain=yes type=FWD name="gateway.dev" }
+:if ([:len [/ip dns static find name="gbiz"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="google" match-subdomain=yes type=FWD name="gbiz" }
+:if ([:len [/ip dns static find name="gcr.io"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="google" match-subdomain=yes type=FWD name="gcr.io" }
+:if ([:len [/ip dns static find name="gerritcodereview.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="google" match-subdomain=yes type=FWD name="gerritcodereview.com" }
+:if ([:len [/ip dns static find name="get.app"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="google" match-subdomain=yes type=FWD name="get.app" }
+:if ([:len [/ip dns static find name="get.dev"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="google" match-subdomain=yes type=FWD name="get.dev" }
+:if ([:len [/ip dns static find name="get.how"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="google" match-subdomain=yes type=FWD name="get.how" }
+:if ([:len [/ip dns static find name="get.new"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="google" match-subdomain=yes type=FWD name="get.new" }
+:if ([:len [/ip dns static find name="get.page"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="google" match-subdomain=yes type=FWD name="get.page" }
+:if ([:len [/ip dns static find name="get.rsvp"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="google" match-subdomain=yes type=FWD name="get.rsvp" }
+:if ([:len [/ip dns static find name="getbumptop.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="google" match-subdomain=yes type=FWD name="getbumptop.com" }
+:if ([:len [/ip dns static find name="ggoogle.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="google" match-subdomain=yes type=FWD name="ggoogle.com" }
+:if ([:len [/ip dns static find name="ggpht.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="google" match-subdomain=yes type=FWD name="ggpht.com" }
+:if ([:len [/ip dns static find name="gipscorp.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="google" match-subdomain=yes type=FWD name="gipscorp.com" }
+:if ([:len [/ip dns static find name="gle"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="google" match-subdomain=yes type=FWD name="gle" }
+:if ([:len [/ip dns static find name="globaledu.org"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="google" match-subdomain=yes type=FWD name="globaledu.org" }
+:if ([:len [/ip dns static find name="gmail"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="google" match-subdomain=yes type=FWD name="gmail" }
+:if ([:len [/ip dns static find name="gmail.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="google" match-subdomain=yes type=FWD name="gmail.com" }
+:if ([:len [/ip dns static find name="gmodules.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="google" match-subdomain=yes type=FWD name="gmodules.com" }
+:if ([:len [/ip dns static find name="go-lang.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="google" match-subdomain=yes type=FWD name="go-lang.com" }
+:if ([:len [/ip dns static find name="go-lang.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="google" match-subdomain=yes type=FWD name="go-lang.net" }
+:if ([:len [/ip dns static find name="go-lang.org"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="google" match-subdomain=yes type=FWD name="go-lang.org" }
+:if ([:len [/ip dns static find name="go.dev"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="google" match-subdomain=yes type=FWD name="go.dev" }
+:if ([:len [/ip dns static find name="godoc.org"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="google" match-subdomain=yes type=FWD name="godoc.org" }
+:if ([:len [/ip dns static find name="gogle.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="google" match-subdomain=yes type=FWD name="gogle.com" }
+:if ([:len [/ip dns static find name="gogole.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="google" match-subdomain=yes type=FWD name="gogole.com" }
+:if ([:len [/ip dns static find name="golang.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="google" match-subdomain=yes type=FWD name="golang.com" }
+:if ([:len [/ip dns static find name="golang.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="google" match-subdomain=yes type=FWD name="golang.net" }
+:if ([:len [/ip dns static find name="golang.org"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="google" match-subdomain=yes type=FWD name="golang.org" }
+:if ([:len [/ip dns static find name="gonglchuangl.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="google" match-subdomain=yes type=FWD name="gonglchuangl.net" }
+:if ([:len [/ip dns static find name="goo"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="google" match-subdomain=yes type=FWD name="goo" }
+:if ([:len [/ip dns static find name="goog"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="google" match-subdomain=yes type=FWD name="goog" }

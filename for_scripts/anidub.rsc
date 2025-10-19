@@ -1,5 +1,5 @@
 :global AddressList
 :global ForwardTo
 /ip dns static
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="anidub" match-subdomain=yes type=FWD name="anidub.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="anidub" match-subdomain=yes type=FWD name="anidub.pro"} on-error {}
+:if ([:len [/ip dns static find name="anidub.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="anidub" match-subdomain=yes type=FWD name="anidub.com" }
+:if ([:len [/ip dns static find name="anidub.pro"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="anidub" match-subdomain=yes type=FWD name="anidub.pro" }

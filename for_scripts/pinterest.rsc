@@ -1,14 +1,14 @@
 :global AddressList
 :global ForwardTo
 /ip dns static
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="pinterest" match-subdomain=yes type=FWD name="pinimg.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="pinterest" match-subdomain=yes type=FWD name="pinimg.com.cdn.cloudflare.net"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="pinterest" match-subdomain=yes type=FWD name="pinterest.be"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="pinterest" match-subdomain=yes type=FWD name="pinterest.co"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="pinterest" match-subdomain=yes type=FWD name="pinterest.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="pinterest" match-subdomain=yes type=FWD name="pinterest.engineering"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="pinterest" match-subdomain=yes type=FWD name="pinterest.info"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="pinterest" match-subdomain=yes type=FWD name="pinterest.map.fastly.net"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="pinterest" match-subdomain=yes type=FWD name="pinterest.net"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="pinterest" match-subdomain=yes type=FWD name="pinterest.ru"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="pinterest" match-subdomain=yes type=FWD name="pinterestmail.com"} on-error {}
+:if ([:len [/ip dns static find name="pinimg.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="pinterest" match-subdomain=yes type=FWD name="pinimg.com" }
+:if ([:len [/ip dns static find name="pinimg.com.cdn.cloudflare.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="pinterest" match-subdomain=yes type=FWD name="pinimg.com.cdn.cloudflare.net" }
+:if ([:len [/ip dns static find name="pinterest.be"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="pinterest" match-subdomain=yes type=FWD name="pinterest.be" }
+:if ([:len [/ip dns static find name="pinterest.co"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="pinterest" match-subdomain=yes type=FWD name="pinterest.co" }
+:if ([:len [/ip dns static find name="pinterest.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="pinterest" match-subdomain=yes type=FWD name="pinterest.com" }
+:if ([:len [/ip dns static find name="pinterest.engineering"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="pinterest" match-subdomain=yes type=FWD name="pinterest.engineering" }
+:if ([:len [/ip dns static find name="pinterest.info"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="pinterest" match-subdomain=yes type=FWD name="pinterest.info" }
+:if ([:len [/ip dns static find name="pinterest.map.fastly.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="pinterest" match-subdomain=yes type=FWD name="pinterest.map.fastly.net" }
+:if ([:len [/ip dns static find name="pinterest.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="pinterest" match-subdomain=yes type=FWD name="pinterest.net" }
+:if ([:len [/ip dns static find name="pinterest.ru"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="pinterest" match-subdomain=yes type=FWD name="pinterest.ru" }
+:if ([:len [/ip dns static find name="pinterestmail.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="pinterest" match-subdomain=yes type=FWD name="pinterestmail.com" }

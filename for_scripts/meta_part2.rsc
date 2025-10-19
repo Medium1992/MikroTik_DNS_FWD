@@ -1,253 +1,153 @@
 :global AddressList
 :global ForwardTo
 /ip dns static
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="meta" match-subdomain=yes type=FWD name="faceobok.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="meta" match-subdomain=yes type=FWD name="faceobook.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="meta" match-subdomain=yes type=FWD name="faceook.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="meta" match-subdomain=yes type=FWD name="facerbooik.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="meta" match-subdomain=yes type=FWD name="facerbook.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="meta" match-subdomain=yes type=FWD name="facesbooc.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="meta" match-subdomain=yes type=FWD name="facesounds.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="meta" match-subdomain=yes type=FWD name="facetook.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="meta" match-subdomain=yes type=FWD name="facevbook.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="meta" match-subdomain=yes type=FWD name="facewbook.co"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="meta" match-subdomain=yes type=FWD name="facewook.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="meta" match-subdomain=yes type=FWD name="facfacebook.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="meta" match-subdomain=yes type=FWD name="facfebook.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="meta" match-subdomain=yes type=FWD name="faciometrics.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="meta" match-subdomain=yes type=FWD name="fackebook.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="meta" match-subdomain=yes type=FWD name="facnbook.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="meta" match-subdomain=yes type=FWD name="facrbook.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="meta" match-subdomain=yes type=FWD name="facvebook.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="meta" match-subdomain=yes type=FWD name="facwebook.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="meta" match-subdomain=yes type=FWD name="facxebook.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="meta" match-subdomain=yes type=FWD name="fadebook.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="meta" match-subdomain=yes type=FWD name="faebok.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="meta" match-subdomain=yes type=FWD name="faebook.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="meta" match-subdomain=yes type=FWD name="faebookc.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="meta" match-subdomain=yes type=FWD name="faeboook.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="meta" match-subdomain=yes type=FWD name="faecebok.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="meta" match-subdomain=yes type=FWD name="faesebook.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="meta" match-subdomain=yes type=FWD name="fafacebook.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="meta" match-subdomain=yes type=FWD name="faicbooc.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="meta" match-subdomain=yes type=FWD name="fasebokk.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="meta" match-subdomain=yes type=FWD name="fasebook.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="meta" match-subdomain=yes type=FWD name="faseboox.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="meta" match-subdomain=yes type=FWD name="fasttext.cc"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="meta" match-subdomain=yes type=FWD name="favebook.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="meta" match-subdomain=yes type=FWD name="faycbok.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="meta" match-subdomain=yes type=FWD name="fb.careers"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="meta" match-subdomain=yes type=FWD name="fb.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="meta" match-subdomain=yes type=FWD name="fb.gg"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="meta" match-subdomain=yes type=FWD name="fb.me"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="meta" match-subdomain=yes type=FWD name="fb.watch"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="meta" match-subdomain=yes type=FWD name="fbacebook.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="meta" match-subdomain=yes type=FWD name="fbbmarket.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="meta" match-subdomain=yes type=FWD name="fbboostyourbusiness.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="meta" match-subdomain=yes type=FWD name="fbcdn.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="meta" match-subdomain=yes type=FWD name="fbcdn.net"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="meta" match-subdomain=yes type=FWD name="fbf8.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="meta" match-subdomain=yes type=FWD name="fbfeedback.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="meta" match-subdomain=yes type=FWD name="fbhome.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="meta" match-subdomain=yes type=FWD name="fbidb.io"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="meta" match-subdomain=yes type=FWD name="fbinc.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="meta" match-subdomain=yes type=FWD name="fbinfer.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="meta" match-subdomain=yes type=FWD name="fbinnovation.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="meta" match-subdomain=yes type=FWD name="fblitho.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="meta" match-subdomain=yes type=FWD name="fbmarketing.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="meta" match-subdomain=yes type=FWD name="fbmessenger.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="meta" match-subdomain=yes type=FWD name="fbredex.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="meta" match-subdomain=yes type=FWD name="fbreg.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="meta" match-subdomain=yes type=FWD name="fbrell.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="meta" match-subdomain=yes type=FWD name="fbrpms.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="meta" match-subdomain=yes type=FWD name="fbsbx.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="meta" match-subdomain=yes type=FWD name="fbsbx.net"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="meta" match-subdomain=yes type=FWD name="fbsupport-covid.net"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="meta" match-subdomain=yes type=FWD name="fbthirdpartypixel.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="meta" match-subdomain=yes type=FWD name="fbthirdpartypixel.net"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="meta" match-subdomain=yes type=FWD name="fbthirdpartypixel.org"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="meta" match-subdomain=yes type=FWD name="fburl.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="meta" match-subdomain=yes type=FWD name="fbworkmail.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="meta" match-subdomain=yes type=FWD name="fcacebook.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="meta" match-subdomain=yes type=FWD name="fcaebook.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="meta" match-subdomain=yes type=FWD name="fcebook.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="meta" match-subdomain=yes type=FWD name="fcebookk.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="meta" match-subdomain=yes type=FWD name="fcfacebook.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="meta" match-subdomain=yes type=FWD name="fdacebook.info"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="meta" match-subdomain=yes type=FWD name="feacboo.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="meta" match-subdomain=yes type=FWD name="feacbook.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="meta" match-subdomain=yes type=FWD name="feacbooke.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="meta" match-subdomain=yes type=FWD name="feacebook.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="meta" match-subdomain=yes type=FWD name="fecbbok.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="meta" match-subdomain=yes type=FWD name="fecbooc.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="meta" match-subdomain=yes type=FWD name="fecbook.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="meta" match-subdomain=yes type=FWD name="feceboock.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="meta" match-subdomain=yes type=FWD name="fecebook.net"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="meta" match-subdomain=yes type=FWD name="feceboox.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="meta" match-subdomain=yes type=FWD name="fececbook.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="meta" match-subdomain=yes type=FWD name="feook.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="meta" match-subdomain=yes type=FWD name="ferabook.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="meta" match-subdomain=yes type=FWD name="fescebook.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="meta" match-subdomain=yes type=FWD name="fesebook.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="meta" match-subdomain=yes type=FWD name="ffacebook.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="meta" match-subdomain=yes type=FWD name="fgacebook.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="meta" match-subdomain=yes type=FWD name="ficeboock.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="meta" match-subdomain=yes type=FWD name="flow.dev"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="meta" match-subdomain=yes type=FWD name="flow.org"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="meta" match-subdomain=yes type=FWD name="flowtype.org"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="meta" match-subdomain=yes type=FWD name="fmcebook.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="meta" match-subdomain=yes type=FWD name="fnacebook.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="meta" match-subdomain=yes type=FWD name="fosebook.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="meta" match-subdomain=yes type=FWD name="fpacebook.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="meta" match-subdomain=yes type=FWD name="fqcebook.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="meta" match-subdomain=yes type=FWD name="fracebook.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="meta" match-subdomain=yes type=FWD name="freeb.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="meta" match-subdomain=yes type=FWD name="freebasics.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="meta" match-subdomain=yes type=FWD name="freebasics.net"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="meta" match-subdomain=yes type=FWD name="freebs.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="meta" match-subdomain=yes type=FWD name="freefacebook.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="meta" match-subdomain=yes type=FWD name="freefacebook.net"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="meta" match-subdomain=yes type=FWD name="freefacebookads.net"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="meta" match-subdomain=yes type=FWD name="freefblikes.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="meta" match-subdomain=yes type=FWD name="freindfeed.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="meta" match-subdomain=yes type=FWD name="frescolib.org"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="meta" match-subdomain=yes type=FWD name="friendbook.info"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="meta" match-subdomain=yes type=FWD name="friendfed.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="meta" match-subdomain=yes type=FWD name="friendfeed-api.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="meta" match-subdomain=yes type=FWD name="friendfeed-media.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="meta" match-subdomain=yes type=FWD name="friendfeed.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="meta" match-subdomain=yes type=FWD name="friendfeedmedia.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="meta" match-subdomain=yes type=FWD name="fsacebok.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="meta" match-subdomain=yes type=FWD name="fscebook.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="meta" match-subdomain=yes type=FWD name="fundraisingwithfacebook.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="meta" match-subdomain=yes type=FWD name="funnyfacebook.org"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="meta" match-subdomain=yes type=FWD name="futureofbusinesssurvey.org"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="meta" match-subdomain=yes type=FWD name="gacebook.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="meta" match-subdomain=yes type=FWD name="gameroom.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="meta" match-subdomain=yes type=FWD name="gfacecbook.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="meta" match-subdomain=yes type=FWD name="graph-fallback.instagram.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="meta" match-subdomain=yes type=FWD name="graph.instagram.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="meta" match-subdomain=yes type=FWD name="graph.whatsapp.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="meta" match-subdomain=yes type=FWD name="graph.whatsapp.net"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="meta" match-subdomain=yes type=FWD name="groups.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="meta" match-subdomain=yes type=FWD name="hackerfacebook.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="meta" match-subdomain=yes type=FWD name="hackfacebook.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="meta" match-subdomain=yes type=FWD name="hackfacebookid.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="meta" match-subdomain=yes type=FWD name="hacklang.org"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="meta" match-subdomain=yes type=FWD name="hhvm.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="meta" match-subdomain=yes type=FWD name="hifacebook.info"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="meta" match-subdomain=yes type=FWD name="howtohackfacebook-account.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="meta" match-subdomain=yes type=FWD name="hsfacebook.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="meta" match-subdomain=yes type=FWD name="httpfacebook.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="meta" match-subdomain=yes type=FWD name="httpsfacebook.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="meta" match-subdomain=yes type=FWD name="httpwwwfacebook.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="meta" match-subdomain=yes type=FWD name="i.org"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="meta" match-subdomain=yes type=FWD name="ig.me"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="meta" match-subdomain=yes type=FWD name="igcdn.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="meta" match-subdomain=yes type=FWD name="igsonar.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="meta" match-subdomain=yes type=FWD name="igtv.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="meta" match-subdomain=yes type=FWD name="imstagram.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="meta" match-subdomain=yes type=FWD name="imtagram.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="meta" match-subdomain=yes type=FWD name="instaadder.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="meta" match-subdomain=yes type=FWD name="instachecker.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="meta" match-subdomain=yes type=FWD name="instafallow.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="meta" match-subdomain=yes type=FWD name="instafollower.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="meta" match-subdomain=yes type=FWD name="instagainer.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="meta" match-subdomain=yes type=FWD name="instagda.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="meta" match-subdomain=yes type=FWD name="instagify.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="meta" match-subdomain=yes type=FWD name="instagmania.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="meta" match-subdomain=yes type=FWD name="instagor.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="meta" match-subdomain=yes type=FWD name="instagram-brand.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="meta" match-subdomain=yes type=FWD name="instagram-engineering.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="meta" match-subdomain=yes type=FWD name="instagram-help.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="meta" match-subdomain=yes type=FWD name="instagram-press.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="meta" match-subdomain=yes type=FWD name="instagram-press.net"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="meta" match-subdomain=yes type=FWD name="instagram.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="meta" match-subdomain=yes type=FWD name="instagramci.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="meta" match-subdomain=yes type=FWD name="instagramcn.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="meta" match-subdomain=yes type=FWD name="instagramdi.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="meta" match-subdomain=yes type=FWD name="instagramhashtags.net"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="meta" match-subdomain=yes type=FWD name="instagramhilecim.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="meta" match-subdomain=yes type=FWD name="instagramhilesi.org"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="meta" match-subdomain=yes type=FWD name="instagramium.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="meta" match-subdomain=yes type=FWD name="instagramizlenme.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="meta" match-subdomain=yes type=FWD name="instagramkusu.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="meta" match-subdomain=yes type=FWD name="instagramlogin.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="meta" match-subdomain=yes type=FWD name="instagramm.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="meta" match-subdomain=yes type=FWD name="instagramn.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="meta" match-subdomain=yes type=FWD name="instagrampartners.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="meta" match-subdomain=yes type=FWD name="instagramphoto.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="meta" match-subdomain=yes type=FWD name="instagramq.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="meta" match-subdomain=yes type=FWD name="instagramsepeti.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="meta" match-subdomain=yes type=FWD name="instagramtakipcisatinal.net"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="meta" match-subdomain=yes type=FWD name="instagramtakiphilesi.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="meta" match-subdomain=yes type=FWD name="instagramtips.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="meta" match-subdomain=yes type=FWD name="instagramtr.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="meta" match-subdomain=yes type=FWD name="instagran.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="meta" match-subdomain=yes type=FWD name="instagranm.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="meta" match-subdomain=yes type=FWD name="instagrem.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="meta" match-subdomain=yes type=FWD name="instagrm.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="meta" match-subdomain=yes type=FWD name="instagtram.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="meta" match-subdomain=yes type=FWD name="instagy.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="meta" match-subdomain=yes type=FWD name="instamgram.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="meta" match-subdomain=yes type=FWD name="instangram.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="meta" match-subdomain=yes type=FWD name="instanttelegram.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="meta" match-subdomain=yes type=FWD name="instaplayer.net"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="meta" match-subdomain=yes type=FWD name="instastyle.tv"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="meta" match-subdomain=yes type=FWD name="instgram.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="meta" match-subdomain=yes type=FWD name="intagram.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="meta" match-subdomain=yes type=FWD name="intagrm.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="meta" match-subdomain=yes type=FWD name="internet.org"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="meta" match-subdomain=yes type=FWD name="intgram.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="meta" match-subdomain=yes type=FWD name="kingstagram.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="meta" match-subdomain=yes type=FWD name="klik.me"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="meta" match-subdomain=yes type=FWD name="liverail.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="meta" match-subdomain=yes type=FWD name="liverail.tv"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="meta" match-subdomain=yes type=FWD name="lnstagram-help.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="meta" match-subdomain=yes type=FWD name="login-account.net"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="meta" match-subdomain=yes type=FWD name="m.me"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="meta" match-subdomain=yes type=FWD name="makeitopen.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="meta" match-subdomain=yes type=FWD name="markzuckerberg.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="meta" match-subdomain=yes type=FWD name="mcrouter.net"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="meta" match-subdomain=yes type=FWD name="mcrouter.org"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="meta" match-subdomain=yes type=FWD name="messenger.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="meta" match-subdomain=yes type=FWD name="messengerdevelopers.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="meta" match-subdomain=yes type=FWD name="meta.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="meta" match-subdomain=yes type=FWD name="midentsolutions.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="meta" match-subdomain=yes type=FWD name="mobilefacebook.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="meta" match-subdomain=yes type=FWD name="moneywithfacebook.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="meta" match-subdomain=yes type=FWD name="myfbfans.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="meta" match-subdomain=yes type=FWD name="nbabot.net"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="meta" match-subdomain=yes type=FWD name="newsfeed.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="meta" match-subdomain=yes type=FWD name="nextstop.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="meta" match-subdomain=yes type=FWD name="ocul.us"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="meta" match-subdomain=yes type=FWD name="oculus-china.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="meta" match-subdomain=yes type=FWD name="oculus.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="meta" match-subdomain=yes type=FWD name="oculus2014.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="meta" match-subdomain=yes type=FWD name="oculus3d.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="meta" match-subdomain=yes type=FWD name="oculusblog.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="meta" match-subdomain=yes type=FWD name="oculusbrand.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="meta" match-subdomain=yes type=FWD name="oculuscasino.net"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="meta" match-subdomain=yes type=FWD name="oculuscdn.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="meta" match-subdomain=yes type=FWD name="oculusconnect.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="meta" match-subdomain=yes type=FWD name="oculusdiving.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="meta" match-subdomain=yes type=FWD name="oculusforbusiness.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="meta" match-subdomain=yes type=FWD name="oculusrift.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="meta" match-subdomain=yes type=FWD name="oculusvr.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="meta" match-subdomain=yes type=FWD name="ogp.me"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="meta" match-subdomain=yes type=FWD name="oninstagram.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="meta" match-subdomain=yes type=FWD name="online-deals.net"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="meta" match-subdomain=yes type=FWD name="online-instagram.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="meta" match-subdomain=yes type=FWD name="onlineinstagram.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="meta" match-subdomain=yes type=FWD name="opencreate.org"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="meta" match-subdomain=yes type=FWD name="opengraphprotocol.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="meta" match-subdomain=yes type=FWD name="opengraphprotocol.org"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="meta" match-subdomain=yes type=FWD name="parse.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="meta" match-subdomain=yes type=FWD name="powersunitedvr.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="meta" match-subdomain=yes type=FWD name="pyrobot.org"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="meta" match-subdomain=yes type=FWD name="reachtheworldonfacebook.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="meta" match-subdomain=yes type=FWD name="react.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="meta" match-subdomain=yes type=FWD name="reactjs.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="meta" match-subdomain=yes type=FWD name="reactjs.org"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="meta" match-subdomain=yes type=FWD name="recoiljs.org"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="meta" match-subdomain=yes type=FWD name="redkix.com"} on-error {}
+:if ([:len [/ip dns static find name="facebookexchange.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="meta" match-subdomain=yes type=FWD name="facebookexchange.net" }
+:if ([:len [/ip dns static find name="facebookfacebook.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="meta" match-subdomain=yes type=FWD name="facebookfacebook.com" }
+:if ([:len [/ip dns static find name="facebookflow.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="meta" match-subdomain=yes type=FWD name="facebookflow.com" }
+:if ([:len [/ip dns static find name="facebookgames.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="meta" match-subdomain=yes type=FWD name="facebookgames.com" }
+:if ([:len [/ip dns static find name="facebookgraphsearch.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="meta" match-subdomain=yes type=FWD name="facebookgraphsearch.com" }
+:if ([:len [/ip dns static find name="facebookgraphsearch.info"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="meta" match-subdomain=yes type=FWD name="facebookgraphsearch.info" }
+:if ([:len [/ip dns static find name="facebookgroups.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="meta" match-subdomain=yes type=FWD name="facebookgroups.com" }
+:if ([:len [/ip dns static find name="facebookhome.cc"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="meta" match-subdomain=yes type=FWD name="facebookhome.cc" }
+:if ([:len [/ip dns static find name="facebookhome.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="meta" match-subdomain=yes type=FWD name="facebookhome.com" }
+:if ([:len [/ip dns static find name="facebookhome.info"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="meta" match-subdomain=yes type=FWD name="facebookhome.info" }
+:if ([:len [/ip dns static find name="facebookhub.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="meta" match-subdomain=yes type=FWD name="facebookhub.com" }
+:if ([:len [/ip dns static find name="facebooki.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="meta" match-subdomain=yes type=FWD name="facebooki.com" }
+:if ([:len [/ip dns static find name="facebookinc.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="meta" match-subdomain=yes type=FWD name="facebookinc.com" }
+:if ([:len [/ip dns static find name="facebookland.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="meta" match-subdomain=yes type=FWD name="facebookland.com" }
+:if ([:len [/ip dns static find name="facebooklikeexchange.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="meta" match-subdomain=yes type=FWD name="facebooklikeexchange.com" }
+:if ([:len [/ip dns static find name="facebooklive.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="meta" match-subdomain=yes type=FWD name="facebooklive.com" }
+:if ([:len [/ip dns static find name="facebooklivestaging.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="meta" match-subdomain=yes type=FWD name="facebooklivestaging.net" }
+:if ([:len [/ip dns static find name="facebooklivestaging.org"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="meta" match-subdomain=yes type=FWD name="facebooklivestaging.org" }
+:if ([:len [/ip dns static find name="facebooklogin.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="meta" match-subdomain=yes type=FWD name="facebooklogin.com" }
+:if ([:len [/ip dns static find name="facebooklogin.info"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="meta" match-subdomain=yes type=FWD name="facebooklogin.info" }
+:if ([:len [/ip dns static find name="facebookloginhelp.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="meta" match-subdomain=yes type=FWD name="facebookloginhelp.net" }
+:if ([:len [/ip dns static find name="facebooklogs.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="meta" match-subdomain=yes type=FWD name="facebooklogs.com" }
+:if ([:len [/ip dns static find name="facebookmail.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="meta" match-subdomain=yes type=FWD name="facebookmail.com" }
+:if ([:len [/ip dns static find name="facebookmail.tv"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="meta" match-subdomain=yes type=FWD name="facebookmail.tv" }
+:if ([:len [/ip dns static find name="facebookmanager.info"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="meta" match-subdomain=yes type=FWD name="facebookmanager.info" }
+:if ([:len [/ip dns static find name="facebookmarketing.info"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="meta" match-subdomain=yes type=FWD name="facebookmarketing.info" }
+:if ([:len [/ip dns static find name="facebookmarketingpartner.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="meta" match-subdomain=yes type=FWD name="facebookmarketingpartner.com" }
+:if ([:len [/ip dns static find name="facebookmarketingpartners.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="meta" match-subdomain=yes type=FWD name="facebookmarketingpartners.com" }
+:if ([:len [/ip dns static find name="facebookmobile.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="meta" match-subdomain=yes type=FWD name="facebookmobile.com" }
+:if ([:len [/ip dns static find name="facebookmsn.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="meta" match-subdomain=yes type=FWD name="facebookmsn.com" }
+:if ([:len [/ip dns static find name="facebooknews.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="meta" match-subdomain=yes type=FWD name="facebooknews.com" }
+:if ([:len [/ip dns static find name="facebooknfl.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="meta" match-subdomain=yes type=FWD name="facebooknfl.com" }
+:if ([:len [/ip dns static find name="facebooknude.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="meta" match-subdomain=yes type=FWD name="facebooknude.com" }
+:if ([:len [/ip dns static find name="facebookofsex.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="meta" match-subdomain=yes type=FWD name="facebookofsex.com" }
+:if ([:len [/ip dns static find name="facebookook.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="meta" match-subdomain=yes type=FWD name="facebookook.com" }
+:if ([:len [/ip dns static find name="facebookpaper.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="meta" match-subdomain=yes type=FWD name="facebookpaper.com" }
+:if ([:len [/ip dns static find name="facebookpay.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="meta" match-subdomain=yes type=FWD name="facebookpay.com" }
+:if ([:len [/ip dns static find name="facebookphonenumber.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="meta" match-subdomain=yes type=FWD name="facebookphonenumber.net" }
+:if ([:len [/ip dns static find name="facebookphoto.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="meta" match-subdomain=yes type=FWD name="facebookphoto.com" }
+:if ([:len [/ip dns static find name="facebookphotos.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="meta" match-subdomain=yes type=FWD name="facebookphotos.com" }
+:if ([:len [/ip dns static find name="facebookpmdcenter.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="meta" match-subdomain=yes type=FWD name="facebookpmdcenter.com" }
+:if ([:len [/ip dns static find name="facebookpoke.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="meta" match-subdomain=yes type=FWD name="facebookpoke.net" }
+:if ([:len [/ip dns static find name="facebookpoke.org"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="meta" match-subdomain=yes type=FWD name="facebookpoke.org" }
+:if ([:len [/ip dns static find name="facebookpoker.info"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="meta" match-subdomain=yes type=FWD name="facebookpoker.info" }
+:if ([:len [/ip dns static find name="facebookpokerchips.info"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="meta" match-subdomain=yes type=FWD name="facebookpokerchips.info" }
+:if ([:len [/ip dns static find name="facebookporn.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="meta" match-subdomain=yes type=FWD name="facebookporn.net" }
+:if ([:len [/ip dns static find name="facebookporn.org"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="meta" match-subdomain=yes type=FWD name="facebookporn.org" }
+:if ([:len [/ip dns static find name="facebookporno.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="meta" match-subdomain=yes type=FWD name="facebookporno.net" }
+:if ([:len [/ip dns static find name="facebookportal.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="meta" match-subdomain=yes type=FWD name="facebookportal.com" }
+:if ([:len [/ip dns static find name="facebooks.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="meta" match-subdomain=yes type=FWD name="facebooks.com" }
+:if ([:len [/ip dns static find name="facebooksafety.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="meta" match-subdomain=yes type=FWD name="facebooksafety.com" }
+:if ([:len [/ip dns static find name="facebooksecurity.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="meta" match-subdomain=yes type=FWD name="facebooksecurity.net" }
+:if ([:len [/ip dns static find name="facebookshop.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="meta" match-subdomain=yes type=FWD name="facebookshop.com" }
+:if ([:len [/ip dns static find name="facebooksignup.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="meta" match-subdomain=yes type=FWD name="facebooksignup.net" }
+:if ([:len [/ip dns static find name="facebooksite.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="meta" match-subdomain=yes type=FWD name="facebooksite.net" }
+:if ([:len [/ip dns static find name="facebookstories.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="meta" match-subdomain=yes type=FWD name="facebookstories.com" }
+:if ([:len [/ip dns static find name="facebookstudios.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="meta" match-subdomain=yes type=FWD name="facebookstudios.net" }
+:if ([:len [/ip dns static find name="facebookstudios.org"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="meta" match-subdomain=yes type=FWD name="facebookstudios.org" }
+:if ([:len [/ip dns static find name="facebooksupplier.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="meta" match-subdomain=yes type=FWD name="facebooksupplier.com" }
+:if ([:len [/ip dns static find name="facebooksuppliers.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="meta" match-subdomain=yes type=FWD name="facebooksuppliers.com" }
+:if ([:len [/ip dns static find name="facebookswagemea.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="meta" match-subdomain=yes type=FWD name="facebookswagemea.com" }
+:if ([:len [/ip dns static find name="facebookswagstore.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="meta" match-subdomain=yes type=FWD name="facebookswagstore.com" }
+:if ([:len [/ip dns static find name="facebooksz.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="meta" match-subdomain=yes type=FWD name="facebooksz.com" }
+:if ([:len [/ip dns static find name="facebookthreads.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="meta" match-subdomain=yes type=FWD name="facebookthreads.net" }
+:if ([:len [/ip dns static find name="facebooktv.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="meta" match-subdomain=yes type=FWD name="facebooktv.net" }
+:if ([:len [/ip dns static find name="facebooktv.org"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="meta" match-subdomain=yes type=FWD name="facebooktv.org" }
+:if ([:len [/ip dns static find name="facebookvacation.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="meta" match-subdomain=yes type=FWD name="facebookvacation.com" }
+:if ([:len [/ip dns static find name="facebookw.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="meta" match-subdomain=yes type=FWD name="facebookw.com" }
+:if ([:len [/ip dns static find name="facebookwork.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="meta" match-subdomain=yes type=FWD name="facebookwork.com" }
+:if ([:len [/ip dns static find name="facebookworld.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="meta" match-subdomain=yes type=FWD name="facebookworld.com" }
+:if ([:len [/ip dns static find name="facebool.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="meta" match-subdomain=yes type=FWD name="facebool.com" }
+:if ([:len [/ip dns static find name="facebool.info"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="meta" match-subdomain=yes type=FWD name="facebool.info" }
+:if ([:len [/ip dns static find name="facebooll.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="meta" match-subdomain=yes type=FWD name="facebooll.com" }
+:if ([:len [/ip dns static find name="faceboom.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="meta" match-subdomain=yes type=FWD name="faceboom.com" }
+:if ([:len [/ip dns static find name="faceboon.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="meta" match-subdomain=yes type=FWD name="faceboon.com" }
+:if ([:len [/ip dns static find name="faceboonk.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="meta" match-subdomain=yes type=FWD name="faceboonk.com" }
+:if ([:len [/ip dns static find name="faceboooik.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="meta" match-subdomain=yes type=FWD name="faceboooik.com" }
+:if ([:len [/ip dns static find name="faceboook.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="meta" match-subdomain=yes type=FWD name="faceboook.com" }
+:if ([:len [/ip dns static find name="faceboop.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="meta" match-subdomain=yes type=FWD name="faceboop.com" }
+:if ([:len [/ip dns static find name="faceboot.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="meta" match-subdomain=yes type=FWD name="faceboot.com" }
+:if ([:len [/ip dns static find name="faceboox.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="meta" match-subdomain=yes type=FWD name="faceboox.com" }
+:if ([:len [/ip dns static find name="facebopk.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="meta" match-subdomain=yes type=FWD name="facebopk.com" }
+:if ([:len [/ip dns static find name="facebpook.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="meta" match-subdomain=yes type=FWD name="facebpook.com" }
+:if ([:len [/ip dns static find name="facebuk.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="meta" match-subdomain=yes type=FWD name="facebuk.com" }
+:if ([:len [/ip dns static find name="facebuok.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="meta" match-subdomain=yes type=FWD name="facebuok.com" }
+:if ([:len [/ip dns static find name="facebvook.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="meta" match-subdomain=yes type=FWD name="facebvook.com" }
+:if ([:len [/ip dns static find name="facebyook.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="meta" match-subdomain=yes type=FWD name="facebyook.com" }
+:if ([:len [/ip dns static find name="facebzook.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="meta" match-subdomain=yes type=FWD name="facebzook.com" }
+:if ([:len [/ip dns static find name="facecbgook.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="meta" match-subdomain=yes type=FWD name="facecbgook.com" }
+:if ([:len [/ip dns static find name="facecbook.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="meta" match-subdomain=yes type=FWD name="facecbook.com" }
+:if ([:len [/ip dns static find name="facecbook.org"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="meta" match-subdomain=yes type=FWD name="facecbook.org" }
+:if ([:len [/ip dns static find name="facecook.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="meta" match-subdomain=yes type=FWD name="facecook.com" }
+:if ([:len [/ip dns static find name="facecook.org"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="meta" match-subdomain=yes type=FWD name="facecook.org" }
+:if ([:len [/ip dns static find name="facedbook.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="meta" match-subdomain=yes type=FWD name="facedbook.com" }
+:if ([:len [/ip dns static find name="faceebok.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="meta" match-subdomain=yes type=FWD name="faceebok.com" }
+:if ([:len [/ip dns static find name="faceebook.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="meta" match-subdomain=yes type=FWD name="faceebook.com" }
+:if ([:len [/ip dns static find name="faceebot.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="meta" match-subdomain=yes type=FWD name="faceebot.com" }
+:if ([:len [/ip dns static find name="facegbok.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="meta" match-subdomain=yes type=FWD name="facegbok.com" }
+:if ([:len [/ip dns static find name="facegbook.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="meta" match-subdomain=yes type=FWD name="facegbook.com" }
+:if ([:len [/ip dns static find name="faceobk.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="meta" match-subdomain=yes type=FWD name="faceobk.com" }
+:if ([:len [/ip dns static find name="faceobok.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="meta" match-subdomain=yes type=FWD name="faceobok.com" }
+:if ([:len [/ip dns static find name="faceobook.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="meta" match-subdomain=yes type=FWD name="faceobook.com" }
+:if ([:len [/ip dns static find name="faceook.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="meta" match-subdomain=yes type=FWD name="faceook.com" }
+:if ([:len [/ip dns static find name="facerbooik.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="meta" match-subdomain=yes type=FWD name="facerbooik.com" }
+:if ([:len [/ip dns static find name="facerbook.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="meta" match-subdomain=yes type=FWD name="facerbook.com" }
+:if ([:len [/ip dns static find name="facesbooc.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="meta" match-subdomain=yes type=FWD name="facesbooc.com" }
+:if ([:len [/ip dns static find name="facesounds.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="meta" match-subdomain=yes type=FWD name="facesounds.com" }
+:if ([:len [/ip dns static find name="facetook.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="meta" match-subdomain=yes type=FWD name="facetook.com" }
+:if ([:len [/ip dns static find name="facevbook.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="meta" match-subdomain=yes type=FWD name="facevbook.com" }
+:if ([:len [/ip dns static find name="facewbook.co"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="meta" match-subdomain=yes type=FWD name="facewbook.co" }
+:if ([:len [/ip dns static find name="facewook.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="meta" match-subdomain=yes type=FWD name="facewook.com" }
+:if ([:len [/ip dns static find name="facfacebook.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="meta" match-subdomain=yes type=FWD name="facfacebook.com" }
+:if ([:len [/ip dns static find name="facfebook.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="meta" match-subdomain=yes type=FWD name="facfebook.com" }
+:if ([:len [/ip dns static find name="faciometrics.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="meta" match-subdomain=yes type=FWD name="faciometrics.com" }
+:if ([:len [/ip dns static find name="fackebook.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="meta" match-subdomain=yes type=FWD name="fackebook.com" }
+:if ([:len [/ip dns static find name="facnbook.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="meta" match-subdomain=yes type=FWD name="facnbook.com" }
+:if ([:len [/ip dns static find name="facrbook.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="meta" match-subdomain=yes type=FWD name="facrbook.com" }
+:if ([:len [/ip dns static find name="facvebook.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="meta" match-subdomain=yes type=FWD name="facvebook.com" }
+:if ([:len [/ip dns static find name="facwebook.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="meta" match-subdomain=yes type=FWD name="facwebook.com" }
+:if ([:len [/ip dns static find name="facxebook.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="meta" match-subdomain=yes type=FWD name="facxebook.com" }
+:if ([:len [/ip dns static find name="fadebook.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="meta" match-subdomain=yes type=FWD name="fadebook.com" }
+:if ([:len [/ip dns static find name="faebok.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="meta" match-subdomain=yes type=FWD name="faebok.com" }
+:if ([:len [/ip dns static find name="faebook.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="meta" match-subdomain=yes type=FWD name="faebook.com" }
+:if ([:len [/ip dns static find name="faebookc.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="meta" match-subdomain=yes type=FWD name="faebookc.com" }
+:if ([:len [/ip dns static find name="faeboook.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="meta" match-subdomain=yes type=FWD name="faeboook.com" }
+:if ([:len [/ip dns static find name="faecebok.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="meta" match-subdomain=yes type=FWD name="faecebok.com" }
+:if ([:len [/ip dns static find name="faesebook.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="meta" match-subdomain=yes type=FWD name="faesebook.com" }
+:if ([:len [/ip dns static find name="fafacebook.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="meta" match-subdomain=yes type=FWD name="fafacebook.com" }
+:if ([:len [/ip dns static find name="faicbooc.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="meta" match-subdomain=yes type=FWD name="faicbooc.com" }
+:if ([:len [/ip dns static find name="fasebokk.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="meta" match-subdomain=yes type=FWD name="fasebokk.com" }
+:if ([:len [/ip dns static find name="fasebook.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="meta" match-subdomain=yes type=FWD name="fasebook.com" }
+:if ([:len [/ip dns static find name="faseboox.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="meta" match-subdomain=yes type=FWD name="faseboox.com" }
+:if ([:len [/ip dns static find name="fasttext.cc"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="meta" match-subdomain=yes type=FWD name="fasttext.cc" }
+:if ([:len [/ip dns static find name="favebook.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="meta" match-subdomain=yes type=FWD name="favebook.com" }
+:if ([:len [/ip dns static find name="faycbok.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="meta" match-subdomain=yes type=FWD name="faycbok.com" }
+:if ([:len [/ip dns static find name="fb.careers"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="meta" match-subdomain=yes type=FWD name="fb.careers" }
+:if ([:len [/ip dns static find name="fb.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="meta" match-subdomain=yes type=FWD name="fb.com" }
+:if ([:len [/ip dns static find name="fb.gg"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="meta" match-subdomain=yes type=FWD name="fb.gg" }
+:if ([:len [/ip dns static find name="fb.me"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="meta" match-subdomain=yes type=FWD name="fb.me" }
+:if ([:len [/ip dns static find name="fb.watch"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="meta" match-subdomain=yes type=FWD name="fb.watch" }
+:if ([:len [/ip dns static find name="fbacebook.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="meta" match-subdomain=yes type=FWD name="fbacebook.com" }
+:if ([:len [/ip dns static find name="fbbmarket.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="meta" match-subdomain=yes type=FWD name="fbbmarket.com" }
+:if ([:len [/ip dns static find name="fbboostyourbusiness.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="meta" match-subdomain=yes type=FWD name="fbboostyourbusiness.com" }
+:if ([:len [/ip dns static find name="fbcdn.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="meta" match-subdomain=yes type=FWD name="fbcdn.com" }
+:if ([:len [/ip dns static find name="fbcdn.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="meta" match-subdomain=yes type=FWD name="fbcdn.net" }
+:if ([:len [/ip dns static find name="fbf8.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="meta" match-subdomain=yes type=FWD name="fbf8.com" }
+:if ([:len [/ip dns static find name="fbfeedback.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="meta" match-subdomain=yes type=FWD name="fbfeedback.com" }
+:if ([:len [/ip dns static find name="fbhome.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="meta" match-subdomain=yes type=FWD name="fbhome.com" }
+:if ([:len [/ip dns static find name="fbidb.io"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="meta" match-subdomain=yes type=FWD name="fbidb.io" }
+:if ([:len [/ip dns static find name="fbinc.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="meta" match-subdomain=yes type=FWD name="fbinc.com" }

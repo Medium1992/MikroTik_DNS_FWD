@@ -1,59 +1,59 @@
 :global AddressList
 :global ForwardTo
 /ip dns static
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="bloomberg" match-subdomain=yes type=FWD name="bbgevent.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="bloomberg" match-subdomain=yes type=FWD name="bbhub.io"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="bloomberg" match-subdomain=yes type=FWD name="bbthat.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="bloomberg" match-subdomain=yes type=FWD name="bgov.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="bloomberg" match-subdomain=yes type=FWD name="bloomberg"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="bloomberg" match-subdomain=yes type=FWD name="bloomberg.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="bloomberg" match-subdomain=yes type=FWD name="bloomberg.fm"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="bloomberg" match-subdomain=yes type=FWD name="bloomberg.tv"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="bloomberg" match-subdomain=yes type=FWD name="bloombergapps.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="bloomberg" match-subdomain=yes type=FWD name="bloombergarcade.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="bloomberg" match-subdomain=yes type=FWD name="bloombergbeta.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="bloomberg" match-subdomain=yes type=FWD name="bloombergbna.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="bloomberg" match-subdomain=yes type=FWD name="bloombergbreakaway.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="bloomberg" match-subdomain=yes type=FWD name="bloombergbriefs.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="bloomberg" match-subdomain=yes type=FWD name="bloombergchina.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="bloomberg" match-subdomain=yes type=FWD name="bloombergenvironment.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="bloomberg" match-subdomain=yes type=FWD name="bloombergforeducation.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="bloomberg" match-subdomain=yes type=FWD name="bloomberggovernment.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="bloomberg" match-subdomain=yes type=FWD name="bloombergindices.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="bloomberg" match-subdomain=yes type=FWD name="bloombergindustry.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="bloomberg" match-subdomain=yes type=FWD name="bloomberglabs.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="bloomberg" match-subdomain=yes type=FWD name="bloomberglaw.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="bloomberg" match-subdomain=yes type=FWD name="bloomberglive.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="bloomberg" match-subdomain=yes type=FWD name="bloomberglp.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="bloomberg" match-subdomain=yes type=FWD name="bloombergmedia.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="bloomberg" match-subdomain=yes type=FWD name="bloombergnext.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="bloomberg" match-subdomain=yes type=FWD name="bloombergpolarlake.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="bloomberg" match-subdomain=yes type=FWD name="bloombergprep.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="bloomberg" match-subdomain=yes type=FWD name="bloombergquint.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="bloomberg" match-subdomain=yes type=FWD name="bloombergradio.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="bloomberg" match-subdomain=yes type=FWD name="bloombergsef.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="bloomberg" match-subdomain=yes type=FWD name="bloombergspace.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="bloomberg" match-subdomain=yes type=FWD name="bloombergstatus.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="bloomberg" match-subdomain=yes type=FWD name="bloombergsurvey.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="bloomberg" match-subdomain=yes type=FWD name="bloombergtax.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="bloomberg" match-subdomain=yes type=FWD name="bloombergtax1.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="bloomberg" match-subdomain=yes type=FWD name="bloombergtaxtech.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="bloomberg" match-subdomain=yes type=FWD name="bloombergtradingchallenge.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="bloomberg" match-subdomain=yes type=FWD name="bloombergvault.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="bloomberg" match-subdomain=yes type=FWD name="bloombergview.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="bloomberg" match-subdomain=yes type=FWD name="blpcareers.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="bloomberg" match-subdomain=yes type=FWD name="blpevents.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="bloomberg" match-subdomain=yes type=FWD name="blpprofessional.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="bloomberg" match-subdomain=yes type=FWD name="bmia.org"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="bloomberg" match-subdomain=yes type=FWD name="bnef.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="bloomberg" match-subdomain=yes type=FWD name="businessweek.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="bloomberg" match-subdomain=yes type=FWD name="businessweekmag.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="bloomberg" match-subdomain=yes type=FWD name="bwbx.io"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="bloomberg" match-subdomain=yes type=FWD name="citylab.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="bloomberg" match-subdomain=yes type=FWD name="gotraffic.net"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="bloomberg" match-subdomain=yes type=FWD name="londonmithraeum.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="bloomberg" match-subdomain=yes type=FWD name="neweconomyforum.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="bloomberg" match-subdomain=yes type=FWD name="newenergyfinance.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="bloomberg" match-subdomain=yes type=FWD name="quicktake.video"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="bloomberg" match-subdomain=yes type=FWD name="techatbloomberg.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="bloomberg" match-subdomain=yes type=FWD name="tictoc.video"} on-error {}
+:if ([:len [/ip dns static find name="bbgevent.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="bloomberg" match-subdomain=yes type=FWD name="bbgevent.com" }
+:if ([:len [/ip dns static find name="bbhub.io"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="bloomberg" match-subdomain=yes type=FWD name="bbhub.io" }
+:if ([:len [/ip dns static find name="bbthat.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="bloomberg" match-subdomain=yes type=FWD name="bbthat.com" }
+:if ([:len [/ip dns static find name="bgov.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="bloomberg" match-subdomain=yes type=FWD name="bgov.com" }
+:if ([:len [/ip dns static find name="bloomberg"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="bloomberg" match-subdomain=yes type=FWD name="bloomberg" }
+:if ([:len [/ip dns static find name="bloomberg.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="bloomberg" match-subdomain=yes type=FWD name="bloomberg.com" }
+:if ([:len [/ip dns static find name="bloomberg.fm"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="bloomberg" match-subdomain=yes type=FWD name="bloomberg.fm" }
+:if ([:len [/ip dns static find name="bloomberg.tv"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="bloomberg" match-subdomain=yes type=FWD name="bloomberg.tv" }
+:if ([:len [/ip dns static find name="bloombergapps.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="bloomberg" match-subdomain=yes type=FWD name="bloombergapps.com" }
+:if ([:len [/ip dns static find name="bloombergarcade.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="bloomberg" match-subdomain=yes type=FWD name="bloombergarcade.com" }
+:if ([:len [/ip dns static find name="bloombergbeta.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="bloomberg" match-subdomain=yes type=FWD name="bloombergbeta.com" }
+:if ([:len [/ip dns static find name="bloombergbna.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="bloomberg" match-subdomain=yes type=FWD name="bloombergbna.com" }
+:if ([:len [/ip dns static find name="bloombergbreakaway.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="bloomberg" match-subdomain=yes type=FWD name="bloombergbreakaway.com" }
+:if ([:len [/ip dns static find name="bloombergbriefs.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="bloomberg" match-subdomain=yes type=FWD name="bloombergbriefs.com" }
+:if ([:len [/ip dns static find name="bloombergchina.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="bloomberg" match-subdomain=yes type=FWD name="bloombergchina.com" }
+:if ([:len [/ip dns static find name="bloombergenvironment.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="bloomberg" match-subdomain=yes type=FWD name="bloombergenvironment.com" }
+:if ([:len [/ip dns static find name="bloombergforeducation.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="bloomberg" match-subdomain=yes type=FWD name="bloombergforeducation.com" }
+:if ([:len [/ip dns static find name="bloomberggovernment.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="bloomberg" match-subdomain=yes type=FWD name="bloomberggovernment.com" }
+:if ([:len [/ip dns static find name="bloombergindices.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="bloomberg" match-subdomain=yes type=FWD name="bloombergindices.com" }
+:if ([:len [/ip dns static find name="bloombergindustry.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="bloomberg" match-subdomain=yes type=FWD name="bloombergindustry.com" }
+:if ([:len [/ip dns static find name="bloomberglabs.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="bloomberg" match-subdomain=yes type=FWD name="bloomberglabs.com" }
+:if ([:len [/ip dns static find name="bloomberglaw.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="bloomberg" match-subdomain=yes type=FWD name="bloomberglaw.com" }
+:if ([:len [/ip dns static find name="bloomberglive.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="bloomberg" match-subdomain=yes type=FWD name="bloomberglive.com" }
+:if ([:len [/ip dns static find name="bloomberglp.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="bloomberg" match-subdomain=yes type=FWD name="bloomberglp.com" }
+:if ([:len [/ip dns static find name="bloombergmedia.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="bloomberg" match-subdomain=yes type=FWD name="bloombergmedia.com" }
+:if ([:len [/ip dns static find name="bloombergnext.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="bloomberg" match-subdomain=yes type=FWD name="bloombergnext.com" }
+:if ([:len [/ip dns static find name="bloombergpolarlake.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="bloomberg" match-subdomain=yes type=FWD name="bloombergpolarlake.com" }
+:if ([:len [/ip dns static find name="bloombergprep.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="bloomberg" match-subdomain=yes type=FWD name="bloombergprep.com" }
+:if ([:len [/ip dns static find name="bloombergquint.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="bloomberg" match-subdomain=yes type=FWD name="bloombergquint.com" }
+:if ([:len [/ip dns static find name="bloombergradio.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="bloomberg" match-subdomain=yes type=FWD name="bloombergradio.com" }
+:if ([:len [/ip dns static find name="bloombergsef.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="bloomberg" match-subdomain=yes type=FWD name="bloombergsef.com" }
+:if ([:len [/ip dns static find name="bloombergspace.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="bloomberg" match-subdomain=yes type=FWD name="bloombergspace.com" }
+:if ([:len [/ip dns static find name="bloombergstatus.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="bloomberg" match-subdomain=yes type=FWD name="bloombergstatus.com" }
+:if ([:len [/ip dns static find name="bloombergsurvey.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="bloomberg" match-subdomain=yes type=FWD name="bloombergsurvey.com" }
+:if ([:len [/ip dns static find name="bloombergtax.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="bloomberg" match-subdomain=yes type=FWD name="bloombergtax.com" }
+:if ([:len [/ip dns static find name="bloombergtax1.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="bloomberg" match-subdomain=yes type=FWD name="bloombergtax1.com" }
+:if ([:len [/ip dns static find name="bloombergtaxtech.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="bloomberg" match-subdomain=yes type=FWD name="bloombergtaxtech.com" }
+:if ([:len [/ip dns static find name="bloombergtradingchallenge.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="bloomberg" match-subdomain=yes type=FWD name="bloombergtradingchallenge.com" }
+:if ([:len [/ip dns static find name="bloombergvault.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="bloomberg" match-subdomain=yes type=FWD name="bloombergvault.com" }
+:if ([:len [/ip dns static find name="bloombergview.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="bloomberg" match-subdomain=yes type=FWD name="bloombergview.com" }
+:if ([:len [/ip dns static find name="blpcareers.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="bloomberg" match-subdomain=yes type=FWD name="blpcareers.com" }
+:if ([:len [/ip dns static find name="blpevents.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="bloomberg" match-subdomain=yes type=FWD name="blpevents.com" }
+:if ([:len [/ip dns static find name="blpprofessional.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="bloomberg" match-subdomain=yes type=FWD name="blpprofessional.com" }
+:if ([:len [/ip dns static find name="bmia.org"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="bloomberg" match-subdomain=yes type=FWD name="bmia.org" }
+:if ([:len [/ip dns static find name="bnef.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="bloomberg" match-subdomain=yes type=FWD name="bnef.com" }
+:if ([:len [/ip dns static find name="businessweek.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="bloomberg" match-subdomain=yes type=FWD name="businessweek.com" }
+:if ([:len [/ip dns static find name="businessweekmag.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="bloomberg" match-subdomain=yes type=FWD name="businessweekmag.com" }
+:if ([:len [/ip dns static find name="bwbx.io"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="bloomberg" match-subdomain=yes type=FWD name="bwbx.io" }
+:if ([:len [/ip dns static find name="citylab.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="bloomberg" match-subdomain=yes type=FWD name="citylab.com" }
+:if ([:len [/ip dns static find name="gotraffic.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="bloomberg" match-subdomain=yes type=FWD name="gotraffic.net" }
+:if ([:len [/ip dns static find name="londonmithraeum.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="bloomberg" match-subdomain=yes type=FWD name="londonmithraeum.com" }
+:if ([:len [/ip dns static find name="neweconomyforum.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="bloomberg" match-subdomain=yes type=FWD name="neweconomyforum.com" }
+:if ([:len [/ip dns static find name="newenergyfinance.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="bloomberg" match-subdomain=yes type=FWD name="newenergyfinance.com" }
+:if ([:len [/ip dns static find name="quicktake.video"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="bloomberg" match-subdomain=yes type=FWD name="quicktake.video" }
+:if ([:len [/ip dns static find name="techatbloomberg.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="bloomberg" match-subdomain=yes type=FWD name="techatbloomberg.com" }
+:if ([:len [/ip dns static find name="tictoc.video"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="bloomberg" match-subdomain=yes type=FWD name="tictoc.video" }

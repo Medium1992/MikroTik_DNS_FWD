@@ -1,253 +1,153 @@
 :global AddressList
 :global ForwardTo
 /ip dns static
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="tencent" match-subdomain=yes type=FWD name="17roco.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="tencent" match-subdomain=yes type=FWD name="acctdns.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="tencent" match-subdomain=yes type=FWD name="acctdns.net"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="tencent" match-subdomain=yes type=FWD name="ad.qq.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="tencent" match-subdomain=yes type=FWD name="ad.qun.qq.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="tencent" match-subdomain=yes type=FWD name="adfilter.imtt.qq.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="tencent" match-subdomain=yes type=FWD name="adping.qq.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="tencent" match-subdomain=yes type=FWD name="adpm.app.qq.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="tencent" match-subdomain=yes type=FWD name="adsclick.qq.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="tencent" match-subdomain=yes type=FWD name="adsfile.qq.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="tencent" match-subdomain=yes type=FWD name="adshmmsg.qq.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="tencent" match-subdomain=yes type=FWD name="adslvfile.qq.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="tencent" match-subdomain=yes type=FWD name="adslvseed.qq.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="tencent" match-subdomain=yes type=FWD name="adsmind.apdcdn.tc.qq.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="tencent" match-subdomain=yes type=FWD name="adsqqclick.qq.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="tencent" match-subdomain=yes type=FWD name="adstestview.qq.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="tencent" match-subdomain=yes type=FWD name="adsview.qq.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="tencent" match-subdomain=yes type=FWD name="adsview2.qq.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="tencent" match-subdomain=yes type=FWD name="adv.app.qq.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="tencent" match-subdomain=yes type=FWD name="adver.qq.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="tencent" match-subdomain=yes type=FWD name="aitransfy.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="tencent" match-subdomain=yes type=FWD name="alloyteam.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="tencent" match-subdomain=yes type=FWD name="anticheatexpert.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="tencent" match-subdomain=yes type=FWD name="ap-bangkok.myqcloud.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="tencent" match-subdomain=yes type=FWD name="ap-bangkok.tencentcos.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="tencent" match-subdomain=yes type=FWD name="ap-hongkong.myqcloud.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="tencent" match-subdomain=yes type=FWD name="ap-hongkong.tencentcos.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="tencent" match-subdomain=yes type=FWD name="ap-jakarta.myqcloud.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="tencent" match-subdomain=yes type=FWD name="ap-jakarta.tencentcos.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="tencent" match-subdomain=yes type=FWD name="ap-mumbai.myqcloud.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="tencent" match-subdomain=yes type=FWD name="ap-mumbai.tencentcos.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="tencent" match-subdomain=yes type=FWD name="ap-seoul.myqcloud.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="tencent" match-subdomain=yes type=FWD name="ap-seoul.tencentcos.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="tencent" match-subdomain=yes type=FWD name="ap-singapore.myqcloud.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="tencent" match-subdomain=yes type=FWD name="ap-singapore.tencentcos.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="tencent" match-subdomain=yes type=FWD name="ap-tokyo.myqcloud.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="tencent" match-subdomain=yes type=FWD name="ap-tokyo.tencentcos.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="tencent" match-subdomain=yes type=FWD name="apaas-zone-test.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="tencent" match-subdomain=yes type=FWD name="apcdns.net"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="tencent" match-subdomain=yes type=FWD name="apdcdn.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="tencent" match-subdomain=yes type=FWD name="apdcdn.net"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="tencent" match-subdomain=yes type=FWD name="apigwtencent.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="tencent" match-subdomain=yes type=FWD name="battlecare.net"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="tencent" match-subdomain=yes type=FWD name="bcfmglobal.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="tencent" match-subdomain=yes type=FWD name="beacon.qq.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="tencent" match-subdomain=yes type=FWD name="beaconcdn.qq.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="tencent" match-subdomain=yes type=FWD name="bkapigw.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="tencent" match-subdomain=yes type=FWD name="bkapps.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="tencent" match-subdomain=yes type=FWD name="bkclouds.cc"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="tencent" match-subdomain=yes type=FWD name="bktencent.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="tencent" match-subdomain=yes type=FWD name="btrace.qq.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="tencent" match-subdomain=yes type=FWD name="build9s.io"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="tencent" match-subdomain=yes type=FWD name="byodonline.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="tencent" match-subdomain=yes type=FWD name="ca.file.myqcloud.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="tencent" match-subdomain=yes type=FWD name="cdndoctor.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="tencent" match-subdomain=yes type=FWD name="cdngot.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="tencent" match-subdomain=yes type=FWD name="cdntip.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="tencent" match-subdomain=yes type=FWD name="cdntips.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="tencent" match-subdomain=yes type=FWD name="cdntips.net"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="tencent" match-subdomain=yes type=FWD name="cloud-industry-delivery.site"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="tencent" match-subdomain=yes type=FWD name="cloudbase.net"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="tencent" match-subdomain=yes type=FWD name="cloudidaas.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="tencent" match-subdomain=yes type=FWD name="cloudsite.vip"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="tencent" match-subdomain=yes type=FWD name="cnb.cool"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="tencent" match-subdomain=yes type=FWD name="cncqcloud.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="tencent" match-subdomain=yes type=FWD name="coding.me"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="tencent" match-subdomain=yes type=FWD name="coding.net"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="tencent" match-subdomain=yes type=FWD name="codm.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="tencent" match-subdomain=yes type=FWD name="computeinit.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="tencent" match-subdomain=yes type=FWD name="comsenz.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="tencent" match-subdomain=yes type=FWD name="coolsite.vip"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="tencent" match-subdomain=yes type=FWD name="cosca.myqcloud.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="tencent" match-subdomain=yes type=FWD name="cosger.myqcloud.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="tencent" match-subdomain=yes type=FWD name="coshk.myqcloud.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="tencent" match-subdomain=yes type=FWD name="cossgp.myqcloud.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="tencent" match-subdomain=yes type=FWD name="discuz.net"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="tencent" match-subdomain=yes type=FWD name="discuz.org"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="tencent" match-subdomain=yes type=FWD name="dns.pub"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="tencent" match-subdomain=yes type=FWD name="dnse0.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="tencent" match-subdomain=yes type=FWD name="dnse1.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="tencent" match-subdomain=yes type=FWD name="dnse2.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="tencent" match-subdomain=yes type=FWD name="dnse3.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="tencent" match-subdomain=yes type=FWD name="dnse4.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="tencent" match-subdomain=yes type=FWD name="dnse5.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="tencent" match-subdomain=yes type=FWD name="dnspod.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="tencent" match-subdomain=yes type=FWD name="dnspod.mobi"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="tencent" match-subdomain=yes type=FWD name="dnspod.net"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="tencent" match-subdomain=yes type=FWD name="dnspod.org"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="tencent" match-subdomain=yes type=FWD name="dnsv1.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="tencent" match-subdomain=yes type=FWD name="dnsv2.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="tencent" match-subdomain=yes type=FWD name="dnsv3.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="tencent" match-subdomain=yes type=FWD name="dnsv4.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="tencent" match-subdomain=yes type=FWD name="dnsv5.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="tencent" match-subdomain=yes type=FWD name="doh.pub"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="tencent" match-subdomain=yes type=FWD name="dot.pub"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="tencent" match-subdomain=yes type=FWD name="e.qq.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="tencent" match-subdomain=yes type=FWD name="edgeonedy1.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="tencent" match-subdomain=yes type=FWD name="essurl.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="tencent" match-subdomain=yes type=FWD name="eu-frankfurt.myqcloud.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="tencent" match-subdomain=yes type=FWD name="eu-frankfurt.tencentcos.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="tencent" match-subdomain=yes type=FWD name="eu-moscow.myqcloud.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="tencent" match-subdomain=yes type=FWD name="eu-moscow.tencentcos.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="tencent" match-subdomain=yes type=FWD name="exmailgz.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="tencent" match-subdomain=yes type=FWD name="ffbuddy.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="tencent" match-subdomain=yes type=FWD name="foxmail.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="tencent" match-subdomain=yes type=FWD name="fyeds.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="tencent" match-subdomain=yes type=FWD name="fyeds0.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="tencent" match-subdomain=yes type=FWD name="fyeds1.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="tencent" match-subdomain=yes type=FWD name="fyeds3.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="tencent" match-subdomain=yes type=FWD name="fyeds4.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="tencent" match-subdomain=yes type=FWD name="fyeds5.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="tencent" match-subdomain=yes type=FWD name="fyeds6.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="tencent" match-subdomain=yes type=FWD name="fyeds7.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="tencent" match-subdomain=yes type=FWD name="fyeds8.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="tencent" match-subdomain=yes type=FWD name="fyeds9.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="tencent" match-subdomain=yes type=FWD name="fymall0.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="tencent" match-subdomain=yes type=FWD name="fymall1.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="tencent" match-subdomain=yes type=FWD name="fymall4.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="tencent" match-subdomain=yes type=FWD name="fymall7.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="tencent" match-subdomain=yes type=FWD name="fymall9.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="tencent" match-subdomain=yes type=FWD name="fymallqa0.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="tencent" match-subdomain=yes type=FWD name="fymallqa1.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="tencent" match-subdomain=yes type=FWD name="fymallqa2.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="tencent" match-subdomain=yes type=FWD name="fymallqa3.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="tencent" match-subdomain=yes type=FWD name="fymallqa4.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="tencent" match-subdomain=yes type=FWD name="fymallqa7.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="tencent" match-subdomain=yes type=FWD name="fymallqa9.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="tencent" match-subdomain=yes type=FWD name="gaapqcloud.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="tencent" match-subdomain=yes type=FWD name="gamebonfire.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="tencent" match-subdomain=yes type=FWD name="gameitop.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="tencent" match-subdomain=yes type=FWD name="gameloop.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="tencent" match-subdomain=yes type=FWD name="gcloudcs.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="tencent" match-subdomain=yes type=FWD name="gcloudcstest.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="tencent" match-subdomain=yes type=FWD name="gcloudcstestonly.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="tencent" match-subdomain=yes type=FWD name="gclouddolphin.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="tencent" match-subdomain=yes type=FWD name="gcloudsdk.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="tencent" match-subdomain=yes type=FWD name="gdt.qq.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="tencent" match-subdomain=yes type=FWD name="gdtimg.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="tencent" match-subdomain=yes type=FWD name="ger.file.myqcloud.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="tencent" match-subdomain=yes type=FWD name="goto-game.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="tencent" match-subdomain=yes type=FWD name="goto-game.mobi"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="tencent" match-subdomain=yes type=FWD name="goto-game.org"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="tencent" match-subdomain=yes type=FWD name="gotolink.net"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="tencent" match-subdomain=yes type=FWD name="gouhuo.qq.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="tencent" match-subdomain=yes type=FWD name="govqcloud.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="tencent" match-subdomain=yes type=FWD name="gsadds.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="tencent" match-subdomain=yes type=FWD name="gtgres.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="tencent" match-subdomain=yes type=FWD name="gtimg.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="tencent" match-subdomain=yes type=FWD name="gtm.pub"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="tencent" match-subdomain=yes type=FWD name="happyhlddz.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="tencent" match-subdomain=yes type=FWD name="hdyxgame.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="tencent" match-subdomain=yes type=FWD name="hk.file.myqcloud.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="tencent" match-subdomain=yes type=FWD name="hkgcloudcs.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="tencent" match-subdomain=yes type=FWD name="hongxiu.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="tencent" match-subdomain=yes type=FWD name="hr-welink.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="tencent" match-subdomain=yes type=FWD name="idcgcloudcs.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="tencent" match-subdomain=yes type=FWD name="idqqimg.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="tencent" match-subdomain=yes type=FWD name="iemiq.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="tencent" match-subdomain=yes type=FWD name="igtm-meeting-tencent.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="tencent" match-subdomain=yes type=FWD name="igtm.pub"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="tencent" match-subdomain=yes type=FWD name="ihappystudio.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="tencent" match-subdomain=yes type=FWD name="imqq.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="tencent" match-subdomain=yes type=FWD name="imweb.io"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="tencent" match-subdomain=yes type=FWD name="intltencentcos.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="tencent" match-subdomain=yes type=FWD name="isd.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="tencent" match-subdomain=yes type=FWD name="isdspeed.qq.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="tencent" match-subdomain=yes type=FWD name="ispqcloud.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="tencent" match-subdomain=yes type=FWD name="itopsdk.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="tencent" match-subdomain=yes type=FWD name="ivweb.io"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="tencent" match-subdomain=yes type=FWD name="log.tbs.qq.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="tencent" match-subdomain=yes type=FWD name="lrts.me"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="tencent" match-subdomain=yes type=FWD name="ludoworld.net"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="tencent" match-subdomain=yes type=FWD name="m1.run"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="tencent" match-subdomain=yes type=FWD name="m6.run"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="tencent" match-subdomain=yes type=FWD name="m9.run"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="tencent" match-subdomain=yes type=FWD name="ma.run"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="tencent" match-subdomain=yes type=FWD name="mahjongai.net"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="tencent" match-subdomain=yes type=FWD name="mahjongcup.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="tencent" match-subdomain=yes type=FWD name="mahjongcup.net"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="tencent" match-subdomain=yes type=FWD name="metalrevolution.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="tencent" match-subdomain=yes type=FWD name="midasbuy.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="tencent" match-subdomain=yes type=FWD name="mpush.qq.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="tencent" match-subdomain=yes type=FWD name="mszdld.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="tencent" match-subdomain=yes type=FWD name="mszdld.net"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="tencent" match-subdomain=yes type=FWD name="mtrace.qq.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="tencent" match-subdomain=yes type=FWD name="my-qcloud.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="tencent" match-subdomain=yes type=FWD name="myapp.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="tencent" match-subdomain=yes type=FWD name="myelasticsearch.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="tencent" match-subdomain=yes type=FWD name="myqcloud.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="tencent" match-subdomain=yes type=FWD name="na-ashburn.myqcloud.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="tencent" match-subdomain=yes type=FWD name="na-ashburn.tencentcos.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="tencent" match-subdomain=yes type=FWD name="na-siliconvalley.myqcloud.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="tencent" match-subdomain=yes type=FWD name="na-siliconvalley.tencentcos.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="tencent" match-subdomain=yes type=FWD name="na-toronto.myqcloud.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="tencent" match-subdomain=yes type=FWD name="na-toronto.tencentcos.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="tencent" match-subdomain=yes type=FWD name="nagcloudcs.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="tencent" match-subdomain=yes type=FWD name="nextstudios.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="tencent" match-subdomain=yes type=FWD name="nextworkshop.net"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="tencent" match-subdomain=yes type=FWD name="onexmail.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="tencent" match-subdomain=yes type=FWD name="openapp.run"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="tencent" match-subdomain=yes type=FWD name="openmidas.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="tencent" match-subdomain=yes type=FWD name="oracle-tencent.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="tencent" match-subdomain=yes type=FWD name="oracle-tencent.net"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="tencent" match-subdomain=yes type=FWD name="ovscdns.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="tencent" match-subdomain=yes type=FWD name="ovscdns.net"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="tencent" match-subdomain=yes type=FWD name="pingjs.qq.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="tencent" match-subdomain=yes type=FWD name="pn1waq.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="tencent" match-subdomain=yes type=FWD name="proximabeta.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="tencent" match-subdomain=yes type=FWD name="pubghelper.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="tencent" match-subdomain=yes type=FWD name="pubgtool.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="tencent" match-subdomain=yes type=FWD name="push.qq.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="tencent" match-subdomain=yes type=FWD name="qcloud-edumall.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="tencent" match-subdomain=yes type=FWD name="qcloud.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="tencent" match-subdomain=yes type=FWD name="qcloudapps.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="tencent" match-subdomain=yes type=FWD name="qcloudcdn.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="tencent" match-subdomain=yes type=FWD name="qcloudclass.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="tencent" match-subdomain=yes type=FWD name="qcloudcos.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="tencent" match-subdomain=yes type=FWD name="qclouder.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="tencent" match-subdomain=yes type=FWD name="qcloudgme.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="tencent" match-subdomain=yes type=FWD name="qcloudimg.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="tencent" match-subdomain=yes type=FWD name="qcloudipv6.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="tencent" match-subdomain=yes type=FWD name="qcloudmarket.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="tencent" match-subdomain=yes type=FWD name="qcloudns.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="tencent" match-subdomain=yes type=FWD name="qcloudsmartiot.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="tencent" match-subdomain=yes type=FWD name="qcloudtcic.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="tencent" match-subdomain=yes type=FWD name="qcloudtiw.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="tencent" match-subdomain=yes type=FWD name="qcloudtrip.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="tencent" match-subdomain=yes type=FWD name="qcloudtt.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="tencent" match-subdomain=yes type=FWD name="qcloudwaf.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="tencent" match-subdomain=yes type=FWD name="qdmm.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="tencent" match-subdomain=yes type=FWD name="qdwebim.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="tencent" match-subdomain=yes type=FWD name="qeodns.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="tencent" match-subdomain=yes type=FWD name="qeodns.net"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="tencent" match-subdomain=yes type=FWD name="qidian.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="tencent" match-subdomain=yes type=FWD name="qlivecdn.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="tencent" match-subdomain=yes type=FWD name="qq.cn.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="tencent" match-subdomain=yes type=FWD name="qq.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="tencent" match-subdomain=yes type=FWD name="qq.design"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="tencent" match-subdomain=yes type=FWD name="qq.wang"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="tencent" match-subdomain=yes type=FWD name="qq.xn--fiqs8s"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="tencent" match-subdomain=yes type=FWD name="qqgameapp.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="tencent" match-subdomain=yes type=FWD name="qqgamedesign.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="tencent" match-subdomain=yes type=FWD name="qqmail.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="tencent" match-subdomain=yes type=FWD name="qqmra.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="tencent" match-subdomain=yes type=FWD name="qyunapp.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="tencent" match-subdomain=yes type=FWD name="qzone.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="tencent" match-subdomain=yes type=FWD name="readnovel.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="tencent" match-subdomain=yes type=FWD name="realcybertron.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="tencent" match-subdomain=yes type=FWD name="rmwxgame.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="tencent" match-subdomain=yes type=FWD name="roblox.qq.com"} on-error {}
+:if ([:len [/ip dns static find name="17roco.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="tencent" match-subdomain=yes type=FWD name="17roco.com" }
+:if ([:len [/ip dns static find name="acctdns.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="tencent" match-subdomain=yes type=FWD name="acctdns.com" }
+:if ([:len [/ip dns static find name="acctdns.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="tencent" match-subdomain=yes type=FWD name="acctdns.net" }
+:if ([:len [/ip dns static find name="ad.qq.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="tencent" match-subdomain=yes type=FWD name="ad.qq.com" }
+:if ([:len [/ip dns static find name="ad.qun.qq.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="tencent" match-subdomain=yes type=FWD name="ad.qun.qq.com" }
+:if ([:len [/ip dns static find name="adfilter.imtt.qq.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="tencent" match-subdomain=yes type=FWD name="adfilter.imtt.qq.com" }
+:if ([:len [/ip dns static find name="adping.qq.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="tencent" match-subdomain=yes type=FWD name="adping.qq.com" }
+:if ([:len [/ip dns static find name="adpm.app.qq.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="tencent" match-subdomain=yes type=FWD name="adpm.app.qq.com" }
+:if ([:len [/ip dns static find name="adsclick.qq.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="tencent" match-subdomain=yes type=FWD name="adsclick.qq.com" }
+:if ([:len [/ip dns static find name="adsfile.qq.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="tencent" match-subdomain=yes type=FWD name="adsfile.qq.com" }
+:if ([:len [/ip dns static find name="adshmmsg.qq.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="tencent" match-subdomain=yes type=FWD name="adshmmsg.qq.com" }
+:if ([:len [/ip dns static find name="adslvfile.qq.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="tencent" match-subdomain=yes type=FWD name="adslvfile.qq.com" }
+:if ([:len [/ip dns static find name="adslvseed.qq.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="tencent" match-subdomain=yes type=FWD name="adslvseed.qq.com" }
+:if ([:len [/ip dns static find name="adsmind.apdcdn.tc.qq.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="tencent" match-subdomain=yes type=FWD name="adsmind.apdcdn.tc.qq.com" }
+:if ([:len [/ip dns static find name="adsqqclick.qq.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="tencent" match-subdomain=yes type=FWD name="adsqqclick.qq.com" }
+:if ([:len [/ip dns static find name="adstestview.qq.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="tencent" match-subdomain=yes type=FWD name="adstestview.qq.com" }
+:if ([:len [/ip dns static find name="adsview.qq.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="tencent" match-subdomain=yes type=FWD name="adsview.qq.com" }
+:if ([:len [/ip dns static find name="adsview2.qq.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="tencent" match-subdomain=yes type=FWD name="adsview2.qq.com" }
+:if ([:len [/ip dns static find name="adv.app.qq.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="tencent" match-subdomain=yes type=FWD name="adv.app.qq.com" }
+:if ([:len [/ip dns static find name="adver.qq.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="tencent" match-subdomain=yes type=FWD name="adver.qq.com" }
+:if ([:len [/ip dns static find name="aitransfy.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="tencent" match-subdomain=yes type=FWD name="aitransfy.com" }
+:if ([:len [/ip dns static find name="alloyteam.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="tencent" match-subdomain=yes type=FWD name="alloyteam.com" }
+:if ([:len [/ip dns static find name="anticheatexpert.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="tencent" match-subdomain=yes type=FWD name="anticheatexpert.com" }
+:if ([:len [/ip dns static find name="ap-bangkok.myqcloud.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="tencent" match-subdomain=yes type=FWD name="ap-bangkok.myqcloud.com" }
+:if ([:len [/ip dns static find name="ap-bangkok.tencentcos.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="tencent" match-subdomain=yes type=FWD name="ap-bangkok.tencentcos.com" }
+:if ([:len [/ip dns static find name="ap-hongkong.myqcloud.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="tencent" match-subdomain=yes type=FWD name="ap-hongkong.myqcloud.com" }
+:if ([:len [/ip dns static find name="ap-hongkong.tencentcos.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="tencent" match-subdomain=yes type=FWD name="ap-hongkong.tencentcos.com" }
+:if ([:len [/ip dns static find name="ap-jakarta.myqcloud.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="tencent" match-subdomain=yes type=FWD name="ap-jakarta.myqcloud.com" }
+:if ([:len [/ip dns static find name="ap-jakarta.tencentcos.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="tencent" match-subdomain=yes type=FWD name="ap-jakarta.tencentcos.com" }
+:if ([:len [/ip dns static find name="ap-mumbai.myqcloud.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="tencent" match-subdomain=yes type=FWD name="ap-mumbai.myqcloud.com" }
+:if ([:len [/ip dns static find name="ap-mumbai.tencentcos.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="tencent" match-subdomain=yes type=FWD name="ap-mumbai.tencentcos.com" }
+:if ([:len [/ip dns static find name="ap-seoul.myqcloud.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="tencent" match-subdomain=yes type=FWD name="ap-seoul.myqcloud.com" }
+:if ([:len [/ip dns static find name="ap-seoul.tencentcos.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="tencent" match-subdomain=yes type=FWD name="ap-seoul.tencentcos.com" }
+:if ([:len [/ip dns static find name="ap-singapore.myqcloud.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="tencent" match-subdomain=yes type=FWD name="ap-singapore.myqcloud.com" }
+:if ([:len [/ip dns static find name="ap-singapore.tencentcos.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="tencent" match-subdomain=yes type=FWD name="ap-singapore.tencentcos.com" }
+:if ([:len [/ip dns static find name="ap-tokyo.myqcloud.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="tencent" match-subdomain=yes type=FWD name="ap-tokyo.myqcloud.com" }
+:if ([:len [/ip dns static find name="ap-tokyo.tencentcos.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="tencent" match-subdomain=yes type=FWD name="ap-tokyo.tencentcos.com" }
+:if ([:len [/ip dns static find name="apaas-zone-test.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="tencent" match-subdomain=yes type=FWD name="apaas-zone-test.com" }
+:if ([:len [/ip dns static find name="apcdns.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="tencent" match-subdomain=yes type=FWD name="apcdns.net" }
+:if ([:len [/ip dns static find name="apdcdn.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="tencent" match-subdomain=yes type=FWD name="apdcdn.com" }
+:if ([:len [/ip dns static find name="apdcdn.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="tencent" match-subdomain=yes type=FWD name="apdcdn.net" }
+:if ([:len [/ip dns static find name="apigwtencent.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="tencent" match-subdomain=yes type=FWD name="apigwtencent.com" }
+:if ([:len [/ip dns static find name="battlecare.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="tencent" match-subdomain=yes type=FWD name="battlecare.net" }
+:if ([:len [/ip dns static find name="bcfmglobal.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="tencent" match-subdomain=yes type=FWD name="bcfmglobal.com" }
+:if ([:len [/ip dns static find name="beacon.qq.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="tencent" match-subdomain=yes type=FWD name="beacon.qq.com" }
+:if ([:len [/ip dns static find name="beaconcdn.qq.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="tencent" match-subdomain=yes type=FWD name="beaconcdn.qq.com" }
+:if ([:len [/ip dns static find name="bkapigw.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="tencent" match-subdomain=yes type=FWD name="bkapigw.com" }
+:if ([:len [/ip dns static find name="bkapps.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="tencent" match-subdomain=yes type=FWD name="bkapps.com" }
+:if ([:len [/ip dns static find name="bkclouds.cc"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="tencent" match-subdomain=yes type=FWD name="bkclouds.cc" }
+:if ([:len [/ip dns static find name="bktencent.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="tencent" match-subdomain=yes type=FWD name="bktencent.com" }
+:if ([:len [/ip dns static find name="btrace.qq.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="tencent" match-subdomain=yes type=FWD name="btrace.qq.com" }
+:if ([:len [/ip dns static find name="build9s.io"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="tencent" match-subdomain=yes type=FWD name="build9s.io" }
+:if ([:len [/ip dns static find name="byodonline.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="tencent" match-subdomain=yes type=FWD name="byodonline.com" }
+:if ([:len [/ip dns static find name="ca.file.myqcloud.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="tencent" match-subdomain=yes type=FWD name="ca.file.myqcloud.com" }
+:if ([:len [/ip dns static find name="cdndoctor.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="tencent" match-subdomain=yes type=FWD name="cdndoctor.com" }
+:if ([:len [/ip dns static find name="cdngot.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="tencent" match-subdomain=yes type=FWD name="cdngot.com" }
+:if ([:len [/ip dns static find name="cdntip.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="tencent" match-subdomain=yes type=FWD name="cdntip.com" }
+:if ([:len [/ip dns static find name="cdntips.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="tencent" match-subdomain=yes type=FWD name="cdntips.com" }
+:if ([:len [/ip dns static find name="cdntips.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="tencent" match-subdomain=yes type=FWD name="cdntips.net" }
+:if ([:len [/ip dns static find name="cloud-industry-delivery.site"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="tencent" match-subdomain=yes type=FWD name="cloud-industry-delivery.site" }
+:if ([:len [/ip dns static find name="cloudbase.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="tencent" match-subdomain=yes type=FWD name="cloudbase.net" }
+:if ([:len [/ip dns static find name="cloudidaas.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="tencent" match-subdomain=yes type=FWD name="cloudidaas.com" }
+:if ([:len [/ip dns static find name="cloudsite.vip"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="tencent" match-subdomain=yes type=FWD name="cloudsite.vip" }
+:if ([:len [/ip dns static find name="cnb.cool"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="tencent" match-subdomain=yes type=FWD name="cnb.cool" }
+:if ([:len [/ip dns static find name="cncqcloud.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="tencent" match-subdomain=yes type=FWD name="cncqcloud.com" }
+:if ([:len [/ip dns static find name="coding.me"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="tencent" match-subdomain=yes type=FWD name="coding.me" }
+:if ([:len [/ip dns static find name="coding.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="tencent" match-subdomain=yes type=FWD name="coding.net" }
+:if ([:len [/ip dns static find name="codm.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="tencent" match-subdomain=yes type=FWD name="codm.com" }
+:if ([:len [/ip dns static find name="computeinit.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="tencent" match-subdomain=yes type=FWD name="computeinit.com" }
+:if ([:len [/ip dns static find name="comsenz.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="tencent" match-subdomain=yes type=FWD name="comsenz.com" }
+:if ([:len [/ip dns static find name="coolsite.vip"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="tencent" match-subdomain=yes type=FWD name="coolsite.vip" }
+:if ([:len [/ip dns static find name="cosca.myqcloud.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="tencent" match-subdomain=yes type=FWD name="cosca.myqcloud.com" }
+:if ([:len [/ip dns static find name="cosger.myqcloud.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="tencent" match-subdomain=yes type=FWD name="cosger.myqcloud.com" }
+:if ([:len [/ip dns static find name="coshk.myqcloud.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="tencent" match-subdomain=yes type=FWD name="coshk.myqcloud.com" }
+:if ([:len [/ip dns static find name="cossgp.myqcloud.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="tencent" match-subdomain=yes type=FWD name="cossgp.myqcloud.com" }
+:if ([:len [/ip dns static find name="discuz.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="tencent" match-subdomain=yes type=FWD name="discuz.net" }
+:if ([:len [/ip dns static find name="discuz.org"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="tencent" match-subdomain=yes type=FWD name="discuz.org" }
+:if ([:len [/ip dns static find name="dns.pub"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="tencent" match-subdomain=yes type=FWD name="dns.pub" }
+:if ([:len [/ip dns static find name="dnse0.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="tencent" match-subdomain=yes type=FWD name="dnse0.com" }
+:if ([:len [/ip dns static find name="dnse1.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="tencent" match-subdomain=yes type=FWD name="dnse1.com" }
+:if ([:len [/ip dns static find name="dnse2.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="tencent" match-subdomain=yes type=FWD name="dnse2.com" }
+:if ([:len [/ip dns static find name="dnse3.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="tencent" match-subdomain=yes type=FWD name="dnse3.com" }
+:if ([:len [/ip dns static find name="dnse4.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="tencent" match-subdomain=yes type=FWD name="dnse4.com" }
+:if ([:len [/ip dns static find name="dnse5.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="tencent" match-subdomain=yes type=FWD name="dnse5.com" }
+:if ([:len [/ip dns static find name="dnspod.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="tencent" match-subdomain=yes type=FWD name="dnspod.com" }
+:if ([:len [/ip dns static find name="dnspod.mobi"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="tencent" match-subdomain=yes type=FWD name="dnspod.mobi" }
+:if ([:len [/ip dns static find name="dnspod.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="tencent" match-subdomain=yes type=FWD name="dnspod.net" }
+:if ([:len [/ip dns static find name="dnspod.org"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="tencent" match-subdomain=yes type=FWD name="dnspod.org" }
+:if ([:len [/ip dns static find name="dnsv1.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="tencent" match-subdomain=yes type=FWD name="dnsv1.com" }
+:if ([:len [/ip dns static find name="dnsv2.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="tencent" match-subdomain=yes type=FWD name="dnsv2.com" }
+:if ([:len [/ip dns static find name="dnsv3.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="tencent" match-subdomain=yes type=FWD name="dnsv3.com" }
+:if ([:len [/ip dns static find name="dnsv4.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="tencent" match-subdomain=yes type=FWD name="dnsv4.com" }
+:if ([:len [/ip dns static find name="dnsv5.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="tencent" match-subdomain=yes type=FWD name="dnsv5.com" }
+:if ([:len [/ip dns static find name="doh.pub"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="tencent" match-subdomain=yes type=FWD name="doh.pub" }
+:if ([:len [/ip dns static find name="dot.pub"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="tencent" match-subdomain=yes type=FWD name="dot.pub" }
+:if ([:len [/ip dns static find name="e.qq.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="tencent" match-subdomain=yes type=FWD name="e.qq.com" }
+:if ([:len [/ip dns static find name="edgeonedy1.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="tencent" match-subdomain=yes type=FWD name="edgeonedy1.com" }
+:if ([:len [/ip dns static find name="essurl.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="tencent" match-subdomain=yes type=FWD name="essurl.com" }
+:if ([:len [/ip dns static find name="eu-frankfurt.myqcloud.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="tencent" match-subdomain=yes type=FWD name="eu-frankfurt.myqcloud.com" }
+:if ([:len [/ip dns static find name="eu-frankfurt.tencentcos.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="tencent" match-subdomain=yes type=FWD name="eu-frankfurt.tencentcos.com" }
+:if ([:len [/ip dns static find name="eu-moscow.myqcloud.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="tencent" match-subdomain=yes type=FWD name="eu-moscow.myqcloud.com" }
+:if ([:len [/ip dns static find name="eu-moscow.tencentcos.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="tencent" match-subdomain=yes type=FWD name="eu-moscow.tencentcos.com" }
+:if ([:len [/ip dns static find name="exmailgz.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="tencent" match-subdomain=yes type=FWD name="exmailgz.com" }
+:if ([:len [/ip dns static find name="ffbuddy.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="tencent" match-subdomain=yes type=FWD name="ffbuddy.com" }
+:if ([:len [/ip dns static find name="foxmail.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="tencent" match-subdomain=yes type=FWD name="foxmail.com" }
+:if ([:len [/ip dns static find name="fyeds.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="tencent" match-subdomain=yes type=FWD name="fyeds.com" }
+:if ([:len [/ip dns static find name="fyeds0.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="tencent" match-subdomain=yes type=FWD name="fyeds0.com" }
+:if ([:len [/ip dns static find name="fyeds1.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="tencent" match-subdomain=yes type=FWD name="fyeds1.com" }
+:if ([:len [/ip dns static find name="fyeds3.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="tencent" match-subdomain=yes type=FWD name="fyeds3.com" }
+:if ([:len [/ip dns static find name="fyeds4.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="tencent" match-subdomain=yes type=FWD name="fyeds4.com" }
+:if ([:len [/ip dns static find name="fyeds5.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="tencent" match-subdomain=yes type=FWD name="fyeds5.com" }
+:if ([:len [/ip dns static find name="fyeds6.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="tencent" match-subdomain=yes type=FWD name="fyeds6.com" }
+:if ([:len [/ip dns static find name="fyeds7.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="tencent" match-subdomain=yes type=FWD name="fyeds7.com" }
+:if ([:len [/ip dns static find name="fyeds8.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="tencent" match-subdomain=yes type=FWD name="fyeds8.com" }
+:if ([:len [/ip dns static find name="fyeds9.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="tencent" match-subdomain=yes type=FWD name="fyeds9.com" }
+:if ([:len [/ip dns static find name="fymall0.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="tencent" match-subdomain=yes type=FWD name="fymall0.com" }
+:if ([:len [/ip dns static find name="fymall1.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="tencent" match-subdomain=yes type=FWD name="fymall1.com" }
+:if ([:len [/ip dns static find name="fymall4.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="tencent" match-subdomain=yes type=FWD name="fymall4.com" }
+:if ([:len [/ip dns static find name="fymall7.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="tencent" match-subdomain=yes type=FWD name="fymall7.com" }
+:if ([:len [/ip dns static find name="fymall9.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="tencent" match-subdomain=yes type=FWD name="fymall9.com" }
+:if ([:len [/ip dns static find name="fymallqa0.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="tencent" match-subdomain=yes type=FWD name="fymallqa0.com" }
+:if ([:len [/ip dns static find name="fymallqa1.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="tencent" match-subdomain=yes type=FWD name="fymallqa1.com" }
+:if ([:len [/ip dns static find name="fymallqa2.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="tencent" match-subdomain=yes type=FWD name="fymallqa2.com" }
+:if ([:len [/ip dns static find name="fymallqa3.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="tencent" match-subdomain=yes type=FWD name="fymallqa3.com" }
+:if ([:len [/ip dns static find name="fymallqa4.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="tencent" match-subdomain=yes type=FWD name="fymallqa4.com" }
+:if ([:len [/ip dns static find name="fymallqa7.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="tencent" match-subdomain=yes type=FWD name="fymallqa7.com" }
+:if ([:len [/ip dns static find name="fymallqa9.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="tencent" match-subdomain=yes type=FWD name="fymallqa9.com" }
+:if ([:len [/ip dns static find name="gaapqcloud.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="tencent" match-subdomain=yes type=FWD name="gaapqcloud.com" }
+:if ([:len [/ip dns static find name="gamebonfire.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="tencent" match-subdomain=yes type=FWD name="gamebonfire.com" }
+:if ([:len [/ip dns static find name="gameitop.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="tencent" match-subdomain=yes type=FWD name="gameitop.com" }
+:if ([:len [/ip dns static find name="gameloop.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="tencent" match-subdomain=yes type=FWD name="gameloop.com" }
+:if ([:len [/ip dns static find name="gcloudcs.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="tencent" match-subdomain=yes type=FWD name="gcloudcs.com" }
+:if ([:len [/ip dns static find name="gcloudcstest.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="tencent" match-subdomain=yes type=FWD name="gcloudcstest.com" }
+:if ([:len [/ip dns static find name="gcloudcstestonly.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="tencent" match-subdomain=yes type=FWD name="gcloudcstestonly.com" }
+:if ([:len [/ip dns static find name="gclouddolphin.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="tencent" match-subdomain=yes type=FWD name="gclouddolphin.com" }
+:if ([:len [/ip dns static find name="gcloudsdk.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="tencent" match-subdomain=yes type=FWD name="gcloudsdk.com" }
+:if ([:len [/ip dns static find name="gdt.qq.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="tencent" match-subdomain=yes type=FWD name="gdt.qq.com" }
+:if ([:len [/ip dns static find name="gdtimg.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="tencent" match-subdomain=yes type=FWD name="gdtimg.com" }
+:if ([:len [/ip dns static find name="ger.file.myqcloud.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="tencent" match-subdomain=yes type=FWD name="ger.file.myqcloud.com" }
+:if ([:len [/ip dns static find name="goto-game.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="tencent" match-subdomain=yes type=FWD name="goto-game.com" }
+:if ([:len [/ip dns static find name="goto-game.mobi"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="tencent" match-subdomain=yes type=FWD name="goto-game.mobi" }
+:if ([:len [/ip dns static find name="goto-game.org"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="tencent" match-subdomain=yes type=FWD name="goto-game.org" }
+:if ([:len [/ip dns static find name="gotolink.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="tencent" match-subdomain=yes type=FWD name="gotolink.net" }
+:if ([:len [/ip dns static find name="gouhuo.qq.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="tencent" match-subdomain=yes type=FWD name="gouhuo.qq.com" }
+:if ([:len [/ip dns static find name="govqcloud.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="tencent" match-subdomain=yes type=FWD name="govqcloud.com" }
+:if ([:len [/ip dns static find name="gsadds.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="tencent" match-subdomain=yes type=FWD name="gsadds.com" }
+:if ([:len [/ip dns static find name="gtgres.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="tencent" match-subdomain=yes type=FWD name="gtgres.com" }
+:if ([:len [/ip dns static find name="gtimg.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="tencent" match-subdomain=yes type=FWD name="gtimg.com" }
+:if ([:len [/ip dns static find name="gtm.pub"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="tencent" match-subdomain=yes type=FWD name="gtm.pub" }
+:if ([:len [/ip dns static find name="happyhlddz.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="tencent" match-subdomain=yes type=FWD name="happyhlddz.com" }

@@ -1,68 +1,68 @@
 :global AddressList
 :global ForwardTo
 /ip dns static
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="news" match-subdomain=yes type=FWD name="agents.media"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="news" match-subdomain=yes type=FWD name="agentura.ru"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="news" match-subdomain=yes type=FWD name="bbc.co.uk"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="news" match-subdomain=yes type=FWD name="bbc.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="news" match-subdomain=yes type=FWD name="bbci.co.uk"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="news" match-subdomain=yes type=FWD name="bellingcat.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="news" match-subdomain=yes type=FWD name="cherta.media"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="news" match-subdomain=yes type=FWD name="colta.ru"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="news" match-subdomain=yes type=FWD name="currenttime.tv"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="news" match-subdomain=yes type=FWD name="dept.one"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="news" match-subdomain=yes type=FWD name="doxa.team"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="news" match-subdomain=yes type=FWD name="dw.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="news" match-subdomain=yes type=FWD name="echofm.online"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="news" match-subdomain=yes type=FWD name="ehorussia.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="news" match-subdomain=yes type=FWD name="ej.ru"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="news" match-subdomain=yes type=FWD name="euronews.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="news" match-subdomain=yes type=FWD name="exler.ru"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="news" match-subdomain=yes type=FWD name="fastly.net"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="news" match-subdomain=yes type=FWD name="golosameriki.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="news" match-subdomain=yes type=FWD name="gordonua.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="news" match-subdomain=yes type=FWD name="gulagu.net"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="news" match-subdomain=yes type=FWD name="holod.media"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="news" match-subdomain=yes type=FWD name="hrw.org"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="news" match-subdomain=yes type=FWD name="ill.in.ua"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="news" match-subdomain=yes type=FWD name="important-stories.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="news" match-subdomain=yes type=FWD name="istories.media"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="news" match-subdomain=yes type=FWD name="kasparov.ru"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="news" match-subdomain=yes type=FWD name="kavkaz-uzel.eu"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="news" match-subdomain=yes type=FWD name="korrespondent.net"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="news" match-subdomain=yes type=FWD name="krymr.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="news" match-subdomain=yes type=FWD name="mdza.io"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="news" match-subdomain=yes type=FWD name="mediazona.ca"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="news" match-subdomain=yes type=FWD name="meduza.io"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="news" match-subdomain=yes type=FWD name="memohrc.org"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="news" match-subdomain=yes type=FWD name="memopzk.org"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="news" match-subdomain=yes type=FWD name="memorialcenter.org"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="news" match-subdomain=yes type=FWD name="moscowtimes.ru"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="news" match-subdomain=yes type=FWD name="navalny.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="news" match-subdomain=yes type=FWD name="newtimes.ru"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="news" match-subdomain=yes type=FWD name="novayagazeta.eu"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="news" match-subdomain=yes type=FWD name="novayagazeta.ru"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="news" match-subdomain=yes type=FWD name="ovd.info"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="news" match-subdomain=yes type=FWD name="ovdinfo.legal"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="news" match-subdomain=yes type=FWD name="ovdinfo.org"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="news" match-subdomain=yes type=FWD name="paperagency.team"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="news" match-subdomain=yes type=FWD name="paperpaper.ru"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="news" match-subdomain=yes type=FWD name="papersupport.ru"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="news" match-subdomain=yes type=FWD name="polit.ru"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="news" match-subdomain=yes type=FWD name="proekt.media"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="news" match-subdomain=yes type=FWD name="prostovpn.org"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="news" match-subdomain=yes type=FWD name="radiosvoboda.org"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="news" match-subdomain=yes type=FWD name="semnasem.org"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="news" match-subdomain=yes type=FWD name="svoboda.org"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="news" match-subdomain=yes type=FWD name="t-s.news"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="news" match-subdomain=yes type=FWD name="tayga.info"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="news" match-subdomain=yes type=FWD name="the-village.ru"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="news" match-subdomain=yes type=FWD name="theins.press"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="news" match-subdomain=yes type=FWD name="theins.ru"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="news" match-subdomain=yes type=FWD name="thetruestory.news"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="news" match-subdomain=yes type=FWD name="tvrain.ru"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="news" match-subdomain=yes type=FWD name="tvrain.tv"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="news" match-subdomain=yes type=FWD name="unian.net"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="news" match-subdomain=yes type=FWD name="verstka.media"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="news" match-subdomain=yes type=FWD name="vot-tak.tv"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="news" match-subdomain=yes type=FWD name="zona.media"} on-error {}
+:if ([:len [/ip dns static find name="agents.media"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="news" match-subdomain=yes type=FWD name="agents.media" }
+:if ([:len [/ip dns static find name="agentura.ru"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="news" match-subdomain=yes type=FWD name="agentura.ru" }
+:if ([:len [/ip dns static find name="bbc.co.uk"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="news" match-subdomain=yes type=FWD name="bbc.co.uk" }
+:if ([:len [/ip dns static find name="bbc.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="news" match-subdomain=yes type=FWD name="bbc.com" }
+:if ([:len [/ip dns static find name="bbci.co.uk"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="news" match-subdomain=yes type=FWD name="bbci.co.uk" }
+:if ([:len [/ip dns static find name="bellingcat.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="news" match-subdomain=yes type=FWD name="bellingcat.com" }
+:if ([:len [/ip dns static find name="cherta.media"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="news" match-subdomain=yes type=FWD name="cherta.media" }
+:if ([:len [/ip dns static find name="colta.ru"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="news" match-subdomain=yes type=FWD name="colta.ru" }
+:if ([:len [/ip dns static find name="currenttime.tv"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="news" match-subdomain=yes type=FWD name="currenttime.tv" }
+:if ([:len [/ip dns static find name="dept.one"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="news" match-subdomain=yes type=FWD name="dept.one" }
+:if ([:len [/ip dns static find name="doxa.team"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="news" match-subdomain=yes type=FWD name="doxa.team" }
+:if ([:len [/ip dns static find name="dw.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="news" match-subdomain=yes type=FWD name="dw.com" }
+:if ([:len [/ip dns static find name="echofm.online"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="news" match-subdomain=yes type=FWD name="echofm.online" }
+:if ([:len [/ip dns static find name="ehorussia.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="news" match-subdomain=yes type=FWD name="ehorussia.com" }
+:if ([:len [/ip dns static find name="ej.ru"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="news" match-subdomain=yes type=FWD name="ej.ru" }
+:if ([:len [/ip dns static find name="euronews.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="news" match-subdomain=yes type=FWD name="euronews.com" }
+:if ([:len [/ip dns static find name="exler.ru"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="news" match-subdomain=yes type=FWD name="exler.ru" }
+:if ([:len [/ip dns static find name="fastly.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="news" match-subdomain=yes type=FWD name="fastly.net" }
+:if ([:len [/ip dns static find name="golosameriki.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="news" match-subdomain=yes type=FWD name="golosameriki.com" }
+:if ([:len [/ip dns static find name="gordonua.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="news" match-subdomain=yes type=FWD name="gordonua.com" }
+:if ([:len [/ip dns static find name="gulagu.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="news" match-subdomain=yes type=FWD name="gulagu.net" }
+:if ([:len [/ip dns static find name="holod.media"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="news" match-subdomain=yes type=FWD name="holod.media" }
+:if ([:len [/ip dns static find name="hrw.org"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="news" match-subdomain=yes type=FWD name="hrw.org" }
+:if ([:len [/ip dns static find name="ill.in.ua"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="news" match-subdomain=yes type=FWD name="ill.in.ua" }
+:if ([:len [/ip dns static find name="important-stories.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="news" match-subdomain=yes type=FWD name="important-stories.com" }
+:if ([:len [/ip dns static find name="istories.media"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="news" match-subdomain=yes type=FWD name="istories.media" }
+:if ([:len [/ip dns static find name="kasparov.ru"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="news" match-subdomain=yes type=FWD name="kasparov.ru" }
+:if ([:len [/ip dns static find name="kavkaz-uzel.eu"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="news" match-subdomain=yes type=FWD name="kavkaz-uzel.eu" }
+:if ([:len [/ip dns static find name="korrespondent.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="news" match-subdomain=yes type=FWD name="korrespondent.net" }
+:if ([:len [/ip dns static find name="krymr.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="news" match-subdomain=yes type=FWD name="krymr.com" }
+:if ([:len [/ip dns static find name="mdza.io"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="news" match-subdomain=yes type=FWD name="mdza.io" }
+:if ([:len [/ip dns static find name="mediazona.ca"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="news" match-subdomain=yes type=FWD name="mediazona.ca" }
+:if ([:len [/ip dns static find name="meduza.io"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="news" match-subdomain=yes type=FWD name="meduza.io" }
+:if ([:len [/ip dns static find name="memohrc.org"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="news" match-subdomain=yes type=FWD name="memohrc.org" }
+:if ([:len [/ip dns static find name="memopzk.org"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="news" match-subdomain=yes type=FWD name="memopzk.org" }
+:if ([:len [/ip dns static find name="memorialcenter.org"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="news" match-subdomain=yes type=FWD name="memorialcenter.org" }
+:if ([:len [/ip dns static find name="moscowtimes.ru"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="news" match-subdomain=yes type=FWD name="moscowtimes.ru" }
+:if ([:len [/ip dns static find name="navalny.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="news" match-subdomain=yes type=FWD name="navalny.com" }
+:if ([:len [/ip dns static find name="newtimes.ru"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="news" match-subdomain=yes type=FWD name="newtimes.ru" }
+:if ([:len [/ip dns static find name="novayagazeta.eu"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="news" match-subdomain=yes type=FWD name="novayagazeta.eu" }
+:if ([:len [/ip dns static find name="novayagazeta.ru"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="news" match-subdomain=yes type=FWD name="novayagazeta.ru" }
+:if ([:len [/ip dns static find name="ovd.info"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="news" match-subdomain=yes type=FWD name="ovd.info" }
+:if ([:len [/ip dns static find name="ovdinfo.legal"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="news" match-subdomain=yes type=FWD name="ovdinfo.legal" }
+:if ([:len [/ip dns static find name="ovdinfo.org"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="news" match-subdomain=yes type=FWD name="ovdinfo.org" }
+:if ([:len [/ip dns static find name="paperagency.team"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="news" match-subdomain=yes type=FWD name="paperagency.team" }
+:if ([:len [/ip dns static find name="paperpaper.ru"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="news" match-subdomain=yes type=FWD name="paperpaper.ru" }
+:if ([:len [/ip dns static find name="papersupport.ru"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="news" match-subdomain=yes type=FWD name="papersupport.ru" }
+:if ([:len [/ip dns static find name="polit.ru"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="news" match-subdomain=yes type=FWD name="polit.ru" }
+:if ([:len [/ip dns static find name="proekt.media"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="news" match-subdomain=yes type=FWD name="proekt.media" }
+:if ([:len [/ip dns static find name="prostovpn.org"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="news" match-subdomain=yes type=FWD name="prostovpn.org" }
+:if ([:len [/ip dns static find name="radiosvoboda.org"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="news" match-subdomain=yes type=FWD name="radiosvoboda.org" }
+:if ([:len [/ip dns static find name="semnasem.org"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="news" match-subdomain=yes type=FWD name="semnasem.org" }
+:if ([:len [/ip dns static find name="svoboda.org"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="news" match-subdomain=yes type=FWD name="svoboda.org" }
+:if ([:len [/ip dns static find name="t-s.news"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="news" match-subdomain=yes type=FWD name="t-s.news" }
+:if ([:len [/ip dns static find name="tayga.info"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="news" match-subdomain=yes type=FWD name="tayga.info" }
+:if ([:len [/ip dns static find name="the-village.ru"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="news" match-subdomain=yes type=FWD name="the-village.ru" }
+:if ([:len [/ip dns static find name="theins.press"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="news" match-subdomain=yes type=FWD name="theins.press" }
+:if ([:len [/ip dns static find name="theins.ru"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="news" match-subdomain=yes type=FWD name="theins.ru" }
+:if ([:len [/ip dns static find name="thetruestory.news"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="news" match-subdomain=yes type=FWD name="thetruestory.news" }
+:if ([:len [/ip dns static find name="tvrain.ru"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="news" match-subdomain=yes type=FWD name="tvrain.ru" }
+:if ([:len [/ip dns static find name="tvrain.tv"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="news" match-subdomain=yes type=FWD name="tvrain.tv" }
+:if ([:len [/ip dns static find name="unian.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="news" match-subdomain=yes type=FWD name="unian.net" }
+:if ([:len [/ip dns static find name="verstka.media"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="news" match-subdomain=yes type=FWD name="verstka.media" }
+:if ([:len [/ip dns static find name="vot-tak.tv"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="news" match-subdomain=yes type=FWD name="vot-tak.tv" }
+:if ([:len [/ip dns static find name="zona.media"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="news" match-subdomain=yes type=FWD name="zona.media" }

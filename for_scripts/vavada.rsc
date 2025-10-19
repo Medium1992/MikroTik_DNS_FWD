@@ -1,6 +1,6 @@
 :global AddressList
 :global ForwardTo
 /ip dns static
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="vavada" match-subdomain=yes type=FWD name="vavada-cdn.net"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="vavada" match-subdomain=yes type=FWD name="vavada.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="vavada" match-subdomain=yes type=FWD name="vavada.net"} on-error {}
+:if ([:len [/ip dns static find name="vavada-cdn.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="vavada" match-subdomain=yes type=FWD name="vavada-cdn.net" }
+:if ([:len [/ip dns static find name="vavada.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="vavada" match-subdomain=yes type=FWD name="vavada.com" }
+:if ([:len [/ip dns static find name="vavada.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="vavada" match-subdomain=yes type=FWD name="vavada.net" }

@@ -1,253 +1,153 @@
 :global AddressList
 :global ForwardTo
 /ip dns static
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="microsoft" match-subdomain=yes type=FWD name="microsoftnews.org"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="microsoft" match-subdomain=yes type=FWD name="microsoftnewsforkids.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="microsoft" match-subdomain=yes type=FWD name="microsoftnewsforkids.net"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="microsoft" match-subdomain=yes type=FWD name="microsoftnewsforkids.org"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="microsoft" match-subdomain=yes type=FWD name="microsoftnewskids.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="microsoft" match-subdomain=yes type=FWD name="microsoftnewskids.net"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="microsoft" match-subdomain=yes type=FWD name="microsoftnewskids.org"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="microsoft" match-subdomain=yes type=FWD name="microsoftonline-p.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="microsoft" match-subdomain=yes type=FWD name="microsoftonline.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="microsoft" match-subdomain=yes type=FWD name="microsoftpartnercommunity.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="microsoft" match-subdomain=yes type=FWD name="microsoftpartnersolutions.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="microsoft" match-subdomain=yes type=FWD name="microsoftpersonalcontent.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="microsoft" match-subdomain=yes type=FWD name="microsoftreactor.info"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="microsoft" match-subdomain=yes type=FWD name="microsoftreactor.net"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="microsoft" match-subdomain=yes type=FWD name="microsoftreactor.org"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="microsoft" match-subdomain=yes type=FWD name="microsoftready.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="microsoft" match-subdomain=yes type=FWD name="microsoftsilverlight.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="microsoft" match-subdomain=yes type=FWD name="microsoftsilverlight.net"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="microsoft" match-subdomain=yes type=FWD name="microsoftsilverlight.org"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="microsoft" match-subdomain=yes type=FWD name="microsoftsiteselection.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="microsoft" match-subdomain=yes type=FWD name="microsoftsqlserver.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="microsoft" match-subdomain=yes type=FWD name="microsoftstart.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="microsoft" match-subdomain=yes type=FWD name="microsoftstore.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="microsoft" match-subdomain=yes type=FWD name="microsoftstream.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="microsoft" match-subdomain=yes type=FWD name="microsoftteams.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="microsoft" match-subdomain=yes type=FWD name="microsofttradein.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="microsoft" match-subdomain=yes type=FWD name="microsofttranslator.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="microsoft" match-subdomain=yes type=FWD name="microsoftuwp.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="microsoft" match-subdomain=yes type=FWD name="minecraft-services.net"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="microsoft" match-subdomain=yes type=FWD name="minecraft.net"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="microsoft" match-subdomain=yes type=FWD name="minecraftservices.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="microsoft" match-subdomain=yes type=FWD name="minecraftshop.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="microsoft" match-subdomain=yes type=FWD name="mmdnn.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="microsoft" match-subdomain=yes type=FWD name="mojang.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="microsoft" match-subdomain=yes type=FWD name="momentumms.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="microsoft" match-subdomain=yes type=FWD name="mono-project.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="microsoft" match-subdomain=yes type=FWD name="morphcharts.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="microsoft" match-subdomain=yes type=FWD name="mpnevolution.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="microsoft" match-subdomain=yes type=FWD name="ms-studiosmedia.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="microsoft" match-subdomain=yes type=FWD name="ms365surfaceoffer.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="microsoft" match-subdomain=yes type=FWD name="msads.net"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="microsoft" match-subdomain=yes type=FWD name="msauth.net"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="microsoft" match-subdomain=yes type=FWD name="mschallenge2018.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="microsoft" match-subdomain=yes type=FWD name="mschcdn.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="microsoft" match-subdomain=yes type=FWD name="msdn.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="microsoft" match-subdomain=yes type=FWD name="msecnd.net"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="microsoft" match-subdomain=yes type=FWD name="msedge.net"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="microsoft" match-subdomain=yes type=FWD name="msft.info"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="microsoft" match-subdomain=yes type=FWD name="msft.net"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="microsoft" match-subdomain=yes type=FWD name="msftauth.net"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="microsoft" match-subdomain=yes type=FWD name="msftauthimages.net"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="microsoft" match-subdomain=yes type=FWD name="msftconnecttest.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="microsoft" match-subdomain=yes type=FWD name="msftncsi.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="microsoft" match-subdomain=yes type=FWD name="msftnet.org"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="microsoft" match-subdomain=yes type=FWD name="msgamesresearch.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="microsoft" match-subdomain=yes type=FWD name="msgamestudios.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="microsoft" match-subdomain=yes type=FWD name="mshome.net"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="microsoft" match-subdomain=yes type=FWD name="msidentity.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="microsoft" match-subdomain=yes type=FWD name="msinnovationchallenge.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="microsoft" match-subdomain=yes type=FWD name="msn.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="microsoft" match-subdomain=yes type=FWD name="msn.net"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="microsoft" match-subdomain=yes type=FWD name="msnewskids.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="microsoft" match-subdomain=yes type=FWD name="msnewskids.net"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="microsoft" match-subdomain=yes type=FWD name="msnewskids.org"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="microsoft" match-subdomain=yes type=FWD name="msnkids.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="microsoft" match-subdomain=yes type=FWD name="msocdn.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="microsoft" match-subdomain=yes type=FWD name="msocsp.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="microsoft" match-subdomain=yes type=FWD name="mspairlift.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="microsoft" match-subdomain=yes type=FWD name="msropendata.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="microsoft" match-subdomain=yes type=FWD name="msturing.org"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="microsoft" match-subdomain=yes type=FWD name="msudalosti.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="microsoft" match-subdomain=yes type=FWD name="msunlimitedcloudsummit.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="microsoft" match-subdomain=yes type=FWD name="mymicrosoft.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="microsoft" match-subdomain=yes type=FWD name="myoctocat.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="microsoft" match-subdomain=yes type=FWD name="nelreports.net"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="microsoft" match-subdomain=yes type=FWD name="nextechafrica.net"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="microsoft" match-subdomain=yes type=FWD name="npm.community"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="microsoft" match-subdomain=yes type=FWD name="npmjs.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="microsoft" match-subdomain=yes type=FWD name="npmjs.org"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="microsoft" match-subdomain=yes type=FWD name="nuget.org"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="microsoft" match-subdomain=yes type=FWD name="nugettest.org"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="microsoft" match-subdomain=yes type=FWD name="nxta.org"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="microsoft" match-subdomain=yes type=FWD name="o365cn.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="microsoft" match-subdomain=yes type=FWD name="o365weve-dev.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="microsoft" match-subdomain=yes type=FWD name="o365weve-ppe.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="microsoft" match-subdomain=yes type=FWD name="o365weve.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="microsoft" match-subdomain=yes type=FWD name="octocaptcha.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="microsoft" match-subdomain=yes type=FWD name="office"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="microsoft" match-subdomain=yes type=FWD name="office.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="microsoft" match-subdomain=yes type=FWD name="office.net"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="microsoft" match-subdomain=yes type=FWD name="office365.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="microsoft" match-subdomain=yes type=FWD name="office365love.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="microsoft" match-subdomain=yes type=FWD name="office365tw.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="microsoft" match-subdomain=yes type=FWD name="onedrive"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="microsoft" match-subdomain=yes type=FWD name="onedrive.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="microsoft" match-subdomain=yes type=FWD name="onedriveupdater"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="microsoft" match-subdomain=yes type=FWD name="onenote.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="microsoft" match-subdomain=yes type=FWD name="onenote.net"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="microsoft" match-subdomain=yes type=FWD name="opensource.guide"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="microsoft" match-subdomain=yes type=FWD name="opentranslatorstothings.org"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="microsoft" match-subdomain=yes type=FWD name="opticsforthecloud.net"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="microsoft" match-subdomain=yes type=FWD name="orithegame.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="microsoft" match-subdomain=yes type=FWD name="outingsapp.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="microsoft" match-subdomain=yes type=FWD name="outlook.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="microsoft" match-subdomain=yes type=FWD name="passport.net"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="microsoft" match-subdomain=yes type=FWD name="pixapp.net"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="microsoft" match-subdomain=yes type=FWD name="playfab.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="microsoft" match-subdomain=yes type=FWD name="playfabapi.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="microsoft" match-subdomain=yes type=FWD name="poshtestgallery.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="microsoft" match-subdomain=yes type=FWD name="powerappscdn.net"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="microsoft" match-subdomain=yes type=FWD name="powerautomate.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="microsoft" match-subdomain=yes type=FWD name="powerbi.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="microsoft" match-subdomain=yes type=FWD name="powershellgallery.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="microsoft" match-subdomain=yes type=FWD name="projectmurphy.net"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="microsoft" match-subdomain=yes type=FWD name="projectsangam.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="microsoft" match-subdomain=yes type=FWD name="pwabuilder.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="microsoft" match-subdomain=yes type=FWD name="pxt.io"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="microsoft" match-subdomain=yes type=FWD name="r.bing.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="microsoft" match-subdomain=yes type=FWD name="renovacionoffice.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="microsoft" match-subdomain=yes type=FWD name="renovacionxboxlive.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="microsoft" match-subdomain=yes type=FWD name="repo.new"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="microsoft" match-subdomain=yes type=FWD name="s-dc-msedge.net"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="microsoft" match-subdomain=yes type=FWD name="s-microsoft.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="microsoft" match-subdomain=yes type=FWD name="s-msedge.net"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="microsoft" match-subdomain=yes type=FWD name="s-msft.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="microsoft" match-subdomain=yes type=FWD name="s-msn.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="microsoft" match-subdomain=yes type=FWD name="sankie.net"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="microsoft" match-subdomain=yes type=FWD name="serverlesslibrary.net"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="microsoft" match-subdomain=yes type=FWD name="sfbassets.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="microsoft" match-subdomain=yes type=FWD name="sfbassets.net"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="microsoft" match-subdomain=yes type=FWD name="sharepoint.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="microsoft" match-subdomain=yes type=FWD name="sharepointonline.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="microsoft" match-subdomain=yes type=FWD name="signalr.net"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="microsoft" match-subdomain=yes type=FWD name="skype"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="microsoft" match-subdomain=yes type=FWD name="skype-edf.akadns.net"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="microsoft" match-subdomain=yes type=FWD name="skype.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="microsoft" match-subdomain=yes type=FWD name="skype.net"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="microsoft" match-subdomain=yes type=FWD name="skypeassets.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="microsoft" match-subdomain=yes type=FWD name="skypeassets.net"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="microsoft" match-subdomain=yes type=FWD name="skypedata.akadns.net"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="microsoft" match-subdomain=yes type=FWD name="spo-msedge.net"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="microsoft" match-subdomain=yes type=FWD name="spoprod-a.akamaihd.net"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="microsoft" match-subdomain=yes type=FWD name="sprinklesapp.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="microsoft" match-subdomain=yes type=FWD name="sqlserveronlinux.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="microsoft" match-subdomain=yes type=FWD name="start.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="microsoft" match-subdomain=yes type=FWD name="successwithteams.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="microsoft" match-subdomain=yes type=FWD name="surface.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="microsoft" match-subdomain=yes type=FWD name="sway-cdn.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="microsoft" match-subdomain=yes type=FWD name="sway.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="microsoft" match-subdomain=yes type=FWD name="sysinternals.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="microsoft" match-subdomain=yes type=FWD name="t-msedge.net"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="microsoft" match-subdomain=yes type=FWD name="tailwindtraders.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="microsoft" match-subdomain=yes type=FWD name="tellmewhygame.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="microsoft" match-subdomain=yes type=FWD name="tfsallin.net"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="microsoft" match-subdomain=yes type=FWD name="th.bing.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="microsoft" match-subdomain=yes type=FWD name="thegithubshop.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="microsoft" match-subdomain=yes type=FWD name="timelinestoryteller.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="microsoft" match-subdomain=yes type=FWD name="trafficmanager.net"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="microsoft" match-subdomain=yes type=FWD name="translatetheweb.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="microsoft" match-subdomain=yes type=FWD name="tryfunctions.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="microsoft" match-subdomain=yes type=FWD name="unlocklimitlesslearning.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="microsoft" match-subdomain=yes type=FWD name="userpxt.io"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="microsoft" match-subdomain=yes type=FWD name="uwpcommunitytoolkit.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="microsoft" match-subdomain=yes type=FWD name="vfsforgit.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="microsoft" match-subdomain=yes type=FWD name="vfsforgit.org"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="microsoft" match-subdomain=yes type=FWD name="videobreakdown.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="microsoft" match-subdomain=yes type=FWD name="virtualearth.net"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="microsoft" match-subdomain=yes type=FWD name="visualstudio-staging.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="microsoft" match-subdomain=yes type=FWD name="visualstudio.co"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="microsoft" match-subdomain=yes type=FWD name="visualstudio.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="microsoft" match-subdomain=yes type=FWD name="visualstudio.eu"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="microsoft" match-subdomain=yes type=FWD name="visualstudio.net"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="microsoft" match-subdomain=yes type=FWD name="vsallin.net"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="microsoft" match-subdomain=yes type=FWD name="vsassets.io"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="microsoft" match-subdomain=yes type=FWD name="vscode-cdn.net"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="microsoft" match-subdomain=yes type=FWD name="vscode-unpkg.net"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="microsoft" match-subdomain=yes type=FWD name="vscode.dev"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="microsoft" match-subdomain=yes type=FWD name="what-fan.net"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="microsoft" match-subdomain=yes type=FWD name="windows"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="microsoft" match-subdomain=yes type=FWD name="windows-int.net"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="microsoft" match-subdomain=yes type=FWD name="windows.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="microsoft" match-subdomain=yes type=FWD name="windows.net"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="microsoft" match-subdomain=yes type=FWD name="windowsazure.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="microsoft" match-subdomain=yes type=FWD name="windowscommunity.net"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="microsoft" match-subdomain=yes type=FWD name="windowsmarketplace.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="microsoft" match-subdomain=yes type=FWD name="windowsphone-int.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="microsoft" match-subdomain=yes type=FWD name="windowsphone.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="microsoft" match-subdomain=yes type=FWD name="windowssearch.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="microsoft" match-subdomain=yes type=FWD name="windowsupdate.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="microsoft" match-subdomain=yes type=FWD name="winhec.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="microsoft" match-subdomain=yes type=FWD name="winhec.net"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="microsoft" match-subdomain=yes type=FWD name="xamarin.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="microsoft" match-subdomain=yes type=FWD name="xbox"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="microsoft" match-subdomain=yes type=FWD name="xbox.co"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="microsoft" match-subdomain=yes type=FWD name="xbox.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="microsoft" match-subdomain=yes type=FWD name="xbox.eu"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="microsoft" match-subdomain=yes type=FWD name="xbox.org"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="microsoft" match-subdomain=yes type=FWD name="xbox360.co"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="microsoft" match-subdomain=yes type=FWD name="xbox360.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="microsoft" match-subdomain=yes type=FWD name="xbox360.eu"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="microsoft" match-subdomain=yes type=FWD name="xbox360.org"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="microsoft" match-subdomain=yes type=FWD name="xboxab.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="microsoft" match-subdomain=yes type=FWD name="xboxgamepass.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="microsoft" match-subdomain=yes type=FWD name="xboxgamestudios.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="microsoft" match-subdomain=yes type=FWD name="xboxlive.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="microsoft" match-subdomain=yes type=FWD name="xboxone.co"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="microsoft" match-subdomain=yes type=FWD name="xboxone.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="microsoft" match-subdomain=yes type=FWD name="xboxone.eu"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="microsoft" match-subdomain=yes type=FWD name="xboxplayanywhere.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="microsoft" match-subdomain=yes type=FWD name="xboxservices.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="microsoft" match-subdomain=yes type=FWD name="xboxstudios.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="microsoft" match-subdomain=yes type=FWD name="yammer.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="microsoft" type=FWD name="az764295.vo.msecnd.net"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="microsoft" type=FWD name="azure.microsoft.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="microsoft" type=FWD name="azuremarketplace.microsoft.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="microsoft" type=FWD name="b.c2r.ts.cdn.office.net"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="microsoft" type=FWD name="bg.v4.a.dl.ws.microsoft.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="microsoft" type=FWD name="bg4.v4.a.dl.ws.microsoft.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="microsoft" type=FWD name="bingsettingssearch.trafficmanager.net"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="microsoft" type=FWD name="bj1.api.bing.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="microsoft" type=FWD name="build.microsoft.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="microsoft" type=FWD name="cdn.marketplaceimages.windowsphone.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="microsoft" type=FWD name="cn.windowssearch.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="microsoft" type=FWD name="crl.microsoft.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="microsoft" type=FWD name="ctldl.windowsupdate.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="microsoft" type=FWD name="default.exp-tas.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="microsoft" type=FWD name="devblogs.microsoft.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="microsoft" type=FWD name="developer.microsoft.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="microsoft" type=FWD name="docs.microsoft.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="microsoft" type=FWD name="download.microsoft.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="microsoft" type=FWD name="download.visualstudio.microsoft.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="microsoft" type=FWD name="dtlgalleryint.cloudapp.net"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="microsoft" type=FWD name="emoi-cncdn.bing.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="microsoft" type=FWD name="f.c2r.ts.cdn.office.net"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="microsoft" type=FWD name="flightsimulator.azureedge.net"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="microsoft" type=FWD name="fs.microsoft.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="microsoft" type=FWD name="github-api.arkoselabs.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="microsoft" type=FWD name="github-cloud.s3.amazonaws.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="microsoft" type=FWD name="img-prod-cms-rt-microsoft-com.akamaized.net"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="microsoft" type=FWD name="img-s-msn-com.akamaized.net"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="microsoft" type=FWD name="learn.microsoft.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="microsoft" type=FWD name="location.microsoft.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="microsoft" type=FWD name="mscrl.microsoft.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="microsoft" type=FWD name="msgr.dlservice.microsoft.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="microsoft" type=FWD name="msgruser.dlservice.microsoft.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="microsoft" type=FWD name="mwf-service.akamaized.net"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="microsoft" type=FWD name="myvs.download.prss.microsoft.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="microsoft" type=FWD name="ocsp.microsoft.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="microsoft" type=FWD name="oemsoc.download.prss.microsoft.com"} on-error {}
-:do {add address-list=$AddressList forward-to=$ForwardTo comment="microsoft" type=FWD name="officecdn-microsoft-com.akamaized.net"} on-error {}
+:if ([:len [/ip dns static find name="git.io"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="microsoft" match-subdomain=yes type=FWD name="git.io" }
+:if ([:len [/ip dns static find name="github.blog"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="microsoft" match-subdomain=yes type=FWD name="github.blog" }
+:if ([:len [/ip dns static find name="github.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="microsoft" match-subdomain=yes type=FWD name="github.com" }
+:if ([:len [/ip dns static find name="github.community"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="microsoft" match-subdomain=yes type=FWD name="github.community" }
+:if ([:len [/ip dns static find name="github.dev"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="microsoft" match-subdomain=yes type=FWD name="github.dev" }
+:if ([:len [/ip dns static find name="github.io"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="microsoft" match-subdomain=yes type=FWD name="github.io" }
+:if ([:len [/ip dns static find name="githubapp.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="microsoft" match-subdomain=yes type=FWD name="githubapp.com" }
+:if ([:len [/ip dns static find name="githubassets.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="microsoft" match-subdomain=yes type=FWD name="githubassets.com" }
+:if ([:len [/ip dns static find name="githubcopilot.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="microsoft" match-subdomain=yes type=FWD name="githubcopilot.com" }
+:if ([:len [/ip dns static find name="githubhackathon.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="microsoft" match-subdomain=yes type=FWD name="githubhackathon.com" }
+:if ([:len [/ip dns static find name="githubnext.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="microsoft" match-subdomain=yes type=FWD name="githubnext.com" }
+:if ([:len [/ip dns static find name="githubpreview.dev"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="microsoft" match-subdomain=yes type=FWD name="githubpreview.dev" }
+:if ([:len [/ip dns static find name="githubstatus.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="microsoft" match-subdomain=yes type=FWD name="githubstatus.com" }
+:if ([:len [/ip dns static find name="githubuniverse.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="microsoft" match-subdomain=yes type=FWD name="githubuniverse.com" }
+:if ([:len [/ip dns static find name="githubusercontent.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="microsoft" match-subdomain=yes type=FWD name="githubusercontent.com" }
+:if ([:len [/ip dns static find name="gotcosmos.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="microsoft" match-subdomain=yes type=FWD name="gotcosmos.com" }
+:if ([:len [/ip dns static find name="graphengine.io"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="microsoft" match-subdomain=yes type=FWD name="graphengine.io" }
+:if ([:len [/ip dns static find name="hololens.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="microsoft" match-subdomain=yes type=FWD name="hololens.com" }
+:if ([:len [/ip dns static find name="hotmail"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="microsoft" match-subdomain=yes type=FWD name="hotmail" }
+:if ([:len [/ip dns static find name="hotmail.co"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="microsoft" match-subdomain=yes type=FWD name="hotmail.co" }
+:if ([:len [/ip dns static find name="hotmail.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="microsoft" match-subdomain=yes type=FWD name="hotmail.com" }
+:if ([:len [/ip dns static find name="hotmail.eu"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="microsoft" match-subdomain=yes type=FWD name="hotmail.eu" }
+:if ([:len [/ip dns static find name="hotmail.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="microsoft" match-subdomain=yes type=FWD name="hotmail.net" }
+:if ([:len [/ip dns static find name="hotmail.org"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="microsoft" match-subdomain=yes type=FWD name="hotmail.org" }
+:if ([:len [/ip dns static find name="ie10.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="microsoft" match-subdomain=yes type=FWD name="ie10.com" }
+:if ([:len [/ip dns static find name="ie11.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="microsoft" match-subdomain=yes type=FWD name="ie11.com" }
+:if ([:len [/ip dns static find name="ie8.co"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="microsoft" match-subdomain=yes type=FWD name="ie8.co" }
+:if ([:len [/ip dns static find name="ie9.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="microsoft" match-subdomain=yes type=FWD name="ie9.com" }
+:if ([:len [/ip dns static find name="ingads.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="microsoft" match-subdomain=yes type=FWD name="ingads.com" }
+:if ([:len [/ip dns static find name="insiderdevtour.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="microsoft" match-subdomain=yes type=FWD name="insiderdevtour.com" }
+:if ([:len [/ip dns static find name="internetexplorer.co"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="microsoft" match-subdomain=yes type=FWD name="internetexplorer.co" }
+:if ([:len [/ip dns static find name="internetexplorer.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="microsoft" match-subdomain=yes type=FWD name="internetexplorer.com" }
+:if ([:len [/ip dns static find name="intunewiki.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="microsoft" match-subdomain=yes type=FWD name="intunewiki.com" }
+:if ([:len [/ip dns static find name="iotinactionevents.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="microsoft" match-subdomain=yes type=FWD name="iotinactionevents.com" }
+:if ([:len [/ip dns static find name="kidgrid.tv"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="microsoft" match-subdomain=yes type=FWD name="kidgrid.tv" }
+:if ([:len [/ip dns static find name="kumo.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="microsoft" match-subdomain=yes type=FWD name="kumo.com" }
+:if ([:len [/ip dns static find name="l-msedge.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="microsoft" match-subdomain=yes type=FWD name="l-msedge.net" }
+:if ([:len [/ip dns static find name="latampartneruniversity.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="microsoft" match-subdomain=yes type=FWD name="latampartneruniversity.com" }
+:if ([:len [/ip dns static find name="live.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="microsoft" match-subdomain=yes type=FWD name="live.com" }
+:if ([:len [/ip dns static find name="live.eu"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="microsoft" match-subdomain=yes type=FWD name="live.eu" }
+:if ([:len [/ip dns static find name="live.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="microsoft" match-subdomain=yes type=FWD name="live.net" }
+:if ([:len [/ip dns static find name="livefilestore.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="microsoft" match-subdomain=yes type=FWD name="livefilestore.com" }
+:if ([:len [/ip dns static find name="livingyourambition.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="microsoft" match-subdomain=yes type=FWD name="livingyourambition.com" }
+:if ([:len [/ip dns static find name="makecode.org"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="microsoft" match-subdomain=yes type=FWD name="makecode.org" }
+:if ([:len [/ip dns static find name="managedmeetingrooms.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="microsoft" match-subdomain=yes type=FWD name="managedmeetingrooms.com" }
+:if ([:len [/ip dns static find name="management-azure-devices-int.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="microsoft" match-subdomain=yes type=FWD name="management-azure-devices-int.net" }
+:if ([:len [/ip dns static find name="management-azure-devices.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="microsoft" match-subdomain=yes type=FWD name="management-azure-devices.net" }
+:if ([:len [/ip dns static find name="masalladeloslimites.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="microsoft" match-subdomain=yes type=FWD name="masalladeloslimites.com" }
+:if ([:len [/ip dns static find name="mcchcdn.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="microsoft" match-subdomain=yes type=FWD name="mcchcdn.com" }
+:if ([:len [/ip dns static find name="meetfasttrack.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="microsoft" match-subdomain=yes type=FWD name="meetfasttrack.com" }
+:if ([:len [/ip dns static find name="meetyourdevices.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="microsoft" match-subdomain=yes type=FWD name="meetyourdevices.com" }
+:if ([:len [/ip dns static find name="mepn.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="microsoft" match-subdomain=yes type=FWD name="mepn.com" }
+:if ([:len [/ip dns static find name="microbit.org"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="microsoft" match-subdomain=yes type=FWD name="microbit.org" }
+:if ([:len [/ip dns static find name="microsoft"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="microsoft" match-subdomain=yes type=FWD name="microsoft" }
+:if ([:len [/ip dns static find name="microsoft-falcon.io"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="microsoft" match-subdomain=yes type=FWD name="microsoft-falcon.io" }
+:if ([:len [/ip dns static find name="microsoft-give.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="microsoft" match-subdomain=yes type=FWD name="microsoft-give.com" }
+:if ([:len [/ip dns static find name="microsoft-int.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="microsoft" match-subdomain=yes type=FWD name="microsoft-int.com" }
+:if ([:len [/ip dns static find name="microsoft-ppe.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="microsoft" match-subdomain=yes type=FWD name="microsoft-ppe.com" }
+:if ([:len [/ip dns static find name="microsoft-sap-events.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="microsoft" match-subdomain=yes type=FWD name="microsoft-sap-events.com" }
+:if ([:len [/ip dns static find name="microsoft-sbs-domains.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="microsoft" match-subdomain=yes type=FWD name="microsoft-sbs-domains.com" }
+:if ([:len [/ip dns static find name="microsoft.be"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="microsoft" match-subdomain=yes type=FWD name="microsoft.be" }
+:if ([:len [/ip dns static find name="microsoft.cat"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="microsoft" match-subdomain=yes type=FWD name="microsoft.cat" }
+:if ([:len [/ip dns static find name="microsoft.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="microsoft" match-subdomain=yes type=FWD name="microsoft.com" }
+:if ([:len [/ip dns static find name="microsoft.eu"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="microsoft" match-subdomain=yes type=FWD name="microsoft.eu" }
+:if ([:len [/ip dns static find name="microsoft.io"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="microsoft" match-subdomain=yes type=FWD name="microsoft.io" }
+:if ([:len [/ip dns static find name="microsoft.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="microsoft" match-subdomain=yes type=FWD name="microsoft.net" }
+:if ([:len [/ip dns static find name="microsoft.red"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="microsoft" match-subdomain=yes type=FWD name="microsoft.red" }
+:if ([:len [/ip dns static find name="microsoft.ru"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="microsoft" match-subdomain=yes type=FWD name="microsoft.ru" }
+:if ([:len [/ip dns static find name="microsoft.tv"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="microsoft" match-subdomain=yes type=FWD name="microsoft.tv" }
+:if ([:len [/ip dns static find name="microsoft365.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="microsoft" match-subdomain=yes type=FWD name="microsoft365.com" }
+:if ([:len [/ip dns static find name="microsoftaccountguard.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="microsoft" match-subdomain=yes type=FWD name="microsoftaccountguard.com" }
+:if ([:len [/ip dns static find name="microsoftadc.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="microsoft" match-subdomain=yes type=FWD name="microsoftadc.com" }
+:if ([:len [/ip dns static find name="microsoftads.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="microsoft" match-subdomain=yes type=FWD name="microsoftads.com" }
+:if ([:len [/ip dns static find name="microsoftadvertising.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="microsoft" match-subdomain=yes type=FWD name="microsoftadvertising.com" }
+:if ([:len [/ip dns static find name="microsoftadvertisingregionalawards.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="microsoft" match-subdomain=yes type=FWD name="microsoftadvertisingregionalawards.com" }
+:if ([:len [/ip dns static find name="microsoftaffiliates.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="microsoft" match-subdomain=yes type=FWD name="microsoftaffiliates.com" }
+:if ([:len [/ip dns static find name="microsoftapp.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="microsoft" match-subdomain=yes type=FWD name="microsoftapp.net" }
+:if ([:len [/ip dns static find name="microsoftazuread-sso.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="microsoft" match-subdomain=yes type=FWD name="microsoftazuread-sso.com" }
+:if ([:len [/ip dns static find name="microsoftazuresponsorships.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="microsoft" match-subdomain=yes type=FWD name="microsoftazuresponsorships.com" }
+:if ([:len [/ip dns static find name="microsoftcloud.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="microsoft" match-subdomain=yes type=FWD name="microsoftcloud.com" }
+:if ([:len [/ip dns static find name="microsoftcloudsummit.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="microsoft" match-subdomain=yes type=FWD name="microsoftcloudsummit.com" }
+:if ([:len [/ip dns static find name="microsoftcloudworkshop.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="microsoft" match-subdomain=yes type=FWD name="microsoftcloudworkshop.com" }
+:if ([:len [/ip dns static find name="microsoftcommunitytraining.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="microsoft" match-subdomain=yes type=FWD name="microsoftcommunitytraining.com" }
+:if ([:len [/ip dns static find name="microsoftdiplomados.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="microsoft" match-subdomain=yes type=FWD name="microsoftdiplomados.com" }
+:if ([:len [/ip dns static find name="microsofteca.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="microsoft" match-subdomain=yes type=FWD name="microsofteca.com" }
+:if ([:len [/ip dns static find name="microsoftedge.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="microsoft" match-subdomain=yes type=FWD name="microsoftedge.com" }
+:if ([:len [/ip dns static find name="microsoftedgeinsider.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="microsoft" match-subdomain=yes type=FWD name="microsoftedgeinsider.com" }
+:if ([:len [/ip dns static find name="microsoftgamestack.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="microsoft" match-subdomain=yes type=FWD name="microsoftgamestack.com" }
+:if ([:len [/ip dns static find name="microsofthouse.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="microsoft" match-subdomain=yes type=FWD name="microsofthouse.com" }
+:if ([:len [/ip dns static find name="microsofthouse.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="microsoft" match-subdomain=yes type=FWD name="microsofthouse.net" }
+:if ([:len [/ip dns static find name="microsoftinternetsafety.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="microsoft" match-subdomain=yes type=FWD name="microsoftinternetsafety.net" }
+:if ([:len [/ip dns static find name="microsoftiotcentral.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="microsoft" match-subdomain=yes type=FWD name="microsoftiotcentral.com" }
+:if ([:len [/ip dns static find name="microsoftiotinsiderlabs.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="microsoft" match-subdomain=yes type=FWD name="microsoftiotinsiderlabs.com" }
+:if ([:len [/ip dns static find name="microsoftlatamaitour.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="microsoft" match-subdomain=yes type=FWD name="microsoftlatamaitour.com" }
+:if ([:len [/ip dns static find name="microsoftlatamholiday.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="microsoft" match-subdomain=yes type=FWD name="microsoftlatamholiday.com" }
+:if ([:len [/ip dns static find name="microsoftlinc.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="microsoft" match-subdomain=yes type=FWD name="microsoftlinc.com" }
+:if ([:len [/ip dns static find name="microsoftmxfilantropia.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="microsoft" match-subdomain=yes type=FWD name="microsoftmxfilantropia.com" }
+:if ([:len [/ip dns static find name="microsoftnews.cc"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="microsoft" match-subdomain=yes type=FWD name="microsoftnews.cc" }
+:if ([:len [/ip dns static find name="microsoftnews.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="microsoft" match-subdomain=yes type=FWD name="microsoftnews.com" }
+:if ([:len [/ip dns static find name="microsoftnews.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="microsoft" match-subdomain=yes type=FWD name="microsoftnews.net" }
+:if ([:len [/ip dns static find name="microsoftnews.org"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="microsoft" match-subdomain=yes type=FWD name="microsoftnews.org" }
+:if ([:len [/ip dns static find name="microsoftnewsforkids.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="microsoft" match-subdomain=yes type=FWD name="microsoftnewsforkids.com" }
+:if ([:len [/ip dns static find name="microsoftnewsforkids.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="microsoft" match-subdomain=yes type=FWD name="microsoftnewsforkids.net" }
+:if ([:len [/ip dns static find name="microsoftnewsforkids.org"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="microsoft" match-subdomain=yes type=FWD name="microsoftnewsforkids.org" }
+:if ([:len [/ip dns static find name="microsoftnewskids.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="microsoft" match-subdomain=yes type=FWD name="microsoftnewskids.com" }
+:if ([:len [/ip dns static find name="microsoftnewskids.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="microsoft" match-subdomain=yes type=FWD name="microsoftnewskids.net" }
+:if ([:len [/ip dns static find name="microsoftnewskids.org"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="microsoft" match-subdomain=yes type=FWD name="microsoftnewskids.org" }
+:if ([:len [/ip dns static find name="microsoftonline-p.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="microsoft" match-subdomain=yes type=FWD name="microsoftonline-p.com" }
+:if ([:len [/ip dns static find name="microsoftonline.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="microsoft" match-subdomain=yes type=FWD name="microsoftonline.com" }
+:if ([:len [/ip dns static find name="microsoftpartnercommunity.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="microsoft" match-subdomain=yes type=FWD name="microsoftpartnercommunity.com" }
+:if ([:len [/ip dns static find name="microsoftpartnersolutions.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="microsoft" match-subdomain=yes type=FWD name="microsoftpartnersolutions.com" }
+:if ([:len [/ip dns static find name="microsoftpersonalcontent.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="microsoft" match-subdomain=yes type=FWD name="microsoftpersonalcontent.com" }
+:if ([:len [/ip dns static find name="microsoftreactor.info"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="microsoft" match-subdomain=yes type=FWD name="microsoftreactor.info" }
+:if ([:len [/ip dns static find name="microsoftreactor.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="microsoft" match-subdomain=yes type=FWD name="microsoftreactor.net" }
+:if ([:len [/ip dns static find name="microsoftreactor.org"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="microsoft" match-subdomain=yes type=FWD name="microsoftreactor.org" }
+:if ([:len [/ip dns static find name="microsoftready.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="microsoft" match-subdomain=yes type=FWD name="microsoftready.com" }
+:if ([:len [/ip dns static find name="microsoftsilverlight.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="microsoft" match-subdomain=yes type=FWD name="microsoftsilverlight.com" }
+:if ([:len [/ip dns static find name="microsoftsilverlight.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="microsoft" match-subdomain=yes type=FWD name="microsoftsilverlight.net" }
+:if ([:len [/ip dns static find name="microsoftsilverlight.org"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="microsoft" match-subdomain=yes type=FWD name="microsoftsilverlight.org" }
+:if ([:len [/ip dns static find name="microsoftsiteselection.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="microsoft" match-subdomain=yes type=FWD name="microsoftsiteselection.com" }
+:if ([:len [/ip dns static find name="microsoftsqlserver.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="microsoft" match-subdomain=yes type=FWD name="microsoftsqlserver.com" }
+:if ([:len [/ip dns static find name="microsoftstart.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="microsoft" match-subdomain=yes type=FWD name="microsoftstart.com" }
+:if ([:len [/ip dns static find name="microsoftstore.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="microsoft" match-subdomain=yes type=FWD name="microsoftstore.com" }
+:if ([:len [/ip dns static find name="microsoftstream.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="microsoft" match-subdomain=yes type=FWD name="microsoftstream.com" }
+:if ([:len [/ip dns static find name="microsoftteams.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="microsoft" match-subdomain=yes type=FWD name="microsoftteams.com" }
+:if ([:len [/ip dns static find name="microsofttradein.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="microsoft" match-subdomain=yes type=FWD name="microsofttradein.com" }
+:if ([:len [/ip dns static find name="microsofttranslator.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="microsoft" match-subdomain=yes type=FWD name="microsofttranslator.com" }
+:if ([:len [/ip dns static find name="microsoftuwp.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="microsoft" match-subdomain=yes type=FWD name="microsoftuwp.com" }
+:if ([:len [/ip dns static find name="minecraft-services.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="microsoft" match-subdomain=yes type=FWD name="minecraft-services.net" }
+:if ([:len [/ip dns static find name="minecraft.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="microsoft" match-subdomain=yes type=FWD name="minecraft.net" }
+:if ([:len [/ip dns static find name="minecraftservices.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="microsoft" match-subdomain=yes type=FWD name="minecraftservices.com" }
+:if ([:len [/ip dns static find name="minecraftshop.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="microsoft" match-subdomain=yes type=FWD name="minecraftshop.com" }
+:if ([:len [/ip dns static find name="mmdnn.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="microsoft" match-subdomain=yes type=FWD name="mmdnn.com" }
+:if ([:len [/ip dns static find name="mojang.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="microsoft" match-subdomain=yes type=FWD name="mojang.com" }
+:if ([:len [/ip dns static find name="momentumms.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="microsoft" match-subdomain=yes type=FWD name="momentumms.com" }
+:if ([:len [/ip dns static find name="mono-project.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="microsoft" match-subdomain=yes type=FWD name="mono-project.com" }
+:if ([:len [/ip dns static find name="morphcharts.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="microsoft" match-subdomain=yes type=FWD name="morphcharts.com" }
+:if ([:len [/ip dns static find name="mpnevolution.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="microsoft" match-subdomain=yes type=FWD name="mpnevolution.com" }
+:if ([:len [/ip dns static find name="ms-studiosmedia.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="microsoft" match-subdomain=yes type=FWD name="ms-studiosmedia.com" }
+:if ([:len [/ip dns static find name="ms365surfaceoffer.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="microsoft" match-subdomain=yes type=FWD name="ms365surfaceoffer.com" }
+:if ([:len [/ip dns static find name="msads.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="microsoft" match-subdomain=yes type=FWD name="msads.net" }
+:if ([:len [/ip dns static find name="msauth.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="microsoft" match-subdomain=yes type=FWD name="msauth.net" }
+:if ([:len [/ip dns static find name="mschallenge2018.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="microsoft" match-subdomain=yes type=FWD name="mschallenge2018.com" }
+:if ([:len [/ip dns static find name="mschcdn.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="microsoft" match-subdomain=yes type=FWD name="mschcdn.com" }
+:if ([:len [/ip dns static find name="msdn.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="microsoft" match-subdomain=yes type=FWD name="msdn.com" }
+:if ([:len [/ip dns static find name="msecnd.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="microsoft" match-subdomain=yes type=FWD name="msecnd.net" }
+:if ([:len [/ip dns static find name="msedge.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="microsoft" match-subdomain=yes type=FWD name="msedge.net" }
+:if ([:len [/ip dns static find name="msft.info"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="microsoft" match-subdomain=yes type=FWD name="msft.info" }
+:if ([:len [/ip dns static find name="msft.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="microsoft" match-subdomain=yes type=FWD name="msft.net" }
+:if ([:len [/ip dns static find name="msftauth.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="microsoft" match-subdomain=yes type=FWD name="msftauth.net" }
