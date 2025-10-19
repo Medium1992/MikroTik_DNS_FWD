@@ -2,7 +2,7 @@ name: Generate MikroTik RSC Files for scripts
 
 on:
   schedule:
-    - cron: "05 0 * * *"    # ежедневно в 00:05
+    - cron: "25 0 * * *"    # ежедневно в 00:25
   workflow_dispatch:
 
 permissions:
@@ -20,6 +20,7 @@ env:
     tidal, \
     google, \
     google-gemini, \
+    google-play, \
     tmdb, \
     spotify, \
     tiktok, \
@@ -57,7 +58,8 @@ env:
     pornhub, \
     xhamster, \
     adobe, \
-    twitch"
+    twitch, \
+    jetbrains"
 
   JSON_URL_TEMPLATE: https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/refs/heads/sing/geo/geosite/{resource}.json
   MAX_ENTRIES_PER_FILE: 150

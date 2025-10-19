@@ -2,15 +2,42 @@ name: Generate MikroTik RSC Files for scripts from iplist.opencck.org
 
 on:
   schedule:
-    - cron: "25 0 * * *"    # ежедневно в 00:25
+    - cron: "05 0 * * *"    # ежедневно в 00:05
   workflow_dispatch:
 
 permissions:
   contents: write
 
 env:
-  GROUP: "torrent, anime"
-  SITE: "rutor.info, nnmclub.to"
+  GROUP: "torrent, \
+    anime, \
+    porn, \
+    news, \
+    games, \
+    education, \
+    casino, \
+    art"
+  SITE: "basecamp.com, \
+    bestchange.ru, \
+    canva.com, \
+    claude.ai, \
+    copilot, \
+    deepl.com, \
+    elevenlabs.io, \
+    notepad-plus-plus.org, \
+    sentry.io, \
+    strava.com, \
+    daramalive.life, \
+    doramy.club, \
+    filmix.fm, \
+    hdrezka.ag, \
+    kinobase.org, \
+    kinovod.pro, \
+    kinozal.tv, \
+    lostfilm.tv, \
+    zeflix.online, \
+    soundcloud.com, \
+    signal.org"
   GROUP_URL_TEMPLATE: https://iplist.opencck.org/?format=json&data=domains&wildcard=1&group={group}
   SITE_URL_TEMPLATE: https://iplist.opencck.org/?format=json&data=domains&wildcard=1&site={site}
   MAX_ENTRIES_PER_FILE: 150
