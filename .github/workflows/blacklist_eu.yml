@@ -2,7 +2,7 @@ name: Generate MikroTik BlackList_EU RSC Files
 
 on:
   schedule:
-    - cron: "20 0 * * *"    # ежедневно в 00:20
+    - cron: "25 0 * * *"    # ежедневно в 00:25
   workflow_dispatch:
 
 permissions:

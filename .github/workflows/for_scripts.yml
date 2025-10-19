@@ -2,7 +2,7 @@ name: Generate MikroTik RSC Files for scripts
 
 on:
   schedule:
-    - cron: "25 0 * * *"    # ежедневно в 00:25
+    - cron: "10 0 * * *"    # ежедневно в 00:10
   workflow_dispatch:
 
 permissions:
@@ -165,7 +165,39 @@ env:
     jetbrains"
 
   JSON_URL_TEMPLATE: https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/refs/heads/sing/geo/geosite/{resource}.json
-  MAX_ENTRIES_PER_FILE: 150
+
+  GROUP: "torrent, \
+    anime, \
+    porn, \
+    news, \
+    games, \
+    education, \
+    casino, \
+    art"
+  SITE: "basecamp.com, \
+    bestchange.ru, \
+    canva.com, \
+    claude.ai, \
+    copilot, \
+    deepl.com, \
+    elevenlabs.io, \
+    notepad-plus-plus.org, \
+    sentry.io, \
+    strava.com, \
+    daramalive.life, \
+    doramy.club, \
+    filmix.fm, \
+    hdrezka.ag, \
+    kinobase.org, \
+    kinovod.pro, \
+    kinozal.tv, \
+    lostfilm.tv, \
+    zeflix.online, \
+    soundcloud.com, \
+    signal.org"
+  GROUP_URL_TEMPLATE: https://iplist.opencck.org/?format=json&data=domains&wildcard=1&group={group}
+  SITE_URL_TEMPLATE: https://iplist.opencck.org/?format=json&data=domains&wildcard=1&site={site}
+  MAX_ENTRIES_PER_FILE: 250
 
 jobs:
   generate-rsc:
@@ -177,14 +209,228 @@ jobs:
       - name: Install jq
         run: sudo apt-get update && sudo apt-get install -y jq
 
-      - name: Process each resource
+      - name: Process groups and sites form iplist.opencck.org
+        run: |
+          set -e
+          IFS=',' read -ra group_array <<< "${{ env.GROUP }}"
+          IFS=',' read -ra site_array <<< "${{ env.SITE }}"
+          GROUP_URL_TEMPLATE="${{ env.GROUP_URL_TEMPLATE }}"
+          SITE_URL_TEMPLATE="${{ env.SITE_URL_TEMPLATE }}"
+          MAX_ENTRIES_PER_FILE="${{ env.MAX_ENTRIES_PER_FILE }}"
+
+          mkdir -p for_scripts
+
+          # Process groups
+          for group in "${group_array[@]}"; do
+              group=$(echo "$group" | xargs)
+              echo "Processing group: $group"
+              json_url="${GROUP_URL_TEMPLATE//\{group\}/$group}"
+              
+              if ! curl -s -f "$json_url" > "input_$group.json"; then
+                  echo "Failed to fetch JSON for group $group, skipping..."
+                  continue
+              fi
+
+              # Initialize array for all suffixes in the group
+              group_suffixes=()
+
+              # Get resource names (keys) from JSON
+              resources=$(jq -r 'keys[]' "input_$group.json" | sort -u)
+
+              # Process each resource in the group
+              while IFS= read -r resource; do
+                  # Extract base resource name without TLD
+                  base_resource=$(echo "$resource" | sed -E 's/\.[a-zA-Z]+$//')
+                  echo "Processing resource: $base_resource (from $resource)"
+                  
+                  # Get domains for the resource (all treated as suffixes with match-subdomain=yes)
+                  suffixes=$(jq -r --arg resource "$resource" '.[$resource][]' "input_$group.json" | sort -u | grep -v '^$' || true)
+
+                  # Add suffixes to group_suffixes for combined group file
+                  if [ -n "$suffixes" ]; then
+                      while IFS= read -r suffix; do
+                          group_suffixes+=("$suffix")
+                      done <<< "$suffixes"
+                  fi
+
+                  # Combine suffixes into entries for individual resource, only if non-empty
+                  all_entries=()
+                  if [ -n "$suffixes" ]; then
+                      while IFS= read -r suffix; do
+                          all_entries+=("suffix:$suffix")
+                      done <<< "$suffixes"
+                  fi
+
+                  # Skip if no valid entries
+                  entry_count=${#all_entries[@]}
+                  if [ $entry_count -eq 0 ]; then
+                      echo "No valid entries for $base_resource, skipping..."
+                      continue
+                  fi
+
+                  # Check if entries fit in one file
+                  if [ $entry_count -le $MAX_ENTRIES_PER_FILE ]; then
+                      output_file="for_scripts/${base_resource}.rsc"
+                      echo ":global AddressList" > "$output_file"
+                      echo ":global ForwardTo" >> "$output_file"
+                      echo "/ip dns static" >> "$output_file"
+                      for entry in "${all_entries[@]}"; do
+                          type=$(echo "$entry" | cut -d':' -f1)
+                          value=$(echo "$entry" | cut -d':' -f2-)
+                          if [ "$type" = "suffix" ]; then
+                              echo ":do {add address-list=\$AddressList forward-to=\$ForwardTo comment=\"$base_resource\" match-subdomain=yes type=FWD name=\"$value\"} on-error {}" >> "$output_file"
+                          fi
+                      done
+                  else
+                      # Split into multiple files
+                      part=1
+                      entry_index=0
+                      while [ $entry_index -lt $entry_count ]; do
+                          output_file="for_scripts/${base_resource}_part${part}.rsc"
+                          echo ":global AddressList" > "$output_file"
+                          echo ":global ForwardTo" >> "$output_file"
+                          echo "/ip dns static" >> "$output_file"
+                          for ((i=0; i<MAX_ENTRIES_PER_FILE && entry_index<entry_count; i++, entry_index++)); do
+                              entry=${all_entries[$entry_index]}
+                              type=$(echo "$entry" | cut -d':' -f1)
+                              value=$(echo "$entry" | cut -d':' -f2-)
+                              if [ "$type" = "suffix" ]; then
+                                  echo ":do {add address-list=\$AddressList forward-to=\$ForwardTo comment=\"$base_resource\" match-subdomain=yes type=FWD name=\"$value\"} on-error {}" >> "$output_file"
+                              fi
+                          done
+                          part=$((part + 1))
+                      done
+                  fi
+              done <<< "$resources"
+
+              # Create combined group file
+              if [ ${#group_suffixes[@]} -gt 0 ]; then
+                  echo "Creating combined file for group: $group"
+                  all_entries=()
+                  # Sort and deduplicate group_suffixes
+                  sorted_suffixes=$(printf '%s\n' "${group_suffixes[@]}" | sort -u | grep -v '^$' || true)
+                  if [ -n "$sorted_suffixes" ]; then
+                      while IFS= read -r suffix; do
+                          all_entries+=("suffix:$suffix")
+                      done <<< "$sorted_suffixes"
+                  fi
+
+                  entry_count=${#all_entries[@]}
+                  if [ $entry_count -eq 0 ]; then
+                      echo "No valid entries for group $group, skipping combined file..."
+                  else
+                      if [ $entry_count -le $MAX_ENTRIES_PER_FILE ]; then
+                          output_file="for_scripts/$group.rsc"
+                          echo ":global AddressList" > "$output_file"
+                          echo ":global ForwardTo" >> "$output_file"
+                          echo "/ip dns static" >> "$output_file"
+                          for entry in "${all_entries[@]}"; do
+                              type=$(echo "$entry" | cut -d':' -f1)
+                              value=$(echo "$entry" | cut -d':' -f2-)
+                              if [ "$type" = "suffix" ]; then
+                                  echo ":do {add address-list=\$AddressList forward-to=\$ForwardTo comment=\"$group\" match-subdomain=yes type=FWD name=\"$value\"} on-error {}" >> "$output_file"
+                              fi
+                          done
+                      else
+                          # Split into multiple files
+                          part=1
+                          entry_index=0
+                          while [ $entry_index -lt $entry_count ]; do
+                              output_file="for_scripts/${group}_part${part}.rsc"
+                              echo ":global AddressList" > "$output_file"
+                              echo ":global ForwardTo" >> "$output_file"
+                              echo "/ip dns static" >> "$output_file"
+                              for ((i=0; i<MAX_ENTRIES_PER_FILE && entry_index<entry_count; i++, entry_index++)); do
+                                  entry=${all_entries[$entry_index]}
+                                  type=$(echo "$entry" | cut -d':' -f1)
+                                  value=$(echo "$entry" | cut -d':' -f2-)
+                                  if [ "$type" = "suffix" ]; then
+                                      echo ":do {add address-list=\$AddressList forward-to=\$ForwardTo comment=\"$group\" match-subdomain=yes type=FWD name=\"$value\"} on-error {}" >> "$output_file"
+                                  fi
+                              done
+                              part=$((part + 1))
+                          done
+                      fi
+                  fi
+              else
+                  echo "No valid suffixes for group $group, skipping combined file..."
+              fi
+          done
+
+          # Process individual sites
+          for site in "${site_array[@]}"; do
+              site=$(echo "$site" | xargs)
+              echo "Processing site: $site"
+              json_url="${SITE_URL_TEMPLATE//\{site\}/$site}"
+              
+              if ! curl -s -f "$json_url" > "input_$site.json"; then
+                  echo "Failed to fetch JSON for site $site, skipping..."
+                  continue
+              fi
+
+              # Extract base resource name without TLD
+              base_resource=$(echo "$site" | sed -E 's/\.[a-zA-Z]+$//')
+              echo "Processing resource: $base_resource (from $site)"
+
+              # Get domains for the site (all treated as suffixes with match-subdomain=yes)
+              suffixes=$(jq -r --arg site "$site" '.[$site][]' "input_$site.json" | sort -u | grep -v '^$' || true)
+
+              # Combine suffixes into entries, only if non-empty
+              all_entries=()
+              if [ -n "$suffixes" ]; then
+                  while IFS= read -r suffix; do
+                      all_entries+=("suffix:$suffix")
+                  done <<< "$suffixes"
+              fi
+
+              # Skip if no valid entries
+              entry_count=${#all_entries[@]}
+              if [ $entry_count -eq 0 ]; then
+                  echo "No valid entries for $base_resource, skipping..."
+                  continue
+              fi
+
+              # Check if entries fit in one file
+              if [ $entry_count -le $MAX_ENTRIES_PER_FILE ]; then
+                  output_file="for_scripts/${base_resource}.rsc"
+                  echo ":global AddressList" > "$output_file"
+                  echo ":global ForwardTo" >> "$output_file"
+                  echo "/ip dns static" >> "$output_file"
+                  for entry in "${all_entries[@]}"; do
+                      type=$(echo "$entry" | cut -d':' -f1)
+                      value=$(echo "$entry" | cut -d':' -f2-)
+                      if [ "$type" = "suffix" ]; then
+                          echo ":do {add address-list=\$AddressList forward-to=\$ForwardTo comment=\"$base_resource\" match-subdomain=yes type=FWD name=\"$value\"} on-error {}" >> "$output_file"
+                      fi
+                  done
+              else
+                  # Split into multiple files
+                  part=1
+                  entry_index=0
+                  while [ $entry_index -lt $entry_count ]; do
+                      output_file="for_scripts/${base_resource}_part${part}.rsc"
+                      echo ":global AddressList" > "$output_file"
+                      echo ":global ForwardTo" >> "$output_file"
+                      echo "/ip dns static" >> "$output_file"
+                      for ((i=0; i<MAX_ENTRIES_PER_FILE && entry_index<entry_count; i++, entry_index++)); do
+                          entry=${all_entries[$entry_index]}
+                          type=$(echo "$entry" | cut -d':' -f1)
+                          value=$(echo "$entry" | cut -d':' -f2-)
+                          if [ "$type" = "suffix" ]; then
+                              echo ":do {add address-list=\$AddressList forward-to=\$ForwardTo comment=\"$base_resource\" match-subdomain=yes type=FWD name=\"$value\"} on-error {}" >> "$output_file"
+                          fi
+                      done
+                      part=$((part + 1))
+                  done
+              fi
+          done
+
+      - name: Process each resource form MetaCubeX
         run: |
           set -e
           IFS=',' read -ra resource_array <<< "${{ env.RESOURCES }}"
           JSON_URL_TEMPLATE="${{ env.JSON_URL_TEMPLATE }}"
           MAX_ENTRIES_PER_FILE="${{ env.MAX_ENTRIES_PER_FILE }}"
-
-          mkdir -p for_scripts
 
           for resource in "${resource_array[@]}"; do
               resource=$(echo "$resource" | xargs)
@@ -271,11 +517,11 @@ jobs:
                       type=$(echo "$entry" | cut -d':' -f1)
                       value=$(echo "$entry" | cut -d':' -f2-)
                       if [ "$type" = "domain" ]; then
-                          echo ":if ([:len [/ip dns static find name=\"$value\"]] = 0) do={ add address-list=\$AddressList forward-to=\$ForwardTo comment=\"$resource\" type=FWD name=\"$value\" }" >> "$output_file"
+                          echo ":do {add address-list=\$AddressList forward-to=\$ForwardTo comment=\"$resource\" type=FWD name=\"$value\"} on-error {}" >> "$output_file"
                       elif [ "$type" = "suffix" ]; then
-                          echo ":if ([:len [/ip dns static find name=\"$value\"]] = 0) do={ add address-list=\$AddressList forward-to=\$ForwardTo comment=\"$resource\" match-subdomain=yes type=FWD name=\"$value\" }" >> "$output_file"
+                          echo ":do {add address-list=\$AddressList forward-to=\$ForwardTo comment=\"$resource\" match-subdomain=yes type=FWD name=\"$value\"} on-error {}" >> "$output_file"
                       elif [ "$type" = "regex" ]; then
-                          echo ":if ([:len [/ip dns static find regexp=\"$value\"]] = 0) do={ add address-list=\$AddressList forward-to=\$ForwardTo comment=\"$resource\" type=FWD regexp=\"$value\" }" >> "$output_file"
+                          echo ":do {add address-list=\$AddressList forward-to=\$ForwardTo comment=\"$resource\" type=FWD regexp=\"$value\"} on-error {}" >> "$output_file"
                       fi
                   done
               else
@@ -292,11 +538,11 @@ jobs:
                           type=$(echo "$entry" | cut -d':' -f1)
                           value=$(echo "$entry" | cut -d':' -f2-)
                           if [ "$type" = "suffix" ]; then
-                              echo ":if ([:len [/ip dns static find name=\"$value\"]] = 0) do={ add address-list=\$AddressList forward-to=\$ForwardTo comment=\"$resource\" match-subdomain=yes type=FWD name=\"$value\" }" >> "$output_file"
+                              echo ":do {add address-list=\$AddressList forward-to=\$ForwardTo comment=\"$resource\" match-subdomain=yes type=FWD name=\"$value\"} on-error {}" >> "$output_file"
                           elif [ "$type" = "domain" ]; then
-                              echo ":if ([:len [/ip dns static find name=\"$value\"]] = 0) do={ add address-list=\$AddressList forward-to=\$ForwardTo comment=\"$resource\" type=FWD name=\"$value\" }" >> "$output_file"
+                              echo ":do {add address-list=\$AddressList forward-to=\$ForwardTo comment=\"$resource\" type=FWD name=\"$value\"} on-error {}" >> "$output_file"
                           elif [ "$type" = "regex" ]; then
-                              echo ":if ([:len [/ip dns static find regexp=\"$value\"]] = 0) do={ add address-list=\$AddressList forward-to=\$ForwardTo comment=\"$resource\" type=FWD regexp=\"$value\" }" >> "$output_file"
+                              echo ":do {add address-list=\$AddressList forward-to=\$ForwardTo comment=\"$resource\" type=FWD regexp=\"$value\"} on-error {}" >> "$output_file"
                           fi
                       done
                       part=$((part + 1))
@@ -309,5 +555,5 @@ jobs:
           git config --global user.name 'github-actions[bot]'
           git config --global user.email 'github-actions[bot]@users.noreply.github.com'
           git add for_scripts/*.rsc
-          git commit -m "Update RSC files for ${{ env.RESOURCES }}" || exit 0
+          git commit -m "Update RSC files from iplist.opencck.org and MetaCubeX" || exit 0
           git push
