@@ -78,14 +78,11 @@ add forward-to=fakeipEU comment=microsoft match-subdomain=yes type=FWD name=a-ms
 add forward-to=fakeipEU comment=microsoft match-subdomain=yes type=FWD name=aadrm.com
 add forward-to=fakeipEU comment=microsoft match-subdomain=yes type=FWD name=adaptivecards.io
 add forward-to=fakeipEU comment=microsoft match-subdomain=yes type=FWD name=aggresmart.com
-add forward-to=fakeipEU comment=microsoft match-subdomain=yes type=FWD name=aka.ms
 add forward-to=fakeipEU comment=microsoft match-subdomain=yes type=FWD name=ankarazirvesi2018.com
 add forward-to=fakeipEU comment=microsoft match-subdomain=yes type=FWD name=api-extractor.com
 add forward-to=fakeipEU comment=microsoft match-subdomain=yes type=FWD name=apisof.net
-add forward-to=fakeipEU comment=microsoft match-subdomain=yes type=FWD name=appcenter.ms
 add forward-to=fakeipEU comment=microsoft match-subdomain=yes type=FWD name=applicationinsights.io
 add forward-to=fakeipEU comment=microsoft match-subdomain=yes type=FWD name=applicationinsights.net
-add forward-to=fakeipEU comment=microsoft match-subdomain=yes type=FWD name=aria.ms
 add forward-to=fakeipEU comment=microsoft match-subdomain=yes type=FWD name=asobostudio.com
 add forward-to=fakeipEU comment=microsoft match-subdomain=yes type=FWD name=asp.net
 add forward-to=fakeipEU comment=microsoft match-subdomain=yes type=FWD name=aspnetcdn.com
@@ -172,12 +169,11 @@ add forward-to=fakeipEU comment=microsoft match-subdomain=yes type=FWD name=blue
 add forward-to=fakeipEU comment=microsoft match-subdomain=yes type=FWD name=boswp.com
 add forward-to=fakeipEU comment=microsoft match-subdomain=yes type=FWD name=botframework.com
 add forward-to=fakeipEU comment=microsoft match-subdomain=yes type=FWD name=brazilpartneruniversity.com
+add forward-to=fakeipEU comment=microsoft match-subdomain=yes type=FWD name=breakdown.me
 add forward-to=fakeipEU comment=microsoft match-subdomain=yes type=FWD name=c-msedge.net
 add forward-to=fakeipEU comment=microsoft match-subdomain=yes type=FWD name=callersbane.com
 add forward-to=fakeipEU comment=microsoft match-subdomain=yes type=FWD name=centralvalidation.com
-add forward-to=fakeipEU comment=microsoft match-subdomain=yes type=FWD name=ch9.ms
 add forward-to=fakeipEU comment=microsoft match-subdomain=yes type=FWD name=charticulator.com
-add forward-to=fakeipEU comment=microsoft match-subdomain=yes type=FWD name=clarity.ms
 add forward-to=fakeipEU comment=microsoft match-subdomain=yes type=FWD name=cloudapp.net
 add forward-to=fakeipEU comment=microsoft match-subdomain=yes type=FWD name=cloudappsecurity.com
 add forward-to=fakeipEU comment=microsoft match-subdomain=yes type=FWD name=cn.bing.com
@@ -195,7 +191,6 @@ add forward-to=fakeipEU comment=microsoft match-subdomain=yes type=FWD name=dcg.
 add forward-to=fakeipEU comment=microsoft match-subdomain=yes type=FWD name=dependabot.com
 add forward-to=fakeipEU comment=microsoft match-subdomain=yes type=FWD name=devopsassessment.net
 add forward-to=fakeipEU comment=microsoft match-subdomain=yes type=FWD name=devopsms.com
-add forward-to=fakeipEU comment=microsoft match-subdomain=yes type=FWD name=dictate.ms
 add forward-to=fakeipEU comment=microsoft match-subdomain=yes type=FWD name=ditu.live.com
 add forward-to=fakeipEU comment=microsoft match-subdomain=yes type=FWD name=dl.delivery.mp.microsoft.com
 add forward-to=fakeipEU comment=microsoft match-subdomain=yes type=FWD name=docs.com
@@ -222,7 +217,6 @@ add forward-to=fakeipEU comment=microsoft match-subdomain=yes type=FWD name=game
 add forward-to=fakeipEU comment=microsoft match-subdomain=yes type=FWD name=gears5.com
 add forward-to=fakeipEU comment=microsoft match-subdomain=yes type=FWD name=gearspop.com
 add forward-to=fakeipEU comment=microsoft match-subdomain=yes type=FWD name=gearstactics.com
-add forward-to=fakeipEU comment=microsoft match-subdomain=yes type=FWD name=gfx.ms
 add forward-to=fakeipEU comment=microsoft match-subdomain=yes type=FWD name=gh.io
 add forward-to=fakeipEU comment=microsoft match-subdomain=yes type=FWD name=ghcr.io
 add forward-to=fakeipEU comment=microsoft match-subdomain=yes type=FWD name=gigjam.com
@@ -250,7 +244,6 @@ add forward-to=fakeipEU comment=microsoft match-subdomain=yes type=FWD name=hotm
 add forward-to=fakeipEU comment=microsoft match-subdomain=yes type=FWD name=hotmail.eu
 add forward-to=fakeipEU comment=microsoft match-subdomain=yes type=FWD name=hotmail.net
 add forward-to=fakeipEU comment=microsoft match-subdomain=yes type=FWD name=hotmail.org
-add forward-to=fakeipEU comment=microsoft match-subdomain=yes type=FWD name=hummingbird.ms
 add forward-to=fakeipEU comment=microsoft match-subdomain=yes type=FWD name=ie10.com
 add forward-to=fakeipEU comment=microsoft match-subdomain=yes type=FWD name=ie11.com
 add forward-to=fakeipEU comment=microsoft match-subdomain=yes type=FWD name=ie8.co
@@ -261,7 +254,6 @@ add forward-to=fakeipEU comment=microsoft match-subdomain=yes type=FWD name=inte
 add forward-to=fakeipEU comment=microsoft match-subdomain=yes type=FWD name=internetexplorer.com
 add forward-to=fakeipEU comment=microsoft match-subdomain=yes type=FWD name=intunewiki.com
 add forward-to=fakeipEU comment=microsoft match-subdomain=yes type=FWD name=iotinactionevents.com
-add forward-to=fakeipEU comment=microsoft match-subdomain=yes type=FWD name=jwt.ms
 add forward-to=fakeipEU comment=microsoft match-subdomain=yes type=FWD name=kidgrid.tv
 add forward-to=fakeipEU comment=microsoft match-subdomain=yes type=FWD name=kumo.com
 add forward-to=fakeipEU comment=microsoft match-subdomain=yes type=FWD name=l-msedge.net
@@ -271,7 +263,6 @@ add forward-to=fakeipEU comment=microsoft match-subdomain=yes type=FWD name=live
 add forward-to=fakeipEU comment=microsoft match-subdomain=yes type=FWD name=live.net
 add forward-to=fakeipEU comment=microsoft match-subdomain=yes type=FWD name=livefilestore.com
 add forward-to=fakeipEU comment=microsoft match-subdomain=yes type=FWD name=livingyourambition.com
-add forward-to=fakeipEU comment=microsoft match-subdomain=yes type=FWD name=m12.vc
 add forward-to=fakeipEU comment=microsoft match-subdomain=yes type=FWD name=makecode.org
 add forward-to=fakeipEU comment=microsoft match-subdomain=yes type=FWD name=managedmeetingrooms.com
 add forward-to=fakeipEU comment=microsoft match-subdomain=yes type=FWD name=management-azure-devices-int.net
@@ -427,7 +418,6 @@ add forward-to=fakeipEU comment=microsoft match-subdomain=yes type=FWD name=oned
 add forward-to=fakeipEU comment=microsoft match-subdomain=yes type=FWD name=onedriveupdater
 add forward-to=fakeipEU comment=microsoft match-subdomain=yes type=FWD name=onenote.com
 add forward-to=fakeipEU comment=microsoft match-subdomain=yes type=FWD name=onenote.net
-add forward-to=fakeipEU comment=microsoft match-subdomain=yes type=FWD name=onestore.ms
 add forward-to=fakeipEU comment=microsoft match-subdomain=yes type=FWD name=opensource.guide
 add forward-to=fakeipEU comment=microsoft match-subdomain=yes type=FWD name=opentranslatorstothings.org
 add forward-to=fakeipEU comment=microsoft match-subdomain=yes type=FWD name=opticsforthecloud.net
@@ -460,7 +450,6 @@ add forward-to=fakeipEU comment=microsoft match-subdomain=yes type=FWD name=sank
 add forward-to=fakeipEU comment=microsoft match-subdomain=yes type=FWD name=serverlesslibrary.net
 add forward-to=fakeipEU comment=microsoft match-subdomain=yes type=FWD name=sfbassets.com
 add forward-to=fakeipEU comment=microsoft match-subdomain=yes type=FWD name=sfbassets.net
-add forward-to=fakeipEU comment=microsoft match-subdomain=yes type=FWD name=sfx.ms
 add forward-to=fakeipEU comment=microsoft match-subdomain=yes type=FWD name=sharepoint.com
 add forward-to=fakeipEU comment=microsoft match-subdomain=yes type=FWD name=sharepointonline.com
 add forward-to=fakeipEU comment=microsoft match-subdomain=yes type=FWD name=signalr.net
@@ -475,17 +464,14 @@ add forward-to=fakeipEU comment=microsoft match-subdomain=yes type=FWD name=spo-
 add forward-to=fakeipEU comment=microsoft match-subdomain=yes type=FWD name=spoprod-a.akamaihd.net
 add forward-to=fakeipEU comment=microsoft match-subdomain=yes type=FWD name=sprinklesapp.com
 add forward-to=fakeipEU comment=microsoft match-subdomain=yes type=FWD name=sqlserveronlinux.com
-add forward-to=fakeipEU comment=microsoft match-subdomain=yes type=FWD name=staffhub.ms
 add forward-to=fakeipEU comment=microsoft match-subdomain=yes type=FWD name=start.com
 add forward-to=fakeipEU comment=microsoft match-subdomain=yes type=FWD name=successwithteams.com
 add forward-to=fakeipEU comment=microsoft match-subdomain=yes type=FWD name=surface.com
-add forward-to=fakeipEU comment=microsoft match-subdomain=yes type=FWD name=svc.ms
 add forward-to=fakeipEU comment=microsoft match-subdomain=yes type=FWD name=sway-cdn.com
 add forward-to=fakeipEU comment=microsoft match-subdomain=yes type=FWD name=sway.com
 add forward-to=fakeipEU comment=microsoft match-subdomain=yes type=FWD name=sysinternals.com
 add forward-to=fakeipEU comment=microsoft match-subdomain=yes type=FWD name=t-msedge.net
 add forward-to=fakeipEU comment=microsoft match-subdomain=yes type=FWD name=tailwindtraders.com
-add forward-to=fakeipEU comment=microsoft match-subdomain=yes type=FWD name=techhub.ms
 add forward-to=fakeipEU comment=microsoft match-subdomain=yes type=FWD name=tellmewhygame.com
 add forward-to=fakeipEU comment=microsoft match-subdomain=yes type=FWD name=tfsallin.net
 add forward-to=fakeipEU comment=microsoft match-subdomain=yes type=FWD name=th.bing.com
@@ -511,7 +497,6 @@ add forward-to=fakeipEU comment=microsoft match-subdomain=yes type=FWD name=vsas
 add forward-to=fakeipEU comment=microsoft match-subdomain=yes type=FWD name=vscode-cdn.net
 add forward-to=fakeipEU comment=microsoft match-subdomain=yes type=FWD name=vscode-unpkg.net
 add forward-to=fakeipEU comment=microsoft match-subdomain=yes type=FWD name=vscode.dev
-add forward-to=fakeipEU comment=microsoft match-subdomain=yes type=FWD name=wbd.ms
 add forward-to=fakeipEU comment=microsoft match-subdomain=yes type=FWD name=what-fan.net
 add forward-to=fakeipEU comment=microsoft match-subdomain=yes type=FWD name=windows
 add forward-to=fakeipEU comment=microsoft match-subdomain=yes type=FWD name=windows-int.net

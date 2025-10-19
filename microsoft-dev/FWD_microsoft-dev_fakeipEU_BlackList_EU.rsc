@@ -17,7 +17,6 @@ add forward-to=fakeipEU comment=microsoft-dev type=FWD name=vsmarketplacebadge.a
 add forward-to=fakeipEU comment=microsoft-dev match-subdomain=yes type=FWD name=adaptivecards.io
 add forward-to=fakeipEU comment=microsoft-dev match-subdomain=yes type=FWD name=api-extractor.com
 add forward-to=fakeipEU comment=microsoft-dev match-subdomain=yes type=FWD name=apisof.net
-add forward-to=fakeipEU comment=microsoft-dev match-subdomain=yes type=FWD name=appcenter.ms
 add forward-to=fakeipEU comment=microsoft-dev match-subdomain=yes type=FWD name=blazor.net
 add forward-to=fakeipEU comment=microsoft-dev match-subdomain=yes type=FWD name=botframework.com
 add forward-to=fakeipEU comment=microsoft-dev match-subdomain=yes type=FWD name=codethemicrobit.com
@@ -26,7 +25,6 @@ add forward-to=fakeipEU comment=microsoft-dev match-subdomain=yes type=FWD name=
 add forward-to=fakeipEU comment=microsoft-dev match-subdomain=yes type=FWD name=gamesstack.com
 add forward-to=fakeipEU comment=microsoft-dev match-subdomain=yes type=FWD name=graphengine.io
 add forward-to=fakeipEU comment=microsoft-dev match-subdomain=yes type=FWD name=insiderdevtour.com
-add forward-to=fakeipEU comment=microsoft-dev match-subdomain=yes type=FWD name=jwt.ms
 add forward-to=fakeipEU comment=microsoft-dev match-subdomain=yes type=FWD name=microbit.org
 add forward-to=fakeipEU comment=microsoft-dev match-subdomain=yes type=FWD name=microsoftadc.com
 add forward-to=fakeipEU comment=microsoft-dev match-subdomain=yes type=FWD name=microsoftgamestack.com
