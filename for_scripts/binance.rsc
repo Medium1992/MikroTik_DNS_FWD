@@ -1,0 +1,39 @@
+:global AddressList
+:global ForwardTo
+/ip dns static
+:do {add address-list=$AddressList forward-to=$ForwardTo comment="binance" match-subdomain=yes type=FWD name="appsflayer.com"} on-error {}
+:do {add address-list=$AddressList forward-to=$ForwardTo comment="binance" match-subdomain=yes type=FWD name="binance.cc"} on-error {}
+:do {add address-list=$AddressList forward-to=$ForwardTo comment="binance" match-subdomain=yes type=FWD name="binance.charity"} on-error {}
+:do {add address-list=$AddressList forward-to=$ForwardTo comment="binance" match-subdomain=yes type=FWD name="binance.cloud"} on-error {}
+:do {add address-list=$AddressList forward-to=$ForwardTo comment="binance" match-subdomain=yes type=FWD name="binance.co"} on-error {}
+:do {add address-list=$AddressList forward-to=$ForwardTo comment="binance" match-subdomain=yes type=FWD name="binance.com"} on-error {}
+:do {add address-list=$AddressList forward-to=$ForwardTo comment="binance" match-subdomain=yes type=FWD name="binance.info"} on-error {}
+:do {add address-list=$AddressList forward-to=$ForwardTo comment="binance" match-subdomain=yes type=FWD name="binance.me"} on-error {}
+:do {add address-list=$AddressList forward-to=$ForwardTo comment="binance" match-subdomain=yes type=FWD name="binance.net"} on-error {}
+:do {add address-list=$AddressList forward-to=$ForwardTo comment="binance" match-subdomain=yes type=FWD name="binance.org"} on-error {}
+:do {add address-list=$AddressList forward-to=$ForwardTo comment="binance" match-subdomain=yes type=FWD name="binance.us"} on-error {}
+:do {add address-list=$AddressList forward-to=$ForwardTo comment="binance" match-subdomain=yes type=FWD name="binance.vision"} on-error {}
+:do {add address-list=$AddressList forward-to=$ForwardTo comment="binance" match-subdomain=yes type=FWD name="binanceapi.com"} on-error {}
+:do {add address-list=$AddressList forward-to=$ForwardTo comment="binance" match-subdomain=yes type=FWD name="binancecnt.com"} on-error {}
+:do {add address-list=$AddressList forward-to=$ForwardTo comment="binance" match-subdomain=yes type=FWD name="binancezh.be"} on-error {}
+:do {add address-list=$AddressList forward-to=$ForwardTo comment="binance" match-subdomain=yes type=FWD name="binancezh.biz"} on-error {}
+:do {add address-list=$AddressList forward-to=$ForwardTo comment="binance" match-subdomain=yes type=FWD name="binancezh.cc"} on-error {}
+:do {add address-list=$AddressList forward-to=$ForwardTo comment="binance" match-subdomain=yes type=FWD name="binancezh.co"} on-error {}
+:do {add address-list=$AddressList forward-to=$ForwardTo comment="binance" match-subdomain=yes type=FWD name="binancezh.com"} on-error {}
+:do {add address-list=$AddressList forward-to=$ForwardTo comment="binance" match-subdomain=yes type=FWD name="binancezh.info"} on-error {}
+:do {add address-list=$AddressList forward-to=$ForwardTo comment="binance" match-subdomain=yes type=FWD name="binancezh.ink"} on-error {}
+:do {add address-list=$AddressList forward-to=$ForwardTo comment="binance" match-subdomain=yes type=FWD name="binancezh.kim"} on-error {}
+:do {add address-list=$AddressList forward-to=$ForwardTo comment="binance" match-subdomain=yes type=FWD name="binancezh.link"} on-error {}
+:do {add address-list=$AddressList forward-to=$ForwardTo comment="binance" match-subdomain=yes type=FWD name="binancezh.live"} on-error {}
+:do {add address-list=$AddressList forward-to=$ForwardTo comment="binance" match-subdomain=yes type=FWD name="binancezh.mobi"} on-error {}
+:do {add address-list=$AddressList forward-to=$ForwardTo comment="binance" match-subdomain=yes type=FWD name="binancezh.net"} on-error {}
+:do {add address-list=$AddressList forward-to=$ForwardTo comment="binance" match-subdomain=yes type=FWD name="binancezh.pro"} on-error {}
+:do {add address-list=$AddressList forward-to=$ForwardTo comment="binance" match-subdomain=yes type=FWD name="binancezh.sh"} on-error {}
+:do {add address-list=$AddressList forward-to=$ForwardTo comment="binance" match-subdomain=yes type=FWD name="binancezh.top"} on-error {}
+:do {add address-list=$AddressList forward-to=$ForwardTo comment="binance" match-subdomain=yes type=FWD name="bnbstatic.com"} on-error {}
+:do {add address-list=$AddressList forward-to=$ForwardTo comment="binance" match-subdomain=yes type=FWD name="bntrace.com"} on-error {}
+:do {add address-list=$AddressList forward-to=$ForwardTo comment="binance" match-subdomain=yes type=FWD name="nftstatic.com"} on-error {}
+:do {add address-list=$AddressList forward-to=$ForwardTo comment="binance" match-subdomain=yes type=FWD name="saasexch.cc"} on-error {}
+:do {add address-list=$AddressList forward-to=$ForwardTo comment="binance" match-subdomain=yes type=FWD name="saasexch.co"} on-error {}
+:do {add address-list=$AddressList forward-to=$ForwardTo comment="binance" match-subdomain=yes type=FWD name="saasexch.com"} on-error {}
+:do {add address-list=$AddressList forward-to=$ForwardTo comment="binance" match-subdomain=yes type=FWD name="saasexch.io"} on-error {}

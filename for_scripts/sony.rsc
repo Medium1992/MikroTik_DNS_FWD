@@ -1,0 +1,42 @@
+:global AddressList
+:global ForwardTo
+/ip dns static
+:do {add address-list=$AddressList forward-to=$ForwardTo comment="sony" match-subdomain=yes type=FWD name="imageworks.com"} on-error {}
+:do {add address-list=$AddressList forward-to=$ForwardTo comment="sony" match-subdomain=yes type=FWD name="motionpictureser.com"} on-error {}
+:do {add address-list=$AddressList forward-to=$ForwardTo comment="sony" match-subdomain=yes type=FWD name="playshow.io"} on-error {}
+:do {add address-list=$AddressList forward-to=$ForwardTo comment="sony" match-subdomain=yes type=FWD name="playshowtv.com"} on-error {}
+:do {add address-list=$AddressList forward-to=$ForwardTo comment="sony" match-subdomain=yes type=FWD name="playstation"} on-error {}
+:do {add address-list=$AddressList forward-to=$ForwardTo comment="sony" match-subdomain=yes type=FWD name="playstation.com"} on-error {}
+:do {add address-list=$AddressList forward-to=$ForwardTo comment="sony" match-subdomain=yes type=FWD name="playstation.net"} on-error {}
+:do {add address-list=$AddressList forward-to=$ForwardTo comment="sony" match-subdomain=yes type=FWD name="sony"} on-error {}
+:do {add address-list=$AddressList forward-to=$ForwardTo comment="sony" match-subdomain=yes type=FWD name="sony-africa.com"} on-error {}
+:do {add address-list=$AddressList forward-to=$ForwardTo comment="sony" match-subdomain=yes type=FWD name="sony-asia.com"} on-error {}
+:do {add address-list=$AddressList forward-to=$ForwardTo comment="sony" match-subdomain=yes type=FWD name="sony-europe.com"} on-error {}
+:do {add address-list=$AddressList forward-to=$ForwardTo comment="sony" match-subdomain=yes type=FWD name="sony-latin.com"} on-error {}
+:do {add address-list=$AddressList forward-to=$ForwardTo comment="sony" match-subdomain=yes type=FWD name="sony-mea.com"} on-error {}
+:do {add address-list=$AddressList forward-to=$ForwardTo comment="sony" match-subdomain=yes type=FWD name="sony-olympus-medical.com"} on-error {}
+:do {add address-list=$AddressList forward-to=$ForwardTo comment="sony" match-subdomain=yes type=FWD name="sony-promotion.eu"} on-error {}
+:do {add address-list=$AddressList forward-to=$ForwardTo comment="sony" match-subdomain=yes type=FWD name="sony-semicon.com"} on-error {}
+:do {add address-list=$AddressList forward-to=$ForwardTo comment="sony" match-subdomain=yes type=FWD name="sony.be"} on-error {}
+:do {add address-list=$AddressList forward-to=$ForwardTo comment="sony" match-subdomain=yes type=FWD name="sony.biz"} on-error {}
+:do {add address-list=$AddressList forward-to=$ForwardTo comment="sony" match-subdomain=yes type=FWD name="sony.com"} on-error {}
+:do {add address-list=$AddressList forward-to=$ForwardTo comment="sony" match-subdomain=yes type=FWD name="sony.com.co"} on-error {}
+:do {add address-list=$AddressList forward-to=$ForwardTo comment="sony" match-subdomain=yes type=FWD name="sony.eu"} on-error {}
+:do {add address-list=$AddressList forward-to=$ForwardTo comment="sony" match-subdomain=yes type=FWD name="sony.net"} on-error {}
+:do {add address-list=$AddressList forward-to=$ForwardTo comment="sony" match-subdomain=yes type=FWD name="sony.ru"} on-error {}
+:do {add address-list=$AddressList forward-to=$ForwardTo comment="sony" match-subdomain=yes type=FWD name="sonybsc.com"} on-error {}
+:do {add address-list=$AddressList forward-to=$ForwardTo comment="sony" match-subdomain=yes type=FWD name="sonyclassics.com"} on-error {}
+:do {add address-list=$AddressList forward-to=$ForwardTo comment="sony" match-subdomain=yes type=FWD name="sonydesign.com"} on-error {}
+:do {add address-list=$AddressList forward-to=$ForwardTo comment="sony" match-subdomain=yes type=FWD name="sonydna.com"} on-error {}
+:do {add address-list=$AddressList forward-to=$ForwardTo comment="sony" match-subdomain=yes type=FWD name="sonyentertainmentnetwork.com"} on-error {}
+:do {add address-list=$AddressList forward-to=$ForwardTo comment="sony" match-subdomain=yes type=FWD name="sonylatvija.com"} on-error {}
+:do {add address-list=$AddressList forward-to=$ForwardTo comment="sony" match-subdomain=yes type=FWD name="sonypictures.com"} on-error {}
+:do {add address-list=$AddressList forward-to=$ForwardTo comment="sony" match-subdomain=yes type=FWD name="sonypicturesanimation.com"} on-error {}
+:do {add address-list=$AddressList forward-to=$ForwardTo comment="sony" match-subdomain=yes type=FWD name="sonypicturesmuseum.com"} on-error {}
+:do {add address-list=$AddressList forward-to=$ForwardTo comment="sony" match-subdomain=yes type=FWD name="sonypicturesstudios.com"} on-error {}
+:do {add address-list=$AddressList forward-to=$ForwardTo comment="sony" match-subdomain=yes type=FWD name="sonypicturestelevision.com"} on-error {}
+:do {add address-list=$AddressList forward-to=$ForwardTo comment="sony" match-subdomain=yes type=FWD name="sonypicturestelevisiongames.com"} on-error {}
+:do {add address-list=$AddressList forward-to=$ForwardTo comment="sony" match-subdomain=yes type=FWD name="sovec.net"} on-error {}
+:do {add address-list=$AddressList forward-to=$ForwardTo comment="sony" match-subdomain=yes type=FWD name="wheelpop.com"} on-error {}
+:do {add address-list=$AddressList forward-to=$ForwardTo comment="sony" match-subdomain=yes type=FWD name="wwtbam.com"} on-error {}
+:do {add address-list=$AddressList forward-to=$ForwardTo comment="sony" match-subdomain=yes type=FWD name="yourfantasybeginsnow.com"} on-error {}

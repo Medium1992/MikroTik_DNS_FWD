@@ -1,0 +1,39 @@
+:global AddressList
+:global ForwardTo
+/ip dns static
+:do {add address-list=$AddressList forward-to=$ForwardTo comment="vk" match-subdomain=yes type=FWD name="cdn-vk.ru"} on-error {}
+:do {add address-list=$AddressList forward-to=$ForwardTo comment="vk" match-subdomain=yes type=FWD name="mradx.net"} on-error {}
+:do {add address-list=$AddressList forward-to=$ForwardTo comment="vk" match-subdomain=yes type=FWD name="mvk.com"} on-error {}
+:do {add address-list=$AddressList forward-to=$ForwardTo comment="vk" match-subdomain=yes type=FWD name="userapi.com"} on-error {}
+:do {add address-list=$AddressList forward-to=$ForwardTo comment="vk" match-subdomain=yes type=FWD name="vk-analytics.ru"} on-error {}
+:do {add address-list=$AddressList forward-to=$ForwardTo comment="vk" match-subdomain=yes type=FWD name="vk-apps.com"} on-error {}
+:do {add address-list=$AddressList forward-to=$ForwardTo comment="vk" match-subdomain=yes type=FWD name="vk-apps.ru"} on-error {}
+:do {add address-list=$AddressList forward-to=$ForwardTo comment="vk" match-subdomain=yes type=FWD name="vk-cdn.me"} on-error {}
+:do {add address-list=$AddressList forward-to=$ForwardTo comment="vk" match-subdomain=yes type=FWD name="vk-cdn.net"} on-error {}
+:do {add address-list=$AddressList forward-to=$ForwardTo comment="vk" match-subdomain=yes type=FWD name="vk-portal.net"} on-error {}
+:do {add address-list=$AddressList forward-to=$ForwardTo comment="vk" match-subdomain=yes type=FWD name="vk.cc"} on-error {}
+:do {add address-list=$AddressList forward-to=$ForwardTo comment="vk" match-subdomain=yes type=FWD name="vk.com"} on-error {}
+:do {add address-list=$AddressList forward-to=$ForwardTo comment="vk" match-subdomain=yes type=FWD name="vk.company"} on-error {}
+:do {add address-list=$AddressList forward-to=$ForwardTo comment="vk" match-subdomain=yes type=FWD name="vk.design"} on-error {}
+:do {add address-list=$AddressList forward-to=$ForwardTo comment="vk" match-subdomain=yes type=FWD name="vk.link"} on-error {}
+:do {add address-list=$AddressList forward-to=$ForwardTo comment="vk" match-subdomain=yes type=FWD name="vk.me"} on-error {}
+:do {add address-list=$AddressList forward-to=$ForwardTo comment="vk" match-subdomain=yes type=FWD name="vk.ru"} on-error {}
+:do {add address-list=$AddressList forward-to=$ForwardTo comment="vk" match-subdomain=yes type=FWD name="vk.team"} on-error {}
+:do {add address-list=$AddressList forward-to=$ForwardTo comment="vk" match-subdomain=yes type=FWD name="vkcache.com"} on-error {}
+:do {add address-list=$AddressList forward-to=$ForwardTo comment="vk" match-subdomain=yes type=FWD name="vkcloud-static.ru"} on-error {}
+:do {add address-list=$AddressList forward-to=$ForwardTo comment="vk" match-subdomain=yes type=FWD name="vkgo.app"} on-error {}
+:do {add address-list=$AddressList forward-to=$ForwardTo comment="vk" match-subdomain=yes type=FWD name="vklive.app"} on-error {}
+:do {add address-list=$AddressList forward-to=$ForwardTo comment="vk" match-subdomain=yes type=FWD name="vkmessenger.app"} on-error {}
+:do {add address-list=$AddressList forward-to=$ForwardTo comment="vk" match-subdomain=yes type=FWD name="vkmessenger.com"} on-error {}
+:do {add address-list=$AddressList forward-to=$ForwardTo comment="vk" match-subdomain=yes type=FWD name="vkontakte.ru"} on-error {}
+:do {add address-list=$AddressList forward-to=$ForwardTo comment="vk" match-subdomain=yes type=FWD name="vkuser.net"} on-error {}
+:do {add address-list=$AddressList forward-to=$ForwardTo comment="vk" match-subdomain=yes type=FWD name="vkuseraudio.com"} on-error {}
+:do {add address-list=$AddressList forward-to=$ForwardTo comment="vk" match-subdomain=yes type=FWD name="vkuseraudio.net"} on-error {}
+:do {add address-list=$AddressList forward-to=$ForwardTo comment="vk" match-subdomain=yes type=FWD name="vkuseraudio.ru"} on-error {}
+:do {add address-list=$AddressList forward-to=$ForwardTo comment="vk" match-subdomain=yes type=FWD name="vkusercdn.ru"} on-error {}
+:do {add address-list=$AddressList forward-to=$ForwardTo comment="vk" match-subdomain=yes type=FWD name="vkuserlive.net"} on-error {}
+:do {add address-list=$AddressList forward-to=$ForwardTo comment="vk" match-subdomain=yes type=FWD name="vkuserphoto.ru"} on-error {}
+:do {add address-list=$AddressList forward-to=$ForwardTo comment="vk" match-subdomain=yes type=FWD name="vkuservideo.com"} on-error {}
+:do {add address-list=$AddressList forward-to=$ForwardTo comment="vk" match-subdomain=yes type=FWD name="vkuservideo.net"} on-error {}
+:do {add address-list=$AddressList forward-to=$ForwardTo comment="vk" match-subdomain=yes type=FWD name="vkuservideo.ru"} on-error {}
+:do {add address-list=$AddressList forward-to=$ForwardTo comment="vk" match-subdomain=yes type=FWD name="vkvideo.ru"} on-error {}

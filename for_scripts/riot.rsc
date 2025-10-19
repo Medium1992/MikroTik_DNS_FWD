@@ -1,0 +1,49 @@
+:global AddressList
+:global ForwardTo
+/ip dns static
+:do {add address-list=$AddressList forward-to=$ForwardTo comment="riot" match-subdomain=yes type=FWD name="championshipseriesleague.com"} on-error {}
+:do {add address-list=$AddressList forward-to=$ForwardTo comment="riot" match-subdomain=yes type=FWD name="convrgencegame.com"} on-error {}
+:do {add address-list=$AddressList forward-to=$ForwardTo comment="riot" match-subdomain=yes type=FWD name="historyofdota.com"} on-error {}
+:do {add address-list=$AddressList forward-to=$ForwardTo comment="riot" match-subdomain=yes type=FWD name="historyofdota.net"} on-error {}
+:do {add address-list=$AddressList forward-to=$ForwardTo comment="riot" match-subdomain=yes type=FWD name="historyofdota.org"} on-error {}
+:do {add address-list=$AddressList forward-to=$ForwardTo comment="riot" match-subdomain=yes type=FWD name="instituteofwar.org"} on-error {}
+:do {add address-list=$AddressList forward-to=$ForwardTo comment="riot" match-subdomain=yes type=FWD name="lcsmerch.com"} on-error {}
+:do {add address-list=$AddressList forward-to=$ForwardTo comment="riot" match-subdomain=yes type=FWD name="leaguehighschool.com"} on-error {}
+:do {add address-list=$AddressList forward-to=$ForwardTo comment="riot" match-subdomain=yes type=FWD name="leagueoflegends.com"} on-error {}
+:do {add address-list=$AddressList forward-to=$ForwardTo comment="riot" match-subdomain=yes type=FWD name="leagueoflegends.info"} on-error {}
+:do {add address-list=$AddressList forward-to=$ForwardTo comment="riot" match-subdomain=yes type=FWD name="leagueoflegends.net"} on-error {}
+:do {add address-list=$AddressList forward-to=$ForwardTo comment="riot" match-subdomain=yes type=FWD name="leagueoflegends.org"} on-error {}
+:do {add address-list=$AddressList forward-to=$ForwardTo comment="riot" match-subdomain=yes type=FWD name="leagueoflegendsscripts.com"} on-error {}
+:do {add address-list=$AddressList forward-to=$ForwardTo comment="riot" match-subdomain=yes type=FWD name="leaguesharp.info"} on-error {}
+:do {add address-list=$AddressList forward-to=$ForwardTo comment="riot" match-subdomain=yes type=FWD name="leaguoflegends.com"} on-error {}
+:do {add address-list=$AddressList forward-to=$ForwardTo comment="riot" match-subdomain=yes type=FWD name="learnwithleague.com"} on-error {}
+:do {add address-list=$AddressList forward-to=$ForwardTo comment="riot" match-subdomain=yes type=FWD name="lol-europe.com"} on-error {}
+:do {add address-list=$AddressList forward-to=$ForwardTo comment="riot" match-subdomain=yes type=FWD name="lolclub.org"} on-error {}
+:do {add address-list=$AddressList forward-to=$ForwardTo comment="riot" match-subdomain=yes type=FWD name="lolespor.com"} on-error {}
+:do {add address-list=$AddressList forward-to=$ForwardTo comment="riot" match-subdomain=yes type=FWD name="lolesports.com"} on-error {}
+:do {add address-list=$AddressList forward-to=$ForwardTo comment="riot" match-subdomain=yes type=FWD name="lolfanart.net"} on-error {}
+:do {add address-list=$AddressList forward-to=$ForwardTo comment="riot" match-subdomain=yes type=FWD name="lolpcs.com"} on-error {}
+:do {add address-list=$AddressList forward-to=$ForwardTo comment="riot" match-subdomain=yes type=FWD name="lolstatic.com"} on-error {}
+:do {add address-list=$AddressList forward-to=$ForwardTo comment="riot" match-subdomain=yes type=FWD name="lolusercontent.com"} on-error {}
+:do {add address-list=$AddressList forward-to=$ForwardTo comment="riot" match-subdomain=yes type=FWD name="molesports.com"} on-error {}
+:do {add address-list=$AddressList forward-to=$ForwardTo comment="riot" match-subdomain=yes type=FWD name="playvalorant.com"} on-error {}
+:do {add address-list=$AddressList forward-to=$ForwardTo comment="riot" match-subdomain=yes type=FWD name="pvp.net"} on-error {}
+:do {add address-list=$AddressList forward-to=$ForwardTo comment="riot" match-subdomain=yes type=FWD name="pvp.tv"} on-error {}
+:do {add address-list=$AddressList forward-to=$ForwardTo comment="riot" match-subdomain=yes type=FWD name="rgpub.io"} on-error {}
+:do {add address-list=$AddressList forward-to=$ForwardTo comment="riot" match-subdomain=yes type=FWD name="riot-games.com"} on-error {}
+:do {add address-list=$AddressList forward-to=$ForwardTo comment="riot" match-subdomain=yes type=FWD name="riot.com"} on-error {}
+:do {add address-list=$AddressList forward-to=$ForwardTo comment="riot" match-subdomain=yes type=FWD name="riot.net"} on-error {}
+:do {add address-list=$AddressList forward-to=$ForwardTo comment="riot" match-subdomain=yes type=FWD name="riotcdn.net"} on-error {}
+:do {add address-list=$AddressList forward-to=$ForwardTo comment="riot" match-subdomain=yes type=FWD name="riotforgegames.com"} on-error {}
+:do {add address-list=$AddressList forward-to=$ForwardTo comment="riot" match-subdomain=yes type=FWD name="riotgames.com"} on-error {}
+:do {add address-list=$AddressList forward-to=$ForwardTo comment="riot" match-subdomain=yes type=FWD name="riotgames.info"} on-error {}
+:do {add address-list=$AddressList forward-to=$ForwardTo comment="riot" match-subdomain=yes type=FWD name="riotgames.net"} on-error {}
+:do {add address-list=$AddressList forward-to=$ForwardTo comment="riot" match-subdomain=yes type=FWD name="riotgames.tv"} on-error {}
+:do {add address-list=$AddressList forward-to=$ForwardTo comment="riot" match-subdomain=yes type=FWD name="riotpin.com"} on-error {}
+:do {add address-list=$AddressList forward-to=$ForwardTo comment="riot" match-subdomain=yes type=FWD name="riotpoints.com"} on-error {}
+:do {add address-list=$AddressList forward-to=$ForwardTo comment="riot" match-subdomain=yes type=FWD name="rstatic.net"} on-error {}
+:do {add address-list=$AddressList forward-to=$ForwardTo comment="riot" match-subdomain=yes type=FWD name="ruinedking.com"} on-error {}
+:do {add address-list=$AddressList forward-to=$ForwardTo comment="riot" match-subdomain=yes type=FWD name="supremacy.com"} on-error {}
+:do {add address-list=$AddressList forward-to=$ForwardTo comment="riot" match-subdomain=yes type=FWD name="supremacy.net"} on-error {}
+:do {add address-list=$AddressList forward-to=$ForwardTo comment="riot" match-subdomain=yes type=FWD name="ulol.com"} on-error {}
+:do {add address-list=$AddressList forward-to=$ForwardTo comment="riot" type=FWD name="lolstatic-a.akamaihd.net"} on-error {}
