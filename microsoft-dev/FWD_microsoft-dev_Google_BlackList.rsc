@@ -17,7 +17,6 @@ add address-list=BlackList forward-to=Google comment=microsoft-dev type=FWD name
 add address-list=BlackList forward-to=Google comment=microsoft-dev match-subdomain=yes type=FWD name=adaptivecards.io
 add address-list=BlackList forward-to=Google comment=microsoft-dev match-subdomain=yes type=FWD name=api-extractor.com
 add address-list=BlackList forward-to=Google comment=microsoft-dev match-subdomain=yes type=FWD name=apisof.net
-add address-list=BlackList forward-to=Google comment=microsoft-dev match-subdomain=yes type=FWD name=appcenter.ms
 add address-list=BlackList forward-to=Google comment=microsoft-dev match-subdomain=yes type=FWD name=blazor.net
 add address-list=BlackList forward-to=Google comment=microsoft-dev match-subdomain=yes type=FWD name=botframework.com
 add address-list=BlackList forward-to=Google comment=microsoft-dev match-subdomain=yes type=FWD name=codethemicrobit.com
@@ -26,7 +25,6 @@ add address-list=BlackList forward-to=Google comment=microsoft-dev match-subdoma
 add address-list=BlackList forward-to=Google comment=microsoft-dev match-subdomain=yes type=FWD name=gamesstack.com
 add address-list=BlackList forward-to=Google comment=microsoft-dev match-subdomain=yes type=FWD name=graphengine.io
 add address-list=BlackList forward-to=Google comment=microsoft-dev match-subdomain=yes type=FWD name=insiderdevtour.com
-add address-list=BlackList forward-to=Google comment=microsoft-dev match-subdomain=yes type=FWD name=jwt.ms
 add address-list=BlackList forward-to=Google comment=microsoft-dev match-subdomain=yes type=FWD name=microbit.org
 add address-list=BlackList forward-to=Google comment=microsoft-dev match-subdomain=yes type=FWD name=microsoftadc.com
 add address-list=BlackList forward-to=Google comment=microsoft-dev match-subdomain=yes type=FWD name=microsoftgamestack.com

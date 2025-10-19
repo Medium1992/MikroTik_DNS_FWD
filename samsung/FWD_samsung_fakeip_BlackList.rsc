@@ -7,8 +7,13 @@ add forward-to=fakeip comment=samsung match-subdomain=yes type=FWD name=samsung.
 add forward-to=fakeip comment=samsung match-subdomain=yes type=FWD name=samsungads.com
 add forward-to=fakeip comment=samsung match-subdomain=yes type=FWD name=samsungapps.com
 add forward-to=fakeip comment=samsung match-subdomain=yes type=FWD name=samsungcloud.com
+add forward-to=fakeip comment=samsung match-subdomain=yes type=FWD name=samsungconsent.com
 add forward-to=fakeip comment=samsung match-subdomain=yes type=FWD name=samsungdm.com
 add forward-to=fakeip comment=samsung match-subdomain=yes type=FWD name=samsunggalaxyfriends.com
+add forward-to=fakeip comment=samsung match-subdomain=yes type=FWD name=samsunghealth.com
+add forward-to=fakeip comment=samsung match-subdomain=yes type=FWD name=samsungiotcloud.com
 add forward-to=fakeip comment=samsung match-subdomain=yes type=FWD name=samsungknox.com
+add forward-to=fakeip comment=samsung match-subdomain=yes type=FWD name=samsungosp.com
 add forward-to=fakeip comment=samsung match-subdomain=yes type=FWD name=samsungqbe.com
+add forward-to=fakeip comment=samsung match-subdomain=yes type=FWD name=samsungrs.com
 add forward-to=fakeip comment=samsung match-subdomain=yes type=FWD name=xn--cg4bki

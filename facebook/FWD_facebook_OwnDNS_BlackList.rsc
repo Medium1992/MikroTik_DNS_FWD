@@ -263,6 +263,7 @@ add address-list=BlackList forward-to=OwnDNS comment=facebook match-subdomain=ye
 add address-list=BlackList forward-to=OwnDNS comment=facebook match-subdomain=yes type=FWD name=fb.careers
 add address-list=BlackList forward-to=OwnDNS comment=facebook match-subdomain=yes type=FWD name=fb.com
 add address-list=BlackList forward-to=OwnDNS comment=facebook match-subdomain=yes type=FWD name=fb.gg
+add address-list=BlackList forward-to=OwnDNS comment=facebook match-subdomain=yes type=FWD name=fb.me
 add address-list=BlackList forward-to=OwnDNS comment=facebook match-subdomain=yes type=FWD name=fb.watch
 add address-list=BlackList forward-to=OwnDNS comment=facebook match-subdomain=yes type=FWD name=fbacebook.com
 add address-list=BlackList forward-to=OwnDNS comment=facebook match-subdomain=yes type=FWD name=fbbmarket.com
@@ -350,6 +351,7 @@ add address-list=BlackList forward-to=OwnDNS comment=facebook match-subdomain=ye
 add address-list=BlackList forward-to=OwnDNS comment=facebook match-subdomain=yes type=FWD name=httpwwwfacebook.com
 add address-list=BlackList forward-to=OwnDNS comment=facebook match-subdomain=yes type=FWD name=i.org
 add address-list=BlackList forward-to=OwnDNS comment=facebook match-subdomain=yes type=FWD name=internet.org
+add address-list=BlackList forward-to=OwnDNS comment=facebook match-subdomain=yes type=FWD name=klik.me
 add address-list=BlackList forward-to=OwnDNS comment=facebook match-subdomain=yes type=FWD name=liverail.com
 add address-list=BlackList forward-to=OwnDNS comment=facebook match-subdomain=yes type=FWD name=liverail.tv
 add address-list=BlackList forward-to=OwnDNS comment=facebook match-subdomain=yes type=FWD name=login-account.net

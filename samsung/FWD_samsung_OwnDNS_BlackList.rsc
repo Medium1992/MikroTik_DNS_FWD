@@ -7,8 +7,13 @@ add address-list=BlackList forward-to=OwnDNS comment=samsung match-subdomain=yes
 add address-list=BlackList forward-to=OwnDNS comment=samsung match-subdomain=yes type=FWD name=samsungads.com
 add address-list=BlackList forward-to=OwnDNS comment=samsung match-subdomain=yes type=FWD name=samsungapps.com
 add address-list=BlackList forward-to=OwnDNS comment=samsung match-subdomain=yes type=FWD name=samsungcloud.com
+add address-list=BlackList forward-to=OwnDNS comment=samsung match-subdomain=yes type=FWD name=samsungconsent.com
 add address-list=BlackList forward-to=OwnDNS comment=samsung match-subdomain=yes type=FWD name=samsungdm.com
 add address-list=BlackList forward-to=OwnDNS comment=samsung match-subdomain=yes type=FWD name=samsunggalaxyfriends.com
+add address-list=BlackList forward-to=OwnDNS comment=samsung match-subdomain=yes type=FWD name=samsunghealth.com
+add address-list=BlackList forward-to=OwnDNS comment=samsung match-subdomain=yes type=FWD name=samsungiotcloud.com
 add address-list=BlackList forward-to=OwnDNS comment=samsung match-subdomain=yes type=FWD name=samsungknox.com
+add address-list=BlackList forward-to=OwnDNS comment=samsung match-subdomain=yes type=FWD name=samsungosp.com
 add address-list=BlackList forward-to=OwnDNS comment=samsung match-subdomain=yes type=FWD name=samsungqbe.com
+add address-list=BlackList forward-to=OwnDNS comment=samsung match-subdomain=yes type=FWD name=samsungrs.com
 add address-list=BlackList forward-to=OwnDNS comment=samsung match-subdomain=yes type=FWD name=xn--cg4bki

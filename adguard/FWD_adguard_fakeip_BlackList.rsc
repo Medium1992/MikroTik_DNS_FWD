@@ -15,3 +15,4 @@ add forward-to=fakeip comment=adguard match-subdomain=yes type=FWD name=adtidy.n
 add forward-to=fakeip comment=adguard match-subdomain=yes type=FWD name=adtidy.org
 add forward-to=fakeip comment=adguard match-subdomain=yes type=FWD name=agrd.eu
 add forward-to=fakeip comment=adguard match-subdomain=yes type=FWD name=agrd.io
+add forward-to=fakeip comment=adguard match-subdomain=yes type=FWD name=mask.me

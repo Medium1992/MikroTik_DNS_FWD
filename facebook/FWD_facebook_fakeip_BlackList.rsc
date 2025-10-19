@@ -263,6 +263,7 @@ add forward-to=fakeip comment=facebook match-subdomain=yes type=FWD name=faycbok
 add forward-to=fakeip comment=facebook match-subdomain=yes type=FWD name=fb.careers
 add forward-to=fakeip comment=facebook match-subdomain=yes type=FWD name=fb.com
 add forward-to=fakeip comment=facebook match-subdomain=yes type=FWD name=fb.gg
+add forward-to=fakeip comment=facebook match-subdomain=yes type=FWD name=fb.me
 add forward-to=fakeip comment=facebook match-subdomain=yes type=FWD name=fb.watch
 add forward-to=fakeip comment=facebook match-subdomain=yes type=FWD name=fbacebook.com
 add forward-to=fakeip comment=facebook match-subdomain=yes type=FWD name=fbbmarket.com
@@ -350,6 +351,7 @@ add forward-to=fakeip comment=facebook match-subdomain=yes type=FWD name=httpsfa
 add forward-to=fakeip comment=facebook match-subdomain=yes type=FWD name=httpwwwfacebook.com
 add forward-to=fakeip comment=facebook match-subdomain=yes type=FWD name=i.org
 add forward-to=fakeip comment=facebook match-subdomain=yes type=FWD name=internet.org
+add forward-to=fakeip comment=facebook match-subdomain=yes type=FWD name=klik.me
 add forward-to=fakeip comment=facebook match-subdomain=yes type=FWD name=liverail.com
 add forward-to=fakeip comment=facebook match-subdomain=yes type=FWD name=liverail.tv
 add forward-to=fakeip comment=facebook match-subdomain=yes type=FWD name=login-account.net

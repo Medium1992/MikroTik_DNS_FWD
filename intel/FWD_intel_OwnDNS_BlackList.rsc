@@ -42,6 +42,7 @@ add address-list=BlackList forward-to=OwnDNS comment=intel match-subdomain=yes t
 add address-list=BlackList forward-to=OwnDNS comment=intel match-subdomain=yes type=FWD name=intel.com.co
 add address-list=BlackList forward-to=OwnDNS comment=intel match-subdomain=yes type=FWD name=intel.eu
 add address-list=BlackList forward-to=OwnDNS comment=intel match-subdomain=yes type=FWD name=intel.io
+add address-list=BlackList forward-to=OwnDNS comment=intel match-subdomain=yes type=FWD name=intel.me
 add address-list=BlackList forward-to=OwnDNS comment=intel match-subdomain=yes type=FWD name=intel.ru
 add address-list=BlackList forward-to=OwnDNS comment=intel match-subdomain=yes type=FWD name=intel.tv
 add address-list=BlackList forward-to=OwnDNS comment=intel match-subdomain=yes type=FWD name=intel.us

@@ -289,6 +289,7 @@ add forward-to=fakeip comment=meta match-subdomain=yes type=FWD name=faycbok.com
 add forward-to=fakeip comment=meta match-subdomain=yes type=FWD name=fb.careers
 add forward-to=fakeip comment=meta match-subdomain=yes type=FWD name=fb.com
 add forward-to=fakeip comment=meta match-subdomain=yes type=FWD name=fb.gg
+add forward-to=fakeip comment=meta match-subdomain=yes type=FWD name=fb.me
 add forward-to=fakeip comment=meta match-subdomain=yes type=FWD name=fb.watch
 add forward-to=fakeip comment=meta match-subdomain=yes type=FWD name=fbacebook.com
 add forward-to=fakeip comment=meta match-subdomain=yes type=FWD name=fbbmarket.com
@@ -391,6 +392,7 @@ add forward-to=fakeip comment=meta match-subdomain=yes type=FWD name=httpfaceboo
 add forward-to=fakeip comment=meta match-subdomain=yes type=FWD name=httpsfacebook.com
 add forward-to=fakeip comment=meta match-subdomain=yes type=FWD name=httpwwwfacebook.com
 add forward-to=fakeip comment=meta match-subdomain=yes type=FWD name=i.org
+add forward-to=fakeip comment=meta match-subdomain=yes type=FWD name=ig.me
 add forward-to=fakeip comment=meta match-subdomain=yes type=FWD name=igcdn.com
 add forward-to=fakeip comment=meta match-subdomain=yes type=FWD name=igsonar.com
 add forward-to=fakeip comment=meta match-subdomain=yes type=FWD name=igtv.com
@@ -448,10 +450,12 @@ add forward-to=fakeip comment=meta match-subdomain=yes type=FWD name=intagrm.com
 add forward-to=fakeip comment=meta match-subdomain=yes type=FWD name=internet.org
 add forward-to=fakeip comment=meta match-subdomain=yes type=FWD name=intgram.com
 add forward-to=fakeip comment=meta match-subdomain=yes type=FWD name=kingstagram.com
+add forward-to=fakeip comment=meta match-subdomain=yes type=FWD name=klik.me
 add forward-to=fakeip comment=meta match-subdomain=yes type=FWD name=liverail.com
 add forward-to=fakeip comment=meta match-subdomain=yes type=FWD name=liverail.tv
 add forward-to=fakeip comment=meta match-subdomain=yes type=FWD name=lnstagram-help.com
 add forward-to=fakeip comment=meta match-subdomain=yes type=FWD name=login-account.net
+add forward-to=fakeip comment=meta match-subdomain=yes type=FWD name=m.me
 add forward-to=fakeip comment=meta match-subdomain=yes type=FWD name=makeitopen.com
 add forward-to=fakeip comment=meta match-subdomain=yes type=FWD name=markzuckerberg.com
 add forward-to=fakeip comment=meta match-subdomain=yes type=FWD name=mcrouter.net
@@ -480,6 +484,7 @@ add forward-to=fakeip comment=meta match-subdomain=yes type=FWD name=oculusdivin
 add forward-to=fakeip comment=meta match-subdomain=yes type=FWD name=oculusforbusiness.com
 add forward-to=fakeip comment=meta match-subdomain=yes type=FWD name=oculusrift.com
 add forward-to=fakeip comment=meta match-subdomain=yes type=FWD name=oculusvr.com
+add forward-to=fakeip comment=meta match-subdomain=yes type=FWD name=ogp.me
 add forward-to=fakeip comment=meta match-subdomain=yes type=FWD name=oninstagram.com
 add forward-to=fakeip comment=meta match-subdomain=yes type=FWD name=online-deals.net
 add forward-to=fakeip comment=meta match-subdomain=yes type=FWD name=online-instagram.com
@@ -512,8 +517,10 @@ add forward-to=fakeip comment=meta match-subdomain=yes type=FWD name=threads.com
 add forward-to=fakeip comment=meta match-subdomain=yes type=FWD name=threads.net
 add forward-to=fakeip comment=meta match-subdomain=yes type=FWD name=toplayerserver.com
 add forward-to=fakeip comment=meta match-subdomain=yes type=FWD name=viewpointsfromfacebook.com
+add forward-to=fakeip comment=meta match-subdomain=yes type=FWD name=wa.me
 add forward-to=fakeip comment=meta match-subdomain=yes type=FWD name=web-instagram.net
 add forward-to=fakeip comment=meta match-subdomain=yes type=FWD name=whatsapp-plus.info
+add forward-to=fakeip comment=meta match-subdomain=yes type=FWD name=whatsapp-plus.me
 add forward-to=fakeip comment=meta match-subdomain=yes type=FWD name=whatsapp-plus.net
 add forward-to=fakeip comment=meta match-subdomain=yes type=FWD name=whatsapp.cc
 add forward-to=fakeip comment=meta match-subdomain=yes type=FWD name=whatsapp.com

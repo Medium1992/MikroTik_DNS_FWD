@@ -9,6 +9,7 @@ add forward-to=fakeip comment=instagram match-subdomain=yes type=FWD name=cdnins
 add forward-to=fakeip comment=instagram match-subdomain=yes type=FWD name=chickstagram.com
 add forward-to=fakeip comment=instagram match-subdomain=yes type=FWD name=graph-fallback.instagram.com
 add forward-to=fakeip comment=instagram match-subdomain=yes type=FWD name=graph.instagram.com
+add forward-to=fakeip comment=instagram match-subdomain=yes type=FWD name=ig.me
 add forward-to=fakeip comment=instagram match-subdomain=yes type=FWD name=igcdn.com
 add forward-to=fakeip comment=instagram match-subdomain=yes type=FWD name=igsonar.com
 add forward-to=fakeip comment=instagram match-subdomain=yes type=FWD name=igtv.com

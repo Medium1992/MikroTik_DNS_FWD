@@ -15,3 +15,4 @@ add address-list=BlackList forward-to=Google comment=adguard match-subdomain=yes
 add address-list=BlackList forward-to=Google comment=adguard match-subdomain=yes type=FWD name=adtidy.org
 add address-list=BlackList forward-to=Google comment=adguard match-subdomain=yes type=FWD name=agrd.eu
 add address-list=BlackList forward-to=Google comment=adguard match-subdomain=yes type=FWD name=agrd.io
+add address-list=BlackList forward-to=Google comment=adguard match-subdomain=yes type=FWD name=mask.me

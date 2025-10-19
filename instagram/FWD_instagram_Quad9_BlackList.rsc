@@ -9,6 +9,7 @@ add address-list=BlackList forward-to=Quad9 comment=instagram match-subdomain=ye
 add address-list=BlackList forward-to=Quad9 comment=instagram match-subdomain=yes type=FWD name=chickstagram.com
 add address-list=BlackList forward-to=Quad9 comment=instagram match-subdomain=yes type=FWD name=graph-fallback.instagram.com
 add address-list=BlackList forward-to=Quad9 comment=instagram match-subdomain=yes type=FWD name=graph.instagram.com
+add address-list=BlackList forward-to=Quad9 comment=instagram match-subdomain=yes type=FWD name=ig.me
 add address-list=BlackList forward-to=Quad9 comment=instagram match-subdomain=yes type=FWD name=igcdn.com
 add address-list=BlackList forward-to=Quad9 comment=instagram match-subdomain=yes type=FWD name=igsonar.com
 add address-list=BlackList forward-to=Quad9 comment=instagram match-subdomain=yes type=FWD name=igtv.com

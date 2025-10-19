@@ -14,6 +14,7 @@ add forward-to=fakeip comment=youtube match-subdomain=yes type=FWD name=youtube.
 add forward-to=fakeip comment=youtube match-subdomain=yes type=FWD name=youtube.com
 add forward-to=fakeip comment=youtube match-subdomain=yes type=FWD name=youtube.com.co
 add forward-to=fakeip comment=youtube match-subdomain=yes type=FWD name=youtube.googleapis.com
+add forward-to=fakeip comment=youtube match-subdomain=yes type=FWD name=youtube.me
 add forward-to=fakeip comment=youtube match-subdomain=yes type=FWD name=youtube.ru
 add forward-to=fakeip comment=youtube match-subdomain=yes type=FWD name=youtube.soy
 add forward-to=fakeip comment=youtube match-subdomain=yes type=FWD name=youtube.tv

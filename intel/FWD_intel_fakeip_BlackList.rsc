@@ -42,6 +42,7 @@ add forward-to=fakeip comment=intel match-subdomain=yes type=FWD name=intel.com
 add forward-to=fakeip comment=intel match-subdomain=yes type=FWD name=intel.com.co
 add forward-to=fakeip comment=intel match-subdomain=yes type=FWD name=intel.eu
 add forward-to=fakeip comment=intel match-subdomain=yes type=FWD name=intel.io
+add forward-to=fakeip comment=intel match-subdomain=yes type=FWD name=intel.me
 add forward-to=fakeip comment=intel match-subdomain=yes type=FWD name=intel.ru
 add forward-to=fakeip comment=intel match-subdomain=yes type=FWD name=intel.tv
 add forward-to=fakeip comment=intel match-subdomain=yes type=FWD name=intel.us

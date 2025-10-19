@@ -1,7 +1,9 @@
 /ip dns static
 add address-list=BlackList forward-to=Google comment=whatsapp match-subdomain=yes type=FWD name=graph.whatsapp.com
 add address-list=BlackList forward-to=Google comment=whatsapp match-subdomain=yes type=FWD name=graph.whatsapp.net
+add address-list=BlackList forward-to=Google comment=whatsapp match-subdomain=yes type=FWD name=wa.me
 add address-list=BlackList forward-to=Google comment=whatsapp match-subdomain=yes type=FWD name=whatsapp-plus.info
+add address-list=BlackList forward-to=Google comment=whatsapp match-subdomain=yes type=FWD name=whatsapp-plus.me
 add address-list=BlackList forward-to=Google comment=whatsapp match-subdomain=yes type=FWD name=whatsapp-plus.net
 add address-list=BlackList forward-to=Google comment=whatsapp match-subdomain=yes type=FWD name=whatsapp.cc
 add address-list=BlackList forward-to=Google comment=whatsapp match-subdomain=yes type=FWD name=whatsapp.com
