@@ -10,23 +10,126 @@ permissions:
 
 env:
   RESOURCES: "autodesk, \
+    apple, \
+    adobe, \
+    adblock, \
     apple-tvplus, \
+    apple-dev, \
+    apple-intelligence, \
+    apple-pki, \
+    apple-update, \
+    acer, \
+    abc, \
+    adobe-activation, \
     akamai, \
+    amazon, \
+    aws, \
+    asus, \
+    azure, \
+    bbc, \
+    binance, \
+    blizzard, \
+    bloomberg, \
+    bluearchive, \
+    bybit, \
+    canon, \
+    category-enhance-gaming, \
+    category-entertainment, \
+    corel, \
+    deepseek, \
+    debian, \
+    epicgames, \
+    escapefromtarkov, \
+    erolabs, \
+    fandom, \
+    gigabyte, \
+    atlassian, \
     cloudflare, \
     dell, \
     cisco, \
     openai, \
     xai, \
     tidal, \
+    golang, \
     google, \
     google-gemini, \
     google-play, \
+    google-deepmind, \
+    googlefcm, \
+    google-registry, \
+    google-scholar, \
+    google-trust-services, \
+    goproxy, \
+    haier, \
+    hbo, \
+    hetzner, \
+    honor, \
+    huawei, \
+    icloud, \
+    ikea, \
+    insider, \
+    itunes, \
+    java, \
+    kucoin, \
+    kubernetes, \
+    kurogames, \
+    lanzou, \
+    lenovo, \
+    linux, \
+    localbitcoins, \
+    logitech, \
+    mastercard, \
+    meduza, \
+    medium, \
+    meizu, \
+    messenger, \
+    midea, \
+    mindgeek, \
+    mindgeek-porn, \
+    mikrotik, \
+    nationalgeographic, \
+    neuralink, \
+    nvidia, \
+    oneplus, \
+    openwrt, \
+    oppo, \
+    panasonic, \
+    ozon, \
+    pastebin, \
+    paypal,\
+    patreon, \
+    piratebay, \
+    pinterest, \
+    primevideo, \
+    private, \
+    python, \
+    python-community, \
+    qualcomm, \
+    rakuten, \
+    rockstar, \
+    rust, \
+    teamviewer, \
+    tencent, \
+    tencent-dev, \
+    tencent-games, \
+    tracker, \
+    trustwallet, \
+    trello, \
+    unity, \
+    visa, \
+    vk, \
+    vmware, \
+    vodafone, \
+    westerndigital, \
+    x, \
+    xiaomi, \
+    yandex, \
     tmdb, \
     spotify, \
     tiktok, \
-    atlassian, \
     ubiquiti, \
     microsoft-dev, \
+    microsoft-pki, \
     github, \
     microsoft, \
     riot, \
@@ -42,6 +145,7 @@ env:
     supercell, \
     telegram, \
     xbox, \
+    xda, \
     kinopub, \
     rutracker, \
     linkedin, \
@@ -57,7 +161,6 @@ env:
     netflix, \
     pornhub, \
     xhamster, \
-    adobe, \
     twitch, \
     jetbrains"
 
