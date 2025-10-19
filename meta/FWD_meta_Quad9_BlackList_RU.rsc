@@ -289,6 +289,7 @@ add address-list=BlackList_RU forward-to=Quad9 comment=meta match-subdomain=yes 
 add address-list=BlackList_RU forward-to=Quad9 comment=meta match-subdomain=yes type=FWD name=fb.careers
 add address-list=BlackList_RU forward-to=Quad9 comment=meta match-subdomain=yes type=FWD name=fb.com
 add address-list=BlackList_RU forward-to=Quad9 comment=meta match-subdomain=yes type=FWD name=fb.gg
+add address-list=BlackList_RU forward-to=Quad9 comment=meta match-subdomain=yes type=FWD name=fb.me
 add address-list=BlackList_RU forward-to=Quad9 comment=meta match-subdomain=yes type=FWD name=fb.watch
 add address-list=BlackList_RU forward-to=Quad9 comment=meta match-subdomain=yes type=FWD name=fbacebook.com
 add address-list=BlackList_RU forward-to=Quad9 comment=meta match-subdomain=yes type=FWD name=fbbmarket.com
@@ -391,6 +392,7 @@ add address-list=BlackList_RU forward-to=Quad9 comment=meta match-subdomain=yes 
 add address-list=BlackList_RU forward-to=Quad9 comment=meta match-subdomain=yes type=FWD name=httpsfacebook.com
 add address-list=BlackList_RU forward-to=Quad9 comment=meta match-subdomain=yes type=FWD name=httpwwwfacebook.com
 add address-list=BlackList_RU forward-to=Quad9 comment=meta match-subdomain=yes type=FWD name=i.org
+add address-list=BlackList_RU forward-to=Quad9 comment=meta match-subdomain=yes type=FWD name=ig.me
 add address-list=BlackList_RU forward-to=Quad9 comment=meta match-subdomain=yes type=FWD name=igcdn.com
 add address-list=BlackList_RU forward-to=Quad9 comment=meta match-subdomain=yes type=FWD name=igsonar.com
 add address-list=BlackList_RU forward-to=Quad9 comment=meta match-subdomain=yes type=FWD name=igtv.com
@@ -448,10 +450,12 @@ add address-list=BlackList_RU forward-to=Quad9 comment=meta match-subdomain=yes 
 add address-list=BlackList_RU forward-to=Quad9 comment=meta match-subdomain=yes type=FWD name=internet.org
 add address-list=BlackList_RU forward-to=Quad9 comment=meta match-subdomain=yes type=FWD name=intgram.com
 add address-list=BlackList_RU forward-to=Quad9 comment=meta match-subdomain=yes type=FWD name=kingstagram.com
+add address-list=BlackList_RU forward-to=Quad9 comment=meta match-subdomain=yes type=FWD name=klik.me
 add address-list=BlackList_RU forward-to=Quad9 comment=meta match-subdomain=yes type=FWD name=liverail.com
 add address-list=BlackList_RU forward-to=Quad9 comment=meta match-subdomain=yes type=FWD name=liverail.tv
 add address-list=BlackList_RU forward-to=Quad9 comment=meta match-subdomain=yes type=FWD name=lnstagram-help.com
 add address-list=BlackList_RU forward-to=Quad9 comment=meta match-subdomain=yes type=FWD name=login-account.net
+add address-list=BlackList_RU forward-to=Quad9 comment=meta match-subdomain=yes type=FWD name=m.me
 add address-list=BlackList_RU forward-to=Quad9 comment=meta match-subdomain=yes type=FWD name=makeitopen.com
 add address-list=BlackList_RU forward-to=Quad9 comment=meta match-subdomain=yes type=FWD name=markzuckerberg.com
 add address-list=BlackList_RU forward-to=Quad9 comment=meta match-subdomain=yes type=FWD name=mcrouter.net
@@ -480,6 +484,7 @@ add address-list=BlackList_RU forward-to=Quad9 comment=meta match-subdomain=yes 
 add address-list=BlackList_RU forward-to=Quad9 comment=meta match-subdomain=yes type=FWD name=oculusforbusiness.com
 add address-list=BlackList_RU forward-to=Quad9 comment=meta match-subdomain=yes type=FWD name=oculusrift.com
 add address-list=BlackList_RU forward-to=Quad9 comment=meta match-subdomain=yes type=FWD name=oculusvr.com
+add address-list=BlackList_RU forward-to=Quad9 comment=meta match-subdomain=yes type=FWD name=ogp.me
 add address-list=BlackList_RU forward-to=Quad9 comment=meta match-subdomain=yes type=FWD name=oninstagram.com
 add address-list=BlackList_RU forward-to=Quad9 comment=meta match-subdomain=yes type=FWD name=online-deals.net
 add address-list=BlackList_RU forward-to=Quad9 comment=meta match-subdomain=yes type=FWD name=online-instagram.com
@@ -512,8 +517,10 @@ add address-list=BlackList_RU forward-to=Quad9 comment=meta match-subdomain=yes 
 add address-list=BlackList_RU forward-to=Quad9 comment=meta match-subdomain=yes type=FWD name=threads.net
 add address-list=BlackList_RU forward-to=Quad9 comment=meta match-subdomain=yes type=FWD name=toplayerserver.com
 add address-list=BlackList_RU forward-to=Quad9 comment=meta match-subdomain=yes type=FWD name=viewpointsfromfacebook.com
+add address-list=BlackList_RU forward-to=Quad9 comment=meta match-subdomain=yes type=FWD name=wa.me
 add address-list=BlackList_RU forward-to=Quad9 comment=meta match-subdomain=yes type=FWD name=web-instagram.net
 add address-list=BlackList_RU forward-to=Quad9 comment=meta match-subdomain=yes type=FWD name=whatsapp-plus.info
+add address-list=BlackList_RU forward-to=Quad9 comment=meta match-subdomain=yes type=FWD name=whatsapp-plus.me
 add address-list=BlackList_RU forward-to=Quad9 comment=meta match-subdomain=yes type=FWD name=whatsapp-plus.net
 add address-list=BlackList_RU forward-to=Quad9 comment=meta match-subdomain=yes type=FWD name=whatsapp.cc
 add address-list=BlackList_RU forward-to=Quad9 comment=meta match-subdomain=yes type=FWD name=whatsapp.com

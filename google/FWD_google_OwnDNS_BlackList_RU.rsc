@@ -152,7 +152,6 @@ add address-list=BlackList_RU forward-to=OwnDNS comment=google type=FWD name=sch
 add address-list=BlackList_RU forward-to=OwnDNS comment=google type=FWD name=scholar.google.cat
 add address-list=BlackList_RU forward-to=OwnDNS comment=google type=FWD name=scholar.google.com
 add address-list=BlackList_RU forward-to=OwnDNS comment=google type=FWD name=scholar.google.com.co
-add address-list=BlackList_RU forward-to=OwnDNS comment=google type=FWD name=scholar.google.li
 add address-list=BlackList_RU forward-to=OwnDNS comment=google type=FWD name=scholar.google.ru
 add address-list=BlackList_RU forward-to=OwnDNS comment=google type=FWD name=scholar.googleusercontent.com
 add address-list=BlackList_RU forward-to=OwnDNS comment=google type=FWD name=scholar.l.google.com
@@ -232,13 +231,8 @@ add address-list=BlackList_RU forward-to=OwnDNS comment=google match-subdomain=y
 add address-list=BlackList_RU forward-to=OwnDNS comment=google match-subdomain=yes type=FWD name=blogblog.com
 add address-list=BlackList_RU forward-to=OwnDNS comment=google match-subdomain=yes type=FWD name=blogger.com
 add address-list=BlackList_RU forward-to=OwnDNS comment=google match-subdomain=yes type=FWD name=blogspot.be
-add address-list=BlackList_RU forward-to=OwnDNS comment=google match-subdomain=yes type=FWD name=blogspot.bj
-add address-list=BlackList_RU forward-to=OwnDNS comment=google match-subdomain=yes type=FWD name=blogspot.cf
 add address-list=BlackList_RU forward-to=OwnDNS comment=google match-subdomain=yes type=FWD name=blogspot.com
 add address-list=BlackList_RU forward-to=OwnDNS comment=google match-subdomain=yes type=FWD name=blogspot.com.co
-add address-list=BlackList_RU forward-to=OwnDNS comment=google match-subdomain=yes type=FWD name=blogspot.com.cy
-add address-list=BlackList_RU forward-to=OwnDNS comment=google match-subdomain=yes type=FWD name=blogspot.cv
-add address-list=BlackList_RU forward-to=OwnDNS comment=google match-subdomain=yes type=FWD name=blogspot.li
 add address-list=BlackList_RU forward-to=OwnDNS comment=google match-subdomain=yes type=FWD name=blogspot.ru
 add address-list=BlackList_RU forward-to=OwnDNS comment=google match-subdomain=yes type=FWD name=blogspot.td
 add address-list=BlackList_RU forward-to=OwnDNS comment=google match-subdomain=yes type=FWD name=brocaproject.com
@@ -293,7 +287,6 @@ add address-list=BlackList_RU forward-to=OwnDNS comment=google match-subdomain=y
 add address-list=BlackList_RU forward-to=OwnDNS comment=google match-subdomain=yes type=FWD name=doubleclick.com
 add address-list=BlackList_RU forward-to=OwnDNS comment=google match-subdomain=yes type=FWD name=doubleclick.net
 add address-list=BlackList_RU forward-to=OwnDNS comment=google match-subdomain=yes type=FWD name=episodic.com
-add address-list=BlackList_RU forward-to=OwnDNS comment=google match-subdomain=yes type=FWD name=fastlane.ci
 add address-list=BlackList_RU forward-to=OwnDNS comment=google match-subdomain=yes type=FWD name=fastlane.tools
 add address-list=BlackList_RU forward-to=OwnDNS comment=google match-subdomain=yes type=FWD name=feedburner.com
 add address-list=BlackList_RU forward-to=OwnDNS comment=google match-subdomain=yes type=FWD name=fflick.com
@@ -352,62 +345,21 @@ add address-list=BlackList_RU forward-to=OwnDNS comment=google match-subdomain=y
 add address-list=BlackList_RU forward-to=OwnDNS comment=google match-subdomain=yes type=FWD name=google-analytics-cn.com
 add address-list=BlackList_RU forward-to=OwnDNS comment=google match-subdomain=yes type=FWD name=google-analytics.com
 add address-list=BlackList_RU forward-to=OwnDNS comment=google match-subdomain=yes type=FWD name=google-syndication.com
-add address-list=BlackList_RU forward-to=OwnDNS comment=google match-subdomain=yes type=FWD name=google.ad
-add address-list=BlackList_RU forward-to=OwnDNS comment=google match-subdomain=yes type=FWD name=google.as
 add address-list=BlackList_RU forward-to=OwnDNS comment=google match-subdomain=yes type=FWD name=google.be
 add address-list=BlackList_RU forward-to=OwnDNS comment=google match-subdomain=yes type=FWD name=google.berlin
-add address-list=BlackList_RU forward-to=OwnDNS comment=google match-subdomain=yes type=FWD name=google.bf
-add address-list=BlackList_RU forward-to=OwnDNS comment=google match-subdomain=yes type=FWD name=google.bj
-add address-list=BlackList_RU forward-to=OwnDNS comment=google match-subdomain=yes type=FWD name=google.bt
 add address-list=BlackList_RU forward-to=OwnDNS comment=google match-subdomain=yes type=FWD name=google.cat
-add address-list=BlackList_RU forward-to=OwnDNS comment=google match-subdomain=yes type=FWD name=google.cd
-add address-list=BlackList_RU forward-to=OwnDNS comment=google match-subdomain=yes type=FWD name=google.cf
-add address-list=BlackList_RU forward-to=OwnDNS comment=google match-subdomain=yes type=FWD name=google.ci
 add address-list=BlackList_RU forward-to=OwnDNS comment=google match-subdomain=yes type=FWD name=google.co
-add address-list=BlackList_RU forward-to=OwnDNS comment=google match-subdomain=yes type=FWD name=google.co.ao
-add address-list=BlackList_RU forward-to=OwnDNS comment=google match-subdomain=yes type=FWD name=google.co.bw
-add address-list=BlackList_RU forward-to=OwnDNS comment=google match-subdomain=yes type=FWD name=google.co.ck
-add address-list=BlackList_RU forward-to=OwnDNS comment=google match-subdomain=yes type=FWD name=google.co.ls
-add address-list=BlackList_RU forward-to=OwnDNS comment=google match-subdomain=yes type=FWD name=google.co.mz
-add address-list=BlackList_RU forward-to=OwnDNS comment=google match-subdomain=yes type=FWD name=google.co.vi
-add address-list=BlackList_RU forward-to=OwnDNS comment=google match-subdomain=yes type=FWD name=google.co.zm
 add address-list=BlackList_RU forward-to=OwnDNS comment=google match-subdomain=yes type=FWD name=google.com
-add address-list=BlackList_RU forward-to=OwnDNS comment=google match-subdomain=yes type=FWD name=google.com.bn
-add address-list=BlackList_RU forward-to=OwnDNS comment=google match-subdomain=yes type=FWD name=google.com.bz
 add address-list=BlackList_RU forward-to=OwnDNS comment=google match-subdomain=yes type=FWD name=google.com.co
-add address-list=BlackList_RU forward-to=OwnDNS comment=google match-subdomain=yes type=FWD name=google.com.cy
-add address-list=BlackList_RU forward-to=OwnDNS comment=google match-subdomain=yes type=FWD name=google.com.et
-add address-list=BlackList_RU forward-to=OwnDNS comment=google match-subdomain=yes type=FWD name=google.com.fj
-add address-list=BlackList_RU forward-to=OwnDNS comment=google match-subdomain=yes type=FWD name=google.com.gi
-add address-list=BlackList_RU forward-to=OwnDNS comment=google match-subdomain=yes type=FWD name=google.com.kh
-add address-list=BlackList_RU forward-to=OwnDNS comment=google match-subdomain=yes type=FWD name=google.com.mm
-add address-list=BlackList_RU forward-to=OwnDNS comment=google match-subdomain=yes type=FWD name=google.com.na
-add address-list=BlackList_RU forward-to=OwnDNS comment=google match-subdomain=yes type=FWD name=google.com.np
-add address-list=BlackList_RU forward-to=OwnDNS comment=google match-subdomain=yes type=FWD name=google.com.pg
-add address-list=BlackList_RU forward-to=OwnDNS comment=google match-subdomain=yes type=FWD name=google.com.sb
-add address-list=BlackList_RU forward-to=OwnDNS comment=google match-subdomain=yes type=FWD name=google.com.sl
-add address-list=BlackList_RU forward-to=OwnDNS comment=google match-subdomain=yes type=FWD name=google.com.vc
-add address-list=BlackList_RU forward-to=OwnDNS comment=google match-subdomain=yes type=FWD name=google.cv
 add address-list=BlackList_RU forward-to=OwnDNS comment=google match-subdomain=yes type=FWD name=google.dev
-add address-list=BlackList_RU forward-to=OwnDNS comment=google match-subdomain=yes type=FWD name=google.dj
-add address-list=BlackList_RU forward-to=OwnDNS comment=google match-subdomain=yes type=FWD name=google.dm
 add address-list=BlackList_RU forward-to=OwnDNS comment=google match-subdomain=yes type=FWD name=google.fm
 add address-list=BlackList_RU forward-to=OwnDNS comment=google match-subdomain=yes type=FWD name=google.gg
-add address-list=BlackList_RU forward-to=OwnDNS comment=google match-subdomain=yes type=FWD name=google.im
-add address-list=BlackList_RU forward-to=OwnDNS comment=google match-subdomain=yes type=FWD name=google.kg
-add address-list=BlackList_RU forward-to=OwnDNS comment=google match-subdomain=yes type=FWD name=google.ki
-add address-list=BlackList_RU forward-to=OwnDNS comment=google match-subdomain=yes type=FWD name=google.li
-add address-list=BlackList_RU forward-to=OwnDNS comment=google match-subdomain=yes type=FWD name=google.ml
-add address-list=BlackList_RU forward-to=OwnDNS comment=google match-subdomain=yes type=FWD name=google.ms
-add address-list=BlackList_RU forward-to=OwnDNS comment=google match-subdomain=yes type=FWD name=google.mv
-add address-list=BlackList_RU forward-to=OwnDNS comment=google match-subdomain=yes type=FWD name=google.ne
+add address-list=BlackList_RU forward-to=OwnDNS comment=google match-subdomain=yes type=FWD name=google.me
 add address-list=BlackList_RU forward-to=OwnDNS comment=google match-subdomain=yes type=FWD name=google.net
-add address-list=BlackList_RU forward-to=OwnDNS comment=google match-subdomain=yes type=FWD name=google.nr
 add address-list=BlackList_RU forward-to=OwnDNS comment=google match-subdomain=yes type=FWD name=google.org
 add address-list=BlackList_RU forward-to=OwnDNS comment=google match-subdomain=yes type=FWD name=google.ps
 add address-list=BlackList_RU forward-to=OwnDNS comment=google match-subdomain=yes type=FWD name=google.ru
 add address-list=BlackList_RU forward-to=OwnDNS comment=google match-subdomain=yes type=FWD name=google.sh
-add address-list=BlackList_RU forward-to=OwnDNS comment=google match-subdomain=yes type=FWD name=google.sm
 add address-list=BlackList_RU forward-to=OwnDNS comment=google match-subdomain=yes type=FWD name=google.so
 add address-list=BlackList_RU forward-to=OwnDNS comment=google match-subdomain=yes type=FWD name=google.td
 add address-list=BlackList_RU forward-to=OwnDNS comment=google match-subdomain=yes type=FWD name=google.tg
@@ -634,6 +586,7 @@ add address-list=BlackList_RU forward-to=OwnDNS comment=google match-subdomain=y
 add address-list=BlackList_RU forward-to=OwnDNS comment=google match-subdomain=yes type=FWD name=youtube.co
 add address-list=BlackList_RU forward-to=OwnDNS comment=google match-subdomain=yes type=FWD name=youtube.com
 add address-list=BlackList_RU forward-to=OwnDNS comment=google match-subdomain=yes type=FWD name=youtube.com.co
+add address-list=BlackList_RU forward-to=OwnDNS comment=google match-subdomain=yes type=FWD name=youtube.me
 add address-list=BlackList_RU forward-to=OwnDNS comment=google match-subdomain=yes type=FWD name=youtube.ru
 add address-list=BlackList_RU forward-to=OwnDNS comment=google match-subdomain=yes type=FWD name=youtube.soy
 add address-list=BlackList_RU forward-to=OwnDNS comment=google match-subdomain=yes type=FWD name=youtube.tv

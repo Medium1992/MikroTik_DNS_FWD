@@ -15,3 +15,4 @@ add forward-to=fakeipRU comment=adguard match-subdomain=yes type=FWD name=adtidy
 add forward-to=fakeipRU comment=adguard match-subdomain=yes type=FWD name=adtidy.org
 add forward-to=fakeipRU comment=adguard match-subdomain=yes type=FWD name=agrd.eu
 add forward-to=fakeipRU comment=adguard match-subdomain=yes type=FWD name=agrd.io
+add forward-to=fakeipRU comment=adguard match-subdomain=yes type=FWD name=mask.me

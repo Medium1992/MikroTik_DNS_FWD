@@ -9,6 +9,7 @@ add address-list=BlackList_RU forward-to=CloudFlare comment=instagram match-subd
 add address-list=BlackList_RU forward-to=CloudFlare comment=instagram match-subdomain=yes type=FWD name=chickstagram.com
 add address-list=BlackList_RU forward-to=CloudFlare comment=instagram match-subdomain=yes type=FWD name=graph-fallback.instagram.com
 add address-list=BlackList_RU forward-to=CloudFlare comment=instagram match-subdomain=yes type=FWD name=graph.instagram.com
+add address-list=BlackList_RU forward-to=CloudFlare comment=instagram match-subdomain=yes type=FWD name=ig.me
 add address-list=BlackList_RU forward-to=CloudFlare comment=instagram match-subdomain=yes type=FWD name=igcdn.com
 add address-list=BlackList_RU forward-to=CloudFlare comment=instagram match-subdomain=yes type=FWD name=igsonar.com
 add address-list=BlackList_RU forward-to=CloudFlare comment=instagram match-subdomain=yes type=FWD name=igtv.com

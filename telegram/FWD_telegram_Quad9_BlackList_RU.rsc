@@ -5,11 +5,14 @@ add address-list=BlackList_RU forward-to=Quad9 comment=telegram match-subdomain=
 add address-list=BlackList_RU forward-to=Quad9 comment=telegram match-subdomain=yes type=FWD name=fragment.com
 add address-list=BlackList_RU forward-to=Quad9 comment=telegram match-subdomain=yes type=FWD name=graph.org
 add address-list=BlackList_RU forward-to=Quad9 comment=telegram match-subdomain=yes type=FWD name=quiz.directory
+add address-list=BlackList_RU forward-to=Quad9 comment=telegram match-subdomain=yes type=FWD name=t.me
 add address-list=BlackList_RU forward-to=Quad9 comment=telegram match-subdomain=yes type=FWD name=tdesktop.com
 add address-list=BlackList_RU forward-to=Quad9 comment=telegram match-subdomain=yes type=FWD name=telega.one
 add address-list=BlackList_RU forward-to=Quad9 comment=telegram match-subdomain=yes type=FWD name=telegram-cdn.org
 add address-list=BlackList_RU forward-to=Quad9 comment=telegram match-subdomain=yes type=FWD name=telegram.dog
+add address-list=BlackList_RU forward-to=Quad9 comment=telegram match-subdomain=yes type=FWD name=telegram.me
 add address-list=BlackList_RU forward-to=Quad9 comment=telegram match-subdomain=yes type=FWD name=telegram.org
 add address-list=BlackList_RU forward-to=Quad9 comment=telegram match-subdomain=yes type=FWD name=telegram.space
 add address-list=BlackList_RU forward-to=Quad9 comment=telegram match-subdomain=yes type=FWD name=tg.dev
+add address-list=BlackList_RU forward-to=Quad9 comment=telegram match-subdomain=yes type=FWD name=tx.me
 add address-list=BlackList_RU forward-to=Quad9 comment=telegram match-subdomain=yes type=FWD name=usercontent.dev

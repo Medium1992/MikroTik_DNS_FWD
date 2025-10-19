@@ -5,11 +5,14 @@ add forward-to=fakeipRU comment=telegram match-subdomain=yes type=FWD name=conte
 add forward-to=fakeipRU comment=telegram match-subdomain=yes type=FWD name=fragment.com
 add forward-to=fakeipRU comment=telegram match-subdomain=yes type=FWD name=graph.org
 add forward-to=fakeipRU comment=telegram match-subdomain=yes type=FWD name=quiz.directory
+add forward-to=fakeipRU comment=telegram match-subdomain=yes type=FWD name=t.me
 add forward-to=fakeipRU comment=telegram match-subdomain=yes type=FWD name=tdesktop.com
 add forward-to=fakeipRU comment=telegram match-subdomain=yes type=FWD name=telega.one
 add forward-to=fakeipRU comment=telegram match-subdomain=yes type=FWD name=telegram-cdn.org
 add forward-to=fakeipRU comment=telegram match-subdomain=yes type=FWD name=telegram.dog
+add forward-to=fakeipRU comment=telegram match-subdomain=yes type=FWD name=telegram.me
 add forward-to=fakeipRU comment=telegram match-subdomain=yes type=FWD name=telegram.org
 add forward-to=fakeipRU comment=telegram match-subdomain=yes type=FWD name=telegram.space
 add forward-to=fakeipRU comment=telegram match-subdomain=yes type=FWD name=tg.dev
+add forward-to=fakeipRU comment=telegram match-subdomain=yes type=FWD name=tx.me
 add forward-to=fakeipRU comment=telegram match-subdomain=yes type=FWD name=usercontent.dev

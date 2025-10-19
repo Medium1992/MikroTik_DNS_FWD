@@ -152,7 +152,6 @@ add forward-to=fakeipRU comment=google type=FWD name=scholar.google.be
 add forward-to=fakeipRU comment=google type=FWD name=scholar.google.cat
 add forward-to=fakeipRU comment=google type=FWD name=scholar.google.com
 add forward-to=fakeipRU comment=google type=FWD name=scholar.google.com.co
-add forward-to=fakeipRU comment=google type=FWD name=scholar.google.li
 add forward-to=fakeipRU comment=google type=FWD name=scholar.google.ru
 add forward-to=fakeipRU comment=google type=FWD name=scholar.googleusercontent.com
 add forward-to=fakeipRU comment=google type=FWD name=scholar.l.google.com
@@ -232,13 +231,8 @@ add forward-to=fakeipRU comment=google match-subdomain=yes type=FWD name=blink.o
 add forward-to=fakeipRU comment=google match-subdomain=yes type=FWD name=blogblog.com
 add forward-to=fakeipRU comment=google match-subdomain=yes type=FWD name=blogger.com
 add forward-to=fakeipRU comment=google match-subdomain=yes type=FWD name=blogspot.be
-add forward-to=fakeipRU comment=google match-subdomain=yes type=FWD name=blogspot.bj
-add forward-to=fakeipRU comment=google match-subdomain=yes type=FWD name=blogspot.cf
 add forward-to=fakeipRU comment=google match-subdomain=yes type=FWD name=blogspot.com
 add forward-to=fakeipRU comment=google match-subdomain=yes type=FWD name=blogspot.com.co
-add forward-to=fakeipRU comment=google match-subdomain=yes type=FWD name=blogspot.com.cy
-add forward-to=fakeipRU comment=google match-subdomain=yes type=FWD name=blogspot.cv
-add forward-to=fakeipRU comment=google match-subdomain=yes type=FWD name=blogspot.li
 add forward-to=fakeipRU comment=google match-subdomain=yes type=FWD name=blogspot.ru
 add forward-to=fakeipRU comment=google match-subdomain=yes type=FWD name=blogspot.td
 add forward-to=fakeipRU comment=google match-subdomain=yes type=FWD name=brocaproject.com
@@ -293,7 +287,6 @@ add forward-to=fakeipRU comment=google match-subdomain=yes type=FWD name=doublec
 add forward-to=fakeipRU comment=google match-subdomain=yes type=FWD name=doubleclick.com
 add forward-to=fakeipRU comment=google match-subdomain=yes type=FWD name=doubleclick.net
 add forward-to=fakeipRU comment=google match-subdomain=yes type=FWD name=episodic.com
-add forward-to=fakeipRU comment=google match-subdomain=yes type=FWD name=fastlane.ci
 add forward-to=fakeipRU comment=google match-subdomain=yes type=FWD name=fastlane.tools
 add forward-to=fakeipRU comment=google match-subdomain=yes type=FWD name=feedburner.com
 add forward-to=fakeipRU comment=google match-subdomain=yes type=FWD name=fflick.com
@@ -352,62 +345,21 @@ add forward-to=fakeipRU comment=google match-subdomain=yes type=FWD name=google-
 add forward-to=fakeipRU comment=google match-subdomain=yes type=FWD name=google-analytics-cn.com
 add forward-to=fakeipRU comment=google match-subdomain=yes type=FWD name=google-analytics.com
 add forward-to=fakeipRU comment=google match-subdomain=yes type=FWD name=google-syndication.com
-add forward-to=fakeipRU comment=google match-subdomain=yes type=FWD name=google.ad
-add forward-to=fakeipRU comment=google match-subdomain=yes type=FWD name=google.as
 add forward-to=fakeipRU comment=google match-subdomain=yes type=FWD name=google.be
 add forward-to=fakeipRU comment=google match-subdomain=yes type=FWD name=google.berlin
-add forward-to=fakeipRU comment=google match-subdomain=yes type=FWD name=google.bf
-add forward-to=fakeipRU comment=google match-subdomain=yes type=FWD name=google.bj
-add forward-to=fakeipRU comment=google match-subdomain=yes type=FWD name=google.bt
 add forward-to=fakeipRU comment=google match-subdomain=yes type=FWD name=google.cat
-add forward-to=fakeipRU comment=google match-subdomain=yes type=FWD name=google.cd
-add forward-to=fakeipRU comment=google match-subdomain=yes type=FWD name=google.cf
-add forward-to=fakeipRU comment=google match-subdomain=yes type=FWD name=google.ci
 add forward-to=fakeipRU comment=google match-subdomain=yes type=FWD name=google.co
-add forward-to=fakeipRU comment=google match-subdomain=yes type=FWD name=google.co.ao
-add forward-to=fakeipRU comment=google match-subdomain=yes type=FWD name=google.co.bw
-add forward-to=fakeipRU comment=google match-subdomain=yes type=FWD name=google.co.ck
-add forward-to=fakeipRU comment=google match-subdomain=yes type=FWD name=google.co.ls
-add forward-to=fakeipRU comment=google match-subdomain=yes type=FWD name=google.co.mz
-add forward-to=fakeipRU comment=google match-subdomain=yes type=FWD name=google.co.vi
-add forward-to=fakeipRU comment=google match-subdomain=yes type=FWD name=google.co.zm
 add forward-to=fakeipRU comment=google match-subdomain=yes type=FWD name=google.com
-add forward-to=fakeipRU comment=google match-subdomain=yes type=FWD name=google.com.bn
-add forward-to=fakeipRU comment=google match-subdomain=yes type=FWD name=google.com.bz
 add forward-to=fakeipRU comment=google match-subdomain=yes type=FWD name=google.com.co
-add forward-to=fakeipRU comment=google match-subdomain=yes type=FWD name=google.com.cy
-add forward-to=fakeipRU comment=google match-subdomain=yes type=FWD name=google.com.et
-add forward-to=fakeipRU comment=google match-subdomain=yes type=FWD name=google.com.fj
-add forward-to=fakeipRU comment=google match-subdomain=yes type=FWD name=google.com.gi
-add forward-to=fakeipRU comment=google match-subdomain=yes type=FWD name=google.com.kh
-add forward-to=fakeipRU comment=google match-subdomain=yes type=FWD name=google.com.mm
-add forward-to=fakeipRU comment=google match-subdomain=yes type=FWD name=google.com.na
-add forward-to=fakeipRU comment=google match-subdomain=yes type=FWD name=google.com.np
-add forward-to=fakeipRU comment=google match-subdomain=yes type=FWD name=google.com.pg
-add forward-to=fakeipRU comment=google match-subdomain=yes type=FWD name=google.com.sb
-add forward-to=fakeipRU comment=google match-subdomain=yes type=FWD name=google.com.sl
-add forward-to=fakeipRU comment=google match-subdomain=yes type=FWD name=google.com.vc
-add forward-to=fakeipRU comment=google match-subdomain=yes type=FWD name=google.cv
 add forward-to=fakeipRU comment=google match-subdomain=yes type=FWD name=google.dev
-add forward-to=fakeipRU comment=google match-subdomain=yes type=FWD name=google.dj
-add forward-to=fakeipRU comment=google match-subdomain=yes type=FWD name=google.dm
 add forward-to=fakeipRU comment=google match-subdomain=yes type=FWD name=google.fm
 add forward-to=fakeipRU comment=google match-subdomain=yes type=FWD name=google.gg
-add forward-to=fakeipRU comment=google match-subdomain=yes type=FWD name=google.im
-add forward-to=fakeipRU comment=google match-subdomain=yes type=FWD name=google.kg
-add forward-to=fakeipRU comment=google match-subdomain=yes type=FWD name=google.ki
-add forward-to=fakeipRU comment=google match-subdomain=yes type=FWD name=google.li
-add forward-to=fakeipRU comment=google match-subdomain=yes type=FWD name=google.ml
-add forward-to=fakeipRU comment=google match-subdomain=yes type=FWD name=google.ms
-add forward-to=fakeipRU comment=google match-subdomain=yes type=FWD name=google.mv
-add forward-to=fakeipRU comment=google match-subdomain=yes type=FWD name=google.ne
+add forward-to=fakeipRU comment=google match-subdomain=yes type=FWD name=google.me
 add forward-to=fakeipRU comment=google match-subdomain=yes type=FWD name=google.net
-add forward-to=fakeipRU comment=google match-subdomain=yes type=FWD name=google.nr
 add forward-to=fakeipRU comment=google match-subdomain=yes type=FWD name=google.org
 add forward-to=fakeipRU comment=google match-subdomain=yes type=FWD name=google.ps
 add forward-to=fakeipRU comment=google match-subdomain=yes type=FWD name=google.ru
 add forward-to=fakeipRU comment=google match-subdomain=yes type=FWD name=google.sh
-add forward-to=fakeipRU comment=google match-subdomain=yes type=FWD name=google.sm
 add forward-to=fakeipRU comment=google match-subdomain=yes type=FWD name=google.so
 add forward-to=fakeipRU comment=google match-subdomain=yes type=FWD name=google.td
 add forward-to=fakeipRU comment=google match-subdomain=yes type=FWD name=google.tg
@@ -634,6 +586,7 @@ add forward-to=fakeipRU comment=google match-subdomain=yes type=FWD name=youtube
 add forward-to=fakeipRU comment=google match-subdomain=yes type=FWD name=youtube.co
 add forward-to=fakeipRU comment=google match-subdomain=yes type=FWD name=youtube.com
 add forward-to=fakeipRU comment=google match-subdomain=yes type=FWD name=youtube.com.co
+add forward-to=fakeipRU comment=google match-subdomain=yes type=FWD name=youtube.me
 add forward-to=fakeipRU comment=google match-subdomain=yes type=FWD name=youtube.ru
 add forward-to=fakeipRU comment=google match-subdomain=yes type=FWD name=youtube.soy
 add forward-to=fakeipRU comment=google match-subdomain=yes type=FWD name=youtube.tv

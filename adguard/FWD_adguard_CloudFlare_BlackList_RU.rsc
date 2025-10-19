@@ -15,3 +15,4 @@ add address-list=BlackList_RU forward-to=CloudFlare comment=adguard match-subdom
 add address-list=BlackList_RU forward-to=CloudFlare comment=adguard match-subdomain=yes type=FWD name=adtidy.org
 add address-list=BlackList_RU forward-to=CloudFlare comment=adguard match-subdomain=yes type=FWD name=agrd.eu
 add address-list=BlackList_RU forward-to=CloudFlare comment=adguard match-subdomain=yes type=FWD name=agrd.io
+add address-list=BlackList_RU forward-to=CloudFlare comment=adguard match-subdomain=yes type=FWD name=mask.me
