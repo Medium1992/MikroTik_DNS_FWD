@@ -20,3 +20,4 @@ add address-list=BlackList_EU forward-to=OwnDNS comment=spotify match-subdomain=
 add address-list=BlackList_EU forward-to=OwnDNS comment=spotify match-subdomain=yes type=FWD name=spotifycodes.com
 add address-list=BlackList_EU forward-to=OwnDNS comment=spotify match-subdomain=yes type=FWD name=spotifyforbrands.com
 add address-list=BlackList_EU forward-to=OwnDNS comment=spotify match-subdomain=yes type=FWD name=spotifyjobs.com
+add address-list=BlackList_EU forward-to=OwnDNS comment=spotify match-subdomain=yes type=FWD name=tospotify.com

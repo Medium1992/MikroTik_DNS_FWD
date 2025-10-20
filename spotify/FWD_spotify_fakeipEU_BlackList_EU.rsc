@@ -20,3 +20,4 @@ add forward-to=fakeipEU comment=spotify match-subdomain=yes type=FWD name=spotif
 add forward-to=fakeipEU comment=spotify match-subdomain=yes type=FWD name=spotifycodes.com
 add forward-to=fakeipEU comment=spotify match-subdomain=yes type=FWD name=spotifyforbrands.com
 add forward-to=fakeipEU comment=spotify match-subdomain=yes type=FWD name=spotifyjobs.com
+add forward-to=fakeipEU comment=spotify match-subdomain=yes type=FWD name=tospotify.com

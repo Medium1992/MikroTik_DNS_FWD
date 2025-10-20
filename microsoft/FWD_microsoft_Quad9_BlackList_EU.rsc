@@ -30,8 +30,6 @@ add address-list=BlackList_EU forward-to=Quad9 comment=microsoft type=FWD name=i
 add address-list=BlackList_EU forward-to=Quad9 comment=microsoft type=FWD name=learn.microsoft.com
 add address-list=BlackList_EU forward-to=Quad9 comment=microsoft type=FWD name=location.microsoft.com
 add address-list=BlackList_EU forward-to=Quad9 comment=microsoft type=FWD name=mscrl.microsoft.com
-add address-list=BlackList_EU forward-to=Quad9 comment=microsoft type=FWD name=msgr.dlservice.microsoft.com
-add address-list=BlackList_EU forward-to=Quad9 comment=microsoft type=FWD name=msgruser.dlservice.microsoft.com
 add address-list=BlackList_EU forward-to=Quad9 comment=microsoft type=FWD name=mwf-service.akamaized.net
 add address-list=BlackList_EU forward-to=Quad9 comment=microsoft type=FWD name=myvs.download.prss.microsoft.com
 add address-list=BlackList_EU forward-to=Quad9 comment=microsoft type=FWD name=ocsp.microsoft.com
@@ -43,14 +41,11 @@ add address-list=BlackList_EU forward-to=Quad9 comment=microsoft type=FWD name=p
 add address-list=BlackList_EU forward-to=Quad9 comment=microsoft type=FWD name=prodforza.blob.core.windows.net
 add address-list=BlackList_EU forward-to=Quad9 comment=microsoft type=FWD name=psg-int-centralus.cloudapp.net
 add address-list=BlackList_EU forward-to=Quad9 comment=microsoft type=FWD name=psg-int-eastus.cloudapp.net
-add address-list=BlackList_EU forward-to=Quad9 comment=microsoft type=FWD name=qh.dlservice.microsoft.com
 add address-list=BlackList_EU forward-to=Quad9 comment=microsoft type=FWD name=res-1.cdn.office.net
 add address-list=BlackList_EU forward-to=Quad9 comment=microsoft type=FWD name=res.cdn.office.net
 add address-list=BlackList_EU forward-to=Quad9 comment=microsoft type=FWD name=rink.hockeyapp.net
 add address-list=BlackList_EU forward-to=Quad9 comment=microsoft type=FWD name=sdx.microsoft.com
 add address-list=BlackList_EU forward-to=Quad9 comment=microsoft type=FWD name=shell.cdn.office.net
-add address-list=BlackList_EU forward-to=Quad9 comment=microsoft type=FWD name=silverlight.dlservice.microsoft.com
-add address-list=BlackList_EU forward-to=Quad9 comment=microsoft type=FWD name=slupdate.dlservice.microsoft.com
 add address-list=BlackList_EU forward-to=Quad9 comment=microsoft type=FWD name=software.download.prss.microsoft.com
 add address-list=BlackList_EU forward-to=Quad9 comment=microsoft type=FWD name=statics-marketingsites-eas-ms-com.akamaized.net
 add address-list=BlackList_EU forward-to=Quad9 comment=microsoft type=FWD name=statics-marketingsites-eus-ms-com.akamaized.net
@@ -65,11 +60,9 @@ add address-list=BlackList_EU forward-to=Quad9 comment=microsoft type=FWD name=v
 add address-list=BlackList_EU forward-to=Quad9 comment=microsoft type=FWD name=vscode.search.windows.net
 add address-list=BlackList_EU forward-to=Quad9 comment=microsoft type=FWD name=vsmarketplacebadge.apphb.com
 add address-list=BlackList_EU forward-to=Quad9 comment=microsoft type=FWD name=vz.download.prss.microsoft.com
-add address-list=BlackList_EU forward-to=Quad9 comment=microsoft type=FWD name=wl.dlservice.microsoft.com
 add address-list=BlackList_EU forward-to=Quad9 comment=microsoft type=FWD name=wscont1.apps.microsoft.com
 add address-list=BlackList_EU forward-to=Quad9 comment=microsoft type=FWD name=wscont2.apps.microsoft.com
 add address-list=BlackList_EU forward-to=Quad9 comment=microsoft type=FWD name=www.microsoft.com
-add address-list=BlackList_EU forward-to=Quad9 comment=microsoft type=FWD name=xb.dlservice.microsoft.com
 add address-list=BlackList_EU forward-to=Quad9 comment=microsoft match-subdomain=yes type=FWD name=1drv.com
 add address-list=BlackList_EU forward-to=Quad9 comment=microsoft match-subdomain=yes type=FWD name=21vbc.com
 add address-list=BlackList_EU forward-to=Quad9 comment=microsoft match-subdomain=yes type=FWD name=21vbluecloud.com
