@@ -7,6 +7,7 @@
 :if ([:len [/ip dns static find name="ad.qq.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="tencent" match-subdomain=yes type=FWD name="ad.qq.com" }
 :if ([:len [/ip dns static find name="ad.qun.qq.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="tencent" match-subdomain=yes type=FWD name="ad.qun.qq.com" }
 :if ([:len [/ip dns static find name="adfilter.imtt.qq.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="tencent" match-subdomain=yes type=FWD name="adfilter.imtt.qq.com" }
+:if ([:len [/ip dns static find name="adnet.qq.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="tencent" match-subdomain=yes type=FWD name="adnet.qq.com" }
 :if ([:len [/ip dns static find name="adping.qq.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="tencent" match-subdomain=yes type=FWD name="adping.qq.com" }
 :if ([:len [/ip dns static find name="adpm.app.qq.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="tencent" match-subdomain=yes type=FWD name="adpm.app.qq.com" }
 :if ([:len [/ip dns static find name="adsclick.qq.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="tencent" match-subdomain=yes type=FWD name="adsclick.qq.com" }
@@ -150,4 +151,3 @@
 :if ([:len [/ip dns static find name="gtgres.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="tencent" match-subdomain=yes type=FWD name="gtgres.com" }
 :if ([:len [/ip dns static find name="gtimg.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="tencent" match-subdomain=yes type=FWD name="gtimg.com" }
 :if ([:len [/ip dns static find name="gtm.pub"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="tencent" match-subdomain=yes type=FWD name="gtm.pub" }
-:if ([:len [/ip dns static find name="happyhlddz.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="tencent" match-subdomain=yes type=FWD name="happyhlddz.com" }
