@@ -77,6 +77,7 @@
 :if ([:len [/ip dns static find name="tracker.yemekyedim.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="tracker" type=FWD name="tracker.yemekyedim.com" }
 :if ([:len [/ip dns static find name="tracker.zhuqiy.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="tracker" type=FWD name="tracker.zhuqiy.com" }
 :if ([:len [/ip dns static find name="tracker.zupix.online"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="tracker" type=FWD name="tracker.zupix.online" }
+:if ([:len [/ip dns static find name="tracker1.520.jp"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="tracker" type=FWD name="tracker1.520.jp" }
 :if ([:len [/ip dns static find name="tracker2.dler.org"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="tracker" type=FWD name="tracker2.dler.org" }
 :if ([:len [/ip dns static find name="tracker2.itzmx.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="tracker" type=FWD name="tracker2.itzmx.com" }
 :if ([:len [/ip dns static find name="tracker3.itzmx.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="tracker" type=FWD name="tracker3.itzmx.com" }

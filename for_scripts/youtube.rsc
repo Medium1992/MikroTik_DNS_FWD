@@ -12,11 +12,16 @@
 :if ([:len [/ip dns static find name="youtube.be"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="youtube" match-subdomain=yes type=FWD name="youtube.be" }
 :if ([:len [/ip dns static find name="youtube.cat"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="youtube" match-subdomain=yes type=FWD name="youtube.cat" }
 :if ([:len [/ip dns static find name="youtube.co"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="youtube" match-subdomain=yes type=FWD name="youtube.co" }
+:if ([:len [/ip dns static find name="youtube.co.jp"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="youtube" match-subdomain=yes type=FWD name="youtube.co.jp" }
 :if ([:len [/ip dns static find name="youtube.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="youtube" match-subdomain=yes type=FWD name="youtube.com" }
 :if ([:len [/ip dns static find name="youtube.com.co"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="youtube" match-subdomain=yes type=FWD name="youtube.com.co" }
+:if ([:len [/ip dns static find name="youtube.com.tw"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="youtube" match-subdomain=yes type=FWD name="youtube.com.tw" }
 :if ([:len [/ip dns static find name="youtube.googleapis.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="youtube" match-subdomain=yes type=FWD name="youtube.googleapis.com" }
+:if ([:len [/ip dns static find name="youtube.jp"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="youtube" match-subdomain=yes type=FWD name="youtube.jp" }
 :if ([:len [/ip dns static find name="youtube.me"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="youtube" match-subdomain=yes type=FWD name="youtube.me" }
+:if ([:len [/ip dns static find name="youtube.nl"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="youtube" match-subdomain=yes type=FWD name="youtube.nl" }
 :if ([:len [/ip dns static find name="youtube.ru"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="youtube" match-subdomain=yes type=FWD name="youtube.ru" }
+:if ([:len [/ip dns static find name="youtube.se"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="youtube" match-subdomain=yes type=FWD name="youtube.se" }
 :if ([:len [/ip dns static find name="youtube.soy"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="youtube" match-subdomain=yes type=FWD name="youtube.soy" }
 :if ([:len [/ip dns static find name="youtube.tv"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="youtube" match-subdomain=yes type=FWD name="youtube.tv" }
 :if ([:len [/ip dns static find name="youtubeeducation.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="youtube" match-subdomain=yes type=FWD name="youtubeeducation.com" }

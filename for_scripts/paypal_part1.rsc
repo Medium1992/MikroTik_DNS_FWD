@@ -149,5 +149,5 @@
 :if ([:len [/ip dns static find name="paypal-viewpoints.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="paypal" match-subdomain=yes type=FWD name="paypal-viewpoints.net" }
 :if ([:len [/ip dns static find name="paypal.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="paypal" match-subdomain=yes type=FWD name="paypal.com" }
 :if ([:len [/ip dns static find name="paypal.info"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="paypal" match-subdomain=yes type=FWD name="paypal.info" }
+:if ([:len [/ip dns static find name="paypal.jp"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="paypal" match-subdomain=yes type=FWD name="paypal.jp" }
 :if ([:len [/ip dns static find name="paypal.me"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="paypal" match-subdomain=yes type=FWD name="paypal.me" }
-:if ([:len [/ip dns static find name="paypal.so"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="paypal" match-subdomain=yes type=FWD name="paypal.so" }

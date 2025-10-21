@@ -12,6 +12,7 @@
 :if ([:len [/ip dns static find name="twitpic.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="twitter" match-subdomain=yes type=FWD name="twitpic.com" }
 :if ([:len [/ip dns static find name="twitter.biz"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="twitter" match-subdomain=yes type=FWD name="twitter.biz" }
 :if ([:len [/ip dns static find name="twitter.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="twitter" match-subdomain=yes type=FWD name="twitter.com" }
+:if ([:len [/ip dns static find name="twitter.jp"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="twitter" match-subdomain=yes type=FWD name="twitter.jp" }
 :if ([:len [/ip dns static find name="twitter.map.fastly.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="twitter" match-subdomain=yes type=FWD name="twitter.map.fastly.net" }
 :if ([:len [/ip dns static find name="twittercommunity.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="twitter" match-subdomain=yes type=FWD name="twittercommunity.com" }
 :if ([:len [/ip dns static find name="twitterflightschool.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="twitter" match-subdomain=yes type=FWD name="twitterflightschool.com" }

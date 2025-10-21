@@ -1,6 +1,8 @@
 :global AddressList
 :global ForwardTo
 /ip dns static
+:if ([:len [/ip dns static find name="fbidb.io"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="meta" match-subdomain=yes type=FWD name="fbidb.io" }
+:if ([:len [/ip dns static find name="fbinc.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="meta" match-subdomain=yes type=FWD name="fbinc.com" }
 :if ([:len [/ip dns static find name="fbinfer.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="meta" match-subdomain=yes type=FWD name="fbinfer.com" }
 :if ([:len [/ip dns static find name="fbinnovation.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="meta" match-subdomain=yes type=FWD name="fbinnovation.com" }
 :if ([:len [/ip dns static find name="fblitho.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="meta" match-subdomain=yes type=FWD name="fblitho.com" }
@@ -149,5 +151,3 @@
 :if ([:len [/ip dns static find name="intagrm.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="meta" match-subdomain=yes type=FWD name="intagrm.com" }
 :if ([:len [/ip dns static find name="internet.org"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="meta" match-subdomain=yes type=FWD name="internet.org" }
 :if ([:len [/ip dns static find name="intgram.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="meta" match-subdomain=yes type=FWD name="intgram.com" }
-:if ([:len [/ip dns static find name="kingstagram.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="meta" match-subdomain=yes type=FWD name="kingstagram.com" }
-:if ([:len [/ip dns static find name="klik.me"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="meta" match-subdomain=yes type=FWD name="klik.me" }

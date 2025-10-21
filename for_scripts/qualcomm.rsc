@@ -20,7 +20,9 @@
 :if ([:len [/ip dns static find name="qprize.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="qualcomm" match-subdomain=yes type=FWD name="qprize.com" }
 :if ([:len [/ip dns static find name="qualcomm-email.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="qualcomm" match-subdomain=yes type=FWD name="qualcomm-email.com" }
 :if ([:len [/ip dns static find name="qualcomm.cn.cdn.cloudflare.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="qualcomm" match-subdomain=yes type=FWD name="qualcomm.cn.cdn.cloudflare.net" }
+:if ([:len [/ip dns static find name="qualcomm.co.jp"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="qualcomm" match-subdomain=yes type=FWD name="qualcomm.co.jp" }
 :if ([:len [/ip dns static find name="qualcomm.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="qualcomm" match-subdomain=yes type=FWD name="qualcomm.com" }
+:if ([:len [/ip dns static find name="qualcomm.com.tw"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="qualcomm" match-subdomain=yes type=FWD name="qualcomm.com.tw" }
 :if ([:len [/ip dns static find name="qualcommhalo.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="qualcomm" match-subdomain=yes type=FWD name="qualcommhalo.com" }
 :if ([:len [/ip dns static find name="qualcommlabs.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="qualcomm" match-subdomain=yes type=FWD name="qualcommlabs.com" }
 :if ([:len [/ip dns static find name="qualcommmea.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="qualcomm" match-subdomain=yes type=FWD name="qualcommmea.com" }

@@ -66,9 +66,11 @@
 :if ([:len [/ip dns static find name="microsoft.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="microsoft" match-subdomain=yes type=FWD name="microsoft.com" }
 :if ([:len [/ip dns static find name="microsoft.eu"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="microsoft" match-subdomain=yes type=FWD name="microsoft.eu" }
 :if ([:len [/ip dns static find name="microsoft.io"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="microsoft" match-subdomain=yes type=FWD name="microsoft.io" }
+:if ([:len [/ip dns static find name="microsoft.jp"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="microsoft" match-subdomain=yes type=FWD name="microsoft.jp" }
 :if ([:len [/ip dns static find name="microsoft.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="microsoft" match-subdomain=yes type=FWD name="microsoft.net" }
 :if ([:len [/ip dns static find name="microsoft.red"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="microsoft" match-subdomain=yes type=FWD name="microsoft.red" }
 :if ([:len [/ip dns static find name="microsoft.ru"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="microsoft" match-subdomain=yes type=FWD name="microsoft.ru" }
+:if ([:len [/ip dns static find name="microsoft.se"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="microsoft" match-subdomain=yes type=FWD name="microsoft.se" }
 :if ([:len [/ip dns static find name="microsoft.tv"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="microsoft" match-subdomain=yes type=FWD name="microsoft.tv" }
 :if ([:len [/ip dns static find name="microsoft365.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="microsoft" match-subdomain=yes type=FWD name="microsoft365.com" }
 :if ([:len [/ip dns static find name="microsoftaccountguard.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="microsoft" match-subdomain=yes type=FWD name="microsoftaccountguard.com" }
@@ -149,5 +151,3 @@
 :if ([:len [/ip dns static find name="msecnd.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="microsoft" match-subdomain=yes type=FWD name="msecnd.net" }
 :if ([:len [/ip dns static find name="msedge.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="microsoft" match-subdomain=yes type=FWD name="msedge.net" }
 :if ([:len [/ip dns static find name="msft.info"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="microsoft" match-subdomain=yes type=FWD name="msft.info" }
-:if ([:len [/ip dns static find name="msft.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="microsoft" match-subdomain=yes type=FWD name="msft.net" }
-:if ([:len [/ip dns static find name="msftauth.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="microsoft" match-subdomain=yes type=FWD name="msftauth.net" }

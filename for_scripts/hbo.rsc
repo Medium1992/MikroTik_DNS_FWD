@@ -13,6 +13,7 @@
 :if ([:len [/ip dns static find name="hbogo.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="hbo" match-subdomain=yes type=FWD name="hbogo.com" }
 :if ([:len [/ip dns static find name="hbogo.eu"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="hbo" match-subdomain=yes type=FWD name="hbogo.eu" }
 :if ([:len [/ip dns static find name="hbogoasia.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="hbo" match-subdomain=yes type=FWD name="hbogoasia.com" }
+:if ([:len [/ip dns static find name="hbogoasia.tw"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="hbo" match-subdomain=yes type=FWD name="hbogoasia.tw" }
 :if ([:len [/ip dns static find name="hbomax-images.warnermediacdn.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="hbo" match-subdomain=yes type=FWD name="hbomax-images.warnermediacdn.com" }
 :if ([:len [/ip dns static find name="hbomax.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="hbo" match-subdomain=yes type=FWD name="hbomax.com" }
 :if ([:len [/ip dns static find name="hbomaxcdn.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="hbo" match-subdomain=yes type=FWD name="hbomaxcdn.com" }

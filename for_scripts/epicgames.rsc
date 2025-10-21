@@ -17,6 +17,7 @@
 :if ([:len [/ip dns static find name="paragon.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="epicgames" match-subdomain=yes type=FWD name="paragon.com" }
 :if ([:len [/ip dns static find name="playparagon.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="epicgames" match-subdomain=yes type=FWD name="playparagon.com" }
 :if ([:len [/ip dns static find name="quixel.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="epicgames" match-subdomain=yes type=FWD name="quixel.com" }
+:if ([:len [/ip dns static find name="quixel.se"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="epicgames" match-subdomain=yes type=FWD name="quixel.se" }
 :if ([:len [/ip dns static find name="radgametools.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="epicgames" match-subdomain=yes type=FWD name="radgametools.com" }
 :if ([:len [/ip dns static find name="realityscan.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="epicgames" match-subdomain=yes type=FWD name="realityscan.com" }
 :if ([:len [/ip dns static find name="roborecall.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="epicgames" match-subdomain=yes type=FWD name="roborecall.com" }

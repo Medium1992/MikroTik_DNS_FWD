@@ -1,6 +1,19 @@
 :global AddressList
 :global ForwardTo
 /ip dns static
+:if ([:len [/ip dns static find name="beacons3.gvt2.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="google" type=FWD name="beacons3.gvt2.com" }
+:if ([:len [/ip dns static find name="c.admob.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="google" type=FWD name="c.admob.com" }
+:if ([:len [/ip dns static find name="c.android.clients.google.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="google" type=FWD name="c.android.clients.google.com" }
+:if ([:len [/ip dns static find name="c.pki.goog"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="google" type=FWD name="c.pki.goog" }
+:if ([:len [/ip dns static find name="cache-management-prod.google.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="google" type=FWD name="cache-management-prod.google.com" }
+:if ([:len [/ip dns static find name="cache.pack.google.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="google" type=FWD name="cache.pack.google.com" }
+:if ([:len [/ip dns static find name="checkin.gstatic.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="google" type=FWD name="checkin.gstatic.com" }
+:if ([:len [/ip dns static find name="clickserve.cc-dt.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="google" type=FWD name="clickserve.cc-dt.com" }
+:if ([:len [/ip dns static find name="clickserve.dartsearch.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="google" type=FWD name="clickserve.dartsearch.net" }
+:if ([:len [/ip dns static find name="clickserver.googleads.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="google" type=FWD name="clickserver.googleads.com" }
+:if ([:len [/ip dns static find name="clients1.google.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="google" type=FWD name="clients1.google.com" }
+:if ([:len [/ip dns static find name="clientservices.googleapis.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="google" type=FWD name="clientservices.googleapis.com" }
+:if ([:len [/ip dns static find name="cn.widevine.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="google" type=FWD name="cn.widevine.com" }
 :if ([:len [/ip dns static find name="cnappinstall.googleadapis.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="google" type=FWD name="cnappinstall.googleadapis.com" }
 :if ([:len [/ip dns static find name="connectivitycheck.gstatic.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="google" type=FWD name="connectivitycheck.gstatic.com" }
 :if ([:len [/ip dns static find name="content.googleadapis.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="google" type=FWD name="content.googleadapis.com" }
@@ -113,9 +126,13 @@
 :if ([:len [/ip dns static find name="scanservice1.qcpp1.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="google" type=FWD name="scanservice1.qcpp1.net" }
 :if ([:len [/ip dns static find name="scholar.google.be"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="google" type=FWD name="scholar.google.be" }
 :if ([:len [/ip dns static find name="scholar.google.cat"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="google" type=FWD name="scholar.google.cat" }
+:if ([:len [/ip dns static find name="scholar.google.co.jp"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="google" type=FWD name="scholar.google.co.jp" }
 :if ([:len [/ip dns static find name="scholar.google.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="google" type=FWD name="scholar.google.com" }
 :if ([:len [/ip dns static find name="scholar.google.com.co"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="google" type=FWD name="scholar.google.com.co" }
+:if ([:len [/ip dns static find name="scholar.google.com.tw"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="google" type=FWD name="scholar.google.com.tw" }
+:if ([:len [/ip dns static find name="scholar.google.nl"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="google" type=FWD name="scholar.google.nl" }
 :if ([:len [/ip dns static find name="scholar.google.ru"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="google" type=FWD name="scholar.google.ru" }
+:if ([:len [/ip dns static find name="scholar.google.se"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="google" type=FWD name="scholar.google.se" }
 :if ([:len [/ip dns static find name="scholar.googleusercontent.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="google" type=FWD name="scholar.googleusercontent.com" }
 :if ([:len [/ip dns static find name="scholar.l.google.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="google" type=FWD name="scholar.l.google.com" }
 :if ([:len [/ip dns static find name="service.urchin.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="google" type=FWD name="service.urchin.com" }
@@ -134,20 +151,3 @@
 :if ([:len [/ip dns static find name="tac.googleapis.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="google" type=FWD name="tac.googleapis.com" }
 :if ([:len [/ip dns static find name="test.gbugs-qa.chromium.org"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="google" type=FWD name="test.gbugs-qa.chromium.org" }
 :if ([:len [/ip dns static find name="tools.google.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="google" type=FWD name="tools.google.com" }
-:if ([:len [/ip dns static find name="tools.l.google.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="google" type=FWD name="tools.l.google.com" }
-:if ([:len [/ip dns static find name="uberproxy-debug4.corp.google.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="google" type=FWD name="uberproxy-debug4.corp.google.com" }
-:if ([:len [/ip dns static find name="uberproxy.corp.google.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="google" type=FWD name="uberproxy.corp.google.com" }
-:if ([:len [/ip dns static find name="uberproxy6.corp.google.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="google" type=FWD name="uberproxy6.corp.google.com" }
-:if ([:len [/ip dns static find name="update.crashlytics.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="google" type=FWD name="update.crashlytics.com" }
-:if ([:len [/ip dns static find name="update.googleapis.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="google" type=FWD name="update.googleapis.com" }
-:if ([:len [/ip dns static find name="wear.googleapis.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="google" type=FWD name="wear.googleapis.com" }
-:if ([:len [/ip dns static find name="webchannel-alkalimakersuite-pa.clients6.google.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="google" type=FWD name="webchannel-alkalimakersuite-pa.clients6.google.com" }
-:if ([:len [/ip dns static find name="www-google-analytics.l.google.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="google" type=FWD name="www-google-analytics.l.google.com" }
-:if ([:len [/ip dns static find name="www-googletagmanager.l.google.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="google" type=FWD name="www-googletagmanager.l.google.com" }
-:if ([:len [/ip dns static find name="www.destinationurl.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="google" type=FWD name="www.destinationurl.com" }
-:if ([:len [/ip dns static find name="www.gstatic.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="google" type=FWD name="www.gstatic.com" }
-:if ([:len [/ip dns static find name="www.pxcc.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="google" type=FWD name="www.pxcc.com" }
-:if ([:len [/ip dns static find name="www.recaptcha.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="google" type=FWD name="www.recaptcha.net" }
-:if ([:len [/ip dns static find name="xn--flw351e.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="google" type=FWD name="xn--flw351e.com" }
-:if ([:len [/ip dns static find name="yt3.googleusercontent.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="google" type=FWD name="yt3.googleusercontent.com" }
-:if ([:len [/ip dns static find regexp="^adservice\\\\.google\\\\.([a-z]{2}|com\?)(\\\\.[a-z]{2})\?\$"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="google" type=FWD regexp="^adservice\\\\.google\\\\.([a-z]{2}|com\?)(\\\\.[a-z]{2})\?\$" }

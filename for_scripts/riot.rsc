@@ -37,6 +37,7 @@
 :if ([:len [/ip dns static find name="riotforgegames.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="riot" match-subdomain=yes type=FWD name="riotforgegames.com" }
 :if ([:len [/ip dns static find name="riotgames.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="riot" match-subdomain=yes type=FWD name="riotgames.com" }
 :if ([:len [/ip dns static find name="riotgames.info"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="riot" match-subdomain=yes type=FWD name="riotgames.info" }
+:if ([:len [/ip dns static find name="riotgames.jp"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="riot" match-subdomain=yes type=FWD name="riotgames.jp" }
 :if ([:len [/ip dns static find name="riotgames.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="riot" match-subdomain=yes type=FWD name="riotgames.net" }
 :if ([:len [/ip dns static find name="riotgames.tv"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="riot" match-subdomain=yes type=FWD name="riotgames.tv" }
 :if ([:len [/ip dns static find name="riotpin.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="riot" match-subdomain=yes type=FWD name="riotpin.com" }

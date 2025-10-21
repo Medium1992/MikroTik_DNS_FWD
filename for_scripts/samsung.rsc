@@ -2,6 +2,7 @@
 :global ForwardTo
 /ip dns static
 :if ([:len [/ip dns static find name="galaxyappstore.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="samsung" match-subdomain=yes type=FWD name="galaxyappstore.com" }
+:if ([:len [/ip dns static find name="galaxymobile.jp"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="samsung" match-subdomain=yes type=FWD name="galaxymobile.jp" }
 :if ([:len [/ip dns static find name="game-platform.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="samsung" match-subdomain=yes type=FWD name="game-platform.net" }
 :if ([:len [/ip dns static find name="knoxemm.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="samsung" match-subdomain=yes type=FWD name="knoxemm.com" }
 :if ([:len [/ip dns static find name="samsung"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="samsung" match-subdomain=yes type=FWD name="samsung" }

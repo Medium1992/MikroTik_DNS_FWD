@@ -6,7 +6,9 @@
 :if ([:len [/ip dns static find name="icloud-isupport.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="icloud" match-subdomain=yes type=FWD name="icloud-isupport.com" }
 :if ([:len [/ip dns static find name="icloud-sandbox.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="icloud" match-subdomain=yes type=FWD name="icloud-sandbox.com" }
 :if ([:len [/ip dns static find name="icloud.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="icloud" match-subdomain=yes type=FWD name="icloud.com" }
+:if ([:len [/ip dns static find name="icloud.jp"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="icloud" match-subdomain=yes type=FWD name="icloud.jp" }
 :if ([:len [/ip dns static find name="icloud.org"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="icloud" match-subdomain=yes type=FWD name="icloud.org" }
+:if ([:len [/ip dns static find name="icloud.se"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="icloud" match-subdomain=yes type=FWD name="icloud.se" }
 :if ([:len [/ip dns static find name="icloudads.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="icloud" match-subdomain=yes type=FWD name="icloudads.net" }
 :if ([:len [/ip dns static find name="icloudbox.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="icloud" match-subdomain=yes type=FWD name="icloudbox.net" }
 :if ([:len [/ip dns static find name="icloudbrowser.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="icloud" match-subdomain=yes type=FWD name="icloudbrowser.net" }

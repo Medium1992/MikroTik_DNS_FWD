@@ -4,6 +4,7 @@
 :if ([:len [/ip dns static find name="a2z.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="amazon" match-subdomain=yes type=FWD name="a2z.com" }
 :if ([:len [/ip dns static find name="aboutamazon.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="amazon" match-subdomain=yes type=FWD name="aboutamazon.com" }
 :if ([:len [/ip dns static find name="aboutamazon.eu"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="amazon" match-subdomain=yes type=FWD name="aboutamazon.eu" }
+:if ([:len [/ip dns static find name="aboutamazon.jp"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="amazon" match-subdomain=yes type=FWD name="aboutamazon.jp" }
 :if ([:len [/ip dns static find name="acmvalidations.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="amazon" match-subdomain=yes type=FWD name="acmvalidations.com" }
 :if ([:len [/ip dns static find name="acmvalidationsaws.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="amazon" match-subdomain=yes type=FWD name="acmvalidationsaws.com" }
 :if ([:len [/ip dns static find name="aesworkshops.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="amazon" match-subdomain=yes type=FWD name="aesworkshops.com" }
@@ -16,9 +17,12 @@
 :if ([:len [/ip dns static find name="amazon-jp-recruiting.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="amazon" match-subdomain=yes type=FWD name="amazon-jp-recruiting.com" }
 :if ([:len [/ip dns static find name="amazon-lantern.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="amazon" match-subdomain=yes type=FWD name="amazon-lantern.com" }
 :if ([:len [/ip dns static find name="amazon-launchpad.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="amazon" match-subdomain=yes type=FWD name="amazon-launchpad.com" }
+:if ([:len [/ip dns static find name="amazon.co.jp"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="amazon" match-subdomain=yes type=FWD name="amazon.co.jp" }
 :if ([:len [/ip dns static find name="amazon.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="amazon" match-subdomain=yes type=FWD name="amazon.com" }
 :if ([:len [/ip dns static find name="amazon.dev"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="amazon" match-subdomain=yes type=FWD name="amazon.dev" }
 :if ([:len [/ip dns static find name="amazon.jobs"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="amazon" match-subdomain=yes type=FWD name="amazon.jobs" }
+:if ([:len [/ip dns static find name="amazon.jp"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="amazon" match-subdomain=yes type=FWD name="amazon.jp" }
+:if ([:len [/ip dns static find name="amazon.nl"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="amazon" match-subdomain=yes type=FWD name="amazon.nl" }
 :if ([:len [/ip dns static find name="amazon.red"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="amazon" match-subdomain=yes type=FWD name="amazon.red" }
 :if ([:len [/ip dns static find name="amazonalexavoxcon.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="amazon" match-subdomain=yes type=FWD name="amazonalexavoxcon.com" }
 :if ([:len [/ip dns static find name="amazonauthorinsights.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="amazon" match-subdomain=yes type=FWD name="amazonauthorinsights.com" }
@@ -99,9 +103,12 @@
 :if ([:len [/ip dns static find name="imdb.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="amazon" match-subdomain=yes type=FWD name="imdb.com" }
 :if ([:len [/ip dns static find name="imdb.to"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="amazon" match-subdomain=yes type=FWD name="imdb.to" }
 :if ([:len [/ip dns static find name="kindle"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="amazon" match-subdomain=yes type=FWD name="kindle" }
+:if ([:len [/ip dns static find name="kindle.co.jp"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="amazon" match-subdomain=yes type=FWD name="kindle.co.jp" }
 :if ([:len [/ip dns static find name="kindle.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="amazon" match-subdomain=yes type=FWD name="kindle.com" }
+:if ([:len [/ip dns static find name="kindle.jp"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="amazon" match-subdomain=yes type=FWD name="kindle.jp" }
 :if ([:len [/ip dns static find name="kindleoasis.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="amazon" match-subdomain=yes type=FWD name="kindleoasis.com" }
 :if ([:len [/ip dns static find name="kindleoasis.info"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="amazon" match-subdomain=yes type=FWD name="kindleoasis.info" }
+:if ([:len [/ip dns static find name="kindleoasis.jp"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="amazon" match-subdomain=yes type=FWD name="kindleoasis.jp" }
 :if ([:len [/ip dns static find name="kindleoasis.org"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="amazon" match-subdomain=yes type=FWD name="kindleoasis.org" }
 :if ([:len [/ip dns static find name="kindleoasis.us"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="amazon" match-subdomain=yes type=FWD name="kindleoasis.us" }
 :if ([:len [/ip dns static find name="kindleoasisnews.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="amazon" match-subdomain=yes type=FWD name="kindleoasisnews.com" }

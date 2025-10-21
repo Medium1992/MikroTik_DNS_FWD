@@ -10,10 +10,14 @@
 :if ([:len [/ip dns static find name="canon-europa.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="canon" match-subdomain=yes type=FWD name="canon-europa.com" }
 :if ([:len [/ip dns static find name="canon-europe.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="canon" match-subdomain=yes type=FWD name="canon-europe.com" }
 :if ([:len [/ip dns static find name="canon-me.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="canon" match-subdomain=yes type=FWD name="canon-me.com" }
+:if ([:len [/ip dns static find name="canon-se.com.tw"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="canon" match-subdomain=yes type=FWD name="canon-se.com.tw" }
 :if ([:len [/ip dns static find name="canon.be"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="canon" match-subdomain=yes type=FWD name="canon.be" }
 :if ([:len [/ip dns static find name="canon.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="canon" match-subdomain=yes type=FWD name="canon.com" }
+:if ([:len [/ip dns static find name="canon.com.tw"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="canon" match-subdomain=yes type=FWD name="canon.com.tw" }
 :if ([:len [/ip dns static find name="canon.me"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="canon" match-subdomain=yes type=FWD name="canon.me" }
 :if ([:len [/ip dns static find name="canon.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="canon" match-subdomain=yes type=FWD name="canon.net" }
+:if ([:len [/ip dns static find name="canon.nl"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="canon" match-subdomain=yes type=FWD name="canon.nl" }
 :if ([:len [/ip dns static find name="canon.ru"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="canon" match-subdomain=yes type=FWD name="canon.ru" }
+:if ([:len [/ip dns static find name="canon.se"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="canon" match-subdomain=yes type=FWD name="canon.se" }
 :if ([:len [/ip dns static find name="canonfoundation.org"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="canon" match-subdomain=yes type=FWD name="canonfoundation.org" }
 :if ([:len [/ip dns static find name="canonproprinters.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="canon" match-subdomain=yes type=FWD name="canonproprinters.com" }

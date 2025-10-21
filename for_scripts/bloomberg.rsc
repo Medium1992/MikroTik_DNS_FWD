@@ -6,6 +6,7 @@
 :if ([:len [/ip dns static find name="bbthat.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="bloomberg" match-subdomain=yes type=FWD name="bbthat.com" }
 :if ([:len [/ip dns static find name="bgov.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="bloomberg" match-subdomain=yes type=FWD name="bgov.com" }
 :if ([:len [/ip dns static find name="bloomberg"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="bloomberg" match-subdomain=yes type=FWD name="bloomberg" }
+:if ([:len [/ip dns static find name="bloomberg.co.jp"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="bloomberg" match-subdomain=yes type=FWD name="bloomberg.co.jp" }
 :if ([:len [/ip dns static find name="bloomberg.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="bloomberg" match-subdomain=yes type=FWD name="bloomberg.com" }
 :if ([:len [/ip dns static find name="bloomberg.fm"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="bloomberg" match-subdomain=yes type=FWD name="bloomberg.fm" }
 :if ([:len [/ip dns static find name="bloomberg.tv"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="bloomberg" match-subdomain=yes type=FWD name="bloomberg.tv" }

@@ -1,6 +1,7 @@
 :global AddressList
 :global ForwardTo
 /ip dns static
+:if ([:len [/ip dns static find name="paypal.so"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="paypal" match-subdomain=yes type=FWD name="paypal.so" }
 :if ([:len [/ip dns static find name="paypal.us"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="paypal" match-subdomain=yes type=FWD name="paypal.us" }
 :if ([:len [/ip dns static find name="paypalbeacon.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="paypal" match-subdomain=yes type=FWD name="paypalbeacon.com" }
 :if ([:len [/ip dns static find name="paypalbenefits.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="paypal" match-subdomain=yes type=FWD name="paypalbenefits.com" }

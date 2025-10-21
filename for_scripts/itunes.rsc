@@ -26,6 +26,7 @@
 :if ([:len [/ip dns static find name="itunesradio.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="itunes" match-subdomain=yes type=FWD name="itunesradio.com" }
 :if ([:len [/ip dns static find name="itunesradio.rio"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="itunes" match-subdomain=yes type=FWD name="itunesradio.rio" }
 :if ([:len [/ip dns static find name="itunesradio.tv"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="itunes" match-subdomain=yes type=FWD name="itunesradio.tv" }
+:if ([:len [/ip dns static find name="itunesradio.tw"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="itunes" match-subdomain=yes type=FWD name="itunesradio.tw" }
 :if ([:len [/ip dns static find name="itunesstore.co"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="itunes" match-subdomain=yes type=FWD name="itunesstore.co" }
 :if ([:len [/ip dns static find name="itunesu.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="itunes" match-subdomain=yes type=FWD name="itunesu.com" }
 :if ([:len [/ip dns static find name="itunesu.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="itunes" match-subdomain=yes type=FWD name="itunesu.net" }

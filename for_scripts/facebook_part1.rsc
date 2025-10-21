@@ -96,7 +96,9 @@
 :if ([:len [/ip dns static find name="facebook.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="facebook" match-subdomain=yes type=FWD name="facebook.com" }
 :if ([:len [/ip dns static find name="facebook.design"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="facebook" match-subdomain=yes type=FWD name="facebook.design" }
 :if ([:len [/ip dns static find name="facebook.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="facebook" match-subdomain=yes type=FWD name="facebook.net" }
+:if ([:len [/ip dns static find name="facebook.nl"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="facebook" match-subdomain=yes type=FWD name="facebook.nl" }
 :if ([:len [/ip dns static find name="facebook.org"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="facebook" match-subdomain=yes type=FWD name="facebook.org" }
+:if ([:len [/ip dns static find name="facebook.se"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="facebook" match-subdomain=yes type=FWD name="facebook.se" }
 :if ([:len [/ip dns static find name="facebook.shop"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="facebook" match-subdomain=yes type=FWD name="facebook.shop" }
 :if ([:len [/ip dns static find name="facebook.tv"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="facebook" match-subdomain=yes type=FWD name="facebook.tv" }
 :if ([:len [/ip dns static find name="facebook.us"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="facebook" match-subdomain=yes type=FWD name="facebook.us" }
@@ -149,5 +151,3 @@
 :if ([:len [/ip dns static find name="facebooklogin.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="facebook" match-subdomain=yes type=FWD name="facebooklogin.com" }
 :if ([:len [/ip dns static find name="facebooklogin.info"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="facebook" match-subdomain=yes type=FWD name="facebooklogin.info" }
 :if ([:len [/ip dns static find name="facebookloginhelp.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="facebook" match-subdomain=yes type=FWD name="facebookloginhelp.net" }
-:if ([:len [/ip dns static find name="facebooklogs.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="facebook" match-subdomain=yes type=FWD name="facebooklogs.com" }
-:if ([:len [/ip dns static find name="facebookmail.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="facebook" match-subdomain=yes type=FWD name="facebookmail.com" }

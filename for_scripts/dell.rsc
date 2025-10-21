@@ -5,8 +5,11 @@
 :if ([:len [/ip dns static find name="alienware.biz"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="dell" match-subdomain=yes type=FWD name="alienware.biz" }
 :if ([:len [/ip dns static find name="alienware.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="dell" match-subdomain=yes type=FWD name="alienware.com" }
 :if ([:len [/ip dns static find name="alienware.eu"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="dell" match-subdomain=yes type=FWD name="alienware.eu" }
+:if ([:len [/ip dns static find name="alienware.jp"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="dell" match-subdomain=yes type=FWD name="alienware.jp" }
 :if ([:len [/ip dns static find name="alienware.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="dell" match-subdomain=yes type=FWD name="alienware.net" }
+:if ([:len [/ip dns static find name="alienware.nl"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="dell" match-subdomain=yes type=FWD name="alienware.nl" }
 :if ([:len [/ip dns static find name="alienware.ps"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="dell" match-subdomain=yes type=FWD name="alienware.ps" }
+:if ([:len [/ip dns static find name="alienware.se"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="dell" match-subdomain=yes type=FWD name="alienware.se" }
 :if ([:len [/ip dns static find name="alienware.us"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="dell" match-subdomain=yes type=FWD name="alienware.us" }
 :if ([:len [/ip dns static find name="dataframeworks.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="dell" match-subdomain=yes type=FWD name="dataframeworks.com" }
 :if ([:len [/ip dns static find name="del.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="dell" match-subdomain=yes type=FWD name="del.com" }
@@ -14,6 +17,7 @@
 :if ([:len [/ip dns static find name="dell-alw.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="dell" match-subdomain=yes type=FWD name="dell-alw.com" }
 :if ([:len [/ip dns static find name="dell-brand.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="dell" match-subdomain=yes type=FWD name="dell-brand.com" }
 :if ([:len [/ip dns static find name="dell.be"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="dell" match-subdomain=yes type=FWD name="dell.be" }
+:if ([:len [/ip dns static find name="dell.co.jp"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="dell" match-subdomain=yes type=FWD name="dell.co.jp" }
 :if ([:len [/ip dns static find name="dell.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="dell" match-subdomain=yes type=FWD name="dell.com" }
 :if ([:len [/ip dns static find name="dell.com.bb"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="dell" match-subdomain=yes type=FWD name="dell.com.bb" }
 :if ([:len [/ip dns static find name="dell.com.co"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="dell" match-subdomain=yes type=FWD name="dell.com.co" }
@@ -21,13 +25,17 @@
 :if ([:len [/ip dns static find name="dell.com.ky"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="dell" match-subdomain=yes type=FWD name="dell.com.ky" }
 :if ([:len [/ip dns static find name="dell.com.ru"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="dell" match-subdomain=yes type=FWD name="dell.com.ru" }
 :if ([:len [/ip dns static find name="dell.com.tc"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="dell" match-subdomain=yes type=FWD name="dell.com.tc" }
+:if ([:len [/ip dns static find name="dell.com.tw"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="dell" match-subdomain=yes type=FWD name="dell.com.tw" }
 :if ([:len [/ip dns static find name="dell.eu"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="dell" match-subdomain=yes type=FWD name="dell.eu" }
 :if ([:len [/ip dns static find name="dell.gp"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="dell" match-subdomain=yes type=FWD name="dell.gp" }
+:if ([:len [/ip dns static find name="dell.jp"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="dell" match-subdomain=yes type=FWD name="dell.jp" }
 :if ([:len [/ip dns static find name="dell.kn"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="dell" match-subdomain=yes type=FWD name="dell.kn" }
 :if ([:len [/ip dns static find name="dell.mq"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="dell" match-subdomain=yes type=FWD name="dell.mq" }
 :if ([:len [/ip dns static find name="dell.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="dell" match-subdomain=yes type=FWD name="dell.net" }
+:if ([:len [/ip dns static find name="dell.nl"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="dell" match-subdomain=yes type=FWD name="dell.nl" }
 :if ([:len [/ip dns static find name="dell.ps"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="dell" match-subdomain=yes type=FWD name="dell.ps" }
 :if ([:len [/ip dns static find name="dell.ru"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="dell" match-subdomain=yes type=FWD name="dell.ru" }
+:if ([:len [/ip dns static find name="dell.se"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="dell" match-subdomain=yes type=FWD name="dell.se" }
 :if ([:len [/ip dns static find name="dell.tc"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="dell" match-subdomain=yes type=FWD name="dell.tc" }
 :if ([:len [/ip dns static find name="dell.tv"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="dell" match-subdomain=yes type=FWD name="dell.tv" }
 :if ([:len [/ip dns static find name="dellcdn.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="dell" match-subdomain=yes type=FWD name="dellcdn.com" }

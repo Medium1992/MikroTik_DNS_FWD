@@ -1,6 +1,8 @@
 :global AddressList
 :global ForwardTo
 /ip dns static
+:if ([:len [/ip dns static find name="facebookenespanol.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="meta" match-subdomain=yes type=FWD name="facebookenespanol.com" }
+:if ([:len [/ip dns static find name="facebookexchange.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="meta" match-subdomain=yes type=FWD name="facebookexchange.com" }
 :if ([:len [/ip dns static find name="facebookexchange.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="meta" match-subdomain=yes type=FWD name="facebookexchange.net" }
 :if ([:len [/ip dns static find name="facebookfacebook.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="meta" match-subdomain=yes type=FWD name="facebookfacebook.com" }
 :if ([:len [/ip dns static find name="facebookflow.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="meta" match-subdomain=yes type=FWD name="facebookflow.com" }
@@ -149,5 +151,3 @@
 :if ([:len [/ip dns static find name="fbf8.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="meta" match-subdomain=yes type=FWD name="fbf8.com" }
 :if ([:len [/ip dns static find name="fbfeedback.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="meta" match-subdomain=yes type=FWD name="fbfeedback.com" }
 :if ([:len [/ip dns static find name="fbhome.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="meta" match-subdomain=yes type=FWD name="fbhome.com" }
-:if ([:len [/ip dns static find name="fbidb.io"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="meta" match-subdomain=yes type=FWD name="fbidb.io" }
-:if ([:len [/ip dns static find name="fbinc.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="meta" match-subdomain=yes type=FWD name="fbinc.com" }

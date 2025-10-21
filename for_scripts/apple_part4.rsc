@@ -1,6 +1,20 @@
 :global AddressList
 :global ForwardTo
 /ip dns static
+:if ([:len [/ip dns static find name="beatsfactorycollection.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="apple" match-subdomain=yes type=FWD name="beatsfactorycollection.com" }
+:if ([:len [/ip dns static find name="beatsfactoryoutles.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="apple" match-subdomain=yes type=FWD name="beatsfactoryoutles.com" }
+:if ([:len [/ip dns static find name="beatsforcheap-usa.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="apple" match-subdomain=yes type=FWD name="beatsforcheap-usa.com" }
+:if ([:len [/ip dns static find name="beatsforme.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="apple" match-subdomain=yes type=FWD name="beatsforme.com" }
+:if ([:len [/ip dns static find name="beatsfranceofficiel.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="apple" match-subdomain=yes type=FWD name="beatsfranceofficiel.com" }
+:if ([:len [/ip dns static find name="beatsheadphones-discount.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="apple" match-subdomain=yes type=FWD name="beatsheadphones-discount.com" }
+:if ([:len [/ip dns static find name="beatsheadphones1.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="apple" match-subdomain=yes type=FWD name="beatsheadphones1.com" }
+:if ([:len [/ip dns static find name="beatsheadphones2u.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="apple" match-subdomain=yes type=FWD name="beatsheadphones2u.com" }
+:if ([:len [/ip dns static find name="beatsheadphonesale.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="apple" match-subdomain=yes type=FWD name="beatsheadphonesale.com" }
+:if ([:len [/ip dns static find name="beatsheadphonesdealer.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="apple" match-subdomain=yes type=FWD name="beatsheadphonesdealer.com" }
+:if ([:len [/ip dns static find name="beatsheadphonesforcheap.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="apple" match-subdomain=yes type=FWD name="beatsheadphonesforcheap.net" }
+:if ([:len [/ip dns static find name="beatsheadphonesonline.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="apple" match-subdomain=yes type=FWD name="beatsheadphonesonline.com" }
+:if ([:len [/ip dns static find name="beatsheadphoness.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="apple" match-subdomain=yes type=FWD name="beatsheadphoness.com" }
+:if ([:len [/ip dns static find name="beatsheadphonestudio.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="apple" match-subdomain=yes type=FWD name="beatsheadphonestudio.com" }
 :if ([:len [/ip dns static find name="beatsheadphonesusamall.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="apple" match-subdomain=yes type=FWD name="beatsheadphonesusamall.com" }
 :if ([:len [/ip dns static find name="beatshopuk.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="apple" match-subdomain=yes type=FWD name="beatshopuk.com" }
 :if ([:len [/ip dns static find name="beatsincanada.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="apple" match-subdomain=yes type=FWD name="beatsincanada.com" }
@@ -137,17 +151,3 @@
 :if ([:len [/ip dns static find name="cheapdrdrebeats8.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="apple" match-subdomain=yes type=FWD name="cheapdrdrebeats8.com" }
 :if ([:len [/ip dns static find name="cheapdrdrebeatsca.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="apple" match-subdomain=yes type=FWD name="cheapdrdrebeatsca.com" }
 :if ([:len [/ip dns static find name="cheapdrebeats8.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="apple" match-subdomain=yes type=FWD name="cheapdrebeats8.net" }
-:if ([:len [/ip dns static find name="cheaperbeatsbydresale.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="apple" match-subdomain=yes type=FWD name="cheaperbeatsbydresale.com" }
-:if ([:len [/ip dns static find name="cheapestbeatsdrdre.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="apple" match-subdomain=yes type=FWD name="cheapestbeatsdrdre.com" }
-:if ([:len [/ip dns static find name="cheapheadphonesland.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="apple" match-subdomain=yes type=FWD name="cheapheadphonesland.com" }
-:if ([:len [/ip dns static find name="cheapheadphonessale.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="apple" match-subdomain=yes type=FWD name="cheapheadphonessale.com" }
-:if ([:len [/ip dns static find name="cheapheadsetmall.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="apple" match-subdomain=yes type=FWD name="cheapheadsetmall.com" }
-:if ([:len [/ip dns static find name="cheapheadsetshop.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="apple" match-subdomain=yes type=FWD name="cheapheadsetshop.com" }
-:if ([:len [/ip dns static find name="cheapmonsterbeatsbydrdre.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="apple" match-subdomain=yes type=FWD name="cheapmonsterbeatsbydrdre.com" }
-:if ([:len [/ip dns static find name="cheapmonsterbeatsheadsets.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="apple" match-subdomain=yes type=FWD name="cheapmonsterbeatsheadsets.com" }
-:if ([:len [/ip dns static find name="cheapmonsterbeatssale.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="apple" match-subdomain=yes type=FWD name="cheapmonsterbeatssale.com" }
-:if ([:len [/ip dns static find name="cheapmonsterbeatsusa.us"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="apple" match-subdomain=yes type=FWD name="cheapmonsterbeatsusa.us" }
-:if ([:len [/ip dns static find name="cheapmonstersbeatsonsale.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="apple" match-subdomain=yes type=FWD name="cheapmonstersbeatsonsale.com" }
-:if ([:len [/ip dns static find name="cheapnewbeatsbydre.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="apple" match-subdomain=yes type=FWD name="cheapnewbeatsbydre.com" }
-:if ([:len [/ip dns static find name="cheapsalemonster.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="apple" match-subdomain=yes type=FWD name="cheapsalemonster.com" }
-:if ([:len [/ip dns static find name="cheapshoesvip.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="apple" match-subdomain=yes type=FWD name="cheapshoesvip.com" }

@@ -1,6 +1,33 @@
 :global AddressList
 :global ForwardTo
 /ip dns static
+:if ([:len [/ip dns static find name="init-p01st.push.apple.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="apple" type=FWD name="init-p01st.push.apple.com" }
+:if ([:len [/ip dns static find name="init-s01st-lb.push-apple.com.akadns.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="apple" type=FWD name="init-s01st-lb.push-apple.com.akadns.net" }
+:if ([:len [/ip dns static find name="init-s01st.push.apple.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="apple" type=FWD name="init-s01st.push.apple.com" }
+:if ([:len [/ip dns static find name="init.ess.apple.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="apple" type=FWD name="init.ess.apple.com" }
+:if ([:len [/ip dns static find name="init.gc-lb.apple.com.akadns.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="apple" type=FWD name="init.gc-lb.apple.com.akadns.net" }
+:if ([:len [/ip dns static find name="init.gc.apple.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="apple" type=FWD name="init.gc.apple.com" }
+:if ([:len [/ip dns static find name="init.itunes.apple.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="apple" type=FWD name="init.itunes.apple.com" }
+:if ([:len [/ip dns static find name="iosapps.itunes.apple.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="apple" type=FWD name="iosapps.itunes.apple.com" }
+:if ([:len [/ip dns static find name="iosapps.itunes.g.aaplimg.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="apple" type=FWD name="iosapps.itunes.g.aaplimg.com" }
+:if ([:len [/ip dns static find name="ipcdn.apple.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="apple" type=FWD name="ipcdn.apple.com" }
+:if ([:len [/ip dns static find name="iphone-ld.apple.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="apple" type=FWD name="iphone-ld.apple.com" }
+:if ([:len [/ip dns static find name="iphone-ld.origin-apple.com.akadns.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="apple" type=FWD name="iphone-ld.origin-apple.com.akadns.net" }
+:if ([:len [/ip dns static find name="is-ssl.mzstatic.com-cn-lb.itunes-apple.com.akadns.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="apple" type=FWD name="is-ssl.mzstatic.com-cn-lb.itunes-apple.com.akadns.net" }
+:if ([:len [/ip dns static find name="is1-ssl.mzstatic.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="apple" type=FWD name="is1-ssl.mzstatic.com" }
+:if ([:len [/ip dns static find name="is1.mzstatic.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="apple" type=FWD name="is1.mzstatic.com" }
+:if ([:len [/ip dns static find name="is2-ssl.mzstatic.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="apple" type=FWD name="is2-ssl.mzstatic.com" }
+:if ([:len [/ip dns static find name="is2.mzstatic.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="apple" type=FWD name="is2.mzstatic.com" }
+:if ([:len [/ip dns static find name="is3-ssl.mzstatic.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="apple" type=FWD name="is3-ssl.mzstatic.com" }
+:if ([:len [/ip dns static find name="is3.mzstatic.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="apple" type=FWD name="is3.mzstatic.com" }
+:if ([:len [/ip dns static find name="is4-ssl.mzstatic.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="apple" type=FWD name="is4-ssl.mzstatic.com" }
+:if ([:len [/ip dns static find name="is4.mzstatic.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="apple" type=FWD name="is4.mzstatic.com" }
+:if ([:len [/ip dns static find name="is5-ssl.mzstatic.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="apple" type=FWD name="is5-ssl.mzstatic.com" }
+:if ([:len [/ip dns static find name="is5.mzstatic.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="apple" type=FWD name="is5.mzstatic.com" }
+:if ([:len [/ip dns static find name="itunes-apple.com.akadns.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="apple" type=FWD name="itunes-apple.com.akadns.net" }
+:if ([:len [/ip dns static find name="itunes.apple.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="apple" type=FWD name="itunes.apple.com" }
+:if ([:len [/ip dns static find name="itunesconnect.apple.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="apple" type=FWD name="itunesconnect.apple.com" }
+:if ([:len [/ip dns static find name="js-cdn.music.apple.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="apple" type=FWD name="js-cdn.music.apple.com" }
 :if ([:len [/ip dns static find name="km.support.apple.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="apple" type=FWD name="km.support.apple.com" }
 :if ([:len [/ip dns static find name="maps.apple.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="apple" type=FWD name="maps.apple.com" }
 :if ([:len [/ip dns static find name="mesu-cdn.apple.com.akadns.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="apple" type=FWD name="mesu-cdn.apple.com.akadns.net" }
