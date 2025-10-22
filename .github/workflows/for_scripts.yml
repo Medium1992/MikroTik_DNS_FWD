@@ -43,6 +43,7 @@ env:
     escapefromtarkov, \
     erolabs, \
     fandom, \
+    fastly,\
     gigabyte, \
     atlassian, \
     cloudflare, \
