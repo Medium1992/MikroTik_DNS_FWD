@@ -1,89 +1,89 @@
 :global AddressList
 :global ForwardTo
 /ip dns static
-:if ([:len [/ip dns static find name="21vbc.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="azure" match-subdomain=yes type=FWD name="21vbc.com" }
-:if ([:len [/ip dns static find name="21vbluecloud.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="azure" match-subdomain=yes type=FWD name="21vbluecloud.com" }
-:if ([:len [/ip dns static find name="21vbluecloud.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="azure" match-subdomain=yes type=FWD name="21vbluecloud.net" }
-:if ([:len [/ip dns static find name="aadrm.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="azure" match-subdomain=yes type=FWD name="aadrm.com" }
-:if ([:len [/ip dns static find name="aggresmart.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="azure" match-subdomain=yes type=FWD name="aggresmart.com" }
-:if ([:len [/ip dns static find name="azchcdna.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="azure" match-subdomain=yes type=FWD name="azchcdna.com" }
-:if ([:len [/ip dns static find name="azchcdnb.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="azure" match-subdomain=yes type=FWD name="azchcdnb.com" }
-:if ([:len [/ip dns static find name="azchcdnc.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="azure" match-subdomain=yes type=FWD name="azchcdnc.com" }
-:if ([:len [/ip dns static find name="azchcdnd.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="azure" match-subdomain=yes type=FWD name="azchcdnd.com" }
-:if ([:len [/ip dns static find name="azchcdne.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="azure" match-subdomain=yes type=FWD name="azchcdne.com" }
-:if ([:len [/ip dns static find name="azchcdnf.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="azure" match-subdomain=yes type=FWD name="azchcdnf.com" }
-:if ([:len [/ip dns static find name="azchcdng.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="azure" match-subdomain=yes type=FWD name="azchcdng.com" }
-:if ([:len [/ip dns static find name="azchcdnh.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="azure" match-subdomain=yes type=FWD name="azchcdnh.com" }
-:if ([:len [/ip dns static find name="azchcdni.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="azure" match-subdomain=yes type=FWD name="azchcdni.com" }
-:if ([:len [/ip dns static find name="azchcdnj.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="azure" match-subdomain=yes type=FWD name="azchcdnj.com" }
-:if ([:len [/ip dns static find name="azchcdnk.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="azure" match-subdomain=yes type=FWD name="azchcdnk.com" }
-:if ([:len [/ip dns static find name="azchcdnl.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="azure" match-subdomain=yes type=FWD name="azchcdnl.com" }
-:if ([:len [/ip dns static find name="azchcdnm.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="azure" match-subdomain=yes type=FWD name="azchcdnm.com" }
-:if ([:len [/ip dns static find name="azchcdnn.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="azure" match-subdomain=yes type=FWD name="azchcdnn.com" }
-:if ([:len [/ip dns static find name="azchcdno.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="azure" match-subdomain=yes type=FWD name="azchcdno.com" }
-:if ([:len [/ip dns static find name="azchcdnp.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="azure" match-subdomain=yes type=FWD name="azchcdnp.com" }
-:if ([:len [/ip dns static find name="azchcdnq.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="azure" match-subdomain=yes type=FWD name="azchcdnq.com" }
-:if ([:len [/ip dns static find name="azchcdnr.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="azure" match-subdomain=yes type=FWD name="azchcdnr.com" }
-:if ([:len [/ip dns static find name="azchcdns.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="azure" match-subdomain=yes type=FWD name="azchcdns.com" }
-:if ([:len [/ip dns static find name="azure"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="azure" match-subdomain=yes type=FWD name="azure" }
-:if ([:len [/ip dns static find name="azure-devices-int.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="azure" match-subdomain=yes type=FWD name="azure-devices-int.net" }
-:if ([:len [/ip dns static find name="azure-devices.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="azure" match-subdomain=yes type=FWD name="azure-devices.net" }
-:if ([:len [/ip dns static find name="azure-dns.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="azure" match-subdomain=yes type=FWD name="azure-dns.com" }
-:if ([:len [/ip dns static find name="azure-dns.info"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="azure" match-subdomain=yes type=FWD name="azure-dns.info" }
-:if ([:len [/ip dns static find name="azure-dns.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="azure" match-subdomain=yes type=FWD name="azure-dns.net" }
-:if ([:len [/ip dns static find name="azure-dns.org"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="azure" match-subdomain=yes type=FWD name="azure-dns.org" }
-:if ([:len [/ip dns static find name="azure-mobile.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="azure" match-subdomain=yes type=FWD name="azure-mobile.net" }
-:if ([:len [/ip dns static find name="azure-sphere.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="azure" match-subdomain=yes type=FWD name="azure-sphere.com" }
-:if ([:len [/ip dns static find name="azure-test.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="azure" match-subdomain=yes type=FWD name="azure-test.net" }
-:if ([:len [/ip dns static find name="azure.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="azure" match-subdomain=yes type=FWD name="azure.com" }
-:if ([:len [/ip dns static find name="azure.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="azure" match-subdomain=yes type=FWD name="azure.net" }
-:if ([:len [/ip dns static find name="azurecomcdn.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="azure" match-subdomain=yes type=FWD name="azurecomcdn.net" }
-:if ([:len [/ip dns static find name="azurecomm.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="azure" match-subdomain=yes type=FWD name="azurecomm.net" }
-:if ([:len [/ip dns static find name="azurecontainer.io"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="azure" match-subdomain=yes type=FWD name="azurecontainer.io" }
-:if ([:len [/ip dns static find name="azurecosmos.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="azure" match-subdomain=yes type=FWD name="azurecosmos.net" }
-:if ([:len [/ip dns static find name="azurecosmosdb.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="azure" match-subdomain=yes type=FWD name="azurecosmosdb.com" }
-:if ([:len [/ip dns static find name="azurecosmosdb.info"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="azure" match-subdomain=yes type=FWD name="azurecosmosdb.info" }
-:if ([:len [/ip dns static find name="azurecosmosdb.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="azure" match-subdomain=yes type=FWD name="azurecosmosdb.net" }
-:if ([:len [/ip dns static find name="azuredatabricks.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="azure" match-subdomain=yes type=FWD name="azuredatabricks.net" }
-:if ([:len [/ip dns static find name="azuredevopslaunch.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="azure" match-subdomain=yes type=FWD name="azuredevopslaunch.com" }
-:if ([:len [/ip dns static find name="azuredigitaltwin.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="azure" match-subdomain=yes type=FWD name="azuredigitaltwin.com" }
-:if ([:len [/ip dns static find name="azuredigitaltwins.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="azure" match-subdomain=yes type=FWD name="azuredigitaltwins.com" }
-:if ([:len [/ip dns static find name="azuredigitaltwins.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="azure" match-subdomain=yes type=FWD name="azuredigitaltwins.net" }
-:if ([:len [/ip dns static find name="azuredns-prd.info"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="azure" match-subdomain=yes type=FWD name="azuredns-prd.info" }
-:if ([:len [/ip dns static find name="azuredns-prd.org"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="azure" match-subdomain=yes type=FWD name="azuredns-prd.org" }
-:if ([:len [/ip dns static find name="azureedge-test.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="azure" match-subdomain=yes type=FWD name="azureedge-test.net" }
-:if ([:len [/ip dns static find name="azureedge.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="azure" match-subdomain=yes type=FWD name="azureedge.net" }
-:if ([:len [/ip dns static find name="azurefd.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="azure" match-subdomain=yes type=FWD name="azurefd.net" }
-:if ([:len [/ip dns static find name="azureiotcentral.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="azure" match-subdomain=yes type=FWD name="azureiotcentral.com" }
-:if ([:len [/ip dns static find name="azureiotsolutions.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="azure" match-subdomain=yes type=FWD name="azureiotsolutions.com" }
-:if ([:len [/ip dns static find name="azureiotsuite.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="azure" match-subdomain=yes type=FWD name="azureiotsuite.com" }
-:if ([:len [/ip dns static find name="azureplanetscale.info"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="azure" match-subdomain=yes type=FWD name="azureplanetscale.info" }
-:if ([:len [/ip dns static find name="azureplanetscale.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="azure" match-subdomain=yes type=FWD name="azureplanetscale.net" }
-:if ([:len [/ip dns static find name="azureserviceprofiler.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="azure" match-subdomain=yes type=FWD name="azureserviceprofiler.com" }
-:if ([:len [/ip dns static find name="azuresmartspaces.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="azure" match-subdomain=yes type=FWD name="azuresmartspaces.net" }
-:if ([:len [/ip dns static find name="azurestackvalidation.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="azure" match-subdomain=yes type=FWD name="azurestackvalidation.com" }
-:if ([:len [/ip dns static find name="azurewebsites.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="azure" match-subdomain=yes type=FWD name="azurewebsites.net" }
-:if ([:len [/ip dns static find name="blueaggrestore.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="azure" match-subdomain=yes type=FWD name="blueaggrestore.com" }
-:if ([:len [/ip dns static find name="bluecloudprod.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="azure" match-subdomain=yes type=FWD name="bluecloudprod.com" }
-:if ([:len [/ip dns static find name="botframework.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="azure" match-subdomain=yes type=FWD name="botframework.com" }
-:if ([:len [/ip dns static find name="cosmosdb.info"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="azure" match-subdomain=yes type=FWD name="cosmosdb.info" }
-:if ([:len [/ip dns static find name="cosmosdb.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="azure" match-subdomain=yes type=FWD name="cosmosdb.net" }
-:if ([:len [/ip dns static find name="devopsms.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="azure" match-subdomain=yes type=FWD name="devopsms.com" }
-:if ([:len [/ip dns static find name="gotcosmos.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="azure" match-subdomain=yes type=FWD name="gotcosmos.com" }
-:if ([:len [/ip dns static find name="management-azure-devices-int.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="azure" match-subdomain=yes type=FWD name="management-azure-devices-int.net" }
-:if ([:len [/ip dns static find name="management-azure-devices.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="azure" match-subdomain=yes type=FWD name="management-azure-devices.net" }
-:if ([:len [/ip dns static find name="mcchcdn.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="azure" match-subdomain=yes type=FWD name="mcchcdn.com" }
-:if ([:len [/ip dns static find name="microsoftazuread-sso.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="azure" match-subdomain=yes type=FWD name="microsoftazuread-sso.com" }
-:if ([:len [/ip dns static find name="microsoftazuresponsorships.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="azure" match-subdomain=yes type=FWD name="microsoftazuresponsorships.com" }
-:if ([:len [/ip dns static find name="microsofteca.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="azure" match-subdomain=yes type=FWD name="microsofteca.com" }
-:if ([:len [/ip dns static find name="microsoftiotcentral.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="azure" match-subdomain=yes type=FWD name="microsoftiotcentral.com" }
-:if ([:len [/ip dns static find name="mschcdn.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="azure" match-subdomain=yes type=FWD name="mschcdn.com" }
-:if ([:len [/ip dns static find name="msn.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="azure" match-subdomain=yes type=FWD name="msn.net" }
-:if ([:len [/ip dns static find name="playfab.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="azure" match-subdomain=yes type=FWD name="playfab.com" }
-:if ([:len [/ip dns static find name="playfabapi.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="azure" match-subdomain=yes type=FWD name="playfabapi.com" }
-:if ([:len [/ip dns static find name="serverlesslibrary.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="azure" match-subdomain=yes type=FWD name="serverlesslibrary.net" }
-:if ([:len [/ip dns static find name="trafficmanager.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="azure" match-subdomain=yes type=FWD name="trafficmanager.net" }
-:if ([:len [/ip dns static find name="tryfunctions.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="azure" match-subdomain=yes type=FWD name="tryfunctions.com" }
-:if ([:len [/ip dns static find name="windowsazure.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="azure" match-subdomain=yes type=FWD name="windowsazure.com" }
-:if ([:len [/ip dns static find name="azure.microsoft.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="azure" type=FWD name="azure.microsoft.com" }
-:if ([:len [/ip dns static find name="azuremarketplace.microsoft.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="azure" type=FWD name="azuremarketplace.microsoft.com" }
+:if ([:len [find name="21vbc.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="azure" match-subdomain=yes type=FWD name="21vbc.com" }
+:if ([:len [find name="21vbluecloud.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="azure" match-subdomain=yes type=FWD name="21vbluecloud.com" }
+:if ([:len [find name="21vbluecloud.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="azure" match-subdomain=yes type=FWD name="21vbluecloud.net" }
+:if ([:len [find name="aadrm.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="azure" match-subdomain=yes type=FWD name="aadrm.com" }
+:if ([:len [find name="aggresmart.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="azure" match-subdomain=yes type=FWD name="aggresmart.com" }
+:if ([:len [find name="azchcdna.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="azure" match-subdomain=yes type=FWD name="azchcdna.com" }
+:if ([:len [find name="azchcdnb.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="azure" match-subdomain=yes type=FWD name="azchcdnb.com" }
+:if ([:len [find name="azchcdnc.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="azure" match-subdomain=yes type=FWD name="azchcdnc.com" }
+:if ([:len [find name="azchcdnd.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="azure" match-subdomain=yes type=FWD name="azchcdnd.com" }
+:if ([:len [find name="azchcdne.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="azure" match-subdomain=yes type=FWD name="azchcdne.com" }
+:if ([:len [find name="azchcdnf.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="azure" match-subdomain=yes type=FWD name="azchcdnf.com" }
+:if ([:len [find name="azchcdng.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="azure" match-subdomain=yes type=FWD name="azchcdng.com" }
+:if ([:len [find name="azchcdnh.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="azure" match-subdomain=yes type=FWD name="azchcdnh.com" }
+:if ([:len [find name="azchcdni.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="azure" match-subdomain=yes type=FWD name="azchcdni.com" }
+:if ([:len [find name="azchcdnj.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="azure" match-subdomain=yes type=FWD name="azchcdnj.com" }
+:if ([:len [find name="azchcdnk.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="azure" match-subdomain=yes type=FWD name="azchcdnk.com" }
+:if ([:len [find name="azchcdnl.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="azure" match-subdomain=yes type=FWD name="azchcdnl.com" }
+:if ([:len [find name="azchcdnm.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="azure" match-subdomain=yes type=FWD name="azchcdnm.com" }
+:if ([:len [find name="azchcdnn.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="azure" match-subdomain=yes type=FWD name="azchcdnn.com" }
+:if ([:len [find name="azchcdno.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="azure" match-subdomain=yes type=FWD name="azchcdno.com" }
+:if ([:len [find name="azchcdnp.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="azure" match-subdomain=yes type=FWD name="azchcdnp.com" }
+:if ([:len [find name="azchcdnq.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="azure" match-subdomain=yes type=FWD name="azchcdnq.com" }
+:if ([:len [find name="azchcdnr.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="azure" match-subdomain=yes type=FWD name="azchcdnr.com" }
+:if ([:len [find name="azchcdns.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="azure" match-subdomain=yes type=FWD name="azchcdns.com" }
+:if ([:len [find name="azure"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="azure" match-subdomain=yes type=FWD name="azure" }
+:if ([:len [find name="azure-devices-int.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="azure" match-subdomain=yes type=FWD name="azure-devices-int.net" }
+:if ([:len [find name="azure-devices.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="azure" match-subdomain=yes type=FWD name="azure-devices.net" }
+:if ([:len [find name="azure-dns.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="azure" match-subdomain=yes type=FWD name="azure-dns.com" }
+:if ([:len [find name="azure-dns.info"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="azure" match-subdomain=yes type=FWD name="azure-dns.info" }
+:if ([:len [find name="azure-dns.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="azure" match-subdomain=yes type=FWD name="azure-dns.net" }
+:if ([:len [find name="azure-dns.org"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="azure" match-subdomain=yes type=FWD name="azure-dns.org" }
+:if ([:len [find name="azure-mobile.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="azure" match-subdomain=yes type=FWD name="azure-mobile.net" }
+:if ([:len [find name="azure-sphere.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="azure" match-subdomain=yes type=FWD name="azure-sphere.com" }
+:if ([:len [find name="azure-test.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="azure" match-subdomain=yes type=FWD name="azure-test.net" }
+:if ([:len [find name="azure.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="azure" match-subdomain=yes type=FWD name="azure.com" }
+:if ([:len [find name="azure.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="azure" match-subdomain=yes type=FWD name="azure.net" }
+:if ([:len [find name="azurecomcdn.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="azure" match-subdomain=yes type=FWD name="azurecomcdn.net" }
+:if ([:len [find name="azurecomm.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="azure" match-subdomain=yes type=FWD name="azurecomm.net" }
+:if ([:len [find name="azurecontainer.io"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="azure" match-subdomain=yes type=FWD name="azurecontainer.io" }
+:if ([:len [find name="azurecosmos.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="azure" match-subdomain=yes type=FWD name="azurecosmos.net" }
+:if ([:len [find name="azurecosmosdb.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="azure" match-subdomain=yes type=FWD name="azurecosmosdb.com" }
+:if ([:len [find name="azurecosmosdb.info"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="azure" match-subdomain=yes type=FWD name="azurecosmosdb.info" }
+:if ([:len [find name="azurecosmosdb.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="azure" match-subdomain=yes type=FWD name="azurecosmosdb.net" }
+:if ([:len [find name="azuredatabricks.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="azure" match-subdomain=yes type=FWD name="azuredatabricks.net" }
+:if ([:len [find name="azuredevopslaunch.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="azure" match-subdomain=yes type=FWD name="azuredevopslaunch.com" }
+:if ([:len [find name="azuredigitaltwin.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="azure" match-subdomain=yes type=FWD name="azuredigitaltwin.com" }
+:if ([:len [find name="azuredigitaltwins.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="azure" match-subdomain=yes type=FWD name="azuredigitaltwins.com" }
+:if ([:len [find name="azuredigitaltwins.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="azure" match-subdomain=yes type=FWD name="azuredigitaltwins.net" }
+:if ([:len [find name="azuredns-prd.info"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="azure" match-subdomain=yes type=FWD name="azuredns-prd.info" }
+:if ([:len [find name="azuredns-prd.org"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="azure" match-subdomain=yes type=FWD name="azuredns-prd.org" }
+:if ([:len [find name="azureedge-test.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="azure" match-subdomain=yes type=FWD name="azureedge-test.net" }
+:if ([:len [find name="azureedge.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="azure" match-subdomain=yes type=FWD name="azureedge.net" }
+:if ([:len [find name="azurefd.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="azure" match-subdomain=yes type=FWD name="azurefd.net" }
+:if ([:len [find name="azureiotcentral.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="azure" match-subdomain=yes type=FWD name="azureiotcentral.com" }
+:if ([:len [find name="azureiotsolutions.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="azure" match-subdomain=yes type=FWD name="azureiotsolutions.com" }
+:if ([:len [find name="azureiotsuite.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="azure" match-subdomain=yes type=FWD name="azureiotsuite.com" }
+:if ([:len [find name="azureplanetscale.info"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="azure" match-subdomain=yes type=FWD name="azureplanetscale.info" }
+:if ([:len [find name="azureplanetscale.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="azure" match-subdomain=yes type=FWD name="azureplanetscale.net" }
+:if ([:len [find name="azureserviceprofiler.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="azure" match-subdomain=yes type=FWD name="azureserviceprofiler.com" }
+:if ([:len [find name="azuresmartspaces.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="azure" match-subdomain=yes type=FWD name="azuresmartspaces.net" }
+:if ([:len [find name="azurestackvalidation.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="azure" match-subdomain=yes type=FWD name="azurestackvalidation.com" }
+:if ([:len [find name="azurewebsites.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="azure" match-subdomain=yes type=FWD name="azurewebsites.net" }
+:if ([:len [find name="blueaggrestore.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="azure" match-subdomain=yes type=FWD name="blueaggrestore.com" }
+:if ([:len [find name="bluecloudprod.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="azure" match-subdomain=yes type=FWD name="bluecloudprod.com" }
+:if ([:len [find name="botframework.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="azure" match-subdomain=yes type=FWD name="botframework.com" }
+:if ([:len [find name="cosmosdb.info"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="azure" match-subdomain=yes type=FWD name="cosmosdb.info" }
+:if ([:len [find name="cosmosdb.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="azure" match-subdomain=yes type=FWD name="cosmosdb.net" }
+:if ([:len [find name="devopsms.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="azure" match-subdomain=yes type=FWD name="devopsms.com" }
+:if ([:len [find name="gotcosmos.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="azure" match-subdomain=yes type=FWD name="gotcosmos.com" }
+:if ([:len [find name="management-azure-devices-int.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="azure" match-subdomain=yes type=FWD name="management-azure-devices-int.net" }
+:if ([:len [find name="management-azure-devices.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="azure" match-subdomain=yes type=FWD name="management-azure-devices.net" }
+:if ([:len [find name="mcchcdn.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="azure" match-subdomain=yes type=FWD name="mcchcdn.com" }
+:if ([:len [find name="microsoftazuread-sso.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="azure" match-subdomain=yes type=FWD name="microsoftazuread-sso.com" }
+:if ([:len [find name="microsoftazuresponsorships.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="azure" match-subdomain=yes type=FWD name="microsoftazuresponsorships.com" }
+:if ([:len [find name="microsofteca.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="azure" match-subdomain=yes type=FWD name="microsofteca.com" }
+:if ([:len [find name="microsoftiotcentral.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="azure" match-subdomain=yes type=FWD name="microsoftiotcentral.com" }
+:if ([:len [find name="mschcdn.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="azure" match-subdomain=yes type=FWD name="mschcdn.com" }
+:if ([:len [find name="msn.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="azure" match-subdomain=yes type=FWD name="msn.net" }
+:if ([:len [find name="playfab.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="azure" match-subdomain=yes type=FWD name="playfab.com" }
+:if ([:len [find name="playfabapi.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="azure" match-subdomain=yes type=FWD name="playfabapi.com" }
+:if ([:len [find name="serverlesslibrary.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="azure" match-subdomain=yes type=FWD name="serverlesslibrary.net" }
+:if ([:len [find name="trafficmanager.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="azure" match-subdomain=yes type=FWD name="trafficmanager.net" }
+:if ([:len [find name="tryfunctions.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="azure" match-subdomain=yes type=FWD name="tryfunctions.com" }
+:if ([:len [find name="windowsazure.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="azure" match-subdomain=yes type=FWD name="windowsazure.com" }
+:if ([:len [find name="azure.microsoft.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="azure" type=FWD name="azure.microsoft.com" }
+:if ([:len [find name="azuremarketplace.microsoft.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="azure" type=FWD name="azuremarketplace.microsoft.com" }

@@ -1,82 +1,82 @@
 :global AddressList
 :global ForwardTo
 /ip dns static
-:if ([:len [/ip dns static find name="paypal.so"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="paypal" match-subdomain=yes type=FWD name="paypal.so" }
-:if ([:len [/ip dns static find name="paypal.us"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="paypal" match-subdomain=yes type=FWD name="paypal.us" }
-:if ([:len [/ip dns static find name="paypalbeacon.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="paypal" match-subdomain=yes type=FWD name="paypalbeacon.com" }
-:if ([:len [/ip dns static find name="paypalbenefits.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="paypal" match-subdomain=yes type=FWD name="paypalbenefits.com" }
-:if ([:len [/ip dns static find name="paypalbrasil.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="paypal" match-subdomain=yes type=FWD name="paypalbrasil.com" }
-:if ([:len [/ip dns static find name="paypalcommunity.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="paypal" match-subdomain=yes type=FWD name="paypalcommunity.com" }
-:if ([:len [/ip dns static find name="paypalcommunity.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="paypal" match-subdomain=yes type=FWD name="paypalcommunity.net" }
-:if ([:len [/ip dns static find name="paypalcommunity.org"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="paypal" match-subdomain=yes type=FWD name="paypalcommunity.org" }
-:if ([:len [/ip dns static find name="paypalcorp.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="paypal" match-subdomain=yes type=FWD name="paypalcorp.com" }
-:if ([:len [/ip dns static find name="paypalcredit.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="paypal" match-subdomain=yes type=FWD name="paypalcredit.com" }
-:if ([:len [/ip dns static find name="paypalcreditcard.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="paypal" match-subdomain=yes type=FWD name="paypalcreditcard.com" }
-:if ([:len [/ip dns static find name="paypalgivingfund.org"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="paypal" match-subdomain=yes type=FWD name="paypalgivingfund.org" }
-:if ([:len [/ip dns static find name="paypalhere.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="paypal" match-subdomain=yes type=FWD name="paypalhere.com" }
-:if ([:len [/ip dns static find name="paypalhere.info"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="paypal" match-subdomain=yes type=FWD name="paypalhere.info" }
-:if ([:len [/ip dns static find name="paypalhere.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="paypal" match-subdomain=yes type=FWD name="paypalhere.net" }
-:if ([:len [/ip dns static find name="paypalhere.org"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="paypal" match-subdomain=yes type=FWD name="paypalhere.org" }
-:if ([:len [/ip dns static find name="paypalhere.tv"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="paypal" match-subdomain=yes type=FWD name="paypalhere.tv" }
-:if ([:len [/ip dns static find name="paypali.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="paypal" match-subdomain=yes type=FWD name="paypali.net" }
-:if ([:len [/ip dns static find name="paypalinc.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="paypal" match-subdomain=yes type=FWD name="paypalinc.com" }
-:if ([:len [/ip dns static find name="paypalindia.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="paypal" match-subdomain=yes type=FWD name="paypalindia.com" }
-:if ([:len [/ip dns static find name="paypalinsuranceservices.org"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="paypal" match-subdomain=yes type=FWD name="paypalinsuranceservices.org" }
-:if ([:len [/ip dns static find name="paypall.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="paypal" match-subdomain=yes type=FWD name="paypall.com" }
-:if ([:len [/ip dns static find name="paypallabs.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="paypal" match-subdomain=yes type=FWD name="paypallabs.com" }
-:if ([:len [/ip dns static find name="paypalme.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="paypal" match-subdomain=yes type=FWD name="paypalme.com" }
-:if ([:len [/ip dns static find name="paypalnet.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="paypal" match-subdomain=yes type=FWD name="paypalnet.net" }
-:if ([:len [/ip dns static find name="paypalnet.org"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="paypal" match-subdomain=yes type=FWD name="paypalnet.org" }
-:if ([:len [/ip dns static find name="paypalnetwork.info"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="paypal" match-subdomain=yes type=FWD name="paypalnetwork.info" }
-:if ([:len [/ip dns static find name="paypalnetwork.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="paypal" match-subdomain=yes type=FWD name="paypalnetwork.net" }
-:if ([:len [/ip dns static find name="paypalnetwork.org"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="paypal" match-subdomain=yes type=FWD name="paypalnetwork.org" }
-:if ([:len [/ip dns static find name="paypalobjects.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="paypal" match-subdomain=yes type=FWD name="paypalobjects.com" }
-:if ([:len [/ip dns static find name="paypalonline.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="paypal" match-subdomain=yes type=FWD name="paypalonline.net" }
-:if ([:len [/ip dns static find name="paypalonline.org"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="paypal" match-subdomain=yes type=FWD name="paypalonline.org" }
-:if ([:len [/ip dns static find name="paypalprepagata.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="paypal" match-subdomain=yes type=FWD name="paypalprepagata.com" }
-:if ([:len [/ip dns static find name="paypalprepagata.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="paypal" match-subdomain=yes type=FWD name="paypalprepagata.net" }
-:if ([:len [/ip dns static find name="paypalservice.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="paypal" match-subdomain=yes type=FWD name="paypalservice.com" }
-:if ([:len [/ip dns static find name="paypalshopping.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="paypal" match-subdomain=yes type=FWD name="paypalshopping.com" }
-:if ([:len [/ip dns static find name="paypalshopping.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="paypal" match-subdomain=yes type=FWD name="paypalshopping.net" }
-:if ([:len [/ip dns static find name="paypalsurvey.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="paypal" match-subdomain=yes type=FWD name="paypalsurvey.com" }
-:if ([:len [/ip dns static find name="paypalx.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="paypal" match-subdomain=yes type=FWD name="paypalx.com" }
-:if ([:len [/ip dns static find name="paypaly.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="paypal" match-subdomain=yes type=FWD name="paypaly.com" }
-:if ([:len [/ip dns static find name="payppal.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="paypal" match-subdomain=yes type=FWD name="payppal.com" }
-:if ([:len [/ip dns static find name="payypal.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="paypal" match-subdomain=yes type=FWD name="payypal.com" }
-:if ([:len [/ip dns static find name="pdncommunity.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="paypal" match-subdomain=yes type=FWD name="pdncommunity.com" }
-:if ([:len [/ip dns static find name="pp-soc.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="paypal" match-subdomain=yes type=FWD name="pp-soc.com" }
-:if ([:len [/ip dns static find name="ppaypal.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="paypal" match-subdomain=yes type=FWD name="ppaypal.com" }
-:if ([:len [/ip dns static find name="pppds.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="paypal" match-subdomain=yes type=FWD name="pppds.com" }
-:if ([:len [/ip dns static find name="pypl.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="paypal" match-subdomain=yes type=FWD name="pypl.com" }
-:if ([:len [/ip dns static find name="pypl.info"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="paypal" match-subdomain=yes type=FWD name="pypl.info" }
-:if ([:len [/ip dns static find name="pypl.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="paypal" match-subdomain=yes type=FWD name="pypl.net" }
-:if ([:len [/ip dns static find name="pypl.tv"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="paypal" match-subdomain=yes type=FWD name="pypl.tv" }
-:if ([:len [/ip dns static find name="s-xoom.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="paypal" match-subdomain=yes type=FWD name="s-xoom.com" }
-:if ([:len [/ip dns static find name="secure-paypal.info"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="paypal" match-subdomain=yes type=FWD name="secure-paypal.info" }
-:if ([:len [/ip dns static find name="securepaypal.info"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="paypal" match-subdomain=yes type=FWD name="securepaypal.info" }
-:if ([:len [/ip dns static find name="simility.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="paypal" match-subdomain=yes type=FWD name="simility.com" }
-:if ([:len [/ip dns static find name="sslpaypal.org"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="paypal" match-subdomain=yes type=FWD name="sslpaypal.org" }
-:if ([:len [/ip dns static find name="swiftbank.info"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="paypal" match-subdomain=yes type=FWD name="swiftbank.info" }
-:if ([:len [/ip dns static find name="swiftbank.us"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="paypal" match-subdomain=yes type=FWD name="swiftbank.us" }
-:if ([:len [/ip dns static find name="swiftcapital.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="paypal" match-subdomain=yes type=FWD name="swiftcapital.com" }
-:if ([:len [/ip dns static find name="swiftfinancial.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="paypal" match-subdomain=yes type=FWD name="swiftfinancial.com" }
-:if ([:len [/ip dns static find name="swiftfinancial.info"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="paypal" match-subdomain=yes type=FWD name="swiftfinancial.info" }
-:if ([:len [/ip dns static find name="swiftfinancial.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="paypal" match-subdomain=yes type=FWD name="swiftfinancial.net" }
-:if ([:len [/ip dns static find name="thepaypalshop.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="paypal" match-subdomain=yes type=FWD name="thepaypalshop.com" }
-:if ([:len [/ip dns static find name="theshoppingexpresslane.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="paypal" match-subdomain=yes type=FWD name="theshoppingexpresslane.net" }
-:if ([:len [/ip dns static find name="venmo-touch.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="paypal" match-subdomain=yes type=FWD name="venmo-touch.com" }
-:if ([:len [/ip dns static find name="venmo.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="paypal" match-subdomain=yes type=FWD name="venmo.com" }
-:if ([:len [/ip dns static find name="venmo.info"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="paypal" match-subdomain=yes type=FWD name="venmo.info" }
-:if ([:len [/ip dns static find name="venmo.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="paypal" match-subdomain=yes type=FWD name="venmo.net" }
-:if ([:len [/ip dns static find name="venmo.org"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="paypal" match-subdomain=yes type=FWD name="venmo.org" }
-:if ([:len [/ip dns static find name="webmoneyinfo.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="paypal" match-subdomain=yes type=FWD name="webmoneyinfo.com" }
-:if ([:len [/ip dns static find name="wiremoneytoirelandwithxoomeasierandcheaper.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="paypal" match-subdomain=yes type=FWD name="wiremoneytoirelandwithxoomeasierandcheaper.com" }
-:if ([:len [/ip dns static find name="www-paypal.info"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="paypal" match-subdomain=yes type=FWD name="www-paypal.info" }
-:if ([:len [/ip dns static find name="www-paypal.us"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="paypal" match-subdomain=yes type=FWD name="www-paypal.us" }
-:if ([:len [/ip dns static find name="wwwxoom.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="paypal" match-subdomain=yes type=FWD name="wwwxoom.com" }
-:if ([:len [/ip dns static find name="xoom-experience.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="paypal" match-subdomain=yes type=FWD name="xoom-experience.com" }
-:if ([:len [/ip dns static find name="xoom.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="paypal" match-subdomain=yes type=FWD name="xoom.com" }
-:if ([:len [/ip dns static find name="xoom.io"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="paypal" match-subdomain=yes type=FWD name="xoom.io" }
-:if ([:len [/ip dns static find name="xoom.us"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="paypal" match-subdomain=yes type=FWD name="xoom.us" }
-:if ([:len [/ip dns static find name="xoomcom.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="paypal" match-subdomain=yes type=FWD name="xoomcom.com" }
-:if ([:len [/ip dns static find name="venmo.s3.amazonaws.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="paypal" type=FWD name="venmo.s3.amazonaws.com" }
+:if ([:len [find name="paypal.so"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="paypal" match-subdomain=yes type=FWD name="paypal.so" }
+:if ([:len [find name="paypal.us"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="paypal" match-subdomain=yes type=FWD name="paypal.us" }
+:if ([:len [find name="paypalbeacon.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="paypal" match-subdomain=yes type=FWD name="paypalbeacon.com" }
+:if ([:len [find name="paypalbenefits.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="paypal" match-subdomain=yes type=FWD name="paypalbenefits.com" }
+:if ([:len [find name="paypalbrasil.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="paypal" match-subdomain=yes type=FWD name="paypalbrasil.com" }
+:if ([:len [find name="paypalcommunity.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="paypal" match-subdomain=yes type=FWD name="paypalcommunity.com" }
+:if ([:len [find name="paypalcommunity.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="paypal" match-subdomain=yes type=FWD name="paypalcommunity.net" }
+:if ([:len [find name="paypalcommunity.org"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="paypal" match-subdomain=yes type=FWD name="paypalcommunity.org" }
+:if ([:len [find name="paypalcorp.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="paypal" match-subdomain=yes type=FWD name="paypalcorp.com" }
+:if ([:len [find name="paypalcredit.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="paypal" match-subdomain=yes type=FWD name="paypalcredit.com" }
+:if ([:len [find name="paypalcreditcard.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="paypal" match-subdomain=yes type=FWD name="paypalcreditcard.com" }
+:if ([:len [find name="paypalgivingfund.org"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="paypal" match-subdomain=yes type=FWD name="paypalgivingfund.org" }
+:if ([:len [find name="paypalhere.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="paypal" match-subdomain=yes type=FWD name="paypalhere.com" }
+:if ([:len [find name="paypalhere.info"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="paypal" match-subdomain=yes type=FWD name="paypalhere.info" }
+:if ([:len [find name="paypalhere.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="paypal" match-subdomain=yes type=FWD name="paypalhere.net" }
+:if ([:len [find name="paypalhere.org"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="paypal" match-subdomain=yes type=FWD name="paypalhere.org" }
+:if ([:len [find name="paypalhere.tv"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="paypal" match-subdomain=yes type=FWD name="paypalhere.tv" }
+:if ([:len [find name="paypali.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="paypal" match-subdomain=yes type=FWD name="paypali.net" }
+:if ([:len [find name="paypalinc.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="paypal" match-subdomain=yes type=FWD name="paypalinc.com" }
+:if ([:len [find name="paypalindia.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="paypal" match-subdomain=yes type=FWD name="paypalindia.com" }
+:if ([:len [find name="paypalinsuranceservices.org"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="paypal" match-subdomain=yes type=FWD name="paypalinsuranceservices.org" }
+:if ([:len [find name="paypall.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="paypal" match-subdomain=yes type=FWD name="paypall.com" }
+:if ([:len [find name="paypallabs.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="paypal" match-subdomain=yes type=FWD name="paypallabs.com" }
+:if ([:len [find name="paypalme.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="paypal" match-subdomain=yes type=FWD name="paypalme.com" }
+:if ([:len [find name="paypalnet.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="paypal" match-subdomain=yes type=FWD name="paypalnet.net" }
+:if ([:len [find name="paypalnet.org"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="paypal" match-subdomain=yes type=FWD name="paypalnet.org" }
+:if ([:len [find name="paypalnetwork.info"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="paypal" match-subdomain=yes type=FWD name="paypalnetwork.info" }
+:if ([:len [find name="paypalnetwork.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="paypal" match-subdomain=yes type=FWD name="paypalnetwork.net" }
+:if ([:len [find name="paypalnetwork.org"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="paypal" match-subdomain=yes type=FWD name="paypalnetwork.org" }
+:if ([:len [find name="paypalobjects.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="paypal" match-subdomain=yes type=FWD name="paypalobjects.com" }
+:if ([:len [find name="paypalonline.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="paypal" match-subdomain=yes type=FWD name="paypalonline.net" }
+:if ([:len [find name="paypalonline.org"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="paypal" match-subdomain=yes type=FWD name="paypalonline.org" }
+:if ([:len [find name="paypalprepagata.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="paypal" match-subdomain=yes type=FWD name="paypalprepagata.com" }
+:if ([:len [find name="paypalprepagata.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="paypal" match-subdomain=yes type=FWD name="paypalprepagata.net" }
+:if ([:len [find name="paypalservice.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="paypal" match-subdomain=yes type=FWD name="paypalservice.com" }
+:if ([:len [find name="paypalshopping.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="paypal" match-subdomain=yes type=FWD name="paypalshopping.com" }
+:if ([:len [find name="paypalshopping.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="paypal" match-subdomain=yes type=FWD name="paypalshopping.net" }
+:if ([:len [find name="paypalsurvey.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="paypal" match-subdomain=yes type=FWD name="paypalsurvey.com" }
+:if ([:len [find name="paypalx.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="paypal" match-subdomain=yes type=FWD name="paypalx.com" }
+:if ([:len [find name="paypaly.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="paypal" match-subdomain=yes type=FWD name="paypaly.com" }
+:if ([:len [find name="payppal.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="paypal" match-subdomain=yes type=FWD name="payppal.com" }
+:if ([:len [find name="payypal.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="paypal" match-subdomain=yes type=FWD name="payypal.com" }
+:if ([:len [find name="pdncommunity.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="paypal" match-subdomain=yes type=FWD name="pdncommunity.com" }
+:if ([:len [find name="pp-soc.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="paypal" match-subdomain=yes type=FWD name="pp-soc.com" }
+:if ([:len [find name="ppaypal.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="paypal" match-subdomain=yes type=FWD name="ppaypal.com" }
+:if ([:len [find name="pppds.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="paypal" match-subdomain=yes type=FWD name="pppds.com" }
+:if ([:len [find name="pypl.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="paypal" match-subdomain=yes type=FWD name="pypl.com" }
+:if ([:len [find name="pypl.info"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="paypal" match-subdomain=yes type=FWD name="pypl.info" }
+:if ([:len [find name="pypl.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="paypal" match-subdomain=yes type=FWD name="pypl.net" }
+:if ([:len [find name="pypl.tv"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="paypal" match-subdomain=yes type=FWD name="pypl.tv" }
+:if ([:len [find name="s-xoom.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="paypal" match-subdomain=yes type=FWD name="s-xoom.com" }
+:if ([:len [find name="secure-paypal.info"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="paypal" match-subdomain=yes type=FWD name="secure-paypal.info" }
+:if ([:len [find name="securepaypal.info"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="paypal" match-subdomain=yes type=FWD name="securepaypal.info" }
+:if ([:len [find name="simility.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="paypal" match-subdomain=yes type=FWD name="simility.com" }
+:if ([:len [find name="sslpaypal.org"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="paypal" match-subdomain=yes type=FWD name="sslpaypal.org" }
+:if ([:len [find name="swiftbank.info"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="paypal" match-subdomain=yes type=FWD name="swiftbank.info" }
+:if ([:len [find name="swiftbank.us"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="paypal" match-subdomain=yes type=FWD name="swiftbank.us" }
+:if ([:len [find name="swiftcapital.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="paypal" match-subdomain=yes type=FWD name="swiftcapital.com" }
+:if ([:len [find name="swiftfinancial.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="paypal" match-subdomain=yes type=FWD name="swiftfinancial.com" }
+:if ([:len [find name="swiftfinancial.info"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="paypal" match-subdomain=yes type=FWD name="swiftfinancial.info" }
+:if ([:len [find name="swiftfinancial.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="paypal" match-subdomain=yes type=FWD name="swiftfinancial.net" }
+:if ([:len [find name="thepaypalshop.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="paypal" match-subdomain=yes type=FWD name="thepaypalshop.com" }
+:if ([:len [find name="theshoppingexpresslane.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="paypal" match-subdomain=yes type=FWD name="theshoppingexpresslane.net" }
+:if ([:len [find name="venmo-touch.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="paypal" match-subdomain=yes type=FWD name="venmo-touch.com" }
+:if ([:len [find name="venmo.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="paypal" match-subdomain=yes type=FWD name="venmo.com" }
+:if ([:len [find name="venmo.info"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="paypal" match-subdomain=yes type=FWD name="venmo.info" }
+:if ([:len [find name="venmo.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="paypal" match-subdomain=yes type=FWD name="venmo.net" }
+:if ([:len [find name="venmo.org"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="paypal" match-subdomain=yes type=FWD name="venmo.org" }
+:if ([:len [find name="webmoneyinfo.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="paypal" match-subdomain=yes type=FWD name="webmoneyinfo.com" }
+:if ([:len [find name="wiremoneytoirelandwithxoomeasierandcheaper.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="paypal" match-subdomain=yes type=FWD name="wiremoneytoirelandwithxoomeasierandcheaper.com" }
+:if ([:len [find name="www-paypal.info"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="paypal" match-subdomain=yes type=FWD name="www-paypal.info" }
+:if ([:len [find name="www-paypal.us"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="paypal" match-subdomain=yes type=FWD name="www-paypal.us" }
+:if ([:len [find name="wwwxoom.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="paypal" match-subdomain=yes type=FWD name="wwwxoom.com" }
+:if ([:len [find name="xoom-experience.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="paypal" match-subdomain=yes type=FWD name="xoom-experience.com" }
+:if ([:len [find name="xoom.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="paypal" match-subdomain=yes type=FWD name="xoom.com" }
+:if ([:len [find name="xoom.io"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="paypal" match-subdomain=yes type=FWD name="xoom.io" }
+:if ([:len [find name="xoom.us"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="paypal" match-subdomain=yes type=FWD name="xoom.us" }
+:if ([:len [find name="xoomcom.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="paypal" match-subdomain=yes type=FWD name="xoomcom.com" }
+:if ([:len [find name="venmo.s3.amazonaws.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="paypal" type=FWD name="venmo.s3.amazonaws.com" }

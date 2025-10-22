@@ -1,62 +1,62 @@
 :global AddressList
 :global ForwardTo
 /ip dns static
-:if ([:len [/ip dns static find name="dnsvisa.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="visa" match-subdomain=yes type=FWD name="dnsvisa.com" }
-:if ([:len [/ip dns static find name="eubluecardvisa.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="visa" match-subdomain=yes type=FWD name="eubluecardvisa.com" }
-:if ([:len [/ip dns static find name="finlitsummit.org"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="visa" match-subdomain=yes type=FWD name="finlitsummit.org" }
-:if ([:len [/ip dns static find name="lightbridge.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="visa" match-subdomain=yes type=FWD name="lightbridge.com" }
-:if ([:len [/ip dns static find name="mhshosting.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="visa" match-subdomain=yes type=FWD name="mhshosting.com" }
-:if ([:len [/ip dns static find name="miamifintechfestival.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="visa" match-subdomain=yes type=FWD name="miamifintechfestival.com" }
-:if ([:len [/ip dns static find name="myvisaluxuryhotels.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="visa" match-subdomain=yes type=FWD name="myvisaluxuryhotels.com" }
-:if ([:len [/ip dns static find name="practicalbusinessskills.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="visa" match-subdomain=yes type=FWD name="practicalbusinessskills.com" }
-:if ([:len [/ip dns static find name="practicalmoneyskills.jp"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="visa" match-subdomain=yes type=FWD name="practicalmoneyskills.jp" }
-:if ([:len [/ip dns static find name="torcidadeouro.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="visa" match-subdomain=yes type=FWD name="torcidadeouro.com" }
-:if ([:len [/ip dns static find name="vaultify.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="visa" match-subdomain=yes type=FWD name="vaultify.com" }
-:if ([:len [/ip dns static find name="vaultify.info"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="visa" match-subdomain=yes type=FWD name="vaultify.info" }
-:if ([:len [/ip dns static find name="vaultify.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="visa" match-subdomain=yes type=FWD name="vaultify.net" }
-:if ([:len [/ip dns static find name="visa-atm.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="visa" match-subdomain=yes type=FWD name="visa-atm.com" }
-:if ([:len [/ip dns static find name="visa-news.jp"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="visa" match-subdomain=yes type=FWD name="visa-news.jp" }
-:if ([:len [/ip dns static find name="visa.be"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="visa" match-subdomain=yes type=FWD name="visa.be" }
-:if ([:len [/ip dns static find name="visa.co.jp"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="visa" match-subdomain=yes type=FWD name="visa.co.jp" }
-:if ([:len [/ip dns static find name="visa.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="visa" match-subdomain=yes type=FWD name="visa.com" }
-:if ([:len [/ip dns static find name="visa.com.co"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="visa" match-subdomain=yes type=FWD name="visa.com.co" }
-:if ([:len [/ip dns static find name="visa.com.kn"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="visa" match-subdomain=yes type=FWD name="visa.com.kn" }
-:if ([:len [/ip dns static find name="visa.com.ru"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="visa" match-subdomain=yes type=FWD name="visa.com.ru" }
-:if ([:len [/ip dns static find name="visa.com.tw"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="visa" match-subdomain=yes type=FWD name="visa.com.tw" }
-:if ([:len [/ip dns static find name="visa.gp"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="visa" match-subdomain=yes type=FWD name="visa.gp" }
-:if ([:len [/ip dns static find name="visa.ky"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="visa" match-subdomain=yes type=FWD name="visa.ky" }
-:if ([:len [/ip dns static find name="visa.mq"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="visa" match-subdomain=yes type=FWD name="visa.mq" }
-:if ([:len [/ip dns static find name="visa.nl"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="visa" match-subdomain=yes type=FWD name="visa.nl" }
-:if ([:len [/ip dns static find name="visa.se"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="visa" match-subdomain=yes type=FWD name="visa.se" }
-:if ([:len [/ip dns static find name="visa.so"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="visa" match-subdomain=yes type=FWD name="visa.so" }
-:if ([:len [/ip dns static find name="visa.tc"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="visa" match-subdomain=yes type=FWD name="visa.tc" }
-:if ([:len [/ip dns static find name="visabank.org"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="visa" match-subdomain=yes type=FWD name="visabank.org" }
-:if ([:len [/ip dns static find name="visabg.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="visa" match-subdomain=yes type=FWD name="visabg.com" }
-:if ([:len [/ip dns static find name="visabusinessinsights.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="visa" match-subdomain=yes type=FWD name="visabusinessinsights.com" }
-:if ([:len [/ip dns static find name="visaca.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="visa" match-subdomain=yes type=FWD name="visaca.com" }
-:if ([:len [/ip dns static find name="visacarddesignlab.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="visa" match-subdomain=yes type=FWD name="visacarddesignlab.com" }
-:if ([:len [/ip dns static find name="visacards.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="visa" match-subdomain=yes type=FWD name="visacards.com" }
-:if ([:len [/ip dns static find name="visacheckout.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="visa" match-subdomain=yes type=FWD name="visacheckout.net" }
-:if ([:len [/ip dns static find name="visacheckout.org"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="visa" match-subdomain=yes type=FWD name="visacheckout.org" }
-:if ([:len [/ip dns static find name="visaconciergelac.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="visa" match-subdomain=yes type=FWD name="visaconciergelac.com" }
-:if ([:len [/ip dns static find name="visadigital.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="visa" match-subdomain=yes type=FWD name="visadigital.com" }
-:if ([:len [/ip dns static find name="visadigitalconcierge.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="visa" match-subdomain=yes type=FWD name="visadigitalconcierge.com" }
-:if ([:len [/ip dns static find name="visadns.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="visa" match-subdomain=yes type=FWD name="visadns.com" }
-:if ([:len [/ip dns static find name="visadpsonline.us"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="visa" match-subdomain=yes type=FWD name="visadpsonline.us" }
-:if ([:len [/ip dns static find name="visaeverywhereshop.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="visa" match-subdomain=yes type=FWD name="visaeverywhereshop.com" }
-:if ([:len [/ip dns static find name="visafintechfasttrack.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="visa" match-subdomain=yes type=FWD name="visafintechfasttrack.com" }
-:if ([:len [/ip dns static find name="visafulfillment.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="visa" match-subdomain=yes type=FWD name="visafulfillment.com" }
-:if ([:len [/ip dns static find name="visagiftcard.us"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="visa" match-subdomain=yes type=FWD name="visagiftcard.us" }
-:if ([:len [/ip dns static find name="visaglobalfinance.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="visa" match-subdomain=yes type=FWD name="visaglobalfinance.com" }
-:if ([:len [/ip dns static find name="visaicsdirect.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="visa" match-subdomain=yes type=FWD name="visaicsdirect.com" }
-:if ([:len [/ip dns static find name="visaitalia.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="visa" match-subdomain=yes type=FWD name="visaitalia.com" }
-:if ([:len [/ip dns static find name="visakorea.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="visa" match-subdomain=yes type=FWD name="visakorea.com" }
-:if ([:len [/ip dns static find name="visaluxuryhotelcollection.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="visa" match-subdomain=yes type=FWD name="visaluxuryhotelcollection.com" }
-:if ([:len [/ip dns static find name="visaluxuryhotels.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="visa" match-subdomain=yes type=FWD name="visaluxuryhotels.com" }
-:if ([:len [/ip dns static find name="visamiddleeast.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="visa" match-subdomain=yes type=FWD name="visamiddleeast.com" }
-:if ([:len [/ip dns static find name="visanet.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="visa" match-subdomain=yes type=FWD name="visanet.net" }
-:if ([:len [/ip dns static find name="visapcsdirect.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="visa" match-subdomain=yes type=FWD name="visapcsdirect.com" }
-:if ([:len [/ip dns static find name="visaplus.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="visa" match-subdomain=yes type=FWD name="visaplus.com" }
-:if ([:len [/ip dns static find name="visasignaturehotels.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="visa" match-subdomain=yes type=FWD name="visasignaturehotels.com" }
-:if ([:len [/ip dns static find name="visasoutheasteurope.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="visa" match-subdomain=yes type=FWD name="visasoutheasteurope.com" }
-:if ([:len [/ip dns static find name="visb.org"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="visa" match-subdomain=yes type=FWD name="visb.org" }
+:if ([:len [find name="dnsvisa.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="visa" match-subdomain=yes type=FWD name="dnsvisa.com" }
+:if ([:len [find name="eubluecardvisa.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="visa" match-subdomain=yes type=FWD name="eubluecardvisa.com" }
+:if ([:len [find name="finlitsummit.org"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="visa" match-subdomain=yes type=FWD name="finlitsummit.org" }
+:if ([:len [find name="lightbridge.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="visa" match-subdomain=yes type=FWD name="lightbridge.com" }
+:if ([:len [find name="mhshosting.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="visa" match-subdomain=yes type=FWD name="mhshosting.com" }
+:if ([:len [find name="miamifintechfestival.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="visa" match-subdomain=yes type=FWD name="miamifintechfestival.com" }
+:if ([:len [find name="myvisaluxuryhotels.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="visa" match-subdomain=yes type=FWD name="myvisaluxuryhotels.com" }
+:if ([:len [find name="practicalbusinessskills.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="visa" match-subdomain=yes type=FWD name="practicalbusinessskills.com" }
+:if ([:len [find name="practicalmoneyskills.jp"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="visa" match-subdomain=yes type=FWD name="practicalmoneyskills.jp" }
+:if ([:len [find name="torcidadeouro.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="visa" match-subdomain=yes type=FWD name="torcidadeouro.com" }
+:if ([:len [find name="vaultify.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="visa" match-subdomain=yes type=FWD name="vaultify.com" }
+:if ([:len [find name="vaultify.info"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="visa" match-subdomain=yes type=FWD name="vaultify.info" }
+:if ([:len [find name="vaultify.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="visa" match-subdomain=yes type=FWD name="vaultify.net" }
+:if ([:len [find name="visa-atm.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="visa" match-subdomain=yes type=FWD name="visa-atm.com" }
+:if ([:len [find name="visa-news.jp"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="visa" match-subdomain=yes type=FWD name="visa-news.jp" }
+:if ([:len [find name="visa.be"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="visa" match-subdomain=yes type=FWD name="visa.be" }
+:if ([:len [find name="visa.co.jp"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="visa" match-subdomain=yes type=FWD name="visa.co.jp" }
+:if ([:len [find name="visa.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="visa" match-subdomain=yes type=FWD name="visa.com" }
+:if ([:len [find name="visa.com.co"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="visa" match-subdomain=yes type=FWD name="visa.com.co" }
+:if ([:len [find name="visa.com.kn"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="visa" match-subdomain=yes type=FWD name="visa.com.kn" }
+:if ([:len [find name="visa.com.ru"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="visa" match-subdomain=yes type=FWD name="visa.com.ru" }
+:if ([:len [find name="visa.com.tw"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="visa" match-subdomain=yes type=FWD name="visa.com.tw" }
+:if ([:len [find name="visa.gp"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="visa" match-subdomain=yes type=FWD name="visa.gp" }
+:if ([:len [find name="visa.ky"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="visa" match-subdomain=yes type=FWD name="visa.ky" }
+:if ([:len [find name="visa.mq"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="visa" match-subdomain=yes type=FWD name="visa.mq" }
+:if ([:len [find name="visa.nl"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="visa" match-subdomain=yes type=FWD name="visa.nl" }
+:if ([:len [find name="visa.se"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="visa" match-subdomain=yes type=FWD name="visa.se" }
+:if ([:len [find name="visa.so"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="visa" match-subdomain=yes type=FWD name="visa.so" }
+:if ([:len [find name="visa.tc"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="visa" match-subdomain=yes type=FWD name="visa.tc" }
+:if ([:len [find name="visabank.org"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="visa" match-subdomain=yes type=FWD name="visabank.org" }
+:if ([:len [find name="visabg.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="visa" match-subdomain=yes type=FWD name="visabg.com" }
+:if ([:len [find name="visabusinessinsights.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="visa" match-subdomain=yes type=FWD name="visabusinessinsights.com" }
+:if ([:len [find name="visaca.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="visa" match-subdomain=yes type=FWD name="visaca.com" }
+:if ([:len [find name="visacarddesignlab.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="visa" match-subdomain=yes type=FWD name="visacarddesignlab.com" }
+:if ([:len [find name="visacards.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="visa" match-subdomain=yes type=FWD name="visacards.com" }
+:if ([:len [find name="visacheckout.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="visa" match-subdomain=yes type=FWD name="visacheckout.net" }
+:if ([:len [find name="visacheckout.org"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="visa" match-subdomain=yes type=FWD name="visacheckout.org" }
+:if ([:len [find name="visaconciergelac.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="visa" match-subdomain=yes type=FWD name="visaconciergelac.com" }
+:if ([:len [find name="visadigital.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="visa" match-subdomain=yes type=FWD name="visadigital.com" }
+:if ([:len [find name="visadigitalconcierge.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="visa" match-subdomain=yes type=FWD name="visadigitalconcierge.com" }
+:if ([:len [find name="visadns.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="visa" match-subdomain=yes type=FWD name="visadns.com" }
+:if ([:len [find name="visadpsonline.us"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="visa" match-subdomain=yes type=FWD name="visadpsonline.us" }
+:if ([:len [find name="visaeverywhereshop.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="visa" match-subdomain=yes type=FWD name="visaeverywhereshop.com" }
+:if ([:len [find name="visafintechfasttrack.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="visa" match-subdomain=yes type=FWD name="visafintechfasttrack.com" }
+:if ([:len [find name="visafulfillment.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="visa" match-subdomain=yes type=FWD name="visafulfillment.com" }
+:if ([:len [find name="visagiftcard.us"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="visa" match-subdomain=yes type=FWD name="visagiftcard.us" }
+:if ([:len [find name="visaglobalfinance.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="visa" match-subdomain=yes type=FWD name="visaglobalfinance.com" }
+:if ([:len [find name="visaicsdirect.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="visa" match-subdomain=yes type=FWD name="visaicsdirect.com" }
+:if ([:len [find name="visaitalia.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="visa" match-subdomain=yes type=FWD name="visaitalia.com" }
+:if ([:len [find name="visakorea.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="visa" match-subdomain=yes type=FWD name="visakorea.com" }
+:if ([:len [find name="visaluxuryhotelcollection.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="visa" match-subdomain=yes type=FWD name="visaluxuryhotelcollection.com" }
+:if ([:len [find name="visaluxuryhotels.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="visa" match-subdomain=yes type=FWD name="visaluxuryhotels.com" }
+:if ([:len [find name="visamiddleeast.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="visa" match-subdomain=yes type=FWD name="visamiddleeast.com" }
+:if ([:len [find name="visanet.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="visa" match-subdomain=yes type=FWD name="visanet.net" }
+:if ([:len [find name="visapcsdirect.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="visa" match-subdomain=yes type=FWD name="visapcsdirect.com" }
+:if ([:len [find name="visaplus.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="visa" match-subdomain=yes type=FWD name="visaplus.com" }
+:if ([:len [find name="visasignaturehotels.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="visa" match-subdomain=yes type=FWD name="visasignaturehotels.com" }
+:if ([:len [find name="visasoutheasteurope.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="visa" match-subdomain=yes type=FWD name="visasoutheasteurope.com" }
+:if ([:len [find name="visb.org"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="visa" match-subdomain=yes type=FWD name="visb.org" }

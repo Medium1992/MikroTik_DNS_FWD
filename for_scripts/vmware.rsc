@@ -1,106 +1,106 @@
 :global AddressList
 :global ForwardTo
 /ip dns static
-:if ([:len [/ip dns static find name="air-watch.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="vmware" match-subdomain=yes type=FWD name="air-watch.com" }
-:if ([:len [/ip dns static find name="airwatchexpress.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="vmware" match-subdomain=yes type=FWD name="airwatchexpress.com" }
-:if ([:len [/ip dns static find name="airwatchqa.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="vmware" match-subdomain=yes type=FWD name="airwatchqa.com" }
-:if ([:len [/ip dns static find name="aliveipc.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="vmware" match-subdomain=yes type=FWD name="aliveipc.com" }
-:if ([:len [/ip dns static find name="aliveitsm.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="vmware" match-subdomain=yes type=FWD name="aliveitsm.com" }
-:if ([:len [/ip dns static find name="aliveprofiler.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="vmware" match-subdomain=yes type=FWD name="aliveprofiler.com" }
-:if ([:len [/ip dns static find name="alivercm.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="vmware" match-subdomain=yes type=FWD name="alivercm.com" }
-:if ([:len [/ip dns static find name="aliverewind.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="vmware" match-subdomain=yes type=FWD name="aliverewind.com" }
-:if ([:len [/ip dns static find name="alivertsm.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="vmware" match-subdomain=yes type=FWD name="alivertsm.com" }
-:if ([:len [/ip dns static find name="alivevm.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="vmware" match-subdomain=yes type=FWD name="alivevm.com" }
-:if ([:len [/ip dns static find name="alivevmax.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="vmware" match-subdomain=yes type=FWD name="alivevmax.com" }
-:if ([:len [/ip dns static find name="alivevue.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="vmware" match-subdomain=yes type=FWD name="alivevue.com" }
-:if ([:len [/ip dns static find name="avinetworks.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="vmware" match-subdomain=yes type=FWD name="avinetworks.com" }
-:if ([:len [/ip dns static find name="badaas.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="vmware" match-subdomain=yes type=FWD name="badaas.com" }
-:if ([:len [/ip dns static find name="bitnami.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="vmware" match-subdomain=yes type=FWD name="bitnami.com" }
-:if ([:len [/ip dns static find name="bitnamiapp.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="vmware" match-subdomain=yes type=FWD name="bitnamiapp.com" }
-:if ([:len [/ip dns static find name="bitnamistudio.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="vmware" match-subdomain=yes type=FWD name="bitnamistudio.com" }
-:if ([:len [/ip dns static find name="cfblob.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="vmware" match-subdomain=yes type=FWD name="cfblob.com" }
-:if ([:len [/ip dns static find name="cloudchoose.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="vmware" match-subdomain=yes type=FWD name="cloudchoose.com" }
-:if ([:len [/ip dns static find name="cloudcredibility.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="vmware" match-subdomain=yes type=FWD name="cloudcredibility.com" }
-:if ([:len [/ip dns static find name="cloudhealthtech.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="vmware" match-subdomain=yes type=FWD name="cloudhealthtech.com" }
-:if ([:len [/ip dns static find name="cloudlive.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="vmware" match-subdomain=yes type=FWD name="cloudlive.com" }
-:if ([:len [/ip dns static find name="cloudvolumes.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="vmware" match-subdomain=yes type=FWD name="cloudvolumes.com" }
-:if ([:len [/ip dns static find name="cmpaas.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="vmware" match-subdomain=yes type=FWD name="cmpaas.com" }
-:if ([:len [/ip dns static find name="cpedge.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="vmware" match-subdomain=yes type=FWD name="cpedge.com" }
-:if ([:len [/ip dns static find name="crit-staging.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="vmware" match-subdomain=yes type=FWD name="crit-staging.com" }
-:if ([:len [/ip dns static find name="dockerizer.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="vmware" match-subdomain=yes type=FWD name="dockerizer.com" }
-:if ([:len [/ip dns static find name="experience-vmware.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="vmware" match-subdomain=yes type=FWD name="experience-vmware.com" }
-:if ([:len [/ip dns static find name="gemfire.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="vmware" match-subdomain=yes type=FWD name="gemfire.net" }
-:if ([:len [/ip dns static find name="geodesummit.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="vmware" match-subdomain=yes type=FWD name="geodesummit.com" }
-:if ([:len [/ip dns static find name="getboxer.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="vmware" match-subdomain=yes type=FWD name="getboxer.com" }
-:if ([:len [/ip dns static find name="getws1.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="vmware" match-subdomain=yes type=FWD name="getws1.com" }
-:if ([:len [/ip dns static find name="getwsone.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="vmware" match-subdomain=yes type=FWD name="getwsone.com" }
-:if ([:len [/ip dns static find name="gitstar.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="vmware" match-subdomain=yes type=FWD name="gitstar.com" }
-:if ([:len [/ip dns static find name="gitstar.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="vmware" match-subdomain=yes type=FWD name="gitstar.net" }
-:if ([:len [/ip dns static find name="gopivotal.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="vmware" match-subdomain=yes type=FWD name="gopivotal.com" }
-:if ([:len [/ip dns static find name="gopivotal.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="vmware" match-subdomain=yes type=FWD name="gopivotal.net" }
-:if ([:len [/ip dns static find name="greenplum.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="vmware" match-subdomain=yes type=FWD name="greenplum.net" }
-:if ([:len [/ip dns static find name="heptio.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="vmware" match-subdomain=yes type=FWD name="heptio.com" }
-:if ([:len [/ip dns static find name="hwslabs.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="vmware" match-subdomain=yes type=FWD name="hwslabs.com" }
-:if ([:len [/ip dns static find name="immidio.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="vmware" match-subdomain=yes type=FWD name="immidio.com" }
-:if ([:len [/ip dns static find name="itfromtheinside.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="vmware" match-subdomain=yes type=FWD name="itfromtheinside.com" }
-:if ([:len [/ip dns static find name="kubeacademy.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="vmware" match-subdomain=yes type=FWD name="kubeacademy.com" }
-:if ([:len [/ip dns static find name="kubeapps.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="vmware" match-subdomain=yes type=FWD name="kubeapps.com" }
-:if ([:len [/ip dns static find name="latamvmwareforum.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="vmware" match-subdomain=yes type=FWD name="latamvmwareforum.com" }
-:if ([:len [/ip dns static find name="nyansa.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="vmware" match-subdomain=yes type=FWD name="nyansa.com" }
-:if ([:len [/ip dns static find name="pivotalinitiative.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="vmware" match-subdomain=yes type=FWD name="pivotalinitiative.com" }
-:if ([:len [/ip dns static find name="snapvolumes.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="vmware" match-subdomain=yes type=FWD name="snapvolumes.com" }
-:if ([:len [/ip dns static find name="ssdevrd.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="vmware" match-subdomain=yes type=FWD name="ssdevrd.com" }
-:if ([:len [/ip dns static find name="vcanedge.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="vmware" match-subdomain=yes type=FWD name="vcanedge.com" }
-:if ([:len [/ip dns static find name="vcloudair.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="vmware" match-subdomain=yes type=FWD name="vcloudair.net" }
-:if ([:len [/ip dns static find name="velocloud.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="vmware" match-subdomain=yes type=FWD name="velocloud.com" }
-:if ([:len [/ip dns static find name="vfabric.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="vmware" match-subdomain=yes type=FWD name="vfabric.net" }
-:if ([:len [/ip dns static find name="vidmpreview.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="vmware" match-subdomain=yes type=FWD name="vidmpreview.com" }
-:if ([:len [/ip dns static find name="virsto.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="vmware" match-subdomain=yes type=FWD name="virsto.com" }
-:if ([:len [/ip dns static find name="virsto.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="vmware" match-subdomain=yes type=FWD name="virsto.net" }
-:if ([:len [/ip dns static find name="vmglobal.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="vmware" match-subdomain=yes type=FWD name="vmglobal.net" }
-:if ([:len [/ip dns static find name="vmmark.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="vmware" match-subdomain=yes type=FWD name="vmmark.com" }
-:if ([:len [/ip dns static find name="vmtestdrive.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="vmware" match-subdomain=yes type=FWD name="vmtestdrive.com" }
-:if ([:len [/ip dns static find name="vmw.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="vmware" match-subdomain=yes type=FWD name="vmw.com" }
-:if ([:len [/ip dns static find name="vmware-cloudmanagement.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="vmware" match-subdomain=yes type=FWD name="vmware-cloudmanagement.com" }
-:if ([:len [/ip dns static find name="vmware-techcenter.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="vmware" match-subdomain=yes type=FWD name="vmware-techcenter.com" }
-:if ([:len [/ip dns static find name="vmware.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="vmware" match-subdomain=yes type=FWD name="vmware.com" }
-:if ([:len [/ip dns static find name="vmware20mosaic.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="vmware" match-subdomain=yes type=FWD name="vmware20mosaic.com" }
-:if ([:len [/ip dns static find name="vmwareausnews.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="vmware" match-subdomain=yes type=FWD name="vmwareausnews.com" }
-:if ([:len [/ip dns static find name="vmwarecertificationvideos.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="vmware" match-subdomain=yes type=FWD name="vmwarecertificationvideos.com" }
-:if ([:len [/ip dns static find name="vmwarecloud.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="vmware" match-subdomain=yes type=FWD name="vmwarecloud.com" }
-:if ([:len [/ip dns static find name="vmwaredemandcenter.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="vmware" match-subdomain=yes type=FWD name="vmwaredemandcenter.com" }
-:if ([:len [/ip dns static find name="vmwareemeablog.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="vmware" match-subdomain=yes type=FWD name="vmwareemeablog.com" }
-:if ([:len [/ip dns static find name="vmwaregrid.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="vmware" match-subdomain=yes type=FWD name="vmwaregrid.com" }
-:if ([:len [/ip dns static find name="vmwarehorizon.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="vmware" match-subdomain=yes type=FWD name="vmwarehorizon.com" }
-:if ([:len [/ip dns static find name="vmwareidentity.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="vmware" match-subdomain=yes type=FWD name="vmwareidentity.com" }
-:if ([:len [/ip dns static find name="vmwarelearning.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="vmware" match-subdomain=yes type=FWD name="vmwarelearning.com" }
-:if ([:len [/ip dns static find name="vmwarelearningplatform.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="vmware" match-subdomain=yes type=FWD name="vmwarelearningplatform.com" }
-:if ([:len [/ip dns static find name="vmwarestuff.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="vmware" match-subdomain=yes type=FWD name="vmwarestuff.com" }
-:if ([:len [/ip dns static find name="vmwareusergroupstore.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="vmware" match-subdomain=yes type=FWD name="vmwareusergroupstore.com" }
-:if ([:len [/ip dns static find name="vmwareviewpoint.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="vmware" match-subdomain=yes type=FWD name="vmwareviewpoint.com" }
-:if ([:len [/ip dns static find name="vmwarevmc.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="vmware" match-subdomain=yes type=FWD name="vmwarevmc.com" }
-:if ([:len [/ip dns static find name="vmwdemo.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="vmware" match-subdomain=yes type=FWD name="vmwdemo.com" }
-:if ([:len [/ip dns static find name="vmwgcomms.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="vmware" match-subdomain=yes type=FWD name="vmwgcomms.com" }
-:if ([:len [/ip dns static find name="vmwhorizonair.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="vmware" match-subdomain=yes type=FWD name="vmwhorizonair.com" }
-:if ([:len [/ip dns static find name="vmwidm-ads.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="vmware" match-subdomain=yes type=FWD name="vmwidm-ads.com" }
-:if ([:len [/ip dns static find name="vmwidm.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="vmware" match-subdomain=yes type=FWD name="vmwidm.com" }
-:if ([:len [/ip dns static find name="vmwlabconnect.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="vmware" match-subdomain=yes type=FWD name="vmwlabconnect.com" }
-:if ([:len [/ip dns static find name="vmwlearningplatform.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="vmware" match-subdomain=yes type=FWD name="vmwlearningplatform.com" }
-:if ([:len [/ip dns static find name="vmworld.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="vmware" match-subdomain=yes type=FWD name="vmworld.com" }
-:if ([:len [/ip dns static find name="vmworld2010.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="vmware" match-subdomain=yes type=FWD name="vmworld2010.com" }
-:if ([:len [/ip dns static find name="vmworld2013.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="vmware" match-subdomain=yes type=FWD name="vmworld2013.com" }
-:if ([:len [/ip dns static find name="vmwsalesrewards.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="vmware" match-subdomain=yes type=FWD name="vmwsalesrewards.com" }
-:if ([:len [/ip dns static find name="vmwservices.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="vmware" match-subdomain=yes type=FWD name="vmwservices.com" }
-:if ([:len [/ip dns static find name="vnware.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="vmware" match-subdomain=yes type=FWD name="vnware.net" }
-:if ([:len [/ip dns static find name="vsphere.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="vmware" match-subdomain=yes type=FWD name="vsphere.com" }
-:if ([:len [/ip dns static find name="vsphere.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="vmware" match-subdomain=yes type=FWD name="vsphere.net" }
-:if ([:len [/ip dns static find name="whatisairwatch.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="vmware" match-subdomain=yes type=FWD name="whatisairwatch.com" }
-:if ([:len [/ip dns static find name="whatisworkspaceone.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="vmware" match-subdomain=yes type=FWD name="whatisworkspaceone.com" }
-:if ([:len [/ip dns static find name="whychoosehorizon.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="vmware" match-subdomain=yes type=FWD name="whychoosehorizon.com" }
-:if ([:len [/ip dns static find name="whychooseview.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="vmware" match-subdomain=yes type=FWD name="whychooseview.com" }
-:if ([:len [/ip dns static find name="whychoosevmwareeuc.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="vmware" match-subdomain=yes type=FWD name="whychoosevmwareeuc.com" }
-:if ([:len [/ip dns static find name="windowsuem.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="vmware" match-subdomain=yes type=FWD name="windowsuem.com" }
-:if ([:len [/ip dns static find name="workspaceair.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="vmware" match-subdomain=yes type=FWD name="workspaceair.com" }
-:if ([:len [/ip dns static find name="workspaceone.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="vmware" match-subdomain=yes type=FWD name="workspaceone.com" }
-:if ([:len [/ip dns static find name="xlstudio.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="vmware" match-subdomain=yes type=FWD name="xlstudio.com" }
-:if ([:len [/ip dns static find name="vmware.tt.omtrdc.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="vmware" type=FWD name="vmware.tt.omtrdc.net" }
+:if ([:len [find name="air-watch.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="vmware" match-subdomain=yes type=FWD name="air-watch.com" }
+:if ([:len [find name="airwatchexpress.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="vmware" match-subdomain=yes type=FWD name="airwatchexpress.com" }
+:if ([:len [find name="airwatchqa.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="vmware" match-subdomain=yes type=FWD name="airwatchqa.com" }
+:if ([:len [find name="aliveipc.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="vmware" match-subdomain=yes type=FWD name="aliveipc.com" }
+:if ([:len [find name="aliveitsm.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="vmware" match-subdomain=yes type=FWD name="aliveitsm.com" }
+:if ([:len [find name="aliveprofiler.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="vmware" match-subdomain=yes type=FWD name="aliveprofiler.com" }
+:if ([:len [find name="alivercm.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="vmware" match-subdomain=yes type=FWD name="alivercm.com" }
+:if ([:len [find name="aliverewind.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="vmware" match-subdomain=yes type=FWD name="aliverewind.com" }
+:if ([:len [find name="alivertsm.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="vmware" match-subdomain=yes type=FWD name="alivertsm.com" }
+:if ([:len [find name="alivevm.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="vmware" match-subdomain=yes type=FWD name="alivevm.com" }
+:if ([:len [find name="alivevmax.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="vmware" match-subdomain=yes type=FWD name="alivevmax.com" }
+:if ([:len [find name="alivevue.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="vmware" match-subdomain=yes type=FWD name="alivevue.com" }
+:if ([:len [find name="avinetworks.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="vmware" match-subdomain=yes type=FWD name="avinetworks.com" }
+:if ([:len [find name="badaas.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="vmware" match-subdomain=yes type=FWD name="badaas.com" }
+:if ([:len [find name="bitnami.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="vmware" match-subdomain=yes type=FWD name="bitnami.com" }
+:if ([:len [find name="bitnamiapp.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="vmware" match-subdomain=yes type=FWD name="bitnamiapp.com" }
+:if ([:len [find name="bitnamistudio.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="vmware" match-subdomain=yes type=FWD name="bitnamistudio.com" }
+:if ([:len [find name="cfblob.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="vmware" match-subdomain=yes type=FWD name="cfblob.com" }
+:if ([:len [find name="cloudchoose.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="vmware" match-subdomain=yes type=FWD name="cloudchoose.com" }
+:if ([:len [find name="cloudcredibility.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="vmware" match-subdomain=yes type=FWD name="cloudcredibility.com" }
+:if ([:len [find name="cloudhealthtech.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="vmware" match-subdomain=yes type=FWD name="cloudhealthtech.com" }
+:if ([:len [find name="cloudlive.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="vmware" match-subdomain=yes type=FWD name="cloudlive.com" }
+:if ([:len [find name="cloudvolumes.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="vmware" match-subdomain=yes type=FWD name="cloudvolumes.com" }
+:if ([:len [find name="cmpaas.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="vmware" match-subdomain=yes type=FWD name="cmpaas.com" }
+:if ([:len [find name="cpedge.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="vmware" match-subdomain=yes type=FWD name="cpedge.com" }
+:if ([:len [find name="crit-staging.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="vmware" match-subdomain=yes type=FWD name="crit-staging.com" }
+:if ([:len [find name="dockerizer.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="vmware" match-subdomain=yes type=FWD name="dockerizer.com" }
+:if ([:len [find name="experience-vmware.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="vmware" match-subdomain=yes type=FWD name="experience-vmware.com" }
+:if ([:len [find name="gemfire.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="vmware" match-subdomain=yes type=FWD name="gemfire.net" }
+:if ([:len [find name="geodesummit.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="vmware" match-subdomain=yes type=FWD name="geodesummit.com" }
+:if ([:len [find name="getboxer.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="vmware" match-subdomain=yes type=FWD name="getboxer.com" }
+:if ([:len [find name="getws1.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="vmware" match-subdomain=yes type=FWD name="getws1.com" }
+:if ([:len [find name="getwsone.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="vmware" match-subdomain=yes type=FWD name="getwsone.com" }
+:if ([:len [find name="gitstar.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="vmware" match-subdomain=yes type=FWD name="gitstar.com" }
+:if ([:len [find name="gitstar.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="vmware" match-subdomain=yes type=FWD name="gitstar.net" }
+:if ([:len [find name="gopivotal.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="vmware" match-subdomain=yes type=FWD name="gopivotal.com" }
+:if ([:len [find name="gopivotal.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="vmware" match-subdomain=yes type=FWD name="gopivotal.net" }
+:if ([:len [find name="greenplum.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="vmware" match-subdomain=yes type=FWD name="greenplum.net" }
+:if ([:len [find name="heptio.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="vmware" match-subdomain=yes type=FWD name="heptio.com" }
+:if ([:len [find name="hwslabs.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="vmware" match-subdomain=yes type=FWD name="hwslabs.com" }
+:if ([:len [find name="immidio.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="vmware" match-subdomain=yes type=FWD name="immidio.com" }
+:if ([:len [find name="itfromtheinside.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="vmware" match-subdomain=yes type=FWD name="itfromtheinside.com" }
+:if ([:len [find name="kubeacademy.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="vmware" match-subdomain=yes type=FWD name="kubeacademy.com" }
+:if ([:len [find name="kubeapps.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="vmware" match-subdomain=yes type=FWD name="kubeapps.com" }
+:if ([:len [find name="latamvmwareforum.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="vmware" match-subdomain=yes type=FWD name="latamvmwareforum.com" }
+:if ([:len [find name="nyansa.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="vmware" match-subdomain=yes type=FWD name="nyansa.com" }
+:if ([:len [find name="pivotalinitiative.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="vmware" match-subdomain=yes type=FWD name="pivotalinitiative.com" }
+:if ([:len [find name="snapvolumes.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="vmware" match-subdomain=yes type=FWD name="snapvolumes.com" }
+:if ([:len [find name="ssdevrd.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="vmware" match-subdomain=yes type=FWD name="ssdevrd.com" }
+:if ([:len [find name="vcanedge.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="vmware" match-subdomain=yes type=FWD name="vcanedge.com" }
+:if ([:len [find name="vcloudair.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="vmware" match-subdomain=yes type=FWD name="vcloudair.net" }
+:if ([:len [find name="velocloud.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="vmware" match-subdomain=yes type=FWD name="velocloud.com" }
+:if ([:len [find name="vfabric.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="vmware" match-subdomain=yes type=FWD name="vfabric.net" }
+:if ([:len [find name="vidmpreview.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="vmware" match-subdomain=yes type=FWD name="vidmpreview.com" }
+:if ([:len [find name="virsto.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="vmware" match-subdomain=yes type=FWD name="virsto.com" }
+:if ([:len [find name="virsto.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="vmware" match-subdomain=yes type=FWD name="virsto.net" }
+:if ([:len [find name="vmglobal.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="vmware" match-subdomain=yes type=FWD name="vmglobal.net" }
+:if ([:len [find name="vmmark.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="vmware" match-subdomain=yes type=FWD name="vmmark.com" }
+:if ([:len [find name="vmtestdrive.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="vmware" match-subdomain=yes type=FWD name="vmtestdrive.com" }
+:if ([:len [find name="vmw.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="vmware" match-subdomain=yes type=FWD name="vmw.com" }
+:if ([:len [find name="vmware-cloudmanagement.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="vmware" match-subdomain=yes type=FWD name="vmware-cloudmanagement.com" }
+:if ([:len [find name="vmware-techcenter.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="vmware" match-subdomain=yes type=FWD name="vmware-techcenter.com" }
+:if ([:len [find name="vmware.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="vmware" match-subdomain=yes type=FWD name="vmware.com" }
+:if ([:len [find name="vmware20mosaic.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="vmware" match-subdomain=yes type=FWD name="vmware20mosaic.com" }
+:if ([:len [find name="vmwareausnews.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="vmware" match-subdomain=yes type=FWD name="vmwareausnews.com" }
+:if ([:len [find name="vmwarecertificationvideos.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="vmware" match-subdomain=yes type=FWD name="vmwarecertificationvideos.com" }
+:if ([:len [find name="vmwarecloud.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="vmware" match-subdomain=yes type=FWD name="vmwarecloud.com" }
+:if ([:len [find name="vmwaredemandcenter.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="vmware" match-subdomain=yes type=FWD name="vmwaredemandcenter.com" }
+:if ([:len [find name="vmwareemeablog.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="vmware" match-subdomain=yes type=FWD name="vmwareemeablog.com" }
+:if ([:len [find name="vmwaregrid.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="vmware" match-subdomain=yes type=FWD name="vmwaregrid.com" }
+:if ([:len [find name="vmwarehorizon.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="vmware" match-subdomain=yes type=FWD name="vmwarehorizon.com" }
+:if ([:len [find name="vmwareidentity.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="vmware" match-subdomain=yes type=FWD name="vmwareidentity.com" }
+:if ([:len [find name="vmwarelearning.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="vmware" match-subdomain=yes type=FWD name="vmwarelearning.com" }
+:if ([:len [find name="vmwarelearningplatform.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="vmware" match-subdomain=yes type=FWD name="vmwarelearningplatform.com" }
+:if ([:len [find name="vmwarestuff.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="vmware" match-subdomain=yes type=FWD name="vmwarestuff.com" }
+:if ([:len [find name="vmwareusergroupstore.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="vmware" match-subdomain=yes type=FWD name="vmwareusergroupstore.com" }
+:if ([:len [find name="vmwareviewpoint.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="vmware" match-subdomain=yes type=FWD name="vmwareviewpoint.com" }
+:if ([:len [find name="vmwarevmc.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="vmware" match-subdomain=yes type=FWD name="vmwarevmc.com" }
+:if ([:len [find name="vmwdemo.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="vmware" match-subdomain=yes type=FWD name="vmwdemo.com" }
+:if ([:len [find name="vmwgcomms.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="vmware" match-subdomain=yes type=FWD name="vmwgcomms.com" }
+:if ([:len [find name="vmwhorizonair.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="vmware" match-subdomain=yes type=FWD name="vmwhorizonair.com" }
+:if ([:len [find name="vmwidm-ads.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="vmware" match-subdomain=yes type=FWD name="vmwidm-ads.com" }
+:if ([:len [find name="vmwidm.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="vmware" match-subdomain=yes type=FWD name="vmwidm.com" }
+:if ([:len [find name="vmwlabconnect.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="vmware" match-subdomain=yes type=FWD name="vmwlabconnect.com" }
+:if ([:len [find name="vmwlearningplatform.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="vmware" match-subdomain=yes type=FWD name="vmwlearningplatform.com" }
+:if ([:len [find name="vmworld.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="vmware" match-subdomain=yes type=FWD name="vmworld.com" }
+:if ([:len [find name="vmworld2010.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="vmware" match-subdomain=yes type=FWD name="vmworld2010.com" }
+:if ([:len [find name="vmworld2013.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="vmware" match-subdomain=yes type=FWD name="vmworld2013.com" }
+:if ([:len [find name="vmwsalesrewards.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="vmware" match-subdomain=yes type=FWD name="vmwsalesrewards.com" }
+:if ([:len [find name="vmwservices.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="vmware" match-subdomain=yes type=FWD name="vmwservices.com" }
+:if ([:len [find name="vnware.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="vmware" match-subdomain=yes type=FWD name="vnware.net" }
+:if ([:len [find name="vsphere.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="vmware" match-subdomain=yes type=FWD name="vsphere.com" }
+:if ([:len [find name="vsphere.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="vmware" match-subdomain=yes type=FWD name="vsphere.net" }
+:if ([:len [find name="whatisairwatch.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="vmware" match-subdomain=yes type=FWD name="whatisairwatch.com" }
+:if ([:len [find name="whatisworkspaceone.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="vmware" match-subdomain=yes type=FWD name="whatisworkspaceone.com" }
+:if ([:len [find name="whychoosehorizon.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="vmware" match-subdomain=yes type=FWD name="whychoosehorizon.com" }
+:if ([:len [find name="whychooseview.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="vmware" match-subdomain=yes type=FWD name="whychooseview.com" }
+:if ([:len [find name="whychoosevmwareeuc.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="vmware" match-subdomain=yes type=FWD name="whychoosevmwareeuc.com" }
+:if ([:len [find name="windowsuem.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="vmware" match-subdomain=yes type=FWD name="windowsuem.com" }
+:if ([:len [find name="workspaceair.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="vmware" match-subdomain=yes type=FWD name="workspaceair.com" }
+:if ([:len [find name="workspaceone.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="vmware" match-subdomain=yes type=FWD name="workspaceone.com" }
+:if ([:len [find name="xlstudio.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="vmware" match-subdomain=yes type=FWD name="xlstudio.com" }
+:if ([:len [find name="vmware.tt.omtrdc.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="vmware" type=FWD name="vmware.tt.omtrdc.net" }

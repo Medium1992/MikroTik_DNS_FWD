@@ -1,50 +1,50 @@
 :global AddressList
 :global ForwardTo
 /ip dns static
-:if ([:len [/ip dns static find name="championshipseriesleague.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="riot" match-subdomain=yes type=FWD name="championshipseriesleague.com" }
-:if ([:len [/ip dns static find name="convrgencegame.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="riot" match-subdomain=yes type=FWD name="convrgencegame.com" }
-:if ([:len [/ip dns static find name="historyofdota.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="riot" match-subdomain=yes type=FWD name="historyofdota.com" }
-:if ([:len [/ip dns static find name="historyofdota.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="riot" match-subdomain=yes type=FWD name="historyofdota.net" }
-:if ([:len [/ip dns static find name="historyofdota.org"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="riot" match-subdomain=yes type=FWD name="historyofdota.org" }
-:if ([:len [/ip dns static find name="instituteofwar.org"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="riot" match-subdomain=yes type=FWD name="instituteofwar.org" }
-:if ([:len [/ip dns static find name="lcsmerch.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="riot" match-subdomain=yes type=FWD name="lcsmerch.com" }
-:if ([:len [/ip dns static find name="leaguehighschool.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="riot" match-subdomain=yes type=FWD name="leaguehighschool.com" }
-:if ([:len [/ip dns static find name="leagueoflegends.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="riot" match-subdomain=yes type=FWD name="leagueoflegends.com" }
-:if ([:len [/ip dns static find name="leagueoflegends.info"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="riot" match-subdomain=yes type=FWD name="leagueoflegends.info" }
-:if ([:len [/ip dns static find name="leagueoflegends.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="riot" match-subdomain=yes type=FWD name="leagueoflegends.net" }
-:if ([:len [/ip dns static find name="leagueoflegends.org"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="riot" match-subdomain=yes type=FWD name="leagueoflegends.org" }
-:if ([:len [/ip dns static find name="leagueoflegendsscripts.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="riot" match-subdomain=yes type=FWD name="leagueoflegendsscripts.com" }
-:if ([:len [/ip dns static find name="leaguesharp.info"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="riot" match-subdomain=yes type=FWD name="leaguesharp.info" }
-:if ([:len [/ip dns static find name="leaguoflegends.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="riot" match-subdomain=yes type=FWD name="leaguoflegends.com" }
-:if ([:len [/ip dns static find name="learnwithleague.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="riot" match-subdomain=yes type=FWD name="learnwithleague.com" }
-:if ([:len [/ip dns static find name="lol-europe.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="riot" match-subdomain=yes type=FWD name="lol-europe.com" }
-:if ([:len [/ip dns static find name="lolclub.org"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="riot" match-subdomain=yes type=FWD name="lolclub.org" }
-:if ([:len [/ip dns static find name="lolespor.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="riot" match-subdomain=yes type=FWD name="lolespor.com" }
-:if ([:len [/ip dns static find name="lolesports.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="riot" match-subdomain=yes type=FWD name="lolesports.com" }
-:if ([:len [/ip dns static find name="lolfanart.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="riot" match-subdomain=yes type=FWD name="lolfanart.net" }
-:if ([:len [/ip dns static find name="lolpcs.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="riot" match-subdomain=yes type=FWD name="lolpcs.com" }
-:if ([:len [/ip dns static find name="lolstatic.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="riot" match-subdomain=yes type=FWD name="lolstatic.com" }
-:if ([:len [/ip dns static find name="lolusercontent.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="riot" match-subdomain=yes type=FWD name="lolusercontent.com" }
-:if ([:len [/ip dns static find name="molesports.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="riot" match-subdomain=yes type=FWD name="molesports.com" }
-:if ([:len [/ip dns static find name="playvalorant.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="riot" match-subdomain=yes type=FWD name="playvalorant.com" }
-:if ([:len [/ip dns static find name="pvp.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="riot" match-subdomain=yes type=FWD name="pvp.net" }
-:if ([:len [/ip dns static find name="pvp.tv"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="riot" match-subdomain=yes type=FWD name="pvp.tv" }
-:if ([:len [/ip dns static find name="rgpub.io"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="riot" match-subdomain=yes type=FWD name="rgpub.io" }
-:if ([:len [/ip dns static find name="riot-games.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="riot" match-subdomain=yes type=FWD name="riot-games.com" }
-:if ([:len [/ip dns static find name="riot.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="riot" match-subdomain=yes type=FWD name="riot.com" }
-:if ([:len [/ip dns static find name="riot.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="riot" match-subdomain=yes type=FWD name="riot.net" }
-:if ([:len [/ip dns static find name="riotcdn.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="riot" match-subdomain=yes type=FWD name="riotcdn.net" }
-:if ([:len [/ip dns static find name="riotforgegames.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="riot" match-subdomain=yes type=FWD name="riotforgegames.com" }
-:if ([:len [/ip dns static find name="riotgames.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="riot" match-subdomain=yes type=FWD name="riotgames.com" }
-:if ([:len [/ip dns static find name="riotgames.info"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="riot" match-subdomain=yes type=FWD name="riotgames.info" }
-:if ([:len [/ip dns static find name="riotgames.jp"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="riot" match-subdomain=yes type=FWD name="riotgames.jp" }
-:if ([:len [/ip dns static find name="riotgames.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="riot" match-subdomain=yes type=FWD name="riotgames.net" }
-:if ([:len [/ip dns static find name="riotgames.tv"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="riot" match-subdomain=yes type=FWD name="riotgames.tv" }
-:if ([:len [/ip dns static find name="riotpin.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="riot" match-subdomain=yes type=FWD name="riotpin.com" }
-:if ([:len [/ip dns static find name="riotpoints.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="riot" match-subdomain=yes type=FWD name="riotpoints.com" }
-:if ([:len [/ip dns static find name="rstatic.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="riot" match-subdomain=yes type=FWD name="rstatic.net" }
-:if ([:len [/ip dns static find name="ruinedking.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="riot" match-subdomain=yes type=FWD name="ruinedking.com" }
-:if ([:len [/ip dns static find name="supremacy.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="riot" match-subdomain=yes type=FWD name="supremacy.com" }
-:if ([:len [/ip dns static find name="supremacy.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="riot" match-subdomain=yes type=FWD name="supremacy.net" }
-:if ([:len [/ip dns static find name="ulol.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="riot" match-subdomain=yes type=FWD name="ulol.com" }
-:if ([:len [/ip dns static find name="lolstatic-a.akamaihd.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="riot" type=FWD name="lolstatic-a.akamaihd.net" }
+:if ([:len [find name="championshipseriesleague.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="riot" match-subdomain=yes type=FWD name="championshipseriesleague.com" }
+:if ([:len [find name="convrgencegame.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="riot" match-subdomain=yes type=FWD name="convrgencegame.com" }
+:if ([:len [find name="historyofdota.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="riot" match-subdomain=yes type=FWD name="historyofdota.com" }
+:if ([:len [find name="historyofdota.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="riot" match-subdomain=yes type=FWD name="historyofdota.net" }
+:if ([:len [find name="historyofdota.org"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="riot" match-subdomain=yes type=FWD name="historyofdota.org" }
+:if ([:len [find name="instituteofwar.org"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="riot" match-subdomain=yes type=FWD name="instituteofwar.org" }
+:if ([:len [find name="lcsmerch.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="riot" match-subdomain=yes type=FWD name="lcsmerch.com" }
+:if ([:len [find name="leaguehighschool.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="riot" match-subdomain=yes type=FWD name="leaguehighschool.com" }
+:if ([:len [find name="leagueoflegends.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="riot" match-subdomain=yes type=FWD name="leagueoflegends.com" }
+:if ([:len [find name="leagueoflegends.info"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="riot" match-subdomain=yes type=FWD name="leagueoflegends.info" }
+:if ([:len [find name="leagueoflegends.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="riot" match-subdomain=yes type=FWD name="leagueoflegends.net" }
+:if ([:len [find name="leagueoflegends.org"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="riot" match-subdomain=yes type=FWD name="leagueoflegends.org" }
+:if ([:len [find name="leagueoflegendsscripts.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="riot" match-subdomain=yes type=FWD name="leagueoflegendsscripts.com" }
+:if ([:len [find name="leaguesharp.info"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="riot" match-subdomain=yes type=FWD name="leaguesharp.info" }
+:if ([:len [find name="leaguoflegends.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="riot" match-subdomain=yes type=FWD name="leaguoflegends.com" }
+:if ([:len [find name="learnwithleague.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="riot" match-subdomain=yes type=FWD name="learnwithleague.com" }
+:if ([:len [find name="lol-europe.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="riot" match-subdomain=yes type=FWD name="lol-europe.com" }
+:if ([:len [find name="lolclub.org"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="riot" match-subdomain=yes type=FWD name="lolclub.org" }
+:if ([:len [find name="lolespor.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="riot" match-subdomain=yes type=FWD name="lolespor.com" }
+:if ([:len [find name="lolesports.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="riot" match-subdomain=yes type=FWD name="lolesports.com" }
+:if ([:len [find name="lolfanart.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="riot" match-subdomain=yes type=FWD name="lolfanart.net" }
+:if ([:len [find name="lolpcs.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="riot" match-subdomain=yes type=FWD name="lolpcs.com" }
+:if ([:len [find name="lolstatic.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="riot" match-subdomain=yes type=FWD name="lolstatic.com" }
+:if ([:len [find name="lolusercontent.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="riot" match-subdomain=yes type=FWD name="lolusercontent.com" }
+:if ([:len [find name="molesports.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="riot" match-subdomain=yes type=FWD name="molesports.com" }
+:if ([:len [find name="playvalorant.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="riot" match-subdomain=yes type=FWD name="playvalorant.com" }
+:if ([:len [find name="pvp.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="riot" match-subdomain=yes type=FWD name="pvp.net" }
+:if ([:len [find name="pvp.tv"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="riot" match-subdomain=yes type=FWD name="pvp.tv" }
+:if ([:len [find name="rgpub.io"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="riot" match-subdomain=yes type=FWD name="rgpub.io" }
+:if ([:len [find name="riot-games.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="riot" match-subdomain=yes type=FWD name="riot-games.com" }
+:if ([:len [find name="riot.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="riot" match-subdomain=yes type=FWD name="riot.com" }
+:if ([:len [find name="riot.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="riot" match-subdomain=yes type=FWD name="riot.net" }
+:if ([:len [find name="riotcdn.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="riot" match-subdomain=yes type=FWD name="riotcdn.net" }
+:if ([:len [find name="riotforgegames.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="riot" match-subdomain=yes type=FWD name="riotforgegames.com" }
+:if ([:len [find name="riotgames.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="riot" match-subdomain=yes type=FWD name="riotgames.com" }
+:if ([:len [find name="riotgames.info"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="riot" match-subdomain=yes type=FWD name="riotgames.info" }
+:if ([:len [find name="riotgames.jp"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="riot" match-subdomain=yes type=FWD name="riotgames.jp" }
+:if ([:len [find name="riotgames.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="riot" match-subdomain=yes type=FWD name="riotgames.net" }
+:if ([:len [find name="riotgames.tv"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="riot" match-subdomain=yes type=FWD name="riotgames.tv" }
+:if ([:len [find name="riotpin.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="riot" match-subdomain=yes type=FWD name="riotpin.com" }
+:if ([:len [find name="riotpoints.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="riot" match-subdomain=yes type=FWD name="riotpoints.com" }
+:if ([:len [find name="rstatic.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="riot" match-subdomain=yes type=FWD name="rstatic.net" }
+:if ([:len [find name="ruinedking.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="riot" match-subdomain=yes type=FWD name="ruinedking.com" }
+:if ([:len [find name="supremacy.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="riot" match-subdomain=yes type=FWD name="supremacy.com" }
+:if ([:len [find name="supremacy.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="riot" match-subdomain=yes type=FWD name="supremacy.net" }
+:if ([:len [find name="ulol.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="riot" match-subdomain=yes type=FWD name="ulol.com" }
+:if ([:len [find name="lolstatic-a.akamaihd.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="riot" type=FWD name="lolstatic-a.akamaihd.net" }
