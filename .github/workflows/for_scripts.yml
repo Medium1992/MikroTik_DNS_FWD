@@ -280,7 +280,7 @@ jobs:
                           type=$(echo "$entry" | cut -d':' -f1)
                           value=$(echo "$entry" | cut -d':' -f2-)
                           if [ "$type" = "suffix" ]; then
-                              echo ":if ([:len [/ip dns static find name=\"$value\"]] = 0) do={ add address-list=\$AddressList forward-to=\$ForwardTo comment=\"$base_resource\" match-subdomain=yes type=FWD name=\"$value\" }" >> "$output_file"
+                              echo ":if ([:len [find name=\"$value\"]] = 0) do={ add address-list=\$AddressList forward-to=\$ForwardTo comment=\"$base_resource\" match-subdomain=yes type=FWD name=\"$value\" }" >> "$output_file"
                           fi
                       done
                   else
@@ -297,7 +297,7 @@ jobs:
                               type=$(echo "$entry" | cut -d':' -f1)
                               value=$(echo "$entry" | cut -d':' -f2-)
                               if [ "$type" = "suffix" ]; then
-                                  echo ":if ([:len [/ip dns static find name=\"$value\"]] = 0) do={ add address-list=\$AddressList forward-to=\$ForwardTo comment=\"$base_resource\" match-subdomain=yes type=FWD name=\"$value\" }" >> "$output_file"
+                                  echo ":if ([:len [find name=\"$value\"]] = 0) do={ add address-list=\$AddressList forward-to=\$ForwardTo comment=\"$base_resource\" match-subdomain=yes type=FWD name=\"$value\" }" >> "$output_file"
                               fi
                           done
                           part=$((part + 1))
@@ -330,7 +330,7 @@ jobs:
                               type=$(echo "$entry" | cut -d':' -f1)
                               value=$(echo "$entry" | cut -d':' -f2-)
                               if [ "$type" = "suffix" ]; then
-                                  echo ":if ([:len [/ip dns static find name=\"$value\"]] = 0) do={ add address-list=\$AddressList forward-to=\$ForwardTo comment=\"$group\" match-subdomain=yes type=FWD name=\"$value\" }" >> "$output_file"
+                                  echo ":if ([:len [find name=\"$value\"]] = 0) do={ add address-list=\$AddressList forward-to=\$ForwardTo comment=\"$group\" match-subdomain=yes type=FWD name=\"$value\" }" >> "$output_file"
                               fi
                           done
                       else
@@ -347,7 +347,7 @@ jobs:
                                   type=$(echo "$entry" | cut -d':' -f1)
                                   value=$(echo "$entry" | cut -d':' -f2-)
                                   if [ "$type" = "suffix" ]; then
-                                      echo ":if ([:len [/ip dns static find name=\"$value\"]] = 0) do={ add address-list=\$AddressList forward-to=\$ForwardTo comment=\"$group\" match-subdomain=yes type=FWD name=\"$value\" }" >> "$output_file"
+                                      echo ":if ([:len [find name=\"$value\"]] = 0) do={ add address-list=\$AddressList forward-to=\$ForwardTo comment=\"$group\" match-subdomain=yes type=FWD name=\"$value\" }" >> "$output_file"
                                   fi
                               done
                               part=$((part + 1))
@@ -402,7 +402,7 @@ jobs:
                       type=$(echo "$entry" | cut -d':' -f1)
                       value=$(echo "$entry" | cut -d':' -f2-)
                       if [ "$type" = "suffix" ]; then
-                          echo ":if ([:len [/ip dns static find name=\"$value\"]] = 0) do={ add address-list=\$AddressList forward-to=\$ForwardTo comment=\"$base_resource\" match-subdomain=yes type=FWD name=\"$value\" }" >> "$output_file"
+                          echo ":if ([:len [find name=\"$value\"]] = 0) do={ add address-list=\$AddressList forward-to=\$ForwardTo comment=\"$base_resource\" match-subdomain=yes type=FWD name=\"$value\" }" >> "$output_file"
                       fi
                   done
               else
@@ -419,7 +419,7 @@ jobs:
                           type=$(echo "$entry" | cut -d':' -f1)
                           value=$(echo "$entry" | cut -d':' -f2-)
                           if [ "$type" = "suffix" ]; then
-                              echo ":if ([:len [/ip dns static find name=\"$value\"]] = 0) do={ add address-list=\$AddressList forward-to=\$ForwardTo comment=\"$base_resource\" match-subdomain=yes type=FWD name=\"$value\" }" >> "$output_file"
+                              echo ":if ([:len [find name=\"$value\"]] = 0) do={ add address-list=\$AddressList forward-to=\$ForwardTo comment=\"$base_resource\" match-subdomain=yes type=FWD name=\"$value\" }" >> "$output_file"
                           fi
                       done
                       part=$((part + 1))
@@ -519,11 +519,11 @@ jobs:
                       type=$(echo "$entry" | cut -d':' -f1)
                       value=$(echo "$entry" | cut -d':' -f2-)
                       if [ "$type" = "domain" ]; then
-                          echo ":if ([:len [/ip dns static find name=\"$value\"]] = 0) do={ add address-list=\$AddressList forward-to=\$ForwardTo comment=\"$resource\" type=FWD name=\"$value\" }" >> "$output_file"
+                          echo ":if ([:len [find name=\"$value\"]] = 0) do={ add address-list=\$AddressList forward-to=\$ForwardTo comment=\"$resource\" type=FWD name=\"$value\" }" >> "$output_file"
                       elif [ "$type" = "suffix" ]; then
-                          echo ":if ([:len [/ip dns static find name=\"$value\"]] = 0) do={ add address-list=\$AddressList forward-to=\$ForwardTo comment=\"$resource\" match-subdomain=yes type=FWD name=\"$value\" }" >> "$output_file"
+                          echo ":if ([:len [find name=\"$value\"]] = 0) do={ add address-list=\$AddressList forward-to=\$ForwardTo comment=\"$resource\" match-subdomain=yes type=FWD name=\"$value\" }" >> "$output_file"
                       elif [ "$type" = "regex" ]; then
-                          echo ":if ([:len [/ip dns static find regexp=\"$value\"]] = 0) do={ add address-list=\$AddressList forward-to=\$ForwardTo comment=\"$resource\" type=FWD regexp=\"$value\" }" >> "$output_file"
+                          echo ":if ([:len [find regexp=\"$value\"]] = 0) do={ add address-list=\$AddressList forward-to=\$ForwardTo comment=\"$resource\" type=FWD regexp=\"$value\" }" >> "$output_file"
                       fi
                   done
               else
@@ -540,11 +540,11 @@ jobs:
                           type=$(echo "$entry" | cut -d':' -f1)
                           value=$(echo "$entry" | cut -d':' -f2-)
                           if [ "$type" = "suffix" ]; then
-                              echo ":if ([:len [/ip dns static find name=\"$value\"]] = 0) do={ add address-list=\$AddressList forward-to=\$ForwardTo comment=\"$resource\" match-subdomain=yes type=FWD name=\"$value\" }" >> "$output_file"
+                              echo ":if ([:len [find name=\"$value\"]] = 0) do={ add address-list=\$AddressList forward-to=\$ForwardTo comment=\"$resource\" match-subdomain=yes type=FWD name=\"$value\" }" >> "$output_file"
                           elif [ "$type" = "domain" ]; then
-                              echo ":if ([:len [/ip dns static find name=\"$value\"]] = 0) do={ add address-list=\$AddressList forward-to=\$ForwardTo comment=\"$resource\" type=FWD name=\"$value\" }" >> "$output_file"
+                              echo ":if ([:len [find name=\"$value\"]] = 0) do={ add address-list=\$AddressList forward-to=\$ForwardTo comment=\"$resource\" type=FWD name=\"$value\" }" >> "$output_file"
                           elif [ "$type" = "regex" ]; then
-                              echo ":if ([:len [/ip dns static find regexp=\"$value\"]] = 0) do={ add address-list=\$AddressList forward-to=\$ForwardTo comment=\"$resource\" type=FWD regexp=\"$value\" }" >> "$output_file"
+                              echo ":if ([:len [find regexp=\"$value\"]] = 0) do={ add address-list=\$AddressList forward-to=\$ForwardTo comment=\"$resource\" type=FWD regexp=\"$value\" }" >> "$output_file"
                           fi
                       done
                       part=$((part + 1))
