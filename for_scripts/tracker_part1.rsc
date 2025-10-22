@@ -115,9 +115,9 @@
 :if ([:len [/ip dns static find name="1c.premierzal.ru"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="tracker" type=FWD name="1c.premierzal.ru" }
 :if ([:len [/ip dns static find name="2.tracker.eu.org"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="tracker" type=FWD name="2.tracker.eu.org" }
 :if ([:len [/ip dns static find name="3.tracker.eu.org"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="tracker" type=FWD name="3.tracker.eu.org" }
-:if ([:len [/ip dns static find name="4.tracker.eu.org"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="tracker" type=FWD name="4.tracker.eu.org" }
 :if ([:len [/ip dns static find name="6ahddutb1ucc3cp.ru"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="tracker" type=FWD name="6ahddutb1ucc3cp.ru" }
 :if ([:len [/ip dns static find name="aboutbeautifulgallopinghorsesinthegreenpasture.online"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="tracker" type=FWD name="aboutbeautifulgallopinghorsesinthegreenpasture.online" }
+:if ([:len [/ip dns static find name="admin.52ywp.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="tracker" type=FWD name="admin.52ywp.com" }
 :if ([:len [/ip dns static find name="anna.bt.bontal.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="tracker" type=FWD name="anna.bt.bontal.net" }
 :if ([:len [/ip dns static find name="bandito.byterunner.io"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="tracker" type=FWD name="bandito.byterunner.io" }
 :if ([:len [/ip dns static find name="bittorrent-tracker.e-n-c-r-y-p-t.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="tracker" type=FWD name="bittorrent-tracker.e-n-c-r-y-p-t.net" }
@@ -128,6 +128,7 @@
 :if ([:len [/ip dns static find name="bt1.xxxxbt.cc"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="tracker" type=FWD name="bt1.xxxxbt.cc" }
 :if ([:len [/ip dns static find name="burmese.app"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="tracker" type=FWD name="burmese.app" }
 :if ([:len [/ip dns static find name="bvarf.tracker.sh"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="tracker" type=FWD name="bvarf.tracker.sh" }
+:if ([:len [/ip dns static find name="cny.fan"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="tracker" type=FWD name="cny.fan" }
 :if ([:len [/ip dns static find name="concen.org"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="tracker" type=FWD name="concen.org" }
 :if ([:len [/ip dns static find name="d40969.acod.regrucolo.ru"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="tracker" type=FWD name="d40969.acod.regrucolo.ru" }
 :if ([:len [/ip dns static find name="echostar.ddnsfree.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="tracker" type=FWD name="echostar.ddnsfree.com" }
@@ -135,11 +136,14 @@
 :if ([:len [/ip dns static find name="explodie.org"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="tracker" type=FWD name="explodie.org" }
 :if ([:len [/ip dns static find name="extracker.dahrkael.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="tracker" type=FWD name="extracker.dahrkael.net" }
 :if ([:len [/ip dns static find name="home.yxgz.club"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="tracker" type=FWD name="home.yxgz.club" }
+:if ([:len [/ip dns static find name="ibksturm.synology.me"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="tracker" type=FWD name="ibksturm.synology.me" }
 :if ([:len [/ip dns static find name="ipv4.rer.lol"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="tracker" type=FWD name="ipv4.rer.lol" }
 :if ([:len [/ip dns static find name="ipv4announce.sktorrent.eu"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="tracker" type=FWD name="ipv4announce.sktorrent.eu" }
 :if ([:len [/ip dns static find name="ipv6.rer.lol"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="tracker" type=FWD name="ipv6.rer.lol" }
 :if ([:len [/ip dns static find name="lucke.fenesisu.moe"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="tracker" type=FWD name="lucke.fenesisu.moe" }
 :if ([:len [/ip dns static find name="martin-gebhardt.eu"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="tracker" type=FWD name="martin-gebhardt.eu" }
+:if ([:len [/ip dns static find name="ns-1.x-fins.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="tracker" type=FWD name="ns-1.x-fins.com" }
+:if ([:len [/ip dns static find name="ns3109441.mypdns.org"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="tracker" type=FWD name="ns3109441.mypdns.org" }
 :if ([:len [/ip dns static find name="open.acgtracker.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="tracker" type=FWD name="open.acgtracker.com" }
 :if ([:len [/ip dns static find name="open.demonii.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="tracker" type=FWD name="open.demonii.com" }
 :if ([:len [/ip dns static find name="open.dstud.io"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="tracker" type=FWD name="open.dstud.io" }
@@ -147,7 +151,3 @@
 :if ([:len [/ip dns static find name="opentor.org"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="tracker" type=FWD name="opentor.org" }
 :if ([:len [/ip dns static find name="opentracker.io"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="tracker" type=FWD name="opentracker.io" }
 :if ([:len [/ip dns static find name="p4p.arenabg.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="tracker" type=FWD name="p4p.arenabg.com" }
-:if ([:len [/ip dns static find name="public.tracker.vraphim.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="tracker" type=FWD name="public.tracker.vraphim.com" }
-:if ([:len [/ip dns static find name="rekcart.duckdns.org"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="tracker" type=FWD name="rekcart.duckdns.org" }
-:if ([:len [/ip dns static find name="retracker.hotplug.ru"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="tracker" type=FWD name="retracker.hotplug.ru" }
-:if ([:len [/ip dns static find name="retracker.lanta.me"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="tracker" type=FWD name="retracker.lanta.me" }
