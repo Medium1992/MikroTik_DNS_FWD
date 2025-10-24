@@ -82,6 +82,7 @@
 :if ([:len [find name="parstream.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="cisco" match-subdomain=yes type=FWD name="parstream.net" }
 :if ([:len [find name="parstream.org"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="cisco" match-subdomain=yes type=FWD name="parstream.org" }
 :if ([:len [find name="services-exchange.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="cisco" match-subdomain=yes type=FWD name="services-exchange.com" }
+:if ([:len [find name="splunk.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="cisco" match-subdomain=yes type=FWD name="splunk.com" }
 :if ([:len [find name="static-cisco.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="cisco" match-subdomain=yes type=FWD name="static-cisco.com" }
 :if ([:len [find name="tail-f.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="cisco" match-subdomain=yes type=FWD name="tail-f.com" }
 :if ([:len [find name="tailf.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="cisco" match-subdomain=yes type=FWD name="tailf.com" }

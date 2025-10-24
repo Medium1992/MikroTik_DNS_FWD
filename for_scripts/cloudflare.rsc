@@ -2,6 +2,7 @@
 :global ForwardTo
 /ip dns static
 :if ([:len [find name="argotunnel.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="cloudflare" match-subdomain=yes type=FWD name="argotunnel.com" }
+:if ([:len [find name="cf-china.info"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="cloudflare" match-subdomain=yes type=FWD name="cf-china.info" }
 :if ([:len [find name="cf-ipfs.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="cloudflare" match-subdomain=yes type=FWD name="cf-ipfs.com" }
 :if ([:len [find name="cf-ns.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="cloudflare" match-subdomain=yes type=FWD name="cf-ns.com" }
 :if ([:len [find name="cf-ns.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="cloudflare" match-subdomain=yes type=FWD name="cf-ns.net" }
@@ -35,6 +36,7 @@
 :if ([:len [find name="cloudflareportal.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="cloudflare" match-subdomain=yes type=FWD name="cloudflareportal.com" }
 :if ([:len [find name="cloudflarepreview.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="cloudflare" match-subdomain=yes type=FWD name="cloudflarepreview.com" }
 :if ([:len [find name="cloudflareprod.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="cloudflare" match-subdomain=yes type=FWD name="cloudflareprod.com" }
+:if ([:len [find name="cloudflareregistrar.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="cloudflare" match-subdomain=yes type=FWD name="cloudflareregistrar.com" }
 :if ([:len [find name="cloudflareresolve.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="cloudflare" match-subdomain=yes type=FWD name="cloudflareresolve.com" }
 :if ([:len [find name="cloudflaressl.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="cloudflare" match-subdomain=yes type=FWD name="cloudflaressl.com" }
 :if ([:len [find name="cloudflarestaging.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="cloudflare" match-subdomain=yes type=FWD name="cloudflarestaging.com" }
