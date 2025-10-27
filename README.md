@@ -6,29 +6,29 @@
 ```bash
 # Define global variables
 :global AddressList ""
-:global ForwardTo "fakeipRU"
+:global ForwardTo "fakeipEU"
 
 # List of resources corresponding to RSC files
 :global resources {
-    "adguard";
-    "linkedin";
-    "youtube";
-    "meta";
-    "twitter";
-    "cloudflare";
-    "anime";
-    "rutracker";
-    "torrent";
-    "kinopub";
-    "video";
-    "discord";
-    "google-play";
-    "telegram";
-    "adguard";
-    "telegram";
-    "xhamster";
-    "porn";
-    "supercell"
+    "openai";
+    "google-gemini";
+    "x";
+    "notion";
+    "netflix";
+    "twitch";
+    "intel";
+    "canva";
+    "spotify";
+    "tidal";
+    "tiktok";
+    "atlassian";
+    "deepl";
+    "slack";
+    "ubiquiti";
+    "cisco";
+    "xbox";
+    "playstation";
+    "pornhub"
 }
 
 # Base URL for RSC files
