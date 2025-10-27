@@ -12,6 +12,7 @@
 :global resources {
     "openai";
     "google-gemini";
+    "claude";
     "x";
     "notion";
     "netflix";
