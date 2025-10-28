@@ -13,7 +13,7 @@
     "openai";
     "google-gemini";
     "claude";
-    "x";
+    "xai";
     "notion";
     "netflix";
     "twitch";
