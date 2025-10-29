@@ -1,6 +1,14 @@
 :global AddressList
 :global ForwardTo
 /ip dns static
+:if ([:len [find name="goto-game.org"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="tencent" match-subdomain=yes type=FWD name="goto-game.org" }
+:if ([:len [find name="gotolink.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="tencent" match-subdomain=yes type=FWD name="gotolink.net" }
+:if ([:len [find name="gouhuo.qq.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="tencent" match-subdomain=yes type=FWD name="gouhuo.qq.com" }
+:if ([:len [find name="govqcloud.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="tencent" match-subdomain=yes type=FWD name="govqcloud.com" }
+:if ([:len [find name="gsadds.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="tencent" match-subdomain=yes type=FWD name="gsadds.com" }
+:if ([:len [find name="gtgres.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="tencent" match-subdomain=yes type=FWD name="gtgres.com" }
+:if ([:len [find name="gtimg.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="tencent" match-subdomain=yes type=FWD name="gtimg.com" }
+:if ([:len [find name="gtm.pub"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="tencent" match-subdomain=yes type=FWD name="gtm.pub" }
 :if ([:len [find name="happyhlddz.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="tencent" match-subdomain=yes type=FWD name="happyhlddz.com" }
 :if ([:len [find name="hdyxgame.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="tencent" match-subdomain=yes type=FWD name="hdyxgame.com" }
 :if ([:len [find name="hk.file.myqcloud.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="tencent" match-subdomain=yes type=FWD name="hk.file.myqcloud.com" }
@@ -143,11 +151,3 @@
 :if ([:len [find name="tcloudedu.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="tencent" match-subdomain=yes type=FWD name="tcloudedu.com" }
 :if ([:len [find name="tcloudhw.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="tencent" match-subdomain=yes type=FWD name="tcloudhw.com" }
 :if ([:len [find name="tcloudhw.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="tencent" match-subdomain=yes type=FWD name="tcloudhw.net" }
-:if ([:len [find name="tcloudscdn.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="tencent" match-subdomain=yes type=FWD name="tcloudscdn.com" }
-:if ([:len [find name="tcloudscdn.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="tencent" match-subdomain=yes type=FWD name="tcloudscdn.net" }
-:if ([:len [find name="tcss.qq.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="tencent" match-subdomain=yes type=FWD name="tcss.qq.com" }
-:if ([:len [find name="tdnsv1.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="tencent" match-subdomain=yes type=FWD name="tdnsv1.com" }
-:if ([:len [find name="tdnsv1.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="tencent" match-subdomain=yes type=FWD name="tdnsv1.net" }
-:if ([:len [find name="tdnsv10.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="tencent" match-subdomain=yes type=FWD name="tdnsv10.com" }
-:if ([:len [find name="tdnsv10.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="tencent" match-subdomain=yes type=FWD name="tdnsv10.net" }
-:if ([:len [find name="tdnsv11.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="tencent" match-subdomain=yes type=FWD name="tdnsv11.com" }
