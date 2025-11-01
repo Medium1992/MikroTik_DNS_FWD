@@ -1,4 +1,10 @@
 # MikroTik_DNS_FWD
+This repository contains domains for autocompletion and regular updating of FWD lists in MikroTik RouterOS.
+Domains are collected full from two sources
+- https://iplist.opencck.org
+- https://github.com/MetaCubeX/meta-rules-dat/tree/sing/geo/geosite
+
+If the resource name matches, domains from MetaCubeX take priority.
 
 ## Example usage
 
@@ -183,6 +189,6 @@
 ```
 ### shedule FWD, interval 1d
 ```bash
-FWD_EU
-FWD_RU
+/system/script/run FWD_EU
+/system/script/run FWD_RU
 ```
