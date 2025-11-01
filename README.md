@@ -52,9 +52,7 @@ If the resource name matches, domains from MetaCubeX take priority.
             :if ([:len $content] > 0 && [:find $content "/ip dns static"] >= 0) do={
                 :local s [:parse $content]
                 $s
-           
      :log warning "$resource.rsc loading completed"
-
             } else={
                 :log warning "Invalid or empty content: $url"
             }
@@ -73,6 +71,7 @@ If the resource name matches, domains from MetaCubeX take priority.
                     :if ([:len $content] > 0 && [:find $content "/ip dns static"] >= 0) do={
                         :local s [:parse $content]
                         $s
+                        :log warning "$resource.rsc part$part loading completed"
                     } else={
                         :log warning "Invalid or empty content $resource.rsc"
                         :set continue false
@@ -82,14 +81,7 @@ If the resource name matches, domains from MetaCubeX take priority.
                 }
             } on-error={
                 :if ($part = 1) do={
-
                    :log warning "https://raw.githubusercontent.com is not available, check availability"
-
-                } else={
-                   :set part ($part - 1)
-           
-        :log warning "$resource.rsc loading completed, number last part $part"
-
                 }
                 :set continue false
             }
@@ -140,10 +132,8 @@ If the resource name matches, domains from MetaCubeX take priority.
             :local content ($r->"data")
             :if ([:len $content] > 0 && [:find $content "/ip dns static"] >= 0) do={
                 :local s [:parse $content]
-                $s
-           
+                $s           
      :log warning "$resource.rsc loading completed"
-
             } else={
                 :log warning "Invalid or empty content: $url"
             }
@@ -162,6 +152,7 @@ If the resource name matches, domains from MetaCubeX take priority.
                     :if ([:len $content] > 0 && [:find $content "/ip dns static"] >= 0) do={
                         :local s [:parse $content]
                         $s
+                        :log warning "$resource.rsc part$part loading completed"
                     } else={
                         :log warning "Invalid or empty content $resource.rsc"
                         :set continue false
@@ -171,14 +162,7 @@ If the resource name matches, domains from MetaCubeX take priority.
                 }
             } on-error={
                 :if ($part = 1) do={
-
                    :log warning "https://raw.githubusercontent.com is not available, check availability"
-
-                } else={
-                   :set part ($part - 1)
-           
-        :log warning "$resource.rsc loading completed, number last part $part"
-
                 }
                 :set continue false
             }
