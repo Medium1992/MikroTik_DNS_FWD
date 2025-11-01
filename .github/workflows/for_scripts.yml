@@ -1,215 +1,21 @@
 name: Generate MikroTik RSC Files for scripts
-
 on:
   schedule:
-    - cron: "10 0 * * *"    # 00:10 UTC
+    - cron: "10 0 * * *" # 00:10 UTC
   workflow_dispatch:
-
 permissions:
   contents: write
-
 env:
-  RESOURCES: "autodesk, \
-    apple, \
-    adobe, \
-    adblock, \
-    apple-tvplus, \
-    apple-dev, \
-    apple-intelligence, \
-    apple-pki, \
-    apple-update, \
-    acer, \
-    abc, \
-    adobe-activation, \
-    akamai, \
-    amazon, \
-    aws, \
-    asus, \
-    azure, \
-    bbc, \
-    binance, \
-    blizzard, \
-    bloomberg, \
-    bluearchive, \
-    bybit, \
-    canon, \
-    category-enhance-gaming, \
-    category-entertainment, \
-    corel, \
-    deepseek, \
-    debian, \
-    ea, \
-    epicgames, \
-    escapefromtarkov, \
-    erolabs, \
-    fandom, \
-    fastly,\
-    gigabyte, \
-    atlassian, \
-    cloudflare, \
-    dell, \
-    cisco, \
-    openai, \
-    xai, \
-    tidal, \
-    golang, \
-    google, \
-    google-gemini, \
-    google-play, \
-    google-deepmind, \
-    googlefcm, \
-    google-registry, \
-    google-scholar, \
-    google-trust-services, \
-    goproxy, \
-    haier, \
-    hbo, \
-    hetzner, \
-    honor, \
-    huawei, \
-    icloud, \
-    ikea, \
-    insider, \
-    itunes, \
-    java, \
-    kucoin, \
-    kubernetes, \
-    kurogames, \
-    lanzou, \
-    lenovo, \
-    linux, \
-    localbitcoins, \
-    logitech, \
-    mastercard, \
-    meduza, \
-    medium, \
-    meizu, \
-    messenger, \
-    midea, \
-    mindgeek, \
-    mindgeek-porn, \
-    mikrotik, \
-    nationalgeographic, \
-    neuralink, \
-    nvidia, \
-    oneplus, \
-    openwrt, \
-    oppo, \
-    panasonic, \
-    ozon, \
-    pastebin, \
-    paypal,\
-    patreon, \
-    piratebay, \
-    pinterest, \
-    primevideo, \
-    private, \
-    python, \
-    python-community, \
-    qualcomm, \
-    rakuten, \
-    rockstar, \
-    rust, \
-    teamviewer, \
-    tencent, \
-    tencent-dev, \
-    tencent-games, \
-    tracker, \
-    trustwallet, \
-    trello, \
-    unity, \
-    visa, \
-    vk, \
-    playstation, \
-    vmware, \
-    vodafone, \
-    westerndigital, \
-    x, \
-    xiaomi, \
-    yandex, \
-    tmdb, \
-    spotify, \
-    tiktok, \
-    ubiquiti, \
-    ubisoft, \
-    microsoft-dev, \
-    microsoft-pki, \
-    github, \
-    microsoft, \
-    riot, \
-    steam, \
-    sony, \
-    speedtest, \
-    oracle, \
-    samsung, \
-    lg, \
-    slack, \
-    discord, \
-    notion, \
-    supercell, \
-    telegram, \
-    xbox, \
-    xda, \
-    kinopub, \
-    rutracker, \
-    linkedin, \
-    adguard, \
-    whatsapp, \
-    twitter, \
-    youtube, \
-    facebook, \
-    instagram, \
-    meta, \
-    oculus, \
-    intel, \
-    netflix, \
-    pornhub, \
-    xhamster, \
-    twitch, \
-    jetbrains"
-
-  JSON_URL_TEMPLATE: https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/refs/heads/sing/geo/geosite/{resource}.json
-
-  GROUP: "torrent, \
-    anime, \
-    porn, \
-    news, \
-    games, \
-    education, \
-    casino, \
-    music, \
-    video, \
-    art"
-  SITE: "basecamp.com, \
-    bestchange.ru, \
-    canva.com, \
-    claude.ai, \
-    copilot, \
-    deepl.com, \
-    elevenlabs.io, \
-    notepad-plus-plus.org, \
-    sentry.io, \
-    strava.com, \
-    daramalive.life, \
-    doramy.club, \
-    filmix.fm, \
-    hdrezka.ag, \
-    kinobase.org, \
-    kinovod.pro, \
-    kinozal.tv, \
-    lostfilm.tv, \
-    zeflix.online, \
-    soundcloud.com, \
-    signal.org"
+  MAX_ENTRIES_PER_FILE: 150
+  GROUP: "anime,art,casino,education,games,messengers,music,news,porn,shop,socials,tools,torrent,video"
+  SITE: ""
   GROUP_URL_TEMPLATE: https://iplist.opencck.org/?format=json&data=domains&wildcard=1&group={group}
   SITE_URL_TEMPLATE: https://iplist.opencck.org/?format=json&data=domains&wildcard=1&site={site}
-  MAX_ENTRIES_PER_FILE: 150
-
 jobs:
   generate-rsc:
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout repository
+      - name: Checkout your repo
         uses: actions/checkout@v4
 
       - name: Install jq
@@ -431,135 +237,128 @@ jobs:
               fi
           done
 
-      - name: Process each resource form MetaCubeX
+      - name: Clone MetaCubeX/meta-rules-dat (branch-sing)
+        run: |
+          git clone --depth 1 --branch sing https://github.com/MetaCubeX/meta-rules-dat.git
+          echo "Cloned MetaCubeX/meta-rules-dat (sing)"
+
+      - name: Find all geosite JSON files
+        id: find_files
+        run: |
+          cd meta-rules-dat
+          if [ ! -d "geo/geosite" ]; then
+            echo "Error: Directory geo/geosite not found!"
+            echo "Available dirs:"
+            find . -type d -name "geo*" || true
+            exit 1
+          fi
+          find "geo/geosite" -name "*.json" | sed 's|.*/||' | sort > ../geosite_files.txt
+          FILE_COUNT=$(wc -l < ../geosite_files.txt)
+          echo "Found $FILE_COUNT JSON files in geo/geosite/"
+          head -20 ../geosite_files.txt
+
+      - name: Process ALL geosite JSON files from MetaCubeX
         run: |
           set -e
-          IFS=',' read -ra resource_array <<< "${{ env.RESOURCES }}"
-          JSON_URL_TEMPLATE="${{ env.JSON_URL_TEMPLATE }}"
           MAX_ENTRIES_PER_FILE="${{ env.MAX_ENTRIES_PER_FILE }}"
+          REPO_DIR="meta-rules-dat"
+          excluded_tlds="cv|dj|dm|im|kg|ki|li|ml|ms|mv|ne|nr|sm|ad|as|bf|bj|bt|cd|cf|ci|ao|bw|ck|ls|mz|vi|zm|bn|bz|cy|et|fj|gi|kh|mm|na|np|pg|sb|sl|vc|mg|ac|af|ag|ai|bi|bs|cg|cm|cu|dz|ga|gd|gl|gm|gs|gy|ht|je|lc|mp|mu|mw|nu|pn|re|rw|sc|sr|st|sx|sy|tf|tj|tl|tt|vg|vu|wf|yt|do|ec|eg|gh|hn|jm|kw|lb|mt|om|py|tr|ae|al|am|at|bg|ch|id|cn|ve|uk|za|zw|ar|au|bd|br|il|ke|nz|th|tz|de|es|fr|gr|hr|hu|ie|is|it|ng|pl|ro|rs|sa|ua|jo|uz|tm|az|ba|bh|bo|by|ca|qa|vn|uy|ug|tn|sv|sk|si|sg|ee|sn|cl|pt|pr|pk|ph|pe|pa|no|ni|my|mx|mn|mk|md|ma|ly|lv|lu|lt|lk|la|kz|kr|iq|in|hk|gt|ge|fi|cr|cz|dk"
 
-          for resource in "${resource_array[@]}"; do
-              resource=$(echo "$resource" | xargs)
-              echo "Processing resource: $resource"
-              json_url="${JSON_URL_TEMPLATE//\{resource\}/$resource}"
-              
-              if ! curl -s -f "$json_url" > "input_$resource.json"; then
-                  echo "Failed to fetch JSON for $resource, skipping..."
-                  continue
-              fi
+          while IFS= read -r json_file; do
+            [ -n "$json_file" ] || continue
+            resource="${json_file%.json}"
+            json_path="$REPO_DIR/geo/geosite/$json_file"
+            echo "Processing: $resource ($json_file)"
 
-              # Initialize arrays for domains, suffixes, and regex
-              domains=$(jq -r '
-                .rules[]
-                | if (.domain | type == "string") then [.domain]
-                  elif (.domain | type == "array") then .domain
-                  else [] end
-                | .[]
-              ' "input_$resource.json" | sort -u)
+            # Extract domains, suffixes, regex
+            domains=$(jq -r '
+              .rules[]
+              | if (.domain | type == "string") then [.domain]
+                elif (.domain | type == "array") then .domain
+                else [] end
+              | .[]
+            ' "$json_path" 2>/dev/null | sort -u || true)
 
-              suffixes=$(jq -r '
-                .rules[]
-                | if (.domain_suffix | type == "string") then [.domain_suffix]
-                  elif (.domain_suffix | type == "array") then .domain_suffix
-                  else [] end
-                | .[]
-              ' "input_$resource.json" | sort -u)
+            suffixes=$(jq -r '
+              .rules[]
+              | if (.domain_suffix | type == "string") then [.domain_suffix]
+                elif (.domain_suffix | type == "array") then .domain_suffix
+                else [] end
+              | .[]
+            ' "$json_path" 2>/dev/null | sort -u || true)
 
-              regex_list=$(jq -r '
-                .rules[]
-                | if (.domain_regex | type == "string") then [.domain_regex]
-                  elif (.domain_regex | type == "array") then .domain_regex
-                  else [] end
-                | .[]
-              ' "input_$resource.json" | sort -u)
+            regex_list=$(jq -r '
+              .rules[]
+              | if (.domain_regex | type == "string") then [.domain_regex]
+                elif (.domain_regex | type == "array") then .domain_regex
+                else [] end
+              | .[]
+            ' "$json_path" 2>/dev/null | sort -u || true)
 
-              # Blacklist of TLDs to exclude
-              excluded_tlds="cv|dj|dm|im|kg|ki|li|ml|ms|mv|ne|nr|sm|ad|as|bf|bj|bt|cd|cf|ci|ao|bw|ck|ls|mz|vi|zm|bn|bz|cy|et|fj|gi|kh|mm|na|np|pg|sb|sl|vc|mg|ac|af|ag|ai|bi|bs|cg|cm|cu|dz|ga|gd|gl|gm|gs|gy|ht|je|lc|mp|mu|mw|nu|pn|re|rw|sc|sr|st|sx|sy|tf|tj|tl|tt|vg|vu|wf|yt|do|ec|eg|gh|hn|jm|kw|lb|mt|om|py|tr|ae|al|am|at|bg|ch|id|cn|ve|uk|za|zw|ar|au|bd|br|il|ke|nz|th|tz|de|es|fr|gr|hr|hu|ie|is|it|ng|pl|ro|rs|sa|ua|jo|uz|tm|az|ba|bh|bo|by|ca|qa|vn|uy|ug|tn|sv|sk|si|sg|ee|sn|cl|pt|pr|pk|ph|pe|pa|no|ni|my|mx|mn|mk|md|ma|ly|lv|lu|lt|lk|la|kz|kr|iq|in|hk|gt|ge|fi|cr|cz|dk"
+            # Filter TLDs
+            filtered_domains=$(echo "$domains" | grep -Ev "\.($excluded_tlds)$" | grep -v '^$' || true)
+            filtered_suffixes=$(echo "$suffixes" | grep -Ev "\.($excluded_tlds)$" | grep -v '^$' || true)
+            filtered_regex_list=$(echo "$regex_list" | grep -v '^$' || true)
 
-              # Filter domains and suffixes, excluding rare TLDs and empty lines
-              filtered_domains=$(echo "$domains" | grep -Ev "\.($excluded_tlds)$" | grep -v '^$' || true)
-              filtered_suffixes=$(echo "$suffixes" | grep -Ev "\.($excluded_tlds)$" | grep -v '^$' || true)
-              filtered_regex_list=$(echo "$regex_list" | grep -v '^$' || true)
+            # Build entries
+            all_entries=()
+            [[ -n "$filtered_suffixes" ]] && while IFS= read -r s; do all_entries+=("suffix:$s"); done <<< "$filtered_suffixes"
+            [[ -n "$filtered_domains" ]] && while IFS= read -r d; do all_entries+=("domain:$d"); done <<< "$filtered_domains"
+            [[ -n "$filtered_regex_list" ]] && while IFS= read -r r; do
+              escaped=$(echo "$r" | sed -E 's/\\/\\\\\\\\/g; s/\$/\\$/g; s/"/\\"/g; s/ /\\_/g; s/\?/\\?/g')
+              all_entries+=("regex:$escaped")
+            done <<< "$filtered_regex_list"
 
-              # Combine all entries into one array, only if non-empty
-              all_entries=()
-              if [ -n "$filtered_suffixes" ]; then
-                  while IFS= read -r suffix; do
-                      all_entries+=("suffix:$suffix")
-                  done <<< "$filtered_suffixes"
-              fi
-              if [ -n "$filtered_domains" ]; then
-                  while IFS= read -r domain; do
-                      all_entries+=("domain:$domain")
-                  done <<< "$filtered_domains"
-              fi
-              if [ -n "$filtered_regex_list" ]; then
-                  while IFS= read -r regex; do
-                      escaped_regex=$(echo "$regex" | sed -E '
-                        s/\\/\\\\\\\\/g;      # Escape backslashes first
-                        s/\$/\\$/g;           # $ → \$
-                        s/"/\\"/g;            # " → \"
-                        s/ /\\_/g;            # space → \_
-                        s/\?/\\?/g;           # ? → \?
-                      ')
-                      all_entries+=("regex:$escaped_regex")
-                  done <<< "$filtered_regex_list"
-              fi
+            entry_count=${#all_entries[@]}
+            [[ $entry_count -eq 0 ]] && { echo "No entries for $resource, skipping..."; continue; }
 
-              # Split entries into chunks of MAX_ENTRIES_PER_FILE
-              entry_count=${#all_entries[@]}
-              if [ $entry_count -eq 0 ]; then
-                  echo "No valid entries for $resource, skipping..."
-                  continue
-              fi
-
-              # Check if entries fit in one file
-              if [ $entry_count -le $MAX_ENTRIES_PER_FILE ]; then
-                  output_file="for_scripts/${resource}.rsc"
-                  echo ":global AddressList" > "$output_file"
-                  echo ":global ForwardTo" >> "$output_file"
-                  echo "/ip dns static" >> "$output_file"
-                  for entry in "${all_entries[@]}"; do
-                      type=$(echo "$entry" | cut -d':' -f1)
-                      value=$(echo "$entry" | cut -d':' -f2-)
-                      if [ "$type" = "domain" ]; then
-                          echo ":if ([:len [find name=\"$value\"]] = 0) do={ add address-list=\$AddressList forward-to=\$ForwardTo comment=\"$resource\" type=FWD name=\"$value\" }" >> "$output_file"
-                      elif [ "$type" = "suffix" ]; then
-                          echo ":if ([:len [find name=\"$value\"]] = 0) do={ add address-list=\$AddressList forward-to=\$ForwardTo comment=\"$resource\" match-subdomain=yes type=FWD name=\"$value\" }" >> "$output_file"
-                      elif [ "$type" = "regex" ]; then
-                          echo ":if ([:len [find regexp=\"$value\"]] = 0) do={ add address-list=\$AddressList forward-to=\$ForwardTo comment=\"$resource\" type=FWD regexp=\"$value\" }" >> "$output_file"
-                      fi
+            # Write to .rsc (single or split)
+            if [ $entry_count -le $MAX_ENTRIES_PER_FILE ]; then
+              output="for_scripts/${resource}.rsc"
+              {
+                echo ":global AddressList"
+                echo ":global ForwardTo"
+                echo "/ip dns static"
+                for e in "${all_entries[@]}"; do
+                  type=${e%%:*}
+                  value=${e#*:}
+                  case "$type" in
+                    domain) echo ":if ([:len [find name=\"$value\"]] = 0) do={ add address-list=\$AddressList forward-to=\$ForwardTo comment=\"$resource\" type=FWD name=\"$value\" }" ;;
+                    suffix) echo ":if ([:len [find name=\"$value\"]] = 0) do={ add address-list=\$AddressList forward-to=\$ForwardTo comment=\"$resource\" match-subdomain=yes type=FWD name=\"$value\" }" ;;
+                    regex)  echo ":if ([:len [find regexp=\"$value\"]] = 0) do={ add address-list=\$AddressList forward-to=\$ForwardTo comment=\"$resource\" type=FWD regexp=\"$value\" }" ;;
+                  esac
+                done
+              } > "$output"
+            else
+              part=1
+              idx=0
+              while [ $idx -lt $entry_count ]; do
+                output="for_scripts/${resource}_part${part}.rsc"
+                {
+                  echo ":global AddressList"
+                  echo ":global ForwardTo"
+                  echo "/ip dns static"
+                  for ((i=0; i<MAX_ENTRIES_PER_FILE && idx<entry_count; i++, idx++)); do
+                    e=${all_entries[$idx]}
+                    type=${e%%:*}
+                    value=${e#*:}
+                    case "$type" in
+                      domain) echo ":if ([:len [find name=\"$value\"]] = 0) do={ add address-list=\$AddressList forward-to=\$ForwardTo comment=\"$resource\" type=FWD name=\"$value\" }" ;;
+                      suffix) echo ":if ([:len [find name=\"$value\"]] = 0) do={ add address-list=\$AddressList forward-to=\$ForwardTo comment=\"$resource\" match-subdomain=yes type=FWD name=\"$value\" }" ;;
+                      regex)  echo ":if ([:len [find regexp=\"$value\"]] = 0) do={ add address-list=\$AddressList forward-to=\$ForwardTo comment=\"$resource\" type=FWD regexp=\"$value\" }" ;;
+                    esac
                   done
-              else
-                  # Split into multiple files
-                  part=1
-                  entry_index=0
-                  while [ $entry_index -lt $entry_count ]; do
-                      output_file="for_scripts/${resource}_part${part}.rsc"
-                      echo ":global AddressList" > "$output_file"
-                      echo ":global ForwardTo" >> "$output_file"
-                      echo "/ip dns static" >> "$output_file"
-                      for ((i=0; i<MAX_ENTRIES_PER_FILE && entry_index<entry_count; i++, entry_index++)); do
-                          entry=${all_entries[$entry_index]}
-                          type=$(echo "$entry" | cut -d':' -f1)
-                          value=$(echo "$entry" | cut -d':' -f2-)
-                          if [ "$type" = "suffix" ]; then
-                              echo ":if ([:len [find name=\"$value\"]] = 0) do={ add address-list=\$AddressList forward-to=\$ForwardTo comment=\"$resource\" match-subdomain=yes type=FWD name=\"$value\" }" >> "$output_file"
-                          elif [ "$type" = "domain" ]; then
-                              echo ":if ([:len [find name=\"$value\"]] = 0) do={ add address-list=\$AddressList forward-to=\$ForwardTo comment=\"$resource\" type=FWD name=\"$value\" }" >> "$output_file"
-                          elif [ "$type" = "regex" ]; then
-                              echo ":if ([:len [find regexp=\"$value\"]] = 0) do={ add address-list=\$AddressList forward-to=\$ForwardTo comment=\"$resource\" type=FWD regexp=\"$value\" }" >> "$output_file"
-                          fi
-                      done
-                      part=$((part + 1))
-                  done
-              fi
-          done
+                } > "$output"
+                part=$((part + 1))
+              done
+            fi
+            echo "Generated $entry_count entries → $resource"
+          done < geosite_files.txt
 
-      - name: Commit and push changes
+      - name: Commit and push
         run: |
           git config --global user.name 'github-actions[bot]'
           git config --global user.email 'github-actions[bot]@users.noreply.github.com'
           git add for_scripts/*.rsc
-          git commit -m "Update RSC files for scripts from iplist.opencck.org and MetaCubeX" || exit 0
+          git commit -m "Auto-update: iplist + ALL MetaCubeX geosite (local clone)" || exit 0
           git push
