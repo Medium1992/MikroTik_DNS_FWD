@@ -140,6 +140,6 @@
 :if ([:len [find name="zappos"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="amazon" match-subdomain=yes type=FWD name="zappos" }
 :if ([:len [find name="images-cn-8.ssl-images-amazon.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="amazon" type=FWD name="images-cn-8.ssl-images-amazon.com" }
 :if ([:len [find name="images-cn.ssl-images-amazon.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="amazon" type=FWD name="images-cn.ssl-images-amazon.com" }
-:if ([:len [find regexp=".+\\\.awsdns-[0-9][0-9]\\\.(co\\\.uk|com|net|org)\$"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="amazon" type=FWD regexp=".+\\\.awsdns-[0-9][0-9]\\\.(co\\\.uk|com|net|org)\$" }
-:if ([:len [find regexp=".+\\\.awsdns-cn-[0-9][0-9]\\\.(biz|com|net|top)\$"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="amazon" type=FWD regexp=".+\\\.awsdns-cn-[0-9][0-9]\\\.(biz|com|net|top)\$" }
-:if ([:len [find regexp=".+\\\.awsdns-cn-[0-9][a-e0-9]\\\.cn\$"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="amazon" type=FWD regexp=".+\\\.awsdns-cn-[0-9][a-e0-9]\\\.cn\$" }
+:if ([:len [find regexp=".+\\\\.awsdns-[0-9][0-9]\\\\.(co\\\\.uk|com|net|org)\$"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="amazon" type=FWD regexp=".+\\\\.awsdns-[0-9][0-9]\\\\.(co\\\\.uk|com|net|org)\$" }
+:if ([:len [find regexp=".+\\\\.awsdns-cn-[0-9][0-9]\\\\.(biz|com|net|top)\$"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="amazon" type=FWD regexp=".+\\\\.awsdns-cn-[0-9][0-9]\\\\.(biz|com|net|top)\$" }
+:if ([:len [find regexp=".+\\\\.awsdns-cn-[0-9][a-e0-9]\\\\.cn\$"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="amazon" type=FWD regexp=".+\\\\.awsdns-cn-[0-9][a-e0-9]\\\\.cn\$" }

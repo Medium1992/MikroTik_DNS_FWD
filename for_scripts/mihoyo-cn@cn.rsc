@@ -15,4 +15,4 @@
 :if ([:len [find name="miyoushe.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="mihoyo-cn@cn" match-subdomain=yes type=FWD name="miyoushe.com" }
 :if ([:len [find name="themisweeps.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="mihoyo-cn@cn" match-subdomain=yes type=FWD name="themisweeps.com" }
 :if ([:len [find name="yuanshen.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="mihoyo-cn@cn" match-subdomain=yes type=FWD name="yuanshen.com" }
-:if ([:len [find regexp="^.+-mihayo\\\.akamaized\\\.net\$"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="mihoyo-cn@cn" type=FWD regexp="^.+-mihayo\\\.akamaized\\\.net\$" }
+:if ([:len [find regexp="^.+-mihayo\\\\.akamaized\\\\.net\$"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="mihoyo-cn@cn" type=FWD regexp="^.+-mihayo\\\\.akamaized\\\\.net\$" }

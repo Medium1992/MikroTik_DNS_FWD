@@ -43,4 +43,4 @@
 :if ([:len [find name="marketingplatform.google.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="google@ads" match-subdomain=yes type=FWD name="marketingplatform.google.com" }
 :if ([:len [find name="urchin.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="google@ads" match-subdomain=yes type=FWD name="urchin.com" }
 :if ([:len [find name="analytics.google.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="google@ads" type=FWD name="analytics.google.com" }
-:if ([:len [find regexp="^adservice\\\.google\\\.([a-z]{2}|com\?)(\\\.[a-z]{2})\?\$"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="google@ads" type=FWD regexp="^adservice\\\.google\\\.([a-z]{2}|com\?)(\\\.[a-z]{2})\?\$" }
+:if ([:len [find regexp="^adservice\\\\.google\\\\.([a-z]{2}|com\?)(\\\\.[a-z]{2})\?\$"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="google@ads" type=FWD regexp="^adservice\\\\.google\\\\.([a-z]{2}|com\?)(\\\\.[a-z]{2})\?\$" }

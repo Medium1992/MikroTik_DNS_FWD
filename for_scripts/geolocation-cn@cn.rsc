@@ -138,6 +138,6 @@
 :if ([:len [find name="ntp7.aliyun.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-cn@cn" type=FWD name="ntp7.aliyun.com" }
 :if ([:len [find name="time.izatcloud.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-cn@cn" type=FWD name="time.izatcloud.net" }
 :if ([:len [find name="time.xtracloud.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-cn@cn" type=FWD name="time.xtracloud.net" }
-:if ([:len [find regexp=".+\\\.awsdns-cn-[0-9][0-9]\\\.(biz|com|net|top)\$"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-cn@cn" type=FWD regexp=".+\\\.awsdns-cn-[0-9][0-9]\\\.(biz|com|net|top)\$" }
-:if ([:len [find regexp=".+\\\.awsdns-cn-[0-9][a-e0-9]\\\.cn\$"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-cn@cn" type=FWD regexp=".+\\\.awsdns-cn-[0-9][a-e0-9]\\\.cn\$" }
-:if ([:len [find regexp="^.+-mihayo\\\.akamaized\\\.net\$"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-cn@cn" type=FWD regexp="^.+-mihayo\\\.akamaized\\\.net\$" }
+:if ([:len [find regexp=".+\\\\.awsdns-cn-[0-9][0-9]\\\\.(biz|com|net|top)\$"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-cn@cn" type=FWD regexp=".+\\\\.awsdns-cn-[0-9][0-9]\\\\.(biz|com|net|top)\$" }
+:if ([:len [find regexp=".+\\\\.awsdns-cn-[0-9][a-e0-9]\\\\.cn\$"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-cn@cn" type=FWD regexp=".+\\\\.awsdns-cn-[0-9][a-e0-9]\\\\.cn\$" }
+:if ([:len [find regexp="^.+-mihayo\\\\.akamaized\\\\.net\$"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-cn@cn" type=FWD regexp="^.+-mihayo\\\\.akamaized\\\\.net\$" }

@@ -111,4 +111,4 @@
 :if ([:len [find name="espn.api.edge.bamgrid.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="disney" type=FWD name="espn.api.edge.bamgrid.com" }
 :if ([:len [find name="espn.hb.omtrdc.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="disney" type=FWD name="espn.hb.omtrdc.net" }
 :if ([:len [find name="espndotcom.tt.omtrdc.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="disney" type=FWD name="espndotcom.tt.omtrdc.net" }
-:if ([:len [find regexp="^hses[1-7]\?\\\.akamaized\\\.net\$"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="disney" type=FWD regexp="^hses[1-7]\?\\\.akamaized\\\.net\$" }
+:if ([:len [find regexp="^hses[1-7]\?\\\\.akamaized\\\\.net\$"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="disney" type=FWD regexp="^hses[1-7]\?\\\\.akamaized\\\\.net\$" }

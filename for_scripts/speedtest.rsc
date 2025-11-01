@@ -13,4 +13,4 @@
 :if ([:len [find name="speedtestcustom.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="speedtest" match-subdomain=yes type=FWD name="speedtestcustom.com" }
 :if ([:len [find name="webtest.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="speedtest" match-subdomain=yes type=FWD name="webtest.net" }
 :if ([:len [find name="www.speedtest.net.cdn.cloudflare.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="speedtest" type=FWD name="www.speedtest.net.cdn.cloudflare.net" }
-:if ([:len [find regexp="^speed\\\.(coe|open)\\\.ad\\\.[a-z]{2,6}\\\.prod\\\.hosts\\\.ooklaserver\\\.net\$"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="speedtest" type=FWD regexp="^speed\\\.(coe|open)\\\.ad\\\.[a-z]{2,6}\\\.prod\\\.hosts\\\.ooklaserver\\\.net\$" }
+:if ([:len [find regexp="^speed\\\\.(coe|open)\\\\.ad\\\\.[a-z]{2,6}\\\\.prod\\\\.hosts\\\\.ooklaserver\\\\.net\$"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="speedtest" type=FWD regexp="^speed\\\\.(coe|open)\\\\.ad\\\\.[a-z]{2,6}\\\\.prod\\\\.hosts\\\\.ooklaserver\\\\.net\$" }

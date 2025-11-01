@@ -148,5 +148,5 @@
 :if ([:len [find name="www.pxcc.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="google@cn" type=FWD name="www.pxcc.com" }
 :if ([:len [find name="www.recaptcha.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="google@cn" type=FWD name="www.recaptcha.net" }
 :if ([:len [find name="xn--flw351e.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="google@cn" type=FWD name="xn--flw351e.com" }
-:if ([:len [find regexp="^r+[0-9]+(---|\\\.)sn-(2x3|ni5|j5o)\\\w{5}\\\.googlevideo\\\.com\$"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="google@cn" type=FWD regexp="^r+[0-9]+(---|\\\.)sn-(2x3|ni5|j5o)\\\w{5}\\\.googlevideo\\\.com\$" }
-:if ([:len [find regexp="^r+[0-9]+(---|\\\.)sn-(2x3|ni5|j5o)\\\w{5}\\\.xn--ngstr-lra8j\\\.com\$"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="google@cn" type=FWD regexp="^r+[0-9]+(---|\\\.)sn-(2x3|ni5|j5o)\\\w{5}\\\.xn--ngstr-lra8j\\\.com\$" }
+:if ([:len [find regexp="^r+[0-9]+(---|\\\\.)sn-(2x3|ni5|j5o)\\\\w{5}\\\\.googlevideo\\\\.com\$"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="google@cn" type=FWD regexp="^r+[0-9]+(---|\\\\.)sn-(2x3|ni5|j5o)\\\\w{5}\\\\.googlevideo\\\\.com\$" }
+:if ([:len [find regexp="^r+[0-9]+(---|\\\\.)sn-(2x3|ni5|j5o)\\\\w{5}\\\\.xn--ngstr-lra8j\\\\.com\$"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="google@cn" type=FWD regexp="^r+[0-9]+(---|\\\\.)sn-(2x3|ni5|j5o)\\\\w{5}\\\\.xn--ngstr-lra8j\\\\.com\$" }

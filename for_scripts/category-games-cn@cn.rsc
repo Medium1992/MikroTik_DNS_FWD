@@ -83,4 +83,4 @@
 :if ([:len [find name="yzyxgame.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-games-cn@cn" match-subdomain=yes type=FWD name="yzyxgame.com" }
 :if ([:len [find name="zcjbgame.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-games-cn@cn" match-subdomain=yes type=FWD name="zcjbgame.com" }
 :if ([:len [find name="zhuoyuegame.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-games-cn@cn" match-subdomain=yes type=FWD name="zhuoyuegame.com" }
-:if ([:len [find regexp="^.+-mihayo\\\.akamaized\\\.net\$"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-games-cn@cn" type=FWD regexp="^.+-mihayo\\\.akamaized\\\.net\$" }
+:if ([:len [find regexp="^.+-mihayo\\\\.akamaized\\\\.net\$"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-games-cn@cn" type=FWD regexp="^.+-mihayo\\\\.akamaized\\\\.net\$" }

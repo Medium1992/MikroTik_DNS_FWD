@@ -16,4 +16,4 @@
 :if ([:len [find name="vimeogoods.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="vimeo" match-subdomain=yes type=FWD name="vimeogoods.com" }
 :if ([:len [find name="vimeoondemand.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="vimeo" match-subdomain=yes type=FWD name="vimeoondemand.com" }
 :if ([:len [find name="vimeostatus.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="vimeo" match-subdomain=yes type=FWD name="vimeostatus.com" }
-:if ([:len [find regexp="^[0-9]+vod-adaptive\\\.akamaized\\\.net\$"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="vimeo" type=FWD regexp="^[0-9]+vod-adaptive\\\.akamaized\\\.net\$" }
+:if ([:len [find regexp="^[0-9]+vod-adaptive\\\\.akamaized\\\\.net\$"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="vimeo" type=FWD regexp="^[0-9]+vod-adaptive\\\\.akamaized\\\\.net\$" }

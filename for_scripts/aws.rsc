@@ -49,6 +49,6 @@
 :if ([:len [find name="containersonaws.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="aws" match-subdomain=yes type=FWD name="containersonaws.com" }
 :if ([:len [find name="elasticbeanstalk.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="aws" match-subdomain=yes type=FWD name="elasticbeanstalk.com" }
 :if ([:len [find name="thinkboxsoftware.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="aws" match-subdomain=yes type=FWD name="thinkboxsoftware.com" }
-:if ([:len [find regexp=".+\\\.awsdns-[0-9][0-9]\\\.(co\\\.uk|com|net|org)\$"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="aws" type=FWD regexp=".+\\\.awsdns-[0-9][0-9]\\\.(co\\\.uk|com|net|org)\$" }
-:if ([:len [find regexp=".+\\\.awsdns-cn-[0-9][0-9]\\\.(biz|com|net|top)\$"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="aws" type=FWD regexp=".+\\\.awsdns-cn-[0-9][0-9]\\\.(biz|com|net|top)\$" }
-:if ([:len [find regexp=".+\\\.awsdns-cn-[0-9][a-e0-9]\\\.cn\$"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="aws" type=FWD regexp=".+\\\.awsdns-cn-[0-9][a-e0-9]\\\.cn\$" }
+:if ([:len [find regexp=".+\\\\.awsdns-[0-9][0-9]\\\\.(co\\\\.uk|com|net|org)\$"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="aws" type=FWD regexp=".+\\\\.awsdns-[0-9][0-9]\\\\.(co\\\\.uk|com|net|org)\$" }
+:if ([:len [find regexp=".+\\\\.awsdns-cn-[0-9][0-9]\\\\.(biz|com|net|top)\$"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="aws" type=FWD regexp=".+\\\\.awsdns-cn-[0-9][0-9]\\\\.(biz|com|net|top)\$" }
+:if ([:len [find regexp=".+\\\\.awsdns-cn-[0-9][a-e0-9]\\\\.cn\$"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="aws" type=FWD regexp=".+\\\\.awsdns-cn-[0-9][a-e0-9]\\\\.cn\$" }

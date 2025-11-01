@@ -9,6 +9,6 @@
 :if ([:len [find name="productcard.gog-statics.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="gog@cn" type=FWD name="productcard.gog-statics.com" }
 :if ([:len [find name="static-login.gog-statics.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="gog@cn" type=FWD name="static-login.gog-statics.com" }
 :if ([:len [find name="www4-static.gog-statics.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="gog@cn" type=FWD name="www4-static.gog-statics.com" }
-:if ([:len [find regexp="^cdn-akamai-.+\\\.gog-services\\\.com\$"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="gog@cn" type=FWD regexp="^cdn-akamai-.+\\\.gog-services\\\.com\$" }
-:if ([:len [find regexp="^gog-cdn-.+\\\.footprint\\\.net\$"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="gog@cn" type=FWD regexp="^gog-cdn-.+\\\.footprint\\\.net\$" }
-:if ([:len [find regexp="^images(-\\\d)\?\\\.gog-statics\\\.com\$"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="gog@cn" type=FWD regexp="^images(-\\\d)\?\\\.gog-statics\\\.com\$" }
+:if ([:len [find regexp="^cdn-akamai-.+\\\\.gog-services\\\\.com\$"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="gog@cn" type=FWD regexp="^cdn-akamai-.+\\\\.gog-services\\\\.com\$" }
+:if ([:len [find regexp="^gog-cdn-.+\\\\.footprint\\\\.net\$"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="gog@cn" type=FWD regexp="^gog-cdn-.+\\\\.footprint\\\\.net\$" }
+:if ([:len [find regexp="^images(-\\\\d)\?\\\\.gog-statics\\\\.com\$"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="gog@cn" type=FWD regexp="^images(-\\\\d)\?\\\\.gog-statics\\\\.com\$" }

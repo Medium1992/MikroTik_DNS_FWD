@@ -10,4 +10,4 @@
 :if ([:len [find name="quay.io"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-container" match-subdomain=yes type=FWD name="quay.io" }
 :if ([:len [find name="registry.gitlab.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-container" match-subdomain=yes type=FWD name="registry.gitlab.com" }
 :if ([:len [find name="registry.k8s.io"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-container" match-subdomain=yes type=FWD name="registry.k8s.io" }
-:if ([:len [find regexp=".+\\\.dkr\\\.ecr\\\.[^\\\.]+\\\.amazonaws\\\.com\$"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-container" type=FWD regexp=".+\\\.dkr\\\.ecr\\\.[^\\\.]+\\\.amazonaws\\\.com\$" }
+:if ([:len [find regexp=".+\\\\.dkr\\\\.ecr\\\\.[^\\\\.]+\\\\.amazonaws\\\\.com\$"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-container" type=FWD regexp=".+\\\\.dkr\\\\.ecr\\\\.[^\\\\.]+\\\\.amazonaws\\\\.com\$" }
