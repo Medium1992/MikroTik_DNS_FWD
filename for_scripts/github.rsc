@@ -31,4 +31,4 @@
 :if ([:len [find name="thegithubshop.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="github" match-subdomain=yes type=FWD name="thegithubshop.com" }
 :if ([:len [find name="github-api.arkoselabs.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="github" type=FWD name="github-api.arkoselabs.com" }
 :if ([:len [find name="github-cloud.s3.amazonaws.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="github" type=FWD name="github-cloud.s3.amazonaws.com" }
-:if ([:len [find regexp="^github-production-release-asset-[0-9a-zA-Z]{6}\\\\.s3\\\\.amazonaws\\\\.com\$"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="github" type=FWD regexp="^github-production-release-asset-[0-9a-zA-Z]{6}\\\\.s3\\\\.amazonaws\\\\.com\$" }
+:if ([:len [find regexp="^github-production-release-asset-[0-9a-zA-Z]{6}\\\.s3\\\.amazonaws\\\.com\$"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="github" type=FWD regexp="^github-production-release-asset-[0-9a-zA-Z]{6}\\\.s3\\\.amazonaws\\\.com\$" }

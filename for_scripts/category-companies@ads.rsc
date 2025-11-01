@@ -1,0 +1,71 @@
+:global AddressList
+:global ForwardTo
+/ip dns static
+:if ([:len [find name="2mdn-cn.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies@ads" match-subdomain=yes type=FWD name="2mdn-cn.net" }
+:if ([:len [find name="2mdn.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies@ads" match-subdomain=yes type=FWD name="2mdn.net" }
+:if ([:len [find name="admob-cn.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies@ads" match-subdomain=yes type=FWD name="admob-cn.com" }
+:if ([:len [find name="admob.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies@ads" match-subdomain=yes type=FWD name="admob.com" }
+:if ([:len [find name="ads-api.duolingo.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies@ads" match-subdomain=yes type=FWD name="ads-api.duolingo.com" }
+:if ([:len [find name="ads.yahoo.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies@ads" match-subdomain=yes type=FWD name="ads.yahoo.com" }
+:if ([:len [find name="ads.youtube.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies@ads" match-subdomain=yes type=FWD name="ads.youtube.com" }
+:if ([:len [find name="adsense.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies@ads" match-subdomain=yes type=FWD name="adsense.com" }
+:if ([:len [find name="adsensecustomsearchads.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies@ads" match-subdomain=yes type=FWD name="adsensecustomsearchads.com" }
+:if ([:len [find name="adsenseformobileapps.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies@ads" match-subdomain=yes type=FWD name="adsenseformobileapps.com" }
+:if ([:len [find name="adservice.google.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies@ads" match-subdomain=yes type=FWD name="adservice.google.com" }
+:if ([:len [find name="advertisercommunity.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies@ads" match-subdomain=yes type=FWD name="advertisercommunity.com" }
+:if ([:len [find name="advertiserscommunity.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies@ads" match-subdomain=yes type=FWD name="advertiserscommunity.com" }
+:if ([:len [find name="advertising.adobe.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies@ads" match-subdomain=yes type=FWD name="advertising.adobe.com" }
+:if ([:len [find name="adwords-community.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies@ads" match-subdomain=yes type=FWD name="adwords-community.com" }
+:if ([:len [find name="adwords.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies@ads" match-subdomain=yes type=FWD name="adwords.com" }
+:if ([:len [find name="adwordsexpress.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies@ads" match-subdomain=yes type=FWD name="adwordsexpress.com" }
+:if ([:len [find name="amazon-adsystem.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies@ads" match-subdomain=yes type=FWD name="amazon-adsystem.com" }
+:if ([:len [find name="analytics.vpc.duolingo.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies@ads" match-subdomain=yes type=FWD name="analytics.vpc.duolingo.com" }
+:if ([:len [find name="api-adservices.apple.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies@ads" match-subdomain=yes type=FWD name="api-adservices.apple.com" }
+:if ([:len [find name="app-measurement-cn.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies@ads" match-subdomain=yes type=FWD name="app-measurement-cn.com" }
+:if ([:len [find name="app-measurement.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies@ads" match-subdomain=yes type=FWD name="app-measurement.com" }
+:if ([:len [find name="doubleclick-cn.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies@ads" match-subdomain=yes type=FWD name="doubleclick-cn.net" }
+:if ([:len [find name="doubleclick.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies@ads" match-subdomain=yes type=FWD name="doubleclick.com" }
+:if ([:len [find name="doubleclick.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies@ads" match-subdomain=yes type=FWD name="doubleclick.net" }
+:if ([:len [find name="gemini.yahoo.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies@ads" match-subdomain=yes type=FWD name="gemini.yahoo.com" }
+:if ([:len [find name="google-analytics-cn.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies@ads" match-subdomain=yes type=FWD name="google-analytics-cn.com" }
+:if ([:len [find name="google-analytics.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies@ads" match-subdomain=yes type=FWD name="google-analytics.com" }
+:if ([:len [find name="googleadapis.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies@ads" match-subdomain=yes type=FWD name="googleadapis.com" }
+:if ([:len [find name="googleads-cn.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies@ads" match-subdomain=yes type=FWD name="googleads-cn.com" }
+:if ([:len [find name="googleads.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies@ads" match-subdomain=yes type=FWD name="googleads.com" }
+:if ([:len [find name="googleadservices-cn.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies@ads" match-subdomain=yes type=FWD name="googleadservices-cn.com" }
+:if ([:len [find name="googleadservices.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies@ads" match-subdomain=yes type=FWD name="googleadservices.com" }
+:if ([:len [find name="googleanalytics.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies@ads" match-subdomain=yes type=FWD name="googleanalytics.com" }
+:if ([:len [find name="googleoptimize-cn.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies@ads" match-subdomain=yes type=FWD name="googleoptimize-cn.com" }
+:if ([:len [find name="googleoptimize.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies@ads" match-subdomain=yes type=FWD name="googleoptimize.com" }
+:if ([:len [find name="googlesyndication-cn.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies@ads" match-subdomain=yes type=FWD name="googlesyndication-cn.com" }
+:if ([:len [find name="googlesyndication.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies@ads" match-subdomain=yes type=FWD name="googlesyndication.com" }
+:if ([:len [find name="googletagmanager-cn.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies@ads" match-subdomain=yes type=FWD name="googletagmanager-cn.com" }
+:if ([:len [find name="googletagmanager.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies@ads" match-subdomain=yes type=FWD name="googletagmanager.com" }
+:if ([:len [find name="googletagservices-cn.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies@ads" match-subdomain=yes type=FWD name="googletagservices-cn.com" }
+:if ([:len [find name="googletagservices.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies@ads" match-subdomain=yes type=FWD name="googletagservices.com" }
+:if ([:len [find name="googletraveladservices-cn.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies@ads" match-subdomain=yes type=FWD name="googletraveladservices-cn.com" }
+:if ([:len [find name="googletraveladservices.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies@ads" match-subdomain=yes type=FWD name="googletraveladservices.com" }
+:if ([:len [find name="googlevads-cn.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies@ads" match-subdomain=yes type=FWD name="googlevads-cn.com" }
+:if ([:len [find name="graph-fallback.instagram.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies@ads" match-subdomain=yes type=FWD name="graph-fallback.instagram.com" }
+:if ([:len [find name="graph.instagram.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies@ads" match-subdomain=yes type=FWD name="graph.instagram.com" }
+:if ([:len [find name="graph.whatsapp.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies@ads" match-subdomain=yes type=FWD name="graph.whatsapp.com" }
+:if ([:len [find name="graph.whatsapp.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies@ads" match-subdomain=yes type=FWD name="graph.whatsapp.net" }
+:if ([:len [find name="iad.apple.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies@ads" match-subdomain=yes type=FWD name="iad.apple.com" }
+:if ([:len [find name="iadsdk.apple.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies@ads" match-subdomain=yes type=FWD name="iadsdk.apple.com" }
+:if ([:len [find name="mail-ads.google.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies@ads" match-subdomain=yes type=FWD name="mail-ads.google.com" }
+:if ([:len [find name="marketingplatform.google.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies@ads" match-subdomain=yes type=FWD name="marketingplatform.google.com" }
+:if ([:len [find name="metrics.duolingo.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies@ads" match-subdomain=yes type=FWD name="metrics.duolingo.com" }
+:if ([:len [find name="nelreports.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies@ads" match-subdomain=yes type=FWD name="nelreports.net" }
+:if ([:len [find name="qwapi.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies@ads" match-subdomain=yes type=FWD name="qwapi.com" }
+:if ([:len [find name="samsungads.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies@ads" match-subdomain=yes type=FWD name="samsungads.com" }
+:if ([:len [find name="serving-sys.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies@ads" match-subdomain=yes type=FWD name="serving-sys.com" }
+:if ([:len [find name="snapads.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies@ads" match-subdomain=yes type=FWD name="snapads.com" }
+:if ([:len [find name="tubemogul.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies@ads" match-subdomain=yes type=FWD name="tubemogul.com" }
+:if ([:len [find name="urchin.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies@ads" match-subdomain=yes type=FWD name="urchin.com" }
+:if ([:len [find name="ysm.yahoo.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies@ads" match-subdomain=yes type=FWD name="ysm.yahoo.com" }
+:if ([:len [find name="analytics.google.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies@ads" type=FWD name="analytics.google.com" }
+:if ([:len [find name="browser-intake-datadoghq.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies@ads" type=FWD name="browser-intake-datadoghq.com" }
+:if ([:len [find name="o33249.ingest.sentry.io"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies@ads" type=FWD name="o33249.ingest.sentry.io" }
+:if ([:len [find name="openaicom.imgix.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies@ads" type=FWD name="openaicom.imgix.net" }
+:if ([:len [find name="sentry.hetzner.company"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies@ads" type=FWD name="sentry.hetzner.company" }
+:if ([:len [find regexp="^adservice\\\.google\\\.([a-z]{2}|com\?)(\\\.[a-z]{2})\?\$"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies@ads" type=FWD regexp="^adservice\\\.google\\\.([a-z]{2}|com\?)(\\\.[a-z]{2})\?\$" }

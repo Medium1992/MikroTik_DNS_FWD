@@ -1,0 +1,44 @@
+:global AddressList
+:global ForwardTo
+/ip dns static
+:if ([:len [find name="activeteachonline.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="pearson" match-subdomain=yes type=FWD name="activeteachonline.com" }
+:if ([:len [find name="connectionsacademy.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="pearson" match-subdomain=yes type=FWD name="connectionsacademy.com" }
+:if ([:len [find name="connectionseducation.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="pearson" match-subdomain=yes type=FWD name="connectionseducation.com" }
+:if ([:len [find name="connectionslearning.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="pearson" match-subdomain=yes type=FWD name="connectionslearning.com" }
+:if ([:len [find name="ilongman.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="pearson" match-subdomain=yes type=FWD name="ilongman.com" }
+:if ([:len [find name="integral7.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="pearson" match-subdomain=yes type=FWD name="integral7.com" }
+:if ([:len [find name="internationalconnectionsacademy.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="pearson" match-subdomain=yes type=FWD name="internationalconnectionsacademy.com" }
+:if ([:len [find name="myhelpinglab.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="pearson" match-subdomain=yes type=FWD name="myhelpinglab.com" }
+:if ([:len [find name="mylogiclab.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="pearson" match-subdomain=yes type=FWD name="mylogiclab.com" }
+:if ([:len [find name="mypearson.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="pearson" match-subdomain=yes type=FWD name="mypearson.com" }
+:if ([:len [find name="mysocialworklab.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="pearson" match-subdomain=yes type=FWD name="mysocialworklab.com" }
+:if ([:len [find name="pearson-anaya.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="pearson" match-subdomain=yes type=FWD name="pearson-anaya.com" }
+:if ([:len [find name="pearson-intl.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="pearson" match-subdomain=yes type=FWD name="pearson-intl.com" }
+:if ([:len [find name="pearson.co.jp"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="pearson" match-subdomain=yes type=FWD name="pearson.co.jp" }
+:if ([:len [find name="pearson.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="pearson" match-subdomain=yes type=FWD name="pearson.com" }
+:if ([:len [find name="pearsonactivelearn.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="pearson" match-subdomain=yes type=FWD name="pearsonactivelearn.com" }
+:if ([:len [find name="pearsonassessment.be"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="pearson" match-subdomain=yes type=FWD name="pearsonassessment.be" }
+:if ([:len [find name="pearsonassessment.nl"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="pearson" match-subdomain=yes type=FWD name="pearsonassessment.nl" }
+:if ([:len [find name="pearsonassessment.se"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="pearson" match-subdomain=yes type=FWD name="pearsonassessment.se" }
+:if ([:len [find name="pearsonassessments.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="pearson" match-subdomain=yes type=FWD name="pearsonassessments.com" }
+:if ([:len [find name="pearsonclinical.be"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="pearson" match-subdomain=yes type=FWD name="pearsonclinical.be" }
+:if ([:len [find name="pearsonclinical.eu"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="pearson" match-subdomain=yes type=FWD name="pearsonclinical.eu" }
+:if ([:len [find name="pearsonclinical.nl"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="pearson" match-subdomain=yes type=FWD name="pearsonclinical.nl" }
+:if ([:len [find name="pearsonclinical.se"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="pearson" match-subdomain=yes type=FWD name="pearsonclinical.se" }
+:if ([:len [find name="pearsoncmg.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="pearson" match-subdomain=yes type=FWD name="pearsoncmg.com" }
+:if ([:len [find name="pearsoncred.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="pearson" match-subdomain=yes type=FWD name="pearsoncred.com" }
+:if ([:len [find name="pearsoned.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="pearson" match-subdomain=yes type=FWD name="pearsoned.com" }
+:if ([:len [find name="pearsoneducacion.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="pearson" match-subdomain=yes type=FWD name="pearsoneducacion.net" }
+:if ([:len [find name="pearsoneducationbooks.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="pearson" match-subdomain=yes type=FWD name="pearsoneducationbooks.com" }
+:if ([:len [find name="pearsonelt.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="pearson" match-subdomain=yes type=FWD name="pearsonelt.com" }
+:if ([:len [find name="pearsonenespanol.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="pearson" match-subdomain=yes type=FWD name="pearsonenespanol.com" }
+:if ([:len [find name="pearsonhighered.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="pearson" match-subdomain=yes type=FWD name="pearsonhighered.com" }
+:if ([:len [find name="pearsononlineacademy.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="pearson" match-subdomain=yes type=FWD name="pearsononlineacademy.com" }
+:if ([:len [find name="pearsonvue.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="pearson" match-subdomain=yes type=FWD name="pearsonvue.com" }
+:if ([:len [find name="pearsonvue.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="pearson" match-subdomain=yes type=FWD name="pearsonvue.net" }
+:if ([:len [find name="pobl-content.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="pearson" match-subdomain=yes type=FWD name="pobl-content.com" }
+:if ([:len [find name="pvue1.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="pearson" match-subdomain=yes type=FWD name="pvue1.com" }
+:if ([:len [find name="pvue2.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="pearson" match-subdomain=yes type=FWD name="pvue2.com" }
+:if ([:len [find name="talentlens.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="pearson" match-subdomain=yes type=FWD name="talentlens.com" }
+:if ([:len [find name="themathsfactor.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="pearson" match-subdomain=yes type=FWD name="themathsfactor.com" }
+:if ([:len [find name="xn--pearsonenespaol-brb.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="pearson" match-subdomain=yes type=FWD name="xn--pearsonenespaol-brb.com" }

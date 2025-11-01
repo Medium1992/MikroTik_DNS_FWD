@@ -80,4 +80,4 @@
 :if ([:len [find name="wscont1.apps.microsoft.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="microsoft" type=FWD name="wscont1.apps.microsoft.com" }
 :if ([:len [find name="wscont2.apps.microsoft.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="microsoft" type=FWD name="wscont2.apps.microsoft.com" }
 :if ([:len [find name="www.microsoft.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="microsoft" type=FWD name="www.microsoft.com" }
-:if ([:len [find regexp="^github-production-release-asset-[0-9a-zA-Z]{6}\\\\.s3\\\\.amazonaws\\\\.com\$"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="microsoft" type=FWD regexp="^github-production-release-asset-[0-9a-zA-Z]{6}\\\\.s3\\\\.amazonaws\\\\.com\$" }
+:if ([:len [find regexp="^github-production-release-asset-[0-9a-zA-Z]{6}\\\.s3\\\.amazonaws\\\.com\$"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="microsoft" type=FWD regexp="^github-production-release-asset-[0-9a-zA-Z]{6}\\\.s3\\\.amazonaws\\\.com\$" }

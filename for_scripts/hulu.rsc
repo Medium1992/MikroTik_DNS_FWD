@@ -1,0 +1,51 @@
+:global AddressList
+:global ForwardTo
+/ip dns static
+:if ([:len [find name="112263.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="hulu" match-subdomain=yes type=FWD name="112263.com" }
+:if ([:len [find name="callhulu.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="hulu" match-subdomain=yes type=FWD name="callhulu.com" }
+:if ([:len [find name="findyourlimits.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="hulu" match-subdomain=yes type=FWD name="findyourlimits.com" }
+:if ([:len [find name="freehulu.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="hulu" match-subdomain=yes type=FWD name="freehulu.com" }
+:if ([:len [find name="hooloo.tv"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="hulu" match-subdomain=yes type=FWD name="hooloo.tv" }
+:if ([:len [find name="hoolu.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="hulu" match-subdomain=yes type=FWD name="hoolu.com" }
+:if ([:len [find name="hoolu.tv"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="hulu" match-subdomain=yes type=FWD name="hoolu.tv" }
+:if ([:len [find name="hu1u.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="hulu" match-subdomain=yes type=FWD name="hu1u.com" }
+:if ([:len [find name="huloo.cc"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="hulu" match-subdomain=yes type=FWD name="huloo.cc" }
+:if ([:len [find name="huloo.tv"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="hulu" match-subdomain=yes type=FWD name="huloo.tv" }
+:if ([:len [find name="hulu.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="hulu" match-subdomain=yes type=FWD name="hulu.com" }
+:if ([:len [find name="hulu.jp"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="hulu" match-subdomain=yes type=FWD name="hulu.jp" }
+:if ([:len [find name="hulu.tv"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="hulu" match-subdomain=yes type=FWD name="hulu.tv" }
+:if ([:len [find name="hulu.us"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="hulu" match-subdomain=yes type=FWD name="hulu.us" }
+:if ([:len [find name="huluaction.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="hulu" match-subdomain=yes type=FWD name="huluaction.com" }
+:if ([:len [find name="huluad.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="hulu" match-subdomain=yes type=FWD name="huluad.com" }
+:if ([:len [find name="huluapp.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="hulu" match-subdomain=yes type=FWD name="huluapp.com" }
+:if ([:len [find name="huluasks.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="hulu" match-subdomain=yes type=FWD name="huluasks.com" }
+:if ([:len [find name="hulucall.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="hulu" match-subdomain=yes type=FWD name="hulucall.com" }
+:if ([:len [find name="hulufree.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="hulu" match-subdomain=yes type=FWD name="hulufree.com" }
+:if ([:len [find name="hulugans.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="hulu" match-subdomain=yes type=FWD name="hulugans.com" }
+:if ([:len [find name="hulugermany.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="hulu" match-subdomain=yes type=FWD name="hulugermany.com" }
+:if ([:len [find name="hulugo.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="hulu" match-subdomain=yes type=FWD name="hulugo.com" }
+:if ([:len [find name="huluim.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="hulu" match-subdomain=yes type=FWD name="huluim.com" }
+:if ([:len [find name="huluinstantmessenger.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="hulu" match-subdomain=yes type=FWD name="huluinstantmessenger.com" }
+:if ([:len [find name="huluitaly.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="hulu" match-subdomain=yes type=FWD name="huluitaly.com" }
+:if ([:len [find name="hulunet.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="hulu" match-subdomain=yes type=FWD name="hulunet.com" }
+:if ([:len [find name="hulunetwork.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="hulu" match-subdomain=yes type=FWD name="hulunetwork.com" }
+:if ([:len [find name="huluplus.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="hulu" match-subdomain=yes type=FWD name="huluplus.com" }
+:if ([:len [find name="hulupremium.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="hulu" match-subdomain=yes type=FWD name="hulupremium.com" }
+:if ([:len [find name="hulupurchase.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="hulu" match-subdomain=yes type=FWD name="hulupurchase.com" }
+:if ([:len [find name="huluqa.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="hulu" match-subdomain=yes type=FWD name="huluqa.com" }
+:if ([:len [find name="hulurussia.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="hulu" match-subdomain=yes type=FWD name="hulurussia.com" }
+:if ([:len [find name="huluspain.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="hulu" match-subdomain=yes type=FWD name="huluspain.com" }
+:if ([:len [find name="hulusports.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="hulu" match-subdomain=yes type=FWD name="hulusports.com" }
+:if ([:len [find name="hulustream.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="hulu" match-subdomain=yes type=FWD name="hulustream.com" }
+:if ([:len [find name="huluteam.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="hulu" match-subdomain=yes type=FWD name="huluteam.com" }
+:if ([:len [find name="hulutv.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="hulu" match-subdomain=yes type=FWD name="hulutv.com" }
+:if ([:len [find name="huluusa.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="hulu" match-subdomain=yes type=FWD name="huluusa.com" }
+:if ([:len [find name="joinmaidez.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="hulu" match-subdomain=yes type=FWD name="joinmaidez.com" }
+:if ([:len [find name="mushymush.tv"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="hulu" match-subdomain=yes type=FWD name="mushymush.tv" }
+:if ([:len [find name="myhulu.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="hulu" match-subdomain=yes type=FWD name="myhulu.com" }
+:if ([:len [find name="originalhulu.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="hulu" match-subdomain=yes type=FWD name="originalhulu.com" }
+:if ([:len [find name="payhulu.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="hulu" match-subdomain=yes type=FWD name="payhulu.com" }
+:if ([:len [find name="registerhulu.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="hulu" match-subdomain=yes type=FWD name="registerhulu.com" }
+:if ([:len [find name="thehulubraintrust.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="hulu" match-subdomain=yes type=FWD name="thehulubraintrust.com" }
+:if ([:len [find name="wwwhuluplus.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="hulu" match-subdomain=yes type=FWD name="wwwhuluplus.com" }
+:if ([:len [find name="hulu.playback.edge.bamgrid.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="hulu" type=FWD name="hulu.playback.edge.bamgrid.com" }

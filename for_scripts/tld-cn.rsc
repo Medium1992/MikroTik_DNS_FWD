@@ -1,0 +1,40 @@
+:global AddressList
+:global ForwardTo
+/ip dns static
+:if ([:len [find name="baidu"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="tld-cn" match-subdomain=yes type=FWD name="baidu" }
+:if ([:len [find name="citic"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="tld-cn" match-subdomain=yes type=FWD name="citic" }
+:if ([:len [find name="cn"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="tld-cn" match-subdomain=yes type=FWD name="cn" }
+:if ([:len [find name="sohu"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="tld-cn" match-subdomain=yes type=FWD name="sohu" }
+:if ([:len [find name="unicom"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="tld-cn" match-subdomain=yes type=FWD name="unicom" }
+:if ([:len [find name="xn--1qqw23a"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="tld-cn" match-subdomain=yes type=FWD name="xn--1qqw23a" }
+:if ([:len [find name="xn--3bst00m"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="tld-cn" match-subdomain=yes type=FWD name="xn--3bst00m" }
+:if ([:len [find name="xn--3ds443g"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="tld-cn" match-subdomain=yes type=FWD name="xn--3ds443g" }
+:if ([:len [find name="xn--55qw42g"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="tld-cn" match-subdomain=yes type=FWD name="xn--55qw42g" }
+:if ([:len [find name="xn--55qx5d"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="tld-cn" match-subdomain=yes type=FWD name="xn--55qx5d" }
+:if ([:len [find name="xn--5tzm5g"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="tld-cn" match-subdomain=yes type=FWD name="xn--5tzm5g" }
+:if ([:len [find name="xn--6frz82g"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="tld-cn" match-subdomain=yes type=FWD name="xn--6frz82g" }
+:if ([:len [find name="xn--6qq986b3xl"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="tld-cn" match-subdomain=yes type=FWD name="xn--6qq986b3xl" }
+:if ([:len [find name="xn--8y0a063a"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="tld-cn" match-subdomain=yes type=FWD name="xn--8y0a063a" }
+:if ([:len [find name="xn--9et52u"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="tld-cn" match-subdomain=yes type=FWD name="xn--9et52u" }
+:if ([:len [find name="xn--czr694b"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="tld-cn" match-subdomain=yes type=FWD name="xn--czr694b" }
+:if ([:len [find name="xn--czrs0t"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="tld-cn" match-subdomain=yes type=FWD name="xn--czrs0t" }
+:if ([:len [find name="xn--czru2d"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="tld-cn" match-subdomain=yes type=FWD name="xn--czru2d" }
+:if ([:len [find name="xn--fiq228c5hs"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="tld-cn" match-subdomain=yes type=FWD name="xn--fiq228c5hs" }
+:if ([:len [find name="xn--fiq64b"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="tld-cn" match-subdomain=yes type=FWD name="xn--fiq64b" }
+:if ([:len [find name="xn--fiqs8s"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="tld-cn" match-subdomain=yes type=FWD name="xn--fiqs8s" }
+:if ([:len [find name="xn--fiqz9s"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="tld-cn" match-subdomain=yes type=FWD name="xn--fiqz9s" }
+:if ([:len [find name="xn--fjq720a"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="tld-cn" match-subdomain=yes type=FWD name="xn--fjq720a" }
+:if ([:len [find name="xn--g2xx48c"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="tld-cn" match-subdomain=yes type=FWD name="xn--g2xx48c" }
+:if ([:len [find name="xn--hxt814e"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="tld-cn" match-subdomain=yes type=FWD name="xn--hxt814e" }
+:if ([:len [find name="xn--imr513n"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="tld-cn" match-subdomain=yes type=FWD name="xn--imr513n" }
+:if ([:len [find name="xn--io0a7i"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="tld-cn" match-subdomain=yes type=FWD name="xn--io0a7i" }
+:if ([:len [find name="xn--kput3i"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="tld-cn" match-subdomain=yes type=FWD name="xn--kput3i" }
+:if ([:len [find name="xn--nyqy26a"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="tld-cn" match-subdomain=yes type=FWD name="xn--nyqy26a" }
+:if ([:len [find name="xn--otu796d"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="tld-cn" match-subdomain=yes type=FWD name="xn--otu796d" }
+:if ([:len [find name="xn--rhqv96g"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="tld-cn" match-subdomain=yes type=FWD name="xn--rhqv96g" }
+:if ([:len [find name="xn--ses554g"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="tld-cn" match-subdomain=yes type=FWD name="xn--ses554g" }
+:if ([:len [find name="xn--unup4y"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="tld-cn" match-subdomain=yes type=FWD name="xn--unup4y" }
+:if ([:len [find name="xn--vhquv"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="tld-cn" match-subdomain=yes type=FWD name="xn--vhquv" }
+:if ([:len [find name="xn--vuq861b"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="tld-cn" match-subdomain=yes type=FWD name="xn--vuq861b" }
+:if ([:len [find name="xn--xhq521b"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="tld-cn" match-subdomain=yes type=FWD name="xn--xhq521b" }
+:if ([:len [find name="xn--zfr164b"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="tld-cn" match-subdomain=yes type=FWD name="xn--zfr164b" }

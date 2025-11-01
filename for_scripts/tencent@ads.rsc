@@ -1,0 +1,39 @@
+:global AddressList
+:global ForwardTo
+/ip dns static
+:if ([:len [find name="ad.qq.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="tencent@ads" match-subdomain=yes type=FWD name="ad.qq.com" }
+:if ([:len [find name="ad.qun.qq.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="tencent@ads" match-subdomain=yes type=FWD name="ad.qun.qq.com" }
+:if ([:len [find name="adfilter.imtt.qq.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="tencent@ads" match-subdomain=yes type=FWD name="adfilter.imtt.qq.com" }
+:if ([:len [find name="adnet.qq.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="tencent@ads" match-subdomain=yes type=FWD name="adnet.qq.com" }
+:if ([:len [find name="adping.qq.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="tencent@ads" match-subdomain=yes type=FWD name="adping.qq.com" }
+:if ([:len [find name="adpm.app.qq.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="tencent@ads" match-subdomain=yes type=FWD name="adpm.app.qq.com" }
+:if ([:len [find name="adsclick.qq.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="tencent@ads" match-subdomain=yes type=FWD name="adsclick.qq.com" }
+:if ([:len [find name="adsfile.qq.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="tencent@ads" match-subdomain=yes type=FWD name="adsfile.qq.com" }
+:if ([:len [find name="adshmmsg.qq.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="tencent@ads" match-subdomain=yes type=FWD name="adshmmsg.qq.com" }
+:if ([:len [find name="adslvfile.qq.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="tencent@ads" match-subdomain=yes type=FWD name="adslvfile.qq.com" }
+:if ([:len [find name="adslvseed.qq.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="tencent@ads" match-subdomain=yes type=FWD name="adslvseed.qq.com" }
+:if ([:len [find name="adsmind.apdcdn.tc.qq.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="tencent@ads" match-subdomain=yes type=FWD name="adsmind.apdcdn.tc.qq.com" }
+:if ([:len [find name="adsqqclick.qq.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="tencent@ads" match-subdomain=yes type=FWD name="adsqqclick.qq.com" }
+:if ([:len [find name="adstestview.qq.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="tencent@ads" match-subdomain=yes type=FWD name="adstestview.qq.com" }
+:if ([:len [find name="adsview.qq.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="tencent@ads" match-subdomain=yes type=FWD name="adsview.qq.com" }
+:if ([:len [find name="adsview2.qq.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="tencent@ads" match-subdomain=yes type=FWD name="adsview2.qq.com" }
+:if ([:len [find name="adv.app.qq.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="tencent@ads" match-subdomain=yes type=FWD name="adv.app.qq.com" }
+:if ([:len [find name="adver.qq.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="tencent@ads" match-subdomain=yes type=FWD name="adver.qq.com" }
+:if ([:len [find name="beacon.qq.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="tencent@ads" match-subdomain=yes type=FWD name="beacon.qq.com" }
+:if ([:len [find name="beaconcdn.qq.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="tencent@ads" match-subdomain=yes type=FWD name="beaconcdn.qq.com" }
+:if ([:len [find name="btrace.qq.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="tencent@ads" match-subdomain=yes type=FWD name="btrace.qq.com" }
+:if ([:len [find name="e.qq.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="tencent@ads" match-subdomain=yes type=FWD name="e.qq.com" }
+:if ([:len [find name="gdt.qq.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="tencent@ads" match-subdomain=yes type=FWD name="gdt.qq.com" }
+:if ([:len [find name="isdspeed.qq.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="tencent@ads" match-subdomain=yes type=FWD name="isdspeed.qq.com" }
+:if ([:len [find name="log.tbs.qq.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="tencent@ads" match-subdomain=yes type=FWD name="log.tbs.qq.com" }
+:if ([:len [find name="mpush.qq.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="tencent@ads" match-subdomain=yes type=FWD name="mpush.qq.com" }
+:if ([:len [find name="mtrace.qq.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="tencent@ads" match-subdomain=yes type=FWD name="mtrace.qq.com" }
+:if ([:len [find name="pingjs.qq.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="tencent@ads" match-subdomain=yes type=FWD name="pingjs.qq.com" }
+:if ([:len [find name="push.qq.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="tencent@ads" match-subdomain=yes type=FWD name="push.qq.com" }
+:if ([:len [find name="sngmta.qq.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="tencent@ads" match-subdomain=yes type=FWD name="sngmta.qq.com" }
+:if ([:len [find name="stat.y.qq.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="tencent@ads" match-subdomain=yes type=FWD name="stat.y.qq.com" }
+:if ([:len [find name="tajs.qq.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="tencent@ads" match-subdomain=yes type=FWD name="tajs.qq.com" }
+:if ([:len [find name="tcss.qq.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="tencent@ads" match-subdomain=yes type=FWD name="tcss.qq.com" }
+:if ([:len [find name="trace.qq.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="tencent@ads" match-subdomain=yes type=FWD name="trace.qq.com" }
+:if ([:len [find name="ugdtimg.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="tencent@ads" match-subdomain=yes type=FWD name="ugdtimg.com" }
+:if ([:len [find name="wit.qq.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="tencent@ads" match-subdomain=yes type=FWD name="wit.qq.com" }

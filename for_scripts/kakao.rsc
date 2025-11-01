@@ -1,0 +1,45 @@
+:global AddressList
+:global ForwardTo
+/ip dns static
+:if ([:len [find name="1thek.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="kakao" match-subdomain=yes type=FWD name="1thek.com" }
+:if ([:len [find name="daum.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="kakao" match-subdomain=yes type=FWD name="daum.net" }
+:if ([:len [find name="daumcdn.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="kakao" match-subdomain=yes type=FWD name="daumcdn.net" }
+:if ([:len [find name="daumkakao.io"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="kakao" match-subdomain=yes type=FWD name="daumkakao.io" }
+:if ([:len [find name="daumpcbang.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="kakao" match-subdomain=yes type=FWD name="daumpcbang.com" }
+:if ([:len [find name="dolphiners.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="kakao" match-subdomain=yes type=FWD name="dolphiners.com" }
+:if ([:len [find name="fashionbykakao.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="kakao" match-subdomain=yes type=FWD name="fashionbykakao.com" }
+:if ([:len [find name="gleline.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="kakao" match-subdomain=yes type=FWD name="gleline.com" }
+:if ([:len [find name="kakao.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="kakao" match-subdomain=yes type=FWD name="kakao.com" }
+:if ([:len [find name="kakaobank.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="kakao" match-subdomain=yes type=FWD name="kakaobank.com" }
+:if ([:len [find name="kakaobank.io"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="kakao" match-subdomain=yes type=FWD name="kakaobank.io" }
+:if ([:len [find name="kakaobankcontent.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="kakao" match-subdomain=yes type=FWD name="kakaobankcontent.com" }
+:if ([:len [find name="kakaobrain.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="kakao" match-subdomain=yes type=FWD name="kakaobrain.com" }
+:if ([:len [find name="kakaocdn.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="kakao" match-subdomain=yes type=FWD name="kakaocdn.net" }
+:if ([:len [find name="kakaocloud.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="kakao" match-subdomain=yes type=FWD name="kakaocloud.com" }
+:if ([:len [find name="kakaocorp.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="kakao" match-subdomain=yes type=FWD name="kakaocorp.com" }
+:if ([:len [find name="kakaoent.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="kakao" match-subdomain=yes type=FWD name="kakaoent.com" }
+:if ([:len [find name="kakaoenterprise.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="kakao" match-subdomain=yes type=FWD name="kakaoenterprise.com" }
+:if ([:len [find name="kakaogamescorp.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="kakao" match-subdomain=yes type=FWD name="kakaogamescorp.com" }
+:if ([:len [find name="kakaohealthcare.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="kakao" match-subdomain=yes type=FWD name="kakaohealthcare.com" }
+:if ([:len [find name="kakaoilaas.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="kakao" match-subdomain=yes type=FWD name="kakaoilaas.com" }
+:if ([:len [find name="kakaoinvestment.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="kakao" match-subdomain=yes type=FWD name="kakaoinvestment.com" }
+:if ([:len [find name="kakaomobility.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="kakao" match-subdomain=yes type=FWD name="kakaomobility.com" }
+:if ([:len [find name="kakaopay.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="kakao" match-subdomain=yes type=FWD name="kakaopay.com" }
+:if ([:len [find name="kakaopaysec.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="kakao" match-subdomain=yes type=FWD name="kakaopaysec.com" }
+:if ([:len [find name="kakaopiccoma.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="kakao" match-subdomain=yes type=FWD name="kakaopiccoma.com" }
+:if ([:len [find name="kakaostyle.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="kakao" match-subdomain=yes type=FWD name="kakaostyle.com" }
+:if ([:len [find name="kakaotalk.jp"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="kakao" match-subdomain=yes type=FWD name="kakaotalk.jp" }
+:if ([:len [find name="kakaovx.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="kakao" match-subdomain=yes type=FWD name="kakaovx.com" }
+:if ([:len [find name="kgslb.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="kakao" match-subdomain=yes type=FWD name="kgslb.com" }
+:if ([:len [find name="kpinsurances.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="kakao" match-subdomain=yes type=FWD name="kpinsurances.com" }
+:if ([:len [find name="krosspictures.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="kakao" match-subdomain=yes type=FWD name="krosspictures.com" }
+:if ([:len [find name="melon.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="kakao" match-subdomain=yes type=FWD name="melon.com" }
+:if ([:len [find name="metabora.io"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="kakao" match-subdomain=yes type=FWD name="metabora.io" }
+:if ([:len [find name="msoopent.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="kakao" match-subdomain=yes type=FWD name="msoopent.com" }
+:if ([:len [find name="onkakao.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="kakao" match-subdomain=yes type=FWD name="onkakao.net" }
+:if ([:len [find name="pastahealth.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="kakao" match-subdomain=yes type=FWD name="pastahealth.com" }
+:if ([:len [find name="shownote.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="kakao" match-subdomain=yes type=FWD name="shownote.com" }
+:if ([:len [find name="starship-ent.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="kakao" match-subdomain=yes type=FWD name="starship-ent.com" }
+:if ([:len [find name="stuidok110.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="kakao" match-subdomain=yes type=FWD name="stuidok110.com" }
+:if ([:len [find name="vastenm.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="kakao" match-subdomain=yes type=FWD name="vastenm.com" }
+:if ([:len [find name="zipcine.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="kakao" match-subdomain=yes type=FWD name="zipcine.com" }

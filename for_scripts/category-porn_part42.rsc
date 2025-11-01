@@ -1,0 +1,153 @@
+:global AddressList
+:global ForwardTo
+/ip dns static
+:if ([:len [find name="youjism.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-porn" match-subdomain=yes type=FWD name="youjism.com" }
+:if ([:len [find name="youjizz.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-porn" match-subdomain=yes type=FWD name="youjizz.com" }
+:if ([:len [find name="youjizz.sex"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-porn" match-subdomain=yes type=FWD name="youjizz.sex" }
+:if ([:len [find name="young-amateur-movies.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-porn" match-subdomain=yes type=FWD name="young-amateur-movies.com" }
+:if ([:len [find name="young-webcam.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-porn" match-subdomain=yes type=FWD name="young-webcam.net" }
+:if ([:len [find name="young-xxx.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-porn" match-subdomain=yes type=FWD name="young-xxx.net" }
+:if ([:len [find name="youngamateursporn.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-porn" match-subdomain=yes type=FWD name="youngamateursporn.com" }
+:if ([:len [find name="younger19.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-porn" match-subdomain=yes type=FWD name="younger19.com" }
+:if ([:len [find name="youngerbabes.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-porn" match-subdomain=yes type=FWD name="youngerbabes.com" }
+:if ([:len [find name="youngermommy.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-porn" match-subdomain=yes type=FWD name="youngermommy.com" }
+:if ([:len [find name="youngheaven.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-porn" match-subdomain=yes type=FWD name="youngheaven.com" }
+:if ([:len [find name="younglibertines.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-porn" match-subdomain=yes type=FWD name="younglibertines.com" }
+:if ([:len [find name="youngmommyfucksme.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-porn" match-subdomain=yes type=FWD name="youngmommyfucksme.com" }
+:if ([:len [find name="youngpornhd.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-porn" match-subdomain=yes type=FWD name="youngpornhd.com" }
+:if ([:len [find name="youngpornonly.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-porn" match-subdomain=yes type=FWD name="youngpornonly.com" }
+:if ([:len [find name="youngpornvideos.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-porn" match-subdomain=yes type=FWD name="youngpornvideos.com" }
+:if ([:len [find name="youngsex.sexy"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-porn" match-subdomain=yes type=FWD name="youngsex.sexy" }
+:if ([:len [find name="youngsex.video"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-porn" match-subdomain=yes type=FWD name="youngsex.video" }
+:if ([:len [find name="youngteenhomeporn.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-porn" match-subdomain=yes type=FWD name="youngteenhomeporn.com" }
+:if ([:len [find name="youngtube.me"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-porn" match-subdomain=yes type=FWD name="youngtube.me" }
+:if ([:len [find name="youporn-germany.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-porn" match-subdomain=yes type=FWD name="youporn-germany.com" }
+:if ([:len [find name="youporn.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-porn" match-subdomain=yes type=FWD name="youporn.com" }
+:if ([:len [find name="youporner.eu"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-porn" match-subdomain=yes type=FWD name="youporner.eu" }
+:if ([:len [find name="youporngay.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-porn" match-subdomain=yes type=FWD name="youporngay.com" }
+:if ([:len [find name="youpornlist.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-porn" match-subdomain=yes type=FWD name="youpornlist.com" }
+:if ([:len [find name="youpornpremium.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-porn" match-subdomain=yes type=FWD name="youpornpremium.com" }
+:if ([:len [find name="youpornru.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-porn" match-subdomain=yes type=FWD name="youpornru.com" }
+:if ([:len [find name="youpornxvideos.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-porn" match-subdomain=yes type=FWD name="youpornxvideos.net" }
+:if ([:len [find name="youramateurporn.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-porn" match-subdomain=yes type=FWD name="youramateurporn.com" }
+:if ([:len [find name="yourassbig.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-porn" match-subdomain=yes type=FWD name="yourassbig.com" }
+:if ([:len [find name="yourbrain.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-porn" match-subdomain=yes type=FWD name="yourbrain.com" }
+:if ([:len [find name="yourdailypornvideos.ws"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-porn" match-subdomain=yes type=FWD name="yourdailypornvideos.ws" }
+:if ([:len [find name="yourdirtymind.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-porn" match-subdomain=yes type=FWD name="yourdirtymind.com" }
+:if ([:len [find name="yourdoll.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-porn" match-subdomain=yes type=FWD name="yourdoll.com" }
+:if ([:len [find name="yourflashporn.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-porn" match-subdomain=yes type=FWD name="yourflashporn.com" }
+:if ([:len [find name="yourfreeporn.tv"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-porn" match-subdomain=yes type=FWD name="yourfreeporn.tv" }
+:if ([:len [find name="yourgynexam.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-porn" match-subdomain=yes type=FWD name="yourgynexam.com" }
+:if ([:len [find name="yourlust.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-porn" match-subdomain=yes type=FWD name="yourlust.com" }
+:if ([:len [find name="yourmomlovesanal.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-porn" match-subdomain=yes type=FWD name="yourmomlovesanal.com" }
+:if ([:len [find name="yourmomsgotbigtits.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-porn" match-subdomain=yes type=FWD name="yourmomsgotbigtits.com" }
+:if ([:len [find name="yourpelvicexam.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-porn" match-subdomain=yes type=FWD name="yourpelvicexam.com" }
+:if ([:len [find name="yourporn.sexy"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-porn" match-subdomain=yes type=FWD name="yourporn.sexy" }
+:if ([:len [find name="yourporndump.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-porn" match-subdomain=yes type=FWD name="yourporndump.com" }
+:if ([:len [find name="yourporngod.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-porn" match-subdomain=yes type=FWD name="yourporngod.com" }
+:if ([:len [find name="yourupskirt.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-porn" match-subdomain=yes type=FWD name="yourupskirt.com" }
+:if ([:len [find name="yourvoyeurvideos.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-porn" match-subdomain=yes type=FWD name="yourvoyeurvideos.com" }
+:if ([:len [find name="yourwifemymeat.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-porn" match-subdomain=yes type=FWD name="yourwifemymeat.com" }
+:if ([:len [find name="yourxxxvideos.pro"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-porn" match-subdomain=yes type=FWD name="yourxxxvideos.pro" }
+:if ([:len [find name="youskbe.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-porn" match-subdomain=yes type=FWD name="youskbe.com" }
+:if ([:len [find name="youtrannytube.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-porn" match-subdomain=yes type=FWD name="youtrannytube.com" }
+:if ([:len [find name="youwuss.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-porn" match-subdomain=yes type=FWD name="youwuss.com" }
+:if ([:len [find name="youx.xxx"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-porn" match-subdomain=yes type=FWD name="youx.xxx" }
+:if ([:len [find name="youyu.services"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-porn" match-subdomain=yes type=FWD name="youyu.services" }
+:if ([:len [find name="yoyoav.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-porn" match-subdomain=yes type=FWD name="yoyoav.net" }
+:if ([:len [find name="ypmate.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-porn" match-subdomain=yes type=FWD name="ypmate.com" }
+:if ([:len [find name="ypncdn.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-porn" match-subdomain=yes type=FWD name="ypncdn.com" }
+:if ([:len [find name="ysav184.xyz"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-porn" match-subdomain=yes type=FWD name="ysav184.xyz" }
+:if ([:len [find name="ysg-link.sbs"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-porn" match-subdomain=yes type=FWD name="ysg-link.sbs" }
+:if ([:len [find name="yskg-ber.buzz"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-porn" match-subdomain=yes type=FWD name="yskg-ber.buzz" }
+:if ([:len [find name="ysporn.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-porn" match-subdomain=yes type=FWD name="ysporn.com" }
+:if ([:len [find name="yuenuge113.xyz"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-porn" match-subdomain=yes type=FWD name="yuenuge113.xyz" }
+:if ([:len [find name="yuenuge18.cc"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-porn" match-subdomain=yes type=FWD name="yuenuge18.cc" }
+:if ([:len [find name="yunlaopo.cc"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-porn" match-subdomain=yes type=FWD name="yunlaopo.cc" }
+:if ([:len [find name="yunlaopo.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-porn" match-subdomain=yes type=FWD name="yunlaopo.com" }
+:if ([:len [find name="yunlaopo.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-porn" match-subdomain=yes type=FWD name="yunlaopo.net" }
+:if ([:len [find name="yusjb.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-porn" match-subdomain=yes type=FWD name="yusjb.com" }
+:if ([:len [find name="yuvutu.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-porn" match-subdomain=yes type=FWD name="yuvutu.com" }
+:if ([:len [find name="ywoos.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-porn" match-subdomain=yes type=FWD name="ywoos.com" }
+:if ([:len [find name="yy55.tv"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-porn" match-subdomain=yes type=FWD name="yy55.tv" }
+:if ([:len [find name="yy7y.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-porn" match-subdomain=yes type=FWD name="yy7y.com" }
+:if ([:len [find name="yy8y.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-porn" match-subdomain=yes type=FWD name="yy8y.com" }
+:if ([:len [find name="yyfb.cyou"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-porn" match-subdomain=yes type=FWD name="yyfb.cyou" }
+:if ([:len [find name="yzld188.top"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-porn" match-subdomain=yes type=FWD name="yzld188.top" }
+:if ([:len [find name="z00.world"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-porn" match-subdomain=yes type=FWD name="z00.world" }
+:if ([:len [find name="z18r.co"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-porn" match-subdomain=yes type=FWD name="z18r.co" }
+:if ([:len [find name="z18r.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-porn" match-subdomain=yes type=FWD name="z18r.com" }
+:if ([:len [find name="z676869.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-porn" match-subdomain=yes type=FWD name="z676869.com" }
+:if ([:len [find name="za77.xyz"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-porn" match-subdomain=yes type=FWD name="za77.xyz" }
+:if ([:len [find name="zatrahal.online"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-porn" match-subdomain=yes type=FWD name="zatrahal.online" }
+:if ([:len [find name="zazzybabes.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-porn" match-subdomain=yes type=FWD name="zazzybabes.com" }
+:if ([:len [find name="zbporn.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-porn" match-subdomain=yes type=FWD name="zbporn.com" }
+:if ([:len [find name="zctb.buzz"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-porn" match-subdomain=yes type=FWD name="zctb.buzz" }
+:if ([:len [find name="zeenite.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-porn" match-subdomain=yes type=FWD name="zeenite.com" }
+:if ([:len [find name="zen8ok.xyz"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-porn" match-subdomain=yes type=FWD name="zen8ok.xyz" }
+:if ([:len [find name="zerochan.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-porn" match-subdomain=yes type=FWD name="zerochan.net" }
+:if ([:len [find name="zettai-ero.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-porn" match-subdomain=yes type=FWD name="zettai-ero.com" }
+:if ([:len [find name="zh99.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-porn" match-subdomain=yes type=FWD name="zh99.net" }
+:if ([:len [find name="zhaimankan.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-porn" match-subdomain=yes type=FWD name="zhaimankan.com" }
+:if ([:len [find name="zhainanjidi.xyz"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-porn" match-subdomain=yes type=FWD name="zhainanjidi.xyz" }
+:if ([:len [find name="zhainanjidid.top"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-porn" match-subdomain=yes type=FWD name="zhainanjidid.top" }
+:if ([:len [find name="zhangboz1.xyz"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-porn" match-subdomain=yes type=FWD name="zhangboz1.xyz" }
+:if ([:len [find name="zhimeishe888.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-porn" match-subdomain=yes type=FWD name="zhimeishe888.com" }
+:if ([:len [find name="zhtv01.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-porn" match-subdomain=yes type=FWD name="zhtv01.com" }
+:if ([:len [find name="zhuzhushipin-app.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-porn" match-subdomain=yes type=FWD name="zhuzhushipin-app.com" }
+:if ([:len [find name="zibacity.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-porn" match-subdomain=yes type=FWD name="zibacity.com" }
+:if ([:len [find name="zingtruyen.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-porn" match-subdomain=yes type=FWD name="zingtruyen.net" }
+:if ([:len [find name="zishy.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-porn" match-subdomain=yes type=FWD name="zishy.com" }
+:if ([:len [find name="zoig.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-porn" match-subdomain=yes type=FWD name="zoig.com" }
+:if ([:len [find name="zoo-hardcore.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-porn" match-subdomain=yes type=FWD name="zoo-hardcore.com" }
+:if ([:len [find name="zoo-porno.biz"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-porn" match-subdomain=yes type=FWD name="zoo-porno.biz" }
+:if ([:len [find name="zoo-tube8.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-porn" match-subdomain=yes type=FWD name="zoo-tube8.com" }
+:if ([:len [find name="zoo-xnxx.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-porn" match-subdomain=yes type=FWD name="zoo-xnxx.com" }
+:if ([:len [find name="zoofiction.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-porn" match-subdomain=yes type=FWD name="zoofiction.com" }
+:if ([:len [find name="zoofilianet.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-porn" match-subdomain=yes type=FWD name="zoofilianet.com" }
+:if ([:len [find name="zoohun.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-porn" match-subdomain=yes type=FWD name="zoohun.com" }
+:if ([:len [find name="zoomobileporn.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-porn" match-subdomain=yes type=FWD name="zoomobileporn.com" }
+:if ([:len [find name="zoophilist.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-porn" match-subdomain=yes type=FWD name="zoophilist.net" }
+:if ([:len [find name="zooporn.pro"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-porn" match-subdomain=yes type=FWD name="zooporn.pro" }
+:if ([:len [find name="zooporn.shiksha"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-porn" match-subdomain=yes type=FWD name="zooporn.shiksha" }
+:if ([:len [find name="zooporn.video"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-porn" match-subdomain=yes type=FWD name="zooporn.video" }
+:if ([:len [find name="zoopornmd.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-porn" match-subdomain=yes type=FWD name="zoopornmd.com" }
+:if ([:len [find name="zooporno.biz"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-porn" match-subdomain=yes type=FWD name="zooporno.biz" }
+:if ([:len [find name="zooredtube.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-porn" match-subdomain=yes type=FWD name="zooredtube.com" }
+:if ([:len [find name="zoosexfarm.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-porn" match-subdomain=yes type=FWD name="zoosexfarm.com" }
+:if ([:len [find name="zoosexnet.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-porn" match-subdomain=yes type=FWD name="zoosexnet.com" }
+:if ([:len [find name="zooskoolvideos.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-porn" match-subdomain=yes type=FWD name="zooskoolvideos.com" }
+:if ([:len [find name="zootube1.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-porn" match-subdomain=yes type=FWD name="zootube1.com" }
+:if ([:len [find name="zooxxxsexporn.red"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-porn" match-subdomain=yes type=FWD name="zooxxxsexporn.red" }
+:if ([:len [find name="zooyouporn.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-porn" match-subdomain=yes type=FWD name="zooyouporn.com" }
+:if ([:len [find name="zoozhamster.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-porn" match-subdomain=yes type=FWD name="zoozhamster.com" }
+:if ([:len [find name="zorglist.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-porn" match-subdomain=yes type=FWD name="zorglist.com" }
+:if ([:len [find name="zqqpwz.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-porn" match-subdomain=yes type=FWD name="zqqpwz.com" }
+:if ([:len [find name="zsuxtx-ktv.shop"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-porn" match-subdomain=yes type=FWD name="zsuxtx-ktv.shop" }
+:if ([:len [find name="zteman.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-porn" match-subdomain=yes type=FWD name="zteman.net" }
+:if ([:len [find name="zunked.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-porn" match-subdomain=yes type=FWD name="zunked.com" }
+:if ([:len [find name="zweiporn.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-porn" match-subdomain=yes type=FWD name="zweiporn.com" }
+:if ([:len [find name="zzcartoon.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-porn" match-subdomain=yes type=FWD name="zzcartoon.com" }
+:if ([:len [find name="zzdh.biz"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-porn" match-subdomain=yes type=FWD name="zzdh.biz" }
+:if ([:len [find name="zzdh.cc"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-porn" match-subdomain=yes type=FWD name="zzdh.cc" }
+:if ([:len [find name="zzdh.pw"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-porn" match-subdomain=yes type=FWD name="zzdh.pw" }
+:if ([:len [find name="zzdh.run"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-porn" match-subdomain=yes type=FWD name="zzdh.run" }
+:if ([:len [find name="zzdh.ws"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-porn" match-subdomain=yes type=FWD name="zzdh.ws" }
+:if ([:len [find name="zzdh77.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-porn" match-subdomain=yes type=FWD name="zzdh77.com" }
+:if ([:len [find name="zzdh808.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-porn" match-subdomain=yes type=FWD name="zzdh808.com" }
+:if ([:len [find name="zzdh99.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-porn" match-subdomain=yes type=FWD name="zzdh99.com" }
+:if ([:len [find name="zzgays.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-porn" match-subdomain=yes type=FWD name="zzgays.com" }
+:if ([:len [find name="zzycdz.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-porn" match-subdomain=yes type=FWD name="zzycdz.com" }
+:if ([:len [find name="anime-rule34-world.b-cdn.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-porn" type=FWD name="anime-rule34-world.b-cdn.net" }
+:if ([:len [find name="misa-prod.s3.ap-northeast-1.amazonaws.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-porn" type=FWD name="misa-prod.s3.ap-northeast-1.amazonaws.com" }
+:if ([:len [find name="widgets.stripst.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-porn" type=FWD name="widgets.stripst.com" }
+:if ([:len [find regexp="(^|\\\.)13mei[5-7]\\\.buzz\$"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-porn" type=FWD regexp="(^|\\\.)13mei[5-7]\\\.buzz\$" }
+:if ([:len [find regexp="(^|\\\.)18j[efg]\\\.life\$"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-porn" type=FWD regexp="(^|\\\.)18j[efg]\\\.life\$" }
+:if ([:len [find regexp="(^|\\\.)18jmttios[0-9]{2}\\\.com\$"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-porn" type=FWD regexp="(^|\\\.)18jmttios[0-9]{2}\\\.com\$" }
+:if ([:len [find regexp="(^|\\\.)18tv[1-5]\\\.com\$"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-porn" type=FWD regexp="(^|\\\.)18tv[1-5]\\\.com\$" }
+:if ([:len [find regexp="(^|\\\.)1[0-9]{2}\\\.one\$"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-porn" type=FWD regexp="(^|\\\.)1[0-9]{2}\\\.one\$" }
+:if ([:len [find regexp="(^|\\\.)2024(3[0-9]|4[0-9]|6[0-9]|7[0-9])\\\.xyz\$"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-porn" type=FWD regexp="(^|\\\.)2024(3[0-9]|4[0-9]|6[0-9]|7[0-9])\\\.xyz\$" }
+:if ([:len [find regexp="(^|\\\.)3[0-9]{2}\\\.icu\$"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-porn" type=FWD regexp="(^|\\\.)3[0-9]{2}\\\.icu\$" }
+:if ([:len [find regexp="(^|\\\.)3[0-9]{2}\\\.one\$"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-porn" type=FWD regexp="(^|\\\.)3[0-9]{2}\\\.one\$" }
+:if ([:len [find regexp="(^|\\\.)69bag[0-1][1-9]\?\\\.com\$"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-porn" type=FWD regexp="(^|\\\.)69bag[0-1][1-9]\?\\\.com\$" }
+:if ([:len [find regexp="(^|\\\.)783([a-z][a-z]\?)\?\\\.tv\$"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-porn" type=FWD regexp="(^|\\\.)783([a-z][a-z]\?)\?\\\.tv\$" }

@@ -1,0 +1,42 @@
+:global AddressList
+:global ForwardTo
+/ip dns static
+:if ([:len [find name="appcloud.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="salesforce" match-subdomain=yes type=FWD name="appcloud.com" }
+:if ([:len [find name="appexchange.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="salesforce" match-subdomain=yes type=FWD name="appexchange.com" }
+:if ([:len [find name="attic.io"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="salesforce" match-subdomain=yes type=FWD name="attic.io" }
+:if ([:len [find name="beyondcore.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="salesforce" match-subdomain=yes type=FWD name="beyondcore.com" }
+:if ([:len [find name="buddymedia.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="salesforce" match-subdomain=yes type=FWD name="buddymedia.com" }
+:if ([:len [find name="chatter.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="salesforce" match-subdomain=yes type=FWD name="chatter.com" }
+:if ([:len [find name="cloudcraze.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="salesforce" match-subdomain=yes type=FWD name="cloudcraze.com" }
+:if ([:len [find name="cotweet.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="salesforce" match-subdomain=yes type=FWD name="cotweet.com" }
+:if ([:len [find name="data.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="salesforce" match-subdomain=yes type=FWD name="data.com" }
+:if ([:len [find name="demandware.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="salesforce" match-subdomain=yes type=FWD name="demandware.com" }
+:if ([:len [find name="desk.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="salesforce" match-subdomain=yes type=FWD name="desk.com" }
+:if ([:len [find name="documentforce.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="salesforce" match-subdomain=yes type=FWD name="documentforce.com" }
+:if ([:len [find name="dreamforce.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="salesforce" match-subdomain=yes type=FWD name="dreamforce.com" }
+:if ([:len [find name="einstein.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="salesforce" match-subdomain=yes type=FWD name="einstein.com" }
+:if ([:len [find name="exacttarget.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="salesforce" match-subdomain=yes type=FWD name="exacttarget.com" }
+:if ([:len [find name="force.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="salesforce" match-subdomain=yes type=FWD name="force.com" }
+:if ([:len [find name="govforce.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="salesforce" match-subdomain=yes type=FWD name="govforce.com" }
+:if ([:len [find name="gravitytank.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="salesforce" match-subdomain=yes type=FWD name="gravitytank.com" }
+:if ([:len [find name="heywire.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="salesforce" match-subdomain=yes type=FWD name="heywire.com" }
+:if ([:len [find name="krux.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="salesforce" match-subdomain=yes type=FWD name="krux.com" }
+:if ([:len [find name="marketingcloud.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="salesforce" match-subdomain=yes type=FWD name="marketingcloud.com" }
+:if ([:len [find name="metamind.io"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="salesforce" match-subdomain=yes type=FWD name="metamind.io" }
+:if ([:len [find name="pardot.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="salesforce" match-subdomain=yes type=FWD name="pardot.com" }
+:if ([:len [find name="quotable.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="salesforce" match-subdomain=yes type=FWD name="quotable.com" }
+:if ([:len [find name="radian6.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="salesforce" match-subdomain=yes type=FWD name="radian6.com" }
+:if ([:len [find name="relateiq.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="salesforce" match-subdomain=yes type=FWD name="relateiq.com" }
+:if ([:len [find name="salesforce.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="salesforce" match-subdomain=yes type=FWD name="salesforce.com" }
+:if ([:len [find name="salesforce.org"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="salesforce" match-subdomain=yes type=FWD name="salesforce.org" }
+:if ([:len [find name="salesforceiq.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="salesforce" match-subdomain=yes type=FWD name="salesforceiq.com" }
+:if ([:len [find name="salesforceliveagent.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="salesforce" match-subdomain=yes type=FWD name="salesforceliveagent.com" }
+:if ([:len [find name="salesforcemarketingcloud.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="salesforce" match-subdomain=yes type=FWD name="salesforcemarketingcloud.com" }
+:if ([:len [find name="sequence.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="salesforce" match-subdomain=yes type=FWD name="sequence.com" }
+:if ([:len [find name="sfdcstatic.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="salesforce" match-subdomain=yes type=FWD name="sfdcstatic.com" }
+:if ([:len [find name="sforce.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="salesforce" match-subdomain=yes type=FWD name="sforce.com" }
+:if ([:len [find name="site.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="salesforce" match-subdomain=yes type=FWD name="site.com" }
+:if ([:len [find name="social.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="salesforce" match-subdomain=yes type=FWD name="social.com" }
+:if ([:len [find name="steelbrick.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="salesforce" match-subdomain=yes type=FWD name="steelbrick.com" }
+:if ([:len [find name="twinprime.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="salesforce" match-subdomain=yes type=FWD name="twinprime.com" }
+:if ([:len [find name="weinvoiceit.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="salesforce" match-subdomain=yes type=FWD name="weinvoiceit.com" }

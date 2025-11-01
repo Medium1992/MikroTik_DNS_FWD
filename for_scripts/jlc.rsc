@@ -1,0 +1,40 @@
+:global AddressList
+:global ForwardTo
+/ip dns static
+:if ([:len [find name="fa-part.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="jlc" match-subdomain=yes type=FWD name="fa-part.com" }
+:if ([:len [find name="forface3d.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="jlc" match-subdomain=yes type=FWD name="forface3d.com" }
+:if ([:len [find name="jlc-3dp.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="jlc" match-subdomain=yes type=FWD name="jlc-3dp.com" }
+:if ([:len [find name="jlc-bbs.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="jlc" match-subdomain=yes type=FWD name="jlc-bbs.com" }
+:if ([:len [find name="jlc-cad.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="jlc" match-subdomain=yes type=FWD name="jlc-cad.com" }
+:if ([:len [find name="jlc-cam.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="jlc" match-subdomain=yes type=FWD name="jlc-cam.com" }
+:if ([:len [find name="jlc-cnc.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="jlc" match-subdomain=yes type=FWD name="jlc-cnc.com" }
+:if ([:len [find name="jlc-dfm.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="jlc" match-subdomain=yes type=FWD name="jlc-dfm.com" }
+:if ([:len [find name="jlc-drm.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="jlc" match-subdomain=yes type=FWD name="jlc-drm.com" }
+:if ([:len [find name="jlc-ecad.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="jlc" match-subdomain=yes type=FWD name="jlc-ecad.com" }
+:if ([:len [find name="jlc-erp.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="jlc" match-subdomain=yes type=FWD name="jlc-erp.com" }
+:if ([:len [find name="jlc-fpc.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="jlc" match-subdomain=yes type=FWD name="jlc-fpc.com" }
+:if ([:len [find name="jlc-gw.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="jlc" match-subdomain=yes type=FWD name="jlc-gw.com" }
+:if ([:len [find name="jlc-jh.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="jlc" match-subdomain=yes type=FWD name="jlc-jh.com" }
+:if ([:len [find name="jlc-layout.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="jlc" match-subdomain=yes type=FWD name="jlc-layout.com" }
+:if ([:len [find name="jlc-pcb.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="jlc" match-subdomain=yes type=FWD name="jlc-pcb.com" }
+:if ([:len [find name="jlc-smt.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="jlc" match-subdomain=yes type=FWD name="jlc-smt.com" }
+:if ([:len [find name="jlc-zh.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="jlc" match-subdomain=yes type=FWD name="jlc-zh.com" }
+:if ([:len [find name="jlc.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="jlc" match-subdomain=yes type=FWD name="jlc.com" }
+:if ([:len [find name="jlccad.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="jlc" match-subdomain=yes type=FWD name="jlccad.com" }
+:if ([:len [find name="jlccam.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="jlc" match-subdomain=yes type=FWD name="jlccam.com" }
+:if ([:len [find name="jlccnc.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="jlc" match-subdomain=yes type=FWD name="jlccnc.com" }
+:if ([:len [find name="jlcdfm.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="jlc" match-subdomain=yes type=FWD name="jlcdfm.com" }
+:if ([:len [find name="jlcecad.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="jlc" match-subdomain=yes type=FWD name="jlcecad.com" }
+:if ([:len [find name="jlceda.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="jlc" match-subdomain=yes type=FWD name="jlceda.com" }
+:if ([:len [find name="jlcerp.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="jlc" match-subdomain=yes type=FWD name="jlcerp.com" }
+:if ([:len [find name="jlcfa.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="jlc" match-subdomain=yes type=FWD name="jlcfa.com" }
+:if ([:len [find name="jlcops.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="jlc" match-subdomain=yes type=FWD name="jlcops.com" }
+:if ([:len [find name="jlcsj.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="jlc" match-subdomain=yes type=FWD name="jlcsj.com" }
+:if ([:len [find name="jlcsmt.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="jlc" match-subdomain=yes type=FWD name="jlcsmt.com" }
+:if ([:len [find name="lckfb.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="jlc" match-subdomain=yes type=FWD name="lckfb.com" }
+:if ([:len [find name="oshwhub.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="jlc" match-subdomain=yes type=FWD name="oshwhub.com" }
+:if ([:len [find name="sanweihou.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="jlc" match-subdomain=yes type=FWD name="sanweihou.com" }
+:if ([:len [find name="sz-jlc.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="jlc" match-subdomain=yes type=FWD name="sz-jlc.com" }
+:if ([:len [find name="szlcsc.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="jlc" match-subdomain=yes type=FWD name="szlcsc.com" }
+:if ([:len [find name="zs-jlc.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="jlc" match-subdomain=yes type=FWD name="zs-jlc.com" }
+:if ([:len [find name="zxhgroup.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="jlc" match-subdomain=yes type=FWD name="zxhgroup.com" }

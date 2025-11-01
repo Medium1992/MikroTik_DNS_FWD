@@ -18,4 +18,4 @@
 :if ([:len [find name="openaicom.imgix.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="openai" type=FWD name="openaicom.imgix.net" }
 :if ([:len [find name="openaicomproductionae4b.blob.core.windows.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="openai" type=FWD name="openaicomproductionae4b.blob.core.windows.net" }
 :if ([:len [find name="production-openaicom-storage.azureedge.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="openai" type=FWD name="production-openaicom-storage.azureedge.net" }
-:if ([:len [find regexp="^chatgpt-async-webps-prod-\\\\S+-\\\\d+\\\\.webpubsub\\\\.azure\\\\.com\$"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="openai" type=FWD regexp="^chatgpt-async-webps-prod-\\\\S+-\\\\d+\\\\.webpubsub\\\\.azure\\\\.com\$" }
+:if ([:len [find regexp="^chatgpt-async-webps-prod-\\\S+-\\\d+\\\.webpubsub\\\.azure\\\.com\$"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="openai" type=FWD regexp="^chatgpt-async-webps-prod-\\\S+-\\\d+\\\.webpubsub\\\.azure\\\.com\$" }

@@ -1,0 +1,43 @@
+:global AddressList
+:global ForwardTo
+/ip dns static
+:if ([:len [find name="1lib.cloud"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="z-library" match-subdomain=yes type=FWD name="1lib.cloud" }
+:if ([:len [find name="1lib.domains"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="z-library" match-subdomain=yes type=FWD name="1lib.domains" }
+:if ([:len [find name="1lib.education"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="z-library" match-subdomain=yes type=FWD name="1lib.education" }
+:if ([:len [find name="1lib.eu"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="z-library" match-subdomain=yes type=FWD name="1lib.eu" }
+:if ([:len [find name="1lib.limited"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="z-library" match-subdomain=yes type=FWD name="1lib.limited" }
+:if ([:len [find name="1lib.to"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="z-library" match-subdomain=yes type=FWD name="1lib.to" }
+:if ([:len [find name="1lib.tw"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="z-library" match-subdomain=yes type=FWD name="1lib.tw" }
+:if ([:len [find name="2lib.org"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="z-library" match-subdomain=yes type=FWD name="2lib.org" }
+:if ([:len [find name="3lib.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="z-library" match-subdomain=yes type=FWD name="3lib.net" }
+:if ([:len [find name="art1lib.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="z-library" match-subdomain=yes type=FWD name="art1lib.com" }
+:if ([:len [find name="b-ok.africa"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="z-library" match-subdomain=yes type=FWD name="b-ok.africa" }
+:if ([:len [find name="b-ok.asia"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="z-library" match-subdomain=yes type=FWD name="b-ok.asia" }
+:if ([:len [find name="b-ok.cc"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="z-library" match-subdomain=yes type=FWD name="b-ok.cc" }
+:if ([:len [find name="b-ok.global"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="z-library" match-subdomain=yes type=FWD name="b-ok.global" }
+:if ([:len [find name="b-ok.org"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="z-library" match-subdomain=yes type=FWD name="b-ok.org" }
+:if ([:len [find name="book4you.org"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="z-library" match-subdomain=yes type=FWD name="book4you.org" }
+:if ([:len [find name="bookfi.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="z-library" match-subdomain=yes type=FWD name="bookfi.net" }
+:if ([:len [find name="booksc.eu"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="z-library" match-subdomain=yes type=FWD name="booksc.eu" }
+:if ([:len [find name="booksc.me"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="z-library" match-subdomain=yes type=FWD name="booksc.me" }
+:if ([:len [find name="booksc.org"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="z-library" match-subdomain=yes type=FWD name="booksc.org" }
+:if ([:len [find name="booksc.xyz"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="z-library" match-subdomain=yes type=FWD name="booksc.xyz" }
+:if ([:len [find name="bookshome.info"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="z-library" match-subdomain=yes type=FWD name="bookshome.info" }
+:if ([:len [find name="bookshome.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="z-library" match-subdomain=yes type=FWD name="bookshome.net" }
+:if ([:len [find name="bookshome.world"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="z-library" match-subdomain=yes type=FWD name="bookshome.world" }
+:if ([:len [find name="de1lib.org"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="z-library" match-subdomain=yes type=FWD name="de1lib.org" }
+:if ([:len [find name="hk1lib.org"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="z-library" match-subdomain=yes type=FWD name="hk1lib.org" }
+:if ([:len [find name="libsolutions.app"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="z-library" match-subdomain=yes type=FWD name="libsolutions.app" }
+:if ([:len [find name="libsolutions.domains"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="z-library" match-subdomain=yes type=FWD name="libsolutions.domains" }
+:if ([:len [find name="libsolutions.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="z-library" match-subdomain=yes type=FWD name="libsolutions.net" }
+:if ([:len [find name="ma1lib.org"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="z-library" match-subdomain=yes type=FWD name="ma1lib.org" }
+:if ([:len [find name="sg1lib.org"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="z-library" match-subdomain=yes type=FWD name="sg1lib.org" }
+:if ([:len [find name="singlelogin.app"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="z-library" match-subdomain=yes type=FWD name="singlelogin.app" }
+:if ([:len [find name="singlelogin.me"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="z-library" match-subdomain=yes type=FWD name="singlelogin.me" }
+:if ([:len [find name="singlelogin.site"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="z-library" match-subdomain=yes type=FWD name="singlelogin.site" }
+:if ([:len [find name="z-lib.fm"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="z-library" match-subdomain=yes type=FWD name="z-lib.fm" }
+:if ([:len [find name="z-lib.org"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="z-library" match-subdomain=yes type=FWD name="z-lib.org" }
+:if ([:len [find name="z-library.se"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="z-library" match-subdomain=yes type=FWD name="z-library.se" }
+:if ([:len [find name="zlib.life"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="z-library" match-subdomain=yes type=FWD name="zlib.life" }
+:if ([:len [find name="zlibcdn.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="z-library" match-subdomain=yes type=FWD name="zlibcdn.com" }
+:if ([:len [find name="zlibcdn2.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="z-library" match-subdomain=yes type=FWD name="zlibcdn2.com" }

@@ -1,0 +1,47 @@
+:global AddressList
+:global ForwardTo
+/ip dns static
+:if ([:len [find name="ads.yahoo.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="yahoo" match-subdomain=yes type=FWD name="ads.yahoo.com" }
+:if ([:len [find name="flickr"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="yahoo" match-subdomain=yes type=FWD name="flickr" }
+:if ([:len [find name="flickr.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="yahoo" match-subdomain=yes type=FWD name="flickr.com" }
+:if ([:len [find name="flickr.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="yahoo" match-subdomain=yes type=FWD name="flickr.net" }
+:if ([:len [find name="gemini.yahoo.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="yahoo" match-subdomain=yes type=FWD name="gemini.yahoo.com" }
+:if ([:len [find name="maktoob.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="yahoo" match-subdomain=yes type=FWD name="maktoob.com" }
+:if ([:len [find name="staticflickr.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="yahoo" match-subdomain=yes type=FWD name="staticflickr.com" }
+:if ([:len [find name="techcrunch.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="yahoo" match-subdomain=yes type=FWD name="techcrunch.com" }
+:if ([:len [find name="yahoo"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="yahoo" match-subdomain=yes type=FWD name="yahoo" }
+:if ([:len [find name="yahoo.be"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="yahoo" match-subdomain=yes type=FWD name="yahoo.be" }
+:if ([:len [find name="yahoo.cat"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="yahoo" match-subdomain=yes type=FWD name="yahoo.cat" }
+:if ([:len [find name="yahoo.co.jp"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="yahoo" match-subdomain=yes type=FWD name="yahoo.co.jp" }
+:if ([:len [find name="yahoo.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="yahoo" match-subdomain=yes type=FWD name="yahoo.com" }
+:if ([:len [find name="yahoo.com.co"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="yahoo" match-subdomain=yes type=FWD name="yahoo.com.co" }
+:if ([:len [find name="yahoo.com.nf"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="yahoo" match-subdomain=yes type=FWD name="yahoo.com.nf" }
+:if ([:len [find name="yahoo.com.tw"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="yahoo" match-subdomain=yes type=FWD name="yahoo.com.tw" }
+:if ([:len [find name="yahoo.fm"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="yahoo" match-subdomain=yes type=FWD name="yahoo.fm" }
+:if ([:len [find name="yahoo.gg"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="yahoo" match-subdomain=yes type=FWD name="yahoo.gg" }
+:if ([:len [find name="yahoo.gp"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="yahoo" match-subdomain=yes type=FWD name="yahoo.gp" }
+:if ([:len [find name="yahoo.me"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="yahoo" match-subdomain=yes type=FWD name="yahoo.me" }
+:if ([:len [find name="yahoo.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="yahoo" match-subdomain=yes type=FWD name="yahoo.net" }
+:if ([:len [find name="yahoo.nl"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="yahoo" match-subdomain=yes type=FWD name="yahoo.nl" }
+:if ([:len [find name="yahoo.ps"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="yahoo" match-subdomain=yes type=FWD name="yahoo.ps" }
+:if ([:len [find name="yahoo.ru"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="yahoo" match-subdomain=yes type=FWD name="yahoo.ru" }
+:if ([:len [find name="yahoo.se"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="yahoo" match-subdomain=yes type=FWD name="yahoo.se" }
+:if ([:len [find name="yahoo.sh"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="yahoo" match-subdomain=yes type=FWD name="yahoo.sh" }
+:if ([:len [find name="yahoo.so"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="yahoo" match-subdomain=yes type=FWD name="yahoo.so" }
+:if ([:len [find name="yahoo.tg"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="yahoo" match-subdomain=yes type=FWD name="yahoo.tg" }
+:if ([:len [find name="yahoo.tk"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="yahoo" match-subdomain=yes type=FWD name="yahoo.tk" }
+:if ([:len [find name="yahoo.ws"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="yahoo" match-subdomain=yes type=FWD name="yahoo.ws" }
+:if ([:len [find name="yahooapis.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="yahoo" match-subdomain=yes type=FWD name="yahooapis.com" }
+:if ([:len [find name="yahoodns.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="yahoo" match-subdomain=yes type=FWD name="yahoodns.net" }
+:if ([:len [find name="yahoofinance.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="yahoo" match-subdomain=yes type=FWD name="yahoofinance.com" }
+:if ([:len [find name="yahoohealth.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="yahoo" match-subdomain=yes type=FWD name="yahoohealth.com" }
+:if ([:len [find name="yahoomusic.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="yahoo" match-subdomain=yes type=FWD name="yahoomusic.com" }
+:if ([:len [find name="yahoosandbox.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="yahoo" match-subdomain=yes type=FWD name="yahoosandbox.com" }
+:if ([:len [find name="yahoosportsbook.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="yahoo" match-subdomain=yes type=FWD name="yahoosportsbook.com" }
+:if ([:len [find name="yho.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="yahoo" match-subdomain=yes type=FWD name="yho.com" }
+:if ([:len [find name="yimg.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="yahoo" match-subdomain=yes type=FWD name="yimg.com" }
+:if ([:len [find name="yimg.jp"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="yahoo" match-subdomain=yes type=FWD name="yimg.jp" }
+:if ([:len [find name="ymail.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="yahoo" match-subdomain=yes type=FWD name="ymail.com" }
+:if ([:len [find name="ysm.yahoo.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="yahoo" match-subdomain=yes type=FWD name="ysm.yahoo.com" }
+:if ([:len [find name="yusercontent.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="yahoo" match-subdomain=yes type=FWD name="yusercontent.com" }
+:if ([:len [find name="cdn.js7k.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="yahoo" type=FWD name="cdn.js7k.com" }

@@ -1,0 +1,44 @@
+:global AddressList
+:global ForwardTo
+/ip dns static
+:if ([:len [find name="apimkt.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="ucloud" match-subdomain=yes type=FWD name="apimkt.net" }
+:if ([:len [find name="cdndo.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="ucloud" match-subdomain=yes type=FWD name="cdndo.com" }
+:if ([:len [find name="clk1.top"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="ucloud" match-subdomain=yes type=FWD name="clk1.top" }
+:if ([:len [find name="ecloud-gdu.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="ucloud" match-subdomain=yes type=FWD name="ecloud-gdu.com" }
+:if ([:len [find name="iprdp.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="ucloud" match-subdomain=yes type=FWD name="iprdp.net" }
+:if ([:len [find name="ipssh.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="ucloud" match-subdomain=yes type=FWD name="ipssh.net" }
+:if ([:len [find name="me1.ltd"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="ucloud" match-subdomain=yes type=FWD name="me1.ltd" }
+:if ([:len [find name="slk1.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="ucloud" match-subdomain=yes type=FWD name="slk1.net" }
+:if ([:len [find name="u-cdn.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="ucloud" match-subdomain=yes type=FWD name="u-cdn.net" }
+:if ([:len [find name="ucgslb.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="ucloud" match-subdomain=yes type=FWD name="ucgslb.com" }
+:if ([:len [find name="ucgslb.info"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="ucloud" match-subdomain=yes type=FWD name="ucgslb.info" }
+:if ([:len [find name="ucgslb.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="ucloud" match-subdomain=yes type=FWD name="ucgslb.net" }
+:if ([:len [find name="ucgslb.top"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="ucloud" match-subdomain=yes type=FWD name="ucgslb.top" }
+:if ([:len [find name="ucloud-edm.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="ucloud" match-subdomain=yes type=FWD name="ucloud-edm.com" }
+:if ([:len [find name="ucloud365.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="ucloud" match-subdomain=yes type=FWD name="ucloud365.com" }
+:if ([:len [find name="ucloudadmin.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="ucloud" match-subdomain=yes type=FWD name="ucloudadmin.com" }
+:if ([:len [find name="ucloudapi.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="ucloud" match-subdomain=yes type=FWD name="ucloudapi.com" }
+:if ([:len [find name="ucloudgda.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="ucloud" match-subdomain=yes type=FWD name="ucloudgda.com" }
+:if ([:len [find name="ucloudnaming.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="ucloud" match-subdomain=yes type=FWD name="ucloudnaming.com" }
+:if ([:len [find name="ucloudnaming.info"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="ucloud" match-subdomain=yes type=FWD name="ucloudnaming.info" }
+:if ([:len [find name="ucloudnaming.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="ucloud" match-subdomain=yes type=FWD name="ucloudnaming.net" }
+:if ([:len [find name="ucloudoss.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="ucloud" match-subdomain=yes type=FWD name="ucloudoss.com" }
+:if ([:len [find name="ucloudstack.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="ucloud" match-subdomain=yes type=FWD name="ucloudstack.com" }
+:if ([:len [find name="ucloudstack.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="ucloud" match-subdomain=yes type=FWD name="ucloudstack.net" }
+:if ([:len [find name="ucloudstor.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="ucloud" match-subdomain=yes type=FWD name="ucloudstor.com" }
+:if ([:len [find name="ucloudufile.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="ucloud" match-subdomain=yes type=FWD name="ucloudufile.com" }
+:if ([:len [find name="ucnaming.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="ucloud" match-subdomain=yes type=FWD name="ucnaming.com" }
+:if ([:len [find name="ucnaming.info"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="ucloud" match-subdomain=yes type=FWD name="ucnaming.info" }
+:if ([:len [find name="ucnaming.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="ucloud" match-subdomain=yes type=FWD name="ucnaming.net" }
+:if ([:len [find name="uewaf.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="ucloud" match-subdomain=yes type=FWD name="uewaf.com" }
+:if ([:len [find name="ufileos.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="ucloud" match-subdomain=yes type=FWD name="ufileos.com" }
+:if ([:len [find name="ugslb.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="ucloud" match-subdomain=yes type=FWD name="ugslb.com" }
+:if ([:len [find name="ugslb.info"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="ucloud" match-subdomain=yes type=FWD name="ugslb.info" }
+:if ([:len [find name="ugslb.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="ucloud" match-subdomain=yes type=FWD name="ugslb.net" }
+:if ([:len [find name="ugslb.top"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="ucloud" match-subdomain=yes type=FWD name="ugslb.top" }
+:if ([:len [find name="ugslb2.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="ucloud" match-subdomain=yes type=FWD name="ugslb2.net" }
+:if ([:len [find name="uhasadmin.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="ucloud" match-subdomain=yes type=FWD name="uhasadmin.com" }
+:if ([:len [find name="unaming.info"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="ucloud" match-subdomain=yes type=FWD name="unaming.info" }
+:if ([:len [find name="unaming.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="ucloud" match-subdomain=yes type=FWD name="unaming.net" }
+:if ([:len [find name="uslk.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="ucloud" match-subdomain=yes type=FWD name="uslk.net" }
+:if ([:len [find name="uucl.vip"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="ucloud" match-subdomain=yes type=FWD name="uucl.vip" }
