@@ -43,6 +43,7 @@
 :if ([:len [find name="telegramdownload.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="gfw" match-subdomain=yes type=FWD name="telegramdownload.com" }
 :if ([:len [find name="tellapart.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="gfw" match-subdomain=yes type=FWD name="tellapart.com" }
 :if ([:len [find name="tellme.pw"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="gfw" match-subdomain=yes type=FWD name="tellme.pw" }
+:if ([:len [find name="temu.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="gfw" match-subdomain=yes type=FWD name="temu.com" }
 :if ([:len [find name="tenacy.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="gfw" match-subdomain=yes type=FWD name="tenacy.com" }
 :if ([:len [find name="tenor.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="gfw" match-subdomain=yes type=FWD name="tenor.com" }
 :if ([:len [find name="tensorflow.org"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="gfw" match-subdomain=yes type=FWD name="tensorflow.org" }
@@ -150,4 +151,3 @@
 :if ([:len [find name="tibetanpoliticalreview.org"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="gfw" match-subdomain=yes type=FWD name="tibetanpoliticalreview.org" }
 :if ([:len [find name="tibetanreview.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="gfw" match-subdomain=yes type=FWD name="tibetanreview.net" }
 :if ([:len [find name="tibetansports.org"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="gfw" match-subdomain=yes type=FWD name="tibetansports.org" }
-:if ([:len [find name="tibetanwomen.org"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="gfw" match-subdomain=yes type=FWD name="tibetanwomen.org" }

@@ -1,6 +1,8 @@
 :global AddressList
 :global ForwardTo
 /ip dns static
+:if ([:len [find name="teambition.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="alibaba" match-subdomain=yes type=FWD name="teambition.net" }
+:if ([:len [find name="teambitionapis.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="alibaba" match-subdomain=yes type=FWD name="teambitionapis.com" }
 :if ([:len [find name="tejia.taobao.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="alibaba" match-subdomain=yes type=FWD name="tejia.taobao.com" }
 :if ([:len [find name="temai.taobao.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="alibaba" match-subdomain=yes type=FWD name="temai.taobao.com" }
 :if ([:len [find name="tmall"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="alibaba" match-subdomain=yes type=FWD name="tmall" }

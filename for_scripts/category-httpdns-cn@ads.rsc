@@ -37,6 +37,7 @@
 :if ([:len [find name="httpdns.push.oppomobile.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-httpdns-cn@ads" match-subdomain=yes type=FWD name="httpdns.push.oppomobile.com" }
 :if ([:len [find name="httpdns.volcengineapi.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-httpdns-cn@ads" match-subdomain=yes type=FWD name="httpdns.volcengineapi.com" }
 :if ([:len [find name="httpdns.yunxindns.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-httpdns-cn@ads" match-subdomain=yes type=FWD name="httpdns.yunxindns.com" }
+:if ([:len [find name="httpdns.zhihu.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-httpdns-cn@ads" match-subdomain=yes type=FWD name="httpdns.zhihu.com" }
 :if ([:len [find name="httpdns.zybang.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-httpdns-cn@ads" match-subdomain=yes type=FWD name="httpdns.zybang.com" }
 :if ([:len [find name="httpdns1.cc.cdnhwc5.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-httpdns-cn@ads" match-subdomain=yes type=FWD name="httpdns1.cc.cdnhwc5.com" }
 :if ([:len [find name="httpdnsvip.meituan.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-httpdns-cn@ads" match-subdomain=yes type=FWD name="httpdnsvip.meituan.com" }

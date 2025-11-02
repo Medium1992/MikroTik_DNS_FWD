@@ -30,6 +30,9 @@
 :if ([:len [find name="aliyundrive.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-netdisk-cn" match-subdomain=yes type=FWD name="aliyundrive.net" }
 :if ([:len [find name="anxia.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-netdisk-cn" match-subdomain=yes type=FWD name="anxia.com" }
 :if ([:len [find name="baidupan.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-netdisk-cn" match-subdomain=yes type=FWD name="baidupan.com" }
+:if ([:len [find name="c-t.work"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-netdisk-cn" match-subdomain=yes type=FWD name="c-t.work" }
+:if ([:len [find name="cowcs.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-netdisk-cn" match-subdomain=yes type=FWD name="cowcs.com" }
+:if ([:len [find name="cowtransfer.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-netdisk-cn" match-subdomain=yes type=FWD name="cowtransfer.com" }
 :if ([:len [find name="ctfile.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-netdisk-cn" match-subdomain=yes type=FWD name="ctfile.com" }
 :if ([:len [find name="feimaoyun.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-netdisk-cn" match-subdomain=yes type=FWD name="feimaoyun.com" }
 :if ([:len [find name="filez.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-netdisk-cn" match-subdomain=yes type=FWD name="filez.com" }

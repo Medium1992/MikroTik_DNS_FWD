@@ -1,6 +1,8 @@
 :global AddressList
 :global ForwardTo
 /ip dns static
+:if ([:len [find name="cdnhwcchh18.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-cn" match-subdomain=yes type=FWD name="cdnhwcchh18.com" }
+:if ([:len [find name="cdnhwccmz121.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-cn" match-subdomain=yes type=FWD name="cdnhwccmz121.com" }
 :if ([:len [find name="cdnhwcead111.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-cn" match-subdomain=yes type=FWD name="cdnhwcead111.com" }
 :if ([:len [find name="cdnhwcedi10.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-cn" match-subdomain=yes type=FWD name="cdnhwcedi10.com" }
 :if ([:len [find name="cdnhwcedt124.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-cn" match-subdomain=yes type=FWD name="cdnhwcedt124.com" }
@@ -149,5 +151,3 @@
 :if ([:len [find name="cibntv.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-cn" match-subdomain=yes type=FWD name="cibntv.net" }
 :if ([:len [find name="cicc.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-cn" match-subdomain=yes type=FWD name="cicc.com" }
 :if ([:len [find name="ciccwm.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-cn" match-subdomain=yes type=FWD name="ciccwm.com" }
-:if ([:len [find name="cignacmb-ipmi.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-cn" match-subdomain=yes type=FWD name="cignacmb-ipmi.com" }
-:if ([:len [find name="cignacmb.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-cn" match-subdomain=yes type=FWD name="cignacmb.com" }
