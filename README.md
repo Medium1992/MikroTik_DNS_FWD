@@ -1,5 +1,5 @@
 # MikroTik_DNS_FWD
-This repository contains domains for autocompletion and regular updating of FWD lists in MikroTik RouterOS.
+This repository contains domains for autocompletion and regular updating of DNS static FWD lists in MikroTik RouterOS.
 Domains are collected full from two sources
 - https://iplist.opencck.org
 - https://github.com/MetaCubeX/meta-rules-dat/tree/sing/geo/geosite
