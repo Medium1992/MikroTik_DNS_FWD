@@ -113,7 +113,6 @@
 :if ([:len [find name="vodtcbk.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="tencent" match-subdomain=yes type=FWD name="vodtcbk.com" }
 :if ([:len [find name="vxo7tu.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="tencent" match-subdomain=yes type=FWD name="vxo7tu.com" }
 :if ([:len [find name="wcbygame.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="tencent" match-subdomain=yes type=FWD name="wcbygame.com" }
-:if ([:len [find name="webnovel.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="tencent" match-subdomain=yes type=FWD name="webnovel.com" }
 :if ([:len [find name="wechat.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="tencent" match-subdomain=yes type=FWD name="wechat.com" }
 :if ([:len [find name="wegame.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="tencent" match-subdomain=yes type=FWD name="wegame.com" }
 :if ([:len [find name="wegamedeveloper.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="tencent" match-subdomain=yes type=FWD name="wegamedeveloper.com" }
@@ -151,3 +150,4 @@
 :if ([:len [find regexp="\\\\.(.+-)\?ap-guangzhou(-.+)\?\\\\.myqcloud\\\\.com\$"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="tencent" type=FWD regexp="\\\\.(.+-)\?ap-guangzhou(-.+)\?\\\\.myqcloud\\\\.com\$" }
 :if ([:len [find regexp="\\\\.(.+-)\?ap-guangzhou(-.+)\?\\\\.tencentcos\\\\.(cn|com(\\\\.cn)\?)\$"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="tencent" type=FWD regexp="\\\\.(.+-)\?ap-guangzhou(-.+)\?\\\\.tencentcos\\\\.(cn|com(\\\\.cn)\?)\$" }
 :if ([:len [find regexp="\\\\.(.+-)\?ap-nanjing(-.+)\?\\\\.myqcloud\\\\.com\$"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="tencent" type=FWD regexp="\\\\.(.+-)\?ap-nanjing(-.+)\?\\\\.myqcloud\\\\.com\$" }
+:if ([:len [find regexp="\\\\.(.+-)\?ap-nanjing(-.+)\?\\\\.tencentcos\\\\.(cn|com(\\\\.cn)\?)\$"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="tencent" type=FWD regexp="\\\\.(.+-)\?ap-nanjing(-.+)\?\\\\.tencentcos\\\\.(cn|com(\\\\.cn)\?)\$" }
