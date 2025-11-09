@@ -8,6 +8,7 @@
 :if ([:len [find name="cubicmotion.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="epicgames" match-subdomain=yes type=FWD name="cubicmotion.com" }
 :if ([:len [find name="eac-cdn.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="epicgames" match-subdomain=yes type=FWD name="eac-cdn.com" }
 :if ([:len [find name="easyanticheat.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="epicgames" match-subdomain=yes type=FWD name="easyanticheat.net" }
+:if ([:len [find name="egdownload.fastly-edge.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="epicgames" match-subdomain=yes type=FWD name="egdownload.fastly-edge.com" }
 :if ([:len [find name="epicgames.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="epicgames" match-subdomain=yes type=FWD name="epicgames.com" }
 :if ([:len [find name="epicgames.dev"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="epicgames" match-subdomain=yes type=FWD name="epicgames.dev" }
 :if ([:len [find name="epicgamescdn.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="epicgames" match-subdomain=yes type=FWD name="epicgamescdn.com" }

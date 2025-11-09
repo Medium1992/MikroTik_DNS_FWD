@@ -2,6 +2,7 @@
 :global ForwardTo
 /ip dns static
 :if ([:len [find name="analog.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-electronic-cn" match-subdomain=yes type=FWD name="analog.com" }
+:if ([:len [find name="boe.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-electronic-cn" match-subdomain=yes type=FWD name="boe.com" }
 :if ([:len [find name="bouffalolab.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-electronic-cn" match-subdomain=yes type=FWD name="bouffalolab.com" }
 :if ([:len [find name="elecfans.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-electronic-cn" match-subdomain=yes type=FWD name="elecfans.com" }
 :if ([:len [find name="esp8266.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-electronic-cn" match-subdomain=yes type=FWD name="esp8266.com" }
@@ -11,7 +12,6 @@
 :if ([:len [find name="hqchip.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-electronic-cn" match-subdomain=yes type=FWD name="hqchip.com" }
 :if ([:len [find name="hqdoc.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-electronic-cn" match-subdomain=yes type=FWD name="hqdoc.com" }
 :if ([:len [find name="hqpcb.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-electronic-cn" match-subdomain=yes type=FWD name="hqpcb.com" }
-:if ([:len [find name="infineon.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-electronic-cn" match-subdomain=yes type=FWD name="infineon.com" }
 :if ([:len [find name="iotronic.tech"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-electronic-cn" match-subdomain=yes type=FWD name="iotronic.tech" }
 :if ([:len [find name="jlc-3dp.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-electronic-cn" match-subdomain=yes type=FWD name="jlc-3dp.com" }
 :if ([:len [find name="jlc-bbs.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-electronic-cn" match-subdomain=yes type=FWD name="jlc-bbs.com" }
@@ -50,7 +50,6 @@
 :if ([:len [find name="sipeed.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-electronic-cn" match-subdomain=yes type=FWD name="sipeed.com" }
 :if ([:len [find name="sz-jlc.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-electronic-cn" match-subdomain=yes type=FWD name="sz-jlc.com" }
 :if ([:len [find name="szlcsc.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-electronic-cn" match-subdomain=yes type=FWD name="szlcsc.com" }
-:if ([:len [find name="ti.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-electronic-cn" match-subdomain=yes type=FWD name="ti.com" }
 :if ([:len [find name="wch-ic.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-electronic-cn" match-subdomain=yes type=FWD name="wch-ic.com" }
 :if ([:len [find name="zs-jlc.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-electronic-cn" match-subdomain=yes type=FWD name="zs-jlc.com" }
 :if ([:len [find name="zxhgroup.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-electronic-cn" match-subdomain=yes type=FWD name="zxhgroup.com" }

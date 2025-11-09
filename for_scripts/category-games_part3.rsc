@@ -1,6 +1,7 @@
 :global AddressList
 :global ForwardTo
 /ip dns static
+:if ([:len [find name="maddenchampionship.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-games" match-subdomain=yes type=FWD name="maddenchampionship.com" }
 :if ([:len [find name="maddenrewards.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-games" match-subdomain=yes type=FWD name="maddenrewards.com" }
 :if ([:len [find name="maddenseason.info"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-games" match-subdomain=yes type=FWD name="maddenseason.info" }
 :if ([:len [find name="maddenseason.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-games" match-subdomain=yes type=FWD name="maddenseason.net" }
@@ -150,4 +151,3 @@
 :if ([:len [find name="pokemonletsgoeevee.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-games" match-subdomain=yes type=FWD name="pokemonletsgoeevee.com" }
 :if ([:len [find name="pokemonletsgopikachu.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-games" match-subdomain=yes type=FWD name="pokemonletsgopikachu.com" }
 :if ([:len [find name="pokemonmysterydungeon.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-games" match-subdomain=yes type=FWD name="pokemonmysterydungeon.com" }
-:if ([:len [find name="pokemonpicross.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-games" match-subdomain=yes type=FWD name="pokemonpicross.com" }

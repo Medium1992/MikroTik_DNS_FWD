@@ -1,6 +1,7 @@
 :global AddressList
 :global ForwardTo
 /ip dns static
+:if ([:len [find name="mock-game.dyn.riotcdn.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-game-platforms-download" type=FWD name="mock-game.dyn.riotcdn.net" }
 :if ([:len [find name="mock-game.secure.dyn.riotcdn.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-game-platforms-download" type=FWD name="mock-game.secure.dyn.riotcdn.net" }
 :if ([:len [find name="origin-a.akamaihd.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-game-platforms-download" type=FWD name="origin-a.akamaihd.net" }
 :if ([:len [find name="recommendations-api.gog.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-game-platforms-download" type=FWD name="recommendations-api.gog.com" }

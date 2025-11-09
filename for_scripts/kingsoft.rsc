@@ -10,6 +10,7 @@
 :if ([:len [find name="duba.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="kingsoft" match-subdomain=yes type=FWD name="duba.net" }
 :if ([:len [find name="iciba.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="kingsoft" match-subdomain=yes type=FWD name="iciba.com" }
 :if ([:len [find name="ijinshan.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="kingsoft" match-subdomain=yes type=FWD name="ijinshan.com" }
+:if ([:len [find name="kingsoft-office-service.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="kingsoft" match-subdomain=yes type=FWD name="kingsoft-office-service.com" }
 :if ([:len [find name="kingsoft.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="kingsoft" match-subdomain=yes type=FWD name="kingsoft.com" }
 :if ([:len [find name="ks-cdn.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="kingsoft" match-subdomain=yes type=FWD name="ks-cdn.com" }
 :if ([:len [find name="ks-cdn1.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="kingsoft" match-subdomain=yes type=FWD name="ks-cdn1.com" }

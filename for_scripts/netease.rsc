@@ -9,12 +9,14 @@
 :if ([:len [find name="163.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="netease" match-subdomain=yes type=FWD name="163.com" }
 :if ([:len [find name="163cn.tv"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="netease" match-subdomain=yes type=FWD name="163cn.tv" }
 :if ([:len [find name="163industry.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="netease" match-subdomain=yes type=FWD name="163industry.com" }
+:if ([:len [find name="163jiasu.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="netease" match-subdomain=yes type=FWD name="163jiasu.com" }
 :if ([:len [find name="163mail.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="netease" match-subdomain=yes type=FWD name="163mail.com" }
 :if ([:len [find name="163qiyukf.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="netease" match-subdomain=yes type=FWD name="163qiyukf.com" }
 :if ([:len [find name="163yun.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="netease" match-subdomain=yes type=FWD name="163yun.com" }
 :if ([:len [find name="166.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="netease" match-subdomain=yes type=FWD name="166.com" }
 :if ([:len [find name="166.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="netease" match-subdomain=yes type=FWD name="166.net" }
 :if ([:len [find name="188.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="netease" match-subdomain=yes type=FWD name="188.com" }
+:if ([:len [find name="321fenx.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="netease" match-subdomain=yes type=FWD name="321fenx.com" }
 :if ([:len [find name="a.youdao.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="netease" match-subdomain=yes type=FWD name="a.youdao.com" }
 :if ([:len [find name="admusicpic.music.126.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="netease" match-subdomain=yes type=FWD name="admusicpic.music.126.net" }
 :if ([:len [find name="ads.music.126.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="netease" match-subdomain=yes type=FWD name="ads.music.126.net" }
@@ -32,8 +34,11 @@
 :if ([:len [find name="nease.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="netease" match-subdomain=yes type=FWD name="nease.net" }
 :if ([:len [find name="netease-inc.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="netease" match-subdomain=yes type=FWD name="netease-inc.com" }
 :if ([:len [find name="netease.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="netease" match-subdomain=yes type=FWD name="netease.com" }
+:if ([:len [find name="netstatic.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="netease" match-subdomain=yes type=FWD name="netstatic.net" }
 :if ([:len [find name="qiyukf.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="netease" match-subdomain=yes type=FWD name="qiyukf.com" }
+:if ([:len [find name="qiyukf.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="netease" match-subdomain=yes type=FWD name="qiyukf.net" }
 :if ([:len [find name="sentry.music.163.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="netease" match-subdomain=yes type=FWD name="sentry.music.163.com" }
+:if ([:len [find name="static163.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="netease" match-subdomain=yes type=FWD name="static163.net" }
 :if ([:len [find name="ydstatic.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="netease" match-subdomain=yes type=FWD name="ydstatic.com" }
 :if ([:len [find name="yeah.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="netease" match-subdomain=yes type=FWD name="yeah.net" }
 :if ([:len [find name="youdao.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="netease" match-subdomain=yes type=FWD name="youdao.com" }
