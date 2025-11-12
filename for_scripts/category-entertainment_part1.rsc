@@ -85,14 +85,11 @@
 :if ([:len [find name="bcbits.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-entertainment" match-subdomain=yes type=FWD name="bcbits.com" }
 :if ([:len [find name="bejeweledstars.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-entertainment" match-subdomain=yes type=FWD name="bejeweledstars.com" }
 :if ([:len [find name="bejewled-stars.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-entertainment" match-subdomain=yes type=FWD name="bejewled-stars.com" }
-:if ([:len [find name="benghuai.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-entertainment" match-subdomain=yes type=FWD name="benghuai.com" }
 :if ([:len [find name="beth.games"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-entertainment" match-subdomain=yes type=FWD name="beth.games" }
 :if ([:len [find name="bethesda.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-entertainment" match-subdomain=yes type=FWD name="bethesda.net" }
 :if ([:len [find name="bethesdagamestudios.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-entertainment" match-subdomain=yes type=FWD name="bethesdagamestudios.com" }
 :if ([:len [find name="bethsoft.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-entertainment" match-subdomain=yes type=FWD name="bethsoft.com" }
 :if ([:len [find name="bgm.tv"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-entertainment" match-subdomain=yes type=FWD name="bgm.tv" }
-:if ([:len [find name="bh3.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-entertainment" match-subdomain=yes type=FWD name="bh3.com" }
-:if ([:len [find name="bhsr.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-entertainment" match-subdomain=yes type=FWD name="bhsr.com" }
 :if ([:len [find name="biggggg.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-entertainment" match-subdomain=yes type=FWD name="biggggg.com" }
 :if ([:len [find name="bioware.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-entertainment" match-subdomain=yes type=FWD name="bioware.com" }
 :if ([:len [find name="biowarestore.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-entertainment" match-subdomain=yes type=FWD name="biowarestore.com" }
@@ -151,3 +148,6 @@
 :if ([:len [find name="crysis.jp"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-entertainment" match-subdomain=yes type=FWD name="crysis.jp" }
 :if ([:len [find name="cubicmotion.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-entertainment" match-subdomain=yes type=FWD name="cubicmotion.com" }
 :if ([:len [find name="curseforge.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-entertainment" match-subdomain=yes type=FWD name="curseforge.com" }
+:if ([:len [find name="cygames.co.jp"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-entertainment" match-subdomain=yes type=FWD name="cygames.co.jp" }
+:if ([:len [find name="cygames.jp"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-entertainment" match-subdomain=yes type=FWD name="cygames.jp" }
+:if ([:len [find name="da-files.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-entertainment" match-subdomain=yes type=FWD name="da-files.com" }

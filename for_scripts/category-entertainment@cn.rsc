@@ -1,22 +1,10 @@
 :global AddressList
 :global ForwardTo
 /ip dns static
-:if ([:len [find name="benghuai.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-entertainment@cn" match-subdomain=yes type=FWD name="benghuai.com" }
-:if ([:len [find name="bh3.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-entertainment@cn" match-subdomain=yes type=FWD name="bh3.com" }
-:if ([:len [find name="bhsr.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-entertainment@cn" match-subdomain=yes type=FWD name="bhsr.com" }
 :if ([:len [find name="bluearchive-cn.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-entertainment@cn" match-subdomain=yes type=FWD name="bluearchive-cn.com" }
 :if ([:len [find name="client-update.queniuqe.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-entertainment@cn" match-subdomain=yes type=FWD name="client-update.queniuqe.com" }
 :if ([:len [find name="dl.steam.clngaa.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-entertainment@cn" match-subdomain=yes type=FWD name="dl.steam.clngaa.com" }
 :if ([:len [find name="gstore.val.manlaxy.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-entertainment@cn" match-subdomain=yes type=FWD name="gstore.val.manlaxy.com" }
-:if ([:len [find name="juequling.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-entertainment@cn" match-subdomain=yes type=FWD name="juequling.com" }
-:if ([:len [find name="mhystatic.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-entertainment@cn" match-subdomain=yes type=FWD name="mhystatic.com" }
-:if ([:len [find name="mihayo.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-entertainment@cn" match-subdomain=yes type=FWD name="mihayo.com" }
-:if ([:len [find name="mihayou.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-entertainment@cn" match-subdomain=yes type=FWD name="mihayou.com" }
-:if ([:len [find name="mihoyo.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-entertainment@cn" match-subdomain=yes type=FWD name="mihoyo.com" }
-:if ([:len [find name="mihoyocg.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-entertainment@cn" match-subdomain=yes type=FWD name="mihoyocg.com" }
-:if ([:len [find name="mihoyogift.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-entertainment@cn" match-subdomain=yes type=FWD name="mihoyogift.com" }
-:if ([:len [find name="mihoyomall.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-entertainment@cn" match-subdomain=yes type=FWD name="mihoyomall.com" }
-:if ([:len [find name="miyoushe.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-entertainment@cn" match-subdomain=yes type=FWD name="miyoushe.com" }
 :if ([:len [find name="st.dl.bscstorage.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-entertainment@cn" match-subdomain=yes type=FWD name="st.dl.bscstorage.net" }
 :if ([:len [find name="st.dl.eccdnx.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-entertainment@cn" match-subdomain=yes type=FWD name="st.dl.eccdnx.com" }
 :if ([:len [find name="st.dl.pinyuncloud.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-entertainment@cn" match-subdomain=yes type=FWD name="st.dl.pinyuncloud.com" }
@@ -25,9 +13,7 @@
 :if ([:len [find name="steamserver.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-entertainment@cn" match-subdomain=yes type=FWD name="steamserver.net" }
 :if ([:len [find name="steamstatic.com.8686c.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-entertainment@cn" match-subdomain=yes type=FWD name="steamstatic.com.8686c.com" }
 :if ([:len [find name="steamusercontent.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-entertainment@cn" match-subdomain=yes type=FWD name="steamusercontent.com" }
-:if ([:len [find name="themisweeps.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-entertainment@cn" match-subdomain=yes type=FWD name="themisweeps.com" }
 :if ([:len [find name="wmsjsteam.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-entertainment@cn" match-subdomain=yes type=FWD name="wmsjsteam.com" }
-:if ([:len [find name="yuanshen.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-entertainment@cn" match-subdomain=yes type=FWD name="yuanshen.com" }
 :if ([:len [find name="alibaba.cdn.steampipe.steamcontent.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-entertainment@cn" type=FWD name="alibaba.cdn.steampipe.steamcontent.com" }
 :if ([:len [find name="gog-cdn-fastly.gog.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-entertainment@cn" type=FWD name="gog-cdn-fastly.gog.com" }
 :if ([:len [find name="gog-cdn.akamaized.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-entertainment@cn" type=FWD name="gog-cdn.akamaized.net" }
@@ -39,7 +25,6 @@
 :if ([:len [find name="uplaypc-s-ubisoft.cdn.ubi.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-entertainment@cn" type=FWD name="uplaypc-s-ubisoft.cdn.ubi.com" }
 :if ([:len [find name="www4-static.gog-statics.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-entertainment@cn" type=FWD name="www4-static.gog-statics.com" }
 :if ([:len [find name="xz.pphimalayanrt.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-entertainment@cn" type=FWD name="xz.pphimalayanrt.com" }
-:if ([:len [find regexp="^.+-mihayo\\\\.akamaized\\\\.net\$"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-entertainment@cn" type=FWD regexp="^.+-mihayo\\\\.akamaized\\\\.net\$" }
 :if ([:len [find regexp="^cdn-akamai-.+\\\\.gog-services\\\\.com\$"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-entertainment@cn" type=FWD regexp="^cdn-akamai-.+\\\\.gog-services\\\\.com\$" }
 :if ([:len [find regexp="^cdn\\\\d-epicgames-\\\\d+\\\\.file\\\\.myqcloud\\\\.com\$"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-entertainment@cn" type=FWD regexp="^cdn\\\\d-epicgames-\\\\d+\\\\.file\\\\.myqcloud\\\\.com\$" }
 :if ([:len [find regexp="^epicgames-download\\\\d-\\\\d+\\\\.file\\\\.myqcloud\\\\.com\$"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-entertainment@cn" type=FWD regexp="^epicgames-download\\\\d-\\\\d+\\\\.file\\\\.myqcloud\\\\.com\$" }

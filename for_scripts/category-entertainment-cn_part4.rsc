@@ -15,7 +15,6 @@
 :if ([:len [find name="static.app.m.letv.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-entertainment-cn" match-subdomain=yes type=FWD name="static.app.m.letv.com" }
 :if ([:len [find name="supercachenet.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-entertainment-cn" match-subdomain=yes type=FWD name="supercachenet.com" }
 :if ([:len [find name="supercachenode.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-entertainment-cn" match-subdomain=yes type=FWD name="supercachenode.com" }
-:if ([:len [find name="supercell.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-entertainment-cn" match-subdomain=yes type=FWD name="supercell.com" }
 :if ([:len [find name="syxlgame.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-entertainment-cn" match-subdomain=yes type=FWD name="syxlgame.com" }
 :if ([:len [find name="taomee.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-entertainment-cn" match-subdomain=yes type=FWD name="taomee.com" }
 :if ([:len [find name="tapimg.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-entertainment-cn" match-subdomain=yes type=FWD name="tapimg.com" }

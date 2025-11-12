@@ -129,7 +129,6 @@
 :if ([:len [find name="roco.qq.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-games-cn" match-subdomain=yes type=FWD name="roco.qq.com" }
 :if ([:len [find name="shyxhy.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-games-cn" match-subdomain=yes type=FWD name="shyxhy.com" }
 :if ([:len [find name="sl916.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-games-cn" match-subdomain=yes type=FWD name="sl916.com" }
-:if ([:len [find name="supercell.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-games-cn" match-subdomain=yes type=FWD name="supercell.com" }
 :if ([:len [find name="syxlgame.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-games-cn" match-subdomain=yes type=FWD name="syxlgame.com" }
 :if ([:len [find name="tapimg.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-games-cn" match-subdomain=yes type=FWD name="tapimg.com" }
 :if ([:len [find name="tapimg.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-games-cn" match-subdomain=yes type=FWD name="tapimg.net" }
@@ -151,3 +150,4 @@
 :if ([:len [find name="tuer123.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-games-cn" match-subdomain=yes type=FWD name="tuer123.com" }
 :if ([:len [find name="vgtime.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-games-cn" match-subdomain=yes type=FWD name="vgtime.com" }
 :if ([:len [find name="videoxiaoyouxi.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-games-cn" match-subdomain=yes type=FWD name="videoxiaoyouxi.com" }
+:if ([:len [find name="vrzwk.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-games-cn" match-subdomain=yes type=FWD name="vrzwk.com" }

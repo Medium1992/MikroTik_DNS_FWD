@@ -1,6 +1,12 @@
 :global AddressList
 :global ForwardTo
 /ip dns static
+:if ([:len [find name="youtube.nl"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" match-subdomain=yes type=FWD name="youtube.nl" }
+:if ([:len [find name="youtube.ru"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" match-subdomain=yes type=FWD name="youtube.ru" }
+:if ([:len [find name="youtube.se"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" match-subdomain=yes type=FWD name="youtube.se" }
+:if ([:len [find name="youtube.soy"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" match-subdomain=yes type=FWD name="youtube.soy" }
+:if ([:len [find name="youtube.tv"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" match-subdomain=yes type=FWD name="youtube.tv" }
+:if ([:len [find name="youtubecisco.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" match-subdomain=yes type=FWD name="youtubecisco.com" }
 :if ([:len [find name="youtubeeducation.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" match-subdomain=yes type=FWD name="youtubeeducation.com" }
 :if ([:len [find name="youtubefanfest.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" match-subdomain=yes type=FWD name="youtubefanfest.com" }
 :if ([:len [find name="youtubegaming.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" match-subdomain=yes type=FWD name="youtubegaming.com" }
@@ -33,11 +39,13 @@
 :if ([:len [find name="a5.mzstatic.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" type=FWD name="a5.mzstatic.com" }
 :if ([:len [find name="activate-sea.adobe.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" type=FWD name="activate-sea.adobe.com" }
 :if ([:len [find name="activate-sjc0.adobe.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" type=FWD name="activate-sjc0.adobe.com" }
+:if ([:len [find name="activate.activation-v2.kaspersky.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" type=FWD name="activate.activation-v2.kaspersky.com" }
 :if ([:len [find name="activate.adobe.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" type=FWD name="activate.adobe.com" }
 :if ([:len [find name="activate.wip1.adobe.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" type=FWD name="activate.wip1.adobe.com" }
 :if ([:len [find name="activate.wip2.adobe.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" type=FWD name="activate.wip2.adobe.com" }
 :if ([:len [find name="activate.wip3.adobe.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" type=FWD name="activate.wip3.adobe.com" }
 :if ([:len [find name="activate.wip4.adobe.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" type=FWD name="activate.wip4.adobe.com" }
+:if ([:len [find name="activation-v2.geo.kaspersky.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" type=FWD name="activation-v2.geo.kaspersky.com" }
 :if ([:len [find name="activation-v2.kaspersky.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" type=FWD name="activation-v2.kaspersky.com" }
 :if ([:len [find name="adcdownload.apple.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" type=FWD name="adcdownload.apple.com" }
 :if ([:len [find name="adcdownload.apple.com.akadns.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" type=FWD name="adcdownload.apple.com.akadns.net" }
@@ -143,11 +151,3 @@
 :if ([:len [find name="cl3.apple.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" type=FWD name="cl3.apple.com" }
 :if ([:len [find name="cl4-cdn.origin-apple.com.akadns.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" type=FWD name="cl4-cdn.origin-apple.com.akadns.net" }
 :if ([:len [find name="cl4-cn.apple.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" type=FWD name="cl4-cn.apple.com" }
-:if ([:len [find name="cl4.apple.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" type=FWD name="cl4.apple.com" }
-:if ([:len [find name="cl5-cdn.origin-apple.com.akadns.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" type=FWD name="cl5-cdn.origin-apple.com.akadns.net" }
-:if ([:len [find name="cl5.apple.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" type=FWD name="cl5.apple.com" }
-:if ([:len [find name="clickserve.cc-dt.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" type=FWD name="clickserve.cc-dt.com" }
-:if ([:len [find name="clickserve.dartsearch.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" type=FWD name="clickserve.dartsearch.net" }
-:if ([:len [find name="clickserver.googleads.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" type=FWD name="clickserver.googleads.com" }
-:if ([:len [find name="client-api.itunes.apple.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" type=FWD name="client-api.itunes.apple.com" }
-:if ([:len [find name="client-teamviewer-com.trafficmanager.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" type=FWD name="client-teamviewer-com.trafficmanager.net" }

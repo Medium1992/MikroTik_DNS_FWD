@@ -49,7 +49,6 @@
 :if ([:len [find name="gotokeep.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-cn" match-subdomain=yes type=FWD name="gotokeep.com" }
 :if ([:len [find name="gotolink.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-cn" match-subdomain=yes type=FWD name="gotolink.net" }
 :if ([:len [find name="goufw.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-cn" match-subdomain=yes type=FWD name="goufw.com" }
-:if ([:len [find name="gouhuo.qq.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-cn" match-subdomain=yes type=FWD name="gouhuo.qq.com" }
 :if ([:len [find name="govqcloud.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-cn" match-subdomain=yes type=FWD name="govqcloud.com" }
 :if ([:len [find name="gowinamc.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-cn" match-subdomain=yes type=FWD name="gowinamc.com" }
 :if ([:len [find name="gpall.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-cn" match-subdomain=yes type=FWD name="gpall.net" }
@@ -151,3 +150,4 @@
 :if ([:len [find name="hellowebfont.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-cn" match-subdomain=yes type=FWD name="hellowebfont.com" }
 :if ([:len [find name="hemamax.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-cn" match-subdomain=yes type=FWD name="hemamax.com" }
 :if ([:len [find name="hemaos.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-cn" match-subdomain=yes type=FWD name="hemaos.com" }
+:if ([:len [find name="henha.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-cn" match-subdomain=yes type=FWD name="henha.com" }

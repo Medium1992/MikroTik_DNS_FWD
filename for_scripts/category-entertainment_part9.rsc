@@ -1,20 +1,6 @@
 :global AddressList
 :global ForwardTo
 /ip dns static
-:if ([:len [find name="spotify.map.fastly.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-entertainment" type=FWD name="spotify.map.fastly.net" }
-:if ([:len [find name="spotify.map.fastlylb.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-entertainment" type=FWD name="spotify.map.fastlylb.net" }
-:if ([:len [find name="ssl-lvlt.cdn.ea.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-entertainment" type=FWD name="ssl-lvlt.cdn.ea.com" }
-:if ([:len [find name="static-hamivideo.cdn.hinet.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-entertainment" type=FWD name="static-hamivideo.cdn.hinet.net" }
-:if ([:len [find name="static-login.gog-statics.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-entertainment" type=FWD name="static-login.gog-statics.com" }
-:if ([:len [find name="steambroadcast.akamaized.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-entertainment" type=FWD name="steambroadcast.akamaized.net" }
-:if ([:len [find name="steamcdn-a.akamaihd.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-entertainment" type=FWD name="steamcdn-a.akamaihd.net" }
-:if ([:len [find name="steamcloudsweden.blob.core.windows.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-entertainment" type=FWD name="steamcloudsweden.blob.core.windows.net" }
-:if ([:len [find name="steamcommunity-a.akamaihd.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-entertainment" type=FWD name="steamcommunity-a.akamaihd.net" }
-:if ([:len [find name="steamcommunity-a.akamaihd.net.edgesuite.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-entertainment" type=FWD name="steamcommunity-a.akamaihd.net.edgesuite.net" }
-:if ([:len [find name="steammobile.akamaized.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-entertainment" type=FWD name="steammobile.akamaized.net" }
-:if ([:len [find name="steampipe-kr.akamaized.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-entertainment" type=FWD name="steampipe-kr.akamaized.net" }
-:if ([:len [find name="steampipe-partner.akamaized.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-entertainment" type=FWD name="steampipe-partner.akamaized.net" }
-:if ([:len [find name="steampipe.akamaized.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-entertainment" type=FWD name="steampipe.akamaized.net" }
 :if ([:len [find name="steamstore-a.akamaihd.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-entertainment" type=FWD name="steamstore-a.akamaihd.net" }
 :if ([:len [find name="steamusercontent-a.akamaihd.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-entertainment" type=FWD name="steamusercontent-a.akamaihd.net" }
 :if ([:len [find name="steamuserimages-a.akamaihd.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-entertainment" type=FWD name="steamuserimages-a.akamaihd.net" }
@@ -38,7 +24,6 @@
 :if ([:len [find regexp="(^|\\\\.)apiproxy-website-nlb-prod-.+\\\\.amazonaws\\\\.com\$"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-entertainment" type=FWD regexp="(^|\\\\.)apiproxy-website-nlb-prod-.+\\\\.amazonaws\\\\.com\$" }
 :if ([:len [find regexp="(^|\\\\.)dualstack\\\\.apiproxy-.+\\\\.amazonaws\\\\.com\$"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-entertainment" type=FWD regexp="(^|\\\\.)dualstack\\\\.apiproxy-.+\\\\.amazonaws\\\\.com\$" }
 :if ([:len [find regexp="(^|\\\\.)dualstack\\\\.ichnaea-web-.+\\\\.amazonaws\\\\.com\$"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-entertainment" type=FWD regexp="(^|\\\\.)dualstack\\\\.ichnaea-web-.+\\\\.amazonaws\\\\.com\$" }
-:if ([:len [find regexp="^.+-mihayo\\\\.akamaized\\\\.net\$"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-entertainment" type=FWD regexp="^.+-mihayo\\\\.akamaized\\\\.net\$" }
 :if ([:len [find regexp="^[0-9]+vod-adaptive\\\\.akamaized\\\\.net\$"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-entertainment" type=FWD regexp="^[0-9]+vod-adaptive\\\\.akamaized\\\\.net\$" }
 :if ([:len [find regexp="^cdn-akamai-.+\\\\.gog-services\\\\.com\$"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-entertainment" type=FWD regexp="^cdn-akamai-.+\\\\.gog-services\\\\.com\$" }
 :if ([:len [find regexp="^cdn\\\\d-epicgames-\\\\d+\\\\.file\\\\.myqcloud\\\\.com\$"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-entertainment" type=FWD regexp="^cdn\\\\d-epicgames-\\\\d+\\\\.file\\\\.myqcloud\\\\.com\$" }

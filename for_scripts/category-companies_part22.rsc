@@ -28,7 +28,13 @@
 :if ([:len [find name="kakaotalk.jp"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" match-subdomain=yes type=FWD name="kakaotalk.jp" }
 :if ([:len [find name="kakaovx.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" match-subdomain=yes type=FWD name="kakaovx.com" }
 :if ([:len [find name="kaspersky-labs.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" match-subdomain=yes type=FWD name="kaspersky-labs.com" }
+:if ([:len [find name="kaspersky.be"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" match-subdomain=yes type=FWD name="kaspersky.be" }
+:if ([:len [find name="kaspersky.co.jp"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" match-subdomain=yes type=FWD name="kaspersky.co.jp" }
 :if ([:len [find name="kaspersky.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" match-subdomain=yes type=FWD name="kaspersky.com" }
+:if ([:len [find name="kaspersky.com.tw"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" match-subdomain=yes type=FWD name="kaspersky.com.tw" }
+:if ([:len [find name="kaspersky.nl"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" match-subdomain=yes type=FWD name="kaspersky.nl" }
+:if ([:len [find name="kaspersky.ru"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" match-subdomain=yes type=FWD name="kaspersky.ru" }
+:if ([:len [find name="kaspersky.se"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" match-subdomain=yes type=FWD name="kaspersky.se" }
 :if ([:len [find name="kaydara.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" match-subdomain=yes type=FWD name="kaydara.com" }
 :if ([:len [find name="keepyourcad.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" match-subdomain=yes type=FWD name="keepyourcad.com" }
 :if ([:len [find name="keezmovies.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" match-subdomain=yes type=FWD name="keezmovies.com" }
@@ -145,9 +151,3 @@
 :if ([:len [find name="macbookpro.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" match-subdomain=yes type=FWD name="macbookpro.com" }
 :if ([:len [find name="macbookpro.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" match-subdomain=yes type=FWD name="macbookpro.net" }
 :if ([:len [find name="macbookpro.us"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" match-subdomain=yes type=FWD name="macbookpro.us" }
-:if ([:len [find name="macbookpros.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" match-subdomain=yes type=FWD name="macbookpros.com" }
-:if ([:len [find name="macbooksale.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" match-subdomain=yes type=FWD name="macbooksale.com" }
-:if ([:len [find name="macboxset.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" match-subdomain=yes type=FWD name="macboxset.com" }
-:if ([:len [find name="mach-os.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" match-subdomain=yes type=FWD name="mach-os.com" }
-:if ([:len [find name="mach-os.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" match-subdomain=yes type=FWD name="mach-os.net" }
-:if ([:len [find name="machine-dna.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" match-subdomain=yes type=FWD name="machine-dna.com" }

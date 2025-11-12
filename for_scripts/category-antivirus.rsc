@@ -18,14 +18,27 @@
 :if ([:len [find name="esetsoftware.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-antivirus" match-subdomain=yes type=FWD name="esetsoftware.com" }
 :if ([:len [find name="f-secure.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-antivirus" match-subdomain=yes type=FWD name="f-secure.com" }
 :if ([:len [find name="kaspersky-labs.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-antivirus" match-subdomain=yes type=FWD name="kaspersky-labs.com" }
+:if ([:len [find name="kaspersky.be"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-antivirus" match-subdomain=yes type=FWD name="kaspersky.be" }
+:if ([:len [find name="kaspersky.co.jp"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-antivirus" match-subdomain=yes type=FWD name="kaspersky.co.jp" }
 :if ([:len [find name="kaspersky.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-antivirus" match-subdomain=yes type=FWD name="kaspersky.com" }
+:if ([:len [find name="kaspersky.com.tw"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-antivirus" match-subdomain=yes type=FWD name="kaspersky.com.tw" }
+:if ([:len [find name="kaspersky.nl"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-antivirus" match-subdomain=yes type=FWD name="kaspersky.nl" }
+:if ([:len [find name="kaspersky.ru"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-antivirus" match-subdomain=yes type=FWD name="kaspersky.ru" }
+:if ([:len [find name="kaspersky.se"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-antivirus" match-subdomain=yes type=FWD name="kaspersky.se" }
 :if ([:len [find name="mcafee.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-antivirus" match-subdomain=yes type=FWD name="mcafee.com" }
 :if ([:len [find name="norton.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-antivirus" match-subdomain=yes type=FWD name="norton.com" }
 :if ([:len [find name="pandasecurity.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-antivirus" match-subdomain=yes type=FWD name="pandasecurity.com" }
 :if ([:len [find name="symantec.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-antivirus" match-subdomain=yes type=FWD name="symantec.com" }
 :if ([:len [find name="symantecliveupdate.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-antivirus" match-subdomain=yes type=FWD name="symantecliveupdate.com" }
+:if ([:len [find name="activate.activation-v2.kaspersky.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-antivirus" type=FWD name="activate.activation-v2.kaspersky.com" }
+:if ([:len [find name="activation-v2.geo.kaspersky.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-antivirus" type=FWD name="activation-v2.geo.kaspersky.com" }
 :if ([:len [find name="activation-v2.kaspersky.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-antivirus" type=FWD name="activation-v2.kaspersky.com" }
 :if ([:len [find name="crl.kaspersky.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-antivirus" type=FWD name="crl.kaspersky.com" }
+:if ([:len [find name="dc1-cert.ksn.kaspersky-labs.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-antivirus" type=FWD name="dc1-cert.ksn.kaspersky-labs.com" }
+:if ([:len [find name="dc1-file.ksn.kaspersky-labs.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-antivirus" type=FWD name="dc1-file.ksn.kaspersky-labs.com" }
+:if ([:len [find name="dc1-pp.ksn.kaspersky-labs.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-antivirus" type=FWD name="dc1-pp.ksn.kaspersky-labs.com" }
+:if ([:len [find name="dc1-st.ksn.kaspersky-labs.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-antivirus" type=FWD name="dc1-st.ksn.kaspersky-labs.com" }
+:if ([:len [find name="dc1.ksn.kaspersky-labs.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-antivirus" type=FWD name="dc1.ksn.kaspersky-labs.com" }
 :if ([:len [find name="dnl-00.geo.kaspersky.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-antivirus" type=FWD name="dnl-00.geo.kaspersky.com" }
 :if ([:len [find name="dnl-01.geo.kaspersky.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-antivirus" type=FWD name="dnl-01.geo.kaspersky.com" }
 :if ([:len [find name="dnl-02.geo.kaspersky.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-antivirus" type=FWD name="dnl-02.geo.kaspersky.com" }
@@ -46,12 +59,34 @@
 :if ([:len [find name="dnl-17.geo.kaspersky.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-antivirus" type=FWD name="dnl-17.geo.kaspersky.com" }
 :if ([:len [find name="dnl-18.geo.kaspersky.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-antivirus" type=FWD name="dnl-18.geo.kaspersky.com" }
 :if ([:len [find name="dnl-19.geo.kaspersky.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-antivirus" type=FWD name="dnl-19.geo.kaspersky.com" }
+:if ([:len [find name="edge.geo.kaspersky.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-antivirus" type=FWD name="edge.geo.kaspersky.com" }
 :if ([:len [find name="epc-de-agent-proxy.germanywestcentral.cloudapp.azure.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-antivirus" type=FWD name="epc-de-agent-proxy.germanywestcentral.cloudapp.azure.com" }
 :if ([:len [find name="eset-prod-ca48648d0ce7cadf.elb.eu-central-1.amazonaws.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-antivirus" type=FWD name="eset-prod-ca48648d0ce7cadf.elb.eu-central-1.amazonaws.com" }
 :if ([:len [find name="ksn-cinfo-geo.kaspersky-labs.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-antivirus" type=FWD name="ksn-cinfo-geo.kaspersky-labs.com" }
+:if ([:len [find name="ksn-cinfo.geoksn.kaspersky.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-antivirus" type=FWD name="ksn-cinfo.geoksn.kaspersky.com" }
+:if ([:len [find name="ksn-crypto-info-geo.kaspersky-labs.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-antivirus" type=FWD name="ksn-crypto-info-geo.kaspersky-labs.com" }
+:if ([:len [find name="ksn-crypto-kas-geo.kaspersky-labs.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-antivirus" type=FWD name="ksn-crypto-kas-geo.kaspersky-labs.com" }
+:if ([:len [find name="ksn-crypto-tcert-geo.kaspersky-labs.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-antivirus" type=FWD name="ksn-crypto-tcert-geo.kaspersky-labs.com" }
+:if ([:len [find name="ksn-crypto-url-geo.kaspersky-labs.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-antivirus" type=FWD name="ksn-crypto-url-geo.kaspersky-labs.com" }
+:if ([:len [find name="ksn-crypto-verdict-geo.kaspersky-labs.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-antivirus" type=FWD name="ksn-crypto-verdict-geo.kaspersky-labs.com" }
+:if ([:len [find name="ksn-crypto-wifiplus-geo.kaspersky-labs.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-antivirus" type=FWD name="ksn-crypto-wifiplus-geo.kaspersky-labs.com" }
+:if ([:len [find name="ksn-crypto-wifiplus.geoksn.kaspersky.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-antivirus" type=FWD name="ksn-crypto-wifiplus.geoksn.kaspersky.com" }
+:if ([:len [find name="ksn-dc1-cert.geoksn.kaspersky.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-antivirus" type=FWD name="ksn-dc1-cert.geoksn.kaspersky.com" }
+:if ([:len [find name="ksn-dc1-file.geoksn.kaspersky.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-antivirus" type=FWD name="ksn-dc1-file.geoksn.kaspersky.com" }
+:if ([:len [find name="ksn-dc1.geoksn.kaspersky.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-antivirus" type=FWD name="ksn-dc1.geoksn.kaspersky.com" }
 :if ([:len [find name="ksn-file-geo.kaspersky-labs.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-antivirus" type=FWD name="ksn-file-geo.kaspersky-labs.com" }
+:if ([:len [find name="ksn-file.geoksn.kaspersky.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-antivirus" type=FWD name="ksn-file.geoksn.kaspersky.com" }
+:if ([:len [find name="ksn-info-geo.kaspersky-labs.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-antivirus" type=FWD name="ksn-info-geo.kaspersky-labs.com" }
+:if ([:len [find name="ksn-info.geoksn.kaspersky.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-antivirus" type=FWD name="ksn-info.geoksn.kaspersky.com" }
+:if ([:len [find name="ksn-kas.geoksn.kaspersky.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-antivirus" type=FWD name="ksn-kas.geoksn.kaspersky.com" }
+:if ([:len [find name="ksn-mdr.geoksn.kaspersky.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-antivirus" type=FWD name="ksn-mdr.geoksn.kaspersky.com" }
+:if ([:len [find name="ksn-tcert-geo.kaspersky-labs.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-antivirus" type=FWD name="ksn-tcert-geo.kaspersky-labs.com" }
+:if ([:len [find name="ksn-tcert.geoksn.kaspersky.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-antivirus" type=FWD name="ksn-tcert.geoksn.kaspersky.com" }
 :if ([:len [find name="ksn-url-geo.kaspersky-labs.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-antivirus" type=FWD name="ksn-url-geo.kaspersky-labs.com" }
+:if ([:len [find name="ksn-url.geoksn.kaspersky.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-antivirus" type=FWD name="ksn-url.geoksn.kaspersky.com" }
 :if ([:len [find name="ksn-verdict-geo.kaspersky-labs.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-antivirus" type=FWD name="ksn-verdict-geo.kaspersky-labs.com" }
+:if ([:len [find name="ksn-verdict.geoksn.kaspersky.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-antivirus" type=FWD name="ksn-verdict.geoksn.kaspersky.com" }
+:if ([:len [find name="mdr.ksn.kaspersky-labs.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-antivirus" type=FWD name="mdr.ksn.kaspersky-labs.com" }
 :if ([:len [find name="p00.upd.kaspersky.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-antivirus" type=FWD name="p00.upd.kaspersky.com" }
 :if ([:len [find name="p01.upd.kaspersky.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-antivirus" type=FWD name="p01.upd.kaspersky.com" }
 :if ([:len [find name="p02.upd.kaspersky.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-antivirus" type=FWD name="p02.upd.kaspersky.com" }
@@ -72,6 +107,7 @@
 :if ([:len [find name="p17.upd.kaspersky.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-antivirus" type=FWD name="p17.upd.kaspersky.com" }
 :if ([:len [find name="p18.upd.kaspersky.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-antivirus" type=FWD name="p18.upd.kaspersky.com" }
 :if ([:len [find name="p19.upd.kaspersky.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-antivirus" type=FWD name="p19.upd.kaspersky.com" }
+:if ([:len [find name="refresh-bkg.activation-v2.kaspersky.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-antivirus" type=FWD name="refresh-bkg.activation-v2.kaspersky.com" }
 :if ([:len [find name="s00.upd.kaspersky.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-antivirus" type=FWD name="s00.upd.kaspersky.com" }
 :if ([:len [find name="s01.upd.kaspersky.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-antivirus" type=FWD name="s01.upd.kaspersky.com" }
 :if ([:len [find name="s02.upd.kaspersky.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-antivirus" type=FWD name="s02.upd.kaspersky.com" }

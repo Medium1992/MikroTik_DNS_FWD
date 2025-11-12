@@ -1,6 +1,8 @@
 :global AddressList
 :global ForwardTo
 /ip dns static
+:if ([:len [find name="cn-smp-paymentservices.apple.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies@cn" type=FWD name="cn-smp-paymentservices.apple.com" }
+:if ([:len [find name="cn.download.nvidia.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies@cn" type=FWD name="cn.download.nvidia.com" }
 :if ([:len [find name="cn.widevine.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies@cn" type=FWD name="cn.widevine.com" }
 :if ([:len [find name="cn.windowssearch.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies@cn" type=FWD name="cn.windowssearch.com" }
 :if ([:len [find name="cnappinstall.googleadapis.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies@cn" type=FWD name="cnappinstall.googleadapis.com" }
@@ -21,6 +23,11 @@
 :if ([:len [find name="ctldl.windowsupdate.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies@cn" type=FWD name="ctldl.windowsupdate.com" }
 :if ([:len [find name="customization-cdn.dell.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies@cn" type=FWD name="customization-cdn.dell.com" }
 :if ([:len [find name="dartsearch-cn.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies@cn" type=FWD name="dartsearch-cn.net" }
+:if ([:len [find name="dc1-cert.ksn.kaspersky-labs.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies@cn" type=FWD name="dc1-cert.ksn.kaspersky-labs.com" }
+:if ([:len [find name="dc1-file.ksn.kaspersky-labs.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies@cn" type=FWD name="dc1-file.ksn.kaspersky-labs.com" }
+:if ([:len [find name="dc1-pp.ksn.kaspersky-labs.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies@cn" type=FWD name="dc1-pp.ksn.kaspersky-labs.com" }
+:if ([:len [find name="dc1-st.ksn.kaspersky-labs.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies@cn" type=FWD name="dc1-st.ksn.kaspersky-labs.com" }
+:if ([:len [find name="dc1.ksn.kaspersky-labs.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies@cn" type=FWD name="dc1.ksn.kaspersky-labs.com" }
 :if ([:len [find name="dd-cdn.origin-apple.com.akadns.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies@cn" type=FWD name="dd-cdn.origin-apple.com.akadns.net" }
 :if ([:len [find name="dds.dell.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies@cn" type=FWD name="dds.dell.com" }
 :if ([:len [find name="dejavu.apple.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies@cn" type=FWD name="dejavu.apple.com" }
@@ -66,6 +73,7 @@
 :if ([:len [find name="ea2cn-dev-outlet.dell.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies@cn" type=FWD name="ea2cn-dev-outlet.dell.com" }
 :if ([:len [find name="ea2cn-prod-outlet.dell.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies@cn" type=FWD name="ea2cn-prod-outlet.dell.com" }
 :if ([:len [find name="ea2cn-staging-outlet.dell.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies@cn" type=FWD name="ea2cn-staging-outlet.dell.com" }
+:if ([:len [find name="edge.geo.kaspersky.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies@cn" type=FWD name="edge.geo.kaspersky.com" }
 :if ([:len [find name="emmapplecodevice.googleapis.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies@cn" type=FWD name="emmapplecodevice.googleapis.com" }
 :if ([:len [find name="emoi-cncdn.bing.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies@cn" type=FWD name="emoi-cncdn.bing.com" }
 :if ([:len [find name="experiments.apple.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies@cn" type=FWD name="experiments.apple.com" }
@@ -143,11 +151,3 @@
 :if ([:len [find name="images-cn.ssl-images-amazon.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies@cn" type=FWD name="images-cn.ssl-images-amazon.com" }
 :if ([:len [find name="images.apple.com.edgekey.net.globalredir.akadns.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies@cn" type=FWD name="images.apple.com.edgekey.net.globalredir.akadns.net" }
 :if ([:len [find name="imasdk.googleapis.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies@cn" type=FWD name="imasdk.googleapis.com" }
-:if ([:len [find name="inappcheck-cn.itunes-apple.com.akadns.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies@cn" type=FWD name="inappcheck-cn.itunes-apple.com.akadns.net" }
-:if ([:len [find name="inappcheck-lb.itunes-apple.com.akadns.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies@cn" type=FWD name="inappcheck-lb.itunes-apple.com.akadns.net" }
-:if ([:len [find name="inappcheck.itunes.apple.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies@cn" type=FWD name="inappcheck.itunes.apple.com" }
-:if ([:len [find name="init-kt.apple.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies@cn" type=FWD name="init-kt.apple.com" }
-:if ([:len [find name="init-p01md-lb.push-apple.com.akadns.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies@cn" type=FWD name="init-p01md-lb.push-apple.com.akadns.net" }
-:if ([:len [find name="init-p01md.apple.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies@cn" type=FWD name="init-p01md.apple.com" }
-:if ([:len [find name="init-p01st-lb.push-apple.com.akadns.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies@cn" type=FWD name="init-p01st-lb.push-apple.com.akadns.net" }
-:if ([:len [find name="init-p01st.push.apple.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies@cn" type=FWD name="init-p01st.push.apple.com" }

@@ -1,4 +1,4 @@
 :global AddressList
 :global ForwardTo
 /ip dns static
-:if ([:len [find name="supercell.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-games@!cn" match-subdomain=yes type=FWD name="supercell.com" }
+:if ([:len [find name="taptap.io"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-games@!cn" match-subdomain=yes type=FWD name="taptap.io" }

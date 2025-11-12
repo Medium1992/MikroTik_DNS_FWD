@@ -1,6 +1,12 @@
 :global AddressList
 :global ForwardTo
 /ip dns static
+:if ([:len [find name="splunk.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" match-subdomain=yes type=FWD name="splunk.com" }
+:if ([:len [find name="spo-msedge.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" match-subdomain=yes type=FWD name="spo-msedge.net" }
+:if ([:len [find name="spoprod-a.akamaihd.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" match-subdomain=yes type=FWD name="spoprod-a.akamaihd.net" }
+:if ([:len [find name="sportsfacebook.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" match-subdomain=yes type=FWD name="sportsfacebook.com" }
+:if ([:len [find name="sportstream.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" match-subdomain=yes type=FWD name="sportstream.com" }
+:if ([:len [find name="sprinklesapp.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" match-subdomain=yes type=FWD name="sprinklesapp.com" }
 :if ([:len [find name="sptvbroadcast.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" match-subdomain=yes type=FWD name="sptvbroadcast.com" }
 :if ([:len [find name="sqlserveronlinux.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" match-subdomain=yes type=FWD name="sqlserveronlinux.com" }
 :if ([:len [find name="squ1.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" match-subdomain=yes type=FWD name="squ1.com" }
@@ -145,9 +151,3 @@
 :if ([:len [find name="touchid.tv"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" match-subdomain=yes type=FWD name="touchid.tv" }
 :if ([:len [find name="touchid.wang"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" match-subdomain=yes type=FWD name="touchid.wang" }
 :if ([:len [find name="touchsmartpc.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" match-subdomain=yes type=FWD name="touchsmartpc.com" }
-:if ([:len [find name="touchsmartpc.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" match-subdomain=yes type=FWD name="touchsmartpc.net" }
-:if ([:len [find name="touchsmartpc.org"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" match-subdomain=yes type=FWD name="touchsmartpc.org" }
-:if ([:len [find name="toutapp.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" match-subdomain=yes type=FWD name="toutapp.com" }
-:if ([:len [find name="toy-cadcam.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" match-subdomain=yes type=FWD name="toy-cadcam.com" }
-:if ([:len [find name="toycadcam.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" match-subdomain=yes type=FWD name="toycadcam.com" }
-:if ([:len [find name="tracking-location.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" match-subdomain=yes type=FWD name="tracking-location.com" }

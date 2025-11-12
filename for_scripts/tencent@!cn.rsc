@@ -38,7 +38,6 @@
 :if ([:len [find name="sa-saopaulo.myqcloud.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="tencent@!cn" match-subdomain=yes type=FWD name="sa-saopaulo.myqcloud.com" }
 :if ([:len [find name="sa-saopaulo.tencentcos.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="tencent@!cn" match-subdomain=yes type=FWD name="sa-saopaulo.tencentcos.com" }
 :if ([:len [find name="sgp.file.myqcloud.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="tencent@!cn" match-subdomain=yes type=FWD name="sgp.file.myqcloud.com" }
-:if ([:len [find name="supercell.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="tencent@!cn" match-subdomain=yes type=FWD name="supercell.com" }
 :if ([:len [find name="wetv.vip"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="tencent@!cn" match-subdomain=yes type=FWD name="wetv.vip" }
 :if ([:len [find name="wetvinfo.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="tencent@!cn" match-subdomain=yes type=FWD name="wetvinfo.com" }
 :if ([:len [find name="wetv.qq.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="tencent@!cn" type=FWD name="wetv.qq.com" }

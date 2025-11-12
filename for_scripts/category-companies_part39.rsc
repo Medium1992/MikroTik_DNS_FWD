@@ -1,6 +1,42 @@
 :global AddressList
 :global ForwardTo
 /ip dns static
+:if ([:len [find name="wwis-dubc1-vip50.adobe.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" type=FWD name="wwis-dubc1-vip50.adobe.com" }
+:if ([:len [find name="wwis-dubc1-vip51.adobe.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" type=FWD name="wwis-dubc1-vip51.adobe.com" }
+:if ([:len [find name="wwis-dubc1-vip52.adobe.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" type=FWD name="wwis-dubc1-vip52.adobe.com" }
+:if ([:len [find name="wwis-dubc1-vip53.adobe.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" type=FWD name="wwis-dubc1-vip53.adobe.com" }
+:if ([:len [find name="wwis-dubc1-vip54.adobe.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" type=FWD name="wwis-dubc1-vip54.adobe.com" }
+:if ([:len [find name="wwis-dubc1-vip55.adobe.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" type=FWD name="wwis-dubc1-vip55.adobe.com" }
+:if ([:len [find name="wwis-dubc1-vip56.adobe.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" type=FWD name="wwis-dubc1-vip56.adobe.com" }
+:if ([:len [find name="wwis-dubc1-vip57.adobe.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" type=FWD name="wwis-dubc1-vip57.adobe.com" }
+:if ([:len [find name="wwis-dubc1-vip58.adobe.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" type=FWD name="wwis-dubc1-vip58.adobe.com" }
+:if ([:len [find name="wwis-dubc1-vip59.adobe.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" type=FWD name="wwis-dubc1-vip59.adobe.com" }
+:if ([:len [find name="wwis-dubc1-vip60.adobe.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" type=FWD name="wwis-dubc1-vip60.adobe.com" }
+:if ([:len [find name="wwis-dubc1-vip61.adobe.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" type=FWD name="wwis-dubc1-vip61.adobe.com" }
+:if ([:len [find name="wwis-dubc1-vip62.adobe.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" type=FWD name="wwis-dubc1-vip62.adobe.com" }
+:if ([:len [find name="wwis-dubc1-vip63.adobe.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" type=FWD name="wwis-dubc1-vip63.adobe.com" }
+:if ([:len [find name="wwis-dubc1-vip64.adobe.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" type=FWD name="wwis-dubc1-vip64.adobe.com" }
+:if ([:len [find name="wwis-dubc1-vip65.adobe.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" type=FWD name="wwis-dubc1-vip65.adobe.com" }
+:if ([:len [find name="wwis-dubc1-vip66.adobe.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" type=FWD name="wwis-dubc1-vip66.adobe.com" }
+:if ([:len [find name="wwis-dubc1-vip67.adobe.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" type=FWD name="wwis-dubc1-vip67.adobe.com" }
+:if ([:len [find name="wwis-dubc1-vip68.adobe.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" type=FWD name="wwis-dubc1-vip68.adobe.com" }
+:if ([:len [find name="wwis-dubc1-vip69.adobe.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" type=FWD name="wwis-dubc1-vip69.adobe.com" }
+:if ([:len [find name="wwis-dubc1-vip70.adobe.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" type=FWD name="wwis-dubc1-vip70.adobe.com" }
+:if ([:len [find name="wwis-dubc1-vip71.adobe.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" type=FWD name="wwis-dubc1-vip71.adobe.com" }
+:if ([:len [find name="wwis-dubc1-vip72.adobe.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" type=FWD name="wwis-dubc1-vip72.adobe.com" }
+:if ([:len [find name="wwis-dubc1-vip73.adobe.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" type=FWD name="wwis-dubc1-vip73.adobe.com" }
+:if ([:len [find name="wwis-dubc1-vip74.adobe.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" type=FWD name="wwis-dubc1-vip74.adobe.com" }
+:if ([:len [find name="wwis-dubc1-vip75.adobe.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" type=FWD name="wwis-dubc1-vip75.adobe.com" }
+:if ([:len [find name="wwis-dubc1-vip76.adobe.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" type=FWD name="wwis-dubc1-vip76.adobe.com" }
+:if ([:len [find name="wwis-dubc1-vip77.adobe.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" type=FWD name="wwis-dubc1-vip77.adobe.com" }
+:if ([:len [find name="wwis-dubc1-vip78.adobe.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" type=FWD name="wwis-dubc1-vip78.adobe.com" }
+:if ([:len [find name="wwis-dubc1-vip79.adobe.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" type=FWD name="wwis-dubc1-vip79.adobe.com" }
+:if ([:len [find name="wwis-dubc1-vip80.adobe.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" type=FWD name="wwis-dubc1-vip80.adobe.com" }
+:if ([:len [find name="wwis-dubc1-vip81.adobe.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" type=FWD name="wwis-dubc1-vip81.adobe.com" }
+:if ([:len [find name="wwis-dubc1-vip82.adobe.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" type=FWD name="wwis-dubc1-vip82.adobe.com" }
+:if ([:len [find name="wwis-dubc1-vip83.adobe.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" type=FWD name="wwis-dubc1-vip83.adobe.com" }
+:if ([:len [find name="wwis-dubc1-vip84.adobe.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" type=FWD name="wwis-dubc1-vip84.adobe.com" }
+:if ([:len [find name="wwis-dubc1-vip85.adobe.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" type=FWD name="wwis-dubc1-vip85.adobe.com" }
 :if ([:len [find name="wwis-dubc1-vip86.adobe.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" type=FWD name="wwis-dubc1-vip86.adobe.com" }
 :if ([:len [find name="wwis-dubc1-vip87.adobe.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" type=FWD name="wwis-dubc1-vip87.adobe.com" }
 :if ([:len [find name="wwis-dubc1-vip88.adobe.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" type=FWD name="wwis-dubc1-vip88.adobe.com" }

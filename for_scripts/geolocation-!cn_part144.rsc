@@ -1,6 +1,12 @@
 :global AddressList
 :global ForwardTo
 /ip dns static
+:if ([:len [find name="eaassets-a.akamaihd.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" type=FWD name="eaassets-a.akamaihd.net" }
+:if ([:len [find name="ebay-25-assets.s3-us-west-1.amazonaws.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" type=FWD name="ebay-25-assets.s3-us-west-1.amazonaws.com" }
+:if ([:len [find name="ecapi-pchome.cdn.hinet.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" type=FWD name="ecapi-pchome.cdn.hinet.net" }
+:if ([:len [find name="elib.maruzen.co.jp"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" type=FWD name="elib.maruzen.co.jp" }
+:if ([:len [find name="epc-de-agent-proxy.germanywestcentral.cloudapp.azure.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" type=FWD name="epc-de-agent-proxy.germanywestcentral.cloudapp.azure.com" }
+:if ([:len [find name="ereg.adobe.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" type=FWD name="ereg.adobe.com" }
 :if ([:len [find name="ereg.wip.adobe.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" type=FWD name="ereg.wip.adobe.com" }
 :if ([:len [find name="ereg.wip1.adobe.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" type=FWD name="ereg.wip1.adobe.com" }
 :if ([:len [find name="ereg.wip2.adobe.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" type=FWD name="ereg.wip2.adobe.com" }
@@ -145,9 +151,3 @@
 :if ([:len [find name="rss.4040940.xyz"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" type=FWD name="rss.4040940.xyz" }
 :if ([:len [find name="rss.datuan.dev"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" type=FWD name="rss.datuan.dev" }
 :if ([:len [find name="rss.littlebaby.life"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" type=FWD name="rss.littlebaby.life" }
-:if ([:len [find name="rss.wudifeixue.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" type=FWD name="rss.wudifeixue.com" }
-:if ([:len [find name="rsshub.asailor.org"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" type=FWD name="rsshub.asailor.org" }
-:if ([:len [find name="rsshub.email-once.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" type=FWD name="rsshub.email-once.com" }
-:if ([:len [find name="rsshub.henry.wang"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" type=FWD name="rsshub.henry.wang" }
-:if ([:len [find name="rsshub.isrss.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" type=FWD name="rsshub.isrss.com" }
-:if ([:len [find name="rsshub.ktachibana.party"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" type=FWD name="rsshub.ktachibana.party" }

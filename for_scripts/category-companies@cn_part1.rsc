@@ -65,6 +65,8 @@
 :if ([:len [find name="a3.mzstatic.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies@cn" type=FWD name="a3.mzstatic.com" }
 :if ([:len [find name="a4.mzstatic.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies@cn" type=FWD name="a4.mzstatic.com" }
 :if ([:len [find name="a5.mzstatic.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies@cn" type=FWD name="a5.mzstatic.com" }
+:if ([:len [find name="activate.activation-v2.kaspersky.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies@cn" type=FWD name="activate.activation-v2.kaspersky.com" }
+:if ([:len [find name="activation-v2.geo.kaspersky.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies@cn" type=FWD name="activation-v2.geo.kaspersky.com" }
 :if ([:len [find name="activation-v2.kaspersky.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies@cn" type=FWD name="activation-v2.kaspersky.com" }
 :if ([:len [find name="adcdownload.apple.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies@cn" type=FWD name="adcdownload.apple.com" }
 :if ([:len [find name="adcdownload.apple.com.akadns.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies@cn" type=FWD name="adcdownload.apple.com.akadns.net" }
@@ -149,5 +151,3 @@
 :if ([:len [find name="clientperipherals.dell.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies@cn" type=FWD name="clientperipherals.dell.com" }
 :if ([:len [find name="clientservices.googleapis.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies@cn" type=FWD name="clientservices.googleapis.com" }
 :if ([:len [find name="cma.itunes.apple.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies@cn" type=FWD name="cma.itunes.apple.com" }
-:if ([:len [find name="cn-smp-paymentservices.apple.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies@cn" type=FWD name="cn-smp-paymentservices.apple.com" }
-:if ([:len [find name="cn.download.nvidia.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies@cn" type=FWD name="cn.download.nvidia.com" }

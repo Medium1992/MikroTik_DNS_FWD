@@ -1,6 +1,12 @@
 :global AddressList
 :global ForwardTo
 /ip dns static
+:if ([:len [find name="wuxiapple.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" match-subdomain=yes type=FWD name="wuxiapple.com" }
+:if ([:len [find name="wwapple.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" match-subdomain=yes type=FWD name="wwapple.net" }
+:if ([:len [find name="wwtbam.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" match-subdomain=yes type=FWD name="wwtbam.com" }
+:if ([:len [find name="www-facebook.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" match-subdomain=yes type=FWD name="www-facebook.com" }
+:if ([:len [find name="www-sms-apple.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" match-subdomain=yes type=FWD name="www-sms-apple.com" }
+:if ([:len [find name="www8-hp.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" match-subdomain=yes type=FWD name="www8-hp.com" }
 :if ([:len [find name="wwwapple.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" match-subdomain=yes type=FWD name="wwwapple.com" }
 :if ([:len [find name="wwwapple.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" match-subdomain=yes type=FWD name="wwwapple.net" }
 :if ([:len [find name="wwwapplemusic.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" match-subdomain=yes type=FWD name="wwwapplemusic.com" }
@@ -145,9 +151,3 @@
 :if ([:len [find name="youtube.com.tw"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" match-subdomain=yes type=FWD name="youtube.com.tw" }
 :if ([:len [find name="youtube.jp"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" match-subdomain=yes type=FWD name="youtube.jp" }
 :if ([:len [find name="youtube.me"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" match-subdomain=yes type=FWD name="youtube.me" }
-:if ([:len [find name="youtube.nl"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" match-subdomain=yes type=FWD name="youtube.nl" }
-:if ([:len [find name="youtube.ru"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" match-subdomain=yes type=FWD name="youtube.ru" }
-:if ([:len [find name="youtube.se"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" match-subdomain=yes type=FWD name="youtube.se" }
-:if ([:len [find name="youtube.soy"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" match-subdomain=yes type=FWD name="youtube.soy" }
-:if ([:len [find name="youtube.tv"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" match-subdomain=yes type=FWD name="youtube.tv" }
-:if ([:len [find name="youtubecisco.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" match-subdomain=yes type=FWD name="youtubecisco.com" }
