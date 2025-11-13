@@ -83,6 +83,7 @@
 :if ([:len [find name="b2bgo.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-cn" match-subdomain=yes type=FWD name="b2bgo.com" }
 :if ([:len [find name="b2byao.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-cn" match-subdomain=yes type=FWD name="b2byao.com" }
 :if ([:len [find name="b3log.org"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-cn" match-subdomain=yes type=FWD name="b3log.org" }
+:if ([:len [find name="b3logfile.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-cn" match-subdomain=yes type=FWD name="b3logfile.com" }
 :if ([:len [find name="babytree.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-cn" match-subdomain=yes type=FWD name="babytree.com" }
 :if ([:len [find name="babytreeimg.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-cn" match-subdomain=yes type=FWD name="babytreeimg.com" }
 :if ([:len [find name="baichuan-ai.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-cn" match-subdomain=yes type=FWD name="baichuan-ai.com" }
@@ -150,4 +151,3 @@
 :if ([:len [find name="bdmyandex.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-cn" match-subdomain=yes type=FWD name="bdmyandex.com" }
 :if ([:len [find name="bdns-api-test.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-cn" match-subdomain=yes type=FWD name="bdns-api-test.net" }
 :if ([:len [find name="bdns-boe.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-cn" match-subdomain=yes type=FWD name="bdns-boe.com" }
-:if ([:len [find name="bdns-boe.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-cn" match-subdomain=yes type=FWD name="bdns-boe.net" }

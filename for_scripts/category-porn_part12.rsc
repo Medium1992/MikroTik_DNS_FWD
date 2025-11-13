@@ -1,6 +1,8 @@
 :global AddressList
 :global ForwardTo
 /ip dns static
+:if ([:len [find name="erotic-artsites.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-porn" match-subdomain=yes type=FWD name="erotic-artsites.com" }
+:if ([:len [find name="erotic-hentai.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-porn" match-subdomain=yes type=FWD name="erotic-hentai.com" }
 :if ([:len [find name="erotic-photos.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-porn" match-subdomain=yes type=FWD name="erotic-photos.net" }
 :if ([:len [find name="eroticart-top100.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-porn" match-subdomain=yes type=FWD name="eroticart-top100.com" }
 :if ([:len [find name="eroticbeauties.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-porn" match-subdomain=yes type=FWD name="eroticbeauties.net" }
@@ -149,5 +151,3 @@
 :if ([:len [find name="feipang.link"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-porn" match-subdomain=yes type=FWD name="feipang.link" }
 :if ([:len [find name="femalestars.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-porn" match-subdomain=yes type=FWD name="femalestars.com" }
 :if ([:len [find name="femdomcc.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-porn" match-subdomain=yes type=FWD name="femdomcc.net" }
-:if ([:len [find name="femjoy.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-porn" match-subdomain=yes type=FWD name="femjoy.com" }
-:if ([:len [find name="femscat.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-porn" match-subdomain=yes type=FWD name="femscat.com" }

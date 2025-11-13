@@ -109,6 +109,8 @@
 :if ([:len [find name="afappyending.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" match-subdomain=yes type=FWD name="afappyending.com" }
 :if ([:len [find name="afewmomentswith.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" match-subdomain=yes type=FWD name="afewmomentswith.com" }
 :if ([:len [find name="affect3dstore.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" match-subdomain=yes type=FWD name="affect3dstore.com" }
+:if ([:len [find name="affinity.api.serifservices.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" match-subdomain=yes type=FWD name="affinity.api.serifservices.com" }
+:if ([:len [find name="affinity.studio"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" match-subdomain=yes type=FWD name="affinity.studio" }
 :if ([:len [find name="affirmtrust.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" match-subdomain=yes type=FWD name="affirmtrust.com" }
 :if ([:len [find name="afkv28.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" match-subdomain=yes type=FWD name="afkv28.com" }
 :if ([:len [find name="aflamporn.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" match-subdomain=yes type=FWD name="aflamporn.com" }
@@ -149,5 +151,3 @@
 :if ([:len [find name="ahswingerporno.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" match-subdomain=yes type=FWD name="ahswingerporno.com" }
 :if ([:len [find name="ahtops.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" match-subdomain=yes type=FWD name="ahtops.com" }
 :if ([:len [find name="ahtranny.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" match-subdomain=yes type=FWD name="ahtranny.com" }
-:if ([:len [find name="ahvideosexe.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" match-subdomain=yes type=FWD name="ahvideosexe.com" }
-:if ([:len [find name="ahxxx.club"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" match-subdomain=yes type=FWD name="ahxxx.club" }

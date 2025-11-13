@@ -1,6 +1,9 @@
 :global AddressList
 :global ForwardTo
 /ip dns static
+:if ([:len [find name="se-edge.itunes.apple.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" type=FWD name="se-edge.itunes.apple.com" }
+:if ([:len [find name="se2.itunes.apple.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" type=FWD name="se2.itunes.apple.com" }
+:if ([:len [find name="search.itunes.apple.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" type=FWD name="search.itunes.apple.com" }
 :if ([:len [find name="seed-sequoia.siri.apple.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" type=FWD name="seed-sequoia.siri.apple.com" }
 :if ([:len [find name="seed-swallow.siri.apple.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" type=FWD name="seed-swallow.siri.apple.com" }
 :if ([:len [find name="seed.siri.apple.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" type=FWD name="seed.siri.apple.com" }
@@ -148,6 +151,3 @@
 :if ([:len [find name="wwis-dubc1-vip44.adobe.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" type=FWD name="wwis-dubc1-vip44.adobe.com" }
 :if ([:len [find name="wwis-dubc1-vip45.adobe.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" type=FWD name="wwis-dubc1-vip45.adobe.com" }
 :if ([:len [find name="wwis-dubc1-vip46.adobe.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" type=FWD name="wwis-dubc1-vip46.adobe.com" }
-:if ([:len [find name="wwis-dubc1-vip47.adobe.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" type=FWD name="wwis-dubc1-vip47.adobe.com" }
-:if ([:len [find name="wwis-dubc1-vip48.adobe.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" type=FWD name="wwis-dubc1-vip48.adobe.com" }
-:if ([:len [find name="wwis-dubc1-vip49.adobe.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" type=FWD name="wwis-dubc1-vip49.adobe.com" }

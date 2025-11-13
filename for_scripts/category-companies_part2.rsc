@@ -39,6 +39,8 @@
 :if ([:len [find name="aerospace-cadcam.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" match-subdomain=yes type=FWD name="aerospace-cadcam.com" }
 :if ([:len [find name="aerospace-design.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" match-subdomain=yes type=FWD name="aerospace-design.com" }
 :if ([:len [find name="aesworkshops.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" match-subdomain=yes type=FWD name="aesworkshops.com" }
+:if ([:len [find name="affinity.api.serifservices.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" match-subdomain=yes type=FWD name="affinity.api.serifservices.com" }
+:if ([:len [find name="affinity.studio"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" match-subdomain=yes type=FWD name="affinity.studio" }
 :if ([:len [find name="aggresmart.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" match-subdomain=yes type=FWD name="aggresmart.com" }
 :if ([:len [find name="agilebits.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" match-subdomain=yes type=FWD name="agilebits.com" }
 :if ([:len [find name="air-watch.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" match-subdomain=yes type=FWD name="air-watch.com" }
@@ -149,5 +151,3 @@
 :if ([:len [find name="amzndns-cn.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" match-subdomain=yes type=FWD name="amzndns-cn.com" }
 :if ([:len [find name="amzndns-cn.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" match-subdomain=yes type=FWD name="amzndns-cn.net" }
 :if ([:len [find name="amzndns.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" match-subdomain=yes type=FWD name="amzndns.com" }
-:if ([:len [find name="amzndns.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" match-subdomain=yes type=FWD name="amzndns.net" }
-:if ([:len [find name="amzndns.org"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" match-subdomain=yes type=FWD name="amzndns.org" }

@@ -79,6 +79,7 @@
 :if ([:len [find name="bbwyoyo.info"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-porn" match-subdomain=yes type=FWD name="bbwyoyo.info" }
 :if ([:len [find name="bcicdn.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-porn" match-subdomain=yes type=FWD name="bcicdn.com" }
 :if ([:len [find name="bcrncdn.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-porn" match-subdomain=yes type=FWD name="bcrncdn.com" }
+:if ([:len [find name="bcvcdn.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-porn" match-subdomain=yes type=FWD name="bcvcdn.com" }
 :if ([:len [find name="bcy01.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-porn" match-subdomain=yes type=FWD name="bcy01.com" }
 :if ([:len [find name="bdsm-mov.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-porn" match-subdomain=yes type=FWD name="bdsm-mov.net" }
 :if ([:len [find name="bdsm.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-porn" match-subdomain=yes type=FWD name="bdsm.com" }
@@ -150,4 +151,3 @@
 :if ([:len [find name="besttitstube.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-porn" match-subdomain=yes type=FWD name="besttitstube.com" }
 :if ([:len [find name="bestxxxsites.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-porn" match-subdomain=yes type=FWD name="bestxxxsites.com" }
 :if ([:len [find name="besuty99.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-porn" match-subdomain=yes type=FWD name="besuty99.com" }
-:if ([:len [find name="betterhdporn.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-porn" match-subdomain=yes type=FWD name="betterhdporn.com" }

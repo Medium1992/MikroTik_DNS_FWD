@@ -1,6 +1,8 @@
 :global AddressList
 :global ForwardTo
 /ip dns static
+:if ([:len [find name="hotladsworld.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-porn" match-subdomain=yes type=FWD name="hotladsworld.com" }
+:if ([:len [find name="hotladyhere.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-porn" match-subdomain=yes type=FWD name="hotladyhere.com" }
 :if ([:len [find name="hotmovies.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-porn" match-subdomain=yes type=FWD name="hotmovies.com" }
 :if ([:len [find name="hotmovs.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-porn" match-subdomain=yes type=FWD name="hotmovs.com" }
 :if ([:len [find name="hotntubes.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-porn" match-subdomain=yes type=FWD name="hotntubes.com" }
@@ -149,5 +151,3 @@
 :if ([:len [find name="indiangfvideos.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-porn" match-subdomain=yes type=FWD name="indiangfvideos.com" }
 :if ([:len [find name="indiangirlsclub.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-porn" match-subdomain=yes type=FWD name="indiangirlsclub.com" }
 :if ([:len [find name="indianhiddencams.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-porn" match-subdomain=yes type=FWD name="indianhiddencams.com" }
-:if ([:len [find name="indianpornfast.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-porn" match-subdomain=yes type=FWD name="indianpornfast.com" }
-:if ([:len [find name="indianporngirls.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-porn" match-subdomain=yes type=FWD name="indianporngirls.com" }

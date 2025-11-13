@@ -1,6 +1,8 @@
 :global AddressList
 :global ForwardTo
 /ip dns static
+:if ([:len [find name="appleone.audio"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" match-subdomain=yes type=FWD name="appleone.audio" }
+:if ([:len [find name="appleone.blog"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" match-subdomain=yes type=FWD name="appleone.blog" }
 :if ([:len [find name="appleone.chat"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" match-subdomain=yes type=FWD name="appleone.chat" }
 :if ([:len [find name="appleone.cloud"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" match-subdomain=yes type=FWD name="appleone.cloud" }
 :if ([:len [find name="appleone.club"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" match-subdomain=yes type=FWD name="appleone.club" }
@@ -149,5 +151,3 @@
 :if ([:len [find name="attwirelesssolutions.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" match-subdomain=yes type=FWD name="attwirelesssolutions.com" }
 :if ([:len [find name="aucheapbeats.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" match-subdomain=yes type=FWD name="aucheapbeats.com" }
 :if ([:len [find name="audible.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" match-subdomain=yes type=FWD name="audible.com" }
-:if ([:len [find name="audiencenetwork.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" match-subdomain=yes type=FWD name="audiencenetwork.com" }
-:if ([:len [find name="audiencenetwork.tv"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" match-subdomain=yes type=FWD name="audiencenetwork.tv" }

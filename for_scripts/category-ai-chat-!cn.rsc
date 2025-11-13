@@ -19,6 +19,7 @@
 :if ([:len [find name="coderabbit.gallery.vsassets.io"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-ai-chat-!cn" match-subdomain=yes type=FWD name="coderabbit.gallery.vsassets.io" }
 :if ([:len [find name="cohere.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-ai-chat-!cn" match-subdomain=yes type=FWD name="cohere.com" }
 :if ([:len [find name="copilot.microsoft.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-ai-chat-!cn" match-subdomain=yes type=FWD name="copilot.microsoft.com" }
+:if ([:len [find name="coze.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-ai-chat-!cn" match-subdomain=yes type=FWD name="coze.com" }
 :if ([:len [find name="cursor-cdn.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-ai-chat-!cn" match-subdomain=yes type=FWD name="cursor-cdn.com" }
 :if ([:len [find name="cursor.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-ai-chat-!cn" match-subdomain=yes type=FWD name="cursor.com" }
 :if ([:len [find name="cursor.sh"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-ai-chat-!cn" match-subdomain=yes type=FWD name="cursor.sh" }
@@ -44,6 +45,7 @@
 :if ([:len [find name="jules.google.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-ai-chat-!cn" match-subdomain=yes type=FWD name="jules.google.com" }
 :if ([:len [find name="labs.google"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-ai-chat-!cn" match-subdomain=yes type=FWD name="labs.google" }
 :if ([:len [find name="makersuite.google.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-ai-chat-!cn" match-subdomain=yes type=FWD name="makersuite.google.com" }
+:if ([:len [find name="marscode.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-ai-chat-!cn" match-subdomain=yes type=FWD name="marscode.com" }
 :if ([:len [find name="notebooklm.google"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-ai-chat-!cn" match-subdomain=yes type=FWD name="notebooklm.google" }
 :if ([:len [find name="notebooklm.google.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-ai-chat-!cn" match-subdomain=yes type=FWD name="notebooklm.google.com" }
 :if ([:len [find name="oaistatic.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-ai-chat-!cn" match-subdomain=yes type=FWD name="oaistatic.com" }

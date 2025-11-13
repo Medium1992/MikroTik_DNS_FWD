@@ -1,6 +1,8 @@
 :global AddressList
 :global ForwardTo
 /ip dns static
+:if ([:len [find name="czechstreets.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-porn" match-subdomain=yes type=FWD name="czechstreets.com" }
+:if ([:len [find name="czechvr.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-porn" match-subdomain=yes type=FWD name="czechvr.com" }
 :if ([:len [find name="czechwifeswap.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-porn" match-subdomain=yes type=FWD name="czechwifeswap.com" }
 :if ([:len [find name="cztv117.shop"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-porn" match-subdomain=yes type=FWD name="cztv117.shop" }
 :if ([:len [find name="d-upp.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-porn" match-subdomain=yes type=FWD name="d-upp.com" }
@@ -149,5 +151,3 @@
 :if ([:len [find name="douzinnsi-eromannga.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-porn" match-subdomain=yes type=FWD name="douzinnsi-eromannga.com" }
 :if ([:len [find name="downloadpass.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-porn" match-subdomain=yes type=FWD name="downloadpass.com" }
 :if ([:len [find name="dragonhentai.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-porn" match-subdomain=yes type=FWD name="dragonhentai.net" }
-:if ([:len [find name="drbdsmporn.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-porn" match-subdomain=yes type=FWD name="drbdsmporn.com" }
-:if ([:len [find name="drbizzaro.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-porn" match-subdomain=yes type=FWD name="drbizzaro.com" }

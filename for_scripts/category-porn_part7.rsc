@@ -1,9 +1,11 @@
 :global AddressList
 :global ForwardTo
 /ip dns static
+:if ([:len [find name="betterhdporn.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-porn" match-subdomain=yes type=FWD name="betterhdporn.com" }
 :if ([:len [find name="between-legs.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-porn" match-subdomain=yes type=FWD name="between-legs.com" }
 :if ([:len [find name="beurettesvideo.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-porn" match-subdomain=yes type=FWD name="beurettesvideo.com" }
 :if ([:len [find name="bffshd.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-porn" match-subdomain=yes type=FWD name="bffshd.com" }
+:if ([:len [find name="bgicdn.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-porn" match-subdomain=yes type=FWD name="bgicdn.com" }
 :if ([:len [find name="bhggn.xyz"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-porn" match-subdomain=yes type=FWD name="bhggn.xyz" }
 :if ([:len [find name="bhzyk.buzz"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-porn" match-subdomain=yes type=FWD name="bhzyk.buzz" }
 :if ([:len [find name="bhzyw2.top"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-porn" match-subdomain=yes type=FWD name="bhzyw2.top" }
@@ -149,5 +151,3 @@
 :if ([:len [find name="brokenteens.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-porn" match-subdomain=yes type=FWD name="brokenteens.com" }
 :if ([:len [find name="bromo.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-porn" match-subdomain=yes type=FWD name="bromo.com" }
 :if ([:len [find name="brourou.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-porn" match-subdomain=yes type=FWD name="brourou.com" }
-:if ([:len [find name="brutalbdsmtube.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-porn" match-subdomain=yes type=FWD name="brutalbdsmtube.com" }
-:if ([:len [find name="brutalfetish.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-porn" match-subdomain=yes type=FWD name="brutalfetish.com" }

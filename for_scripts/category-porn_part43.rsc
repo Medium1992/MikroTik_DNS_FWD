@@ -1,6 +1,8 @@
 :global AddressList
 :global ForwardTo
 /ip dns static
+:if ([:len [find regexp="(^|\\\\.)69bag[0-1][1-9]\?\\\\.com\$"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-porn" type=FWD regexp="(^|\\\\.)69bag[0-1][1-9]\?\\\\.com\$" }
+:if ([:len [find regexp="(^|\\\\.)783([a-z][a-z]\?)\?\\\\.tv\$"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-porn" type=FWD regexp="(^|\\\\.)783([a-z][a-z]\?)\?\\\\.tv\$" }
 :if ([:len [find regexp="(^|\\\\.)7mm0([0-1][0-9]\?)\?\\\\.com\$"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-porn" type=FWD regexp="(^|\\\\.)7mm0([0-1][0-9]\?)\?\\\\.com\$" }
 :if ([:len [find regexp="(^|\\\\.)8dgo[1-57-9]\\\\.com\$"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-porn" type=FWD regexp="(^|\\\\.)8dgo[1-57-9]\\\\.com\$" }
 :if ([:len [find regexp="(^|\\\\.)91cg([1-9]|[0-9][1-9])\?.com\$"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-porn" type=FWD regexp="(^|\\\\.)91cg([1-9]|[0-9][1-9])\?.com\$" }

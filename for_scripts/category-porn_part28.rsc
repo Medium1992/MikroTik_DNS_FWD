@@ -1,6 +1,8 @@
 :global AddressList
 :global ForwardTo
 /ip dns static
+:if ([:len [find name="playyoungtube.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-porn" match-subdomain=yes type=FWD name="playyoungtube.com" }
+:if ([:len [find name="pleasefuck.org"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-porn" match-subdomain=yes type=FWD name="pleasefuck.org" }
 :if ([:len [find name="pleasurebabe.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-porn" match-subdomain=yes type=FWD name="pleasurebabe.com" }
 :if ([:len [find name="pleasuregirl.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-porn" match-subdomain=yes type=FWD name="pleasuregirl.net" }
 :if ([:len [find name="pleasuremore.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-porn" match-subdomain=yes type=FWD name="pleasuremore.com" }
@@ -149,5 +151,3 @@
 :if ([:len [find name="pornhub-deutsch.info"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-porn" match-subdomain=yes type=FWD name="pornhub-deutsch.info" }
 :if ([:len [find name="pornhub-deutsch.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-porn" match-subdomain=yes type=FWD name="pornhub-deutsch.net" }
 :if ([:len [find name="pornhub-german.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-porn" match-subdomain=yes type=FWD name="pornhub-german.com" }
-:if ([:len [find name="pornhub-sexfilme.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-porn" match-subdomain=yes type=FWD name="pornhub-sexfilme.net" }
-:if ([:len [find name="pornhub.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-porn" match-subdomain=yes type=FWD name="pornhub.com" }

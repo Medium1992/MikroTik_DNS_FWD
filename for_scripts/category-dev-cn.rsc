@@ -74,7 +74,7 @@
 :if ([:len [find name="tidb.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-dev-cn" match-subdomain=yes type=FWD name="tidb.net" }
 :if ([:len [find name="tidbcloud.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-dev-cn" match-subdomain=yes type=FWD name="tidbcloud.com" }
 :if ([:len [find name="tikv.org"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-dev-cn" match-subdomain=yes type=FWD name="tikv.org" }
-:if ([:len [find name="tipdim.org"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-dev-cn" match-subdomain=yes type=FWD name="tipdim.org" }
+:if ([:len [find name="tipdm.org"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-dev-cn" match-subdomain=yes type=FWD name="tipdm.org" }
 :if ([:len [find name="tjstats.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-dev-cn" match-subdomain=yes type=FWD name="tjstats.com" }
 :if ([:len [find name="tracup.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-dev-cn" match-subdomain=yes type=FWD name="tracup.com" }
 :if ([:len [find name="ubuntukylin.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-dev-cn" match-subdomain=yes type=FWD name="ubuntukylin.com" }
@@ -83,7 +83,6 @@
 :if ([:len [find name="weixinbridge.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-dev-cn" match-subdomain=yes type=FWD name="weixinbridge.com" }
 :if ([:len [find name="weui.io"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-dev-cn" match-subdomain=yes type=FWD name="weui.io" }
 :if ([:len [find name="xitu.io"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-dev-cn" match-subdomain=yes type=FWD name="xitu.io" }
-:if ([:len [find name="xueyuanjun.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-dev-cn" match-subdomain=yes type=FWD name="xueyuanjun.com" }
 :if ([:len [find name="p1-juejin.byteimg.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-dev-cn" type=FWD name="p1-juejin.byteimg.com" }
 :if ([:len [find name="p2-juejin.byteimg.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-dev-cn" type=FWD name="p2-juejin.byteimg.com" }
 :if ([:len [find name="p3-juejin.byteimg.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-dev-cn" type=FWD name="p3-juejin.byteimg.com" }
