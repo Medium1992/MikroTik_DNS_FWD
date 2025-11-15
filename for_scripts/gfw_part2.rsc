@@ -128,6 +128,7 @@
 :if ([:len [find name="aojiao.org"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="gfw" match-subdomain=yes type=FWD name="aojiao.org" }
 :if ([:len [find name="aomedia.org"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="gfw" match-subdomain=yes type=FWD name="aomedia.org" }
 :if ([:len [find name="aomiwang.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="gfw" match-subdomain=yes type=FWD name="aomiwang.com" }
+:if ([:len [find name="aoxvpn.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="gfw" match-subdomain=yes type=FWD name="aoxvpn.com" }
 :if ([:len [find name="apartmentratings.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="gfw" match-subdomain=yes type=FWD name="apartmentratings.com" }
 :if ([:len [find name="apartments.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="gfw" match-subdomain=yes type=FWD name="apartments.com" }
 :if ([:len [find name="apat1989.org"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="gfw" match-subdomain=yes type=FWD name="apat1989.org" }
@@ -150,4 +151,3 @@
 :if ([:len [find name="app.box.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="gfw" match-subdomain=yes type=FWD name="app.box.com" }
 :if ([:len [find name="app.cloudcone.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="gfw" match-subdomain=yes type=FWD name="app.cloudcone.com" }
 :if ([:len [find name="app.smartmailcloud.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="gfw" match-subdomain=yes type=FWD name="app.smartmailcloud.com" }
-:if ([:len [find name="appadvice.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="gfw" match-subdomain=yes type=FWD name="appadvice.com" }
