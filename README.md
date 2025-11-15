@@ -96,7 +96,6 @@ $s
 "google-play";
 "telegram";
 "adguard";
-"telegram";
 "xhamster";
 "porn";
 "supercell"
