@@ -1,6 +1,7 @@
 :global AddressList
 :global ForwardTo
 /ip dns static
+:if ([:len [find name="mediafreakcity.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="gfw" match-subdomain=yes type=FWD name="mediafreakcity.com" }
 :if ([:len [find name="mediawiki.org"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="gfw" match-subdomain=yes type=FWD name="mediawiki.org" }
 :if ([:len [find name="medium.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="gfw" match-subdomain=yes type=FWD name="medium.com" }
 :if ([:len [find name="meetav.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="gfw" match-subdomain=yes type=FWD name="meetav.com" }
@@ -46,6 +47,7 @@
 :if ([:len [find name="middle-way.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="gfw" match-subdomain=yes type=FWD name="middle-way.net" }
 :if ([:len [find name="mihr.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="gfw" match-subdomain=yes type=FWD name="mihr.com" }
 :if ([:len [find name="mihua.org"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="gfw" match-subdomain=yes type=FWD name="mihua.org" }
+:if ([:len [find name="mij.rip"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="gfw" match-subdomain=yes type=FWD name="mij.rip" }
 :if ([:len [find name="mikanani.me"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="gfw" match-subdomain=yes type=FWD name="mikanani.me" }
 :if ([:len [find name="mike.cz.cc"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="gfw" match-subdomain=yes type=FWD name="mike.cz.cc" }
 :if ([:len [find name="mikesoltys.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="gfw" match-subdomain=yes type=FWD name="mikesoltys.com" }
@@ -86,6 +88,7 @@
 :if ([:len [find name="mixpod.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="gfw" match-subdomain=yes type=FWD name="mixpod.com" }
 :if ([:len [find name="mixx.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="gfw" match-subdomain=yes type=FWD name="mixx.com" }
 :if ([:len [find name="mizzmona.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="gfw" match-subdomain=yes type=FWD name="mizzmona.com" }
+:if ([:len [find name="mji.rip"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="gfw" match-subdomain=yes type=FWD name="mji.rip" }
 :if ([:len [find name="mjj.rip"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="gfw" match-subdomain=yes type=FWD name="mjj.rip" }
 :if ([:len [find name="mlcool.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="gfw" match-subdomain=yes type=FWD name="mlcool.com" }
 :if ([:len [find name="mlzs.work"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="gfw" match-subdomain=yes type=FWD name="mlzs.work" }
@@ -148,6 +151,3 @@
 :if ([:len [find name="muchosucko.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="gfw" match-subdomain=yes type=FWD name="muchosucko.com" }
 :if ([:len [find name="mullvad.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="gfw" match-subdomain=yes type=FWD name="mullvad.net" }
 :if ([:len [find name="multiply.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="gfw" match-subdomain=yes type=FWD name="multiply.com" }
-:if ([:len [find name="multiproxy.org"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="gfw" match-subdomain=yes type=FWD name="multiproxy.org" }
-:if ([:len [find name="multiupload.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="gfw" match-subdomain=yes type=FWD name="multiupload.com" }
-:if ([:len [find name="mummysgold.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="gfw" match-subdomain=yes type=FWD name="mummysgold.com" }

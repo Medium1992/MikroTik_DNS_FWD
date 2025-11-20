@@ -11,6 +11,7 @@
 :if ([:len [find name="cloud.mail.ru"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="gfw" match-subdomain=yes type=FWD name="cloud.mail.ru" }
 :if ([:len [find name="cloudflare-dns.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="gfw" match-subdomain=yes type=FWD name="cloudflare-dns.com" }
 :if ([:len [find name="cloudflare-ipfs.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="gfw" match-subdomain=yes type=FWD name="cloudflare-ipfs.com" }
+:if ([:len [find name="cloudflarestatus.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="gfw" match-subdomain=yes type=FWD name="cloudflarestatus.com" }
 :if ([:len [find name="cloudfunctions.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="gfw" match-subdomain=yes type=FWD name="cloudfunctions.net" }
 :if ([:len [find name="club1069.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="gfw" match-subdomain=yes type=FWD name="club1069.com" }
 :if ([:len [find name="clubhouseapi.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="gfw" match-subdomain=yes type=FWD name="clubhouseapi.com" }
@@ -150,4 +151,3 @@
 :if ([:len [find name="dailymotion.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="gfw" match-subdomain=yes type=FWD name="dailymotion.com" }
 :if ([:len [find name="dailynews.sina.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="gfw" match-subdomain=yes type=FWD name="dailynews.sina.com" }
 :if ([:len [find name="dailysabah.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="gfw" match-subdomain=yes type=FWD name="dailysabah.com" }
-:if ([:len [find name="dailyview.tw"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="gfw" match-subdomain=yes type=FWD name="dailyview.tw" }

@@ -1,6 +1,9 @@
 :global AddressList
 :global ForwardTo
 /ip dns static
+:if ([:len [find name="ugo.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="gfw" match-subdomain=yes type=FWD name="ugo.com" }
+:if ([:len [find name="uhdwallpapers.org"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="gfw" match-subdomain=yes type=FWD name="uhdwallpapers.org" }
+:if ([:len [find name="uhrp.org"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="gfw" match-subdomain=yes type=FWD name="uhrp.org" }
 :if ([:len [find name="uighur.narod.ru"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="gfw" match-subdomain=yes type=FWD name="uighur.narod.ru" }
 :if ([:len [find name="uighur.nl"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="gfw" match-subdomain=yes type=FWD name="uighur.nl" }
 :if ([:len [find name="uighurbiz.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="gfw" match-subdomain=yes type=FWD name="uighurbiz.net" }
@@ -148,6 +151,3 @@
 :if ([:len [find name="vmpsoft.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="gfw" match-subdomain=yes type=FWD name="vmpsoft.com" }
 :if ([:len [find name="vn.hao123.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="gfw" match-subdomain=yes type=FWD name="vn.hao123.com" }
 :if ([:len [find name="vnet.link"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="gfw" match-subdomain=yes type=FWD name="vnet.link" }
-:if ([:len [find name="voa-11.akacast.akamaistream.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="gfw" match-subdomain=yes type=FWD name="voa-11.akacast.akamaistream.net" }
-:if ([:len [find name="voacambodia.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="gfw" match-subdomain=yes type=FWD name="voacambodia.com" }
-:if ([:len [find name="voacantonese.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="gfw" match-subdomain=yes type=FWD name="voacantonese.com" }

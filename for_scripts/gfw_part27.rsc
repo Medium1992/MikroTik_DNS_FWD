@@ -1,6 +1,9 @@
 :global AddressList
 :global ForwardTo
 /ip dns static
+:if ([:len [find name="speedcat.me"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="gfw" match-subdomain=yes type=FWD name="speedcat.me" }
+:if ([:len [find name="speedify.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="gfw" match-subdomain=yes type=FWD name="speedify.com" }
+:if ([:len [find name="spencertipping.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="gfw" match-subdomain=yes type=FWD name="spencertipping.com" }
 :if ([:len [find name="spendee.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="gfw" match-subdomain=yes type=FWD name="spendee.com" }
 :if ([:len [find name="spicevpn.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="gfw" match-subdomain=yes type=FWD name="spicevpn.com" }
 :if ([:len [find name="spideroak.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="gfw" match-subdomain=yes type=FWD name="spideroak.com" }
@@ -148,6 +151,3 @@
 :if ([:len [find name="taiwanjustice.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="gfw" match-subdomain=yes type=FWD name="taiwanjustice.com" }
 :if ([:len [find name="taiwanjustice.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="gfw" match-subdomain=yes type=FWD name="taiwanjustice.net" }
 :if ([:len [find name="taiwankiss.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="gfw" match-subdomain=yes type=FWD name="taiwankiss.com" }
-:if ([:len [find name="taiwannation.50webs.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="gfw" match-subdomain=yes type=FWD name="taiwannation.50webs.com" }
-:if ([:len [find name="taiwannation.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="gfw" match-subdomain=yes type=FWD name="taiwannation.com" }
-:if ([:len [find name="taiwannation.com.tw"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="gfw" match-subdomain=yes type=FWD name="taiwannation.com.tw" }

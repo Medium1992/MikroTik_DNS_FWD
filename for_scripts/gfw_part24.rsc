@@ -1,6 +1,9 @@
 :global AddressList
 :global ForwardTo
 /ip dns static
+:if ([:len [find name="purplelotus.org"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="gfw" match-subdomain=yes type=FWD name="purplelotus.org" }
+:if ([:len [find name="purpose.nike.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="gfw" match-subdomain=yes type=FWD name="purpose.nike.com" }
+:if ([:len [find name="pursuestar.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="gfw" match-subdomain=yes type=FWD name="pursuestar.com" }
 :if ([:len [find name="pussyspace.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="gfw" match-subdomain=yes type=FWD name="pussyspace.com" }
 :if ([:len [find name="putihome.org"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="gfw" match-subdomain=yes type=FWD name="putihome.org" }
 :if ([:len [find name="putlocker.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="gfw" match-subdomain=yes type=FWD name="putlocker.com" }
@@ -148,6 +151,3 @@
 :if ([:len [find name="rsdlmonitor.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="gfw" match-subdomain=yes type=FWD name="rsdlmonitor.com" }
 :if ([:len [find name="rsf-chinese.org"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="gfw" match-subdomain=yes type=FWD name="rsf-chinese.org" }
 :if ([:len [find name="rsf.org"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="gfw" match-subdomain=yes type=FWD name="rsf.org" }
-:if ([:len [find name="rsshub.app"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="gfw" match-subdomain=yes type=FWD name="rsshub.app" }
-:if ([:len [find name="rssmeme.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="gfw" match-subdomain=yes type=FWD name="rssmeme.com" }
-:if ([:len [find name="rtalabel.org"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="gfw" match-subdomain=yes type=FWD name="rtalabel.org" }

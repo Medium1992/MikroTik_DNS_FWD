@@ -1,6 +1,9 @@
 :global AddressList
 :global ForwardTo
 /ip dns static
+:if ([:len [find name="voa-11.akacast.akamaistream.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="gfw" match-subdomain=yes type=FWD name="voa-11.akacast.akamaistream.net" }
+:if ([:len [find name="voacambodia.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="gfw" match-subdomain=yes type=FWD name="voacambodia.com" }
+:if ([:len [find name="voacantonese.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="gfw" match-subdomain=yes type=FWD name="voacantonese.com" }
 :if ([:len [find name="voachinese.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="gfw" match-subdomain=yes type=FWD name="voachinese.com" }
 :if ([:len [find name="voachineseblog.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="gfw" match-subdomain=yes type=FWD name="voachineseblog.com" }
 :if ([:len [find name="voagd.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="gfw" match-subdomain=yes type=FWD name="voagd.com" }
@@ -148,6 +151,3 @@
 :if ([:len [find name="wenyunchao.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="gfw" match-subdomain=yes type=FWD name="wenyunchao.com" }
 :if ([:len [find name="westca.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="gfw" match-subdomain=yes type=FWD name="westca.com" }
 :if ([:len [find name="westernshugdensociety.org"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="gfw" match-subdomain=yes type=FWD name="westernshugdensociety.org" }
-:if ([:len [find name="westernwolves.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="gfw" match-subdomain=yes type=FWD name="westernwolves.com" }
-:if ([:len [find name="westkit.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="gfw" match-subdomain=yes type=FWD name="westkit.net" }
-:if ([:len [find name="westpoint.edu"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="gfw" match-subdomain=yes type=FWD name="westpoint.edu" }

@@ -1,6 +1,9 @@
 :global AddressList
 :global ForwardTo
 /ip dns static
+:if ([:len [find name="rsshub.app"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="gfw" match-subdomain=yes type=FWD name="rsshub.app" }
+:if ([:len [find name="rssmeme.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="gfw" match-subdomain=yes type=FWD name="rssmeme.com" }
+:if ([:len [find name="rtalabel.org"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="gfw" match-subdomain=yes type=FWD name="rtalabel.org" }
 :if ([:len [find name="rti.org.tw"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="gfw" match-subdomain=yes type=FWD name="rti.org.tw" }
 :if ([:len [find name="rti.tw"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="gfw" match-subdomain=yes type=FWD name="rti.tw" }
 :if ([:len [find name="rtm.tnt-ea.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="gfw" match-subdomain=yes type=FWD name="rtm.tnt-ea.com" }
@@ -148,6 +151,3 @@
 :if ([:len [find name="shiatv.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="gfw" match-subdomain=yes type=FWD name="shiatv.net" }
 :if ([:len [find name="shicheng.org"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="gfw" match-subdomain=yes type=FWD name="shicheng.org" }
 :if ([:len [find name="shiksha.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="gfw" match-subdomain=yes type=FWD name="shiksha.com" }
-:if ([:len [find name="shipcamouflage.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="gfw" match-subdomain=yes type=FWD name="shipcamouflage.com" }
-:if ([:len [find name="shireyishunjian.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="gfw" match-subdomain=yes type=FWD name="shireyishunjian.com" }
-:if ([:len [find name="shitaotv.org"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="gfw" match-subdomain=yes type=FWD name="shitaotv.org" }
