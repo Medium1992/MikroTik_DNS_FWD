@@ -93,6 +93,7 @@
 :if ([:len [find name="greasyfork.org"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="gfw" match-subdomain=yes type=FWD name="greasyfork.org" }
 :if ([:len [find name="greatfire.org"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="gfw" match-subdomain=yes type=FWD name="greatfire.org" }
 :if ([:len [find name="greatfire.us7.list-manage.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="gfw" match-subdomain=yes type=FWD name="greatfire.us7.list-manage.com" }
+:if ([:len [find name="greatfirevpn.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="gfw" match-subdomain=yes type=FWD name="greatfirevpn.com" }
 :if ([:len [find name="greatfirewall.biz"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="gfw" match-subdomain=yes type=FWD name="greatfirewall.biz" }
 :if ([:len [find name="greatfirewallofchina.org"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="gfw" match-subdomain=yes type=FWD name="greatfirewallofchina.org" }
 :if ([:len [find name="greatroc.org"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="gfw" match-subdomain=yes type=FWD name="greatroc.org" }
@@ -150,4 +151,3 @@
 :if ([:len [find name="handcraftedsoftware.org"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="gfw" match-subdomain=yes type=FWD name="handcraftedsoftware.org" }
 :if ([:len [find name="hanime.tv"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="gfw" match-subdomain=yes type=FWD name="hanime.tv" }
 :if ([:len [find name="hanime1.me"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="gfw" match-subdomain=yes type=FWD name="hanime1.me" }
-:if ([:len [find name="hao.news"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="gfw" match-subdomain=yes type=FWD name="hao.news" }
