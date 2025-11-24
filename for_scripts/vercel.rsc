@@ -1,6 +1,7 @@
 :global AddressList
 :global ForwardTo
 /ip dns static
+:if ([:len [find name="ai-sdk.dev"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="vercel" match-subdomain=yes type=FWD name="ai-sdk.dev" }
 :if ([:len [find name="err.sh"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="vercel" match-subdomain=yes type=FWD name="err.sh" }
 :if ([:len [find name="nextjs.org"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="vercel" match-subdomain=yes type=FWD name="nextjs.org" }
 :if ([:len [find name="now.sh"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="vercel" match-subdomain=yes type=FWD name="now.sh" }
