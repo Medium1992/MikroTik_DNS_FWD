@@ -2,7 +2,6 @@
 :global ForwardTo
 /ip dns static
 :if ([:len [find name="amlg.io"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="cbs" match-subdomain=yes type=FWD name="amlg.io" }
-:if ([:len [find name="cbs"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="cbs" match-subdomain=yes type=FWD name="cbs" }
 :if ([:len [find name="cbs.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="cbs" match-subdomain=yes type=FWD name="cbs.com" }
 :if ([:len [find name="cbsaavideo.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="cbs" match-subdomain=yes type=FWD name="cbsaavideo.com" }
 :if ([:len [find name="cbscorporation.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="cbs" match-subdomain=yes type=FWD name="cbscorporation.com" }
@@ -23,7 +22,6 @@
 :if ([:len [find name="paramount.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="cbs" match-subdomain=yes type=FWD name="paramount.com" }
 :if ([:len [find name="paramountplus.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="cbs" match-subdomain=yes type=FWD name="paramountplus.com" }
 :if ([:len [find name="pplusstatic.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="cbs" match-subdomain=yes type=FWD name="pplusstatic.com" }
-:if ([:len [find name="showtime"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="cbs" match-subdomain=yes type=FWD name="showtime" }
 :if ([:len [find name="viacbs.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="cbs" match-subdomain=yes type=FWD name="viacbs.com" }
 :if ([:len [find name="viacom.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="cbs" match-subdomain=yes type=FWD name="viacom.com" }
 :if ([:len [find name="viacomcbs.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="cbs" match-subdomain=yes type=FWD name="viacomcbs.com" }
