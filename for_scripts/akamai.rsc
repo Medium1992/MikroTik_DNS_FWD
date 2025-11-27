@@ -66,6 +66,7 @@
 :if ([:len [find name="akastream.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="akamai" match-subdomain=yes type=FWD name="akastream.com" }
 :if ([:len [find name="akastream.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="akamai" match-subdomain=yes type=FWD name="akastream.net" }
 :if ([:len [find name="akatns.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="akamai" match-subdomain=yes type=FWD name="akatns.net" }
+:if ([:len [find name="akstat.io"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="akamai" match-subdomain=yes type=FWD name="akstat.io" }
 :if ([:len [find name="aptdn.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="akamai" match-subdomain=yes type=FWD name="aptdn.net" }
 :if ([:len [find name="edgekey.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="akamai" match-subdomain=yes type=FWD name="edgekey.net" }
 :if ([:len [find name="edgekey88.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="akamai" match-subdomain=yes type=FWD name="edgekey88.net" }

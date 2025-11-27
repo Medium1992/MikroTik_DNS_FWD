@@ -7,6 +7,7 @@
 :if ([:len [find name="e.kuaishou.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="kuaishou" match-subdomain=yes type=FWD name="e.kuaishou.com" }
 :if ([:len [find name="ecukwai.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="kuaishou" match-subdomain=yes type=FWD name="ecukwai.com" }
 :if ([:len [find name="gifshow.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="kuaishou" match-subdomain=yes type=FWD name="gifshow.com" }
+:if ([:len [find name="inkuai.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="kuaishou" match-subdomain=yes type=FWD name="inkuai.com" }
 :if ([:len [find name="inkwai.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="kuaishou" match-subdomain=yes type=FWD name="inkwai.com" }
 :if ([:len [find name="ksapisrv.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="kuaishou" match-subdomain=yes type=FWD name="ksapisrv.com" }
 :if ([:len [find name="kskwai.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="kuaishou" match-subdomain=yes type=FWD name="kskwai.com" }

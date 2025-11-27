@@ -51,5 +51,6 @@
 :if ([:len [find name="sz-jlc.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-electronic-cn" match-subdomain=yes type=FWD name="sz-jlc.com" }
 :if ([:len [find name="szlcsc.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-electronic-cn" match-subdomain=yes type=FWD name="szlcsc.com" }
 :if ([:len [find name="wch-ic.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-electronic-cn" match-subdomain=yes type=FWD name="wch-ic.com" }
+:if ([:len [find name="ymtc.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-electronic-cn" match-subdomain=yes type=FWD name="ymtc.com" }
 :if ([:len [find name="zs-jlc.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-electronic-cn" match-subdomain=yes type=FWD name="zs-jlc.com" }
 :if ([:len [find name="zxhgroup.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-electronic-cn" match-subdomain=yes type=FWD name="zxhgroup.com" }
