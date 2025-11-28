@@ -18,6 +18,9 @@
 :if ([:len [find name="clipdrop.co"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-ai-!cn" match-subdomain=yes type=FWD name="clipdrop.co" }
 :if ([:len [find name="coderabbit.gallery.vsassets.io"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-ai-!cn" match-subdomain=yes type=FWD name="coderabbit.gallery.vsassets.io" }
 :if ([:len [find name="cohere.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-ai-!cn" match-subdomain=yes type=FWD name="cohere.com" }
+:if ([:len [find name="comfy.org"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-ai-!cn" match-subdomain=yes type=FWD name="comfy.org" }
+:if ([:len [find name="comfyci.org"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-ai-!cn" match-subdomain=yes type=FWD name="comfyci.org" }
+:if ([:len [find name="comfyregistry.org"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-ai-!cn" match-subdomain=yes type=FWD name="comfyregistry.org" }
 :if ([:len [find name="copilot.microsoft.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-ai-!cn" match-subdomain=yes type=FWD name="copilot.microsoft.com" }
 :if ([:len [find name="coze.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-ai-!cn" match-subdomain=yes type=FWD name="coze.com" }
 :if ([:len [find name="cursor-cdn.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-ai-!cn" match-subdomain=yes type=FWD name="cursor-cdn.com" }
@@ -53,6 +56,7 @@
 :if ([:len [find name="oaiusercontent.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-ai-!cn" match-subdomain=yes type=FWD name="oaiusercontent.com" }
 :if ([:len [find name="openai.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-ai-!cn" match-subdomain=yes type=FWD name="openai.com" }
 :if ([:len [find name="openai.com.cdn.cloudflare.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-ai-!cn" match-subdomain=yes type=FWD name="openai.com.cdn.cloudflare.net" }
+:if ([:len [find name="oystermercury.top"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-ai-!cn" match-subdomain=yes type=FWD name="oystermercury.top" }
 :if ([:len [find name="perplexity.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-ai-!cn" match-subdomain=yes type=FWD name="perplexity.com" }
 :if ([:len [find name="poe.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-ai-!cn" match-subdomain=yes type=FWD name="poe.com" }
 :if ([:len [find name="poecdn.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-ai-!cn" match-subdomain=yes type=FWD name="poecdn.net" }

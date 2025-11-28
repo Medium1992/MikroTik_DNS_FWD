@@ -1,6 +1,19 @@
 :global AddressList
 :global ForwardTo
 /ip dns static
+:if ([:len [find name="hl2rcv.adobe.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" type=FWD name="hl2rcv.adobe.com" }
+:if ([:len [find name="hlrcv.stage.adobe.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" type=FWD name="hlrcv.stage.adobe.com" }
+:if ([:len [find name="hls-amt.itunes.apple.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" type=FWD name="hls-amt.itunes.apple.com" }
+:if ([:len [find name="hls.itunes.apple.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" type=FWD name="hls.itunes.apple.com" }
+:if ([:len [find name="homebrew.bintray.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" type=FWD name="homebrew.bintray.com" }
+:if ([:len [find name="hpefonts.s3.amazonaws.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" type=FWD name="hpefonts.s3.amazonaws.com" }
+:if ([:len [find name="hpstore.corpmerchandise.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" type=FWD name="hpstore.corpmerchandise.com" }
+:if ([:len [find name="hub.slarker.me"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" type=FWD name="hub.slarker.me" }
+:if ([:len [find name="hulu.playback.edge.bamgrid.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" type=FWD name="hulu.playback.edge.bamgrid.com" }
+:if ([:len [find name="i.jeded.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" type=FWD name="i.jeded.com" }
+:if ([:len [find name="images-eu.ssl-images-amazon.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" type=FWD name="images-eu.ssl-images-amazon.com" }
+:if ([:len [find name="images-fe.ssl-images-amazon.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" type=FWD name="images-fe.ssl-images-amazon.com" }
+:if ([:len [find name="images-na.ssl-images-amazon.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" type=FWD name="images-na.ssl-images-amazon.com" }
 :if ([:len [find name="img-prod-cms-rt-microsoft-com.akamaized.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" type=FWD name="img-prod-cms-rt-microsoft-com.akamaized.net" }
 :if ([:len [find name="img-s-msn-com.akamaized.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" type=FWD name="img-s-msn-com.akamaized.net" }
 :if ([:len [find name="impala-media-production.s3.amazonaws.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" type=FWD name="impala-media-production.s3.amazonaws.com" }
@@ -90,6 +103,9 @@
 :if ([:len [find name="pvr-hamivideo.cdn.hinet.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" type=FWD name="pvr-hamivideo.cdn.hinet.net" }
 :if ([:len [find name="qualcomm.sc.omtrdc.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" type=FWD name="qualcomm.sc.omtrdc.net" }
 :if ([:len [find name="rink.hockeyapp.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" type=FWD name="rink.hockeyapp.net" }
+:if ([:len [find name="roblox-load-generator-configuration.s3.us-east-2.amazonaws.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" type=FWD name="roblox-load-generator-configuration.s3.us-east-2.amazonaws.com" }
+:if ([:len [find name="roblox-poc.global.ssl.fastly.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" type=FWD name="roblox-poc.global.ssl.fastly.net" }
+:if ([:len [find name="robloxcorp.s.llnwi.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" type=FWD name="robloxcorp.s.llnwi.net" }
 :if ([:len [find name="rss.4040940.xyz"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" type=FWD name="rss.4040940.xyz" }
 :if ([:len [find name="rss.datuan.dev"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" type=FWD name="rss.datuan.dev" }
 :if ([:len [find name="rss.littlebaby.life"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" type=FWD name="rss.littlebaby.life" }
@@ -135,19 +151,3 @@
 :if ([:len [find name="steambroadcast.akamaized.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" type=FWD name="steambroadcast.akamaized.net" }
 :if ([:len [find name="steamcdn-a.akamaihd.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" type=FWD name="steamcdn-a.akamaihd.net" }
 :if ([:len [find name="steamcloudsweden.blob.core.windows.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" type=FWD name="steamcloudsweden.blob.core.windows.net" }
-:if ([:len [find name="steamcommunity-a.akamaihd.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" type=FWD name="steamcommunity-a.akamaihd.net" }
-:if ([:len [find name="steamcommunity-a.akamaihd.net.edgesuite.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" type=FWD name="steamcommunity-a.akamaihd.net.edgesuite.net" }
-:if ([:len [find name="steammobile.akamaized.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" type=FWD name="steammobile.akamaized.net" }
-:if ([:len [find name="steampipe-kr.akamaized.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" type=FWD name="steampipe-kr.akamaized.net" }
-:if ([:len [find name="steampipe-partner.akamaized.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" type=FWD name="steampipe-partner.akamaized.net" }
-:if ([:len [find name="steampipe.akamaized.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" type=FWD name="steampipe.akamaized.net" }
-:if ([:len [find name="steamstore-a.akamaihd.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" type=FWD name="steamstore-a.akamaihd.net" }
-:if ([:len [find name="steamusercontent-a.akamaihd.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" type=FWD name="steamusercontent-a.akamaihd.net" }
-:if ([:len [find name="steamuserimages-a.akamaihd.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" type=FWD name="steamuserimages-a.akamaihd.net" }
-:if ([:len [find name="steamvideo-a.akamaihd.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" type=FWD name="steamvideo-a.akamaihd.net" }
-:if ([:len [find name="straitsx-826709081262441084-b790f87a2ae6fd417434295.freshchat.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" type=FWD name="straitsx-826709081262441084-b790f87a2ae6fd417434295.freshchat.com" }
-:if ([:len [find name="t21.nikkei.co.jp"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" type=FWD name="t21.nikkei.co.jp" }
-:if ([:len [find name="t21ipau.nikkei.co.jp"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" type=FWD name="t21ipau.nikkei.co.jp" }
-:if ([:len [find name="teamviewer.com.cdn.cloudflare.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" type=FWD name="teamviewer.com.cdn.cloudflare.net" }
-:if ([:len [find name="tesla-cdn.thron.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" type=FWD name="tesla-cdn.thron.com" }
-:if ([:len [find name="time-a-b.nist.gov"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" type=FWD name="time-a-b.nist.gov" }

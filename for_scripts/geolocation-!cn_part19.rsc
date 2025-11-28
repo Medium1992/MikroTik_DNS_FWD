@@ -1,6 +1,8 @@
 :global AddressList
 :global ForwardTo
 /ip dns static
+:if ([:len [find name="beatsdremonster-uk.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" match-subdomain=yes type=FWD name="beatsdremonster-uk.com" }
+:if ([:len [find name="beatsdrenewcolorful4usale.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" match-subdomain=yes type=FWD name="beatsdrenewcolorful4usale.com" }
 :if ([:len [find name="beatsdreoutletsale.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" match-subdomain=yes type=FWD name="beatsdreoutletsale.com" }
 :if ([:len [find name="beatsdresale2013.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" match-subdomain=yes type=FWD name="beatsdresale2013.com" }
 :if ([:len [find name="beatsdresalestore.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" match-subdomain=yes type=FWD name="beatsdresalestore.com" }
@@ -149,5 +151,3 @@
 :if ([:len [find name="besterpornos.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" match-subdomain=yes type=FWD name="besterpornos.com" }
 :if ([:len [find name="bestescortgirls.nl"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" match-subdomain=yes type=FWD name="bestescortgirls.nl" }
 :if ([:len [find name="bestfreecams.club"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" match-subdomain=yes type=FWD name="bestfreecams.club" }
-:if ([:len [find name="bestfreesexgames.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" match-subdomain=yes type=FWD name="bestfreesexgames.com" }
-:if ([:len [find name="bestfreetube.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" match-subdomain=yes type=FWD name="bestfreetube.net" }

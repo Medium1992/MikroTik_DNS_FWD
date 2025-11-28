@@ -1,6 +1,9 @@
 :global AddressList
 :global ForwardTo
 /ip dns static
+:if ([:len [find name="xn--n6qy1xeobw60f.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="cn" match-subdomain=yes type=FWD name="xn--n6qy1xeobw60f.net" }
+:if ([:len [find name="xn--ncym25ahib.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="cn" match-subdomain=yes type=FWD name="xn--ncym25ahib.net" }
+:if ([:len [find name="xn--nmqp78hmufjwu.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="cn" match-subdomain=yes type=FWD name="xn--nmqp78hmufjwu.com" }
 :if ([:len [find name="xn--ntso8dsz1borbzvfm5h.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="cn" match-subdomain=yes type=FWD name="xn--ntso8dsz1borbzvfm5h.com" }
 :if ([:len [find name="xn--ntsp37j.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="cn" match-subdomain=yes type=FWD name="xn--ntsp37j.net" }
 :if ([:len [find name="xn--nyqx17d.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="cn" match-subdomain=yes type=FWD name="xn--nyqx17d.com" }
@@ -148,6 +151,3 @@
 :if ([:len [find name="xorlink.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="cn" match-subdomain=yes type=FWD name="xorlink.com" }
 :if ([:len [find name="xorpay.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="cn" match-subdomain=yes type=FWD name="xorpay.com" }
 :if ([:len [find name="xoss.co"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="cn" match-subdomain=yes type=FWD name="xoss.co" }
-:if ([:len [find name="xoudou.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="cn" match-subdomain=yes type=FWD name="xoudou.com" }
-:if ([:len [find name="xoxv.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="cn" match-subdomain=yes type=FWD name="xoxv.net" }
-:if ([:len [find name="xoxxoo.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="cn" match-subdomain=yes type=FWD name="xoxxoo.com" }

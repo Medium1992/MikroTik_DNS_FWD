@@ -1,9 +1,6 @@
 :global AddressList
 :global ForwardTo
 /ip dns static
-:if ([:len [find name="servandroidkino.ru"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="tracker" type=FWD name="servandroidkino.ru" }
-:if ([:len [find name="shahidrazi.online"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="tracker" type=FWD name="shahidrazi.online" }
-:if ([:len [find name="share.hkg-fansub.info"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="tracker" type=FWD name="share.hkg-fansub.info" }
 :if ([:len [find name="shubt.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="tracker" type=FWD name="shubt.net" }
 :if ([:len [find name="t-backup.213891.xyz"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="tracker" type=FWD name="t-backup.213891.xyz" }
 :if ([:len [find name="t.213891.xyz"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="tracker" type=FWD name="t.213891.xyz" }
@@ -19,17 +16,19 @@
 :if ([:len [find name="tr.highstar.shop"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="tracker" type=FWD name="tr.highstar.shop" }
 :if ([:len [find name="tr.nyacat.pw"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="tracker" type=FWD name="tr.nyacat.pw" }
 :if ([:len [find name="tr.zukizuki.org"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="tracker" type=FWD name="tr.zukizuki.org" }
+:if ([:len [find name="tr3.ysagin.top"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="tracker" type=FWD name="tr3.ysagin.top" }
 :if ([:len [find name="tr4ck3r.duckdns.org"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="tracker" type=FWD name="tr4ck3r.duckdns.org" }
 :if ([:len [find name="tracker-de-2.cutie.dating"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="tracker" type=FWD name="tracker-de-2.cutie.dating" }
+:if ([:len [find name="tracker-udp.gbitt.info"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="tracker" type=FWD name="tracker-udp.gbitt.info" }
 :if ([:len [find name="tracker-zhuqiy.dgj055.icu"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="tracker" type=FWD name="tracker-zhuqiy.dgj055.icu" }
-:if ([:len [find name="tracker.23794.top"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="tracker" type=FWD name="tracker.23794.top" }
 :if ([:len [find name="tracker.alaskantf.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="tracker" type=FWD name="tracker.alaskantf.com" }
 :if ([:len [find name="tracker.beeimg.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="tracker" type=FWD name="tracker.beeimg.com" }
 :if ([:len [find name="tracker.belmult.online"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="tracker" type=FWD name="tracker.belmult.online" }
-:if ([:len [find name="tracker.bitcoinindia.space"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="tracker" type=FWD name="tracker.bitcoinindia.space" }
 :if ([:len [find name="tracker.bittor.pw"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="tracker" type=FWD name="tracker.bittor.pw" }
+:if ([:len [find name="tracker.breizh.pm"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="tracker" type=FWD name="tracker.breizh.pm" }
 :if ([:len [find name="tracker.bt-hash.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="tracker" type=FWD name="tracker.bt-hash.com" }
 :if ([:len [find name="tracker.bt4g.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="tracker" type=FWD name="tracker.bt4g.com" }
+:if ([:len [find name="tracker.cangku.moe"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="tracker" type=FWD name="tracker.cangku.moe" }
 :if ([:len [find name="tracker.cloudbase.store"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="tracker" type=FWD name="tracker.cloudbase.store" }
 :if ([:len [find name="tracker.corpscorp.online"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="tracker" type=FWD name="tracker.corpscorp.online" }
 :if ([:len [find name="tracker.cutie.dating"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="tracker" type=FWD name="tracker.cutie.dating" }
@@ -44,7 +43,6 @@
 :if ([:len [find name="tracker.foreverpirates.co"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="tracker" type=FWD name="tracker.foreverpirates.co" }
 :if ([:len [find name="tracker.gcrenwp.top"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="tracker" type=FWD name="tracker.gcrenwp.top" }
 :if ([:len [find name="tracker.ghostchu-services.top"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="tracker" type=FWD name="tracker.ghostchu-services.top" }
-:if ([:len [find name="tracker.hifitechindia.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="tracker" type=FWD name="tracker.hifitechindia.com" }
 :if ([:len [find name="tracker.iperson.xyz"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="tracker" type=FWD name="tracker.iperson.xyz" }
 :if ([:len [find name="tracker.ipv6tracker.org"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="tracker" type=FWD name="tracker.ipv6tracker.org" }
 :if ([:len [find name="tracker.ipv6tracker.ru"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="tracker" type=FWD name="tracker.ipv6tracker.ru" }
@@ -62,7 +60,6 @@
 :if ([:len [find name="tracker.renfei.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="tracker" type=FWD name="tracker.renfei.net" }
 :if ([:len [find name="tracker.rescuecrew7.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="tracker" type=FWD name="tracker.rescuecrew7.com" }
 :if ([:len [find name="tracker.sbsub.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="tracker" type=FWD name="tracker.sbsub.com" }
-:if ([:len [find name="tracker.skillindia.site"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="tracker" type=FWD name="tracker.skillindia.site" }
 :if ([:len [find name="tracker.skyts.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="tracker" type=FWD name="tracker.skyts.net" }
 :if ([:len [find name="tracker.srv00.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="tracker" type=FWD name="tracker.srv00.com" }
 :if ([:len [find name="tracker.t-1.org"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="tracker" type=FWD name="tracker.t-1.org" }

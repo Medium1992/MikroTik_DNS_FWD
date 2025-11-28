@@ -27,6 +27,7 @@
 :if ([:len [find name="bimehasia.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-ir" match-subdomain=yes type=FWD name="bimehasia.com" }
 :if ([:len [find name="bimeonline.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-ir" match-subdomain=yes type=FWD name="bimeonline.com" }
 :if ([:len [find name="bit24.cash"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-ir" match-subdomain=yes type=FWD name="bit24.cash" }
+:if ([:len [find name="bitbarg.me"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-ir" match-subdomain=yes type=FWD name="bitbarg.me" }
 :if ([:len [find name="bkisecurities.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-ir" match-subdomain=yes type=FWD name="bkisecurities.com" }
 :if ([:len [find name="blogfa.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-ir" match-subdomain=yes type=FWD name="blogfa.com" }
 :if ([:len [find name="blogsky.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-ir" match-subdomain=yes type=FWD name="blogsky.com" }
@@ -41,6 +42,7 @@
 :if ([:len [find name="danabroker.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-ir" match-subdomain=yes type=FWD name="danabroker.com" }
 :if ([:len [find name="datisnetwork.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-ir" match-subdomain=yes type=FWD name="datisnetwork.com" }
 :if ([:len [find name="dayins.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-ir" match-subdomain=yes type=FWD name="dayins.com" }
+:if ([:len [find name="dekapost.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-ir" match-subdomain=yes type=FWD name="dekapost.com" }
 :if ([:len [find name="digi-kala.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-ir" match-subdomain=yes type=FWD name="digi-kala.com" }
 :if ([:len [find name="digikala.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-ir" match-subdomain=yes type=FWD name="digikala.com" }
 :if ([:len [find name="digikalabusiness.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-ir" match-subdomain=yes type=FWD name="digikalabusiness.com" }
@@ -86,6 +88,7 @@
 :if ([:len [find name="khodro45.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-ir" match-subdomain=yes type=FWD name="khodro45.com" }
 :if ([:len [find name="khorasannews.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-ir" match-subdomain=yes type=FWD name="khorasannews.com" }
 :if ([:len [find name="loxblog.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-ir" match-subdomain=yes type=FWD name="loxblog.com" }
+:if ([:len [find name="mahex.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-ir" match-subdomain=yes type=FWD name="mahex.com" }
 :if ([:len [find name="maskanbourse.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-ir" match-subdomain=yes type=FWD name="maskanbourse.com" }
 :if ([:len [find name="mehrnews.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-ir" match-subdomain=yes type=FWD name="mehrnews.com" }
 :if ([:len [find name="mellatbroker.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-ir" match-subdomain=yes type=FWD name="mellatbroker.com" }
@@ -112,6 +115,7 @@
 :if ([:len [find name="parspack.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-ir" match-subdomain=yes type=FWD name="parspack.com" }
 :if ([:len [find name="picofile.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-ir" match-subdomain=yes type=FWD name="picofile.com" }
 :if ([:len [find name="pishgaman.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-ir" match-subdomain=yes type=FWD name="pishgaman.net" }
+:if ([:len [find name="podro.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-ir" match-subdomain=yes type=FWD name="podro.com" }
 :if ([:len [find name="qodsna.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-ir" match-subdomain=yes type=FWD name="qodsna.com" }
 :if ([:len [find name="quera.org"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-ir" match-subdomain=yes type=FWD name="quera.org" }
 :if ([:len [find name="ramzinex.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-ir" match-subdomain=yes type=FWD name="ramzinex.com" }
@@ -147,7 +151,3 @@
 :if ([:len [find name="snapp.tech"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-ir" match-subdomain=yes type=FWD name="snapp.tech" }
 :if ([:len [find name="snappcloud.io"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-ir" match-subdomain=yes type=FWD name="snappcloud.io" }
 :if ([:len [find name="snappfood.dev"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-ir" match-subdomain=yes type=FWD name="snappfood.dev" }
-:if ([:len [find name="snapproom.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-ir" match-subdomain=yes type=FWD name="snapproom.com" }
-:if ([:len [find name="snapptrip.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-ir" match-subdomain=yes type=FWD name="snapptrip.com" }
-:if ([:len [find name="sobhanehonline.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-ir" match-subdomain=yes type=FWD name="sobhanehonline.com" }
-:if ([:len [find name="softgozar.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-ir" match-subdomain=yes type=FWD name="softgozar.com" }

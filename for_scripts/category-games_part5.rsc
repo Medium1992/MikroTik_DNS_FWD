@@ -1,6 +1,12 @@
 :global AddressList
 :global ForwardTo
 /ip dns static
+:if ([:len [find name="tgpro.top"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-games" match-subdomain=yes type=FWD name="tgpro.top" }
+:if ([:len [find name="tgprocs.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-games" match-subdomain=yes type=FWD name="tgprocs.net" }
+:if ([:len [find name="thedreadwolfrises.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-games" match-subdomain=yes type=FWD name="thedreadwolfrises.com" }
+:if ([:len [find name="thelegendarystarfy.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-games" match-subdomain=yes type=FWD name="thelegendarystarfy.com" }
+:if ([:len [find name="themisweeps.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-games" match-subdomain=yes type=FWD name="themisweeps.com" }
+:if ([:len [find name="thesims.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-games" match-subdomain=yes type=FWD name="thesims.com" }
 :if ([:len [find name="thesims3.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-games" match-subdomain=yes type=FWD name="thesims3.com" }
 :if ([:len [find name="thesims4.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-games" match-subdomain=yes type=FWD name="thesims4.com" }
 :if ([:len [find name="thesimssocial.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-games" match-subdomain=yes type=FWD name="thesimssocial.com" }
@@ -123,6 +129,7 @@
 :if ([:len [find name="c.ppy.sh"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-games" type=FWD name="c.ppy.sh" }
 :if ([:len [find name="cdngarenanow-a.akamaihd.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-games" type=FWD name="cdngarenanow-a.akamaihd.net" }
 :if ([:len [find name="cloudsync-prod.s3.amazonaws.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-games" type=FWD name="cloudsync-prod.s3.amazonaws.com" }
+:if ([:len [find name="d1unuk07s6td74.cloudfront.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-games" type=FWD name="d1unuk07s6td74.cloudfront.net" }
 :if ([:len [find name="datarouter.apps.netherrealm.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-games" type=FWD name="datarouter.apps.netherrealm.com" }
 :if ([:len [find name="dlgarenanow-a.akamaihd.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-games" type=FWD name="dlgarenanow-a.akamaihd.net" }
 :if ([:len [find name="dlmobilegarena-a.akamaihd.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-games" type=FWD name="dlmobilegarena-a.akamaihd.net" }
@@ -144,10 +151,3 @@
 :if ([:len [find name="opgg-static.akamaized.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-games" type=FWD name="opgg-static.akamaized.net" }
 :if ([:len [find name="origin-a.akamaihd.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-games" type=FWD name="origin-a.akamaihd.net" }
 :if ([:len [find name="osu.ppy.sh"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-games" type=FWD name="osu.ppy.sh" }
-:if ([:len [find name="prd-priconne-redive.akamaized.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-games" type=FWD name="prd-priconne-redive.akamaized.net" }
-:if ([:len [find name="prodforza.blob.core.windows.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-games" type=FWD name="prodforza.blob.core.windows.net" }
-:if ([:len [find name="productcard.gog-statics.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-games" type=FWD name="productcard.gog-statics.com" }
-:if ([:len [find name="rtm.tnt-ea.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-games" type=FWD name="rtm.tnt-ea.com" }
-:if ([:len [find name="sentry.ppy.sh"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-games" type=FWD name="sentry.ppy.sh" }
-:if ([:len [find name="spectator.ppy.sh"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-games" type=FWD name="spectator.ppy.sh" }
-:if ([:len [find name="ssl-lvlt.cdn.ea.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-games" type=FWD name="ssl-lvlt.cdn.ea.com" }
