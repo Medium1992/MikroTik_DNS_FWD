@@ -1,6 +1,9 @@
 :global AddressList
 :global ForwardTo
 /ip dns static
+:if ([:len [find name="appleworldwidedeveloper.hb-api.omtrdc.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" type=FWD name="appleworldwidedeveloper.hb-api.omtrdc.net" }
+:if ([:len [find name="appleworldwidedeveloper.sc.omtrdc.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" type=FWD name="appleworldwidedeveloper.sc.omtrdc.net" }
+:if ([:len [find name="as-dash-uk-live.akamaized.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" type=FWD name="as-dash-uk-live.akamaized.net" }
 :if ([:len [find name="as-hls-uk-live.akamaized.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" type=FWD name="as-hls-uk-live.akamaized.net" }
 :if ([:len [find name="asahishimbun.sc.omtrdc.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" type=FWD name="asahishimbun.sc.omtrdc.net" }
 :if ([:len [find name="assets.ppy.sh"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" type=FWD name="assets.ppy.sh" }
@@ -148,6 +151,3 @@
 :if ([:len [find name="gitlab-assets.oss-cn-hongkong.aliyuncs.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" type=FWD name="gitlab-assets.oss-cn-hongkong.aliyuncs.com" }
 :if ([:len [find name="google-ohttp-relay-safebrowsing.fastly-edge.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" type=FWD name="google-ohttp-relay-safebrowsing.fastly-edge.com" }
 :if ([:len [find name="hamivideo.hinet.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" type=FWD name="hamivideo.hinet.net" }
-:if ([:len [find name="hammerandchisel.ssl.zendesk.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" type=FWD name="hammerandchisel.ssl.zendesk.com" }
-:if ([:len [find name="heads-ak-spotify-com.akamaized.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" type=FWD name="heads-ak-spotify-com.akamaized.net" }
-:if ([:len [find name="heads4-ak-spotify-com.akamaized.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" type=FWD name="heads4-ak-spotify-com.akamaized.net" }

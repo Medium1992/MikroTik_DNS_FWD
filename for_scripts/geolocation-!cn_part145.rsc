@@ -1,6 +1,9 @@
 :global AddressList
 :global ForwardTo
 /ip dns static
+:if ([:len [find name="hammerandchisel.ssl.zendesk.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" type=FWD name="hammerandchisel.ssl.zendesk.com" }
+:if ([:len [find name="heads-ak-spotify-com.akamaized.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" type=FWD name="heads-ak-spotify-com.akamaized.net" }
+:if ([:len [find name="heads4-ak-spotify-com.akamaized.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" type=FWD name="heads4-ak-spotify-com.akamaized.net" }
 :if ([:len [find name="himalaya-exchange.zendesk.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" type=FWD name="himalaya-exchange.zendesk.com" }
 :if ([:len [find name="hl2rcv.adobe.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" type=FWD name="hl2rcv.adobe.com" }
 :if ([:len [find name="hlrcv.stage.adobe.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" type=FWD name="hlrcv.stage.adobe.com" }
@@ -148,6 +151,3 @@
 :if ([:len [find name="ssl-lvlt.cdn.ea.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" type=FWD name="ssl-lvlt.cdn.ea.com" }
 :if ([:len [find name="static-hamivideo.cdn.hinet.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" type=FWD name="static-hamivideo.cdn.hinet.net" }
 :if ([:len [find name="static.siege-amazon.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" type=FWD name="static.siege-amazon.com" }
-:if ([:len [find name="statics-marketingsites-eas-ms-com.akamaized.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" type=FWD name="statics-marketingsites-eas-ms-com.akamaized.net" }
-:if ([:len [find name="statics-marketingsites-eus-ms-com.akamaized.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" type=FWD name="statics-marketingsites-eus-ms-com.akamaized.net" }
-:if ([:len [find name="statics-marketingsites-wcus-ms-com.akamaized.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" type=FWD name="statics-marketingsites-wcus-ms-com.akamaized.net" }
