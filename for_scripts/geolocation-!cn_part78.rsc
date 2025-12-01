@@ -23,6 +23,7 @@
 :if ([:len [find name="lizhizhuangbi.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" match-subdomain=yes type=FWD name="lizhizhuangbi.com" }
 :if ([:len [find name="lkcn.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" match-subdomain=yes type=FWD name="lkcn.net" }
 :if ([:len [find name="ll82y2ifdd.top"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" match-subdomain=yes type=FWD name="ll82y2ifdd.top" }
+:if ([:len [find name="llama.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" match-subdomain=yes type=FWD name="llama.com" }
 :if ([:len [find name="llbd10.shop"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" match-subdomain=yes type=FWD name="llbd10.shop" }
 :if ([:len [find name="llcaoxm-avi.sbs"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" match-subdomain=yes type=FWD name="llcaoxm-avi.sbs" }
 :if ([:len [find name="lldns.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" match-subdomain=yes type=FWD name="lldns.net" }
@@ -150,4 +151,3 @@
 :if ([:len [find name="lspimg.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" match-subdomain=yes type=FWD name="lspimg.com" }
 :if ([:len [find name="lss55.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" match-subdomain=yes type=FWD name="lss55.com" }
 :if ([:len [find name="lsxszzg.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" match-subdomain=yes type=FWD name="lsxszzg.com" }
-:if ([:len [find name="lthgav.buzz"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" match-subdomain=yes type=FWD name="lthgav.buzz" }

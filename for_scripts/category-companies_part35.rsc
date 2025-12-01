@@ -1,6 +1,8 @@
 :global AddressList
 :global ForwardTo
 /ip dns static
+:if ([:len [find name="checkin.gstatic.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" type=FWD name="checkin.gstatic.com" }
+:if ([:len [find name="cisco.evergage.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" type=FWD name="cisco.evergage.com" }
 :if ([:len [find name="ciscolivehls-i.akamaihd.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" type=FWD name="ciscolivehls-i.akamaihd.net" }
 :if ([:len [find name="cl1-cdn.origin-apple.com.akadns.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" type=FWD name="cl1-cdn.origin-apple.com.akadns.net" }
 :if ([:len [find name="cl1.apple.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" type=FWD name="cl1.apple.com" }
@@ -149,5 +151,3 @@
 :if ([:len [find name="ftaapj.dell.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" type=FWD name="ftaapj.dell.com" }
 :if ([:len [find name="ftaemea.dell.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" type=FWD name="ftaemea.dell.com" }
 :if ([:len [find name="ftasitapj.dell.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" type=FWD name="ftasitapj.dell.com" }
-:if ([:len [find name="fundingchoicesmessages.google.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" type=FWD name="fundingchoicesmessages.google.com" }
-:if ([:len [find name="g0.gstatic.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" type=FWD name="g0.gstatic.com" }
