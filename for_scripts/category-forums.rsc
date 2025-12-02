@@ -30,6 +30,8 @@
 :if ([:len [find name="dslreports.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-forums" match-subdomain=yes type=FWD name="dslreports.com" }
 :if ([:len [find name="eyny.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-forums" match-subdomain=yes type=FWD name="eyny.com" }
 :if ([:len [find name="gab.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-forums" match-subdomain=yes type=FWD name="gab.com" }
+:if ([:len [find name="habr.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-forums" match-subdomain=yes type=FWD name="habr.com" }
+:if ([:len [find name="habrastorage.org"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-forums" match-subdomain=yes type=FWD name="habrastorage.org" }
 :if ([:len [find name="hkgolden.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-forums" match-subdomain=yes type=FWD name="hkgolden.com" }
 :if ([:len [find name="hkgolden.media"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-forums" match-subdomain=yes type=FWD name="hkgolden.media" }
 :if ([:len [find name="hydrogenaud.io"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-forums" match-subdomain=yes type=FWD name="hydrogenaud.io" }
