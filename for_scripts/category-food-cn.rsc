@@ -12,4 +12,6 @@
 :if ([:len [find name="lppz.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-food-cn" match-subdomain=yes type=FWD name="lppz.com" }
 :if ([:len [find name="lppzimg.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-food-cn" match-subdomain=yes type=FWD name="lppzimg.com" }
 :if ([:len [find name="luckincoffeecdn.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-food-cn" match-subdomain=yes type=FWD name="luckincoffeecdn.com" }
+:if ([:len [find name="meican.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-food-cn" match-subdomain=yes type=FWD name="meican.com" }
+:if ([:len [find name="meicanstatic.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-food-cn" match-subdomain=yes type=FWD name="meicanstatic.com" }
 :if ([:len [find name="yyds.co"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-food-cn" match-subdomain=yes type=FWD name="yyds.co" }

@@ -16,10 +16,14 @@
 :if ([:len [find name="zjfcdn.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="bytedance" match-subdomain=yes type=FWD name="zjfcdn.com" }
 :if ([:len [find name="zjgslb.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="bytedance" match-subdomain=yes type=FWD name="zjgslb.com" }
 :if ([:len [find name="ads3-normal-hl.zijieapi.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="bytedance" type=FWD name="ads3-normal-hl.zijieapi.com" }
+:if ([:len [find name="ads3-normal.zijieapi.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="bytedance" type=FWD name="ads3-normal.zijieapi.com" }
 :if ([:len [find name="ads5-normal-hl.zijieapi.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="bytedance" type=FWD name="ads5-normal-hl.zijieapi.com" }
+:if ([:len [find name="ads5-normal.zijieapi.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="bytedance" type=FWD name="ads5-normal.zijieapi.com" }
 :if ([:len [find name="bytedance.map.fastly.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="bytedance" type=FWD name="bytedance.map.fastly.net" }
 :if ([:len [find name="log3-applog-hl.fqnovel.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="bytedance" type=FWD name="log3-applog-hl.fqnovel.com" }
+:if ([:len [find name="log3-applog.fqnovel.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="bytedance" type=FWD name="log3-applog.fqnovel.com" }
 :if ([:len [find name="log5-applog-hl.fqnovel.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="bytedance" type=FWD name="log5-applog-hl.fqnovel.com" }
+:if ([:len [find name="log5-applog.fqnovel.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="bytedance" type=FWD name="log5-applog.fqnovel.com" }
 :if ([:len [find name="p1-juejin.byteimg.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="bytedance" type=FWD name="p1-juejin.byteimg.com" }
 :if ([:len [find name="p16-tiktokcdn-com.akamaized.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="bytedance" type=FWD name="p16-tiktokcdn-com.akamaized.net" }
 :if ([:len [find name="p2-juejin.byteimg.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="bytedance" type=FWD name="p2-juejin.byteimg.com" }
@@ -36,4 +40,6 @@
 :if ([:len [find name="p9-ad-sign.byteimg.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="bytedance" type=FWD name="p9-ad-sign.byteimg.com" }
 :if ([:len [find name="p9-juejin.byteimg.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="bytedance" type=FWD name="p9-juejin.byteimg.com" }
 :if ([:len [find name="rtlog3-applog-hl.fqnovel.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="bytedance" type=FWD name="rtlog3-applog-hl.fqnovel.com" }
+:if ([:len [find name="rtlog3-applog.fqnovel.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="bytedance" type=FWD name="rtlog3-applog.fqnovel.com" }
 :if ([:len [find name="rtlog5-applog-hl.fqnovel.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="bytedance" type=FWD name="rtlog5-applog-hl.fqnovel.com" }
+:if ([:len [find name="rtlog5-applog.fqnovel.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="bytedance" type=FWD name="rtlog5-applog.fqnovel.com" }
