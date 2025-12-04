@@ -87,6 +87,7 @@
 :if ([:len [find name="blackboxgames.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-games" match-subdomain=yes type=FWD name="blackboxgames.com" }
 :if ([:len [find name="blizzard.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-games" match-subdomain=yes type=FWD name="blizzard.com" }
 :if ([:len [find name="blizzardgearstore.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-games" match-subdomain=yes type=FWD name="blizzardgearstore.com" }
+:if ([:len [find name="blox.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-games" match-subdomain=yes type=FWD name="blox.com" }
 :if ([:len [find name="bluearchive-cn.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-games" match-subdomain=yes type=FWD name="bluearchive-cn.com" }
 :if ([:len [find name="bluearchive.jp"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-games" match-subdomain=yes type=FWD name="bluearchive.jp" }
 :if ([:len [find name="blz-contentstack.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-games" match-subdomain=yes type=FWD name="blz-contentstack.com" }
@@ -150,4 +151,3 @@
 :if ([:len [find name="ea.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-games" match-subdomain=yes type=FWD name="ea.com" }
 :if ([:len [find name="eaaccess.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-games" match-subdomain=yes type=FWD name="eaaccess.com" }
 :if ([:len [find name="eablackbox.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-games" match-subdomain=yes type=FWD name="eablackbox.com" }
-:if ([:len [find name="eac-cdn.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-games" match-subdomain=yes type=FWD name="eac-cdn.com" }

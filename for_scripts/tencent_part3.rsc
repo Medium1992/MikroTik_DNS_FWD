@@ -1,6 +1,7 @@
 :global AddressList
 :global ForwardTo
 /ip dns static
+:if ([:len [find name="tcloudedu.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="tencent" match-subdomain=yes type=FWD name="tcloudedu.com" }
 :if ([:len [find name="tcloudhw.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="tencent" match-subdomain=yes type=FWD name="tcloudhw.com" }
 :if ([:len [find name="tcloudhw.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="tencent" match-subdomain=yes type=FWD name="tcloudhw.net" }
 :if ([:len [find name="tcloudscdn.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="tencent" match-subdomain=yes type=FWD name="tcloudscdn.com" }
@@ -150,4 +151,3 @@
 :if ([:len [find regexp="\\\\.(.+-)\?ap-chengdu(-.+)\?\\\\.myqcloud\\\\.com\$"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="tencent" type=FWD regexp="\\\\.(.+-)\?ap-chengdu(-.+)\?\\\\.myqcloud\\\\.com\$" }
 :if ([:len [find regexp="\\\\.(.+-)\?ap-chengdu(-.+)\?\\\\.tencentcos\\\\.(cn|com(\\\\.cn)\?)\$"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="tencent" type=FWD regexp="\\\\.(.+-)\?ap-chengdu(-.+)\?\\\\.tencentcos\\\\.(cn|com(\\\\.cn)\?)\$" }
 :if ([:len [find regexp="\\\\.(.+-)\?ap-chongqing(-.+)\?\\\\.myqcloud\\\\.com\$"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="tencent" type=FWD regexp="\\\\.(.+-)\?ap-chongqing(-.+)\?\\\\.myqcloud\\\\.com\$" }
-:if ([:len [find regexp="\\\\.(.+-)\?ap-chongqing(-.+)\?\\\\.tencentcos\\\\.(cn|com(\\\\.cn)\?)\$"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="tencent" type=FWD regexp="\\\\.(.+-)\?ap-chongqing(-.+)\?\\\\.tencentcos\\\\.(cn|com(\\\\.cn)\?)\$" }

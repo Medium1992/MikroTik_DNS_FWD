@@ -76,6 +76,7 @@
 :if ([:len [find name="igcdn.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-social-media-!cn" match-subdomain=yes type=FWD name="igcdn.com" }
 :if ([:len [find name="igsonar.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-social-media-!cn" match-subdomain=yes type=FWD name="igsonar.com" }
 :if ([:len [find name="igtv.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-social-media-!cn" match-subdomain=yes type=FWD name="igtv.com" }
+:if ([:len [find name="imgsmail.ru"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-social-media-!cn" match-subdomain=yes type=FWD name="imgsmail.ru" }
 :if ([:len [find name="imstagram.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-social-media-!cn" match-subdomain=yes type=FWD name="imstagram.com" }
 :if ([:len [find name="imtagram.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-social-media-!cn" match-subdomain=yes type=FWD name="imtagram.com" }
 :if ([:len [find name="instaadder.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-social-media-!cn" match-subdomain=yes type=FWD name="instaadder.com" }
@@ -140,6 +141,7 @@
 :if ([:len [find name="liverail.tv"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-social-media-!cn" match-subdomain=yes type=FWD name="liverail.tv" }
 :if ([:len [find name="lnstagram-help.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-social-media-!cn" match-subdomain=yes type=FWD name="lnstagram-help.com" }
 :if ([:len [find name="login-account.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-social-media-!cn" match-subdomain=yes type=FWD name="login-account.net" }
+:if ([:len [find name="mail.ru"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-social-media-!cn" match-subdomain=yes type=FWD name="mail.ru" }
 :if ([:len [find name="maniakey.homes"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-social-media-!cn" match-subdomain=yes type=FWD name="maniakey.homes" }
 :if ([:len [find name="markzuckerberg.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-social-media-!cn" match-subdomain=yes type=FWD name="markzuckerberg.com" }
 :if ([:len [find name="mfmf.club"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-social-media-!cn" match-subdomain=yes type=FWD name="mfmf.club" }
@@ -149,5 +151,3 @@
 :if ([:len [find name="midentsolutions.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-social-media-!cn" match-subdomain=yes type=FWD name="midentsolutions.com" }
 :if ([:len [find name="misskey-square.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-social-media-!cn" match-subdomain=yes type=FWD name="misskey-square.net" }
 :if ([:len [find name="misskey.always-we-need.games"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-social-media-!cn" match-subdomain=yes type=FWD name="misskey.always-we-need.games" }
-:if ([:len [find name="misskey.art"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-social-media-!cn" match-subdomain=yes type=FWD name="misskey.art" }
-:if ([:len [find name="misskey.cloud"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-social-media-!cn" match-subdomain=yes type=FWD name="misskey.cloud" }

@@ -60,6 +60,7 @@
 :if ([:len [find name="duxiaomantech.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="baidu" match-subdomain=yes type=FWD name="duxiaomantech.com" }
 :if ([:len [find name="dxm-cdn.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="baidu" match-subdomain=yes type=FWD name="dxm-cdn.com" }
 :if ([:len [find name="dxm-int.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="baidu" match-subdomain=yes type=FWD name="dxm-int.com" }
+:if ([:len [find name="dxmjinr.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="baidu" match-subdomain=yes type=FWD name="dxmjinr.com" }
 :if ([:len [find name="dxmlcf.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="baidu" match-subdomain=yes type=FWD name="dxmlcf.com" }
 :if ([:len [find name="dxmlcfintech.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="baidu" match-subdomain=yes type=FWD name="dxmlcfintech.com" }
 :if ([:len [find name="dxmpay.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="baidu" match-subdomain=yes type=FWD name="dxmpay.com" }
