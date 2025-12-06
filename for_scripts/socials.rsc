@@ -2,6 +2,7 @@
 :global ForwardTo
 /ip dns static
 :if ([:len [find name="account-tiktok.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="socials" match-subdomain=yes type=FWD name="account-tiktok.com" }
+:if ([:len [find name="addlive.io"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="socials" match-subdomain=yes type=FWD name="addlive.io" }
 :if ([:len [find name="akamai.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="socials" match-subdomain=yes type=FWD name="akamai.net" }
 :if ([:len [find name="akamaized.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="socials" match-subdomain=yes type=FWD name="akamaized.net" }
 :if ([:len [find name="atomile.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="socials" match-subdomain=yes type=FWD name="atomile.com" }
@@ -20,6 +21,8 @@
 :if ([:len [find name="fbcdn.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="socials" match-subdomain=yes type=FWD name="fbcdn.com" }
 :if ([:len [find name="fbcdn.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="socials" match-subdomain=yes type=FWD name="fbcdn.net" }
 :if ([:len [find name="fbsbx.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="socials" match-subdomain=yes type=FWD name="fbsbx.com" }
+:if ([:len [find name="feelinsonice.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="socials" match-subdomain=yes type=FWD name="feelinsonice.com" }
+:if ([:len [find name="google.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="socials" match-subdomain=yes type=FWD name="google.com" }
 :if ([:len [find name="ibytedtos.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="socials" match-subdomain=yes type=FWD name="ibytedtos.com" }
 :if ([:len [find name="ibyteimg.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="socials" match-subdomain=yes type=FWD name="ibyteimg.com" }
 :if ([:len [find name="ig.me"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="socials" match-subdomain=yes type=FWD name="ig.me" }
@@ -37,7 +40,22 @@
 :if ([:len [find name="quora.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="socials" match-subdomain=yes type=FWD name="quora.com" }
 :if ([:len [find name="quoracdn.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="socials" match-subdomain=yes type=FWD name="quoracdn.net" }
 :if ([:len [find name="rocket-cdn.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="socials" match-subdomain=yes type=FWD name="rocket-cdn.com" }
+:if ([:len [find name="sc-cdn.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="socials" match-subdomain=yes type=FWD name="sc-cdn.net" }
+:if ([:len [find name="sc-corp.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="socials" match-subdomain=yes type=FWD name="sc-corp.net" }
+:if ([:len [find name="sc-gw.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="socials" match-subdomain=yes type=FWD name="sc-gw.com" }
+:if ([:len [find name="sc-jpl.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="socials" match-subdomain=yes type=FWD name="sc-jpl.com" }
+:if ([:len [find name="sc-prod.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="socials" match-subdomain=yes type=FWD name="sc-prod.net" }
+:if ([:len [find name="sc-static.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="socials" match-subdomain=yes type=FWD name="sc-static.net" }
 :if ([:len [find name="sgsnssdk.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="socials" match-subdomain=yes type=FWD name="sgsnssdk.com" }
+:if ([:len [find name="snap-dev.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="socials" match-subdomain=yes type=FWD name="snap-dev.net" }
+:if ([:len [find name="snap.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="socials" match-subdomain=yes type=FWD name="snap.com" }
+:if ([:len [find name="snapads.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="socials" match-subdomain=yes type=FWD name="snapads.com" }
+:if ([:len [find name="snapchat-com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="socials" match-subdomain=yes type=FWD name="snapchat-com" }
+:if ([:len [find name="snapchat.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="socials" match-subdomain=yes type=FWD name="snapchat.com" }
+:if ([:len [find name="snapkit.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="socials" match-subdomain=yes type=FWD name="snapkit.com" }
+:if ([:len [find name="snapmap.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="socials" match-subdomain=yes type=FWD name="snapmap.com" }
+:if ([:len [find name="snapmap.org"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="socials" match-subdomain=yes type=FWD name="snapmap.org" }
+:if ([:len [find name="snapmaps.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="socials" match-subdomain=yes type=FWD name="snapmaps.com" }
 :if ([:len [find name="t.co"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="socials" match-subdomain=yes type=FWD name="t.co" }
 :if ([:len [find name="tfbnw.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="socials" match-subdomain=yes type=FWD name="tfbnw.net" }
 :if ([:len [find name="thefacebook.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="socials" match-subdomain=yes type=FWD name="thefacebook.com" }
