@@ -1,6 +1,11 @@
 :global AddressList
 :global ForwardTo
 /ip dns static
+:if ([:len [find name="pokemon-sunmoon.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-games" match-subdomain=yes type=FWD name="pokemon-sunmoon.com" }
+:if ([:len [find name="pokemon-unitepgame.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-games" match-subdomain=yes type=FWD name="pokemon-unitepgame.com" }
+:if ([:len [find name="pokemon.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-games" match-subdomain=yes type=FWD name="pokemon.com" }
+:if ([:len [find name="pokemonbank.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-games" match-subdomain=yes type=FWD name="pokemonbank.com" }
+:if ([:len [find name="pokemonblackwhite.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-games" match-subdomain=yes type=FWD name="pokemonblackwhite.com" }
 :if ([:len [find name="pokemonbw.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-games" match-subdomain=yes type=FWD name="pokemonbw.com" }
 :if ([:len [find name="pokemonchampionships.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-games" match-subdomain=yes type=FWD name="pokemonchampionships.com" }
 :if ([:len [find name="pokemongoldsilver.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-games" match-subdomain=yes type=FWD name="pokemongoldsilver.com" }
@@ -43,6 +48,7 @@
 :if ([:len [find name="rbxinfra.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-games" match-subdomain=yes type=FWD name="rbxinfra.net" }
 :if ([:len [find name="rbxlabs.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-games" match-subdomain=yes type=FWD name="rbxlabs.com" }
 :if ([:len [find name="rbxtrk.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-games" match-subdomain=yes type=FWD name="rbxtrk.com" }
+:if ([:len [find name="reachthefinals.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-games" match-subdomain=yes type=FWD name="reachthefinals.com" }
 :if ([:len [find name="realcybertron.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-games" match-subdomain=yes type=FWD name="realcybertron.com" }
 :if ([:len [find name="realityscan.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-games" match-subdomain=yes type=FWD name="realityscan.com" }
 :if ([:len [find name="renovacionxboxlive.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-games" match-subdomain=yes type=FWD name="renovacionxboxlive.com" }
@@ -145,9 +151,3 @@
 :if ([:len [find name="supercell.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-games" match-subdomain=yes type=FWD name="supercell.net" }
 :if ([:len [find name="supercellcreators.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-games" match-subdomain=yes type=FWD name="supercellcreators.com" }
 :if ([:len [find name="supercellgames.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-games" match-subdomain=yes type=FWD name="supercellgames.com" }
-:if ([:len [find name="supercellid.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-games" match-subdomain=yes type=FWD name="supercellid.com" }
-:if ([:len [find name="supercellstore.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-games" match-subdomain=yes type=FWD name="supercellstore.com" }
-:if ([:len [find name="supermario.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-games" match-subdomain=yes type=FWD name="supermario.com" }
-:if ([:len [find name="supermario3dworld.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-games" match-subdomain=yes type=FWD name="supermario3dworld.com" }
-:if ([:len [find name="supermariogalaxy.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-games" match-subdomain=yes type=FWD name="supermariogalaxy.com" }
-:if ([:len [find name="supermariorun.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-games" match-subdomain=yes type=FWD name="supermariorun.com" }

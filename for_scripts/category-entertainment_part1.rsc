@@ -56,6 +56,7 @@
 :if ([:len [find name="archiveofourown.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-entertainment" match-subdomain=yes type=FWD name="archiveofourown.com" }
 :if ([:len [find name="archiveofourown.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-entertainment" match-subdomain=yes type=FWD name="archiveofourown.net" }
 :if ([:len [find name="archiveofourown.org"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-entertainment" match-subdomain=yes type=FWD name="archiveofourown.org" }
+:if ([:len [find name="arcraiders.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-entertainment" match-subdomain=yes type=FWD name="arcraiders.com" }
 :if ([:len [find name="artstation.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-entertainment" match-subdomain=yes type=FWD name="artstation.com" }
 :if ([:len [find name="asobostudio.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-entertainment" match-subdomain=yes type=FWD name="asobostudio.com" }
 :if ([:len [find name="att.tv"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-entertainment" match-subdomain=yes type=FWD name="att.tv" }
@@ -150,4 +151,3 @@
 :if ([:len [find name="crunchyroll.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-entertainment" match-subdomain=yes type=FWD name="crunchyroll.com" }
 :if ([:len [find name="crysis.jp"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-entertainment" match-subdomain=yes type=FWD name="crysis.jp" }
 :if ([:len [find name="cubicmotion.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-entertainment" match-subdomain=yes type=FWD name="cubicmotion.com" }
-:if ([:len [find name="curseforge.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-entertainment" match-subdomain=yes type=FWD name="curseforge.com" }

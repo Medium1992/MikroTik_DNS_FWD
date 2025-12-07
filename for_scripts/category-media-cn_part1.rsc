@@ -99,8 +99,10 @@
 :if ([:len [find name="ourl.co"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-media-cn" match-subdomain=yes type=FWD name="ourl.co" }
 :if ([:len [find name="p.aty.sohu.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-media-cn" match-subdomain=yes type=FWD name="p.aty.sohu.com" }
 :if ([:len [find name="pb.i.sogou.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-media-cn" match-subdomain=yes type=FWD name="pb.i.sogou.com" }
+:if ([:len [find name="pingwest.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-media-cn" match-subdomain=yes type=FWD name="pingwest.com" }
 :if ([:len [find name="pv.hd.sohu.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-media-cn" match-subdomain=yes type=FWD name="pv.hd.sohu.com" }
 :if ([:len [find name="pv.sohu.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-media-cn" match-subdomain=yes type=FWD name="pv.sohu.com" }
+:if ([:len [find name="qbitai.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-media-cn" match-subdomain=yes type=FWD name="qbitai.com" }
 :if ([:len [find name="qd.ink"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-media-cn" match-subdomain=yes type=FWD name="qd.ink" }
 :if ([:len [find name="qianzhan.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-media-cn" match-subdomain=yes type=FWD name="qianzhan.com" }
 :if ([:len [find name="qingdaonews.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-media-cn" match-subdomain=yes type=FWD name="qingdaonews.com" }
@@ -110,6 +112,7 @@
 :if ([:len [find name="ruanmei.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-media-cn" match-subdomain=yes type=FWD name="ruanmei.com" }
 :if ([:len [find name="saayaa.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-media-cn" match-subdomain=yes type=FWD name="saayaa.com" }
 :if ([:len [find name="secrss.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-media-cn" match-subdomain=yes type=FWD name="secrss.com" }
+:if ([:len [find name="sfccn.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-media-cn" match-subdomain=yes type=FWD name="sfccn.com" }
 :if ([:len [find name="sgtmos.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-media-cn" match-subdomain=yes type=FWD name="sgtmos.com" }
 :if ([:len [find name="sgyeyou.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-media-cn" match-subdomain=yes type=FWD name="sgyeyou.com" }
 :if ([:len [find name="sgyouxi.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-media-cn" match-subdomain=yes type=FWD name="sgyouxi.com" }
@@ -148,6 +151,3 @@
 :if ([:len [find name="wfdata.club"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-media-cn" match-subdomain=yes type=FWD name="wfdata.club" }
 :if ([:len [find name="win7china.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-media-cn" match-subdomain=yes type=FWD name="win7china.com" }
 :if ([:len [find name="win8china.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-media-cn" match-subdomain=yes type=FWD name="win8china.com" }
-:if ([:len [find name="woshipm.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-media-cn" match-subdomain=yes type=FWD name="woshipm.com" }
-:if ([:len [find name="wsoso.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-media-cn" match-subdomain=yes type=FWD name="wsoso.com" }
-:if ([:len [find name="wuliao.epro.sogou.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-media-cn" match-subdomain=yes type=FWD name="wuliao.epro.sogou.com" }

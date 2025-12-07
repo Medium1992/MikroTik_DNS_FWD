@@ -1,6 +1,12 @@
 :global AddressList
 :global ForwardTo
 /ip dns static
+:if ([:len [find name="blznav.akamaized.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-games" type=FWD name="blznav.akamaized.net" }
+:if ([:len [find name="bnetcmsus-a.akamaihd.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-games" type=FWD name="bnetcmsus-a.akamaihd.net" }
+:if ([:len [find name="bnetproduct-a.akamaihd.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-games" type=FWD name="bnetproduct-a.akamaihd.net" }
+:if ([:len [find name="bnetshopus.akamaized.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-games" type=FWD name="bnetshopus.akamaized.net" }
+:if ([:len [find name="c.ppy.sh"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-games" type=FWD name="c.ppy.sh" }
+:if ([:len [find name="cdngarenanow-a.akamaihd.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-games" type=FWD name="cdngarenanow-a.akamaihd.net" }
 :if ([:len [find name="cloudsync-prod.s3.amazonaws.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-games" type=FWD name="cloudsync-prod.s3.amazonaws.com" }
 :if ([:len [find name="d1unuk07s6td74.cloudfront.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-games" type=FWD name="d1unuk07s6td74.cloudfront.net" }
 :if ([:len [find name="datarouter.apps.netherrealm.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-games" type=FWD name="datarouter.apps.netherrealm.com" }
