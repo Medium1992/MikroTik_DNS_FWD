@@ -32,5 +32,6 @@
 :if ([:len [find name="tmjiasuqi.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-game-accelerator-cn" match-subdomain=yes type=FWD name="tmjiasuqi.com" }
 :if ([:len [find name="uu.163.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-game-accelerator-cn" match-subdomain=yes type=FWD name="uu.163.com" }
 :if ([:len [find name="xunyou.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-game-accelerator-cn" match-subdomain=yes type=FWD name="xunyou.com" }
+:if ([:len [find name="xunyou.mobi"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-game-accelerator-cn" match-subdomain=yes type=FWD name="xunyou.mobi" }
 :if ([:len [find name="yebaojiasu.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-game-accelerator-cn" match-subdomain=yes type=FWD name="yebaojiasu.com" }
 :if ([:len [find name="yuelun.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-game-accelerator-cn" match-subdomain=yes type=FWD name="yuelun.com" }

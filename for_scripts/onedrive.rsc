@@ -3,6 +3,7 @@
 /ip dns static
 :if ([:len [find name="1drv.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="onedrive" match-subdomain=yes type=FWD name="1drv.com" }
 :if ([:len [find name="livefilestore.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="onedrive" match-subdomain=yes type=FWD name="livefilestore.com" }
+:if ([:len [find name="microsoftpersonalcontent.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="onedrive" match-subdomain=yes type=FWD name="microsoftpersonalcontent.com" }
 :if ([:len [find name="onedrive"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="onedrive" match-subdomain=yes type=FWD name="onedrive" }
 :if ([:len [find name="onedrive.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="onedrive" match-subdomain=yes type=FWD name="onedrive.com" }
 :if ([:len [find name="onedrive.live.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="onedrive" match-subdomain=yes type=FWD name="onedrive.live.com" }
