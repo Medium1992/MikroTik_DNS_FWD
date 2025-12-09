@@ -52,6 +52,7 @@
 :if ([:len [find name="one.one.one"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="cloudflare" match-subdomain=yes type=FWD name="one.one.one" }
 :if ([:len [find name="pacloudflare.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="cloudflare" match-subdomain=yes type=FWD name="pacloudflare.com" }
 :if ([:len [find name="pages.dev"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="cloudflare" match-subdomain=yes type=FWD name="pages.dev" }
+:if ([:len [find name="r2.dev"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="cloudflare" match-subdomain=yes type=FWD name="r2.dev" }
 :if ([:len [find name="trycloudflare.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="cloudflare" match-subdomain=yes type=FWD name="trycloudflare.com" }
 :if ([:len [find name="videodelivery.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="cloudflare" match-subdomain=yes type=FWD name="videodelivery.net" }
 :if ([:len [find name="warp.plus"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="cloudflare" match-subdomain=yes type=FWD name="warp.plus" }
