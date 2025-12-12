@@ -1,6 +1,13 @@
 :global AddressList
 :global ForwardTo
 /ip dns static
+:if ([:len [find regexp="(^|\\\\.)aqdk[0-9]{3}\\\\.com\$"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" type=FWD regexp="(^|\\\\.)aqdk[0-9]{3}\\\\.com\$" }
+:if ([:len [find regexp="(^|\\\\.)avcc1[0-9]\\\\.com\$"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" type=FWD regexp="(^|\\\\.)avcc1[0-9]\\\\.com\$" }
+:if ([:len [find regexp="(^|\\\\.)avstar0[1-9]\\\\.(com|me)\$"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" type=FWD regexp="(^|\\\\.)avstar0[1-9]\\\\.(com|me)\$" }
+:if ([:len [find regexp="(^|\\\\.)awjd[1-9]\?\\\\.tv\$"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" type=FWD regexp="(^|\\\\.)awjd[1-9]\?\\\\.tv\$" }
+:if ([:len [find regexp="(^|\\\\.)awwcn[1-9]\?\\\\.top\$"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" type=FWD regexp="(^|\\\\.)awwcn[1-9]\?\\\\.top\$" }
+:if ([:len [find regexp="(^|\\\\.)banyinjia[0-9]\?\\\\.com\$"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" type=FWD regexp="(^|\\\\.)banyinjia[0-9]\?\\\\.com\$" }
+:if ([:len [find regexp="(^|\\\\.)bhzyk[1-9]\?\\\\.xyz\$"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" type=FWD regexp="(^|\\\\.)bhzyk[1-9]\?\\\\.xyz\$" }
 :if ([:len [find regexp="(^|\\\\.)bibeidh1[6-8]\\\\.cc\$"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" type=FWD regexp="(^|\\\\.)bibeidh1[6-8]\\\\.cc\$" }
 :if ([:len [find regexp="(^|\\\\.)bilibili3(0[1-9]|1[0-2])\\\\.xyz\$"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" type=FWD regexp="(^|\\\\.)bilibili3(0[1-9]|1[0-2])\\\\.xyz\$" }
 :if ([:len [find regexp="(^|\\\\.)bjini[0-9]{2}\\\\.buzz\$"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" type=FWD regexp="(^|\\\\.)bjini[0-9]{2}\\\\.buzz\$" }
