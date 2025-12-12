@@ -1,6 +1,7 @@
 :global AddressList
 :global ForwardTo
 /ip dns static
+:if ([:len [find name="toutiaohao.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="bytedance" match-subdomain=yes type=FWD name="toutiaohao.com" }
 :if ([:len [find name="toutiaohao.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="bytedance" match-subdomain=yes type=FWD name="toutiaohao.net" }
 :if ([:len [find name="toutiaoimg.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="bytedance" match-subdomain=yes type=FWD name="toutiaoimg.com" }
 :if ([:len [find name="toutiaoimg.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="bytedance" match-subdomain=yes type=FWD name="toutiaoimg.net" }
@@ -150,4 +151,3 @@
 :if ([:len [find name="xiguaapp.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="bytedance" match-subdomain=yes type=FWD name="xiguaapp.com" }
 :if ([:len [find name="xiguashipin.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="bytedance" match-subdomain=yes type=FWD name="xiguashipin.net" }
 :if ([:len [find name="xiguavideo.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="bytedance" match-subdomain=yes type=FWD name="xiguavideo.net" }
-:if ([:len [find name="xitu.io"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="bytedance" match-subdomain=yes type=FWD name="xitu.io" }

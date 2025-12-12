@@ -1,6 +1,8 @@
 :global AddressList
 :global ForwardTo
 /ip dns static
+:if ([:len [find name="yahoodns.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" match-subdomain=yes type=FWD name="yahoodns.net" }
+:if ([:len [find name="yahoofinance.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" match-subdomain=yes type=FWD name="yahoofinance.com" }
 :if ([:len [find name="yahoohealth.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" match-subdomain=yes type=FWD name="yahoohealth.com" }
 :if ([:len [find name="yahoomusic.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" match-subdomain=yes type=FWD name="yahoomusic.com" }
 :if ([:len [find name="yahoosandbox.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" match-subdomain=yes type=FWD name="yahoosandbox.com" }
@@ -149,5 +151,3 @@
 :if ([:len [find name="apps5.oingo.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" type=FWD name="apps5.oingo.com" }
 :if ([:len [find name="apptrailers.itunes.apple.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" type=FWD name="apptrailers.itunes.apple.com" }
 :if ([:len [find name="auth.music.apple.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" type=FWD name="auth.music.apple.com" }
-:if ([:len [find name="avail.googleflights.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" type=FWD name="avail.googleflights.net" }
-:if ([:len [find name="az764295.vo.msecnd.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" type=FWD name="az764295.vo.msecnd.net" }

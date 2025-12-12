@@ -1,9 +1,11 @@
 :global AddressList
 :global ForwardTo
 /ip dns static
+:if ([:len [find name="bytedapm.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="tiktok@!cn" match-subdomain=yes type=FWD name="bytedapm.com" }
 :if ([:len [find name="byteoversea.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="tiktok@!cn" match-subdomain=yes type=FWD name="byteoversea.com" }
 :if ([:len [find name="muscdn.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="tiktok@!cn" match-subdomain=yes type=FWD name="muscdn.com" }
 :if ([:len [find name="tik-tokapi.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="tiktok@!cn" match-subdomain=yes type=FWD name="tik-tokapi.com" }
+:if ([:len [find name="tiktok-minis.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="tiktok@!cn" match-subdomain=yes type=FWD name="tiktok-minis.com" }
 :if ([:len [find name="tiktok-row.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="tiktok@!cn" match-subdomain=yes type=FWD name="tiktok-row.net" }
 :if ([:len [find name="tiktok.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="tiktok@!cn" match-subdomain=yes type=FWD name="tiktok.com" }
 :if ([:len [find name="tiktokcdn-eu.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="tiktok@!cn" match-subdomain=yes type=FWD name="tiktokcdn-eu.com" }
@@ -24,3 +26,7 @@
 :if ([:len [find name="ttoverseaus.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="tiktok@!cn" match-subdomain=yes type=FWD name="ttoverseaus.net" }
 :if ([:len [find name="ttwstatic.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="tiktok@!cn" match-subdomain=yes type=FWD name="ttwstatic.com" }
 :if ([:len [find name="p16-tiktokcdn-com.akamaized.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="tiktok@!cn" type=FWD name="p16-tiktokcdn-com.akamaized.net" }
+:if ([:len [find name="roovza-launches.appsflyersdk.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="tiktok@!cn" type=FWD name="roovza-launches.appsflyersdk.com" }
+:if ([:len [find name="roovza.inapps.appsflyersdk.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="tiktok@!cn" type=FWD name="roovza.inapps.appsflyersdk.com" }
+:if ([:len [find name="roovza.launches.appsflyersdk.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="tiktok@!cn" type=FWD name="roovza.launches.appsflyersdk.com" }
+:if ([:len [find name="roovza.skadsdk.appsflyersdk.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="tiktok@!cn" type=FWD name="roovza.skadsdk.appsflyersdk.com" }

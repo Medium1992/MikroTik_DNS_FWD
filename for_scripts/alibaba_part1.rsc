@@ -58,6 +58,7 @@
 :if ([:len [find name="aliexpress.ru"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="alibaba" match-subdomain=yes type=FWD name="aliexpress.ru" }
 :if ([:len [find name="alifanyi.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="alibaba" match-subdomain=yes type=FWD name="alifanyi.com" }
 :if ([:len [find name="aligames.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="alibaba" match-subdomain=yes type=FWD name="aligames.com" }
+:if ([:len [find name="aligfwaf.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="alibaba" match-subdomain=yes type=FWD name="aligfwaf.com" }
 :if ([:len [find name="aliimg.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="alibaba" match-subdomain=yes type=FWD name="aliimg.com" }
 :if ([:len [find name="alikmd.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="alibaba" match-subdomain=yes type=FWD name="alikmd.com" }
 :if ([:len [find name="alikunlun.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="alibaba" match-subdomain=yes type=FWD name="alikunlun.com" }
@@ -150,4 +151,3 @@
 :if ([:len [find name="freshhema.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="alibaba" match-subdomain=yes type=FWD name="freshhema.com" }
 :if ([:len [find name="freshippo.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="alibaba" match-subdomain=yes type=FWD name="freshippo.com" }
 :if ([:len [find name="g.click.taobao.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="alibaba" match-subdomain=yes type=FWD name="g.click.taobao.com" }
-:if ([:len [find name="gaode.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="alibaba" match-subdomain=yes type=FWD name="gaode.com" }

@@ -127,6 +127,7 @@
 :if ([:len [find name="collabora.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" match-subdomain=yes type=FWD name="collabora.com" }
 :if ([:len [find name="collabora.org"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" match-subdomain=yes type=FWD name="collabora.org" }
 :if ([:len [find name="collaboraoffice.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" match-subdomain=yes type=FWD name="collaboraoffice.com" }
+:if ([:len [find name="collector.github.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" match-subdomain=yes type=FWD name="collector.github.com" }
 :if ([:len [find name="colorprotechnology.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" match-subdomain=yes type=FWD name="colorprotechnology.com" }
 :if ([:len [find name="comm-verse.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" match-subdomain=yes type=FWD name="comm-verse.com" }
 :if ([:len [find name="como-hackearfacebook.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" match-subdomain=yes type=FWD name="como-hackearfacebook.com" }
@@ -150,4 +151,3 @@
 :if ([:len [find name="coova.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" match-subdomain=yes type=FWD name="coova.com" }
 :if ([:len [find name="coova.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" match-subdomain=yes type=FWD name="coova.net" }
 :if ([:len [find name="coova.org"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" match-subdomain=yes type=FWD name="coova.org" }
-:if ([:len [find name="coreduo.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" match-subdomain=yes type=FWD name="coreduo.com" }

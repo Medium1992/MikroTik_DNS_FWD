@@ -1,6 +1,7 @@
 :global AddressList
 :global ForwardTo
 /ip dns static
+:if ([:len [find name="xitu.io"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="bytedance" match-subdomain=yes type=FWD name="xitu.io" }
 :if ([:len [find name="xsgtvacct.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="bytedance" match-subdomain=yes type=FWD name="xsgtvacct.com" }
 :if ([:len [find name="zebracdn.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="bytedance" match-subdomain=yes type=FWD name="zebracdn.com" }
 :if ([:len [find name="zijieapi.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="bytedance" match-subdomain=yes type=FWD name="zijieapi.com" }
@@ -46,6 +47,10 @@
 :if ([:len [find name="p8-juejin.byteimg.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="bytedance" type=FWD name="p8-juejin.byteimg.com" }
 :if ([:len [find name="p9-ad-sign.byteimg.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="bytedance" type=FWD name="p9-ad-sign.byteimg.com" }
 :if ([:len [find name="p9-juejin.byteimg.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="bytedance" type=FWD name="p9-juejin.byteimg.com" }
+:if ([:len [find name="roovza-launches.appsflyersdk.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="bytedance" type=FWD name="roovza-launches.appsflyersdk.com" }
+:if ([:len [find name="roovza.inapps.appsflyersdk.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="bytedance" type=FWD name="roovza.inapps.appsflyersdk.com" }
+:if ([:len [find name="roovza.launches.appsflyersdk.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="bytedance" type=FWD name="roovza.launches.appsflyersdk.com" }
+:if ([:len [find name="roovza.skadsdk.appsflyersdk.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="bytedance" type=FWD name="roovza.skadsdk.appsflyersdk.com" }
 :if ([:len [find name="rtlog3-applog-hl.fqnovel.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="bytedance" type=FWD name="rtlog3-applog-hl.fqnovel.com" }
 :if ([:len [find name="rtlog3-applog.fqnovel.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="bytedance" type=FWD name="rtlog3-applog.fqnovel.com" }
 :if ([:len [find name="rtlog5-applog-hl.fqnovel.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="bytedance" type=FWD name="rtlog5-applog-hl.fqnovel.com" }

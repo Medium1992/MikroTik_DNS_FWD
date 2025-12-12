@@ -124,6 +124,7 @@
 :if ([:len [find name="nexon.co.jp"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-games-!cn" match-subdomain=yes type=FWD name="nexon.co.jp" }
 :if ([:len [find name="nexon.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-games-!cn" match-subdomain=yes type=FWD name="nexon.com" }
 :if ([:len [find name="nexon.io"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-games-!cn" match-subdomain=yes type=FWD name="nexon.io" }
+:if ([:len [find name="nexus-cdn.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-games-!cn" match-subdomain=yes type=FWD name="nexus-cdn.com" }
 :if ([:len [find name="nexusmods.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-games-!cn" match-subdomain=yes type=FWD name="nexusmods.com" }
 :if ([:len [find name="nfsworld.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-games-!cn" match-subdomain=yes type=FWD name="nfsworld.com" }
 :if ([:len [find name="nikke-de.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-games-!cn" match-subdomain=yes type=FWD name="nikke-de.com" }
@@ -150,4 +151,3 @@
 :if ([:len [find name="nintendonyc.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-games-!cn" match-subdomain=yes type=FWD name="nintendonyc.com" }
 :if ([:len [find name="nintendostore.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-games-!cn" match-subdomain=yes type=FWD name="nintendostore.com" }
 :if ([:len [find name="nintendoswitch.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-games-!cn" match-subdomain=yes type=FWD name="nintendoswitch.com" }
-:if ([:len [find name="nintendoswitch.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-games-!cn" match-subdomain=yes type=FWD name="nintendoswitch.net" }

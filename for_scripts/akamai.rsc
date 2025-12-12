@@ -77,3 +77,4 @@
 :if ([:len [find name="janrainservices.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="akamai" match-subdomain=yes type=FWD name="janrainservices.com" }
 :if ([:len [find name="soasta-dswb.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="akamai" match-subdomain=yes type=FWD name="soasta-dswb.com" }
 :if ([:len [find name="srtcdn.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="akamai" match-subdomain=yes type=FWD name="srtcdn.net" }
+:if ([:len [find name="tl88.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="akamai" match-subdomain=yes type=FWD name="tl88.net" }
