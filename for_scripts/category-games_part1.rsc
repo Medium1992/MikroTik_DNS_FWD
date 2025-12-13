@@ -39,6 +39,7 @@
 :if ([:len [find name="5054399.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-games" match-subdomain=yes type=FWD name="5054399.net" }
 :if ([:len [find name="71acg.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-games" match-subdomain=yes type=FWD name="71acg.com" }
 :if ([:len [find name="71acg.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-games" match-subdomain=yes type=FWD name="71acg.net" }
+:if ([:len [find name="7k7k.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-games" match-subdomain=yes type=FWD name="7k7k.com" }
 :if ([:len [find name="9xgame.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-games" match-subdomain=yes type=FWD name="9xgame.com" }
 :if ([:len [find name="ac-pocketcamp.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-games" match-subdomain=yes type=FWD name="ac-pocketcamp.com" }
 :if ([:len [find name="aki-game.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-games" match-subdomain=yes type=FWD name="aki-game.com" }
@@ -150,4 +151,3 @@
 :if ([:len [find name="dungeonkeeper.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-games" match-subdomain=yes type=FWD name="dungeonkeeper.com" }
 :if ([:len [find name="ea-anz-press.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-games" match-subdomain=yes type=FWD name="ea-anz-press.com" }
 :if ([:len [find name="ea.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-games" match-subdomain=yes type=FWD name="ea.com" }
-:if ([:len [find name="eaaccess.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-games" match-subdomain=yes type=FWD name="eaaccess.com" }

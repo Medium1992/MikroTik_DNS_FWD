@@ -10,6 +10,7 @@
 :if ([:len [find name="bacon.secure.dyn.riotcdn.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-game-platforms-download" type=FWD name="bacon.secure.dyn.riotcdn.net" }
 :if ([:len [find name="blzddist1-a.akamaihd.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-game-platforms-download" type=FWD name="blzddist1-a.akamaihd.net" }
 :if ([:len [find name="blzddistkr1-a.akamaihd.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-game-platforms-download" type=FWD name="blzddistkr1-a.akamaihd.net" }
+:if ([:len [find name="blzdist-d3.necdn.leihuo.netease.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-game-platforms-download" type=FWD name="blzdist-d3.necdn.leihuo.netease.com" }
 :if ([:len [find name="blzdist-di.necdn.leihuo.netease.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-game-platforms-download" type=FWD name="blzdist-di.necdn.leihuo.netease.com" }
 :if ([:len [find name="blzdist-hs.necdn.leihuo.netease.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-game-platforms-download" type=FWD name="blzdist-hs.necdn.leihuo.netease.com" }
 :if ([:len [find name="blzdist-ow.necdn.leihuo.netease.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-game-platforms-download" type=FWD name="blzdist-ow.necdn.leihuo.netease.com" }
@@ -150,4 +151,3 @@
 :if ([:len [find name="cache2-iad1.steamcontent.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-game-platforms-download" type=FWD name="cache2-iad1.steamcontent.com" }
 :if ([:len [find name="cache2-jnb1.steamcontent.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-game-platforms-download" type=FWD name="cache2-jnb1.steamcontent.com" }
 :if ([:len [find name="cache2-lax1.steamcontent.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-game-platforms-download" type=FWD name="cache2-lax1.steamcontent.com" }
-:if ([:len [find name="cache2-lhr1.steamcontent.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-game-platforms-download" type=FWD name="cache2-lhr1.steamcontent.com" }
