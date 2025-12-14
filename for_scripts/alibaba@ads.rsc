@@ -1,6 +1,7 @@
 :global AddressList
 :global ForwardTo
 /ip dns static
+:if ([:len [find name="aaid.umeng.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="alibaba@ads" match-subdomain=yes type=FWD name="aaid.umeng.com" }
 :if ([:len [find name="acjs.aliyun.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="alibaba@ads" match-subdomain=yes type=FWD name="acjs.aliyun.com" }
 :if ([:len [find name="ad.api.3g.youku.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="alibaba@ads" match-subdomain=yes type=FWD name="ad.api.3g.youku.com" }
 :if ([:len [find name="ad.api.mobile.youku.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="alibaba@ads" match-subdomain=yes type=FWD name="ad.api.mobile.youku.com" }
@@ -28,6 +29,7 @@
 :if ([:len [find name="atm.youku.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="alibaba@ads" match-subdomain=yes type=FWD name="atm.youku.com" }
 :if ([:len [find name="baichuan-sdk.alicdn.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="alibaba@ads" match-subdomain=yes type=FWD name="baichuan-sdk.alicdn.com" }
 :if ([:len [find name="c-adash.m.taobao.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="alibaba@ads" match-subdomain=yes type=FWD name="c-adash.m.taobao.com" }
+:if ([:len [find name="dualstack-logs.amap.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="alibaba@ads" match-subdomain=yes type=FWD name="dualstack-logs.amap.com" }
 :if ([:len [find name="e.stat.ykimg.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="alibaba@ads" match-subdomain=yes type=FWD name="e.stat.ykimg.com" }
 :if ([:len [find name="ems.youku.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="alibaba@ads" match-subdomain=yes type=FWD name="ems.youku.com" }
 :if ([:len [find name="fourier.taobao.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="alibaba@ads" match-subdomain=yes type=FWD name="fourier.taobao.com" }
@@ -38,6 +40,7 @@
 :if ([:len [find name="h-adashx.ut.youku.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="alibaba@ads" match-subdomain=yes type=FWD name="h-adashx.ut.youku.com" }
 :if ([:len [find name="h-adashx4yt.ut.taobao.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="alibaba@ads" match-subdomain=yes type=FWD name="h-adashx4yt.ut.taobao.com" }
 :if ([:len [find name="log.umtrack.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="alibaba@ads" match-subdomain=yes type=FWD name="log.umtrack.com" }
+:if ([:len [find name="logs.amap.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="alibaba@ads" match-subdomain=yes type=FWD name="logs.amap.com" }
 :if ([:len [find name="lstat.youku.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="alibaba@ads" match-subdomain=yes type=FWD name="lstat.youku.com" }
 :if ([:len [find name="m-adash.m.taobao.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="alibaba@ads" match-subdomain=yes type=FWD name="m-adash.m.taobao.com" }
 :if ([:len [find name="marketing.alibaba.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="alibaba@ads" match-subdomain=yes type=FWD name="marketing.alibaba.com" }
@@ -45,6 +48,7 @@
 :if ([:len [find name="msg.youku.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="alibaba@ads" match-subdomain=yes type=FWD name="msg.youku.com" }
 :if ([:len [find name="nbsdk-baichuan.alicdn.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="alibaba@ads" match-subdomain=yes type=FWD name="nbsdk-baichuan.alicdn.com" }
 :if ([:len [find name="nbsdk-baichuan.taobao.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="alibaba@ads" match-subdomain=yes type=FWD name="nbsdk-baichuan.taobao.com" }
+:if ([:len [find name="optimus-ads.amap.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="alibaba@ads" match-subdomain=yes type=FWD name="optimus-ads.amap.com" }
 :if ([:len [find name="p-log.ykimg.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="alibaba@ads" match-subdomain=yes type=FWD name="p-log.ykimg.com" }
 :if ([:len [find name="passport-log.youku.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="alibaba@ads" match-subdomain=yes type=FWD name="passport-log.youku.com" }
 :if ([:len [find name="pl.youku.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="alibaba@ads" match-subdomain=yes type=FWD name="pl.youku.com" }
@@ -54,6 +58,7 @@
 :if ([:len [find name="statis.api.3g.youku.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="alibaba@ads" match-subdomain=yes type=FWD name="statis.api.3g.youku.com" }
 :if ([:len [find name="tce.alicdn.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="alibaba@ads" match-subdomain=yes type=FWD name="tce.alicdn.com" }
 :if ([:len [find name="tns.simba.taobao.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="alibaba@ads" match-subdomain=yes type=FWD name="tns.simba.taobao.com" }
+:if ([:len [find name="utoken.umeng.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="alibaba@ads" match-subdomain=yes type=FWD name="utoken.umeng.com" }
 :if ([:len [find name="v6-adashx.ut.amap.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="alibaba@ads" match-subdomain=yes type=FWD name="v6-adashx.ut.amap.com" }
 :if ([:len [find name="v6-adashx.ut.cainiao.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="alibaba@ads" match-subdomain=yes type=FWD name="v6-adashx.ut.cainiao.com" }
 :if ([:len [find name="v6-adashx.ut.ele.me"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="alibaba@ads" match-subdomain=yes type=FWD name="v6-adashx.ut.ele.me" }
