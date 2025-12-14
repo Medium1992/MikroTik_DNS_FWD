@@ -22,6 +22,7 @@
 :if ([:len [find name="adsview2.qq.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="tencent@ads" match-subdomain=yes type=FWD name="adsview2.qq.com" }
 :if ([:len [find name="adv.app.qq.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="tencent@ads" match-subdomain=yes type=FWD name="adv.app.qq.com" }
 :if ([:len [find name="adver.qq.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="tencent@ads" match-subdomain=yes type=FWD name="adver.qq.com" }
+:if ([:len [find name="badjs.weixinbridge.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="tencent@ads" match-subdomain=yes type=FWD name="badjs.weixinbridge.com" }
 :if ([:len [find name="beacon.cdn.qq.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="tencent@ads" match-subdomain=yes type=FWD name="beacon.cdn.qq.com" }
 :if ([:len [find name="beacon.qq.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="tencent@ads" match-subdomain=yes type=FWD name="beacon.qq.com" }
 :if ([:len [find name="beaconcdn.qq.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="tencent@ads" match-subdomain=yes type=FWD name="beaconcdn.qq.com" }
