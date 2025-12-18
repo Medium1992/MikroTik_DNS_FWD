@@ -23,6 +23,8 @@
 :if ([:len [find name="luobu.info"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="games" match-subdomain=yes type=FWD name="luobu.info" }
 :if ([:len [find name="luobu.io"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="games" match-subdomain=yes type=FWD name="luobu.io" }
 :if ([:len [find name="luobu.org"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="games" match-subdomain=yes type=FWD name="luobu.org" }
+:if ([:len [find name="modrinth.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="games" match-subdomain=yes type=FWD name="modrinth.com" }
+:if ([:len [find name="modrinth.gg"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="games" match-subdomain=yes type=FWD name="modrinth.gg" }
 :if ([:len [find name="rblx.co"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="games" match-subdomain=yes type=FWD name="rblx.co" }
 :if ([:len [find name="rblx.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="games" match-subdomain=yes type=FWD name="rblx.com" }
 :if ([:len [find name="rblx.org"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="games" match-subdomain=yes type=FWD name="rblx.org" }

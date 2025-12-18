@@ -109,6 +109,7 @@
 :if ([:len [find name="cache9-fra1.steamcontent.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-game-platforms-download" type=FWD name="cache9-fra1.steamcontent.com" }
 :if ([:len [find name="cache9-fra2.steamcontent.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-game-platforms-download" type=FWD name="cache9-fra2.steamcontent.com" }
 :if ([:len [find name="cache9-gru1.steamcontent.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-game-platforms-download" type=FWD name="cache9-gru1.steamcontent.com" }
+:if ([:len [find name="cache9-hkg1.steamcontent.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-game-platforms-download" type=FWD name="cache9-hkg1.steamcontent.com" }
 :if ([:len [find name="cache9-iad1.steamcontent.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-game-platforms-download" type=FWD name="cache9-iad1.steamcontent.com" }
 :if ([:len [find name="cache9-lax1.steamcontent.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-game-platforms-download" type=FWD name="cache9-lax1.steamcontent.com" }
 :if ([:len [find name="cache9-lhr1.steamcontent.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-game-platforms-download" type=FWD name="cache9-lhr1.steamcontent.com" }
@@ -150,4 +151,3 @@
 :if ([:len [find name="level3.blizzard.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-game-platforms-download" type=FWD name="level3.blizzard.com" }
 :if ([:len [find name="level3.ssl.blizzard.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-game-platforms-download" type=FWD name="level3.ssl.blizzard.com" }
 :if ([:len [find name="lion.secure.dyn.riotcdn.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-game-platforms-download" type=FWD name="lion.secure.dyn.riotcdn.net" }
-:if ([:len [find name="lol.dyn.riotcdn.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-game-platforms-download" type=FWD name="lol.dyn.riotcdn.net" }
