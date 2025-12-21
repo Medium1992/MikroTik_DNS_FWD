@@ -1,13 +1,8 @@
 :global AddressList
 :global ForwardTo
 /ip dns static
-:if ([:len [find name="4pcdn.org"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-orgs" match-subdomain=yes type=FWD name="4pcdn.org" }
-:if ([:len [find name="4plebs.org"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-orgs" match-subdomain=yes type=FWD name="4plebs.org" }
 :if ([:len [find name="acousticbrainz.org"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-orgs" match-subdomain=yes type=FWD name="acousticbrainz.org" }
 :if ([:len [find name="aomedia.org"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-orgs" match-subdomain=yes type=FWD name="aomedia.org" }
-:if ([:len [find name="archive-it.org"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-orgs" match-subdomain=yes type=FWD name="archive-it.org" }
-:if ([:len [find name="archive.org"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-orgs" match-subdomain=yes type=FWD name="archive.org" }
-:if ([:len [find name="archive.today"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-orgs" match-subdomain=yes type=FWD name="archive.today" }
 :if ([:len [find name="atypi.org"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-orgs" match-subdomain=yes type=FWD name="atypi.org" }
 :if ([:len [find name="bookbrainz.org"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-orgs" match-subdomain=yes type=FWD name="bookbrainz.org" }
 :if ([:len [find name="ccstatic.org"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-orgs" match-subdomain=yes type=FWD name="ccstatic.org" }
@@ -78,7 +73,6 @@
 :if ([:len [find name="mtt.org"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-orgs" match-subdomain=yes type=FWD name="mtt.org" }
 :if ([:len [find name="musicbrainz.org"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-orgs" match-subdomain=yes type=FWD name="musicbrainz.org" }
 :if ([:len [find name="nist.gov"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-orgs" match-subdomain=yes type=FWD name="nist.gov" }
-:if ([:len [find name="openlibrary.org"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-orgs" match-subdomain=yes type=FWD name="openlibrary.org" }
 :if ([:len [find name="openmaps.org"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-orgs" match-subdomain=yes type=FWD name="openmaps.org" }
 :if ([:len [find name="openstreetmap.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-orgs" match-subdomain=yes type=FWD name="openstreetmap.com" }
 :if ([:len [find name="openstreetmap.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-orgs" match-subdomain=yes type=FWD name="openstreetmap.net" }
