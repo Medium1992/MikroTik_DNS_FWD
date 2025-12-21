@@ -11,9 +11,14 @@
 :if ([:len [find name="adv.sec.miui.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="xiaomi" match-subdomain=yes type=FWD name="adv.sec.miui.com" }
 :if ([:len [find name="airstarfinance.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="xiaomi" match-subdomain=yes type=FWD name="airstarfinance.net" }
 :if ([:len [find name="c.mi.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="xiaomi" match-subdomain=yes type=FWD name="c.mi.com" }
+:if ([:len [find name="data.mistat.india.xiaomi.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="xiaomi" match-subdomain=yes type=FWD name="data.mistat.india.xiaomi.com" }
+:if ([:len [find name="data.mistat.intl.xiaomi.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="xiaomi" match-subdomain=yes type=FWD name="data.mistat.intl.xiaomi.com" }
+:if ([:len [find name="data.mistat.rus.xiaomi.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="xiaomi" match-subdomain=yes type=FWD name="data.mistat.rus.xiaomi.com" }
+:if ([:len [find name="data.mistat.xiaomi.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="xiaomi" match-subdomain=yes type=FWD name="data.mistat.xiaomi.com" }
 :if ([:len [find name="duokan.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="xiaomi" match-subdomain=yes type=FWD name="duokan.com" }
 :if ([:len [find name="duokanbox.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="xiaomi" match-subdomain=yes type=FWD name="duokanbox.com" }
 :if ([:len [find name="global.market.xiaomi.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="xiaomi" match-subdomain=yes type=FWD name="global.market.xiaomi.com" }
+:if ([:len [find name="logupdate.avlyun.sec.miui.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="xiaomi" match-subdomain=yes type=FWD name="logupdate.avlyun.sec.miui.com" }
 :if ([:len [find name="mgslb.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="xiaomi" match-subdomain=yes type=FWD name="mgslb.com" }
 :if ([:len [find name="mi-idc.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="xiaomi" match-subdomain=yes type=FWD name="mi-idc.com" }
 :if ([:len [find name="mi-img.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="xiaomi" match-subdomain=yes type=FWD name="mi-img.com" }
@@ -23,7 +28,6 @@
 :if ([:len [find name="mijia.tech"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="xiaomi" match-subdomain=yes type=FWD name="mijia.tech" }
 :if ([:len [find name="mipay.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="xiaomi" match-subdomain=yes type=FWD name="mipay.com" }
 :if ([:len [find name="misc.in.duokanbox.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="xiaomi" match-subdomain=yes type=FWD name="misc.in.duokanbox.com" }
-:if ([:len [find name="mistat.xiaomi.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="xiaomi" match-subdomain=yes type=FWD name="mistat.xiaomi.com" }
 :if ([:len [find name="mitvos.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="xiaomi" match-subdomain=yes type=FWD name="mitvos.com" }
 :if ([:len [find name="miui.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="xiaomi" match-subdomain=yes type=FWD name="miui.com" }
 :if ([:len [find name="miwifi.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="xiaomi" match-subdomain=yes type=FWD name="miwifi.com" }

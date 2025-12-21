@@ -32,6 +32,7 @@
 :if ([:len [find name="hugecore.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-education-cn" match-subdomain=yes type=FWD name="hugecore.net" }
 :if ([:len [find name="hujiang.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-education-cn" match-subdomain=yes type=FWD name="hujiang.com" }
 :if ([:len [find name="icourse163.org"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-education-cn" match-subdomain=yes type=FWD name="icourse163.org" }
+:if ([:len [find name="ictbda.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-education-cn" match-subdomain=yes type=FWD name="ictbda.com" }
 :if ([:len [find name="iyunxiao.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-education-cn" match-subdomain=yes type=FWD name="iyunxiao.com" }
 :if ([:len [find name="j-test.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-education-cn" match-subdomain=yes type=FWD name="j-test.com" }
 :if ([:len [find name="keboyunxiao.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-education-cn" match-subdomain=yes type=FWD name="keboyunxiao.com" }
