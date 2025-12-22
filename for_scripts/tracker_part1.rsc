@@ -145,9 +145,9 @@
 :if ([:len [find name="open.acgtracker.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="tracker" type=FWD name="open.acgtracker.com" }
 :if ([:len [find name="open.demonii.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="tracker" type=FWD name="open.demonii.com" }
 :if ([:len [find name="open.dstud.io"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="tracker" type=FWD name="open.dstud.io" }
-:if ([:len [find name="open.trackerlist.xyz"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="tracker" type=FWD name="open.trackerlist.xyz" }
-:if ([:len [find name="opentor.org"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="tracker" type=FWD name="opentor.org" }
 :if ([:len [find name="opentracker.io"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="tracker" type=FWD name="opentracker.io" }
 :if ([:len [find name="p4p.arenabg.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="tracker" type=FWD name="p4p.arenabg.com" }
 :if ([:len [find name="retracker.hotplug.ru"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="tracker" type=FWD name="retracker.hotplug.ru" }
 :if ([:len [find name="retracker.lanta.me"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="tracker" type=FWD name="retracker.lanta.me" }
+:if ([:len [find name="retracker01-msk-virt.corbina.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="tracker" type=FWD name="retracker01-msk-virt.corbina.net" }
+:if ([:len [find name="run.publictracker.xyz"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="tracker" type=FWD name="run.publictracker.xyz" }
