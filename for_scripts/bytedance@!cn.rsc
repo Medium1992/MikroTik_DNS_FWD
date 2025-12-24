@@ -14,7 +14,10 @@
 :if ([:len [find name="tiktok.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="bytedance@!cn" match-subdomain=yes type=FWD name="tiktok.com" }
 :if ([:len [find name="tiktokcdn-eu.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="bytedance@!cn" match-subdomain=yes type=FWD name="tiktokcdn-eu.com" }
 :if ([:len [find name="tiktokcdn-us.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="bytedance@!cn" match-subdomain=yes type=FWD name="tiktokcdn-us.com" }
+:if ([:len [find name="tiktokcdn-us.com.edgesuite.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="bytedance@!cn" match-subdomain=yes type=FWD name="tiktokcdn-us.com.edgesuite.net" }
 :if ([:len [find name="tiktokcdn.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="bytedance@!cn" match-subdomain=yes type=FWD name="tiktokcdn.com" }
+:if ([:len [find name="tiktokcdn.com.akamaized.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="bytedance@!cn" match-subdomain=yes type=FWD name="tiktokcdn.com.akamaized.net" }
+:if ([:len [find name="tiktokcdn.com.edgesuite.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="bytedance@!cn" match-subdomain=yes type=FWD name="tiktokcdn.com.edgesuite.net" }
 :if ([:len [find name="tiktokd.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="bytedance@!cn" match-subdomain=yes type=FWD name="tiktokd.net" }
 :if ([:len [find name="tiktokd.org"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="bytedance@!cn" match-subdomain=yes type=FWD name="tiktokd.org" }
 :if ([:len [find name="tiktokeu-cdn.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="bytedance@!cn" match-subdomain=yes type=FWD name="tiktokeu-cdn.com" }
@@ -22,6 +25,8 @@
 :if ([:len [find name="tiktokminis.us"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="bytedance@!cn" match-subdomain=yes type=FWD name="tiktokminis.us" }
 :if ([:len [find name="tiktokrow-cdn.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="bytedance@!cn" match-subdomain=yes type=FWD name="tiktokrow-cdn.com" }
 :if ([:len [find name="tiktokv.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="bytedance@!cn" match-subdomain=yes type=FWD name="tiktokv.com" }
+:if ([:len [find name="tiktokv.com.edgekey.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="bytedance@!cn" match-subdomain=yes type=FWD name="tiktokv.com.edgekey.net" }
+:if ([:len [find name="tiktokv.com.edgesuite.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="bytedance@!cn" match-subdomain=yes type=FWD name="tiktokv.com.edgesuite.net" }
 :if ([:len [find name="tiktokv.eu"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="bytedance@!cn" match-subdomain=yes type=FWD name="tiktokv.eu" }
 :if ([:len [find name="tiktokv.us"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="bytedance@!cn" match-subdomain=yes type=FWD name="tiktokv.us" }
 :if ([:len [find name="tiktokw.eu"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="bytedance@!cn" match-subdomain=yes type=FWD name="tiktokw.eu" }
