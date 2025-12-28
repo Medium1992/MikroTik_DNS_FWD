@@ -103,7 +103,6 @@
 :if ([:len [find name="dengekionline.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" match-subdomain=yes type=FWD name="dengekionline.com" }
 :if ([:len [find name="dengiamerika.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" match-subdomain=yes type=FWD name="dengiamerika.com" }
 :if ([:len [find name="deno.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" match-subdomain=yes type=FWD name="deno.com" }
-:if ([:len [find name="deno.dev"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" match-subdomain=yes type=FWD name="deno.dev" }
 :if ([:len [find name="deno.land"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" match-subdomain=yes type=FWD name="deno.land" }
 :if ([:len [find name="dentalhypotheses.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" match-subdomain=yes type=FWD name="dentalhypotheses.com" }
 :if ([:len [find name="dependabot.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" match-subdomain=yes type=FWD name="dependabot.com" }
@@ -151,3 +150,4 @@
 :if ([:len [find name="deutsch-sexfilme.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" match-subdomain=yes type=FWD name="deutsch-sexfilme.com" }
 :if ([:len [find name="deutsche-pornos-kostenlos.xxx"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" match-subdomain=yes type=FWD name="deutsche-pornos-kostenlos.xxx" }
 :if ([:len [find name="deutschepornos-kostenlos.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" match-subdomain=yes type=FWD name="deutschepornos-kostenlos.net" }
+:if ([:len [find name="deutschsex.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" match-subdomain=yes type=FWD name="deutschsex.com" }
