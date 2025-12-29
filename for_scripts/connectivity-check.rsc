@@ -9,8 +9,9 @@
 :if ([:len [find name="msftncsi.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="connectivity-check" match-subdomain=yes type=FWD name="msftncsi.com" }
 :if ([:len [find name="network-test.debian.org"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="connectivity-check" match-subdomain=yes type=FWD name="network-test.debian.org" }
 :if ([:len [find name="networkcheck.kde.org"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="connectivity-check" match-subdomain=yes type=FWD name="networkcheck.kde.org" }
-:if ([:len [find name="ping.archlinux.org"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="connectivity-check" match-subdomain=yes type=FWD name="ping.archlinux.org" }
 :if ([:len [find name="connect.rom.miui.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="connectivity-check" type=FWD name="connect.rom.miui.com" }
 :if ([:len [find name="connectivity-check.ubuntu.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="connectivity-check" type=FWD name="connectivity-check.ubuntu.com" }
 :if ([:len [find name="connectivitycheck.platform.hicloud.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="connectivity-check" type=FWD name="connectivitycheck.platform.hicloud.com" }
 :if ([:len [find name="connectivitycheck.platform.hihonorcloud.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="connectivity-check" type=FWD name="connectivitycheck.platform.hihonorcloud.com" }
+:if ([:len [find name="ping.archlinux.org"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="connectivity-check" type=FWD name="ping.archlinux.org" }
+:if ([:len [find name="redirect.archlinux.org"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="connectivity-check" type=FWD name="redirect.archlinux.org" }
