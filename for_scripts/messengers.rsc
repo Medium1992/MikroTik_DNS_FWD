@@ -38,8 +38,17 @@
 :if ([:len [find name="viber.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="messengers" match-subdomain=yes type=FWD name="viber.com" }
 :if ([:len [find name="viber.me"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="messengers" match-subdomain=yes type=FWD name="viber.me" }
 :if ([:len [find name="wa.me"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="messengers" match-subdomain=yes type=FWD name="wa.me" }
+:if ([:len [find name="whatsapp-plus.info"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="messengers" match-subdomain=yes type=FWD name="whatsapp-plus.info" }
+:if ([:len [find name="whatsapp-plus.me"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="messengers" match-subdomain=yes type=FWD name="whatsapp-plus.me" }
+:if ([:len [find name="whatsapp-plus.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="messengers" match-subdomain=yes type=FWD name="whatsapp-plus.net" }
 :if ([:len [find name="whatsapp.biz"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="messengers" match-subdomain=yes type=FWD name="whatsapp.biz" }
+:if ([:len [find name="whatsapp.cc"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="messengers" match-subdomain=yes type=FWD name="whatsapp.cc" }
 :if ([:len [find name="whatsapp.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="messengers" match-subdomain=yes type=FWD name="whatsapp.com" }
+:if ([:len [find name="whatsapp.info"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="messengers" match-subdomain=yes type=FWD name="whatsapp.info" }
 :if ([:len [find name="whatsapp.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="messengers" match-subdomain=yes type=FWD name="whatsapp.net" }
+:if ([:len [find name="whatsapp.org"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="messengers" match-subdomain=yes type=FWD name="whatsapp.org" }
+:if ([:len [find name="whatsapp.tv"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="messengers" match-subdomain=yes type=FWD name="whatsapp.tv" }
+:if ([:len [find name="whatsappbrand.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="messengers" match-subdomain=yes type=FWD name="whatsappbrand.com" }
 :if ([:len [find name="whispersystems.org"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="messengers" match-subdomain=yes type=FWD name="whispersystems.org" }
+:if ([:len [find name="wl.co"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="messengers" match-subdomain=yes type=FWD name="wl.co" }
 :if ([:len [find name="zello.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="messengers" match-subdomain=yes type=FWD name="zello.com" }
