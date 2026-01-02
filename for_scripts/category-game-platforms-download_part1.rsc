@@ -1,6 +1,7 @@
 :global AddressList
 :global ForwardTo
 /ip dns static
+:if ([:len [find name="dl.playstation.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-game-platforms-download" match-subdomain=yes type=FWD name="dl.playstation.net" }
 :if ([:len [find name="egdownload.fastly-edge.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-game-platforms-download" match-subdomain=yes type=FWD name="egdownload.fastly-edge.com" }
 :if ([:len [find name="akamai.cdn.steampipe.steamcontent.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-game-platforms-download" type=FWD name="akamai.cdn.steampipe.steamcontent.com" }
 :if ([:len [find name="alibaba.cdn.steampipe.steamcontent.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-game-platforms-download" type=FWD name="alibaba.cdn.steampipe.steamcontent.com" }
@@ -150,4 +151,3 @@
 :if ([:len [find name="cache2-hkg1.steamcontent.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-game-platforms-download" type=FWD name="cache2-hkg1.steamcontent.com" }
 :if ([:len [find name="cache2-iad1.steamcontent.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-game-platforms-download" type=FWD name="cache2-iad1.steamcontent.com" }
 :if ([:len [find name="cache2-jnb1.steamcontent.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-game-platforms-download" type=FWD name="cache2-jnb1.steamcontent.com" }
-:if ([:len [find name="cache2-lax1.steamcontent.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-game-platforms-download" type=FWD name="cache2-lax1.steamcontent.com" }
