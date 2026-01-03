@@ -1,23 +1,46 @@
 :global AddressList
 :global ForwardTo
 /ip dns static
+:if ([:len [find name="beforeigners.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="hbo" match-subdomain=yes type=FWD name="beforeigners.com" }
 :if ([:len [find name="brightline.tv"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="hbo" match-subdomain=yes type=FWD name="brightline.tv" }
 :if ([:len [find name="cinemax.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="hbo" match-subdomain=yes type=FWD name="cinemax.com" }
 :if ([:len [find name="discomax.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="hbo" match-subdomain=yes type=FWD name="discomax.com" }
 :if ([:len [find name="forthethrone.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="hbo" match-subdomain=yes type=FWD name="forthethrone.com" }
+:if ([:len [find name="hbo-europe.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="hbo" match-subdomain=yes type=FWD name="hbo-europe.com" }
 :if ([:len [find name="hbo.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="hbo" match-subdomain=yes type=FWD name="hbo.com" }
 :if ([:len [find name="hbo.com.c.footprint.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="hbo" match-subdomain=yes type=FWD name="hbo.com.c.footprint.net" }
 :if ([:len [find name="hbo.com.edgesuite.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="hbo" match-subdomain=yes type=FWD name="hbo.com.edgesuite.net" }
+:if ([:len [find name="hbo.eu"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="hbo" match-subdomain=yes type=FWD name="hbo.eu" }
 :if ([:len [find name="hbo.map.fastly.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="hbo" match-subdomain=yes type=FWD name="hbo.map.fastly.net" }
+:if ([:len [find name="hbo.me"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="hbo" match-subdomain=yes type=FWD name="hbo.me" }
+:if ([:len [find name="hboaccess.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="hbo" match-subdomain=yes type=FWD name="hboaccess.com" }
+:if ([:len [find name="hboarchives.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="hbo" match-subdomain=yes type=FWD name="hboarchives.com" }
 :if ([:len [find name="hboasia.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="hbo" match-subdomain=yes type=FWD name="hboasia.com" }
+:if ([:len [find name="hboenterprises.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="hbo" match-subdomain=yes type=FWD name="hboenterprises.com" }
+:if ([:len [find name="hboespana.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="hbo" match-subdomain=yes type=FWD name="hboespana.com" }
 :if ([:len [find name="hbogo.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="hbo" match-subdomain=yes type=FWD name="hbogo.com" }
 :if ([:len [find name="hbogo.eu"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="hbo" match-subdomain=yes type=FWD name="hbogo.eu" }
 :if ([:len [find name="hbogoasia.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="hbo" match-subdomain=yes type=FWD name="hbogoasia.com" }
 :if ([:len [find name="hbogoasia.tw"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="hbo" match-subdomain=yes type=FWD name="hbogoasia.tw" }
+:if ([:len [find name="hboinflight.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="hbo" match-subdomain=yes type=FWD name="hboinflight.com" }
+:if ([:len [find name="hbolacontent.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="hbo" match-subdomain=yes type=FWD name="hbolacontent.net" }
+:if ([:len [find name="hbolaunchpad.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="hbo" match-subdomain=yes type=FWD name="hbolaunchpad.com" }
+:if ([:len [find name="hbomailman.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="hbo" match-subdomain=yes type=FWD name="hbomailman.com" }
 :if ([:len [find name="hbomax-images.warnermediacdn.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="hbo" match-subdomain=yes type=FWD name="hbomax-images.warnermediacdn.com" }
 :if ([:len [find name="hbomax.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="hbo" match-subdomain=yes type=FWD name="hbomax.com" }
+:if ([:len [find name="hbomax.eu"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="hbo" match-subdomain=yes type=FWD name="hbomax.eu" }
 :if ([:len [find name="hbomaxcdn.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="hbo" match-subdomain=yes type=FWD name="hbomaxcdn.com" }
 :if ([:len [find name="hbomaxdash.s.llnwi.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="hbo" match-subdomain=yes type=FWD name="hbomaxdash.s.llnwi.net" }
+:if ([:len [find name="hbomediarelations.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="hbo" match-subdomain=yes type=FWD name="hbomediarelations.com" }
+:if ([:len [find name="hbonordic.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="hbo" match-subdomain=yes type=FWD name="hbonordic.com" }
+:if ([:len [find name="hbonordic.tv"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="hbo" match-subdomain=yes type=FWD name="hbonordic.tv" }
 :if ([:len [find name="hbonow.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="hbo" match-subdomain=yes type=FWD name="hbonow.com" }
+:if ([:len [find name="hboportugal.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="hbo" match-subdomain=yes type=FWD name="hboportugal.com" }
+:if ([:len [find name="hboprod.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="hbo" match-subdomain=yes type=FWD name="hboprod.com" }
+:if ([:len [find name="hbospain.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="hbo" match-subdomain=yes type=FWD name="hbospain.com" }
+:if ([:len [find name="hbotvsales.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="hbo" match-subdomain=yes type=FWD name="hbotvsales.com" }
+:if ([:len [find name="homebox.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="hbo" match-subdomain=yes type=FWD name="homebox.com" }
+:if ([:len [find name="homeboxoffice.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="hbo" match-subdomain=yes type=FWD name="homeboxoffice.com" }
 :if ([:len [find name="max.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="hbo" match-subdomain=yes type=FWD name="max.com" }
 :if ([:len [find name="maxgo.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="hbo" match-subdomain=yes type=FWD name="maxgo.com" }
+:if ([:len [find name="redbyhbo.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="hbo" match-subdomain=yes type=FWD name="redbyhbo.com" }
