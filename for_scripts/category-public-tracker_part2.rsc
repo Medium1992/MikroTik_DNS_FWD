@@ -1,6 +1,7 @@
 :global AddressList
 :global ForwardTo
 /ip dns static
+:if ([:len [find name="secure.pow7.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-public-tracker" type=FWD name="secure.pow7.com" }
 :if ([:len [find name="seeders-paradise.org"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-public-tracker" type=FWD name="seeders-paradise.org" }
 :if ([:len [find name="servandroidkino.ru"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-public-tracker" type=FWD name="servandroidkino.ru" }
 :if ([:len [find name="shahidrazi.online"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-public-tracker" type=FWD name="shahidrazi.online" }
@@ -150,4 +151,3 @@
 :if ([:len [find name="tracker.tasvideos.org"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-public-tracker" type=FWD name="tracker.tasvideos.org" }
 :if ([:len [find name="tracker.tfile.me"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-public-tracker" type=FWD name="tracker.tfile.me" }
 :if ([:len [find name="tracker.theoks.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-public-tracker" type=FWD name="tracker.theoks.net" }
-:if ([:len [find name="tracker.therarbg.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-public-tracker" type=FWD name="tracker.therarbg.com" }

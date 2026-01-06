@@ -1,4 +1,5 @@
 :global AddressList
 :global ForwardTo
 /ip dns static
+:if ([:len [find regexp="\\\\.(.+-)\?ap-shenzhen(-.+)\?\\\\.tencentcos\\\\.(cn|com(\\\\.cn)\?)\$"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-cn" type=FWD regexp="\\\\.(.+-)\?ap-shenzhen(-.+)\?\\\\.tencentcos\\\\.(cn|com(\\\\.cn)\?)\$" }
 :if ([:len [find regexp="^.+-mihayo\\\\.akamaized\\\\.net\$"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-cn" type=FWD regexp="^.+-mihayo\\\\.akamaized\\\\.net\$" }

@@ -1,6 +1,7 @@
 :global AddressList
 :global ForwardTo
 /ip dns static
+:if ([:len [find name="doubleclick.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" type=FWD name="doubleclick.net" }
 :if ([:len [find name="download.developer.apple.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" type=FWD name="download.developer.apple.com" }
 :if ([:len [find name="download.microsoft.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" type=FWD name="download.microsoft.com" }
 :if ([:len [find name="download.mlcc.google.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" type=FWD name="download.mlcc.google.com" }
@@ -150,4 +151,3 @@
 :if ([:len [find name="is-ssl.mzstatic.com-cn-lb.itunes-apple.com.akadns.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" type=FWD name="is-ssl.mzstatic.com-cn-lb.itunes-apple.com.akadns.net" }
 :if ([:len [find name="is1-ssl.mzstatic.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" type=FWD name="is1-ssl.mzstatic.com" }
 :if ([:len [find name="is1.mzstatic.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" type=FWD name="is1.mzstatic.com" }
-:if ([:len [find name="is2-ssl.mzstatic.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" type=FWD name="is2-ssl.mzstatic.com" }
