@@ -106,6 +106,7 @@
 :if ([:len [find name="mvgforumtracker.mvgroup.org"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-public-tracker" type=FWD name="mvgforumtracker.mvgroup.org" }
 :if ([:len [find name="mvgroup.org"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-public-tracker" type=FWD name="mvgroup.org" }
 :if ([:len [find name="new-line.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-public-tracker" type=FWD name="new-line.net" }
+:if ([:len [find name="nnmclub.to"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-public-tracker" type=FWD name="nnmclub.to" }
 :if ([:len [find name="oh.fuuuuuck.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-public-tracker" type=FWD name="oh.fuuuuuck.com" }
 :if ([:len [find name="open.acgnxtracker.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-public-tracker" type=FWD name="open.acgnxtracker.com" }
 :if ([:len [find name="open.acgtracker.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-public-tracker" type=FWD name="open.acgtracker.com" }
@@ -150,4 +151,3 @@
 :if ([:len [find name="retracker01-msk-virt.corbina.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-public-tracker" type=FWD name="retracker01-msk-virt.corbina.net" }
 :if ([:len [find name="run.publictracker.xyz"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-public-tracker" type=FWD name="run.publictracker.xyz" }
 :if ([:len [find name="ryjer.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-public-tracker" type=FWD name="ryjer.com" }
-:if ([:len [find name="secure.pow7.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-public-tracker" type=FWD name="secure.pow7.com" }

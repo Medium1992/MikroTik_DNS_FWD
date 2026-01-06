@@ -1,6 +1,7 @@
 :global AddressList
 :global ForwardTo
 /ip dns static
+:if ([:len [find name="tracker.therarbg.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-public-tracker" type=FWD name="tracker.therarbg.com" }
 :if ([:len [find name="tracker.therarbg.to"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-public-tracker" type=FWD name="tracker.therarbg.to" }
 :if ([:len [find name="tracker.thinelephant.org"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-public-tracker" type=FWD name="tracker.thinelephant.org" }
 :if ([:len [find name="tracker.tiny-vps.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-public-tracker" type=FWD name="tracker.tiny-vps.com" }
