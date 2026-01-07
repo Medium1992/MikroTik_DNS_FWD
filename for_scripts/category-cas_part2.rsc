@@ -99,4 +99,5 @@
 :if ([:len [find name="preprod-publicca.googleapis.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-cas" type=FWD name="preprod-publicca.googleapis.com" }
 :if ([:len [find name="publicca.googleapis.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-cas" type=FWD name="publicca.googleapis.com" }
 :if ([:len [find name="valid.apple.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-cas" type=FWD name="valid.apple.com" }
+:if ([:len [find name="valid.origin-apple.com.akadns.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-cas" type=FWD name="valid.origin-apple.com.akadns.net" }
 :if ([:len [find name="www.microsoft.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-cas" type=FWD name="www.microsoft.com" }
