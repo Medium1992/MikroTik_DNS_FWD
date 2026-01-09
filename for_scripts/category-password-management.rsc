@@ -11,6 +11,7 @@
 :if ([:len [find name="1passwordusercontent.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-password-management" match-subdomain=yes type=FWD name="1passwordusercontent.com" }
 :if ([:len [find name="1passwordusercontent.eu"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-password-management" match-subdomain=yes type=FWD name="1passwordusercontent.eu" }
 :if ([:len [find name="agilebits.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-password-management" match-subdomain=yes type=FWD name="agilebits.com" }
+:if ([:len [find name="authpass.app"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-password-management" match-subdomain=yes type=FWD name="authpass.app" }
 :if ([:len [find name="authy.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-password-management" match-subdomain=yes type=FWD name="authy.com" }
 :if ([:len [find name="bitwarden.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-password-management" match-subdomain=yes type=FWD name="bitwarden.com" }
 :if ([:len [find name="bitwarden.eu"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-password-management" match-subdomain=yes type=FWD name="bitwarden.eu" }
