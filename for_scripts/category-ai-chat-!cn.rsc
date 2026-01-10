@@ -51,6 +51,7 @@
 :if ([:len [find name="jules.google.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-ai-chat-!cn" match-subdomain=yes type=FWD name="jules.google.com" }
 :if ([:len [find name="kiro.dev"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-ai-chat-!cn" match-subdomain=yes type=FWD name="kiro.dev" }
 :if ([:len [find name="labs.google"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-ai-chat-!cn" match-subdomain=yes type=FWD name="labs.google" }
+:if ([:len [find name="labs.google.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-ai-chat-!cn" match-subdomain=yes type=FWD name="labs.google.com" }
 :if ([:len [find name="makersuite.google.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-ai-chat-!cn" match-subdomain=yes type=FWD name="makersuite.google.com" }
 :if ([:len [find name="marscode.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-ai-chat-!cn" match-subdomain=yes type=FWD name="marscode.com" }
 :if ([:len [find name="notebooklm.google"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-ai-chat-!cn" match-subdomain=yes type=FWD name="notebooklm.google" }
