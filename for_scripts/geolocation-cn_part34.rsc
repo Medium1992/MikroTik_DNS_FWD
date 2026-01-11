@@ -1,6 +1,15 @@
 :global AddressList
 :global ForwardTo
 /ip dns static
+:if ([:len [find name="study.163.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-cn" type=FWD name="study.163.com" }
+:if ([:len [find name="time.izatcloud.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-cn" type=FWD name="time.izatcloud.net" }
+:if ([:len [find name="time.xtracloud.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-cn" type=FWD name="time.xtracloud.net" }
+:if ([:len [find name="www.libvideo.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-cn" type=FWD name="www.libvideo.com" }
+:if ([:len [find regexp=".+\\\\.awsdns-cn-[0-9][0-9]\\\\.(biz|com|net|top)\$"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-cn" type=FWD regexp=".+\\\\.awsdns-cn-[0-9][0-9]\\\\.(biz|com|net|top)\$" }
+:if ([:len [find regexp=".+\\\\.awsdns-cn-[0-9][a-e0-9]\\\\.cn\$"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-cn" type=FWD regexp=".+\\\\.awsdns-cn-[0-9][a-e0-9]\\\\.cn\$" }
+:if ([:len [find regexp="\\\\.(.+-)\?ap-beijing(-.+)\?\\\\.myqcloud\\\\.com\$"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-cn" type=FWD regexp="\\\\.(.+-)\?ap-beijing(-.+)\?\\\\.myqcloud\\\\.com\$" }
+:if ([:len [find regexp="\\\\.(.+-)\?ap-beijing(-.+)\?\\\\.tencentcos\\\\.(cn|com(\\\\.cn)\?)\$"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-cn" type=FWD regexp="\\\\.(.+-)\?ap-beijing(-.+)\?\\\\.tencentcos\\\\.(cn|com(\\\\.cn)\?)\$" }
+:if ([:len [find regexp="\\\\.(.+-)\?ap-chengdu(-.+)\?\\\\.myqcloud\\\\.com\$"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-cn" type=FWD regexp="\\\\.(.+-)\?ap-chengdu(-.+)\?\\\\.myqcloud\\\\.com\$" }
 :if ([:len [find regexp="\\\\.(.+-)\?ap-chengdu(-.+)\?\\\\.tencentcos\\\\.(cn|com(\\\\.cn)\?)\$"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-cn" type=FWD regexp="\\\\.(.+-)\?ap-chengdu(-.+)\?\\\\.tencentcos\\\\.(cn|com(\\\\.cn)\?)\$" }
 :if ([:len [find regexp="\\\\.(.+-)\?ap-chongqing(-.+)\?\\\\.myqcloud\\\\.com\$"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-cn" type=FWD regexp="\\\\.(.+-)\?ap-chongqing(-.+)\?\\\\.myqcloud\\\\.com\$" }
 :if ([:len [find regexp="\\\\.(.+-)\?ap-chongqing(-.+)\?\\\\.tencentcos\\\\.(cn|com(\\\\.cn)\?)\$"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-cn" type=FWD regexp="\\\\.(.+-)\?ap-chongqing(-.+)\?\\\\.tencentcos\\\\.(cn|com(\\\\.cn)\?)\$" }

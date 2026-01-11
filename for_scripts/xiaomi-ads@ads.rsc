@@ -17,5 +17,7 @@
 :if ([:len [find name="misc.in.duokanbox.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="xiaomi-ads@ads" match-subdomain=yes type=FWD name="misc.in.duokanbox.com" }
 :if ([:len [find name="sentry.d.mi.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="xiaomi-ads@ads" match-subdomain=yes type=FWD name="sentry.d.mi.com" }
 :if ([:len [find name="sentry.d.xiaomi.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="xiaomi-ads@ads" match-subdomain=yes type=FWD name="sentry.d.xiaomi.net" }
+:if ([:len [find name="stats.music.xiaomi.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="xiaomi-ads@ads" match-subdomain=yes type=FWD name="stats.music.xiaomi.com" }
 :if ([:len [find name="tracker.ai.xiaomi.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="xiaomi-ads@ads" match-subdomain=yes type=FWD name="tracker.ai.xiaomi.com" }
+:if ([:len [find name="tracker.xiaomixiaoai.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="xiaomi-ads@ads" match-subdomain=yes type=FWD name="tracker.xiaomixiaoai.com" }
 :if ([:len [find name="tracking.miui.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="xiaomi-ads@ads" match-subdomain=yes type=FWD name="tracking.miui.com" }
