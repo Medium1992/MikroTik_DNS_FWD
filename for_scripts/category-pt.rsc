@@ -65,6 +65,7 @@
 :if ([:len [find name="myanonamouse.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-pt" match-subdomain=yes type=FWD name="myanonamouse.net" }
 :if ([:len [find name="nanyangpt.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-pt" match-subdomain=yes type=FWD name="nanyangpt.com" }
 :if ([:len [find name="nebulance.io"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-pt" match-subdomain=yes type=FWD name="nebulance.io" }
+:if ([:len [find name="nexushd.org"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-pt" match-subdomain=yes type=FWD name="nexushd.org" }
 :if ([:len [find name="nicept.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-pt" match-subdomain=yes type=FWD name="nicept.net" }
 :if ([:len [find name="npupt.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-pt" match-subdomain=yes type=FWD name="npupt.com" }
 :if ([:len [find name="ourbits.club"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-pt" match-subdomain=yes type=FWD name="ourbits.club" }
