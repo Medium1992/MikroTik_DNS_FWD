@@ -1,12 +1,15 @@
 :global AddressList
 :global ForwardTo
 /ip dns static
+:if ([:len [find name="ad.toutiao.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="bytedance-ads@ads" match-subdomain=yes type=FWD name="ad.toutiao.com" }
+:if ([:len [find name="analytics.tiktok.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="bytedance-ads@ads" match-subdomain=yes type=FWD name="analytics.tiktok.com" }
 :if ([:len [find name="bds.snssdk.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="bytedance-ads@ads" match-subdomain=yes type=FWD name="bds.snssdk.com" }
 :if ([:len [find name="byteadverts.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="bytedance-ads@ads" match-subdomain=yes type=FWD name="byteadverts.com" }
 :if ([:len [find name="ctobsnssdk.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="bytedance-ads@ads" match-subdomain=yes type=FWD name="ctobsnssdk.com" }
 :if ([:len [find name="dig.bdurl.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="bytedance-ads@ads" match-subdomain=yes type=FWD name="dig.bdurl.net" }
 :if ([:len [find name="extlog.snssdk.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="bytedance-ads@ads" match-subdomain=yes type=FWD name="extlog.snssdk.com" }
 :if ([:len [find name="i.snssdk.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="bytedance-ads@ads" match-subdomain=yes type=FWD name="i.snssdk.com" }
+:if ([:len [find name="log.zijieapi.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="bytedance-ads@ads" match-subdomain=yes type=FWD name="log.zijieapi.com" }
 :if ([:len [find name="mcs.snssdk.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="bytedance-ads@ads" match-subdomain=yes type=FWD name="mcs.snssdk.com" }
 :if ([:len [find name="pangolin-dsp-toutiao-b.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="bytedance-ads@ads" match-subdomain=yes type=FWD name="pangolin-dsp-toutiao-b.com" }
 :if ([:len [find name="pangolin-dsp-toutiao.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="bytedance-ads@ads" match-subdomain=yes type=FWD name="pangolin-dsp-toutiao.com" }
