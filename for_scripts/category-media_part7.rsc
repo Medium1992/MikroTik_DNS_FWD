@@ -1,6 +1,8 @@
 :global AddressList
 :global ForwardTo
 /ip dns static
+:if ([:len [find name="stheadline.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-media" match-subdomain=yes type=FWD name="stheadline.com" }
+:if ([:len [find name="storyful.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-media" match-subdomain=yes type=FWD name="storyful.com" }
 :if ([:len [find name="superstation.com.tw"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-media" match-subdomain=yes type=FWD name="superstation.com.tw" }
 :if ([:len [find name="svaboda.org"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-media" match-subdomain=yes type=FWD name="svaboda.org" }
 :if ([:len [find name="svoboda.org"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-media" match-subdomain=yes type=FWD name="svoboda.org" }
@@ -149,5 +151,3 @@
 :if ([:len [find name="wsj.jobs"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-media" match-subdomain=yes type=FWD name="wsj.jobs" }
 :if ([:len [find name="wsj.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-media" match-subdomain=yes type=FWD name="wsj.net" }
 :if ([:len [find name="wsjbarrons.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-media" match-subdomain=yes type=FWD name="wsjbarrons.com" }
-:if ([:len [find name="wsjmediakit.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-media" match-subdomain=yes type=FWD name="wsjmediakit.com" }
-:if ([:len [find name="wsjplus.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-media" match-subdomain=yes type=FWD name="wsjplus.com" }
