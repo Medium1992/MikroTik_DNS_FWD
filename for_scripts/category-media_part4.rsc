@@ -86,6 +86,7 @@
 :if ([:len [find name="init.shop"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-media" match-subdomain=yes type=FWD name="init.shop" }
 :if ([:len [find name="inmediahk.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-media" match-subdomain=yes type=FWD name="inmediahk.net" }
 :if ([:len [find name="innovations-i.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-media" match-subdomain=yes type=FWD name="innovations-i.com" }
+:if ([:len [find name="inquirer.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-media" match-subdomain=yes type=FWD name="inquirer.net" }
 :if ([:len [find name="inside.com.tw"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-media" match-subdomain=yes type=FWD name="inside.com.tw" }
 :if ([:len [find name="insider-intelligence.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-media" match-subdomain=yes type=FWD name="insider-intelligence.com" }
 :if ([:len [find name="insider.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-media" match-subdomain=yes type=FWD name="insider.com" }
@@ -130,6 +131,7 @@
 :if ([:len [find name="macaodaily.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-media" match-subdomain=yes type=FWD name="macaodaily.com" }
 :if ([:len [find name="machigoto.jp"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-media" match-subdomain=yes type=FWD name="machigoto.jp" }
 :if ([:len [find name="macrumors.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-media" match-subdomain=yes type=FWD name="macrumors.com" }
+:if ([:len [find name="maidonanews.jp"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-media" match-subdomain=yes type=FWD name="maidonanews.jp" }
 :if ([:len [find name="mailhealth.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-media" match-subdomain=yes type=FWD name="mailhealth.com" }
 :if ([:len [find name="mailonline.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-media" match-subdomain=yes type=FWD name="mailonline.com" }
 :if ([:len [find name="mainichi-athletepartners.jp"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-media" match-subdomain=yes type=FWD name="mainichi-athletepartners.jp" }
@@ -149,5 +151,3 @@
 :if ([:len [find name="maskedsingerfox.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-media" match-subdomain=yes type=FWD name="maskedsingerfox.com" }
 :if ([:len [find name="matters.news"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-media" match-subdomain=yes type=FWD name="matters.news" }
 :if ([:len [find name="matters.one"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-media" match-subdomain=yes type=FWD name="matters.one" }
-:if ([:len [find name="matters.town"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-media" match-subdomain=yes type=FWD name="matters.town" }
-:if ([:len [find name="mattersprotocol.io"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-media" match-subdomain=yes type=FWD name="mattersprotocol.io" }

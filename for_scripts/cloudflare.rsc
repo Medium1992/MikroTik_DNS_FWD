@@ -2,6 +2,7 @@
 :global ForwardTo
 /ip dns static
 :if ([:len [find name="argotunnel.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="cloudflare" match-subdomain=yes type=FWD name="argotunnel.com" }
+:if ([:len [find name="browser.run"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="cloudflare" match-subdomain=yes type=FWD name="browser.run" }
 :if ([:len [find name="cf-china.info"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="cloudflare" match-subdomain=yes type=FWD name="cf-china.info" }
 :if ([:len [find name="cf-ipfs.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="cloudflare" match-subdomain=yes type=FWD name="cf-ipfs.com" }
 :if ([:len [find name="cf-ns.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="cloudflare" match-subdomain=yes type=FWD name="cf-ns.com" }
@@ -9,6 +10,7 @@
 :if ([:len [find name="cf-ns.site"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="cloudflare" match-subdomain=yes type=FWD name="cf-ns.site" }
 :if ([:len [find name="cf-ns.tech"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="cloudflare" match-subdomain=yes type=FWD name="cf-ns.tech" }
 :if ([:len [find name="cfargotunnel.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="cloudflare" match-subdomain=yes type=FWD name="cfargotunnel.com" }
+:if ([:len [find name="cfdata.org"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="cloudflare" match-subdomain=yes type=FWD name="cfdata.org" }
 :if ([:len [find name="cftest7.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="cloudflare" match-subdomain=yes type=FWD name="cftest7.com" }
 :if ([:len [find name="cftest8.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="cloudflare" match-subdomain=yes type=FWD name="cftest8.com" }
 :if ([:len [find name="cloudflare-cn.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="cloudflare" match-subdomain=yes type=FWD name="cloudflare-cn.com" }
@@ -18,15 +20,20 @@
 :if ([:len [find name="cloudflare-gateway.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="cloudflare" match-subdomain=yes type=FWD name="cloudflare-gateway.com" }
 :if ([:len [find name="cloudflare-ipfs.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="cloudflare" match-subdomain=yes type=FWD name="cloudflare-ipfs.com" }
 :if ([:len [find name="cloudflare-quic.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="cloudflare" match-subdomain=yes type=FWD name="cloudflare-quic.com" }
+:if ([:len [find name="cloudflare-terms-of-service-abuse.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="cloudflare" match-subdomain=yes type=FWD name="cloudflare-terms-of-service-abuse.com" }
 :if ([:len [find name="cloudflare.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="cloudflare" match-subdomain=yes type=FWD name="cloudflare.com" }
+:if ([:len [find name="cloudflare.dev"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="cloudflare" match-subdomain=yes type=FWD name="cloudflare.dev" }
 :if ([:len [find name="cloudflare.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="cloudflare" match-subdomain=yes type=FWD name="cloudflare.net" }
 :if ([:len [find name="cloudflare.tv"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="cloudflare" match-subdomain=yes type=FWD name="cloudflare.tv" }
 :if ([:len [find name="cloudflareaccess.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="cloudflare" match-subdomain=yes type=FWD name="cloudflareaccess.com" }
 :if ([:len [find name="cloudflareanycast.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="cloudflare" match-subdomain=yes type=FWD name="cloudflareanycast.net" }
 :if ([:len [find name="cloudflareapps.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="cloudflare" match-subdomain=yes type=FWD name="cloudflareapps.com" }
 :if ([:len [find name="cloudflarebolt.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="cloudflare" match-subdomain=yes type=FWD name="cloudflarebolt.com" }
+:if ([:len [find name="cloudflarebrowser.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="cloudflare" match-subdomain=yes type=FWD name="cloudflarebrowser.com" }
+:if ([:len [find name="cloudflarechallenge.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="cloudflare" match-subdomain=yes type=FWD name="cloudflarechallenge.com" }
 :if ([:len [find name="cloudflareclient.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="cloudflare" match-subdomain=yes type=FWD name="cloudflareclient.com" }
 :if ([:len [find name="cloudflarecn.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="cloudflare" match-subdomain=yes type=FWD name="cloudflarecn.net" }
+:if ([:len [find name="cloudflarecp.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="cloudflare" match-subdomain=yes type=FWD name="cloudflarecp.com" }
 :if ([:len [find name="cloudflareglobal.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="cloudflare" match-subdomain=yes type=FWD name="cloudflareglobal.net" }
 :if ([:len [find name="cloudflareinsights-cn.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="cloudflare" match-subdomain=yes type=FWD name="cloudflareinsights-cn.com" }
 :if ([:len [find name="cloudflareinsights.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="cloudflare" match-subdomain=yes type=FWD name="cloudflareinsights.com" }
@@ -37,6 +44,7 @@
 :if ([:len [find name="cloudflarepreview.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="cloudflare" match-subdomain=yes type=FWD name="cloudflarepreview.com" }
 :if ([:len [find name="cloudflareprod.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="cloudflare" match-subdomain=yes type=FWD name="cloudflareprod.com" }
 :if ([:len [find name="cloudflareregistrar.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="cloudflare" match-subdomain=yes type=FWD name="cloudflareregistrar.com" }
+:if ([:len [find name="cloudflareresearch.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="cloudflare" match-subdomain=yes type=FWD name="cloudflareresearch.com" }
 :if ([:len [find name="cloudflareresolve.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="cloudflare" match-subdomain=yes type=FWD name="cloudflareresolve.com" }
 :if ([:len [find name="cloudflaressl.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="cloudflare" match-subdomain=yes type=FWD name="cloudflaressl.com" }
 :if ([:len [find name="cloudflarestaging.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="cloudflare" match-subdomain=yes type=FWD name="cloudflarestaging.com" }
@@ -44,8 +52,11 @@
 :if ([:len [find name="cloudflarestorage.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="cloudflare" match-subdomain=yes type=FWD name="cloudflarestorage.com" }
 :if ([:len [find name="cloudflarestoragegw.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="cloudflare" match-subdomain=yes type=FWD name="cloudflarestoragegw.com" }
 :if ([:len [find name="cloudflarestream.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="cloudflare" match-subdomain=yes type=FWD name="cloudflarestream.com" }
+:if ([:len [find name="cloudflaresupport.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="cloudflare" match-subdomain=yes type=FWD name="cloudflaresupport.com" }
 :if ([:len [find name="cloudflaretest.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="cloudflare" match-subdomain=yes type=FWD name="cloudflaretest.com" }
 :if ([:len [find name="cloudflarewarp.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="cloudflare" match-subdomain=yes type=FWD name="cloudflarewarp.com" }
+:if ([:len [find name="cloudflareworkers.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="cloudflare" match-subdomain=yes type=FWD name="cloudflareworkers.com" }
+:if ([:len [find name="encryptedsni.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="cloudflare" match-subdomain=yes type=FWD name="encryptedsni.com" }
 :if ([:len [find name="every1dns.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="cloudflare" match-subdomain=yes type=FWD name="every1dns.net" }
 :if ([:len [find name="imagedelivery.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="cloudflare" match-subdomain=yes type=FWD name="imagedelivery.net" }
 :if ([:len [find name="isbgpsafeyet.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="cloudflare" match-subdomain=yes type=FWD name="isbgpsafeyet.com" }
