@@ -59,3 +59,4 @@
 :if ([:len [find name="zhihu-web-analytics.zhihu.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-social-media-cn" match-subdomain=yes type=FWD name="zhihu-web-analytics.zhihu.com" }
 :if ([:len [find name="zhihu.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-social-media-cn" match-subdomain=yes type=FWD name="zhihu.com" }
 :if ([:len [find name="zhimg.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-social-media-cn" match-subdomain=yes type=FWD name="zhimg.com" }
+:if ([:len [find name="zsxq.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-social-media-cn" match-subdomain=yes type=FWD name="zsxq.com" }
