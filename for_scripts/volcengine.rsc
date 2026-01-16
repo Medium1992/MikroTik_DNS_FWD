@@ -98,6 +98,7 @@
 :if ([:len [find name="volcfcdnsc.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="volcengine" match-subdomain=yes type=FWD name="volcfcdnsc.com" }
 :if ([:len [find name="volcfxgjrtm.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="volcengine" match-subdomain=yes type=FWD name="volcfxgjrtm.com" }
 :if ([:len [find name="volcgroup.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="volcengine" match-subdomain=yes type=FWD name="volcgroup.com" }
+:if ([:len [find name="volcgslb-mlt.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="volcengine" match-subdomain=yes type=FWD name="volcgslb-mlt.com" }
 :if ([:len [find name="volcgslb.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="volcengine" match-subdomain=yes type=FWD name="volcgslb.com" }
 :if ([:len [find name="volcgtm.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="volcengine" match-subdomain=yes type=FWD name="volcgtm.com" }
 :if ([:len [find name="volciad.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="volcengine" match-subdomain=yes type=FWD name="volciad.com" }

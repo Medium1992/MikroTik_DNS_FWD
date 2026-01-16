@@ -14,6 +14,7 @@
 :if ([:len [find name="xtubezoo.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-porn" match-subdomain=yes type=FWD name="xtubezoo.com" }
 :if ([:len [find name="xu97.vip"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-porn" match-subdomain=yes type=FWD name="xu97.vip" }
 :if ([:len [find name="xujan.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-porn" match-subdomain=yes type=FWD name="xujan.com" }
+:if ([:len [find name="xv-ru.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-porn" match-subdomain=yes type=FWD name="xv-ru.com" }
 :if ([:len [find name="xv1.monster"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-porn" match-subdomain=yes type=FWD name="xv1.monster" }
 :if ([:len [find name="xvds.tv"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-porn" match-subdomain=yes type=FWD name="xvds.tv" }
 :if ([:len [find name="xvedo.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-porn" match-subdomain=yes type=FWD name="xvedo.net" }
@@ -24,8 +25,10 @@
 :if ([:len [find name="xvideo1.org"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-porn" match-subdomain=yes type=FWD name="xvideo1.org" }
 :if ([:len [find name="xvideo2.org"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-porn" match-subdomain=yes type=FWD name="xvideo2.org" }
 :if ([:len [find name="xvideoporno.tv"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-porn" match-subdomain=yes type=FWD name="xvideoporno.tv" }
+:if ([:len [find name="xvideos-ar.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-porn" match-subdomain=yes type=FWD name="xvideos-ar.com" }
 :if ([:len [find name="xvideos-cdn.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-porn" match-subdomain=yes type=FWD name="xvideos-cdn.com" }
 :if ([:len [find name="xvideos-dl.top"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-porn" match-subdomain=yes type=FWD name="xvideos-dl.top" }
+:if ([:len [find name="xvideos-india.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-porn" match-subdomain=yes type=FWD name="xvideos-india.com" }
 :if ([:len [find name="xvideos-porn-video.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-porn" match-subdomain=yes type=FWD name="xvideos-porn-video.com" }
 :if ([:len [find name="xvideos-xxxx.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-porn" match-subdomain=yes type=FWD name="xvideos-xxxx.com" }
 :if ([:len [find name="xvideos.blog"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-porn" match-subdomain=yes type=FWD name="xvideos.blog" }
@@ -148,6 +151,3 @@
 :if ([:len [find name="xxxreal.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-porn" match-subdomain=yes type=FWD name="xxxreal.com" }
 :if ([:len [find name="xxxscenes.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-porn" match-subdomain=yes type=FWD name="xxxscenes.net" }
 :if ([:len [find name="xxxsexanal.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-porn" match-subdomain=yes type=FWD name="xxxsexanal.com" }
-:if ([:len [find name="xxxsexcinema.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-porn" match-subdomain=yes type=FWD name="xxxsexcinema.com" }
-:if ([:len [find name="xxxsexocasero.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-porn" match-subdomain=yes type=FWD name="xxxsexocasero.com" }
-:if ([:len [find name="xxxsextubes.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-porn" match-subdomain=yes type=FWD name="xxxsextubes.com" }
