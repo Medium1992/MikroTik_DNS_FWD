@@ -41,7 +41,9 @@
 :if ([:len [find name="ntdtv.jp"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="epochmediagroup" match-subdomain=yes type=FWD name="ntdtv.jp" }
 :if ([:len [find name="ntdtv.org"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="epochmediagroup" match-subdomain=yes type=FWD name="ntdtv.org" }
 :if ([:len [find name="ntdtv.ru"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="epochmediagroup" match-subdomain=yes type=FWD name="ntdtv.ru" }
+:if ([:len [find name="ntdtv.se"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="epochmediagroup" match-subdomain=yes type=FWD name="ntdtv.se" }
 :if ([:len [find name="ntdtvla.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="epochmediagroup" match-subdomain=yes type=FWD name="ntdtvla.com" }
+:if ([:len [find name="ntdvideo.tw"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="epochmediagroup" match-subdomain=yes type=FWD name="ntdvideo.tw" }
 :if ([:len [find name="ntdvn.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="epochmediagroup" match-subdomain=yes type=FWD name="ntdvn.com" }
 :if ([:len [find name="persianepochtimes.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="epochmediagroup" match-subdomain=yes type=FWD name="persianepochtimes.com" }
 :if ([:len [find name="renminbao.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="epochmediagroup" match-subdomain=yes type=FWD name="renminbao.com" }
