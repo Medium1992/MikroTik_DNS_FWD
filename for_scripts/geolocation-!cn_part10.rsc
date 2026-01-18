@@ -76,6 +76,7 @@
 :if ([:len [find name="ankarazirvesi2018.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" match-subdomain=yes type=FWD name="ankarazirvesi2018.com" }
 :if ([:len [find name="annamilk.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" match-subdomain=yes type=FWD name="annamilk.com" }
 :if ([:len [find name="annas-archive.org"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" match-subdomain=yes type=FWD name="annas-archive.org" }
+:if ([:len [find name="annas-archive.pm"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" match-subdomain=yes type=FWD name="annas-archive.pm" }
 :if ([:len [find name="annas-archive.se"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" match-subdomain=yes type=FWD name="annas-archive.se" }
 :if ([:len [find name="annatam.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" match-subdomain=yes type=FWD name="annatam.com" }
 :if ([:len [find name="annstores.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" match-subdomain=yes type=FWD name="annstores.net" }
@@ -150,4 +151,3 @@
 :if ([:len [find name="ap-southeast-4.myhuaweicloud.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" match-subdomain=yes type=FWD name="ap-southeast-4.myhuaweicloud.com" }
 :if ([:len [find name="ap-southeast-5.myhuaweicloud.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" match-subdomain=yes type=FWD name="ap-southeast-5.myhuaweicloud.com" }
 :if ([:len [find name="ap-tokyo.myqcloud.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" match-subdomain=yes type=FWD name="ap-tokyo.myqcloud.com" }
-:if ([:len [find name="ap-tokyo.tencentcos.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" match-subdomain=yes type=FWD name="ap-tokyo.tencentcos.com" }

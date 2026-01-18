@@ -1,6 +1,7 @@
 :global AddressList
 :global ForwardTo
 /ip dns static
+:if ([:len [find name="leagueoflegends.info"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-games" match-subdomain=yes type=FWD name="leagueoflegends.info" }
 :if ([:len [find name="leagueoflegends.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-games" match-subdomain=yes type=FWD name="leagueoflegends.net" }
 :if ([:len [find name="leagueoflegends.org"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-games" match-subdomain=yes type=FWD name="leagueoflegends.org" }
 :if ([:len [find name="leagueoflegendsscripts.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-games" match-subdomain=yes type=FWD name="leagueoflegendsscripts.com" }
@@ -149,5 +150,4 @@
 :if ([:len [find name="play4free.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-games" match-subdomain=yes type=FWD name="play4free.com" }
 :if ([:len [find name="playapex.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-games" match-subdomain=yes type=FWD name="playapex.com" }
 :if ([:len [find name="playartifact.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-games" match-subdomain=yes type=FWD name="playartifact.com" }
-:if ([:len [find name="playhearthstone.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-games" match-subdomain=yes type=FWD name="playhearthstone.com" }
-:if ([:len [find name="playnintendo.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-games" match-subdomain=yes type=FWD name="playnintendo.com" }
+:if ([:len [find name="playbattlegrounds.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-games" match-subdomain=yes type=FWD name="playbattlegrounds.com" }

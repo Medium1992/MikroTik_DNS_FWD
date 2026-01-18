@@ -1,6 +1,9 @@
 :global AddressList
 :global ForwardTo
 /ip dns static
+:if ([:len [find name="yogify.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-games" match-subdomain=yes type=FWD name="yogify.com" }
+:if ([:len [find name="yokaverse.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-games" match-subdomain=yes type=FWD name="yokaverse.com" }
+:if ([:len [find name="yoshisnewisland.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-games" match-subdomain=yes type=FWD name="yoshisnewisland.com" }
 :if ([:len [find name="youba.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-games" match-subdomain=yes type=FWD name="youba.com" }
 :if ([:len [find name="yuanshen.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-games" match-subdomain=yes type=FWD name="yuanshen.com" }
 :if ([:len [find name="yxdmgame.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-games" match-subdomain=yes type=FWD name="yxdmgame.com" }
@@ -54,6 +57,7 @@
 :if ([:len [find name="prd-priconne-redive.akamaized.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-games" type=FWD name="prd-priconne-redive.akamaized.net" }
 :if ([:len [find name="prodforza.blob.core.windows.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-games" type=FWD name="prodforza.blob.core.windows.net" }
 :if ([:len [find name="productcard.gog-statics.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-games" type=FWD name="productcard.gog-statics.com" }
+:if ([:len [find name="pubg1.battleye.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-games" type=FWD name="pubg1.battleye.com" }
 :if ([:len [find name="roblox-load-generator-configuration.s3.us-east-2.amazonaws.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-games" type=FWD name="roblox-load-generator-configuration.s3.us-east-2.amazonaws.com" }
 :if ([:len [find name="roblox-poc.global.ssl.fastly.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-games" type=FWD name="roblox-poc.global.ssl.fastly.net" }
 :if ([:len [find name="robloxcorp.s.llnwi.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-games" type=FWD name="robloxcorp.s.llnwi.net" }

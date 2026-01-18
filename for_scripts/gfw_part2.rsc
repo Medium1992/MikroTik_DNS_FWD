@@ -41,6 +41,7 @@
 :if ([:len [find name="aiweiwei.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="gfw" match-subdomain=yes type=FWD name="aiweiwei.com" }
 :if ([:len [find name="aiweiweiblog.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="gfw" match-subdomain=yes type=FWD name="aiweiweiblog.com" }
 :if ([:len [find name="akademiye.org"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="gfw" match-subdomain=yes type=FWD name="akademiye.org" }
+:if ([:len [find name="akamai.tvb.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="gfw" match-subdomain=yes type=FWD name="akamai.tvb.com" }
 :if ([:len [find name="akamaihd.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="gfw" match-subdomain=yes type=FWD name="akamaihd.net" }
 :if ([:len [find name="akiba-online.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="gfw" match-subdomain=yes type=FWD name="akiba-online.com" }
 :if ([:len [find name="akiba-web.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="gfw" match-subdomain=yes type=FWD name="akiba-web.com" }
@@ -110,6 +111,7 @@
 :if ([:len [find name="animecrazy.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="gfw" match-subdomain=yes type=FWD name="animecrazy.net" }
 :if ([:len [find name="aniscartujo.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="gfw" match-subdomain=yes type=FWD name="aniscartujo.com" }
 :if ([:len [find name="annas-archive.org"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="gfw" match-subdomain=yes type=FWD name="annas-archive.org" }
+:if ([:len [find name="annas-archive.pm"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="gfw" match-subdomain=yes type=FWD name="annas-archive.pm" }
 :if ([:len [find name="annas-archive.se"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="gfw" match-subdomain=yes type=FWD name="annas-archive.se" }
 :if ([:len [find name="annatam.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="gfw" match-subdomain=yes type=FWD name="annatam.com" }
 :if ([:len [find name="anobii.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="gfw" match-subdomain=yes type=FWD name="anobii.com" }
@@ -149,5 +151,3 @@
 :if ([:len [find name="apk.support"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="gfw" match-subdomain=yes type=FWD name="apk.support" }
 :if ([:len [find name="apkcombo.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="gfw" match-subdomain=yes type=FWD name="apkcombo.com" }
 :if ([:len [find name="apkmirror.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="gfw" match-subdomain=yes type=FWD name="apkmirror.com" }
-:if ([:len [find name="apkmonk.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="gfw" match-subdomain=yes type=FWD name="apkmonk.com" }
-:if ([:len [find name="apkplz.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="gfw" match-subdomain=yes type=FWD name="apkplz.com" }
