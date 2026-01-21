@@ -32,6 +32,7 @@
 :if ([:len [find name="ibcet.org"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-scholar-cn" match-subdomain=yes type=FWD name="ibcet.org" }
 :if ([:len [find name="incopat.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-scholar-cn" match-subdomain=yes type=FWD name="incopat.com" }
 :if ([:len [find name="lawyee.org"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-scholar-cn" match-subdomain=yes type=FWD name="lawyee.org" }
+:if ([:len [find name="libvideo.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-scholar-cn" match-subdomain=yes type=FWD name="libvideo.com" }
 :if ([:len [find name="lnlib.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-scholar-cn" match-subdomain=yes type=FWD name="lnlib.net" }
 :if ([:len [find name="medicexam.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-scholar-cn" match-subdomain=yes type=FWD name="medicexam.net" }
 :if ([:len [find name="mndqlib.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-scholar-cn" match-subdomain=yes type=FWD name="mndqlib.net" }
@@ -62,4 +63,3 @@
 :if ([:len [find name="ylike.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-scholar-cn" match-subdomain=yes type=FWD name="ylike.net" }
 :if ([:len [find name="zaifan.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-scholar-cn" match-subdomain=yes type=FWD name="zaifan.com" }
 :if ([:len [find name="zhihang100.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-scholar-cn" match-subdomain=yes type=FWD name="zhihang100.com" }
-:if ([:len [find name="www.libvideo.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-scholar-cn" type=FWD name="www.libvideo.com" }
