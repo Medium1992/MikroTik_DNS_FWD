@@ -23,6 +23,7 @@
 :if ([:len [find name="meipian.me"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-social-media-cn" match-subdomain=yes type=FWD name="meipian.me" }
 :if ([:len [find name="okjike.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-social-media-cn" match-subdomain=yes type=FWD name="okjike.com" }
 :if ([:len [find name="okjk.co"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-social-media-cn" match-subdomain=yes type=FWD name="okjk.co" }
+:if ([:len [find name="rednotecdn.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-social-media-cn" match-subdomain=yes type=FWD name="rednotecdn.com" }
 :if ([:len [find name="ruguoapp.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-social-media-cn" match-subdomain=yes type=FWD name="ruguoapp.com" }
 :if ([:len [find name="taou.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-social-media-cn" match-subdomain=yes type=FWD name="taou.com" }
 :if ([:len [find name="tieba.baidu.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-social-media-cn" match-subdomain=yes type=FWD name="tieba.baidu.com" }
