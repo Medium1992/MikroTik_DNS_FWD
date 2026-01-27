@@ -1,6 +1,7 @@
 :global AddressList
 :global ForwardTo
 /ip dns static
+:if ([:len [find name="auth0.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="chatgpt" match-subdomain=yes type=FWD name="auth0.com" }
 :if ([:len [find name="chatgpt.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="chatgpt" match-subdomain=yes type=FWD name="chatgpt.com" }
 :if ([:len [find name="gpt3-openai.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="chatgpt" match-subdomain=yes type=FWD name="gpt3-openai.com" }
 :if ([:len [find name="live.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="chatgpt" match-subdomain=yes type=FWD name="live.net" }
