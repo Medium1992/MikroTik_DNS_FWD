@@ -91,6 +91,7 @@
 :if ([:len [find name="b0ne.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="gfw" match-subdomain=yes type=FWD name="b0ne.com" }
 :if ([:len [find name="babylonbee.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="gfw" match-subdomain=yes type=FWD name="babylonbee.com" }
 :if ([:len [find name="backchina.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="gfw" match-subdomain=yes type=FWD name="backchina.com" }
+:if ([:len [find name="backend-v2.crixet.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="gfw" match-subdomain=yes type=FWD name="backend-v2.crixet.com" }
 :if ([:len [find name="backpackers.com.tw"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="gfw" match-subdomain=yes type=FWD name="backpackers.com.tw" }
 :if ([:len [find name="backtotiananmen.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="gfw" match-subdomain=yes type=FWD name="backtotiananmen.com" }
 :if ([:len [find name="bad.news"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="gfw" match-subdomain=yes type=FWD name="bad.news" }
@@ -150,4 +151,3 @@
 :if ([:len [find name="bbsone.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="gfw" match-subdomain=yes type=FWD name="bbsone.com" }
 :if ([:len [find name="bbtoystore.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="gfw" match-subdomain=yes type=FWD name="bbtoystore.com" }
 :if ([:len [find name="bcc.com.tw"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="gfw" match-subdomain=yes type=FWD name="bcc.com.tw" }
-:if ([:len [find name="bcchinese.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="gfw" match-subdomain=yes type=FWD name="bcchinese.net" }

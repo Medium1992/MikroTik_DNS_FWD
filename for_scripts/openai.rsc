@@ -4,6 +4,7 @@
 :if ([:len [find name="chat.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="openai" match-subdomain=yes type=FWD name="chat.com" }
 :if ([:len [find name="chatgpt.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="openai" match-subdomain=yes type=FWD name="chatgpt.com" }
 :if ([:len [find name="chatgpt.livekit.cloud"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="openai" match-subdomain=yes type=FWD name="chatgpt.livekit.cloud" }
+:if ([:len [find name="crixet.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="openai" match-subdomain=yes type=FWD name="crixet.com" }
 :if ([:len [find name="host.livekit.cloud"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="openai" match-subdomain=yes type=FWD name="host.livekit.cloud" }
 :if ([:len [find name="oaistatic.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="openai" match-subdomain=yes type=FWD name="oaistatic.com" }
 :if ([:len [find name="oaiusercontent.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="openai" match-subdomain=yes type=FWD name="oaiusercontent.com" }
