@@ -1,6 +1,7 @@
 :global AddressList
 :global ForwardTo
 /ip dns static
+:if ([:len [find name="opengraphprotocol.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-dev" match-subdomain=yes type=FWD name="opengraphprotocol.com" }
 :if ([:len [find name="opengraphprotocol.org"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-dev" match-subdomain=yes type=FWD name="opengraphprotocol.org" }
 :if ([:len [find name="openjsf.org"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-dev" match-subdomain=yes type=FWD name="openjsf.org" }
 :if ([:len [find name="openresty.org"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-dev" match-subdomain=yes type=FWD name="openresty.org" }
@@ -150,4 +151,3 @@
 :if ([:len [find name="visualstudio.eu"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-dev" match-subdomain=yes type=FWD name="visualstudio.eu" }
 :if ([:len [find name="visualstudio.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-dev" match-subdomain=yes type=FWD name="visualstudio.net" }
 :if ([:len [find name="vsassets.io"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-dev" match-subdomain=yes type=FWD name="vsassets.io" }
-:if ([:len [find name="vscode-cdn.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-dev" match-subdomain=yes type=FWD name="vscode-cdn.net" }

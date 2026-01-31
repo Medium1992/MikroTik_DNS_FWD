@@ -90,5 +90,6 @@
 :if ([:len [find name="zgsydw.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-education-cn" match-subdomain=yes type=FWD name="zgsydw.com" }
 :if ([:len [find name="zhan.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-education-cn" match-subdomain=yes type=FWD name="zhan.com" }
 :if ([:len [find name="zhihuishu.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-education-cn" match-subdomain=yes type=FWD name="zhihuishu.com" }
+:if ([:len [find name="zjzs.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-education-cn" match-subdomain=yes type=FWD name="zjzs.net" }
 :if ([:len [find name="zxxk.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-education-cn" match-subdomain=yes type=FWD name="zxxk.com" }
 :if ([:len [find name="study.163.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-education-cn" type=FWD name="study.163.com" }

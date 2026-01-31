@@ -46,6 +46,7 @@
 :if ([:len [find name="hexdocs.pm"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-dev" match-subdomain=yes type=FWD name="hexdocs.pm" }
 :if ([:len [find name="hhvm.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-dev" match-subdomain=yes type=FWD name="hhvm.com" }
 :if ([:len [find name="hyperscan.io"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-dev" match-subdomain=yes type=FWD name="hyperscan.io" }
+:if ([:len [find name="iads.unity3d.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-dev" match-subdomain=yes type=FWD name="iads.unity3d.com" }
 :if ([:len [find name="imageglass.org"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-dev" match-subdomain=yes type=FWD name="imageglass.org" }
 :if ([:len [find name="insiderdevtour.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-dev" match-subdomain=yes type=FWD name="insiderdevtour.com" }
 :if ([:len [find name="intellij.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-dev" match-subdomain=yes type=FWD name="intellij.com" }
@@ -150,4 +151,3 @@
 :if ([:len [find name="oneapi.io"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-dev" match-subdomain=yes type=FWD name="oneapi.io" }
 :if ([:len [find name="opencas.io"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-dev" match-subdomain=yes type=FWD name="opencas.io" }
 :if ([:len [find name="opendroneid.org"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-dev" match-subdomain=yes type=FWD name="opendroneid.org" }
-:if ([:len [find name="opengraphprotocol.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-dev" match-subdomain=yes type=FWD name="opengraphprotocol.com" }
