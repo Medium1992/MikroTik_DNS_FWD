@@ -1,8 +1,6 @@
 :global AddressList
 :global ForwardTo
 /ip dns static
-:if ([:len [find name="visaforkorea-cd.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="cn" match-subdomain=yes type=FWD name="visaforkorea-cd.com" }
-:if ([:len [find name="visaforkorea-gz.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="cn" match-subdomain=yes type=FWD name="visaforkorea-gz.com" }
 :if ([:len [find name="visaforkorea-qd.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="cn" match-subdomain=yes type=FWD name="visaforkorea-qd.com" }
 :if ([:len [find name="visaforkorea-sh.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="cn" match-subdomain=yes type=FWD name="visaforkorea-sh.com" }
 :if ([:len [find name="visaforkorea-wh.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="cn" match-subdomain=yes type=FWD name="visaforkorea-wh.com" }
@@ -151,3 +149,5 @@
 :if ([:len [find name="vmsky.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="cn" match-subdomain=yes type=FWD name="vmsky.com" }
 :if ([:len [find name="vmtdf.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="cn" match-subdomain=yes type=FWD name="vmtdf.com" }
 :if ([:len [find name="vmtnet.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="cn" match-subdomain=yes type=FWD name="vmtnet.com" }
+:if ([:len [find name="vmuhyu.site"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="cn" match-subdomain=yes type=FWD name="vmuhyu.site" }
+:if ([:len [find name="vmylan.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="cn" match-subdomain=yes type=FWD name="vmylan.com" }

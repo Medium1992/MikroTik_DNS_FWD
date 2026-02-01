@@ -1,6 +1,8 @@
 :global AddressList
 :global ForwardTo
 /ip dns static
+:if ([:len [find name="videos-rockstargames-com.akamaized.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" type=FWD name="videos-rockstargames-com.akamaized.net" }
+:if ([:len [find name="vmware.tt.omtrdc.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" type=FWD name="vmware.tt.omtrdc.net" }
 :if ([:len [find name="vod-abematv.akamaized.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" type=FWD name="vod-abematv.akamaized.net" }
 :if ([:len [find name="vod-dash-uk-live.akamaized.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" type=FWD name="vod-dash-uk-live.akamaized.net" }
 :if ([:len [find name="vod-dash-ww-live.akamaized.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" type=FWD name="vod-dash-ww-live.akamaized.net" }
@@ -149,5 +151,3 @@
 :if ([:len [find regexp="(^|\\\\.)91sew1[1-6]\\\\.buzz\$"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" type=FWD regexp="(^|\\\\.)91sew1[1-6]\\\\.buzz\$" }
 :if ([:len [find regexp="(^|\\\\.)91wang[1-9]\\\\.com\$"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" type=FWD regexp="(^|\\\\.)91wang[1-9]\\\\.com\$" }
 :if ([:len [find regexp="(^|\\\\.)989[a-z]\?\\\\.tv\$"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" type=FWD regexp="(^|\\\\.)989[a-z]\?\\\\.tv\$" }
-:if ([:len [find regexp="(^|\\\\.)99pp[1-9][0-9]\\\\.com\$"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" type=FWD regexp="(^|\\\\.)99pp[1-9][0-9]\\\\.com\$" }
-:if ([:len [find regexp="(^|\\\\.)9cha[0-9]{2}\\\\.cc\$"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" type=FWD regexp="(^|\\\\.)9cha[0-9]{2}\\\\.cc\$" }

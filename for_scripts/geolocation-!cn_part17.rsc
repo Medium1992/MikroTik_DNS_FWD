@@ -39,6 +39,7 @@
 :if ([:len [find name="bbc-reporting-api.app"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" match-subdomain=yes type=FWD name="bbc-reporting-api.app" }
 :if ([:len [find name="bbc.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" match-subdomain=yes type=FWD name="bbc.com" }
 :if ([:len [find name="bbc.mp-pxcdn.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" match-subdomain=yes type=FWD name="bbc.mp-pxcdn.com" }
+:if ([:len [find name="bbc.pdn.tritondigital.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" match-subdomain=yes type=FWD name="bbc.pdn.tritondigital.com" }
 :if ([:len [find name="bbcchinese.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" match-subdomain=yes type=FWD name="bbcchinese.com" }
 :if ([:len [find name="bbchat.tv"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" match-subdomain=yes type=FWD name="bbchat.tv" }
 :if ([:len [find name="bbcpersian.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" match-subdomain=yes type=FWD name="bbcpersian.com" }
@@ -150,4 +151,3 @@
 :if ([:len [find name="beats4outlets.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" match-subdomain=yes type=FWD name="beats4outlets.com" }
 :if ([:len [find name="beats4salecheap.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" match-subdomain=yes type=FWD name="beats4salecheap.com" }
 :if ([:len [find name="beatsallsale.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" match-subdomain=yes type=FWD name="beatsallsale.com" }
-:if ([:len [find name="beatsaudifonos.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" match-subdomain=yes type=FWD name="beatsaudifonos.com" }
