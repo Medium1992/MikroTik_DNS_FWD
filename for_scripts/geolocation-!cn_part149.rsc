@@ -1,6 +1,8 @@
 :global AddressList
 :global ForwardTo
 /ip dns static
+:if ([:len [find regexp="(^|\\\\.)99pp[1-9][0-9]\\\\.com\$"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" type=FWD regexp="(^|\\\\.)99pp[1-9][0-9]\\\\.com\$" }
+:if ([:len [find regexp="(^|\\\\.)9cha[0-9]{2}\\\\.cc\$"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" type=FWD regexp="(^|\\\\.)9cha[0-9]{2}\\\\.cc\$" }
 :if ([:len [find regexp="(^|\\\\.)[1-5]gaoap\\\\.com\$"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" type=FWD regexp="(^|\\\\.)[1-5]gaoap\\\\.com\$" }
 :if ([:len [find regexp="(^|\\\\.)[1-9]+aipai\\\\.(com|net)\$"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" type=FWD regexp="(^|\\\\.)[1-9]+aipai\\\\.(com|net)\$" }
 :if ([:len [find regexp="(^|\\\\.)[1-9]+zipai\\\\.(com|net)\$"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" type=FWD regexp="(^|\\\\.)[1-9]+zipai\\\\.(com|net)\$" }

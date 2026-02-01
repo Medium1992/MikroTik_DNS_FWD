@@ -45,6 +45,7 @@
 :if ([:len [find name="gvt1-cn.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies@cn" match-subdomain=yes type=FWD name="gvt1-cn.com" }
 :if ([:len [find name="gvt2-cn.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies@cn" match-subdomain=yes type=FWD name="gvt2-cn.com" }
 :if ([:len [find name="izatcloud.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies@cn" match-subdomain=yes type=FWD name="izatcloud.net" }
+:if ([:len [find name="lvcampaign.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies@cn" match-subdomain=yes type=FWD name="lvcampaign.com" }
 :if ([:len [find name="mcchcdn.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies@cn" match-subdomain=yes type=FWD name="mcchcdn.com" }
 :if ([:len [find name="mschcdn.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies@cn" match-subdomain=yes type=FWD name="mschcdn.com" }
 :if ([:len [find name="o365cn.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies@cn" match-subdomain=yes type=FWD name="o365cn.com" }
@@ -150,4 +151,3 @@
 :if ([:len [find name="clientflow.apple.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies@cn" type=FWD name="clientflow.apple.com" }
 :if ([:len [find name="clientflow.apple.com.akadns.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies@cn" type=FWD name="clientflow.apple.com.akadns.net" }
 :if ([:len [find name="clientperipherals.dell.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies@cn" type=FWD name="clientperipherals.dell.com" }
-:if ([:len [find name="clientservices.googleapis.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies@cn" type=FWD name="clientservices.googleapis.com" }

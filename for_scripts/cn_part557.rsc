@@ -1,8 +1,6 @@
 :global AddressList
 :global ForwardTo
 /ip dns static
-:if ([:len [find name="shenweibengye.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="cn" match-subdomain=yes type=FWD name="shenweibengye.com" }
-:if ([:len [find name="shenweimicro.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="cn" match-subdomain=yes type=FWD name="shenweimicro.com" }
 :if ([:len [find name="shenweisupport.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="cn" match-subdomain=yes type=FWD name="shenweisupport.com" }
 :if ([:len [find name="shenweixiangjiao.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="cn" match-subdomain=yes type=FWD name="shenweixiangjiao.com" }
 :if ([:len [find name="shenxianhua.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="cn" match-subdomain=yes type=FWD name="shenxianhua.com" }
@@ -151,3 +149,5 @@
 :if ([:len [find name="shhqcftfzhj-tencentclb.cloud"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="cn" match-subdomain=yes type=FWD name="shhqcftfzhj-tencentclb.cloud" }
 :if ([:len [find name="shhqcftfzhj-tencentclb.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="cn" match-subdomain=yes type=FWD name="shhqcftfzhj-tencentclb.com" }
 :if ([:len [find name="shhqcftfzhj-tencentclb.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="cn" match-subdomain=yes type=FWD name="shhqcftfzhj-tencentclb.net" }
+:if ([:len [find name="shhqcftfzhj-tencentclb.work"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="cn" match-subdomain=yes type=FWD name="shhqcftfzhj-tencentclb.work" }
+:if ([:len [find name="shhqcftfzhjtencentclb.cloud"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="cn" match-subdomain=yes type=FWD name="shhqcftfzhjtencentclb.cloud" }
