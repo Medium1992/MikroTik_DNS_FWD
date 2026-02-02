@@ -75,6 +75,7 @@
 :if ([:len [find name="dnsv5.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="qcloud" match-subdomain=yes type=FWD name="dnsv5.com" }
 :if ([:len [find name="doh.pub"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="qcloud" match-subdomain=yes type=FWD name="doh.pub" }
 :if ([:len [find name="dot.pub"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="qcloud" match-subdomain=yes type=FWD name="dot.pub" }
+:if ([:len [find name="edgeone.cool"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="qcloud" match-subdomain=yes type=FWD name="edgeone.cool" }
 :if ([:len [find name="edgeonedy1.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="qcloud" match-subdomain=yes type=FWD name="edgeonedy1.com" }
 :if ([:len [find name="essurl.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="qcloud" match-subdomain=yes type=FWD name="essurl.com" }
 :if ([:len [find name="eu-frankfurt.myqcloud.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="qcloud" match-subdomain=yes type=FWD name="eu-frankfurt.myqcloud.com" }
@@ -150,4 +151,3 @@
 :if ([:len [find name="smtcdns.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="qcloud" match-subdomain=yes type=FWD name="smtcdns.net" }
 :if ([:len [find name="spcdntip.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="qcloud" match-subdomain=yes type=FWD name="spcdntip.com" }
 :if ([:len [find name="spcdntipbak.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="qcloud" match-subdomain=yes type=FWD name="spcdntipbak.com" }
-:if ([:len [find name="spcloudhw.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="qcloud" match-subdomain=yes type=FWD name="spcloudhw.com" }
