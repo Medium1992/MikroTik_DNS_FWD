@@ -56,6 +56,7 @@
 :if ([:len [find name="developer.microsoft.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="microsoft-dev" type=FWD name="developer.microsoft.com" }
 :if ([:len [find name="download.visualstudio.microsoft.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="microsoft-dev" type=FWD name="download.visualstudio.microsoft.com" }
 :if ([:len [find name="dtlgalleryint.cloudapp.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="microsoft-dev" type=FWD name="dtlgalleryint.cloudapp.net" }
+:if ([:len [find name="packages.microsoft.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="microsoft-dev" type=FWD name="packages.microsoft.com" }
 :if ([:len [find name="poshtestgallery.cloudapp.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="microsoft-dev" type=FWD name="poshtestgallery.cloudapp.net" }
 :if ([:len [find name="psg-int-centralus.cloudapp.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="microsoft-dev" type=FWD name="psg-int-centralus.cloudapp.net" }
 :if ([:len [find name="psg-int-eastus.cloudapp.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="microsoft-dev" type=FWD name="psg-int-eastus.cloudapp.net" }
