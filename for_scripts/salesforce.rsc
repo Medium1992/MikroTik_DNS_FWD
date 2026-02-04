@@ -27,6 +27,7 @@
 :if ([:len [find name="quotable.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="salesforce" match-subdomain=yes type=FWD name="quotable.com" }
 :if ([:len [find name="radian6.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="salesforce" match-subdomain=yes type=FWD name="radian6.com" }
 :if ([:len [find name="relateiq.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="salesforce" match-subdomain=yes type=FWD name="relateiq.com" }
+:if ([:len [find name="salesforce-setup.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="salesforce" match-subdomain=yes type=FWD name="salesforce-setup.com" }
 :if ([:len [find name="salesforce.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="salesforce" match-subdomain=yes type=FWD name="salesforce.com" }
 :if ([:len [find name="salesforce.org"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="salesforce" match-subdomain=yes type=FWD name="salesforce.org" }
 :if ([:len [find name="salesforceiq.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="salesforce" match-subdomain=yes type=FWD name="salesforceiq.com" }
