@@ -1,6 +1,7 @@
 :global AddressList
 :global ForwardTo
 /ip dns static
+:if ([:len [find name="dnl-09.geo.kaspersky.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" type=FWD name="dnl-09.geo.kaspersky.com" }
 :if ([:len [find name="dnl-10.geo.kaspersky.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" type=FWD name="dnl-10.geo.kaspersky.com" }
 :if ([:len [find name="dnl-11.geo.kaspersky.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" type=FWD name="dnl-11.geo.kaspersky.com" }
 :if ([:len [find name="dnl-12.geo.kaspersky.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" type=FWD name="dnl-12.geo.kaspersky.com" }
@@ -150,4 +151,3 @@
 :if ([:len [find name="init-p01st-lb.push-apple.com.akadns.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" type=FWD name="init-p01st-lb.push-apple.com.akadns.net" }
 :if ([:len [find name="init-p01st.push.apple.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" type=FWD name="init-p01st.push.apple.com" }
 :if ([:len [find name="init-s01st-lb.push-apple.com.akadns.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" type=FWD name="init-s01st-lb.push-apple.com.akadns.net" }
-:if ([:len [find name="init-s01st.push.apple.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" type=FWD name="init-s01st.push.apple.com" }
