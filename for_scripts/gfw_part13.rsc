@@ -115,6 +115,7 @@
 :if ([:len [find name="greenvpn.org"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="gfw" match-subdomain=yes type=FWD name="greenvpn.org" }
 :if ([:len [find name="grindr.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="gfw" match-subdomain=yes type=FWD name="grindr.com" }
 :if ([:len [find name="grok.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="gfw" match-subdomain=yes type=FWD name="grok.com" }
+:if ([:len [find name="grokipedia.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="gfw" match-subdomain=yes type=FWD name="grokipedia.com" }
 :if ([:len [find name="ground.news"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="gfw" match-subdomain=yes type=FWD name="ground.news" }
 :if ([:len [find name="gs-discuss.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="gfw" match-subdomain=yes type=FWD name="gs-discuss.com" }
 :if ([:len [find name="gsearch.media"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="gfw" match-subdomain=yes type=FWD name="gsearch.media" }
@@ -150,4 +151,3 @@
 :if ([:len [find name="h5dm.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="gfw" match-subdomain=yes type=FWD name="h5dm.com" }
 :if ([:len [find name="h5galgame.me"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="gfw" match-subdomain=yes type=FWD name="h5galgame.me" }
 :if ([:len [find name="hacken.cc"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="gfw" match-subdomain=yes type=FWD name="hacken.cc" }
-:if ([:len [find name="hacker.org"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="gfw" match-subdomain=yes type=FWD name="hacker.org" }

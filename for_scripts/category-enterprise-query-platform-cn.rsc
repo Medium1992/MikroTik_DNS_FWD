@@ -10,3 +10,4 @@
 :if ([:len [find name="qixin.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-enterprise-query-platform-cn" match-subdomain=yes type=FWD name="qixin.com" }
 :if ([:len [find name="tianyancha.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-enterprise-query-platform-cn" match-subdomain=yes type=FWD name="tianyancha.com" }
 :if ([:len [find name="x315.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-enterprise-query-platform-cn" match-subdomain=yes type=FWD name="x315.com" }
+:if ([:len [find name="xinchacha.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-enterprise-query-platform-cn" match-subdomain=yes type=FWD name="xinchacha.com" }
