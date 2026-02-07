@@ -5,6 +5,7 @@
 :if ([:len [find name="err.sh"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="vercel" match-subdomain=yes type=FWD name="err.sh" }
 :if ([:len [find name="nextjs.org"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="vercel" match-subdomain=yes type=FWD name="nextjs.org" }
 :if ([:len [find name="now.sh"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="vercel" match-subdomain=yes type=FWD name="now.sh" }
+:if ([:len [find name="skills.sh"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="vercel" match-subdomain=yes type=FWD name="skills.sh" }
 :if ([:len [find name="static.fun"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="vercel" match-subdomain=yes type=FWD name="static.fun" }
 :if ([:len [find name="title.sh"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="vercel" match-subdomain=yes type=FWD name="title.sh" }
 :if ([:len [find name="turborepo.org"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="vercel" match-subdomain=yes type=FWD name="turborepo.org" }
