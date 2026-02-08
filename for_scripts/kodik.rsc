@@ -1,10 +1,7 @@
 :global AddressList
 :global ForwardTo
 /ip dns static
-:if ([:len [find name="kodik-add.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="kodik" match-subdomain=yes type=FWD name="kodik-add.com" }
-:if ([:len [find name="kodik-cdn.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="kodik" match-subdomain=yes type=FWD name="kodik-cdn.com" }
 :if ([:len [find name="kodik-storage.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="kodik" match-subdomain=yes type=FWD name="kodik-storage.com" }
 :if ([:len [find name="kodik.biz"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="kodik" match-subdomain=yes type=FWD name="kodik.biz" }
+:if ([:len [find name="kodik.cc"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="kodik" match-subdomain=yes type=FWD name="kodik.cc" }
 :if ([:len [find name="kodik.info"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="kodik" match-subdomain=yes type=FWD name="kodik.info" }
-:if ([:len [find name="kodikapi.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="kodik" match-subdomain=yes type=FWD name="kodikapi.com" }
-:if ([:len [find name="kodikdb.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="kodik" match-subdomain=yes type=FWD name="kodikdb.com" }

@@ -23,6 +23,7 @@
 :if ([:len [find name="analytics.163.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="netease" match-subdomain=yes type=FWD name="analytics.163.com" }
 :if ([:len [find name="crash.163.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="netease" match-subdomain=yes type=FWD name="crash.163.com" }
 :if ([:len [find name="crashlytics.163.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="netease" match-subdomain=yes type=FWD name="crashlytics.163.com" }
+:if ([:len [find name="easebar.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="netease" match-subdomain=yes type=FWD name="easebar.com" }
 :if ([:len [find name="g.163.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="netease" match-subdomain=yes type=FWD name="g.163.com" }
 :if ([:len [find name="haowu.link"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="netease" match-subdomain=yes type=FWD name="haowu.link" }
 :if ([:len [find name="iadmat.nosdn.127.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="netease" match-subdomain=yes type=FWD name="iadmat.nosdn.127.net" }
