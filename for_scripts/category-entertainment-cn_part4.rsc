@@ -1,6 +1,9 @@
 :global AddressList
 :global ForwardTo
 /ip dns static
+:if ([:len [find name="singworld.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-entertainment-cn" match-subdomain=yes type=FWD name="singworld.net" }
+:if ([:len [find name="sl916.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-entertainment-cn" match-subdomain=yes type=FWD name="sl916.com" }
+:if ([:len [find name="soku.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-entertainment-cn" match-subdomain=yes type=FWD name="soku.com" }
 :if ([:len [find name="supercachenet.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-entertainment-cn" match-subdomain=yes type=FWD name="supercachenet.com" }
 :if ([:len [find name="supercachenode.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-entertainment-cn" match-subdomain=yes type=FWD name="supercachenode.com" }
 :if ([:len [find name="syxlgame.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-entertainment-cn" match-subdomain=yes type=FWD name="syxlgame.com" }

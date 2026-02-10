@@ -1,9 +1,13 @@
 :global AddressList
 :global ForwardTo
 /ip dns static
+:if ([:len [find name="sohu.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-media-cn" match-subdomain=yes type=FWD name="sohu.com" }
+:if ([:len [find name="sohucs.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-media-cn" match-subdomain=yes type=FWD name="sohucs.com" }
+:if ([:len [find name="solidot.org"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-media-cn" match-subdomain=yes type=FWD name="solidot.org" }
 :if ([:len [find name="soso.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-media-cn" match-subdomain=yes type=FWD name="soso.com" }
 :if ([:len [find name="sososnap.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-media-cn" match-subdomain=yes type=FWD name="sososnap.com" }
 :if ([:len [find name="southcn.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-media-cn" match-subdomain=yes type=FWD name="southcn.com" }
+:if ([:len [find name="southmoney.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-media-cn" match-subdomain=yes type=FWD name="southmoney.com" }
 :if ([:len [find name="sspai.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-media-cn" match-subdomain=yes type=FWD name="sspai.com" }
 :if ([:len [find name="statickksmg.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-media-cn" match-subdomain=yes type=FWD name="statickksmg.com" }
 :if ([:len [find name="stcn.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-media-cn" match-subdomain=yes type=FWD name="stcn.com" }
@@ -30,6 +34,7 @@
 :if ([:len [find name="wuliao.epro.sogou.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-media-cn" match-subdomain=yes type=FWD name="wuliao.epro.sogou.com" }
 :if ([:len [find name="xiangrikuijianzhan.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-media-cn" match-subdomain=yes type=FWD name="xiangrikuijianzhan.com" }
 :if ([:len [find name="xiangrikuisite.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-media-cn" match-subdomain=yes type=FWD name="xiangrikuisite.com" }
+:if ([:len [find name="xilu.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-media-cn" match-subdomain=yes type=FWD name="xilu.com" }
 :if ([:len [find name="xinhuanet.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-media-cn" match-subdomain=yes type=FWD name="xinhuanet.com" }
 :if ([:len [find name="xinhuaxmt.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-media-cn" match-subdomain=yes type=FWD name="xinhuaxmt.com" }
 :if ([:len [find name="xn--fiq53l6wcx3kp9bc7joo6apn8a.xn--fiqs8s"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-media-cn" match-subdomain=yes type=FWD name="xn--fiq53l6wcx3kp9bc7joo6apn8a.xn--fiqs8s" }

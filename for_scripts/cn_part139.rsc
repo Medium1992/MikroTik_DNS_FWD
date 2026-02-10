@@ -1,9 +1,6 @@
 :global AddressList
 :global ForwardTo
 /ip dns static
-:if ([:len [find name="chervongroup.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="cn" match-subdomain=yes type=FWD name="chervongroup.com" }
-:if ([:len [find name="cheryholding.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="cn" match-subdomain=yes type=FWD name="cheryholding.com" }
-:if ([:len [find name="cheryjaguarlandrover.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="cn" match-subdomain=yes type=FWD name="cheryjaguarlandrover.com" }
 :if ([:len [find name="cherylalopes.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="cn" match-subdomain=yes type=FWD name="cherylalopes.com" }
 :if ([:len [find name="cherymanuals.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="cn" match-subdomain=yes type=FWD name="cherymanuals.com" }
 :if ([:len [find name="cheshenghuo.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="cn" match-subdomain=yes type=FWD name="cheshenghuo.com" }
@@ -151,3 +148,6 @@
 :if ([:len [find name="china-ccii.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="cn" match-subdomain=yes type=FWD name="china-ccii.com" }
 :if ([:len [find name="china-ccw.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="cn" match-subdomain=yes type=FWD name="china-ccw.com" }
 :if ([:len [find name="china-cdig.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="cn" match-subdomain=yes type=FWD name="china-cdig.com" }
+:if ([:len [find name="china-cdt.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="cn" match-subdomain=yes type=FWD name="china-cdt.com" }
+:if ([:len [find name="china-ceco.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="cn" match-subdomain=yes type=FWD name="china-ceco.com" }
+:if ([:len [find name="china-ced.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="cn" match-subdomain=yes type=FWD name="china-ced.com" }

@@ -12,6 +12,7 @@
 :if ([:len [find name="faxingbao.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-ai-cn" match-subdomain=yes type=FWD name="faxingbao.com" }
 :if ([:len [find name="hailuoai.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-ai-cn" match-subdomain=yes type=FWD name="hailuoai.com" }
 :if ([:len [find name="hunyuan.tencent.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-ai-cn" match-subdomain=yes type=FWD name="hunyuan.tencent.com" }
+:if ([:len [find name="kimi.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-ai-cn" match-subdomain=yes type=FWD name="kimi.com" }
 :if ([:len [find name="liblib.art"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-ai-cn" match-subdomain=yes type=FWD name="liblib.art" }
 :if ([:len [find name="maoxiangai.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-ai-cn" match-subdomain=yes type=FWD name="maoxiangai.com" }
 :if ([:len [find name="mcbaas.work"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-ai-cn" match-subdomain=yes type=FWD name="mcbaas.work" }

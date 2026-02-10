@@ -53,6 +53,7 @@
 :if ([:len [find name="pgyer.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-dev-cn" match-subdomain=yes type=FWD name="pgyer.com" }
 :if ([:len [find name="phpweblog.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-dev-cn" match-subdomain=yes type=FWD name="phpweblog.net" }
 :if ([:len [find name="pingcap.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-dev-cn" match-subdomain=yes type=FWD name="pingcap.com" }
+:if ([:len [find name="pingcode.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-dev-cn" match-subdomain=yes type=FWD name="pingcode.com" }
 :if ([:len [find name="qq.design"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-dev-cn" match-subdomain=yes type=FWD name="qq.design" }
 :if ([:len [find name="qqgamedesign.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-dev-cn" match-subdomain=yes type=FWD name="qqgamedesign.com" }
 :if ([:len [find name="ruby-china.org"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-dev-cn" match-subdomain=yes type=FWD name="ruby-china.org" }

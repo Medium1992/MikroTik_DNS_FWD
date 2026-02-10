@@ -1,9 +1,6 @@
 :global AddressList
 :global ForwardTo
 /ip dns static
-:if ([:len [find name="awspony.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="cn" match-subdomain=yes type=FWD name="awspony.com" }
-:if ([:len [find name="awstar.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="cn" match-subdomain=yes type=FWD name="awstar.net" }
-:if ([:len [find name="awtmt.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="cn" match-subdomain=yes type=FWD name="awtmt.com" }
 :if ([:len [find name="awuming.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="cn" match-subdomain=yes type=FWD name="awuming.com" }
 :if ([:len [find name="awx1.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="cn" match-subdomain=yes type=FWD name="awx1.com" }
 :if ([:len [find name="awyerwu.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="cn" match-subdomain=yes type=FWD name="awyerwu.com" }
@@ -151,3 +148,6 @@
 :if ([:len [find name="azuremigratetest.download.prss.microsoft.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="cn" match-subdomain=yes type=FWD name="azuremigratetest.download.prss.microsoft.com" }
 :if ([:len [find name="azurestackhub.download.prss.microsoft.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="cn" match-subdomain=yes type=FWD name="azurestackhub.download.prss.microsoft.com" }
 :if ([:len [find name="azurestackhubuat.download.prss.microsoft.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="cn" match-subdomain=yes type=FWD name="azurestackhubuat.download.prss.microsoft.com" }
+:if ([:len [find name="azuretouch.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="cn" match-subdomain=yes type=FWD name="azuretouch.net" }
+:if ([:len [find name="azurew.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="cn" match-subdomain=yes type=FWD name="azurew.com" }
+:if ([:len [find name="azureyun.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="cn" match-subdomain=yes type=FWD name="azureyun.com" }

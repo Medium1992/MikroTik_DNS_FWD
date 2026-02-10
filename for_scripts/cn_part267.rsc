@@ -1,8 +1,6 @@
 :global AddressList
 :global ForwardTo
 /ip dns static
-:if ([:len [find name="gsfycloud.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="cn" match-subdomain=yes type=FWD name="gsfycloud.com" }
-:if ([:len [find name="gsfzb.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="cn" match-subdomain=yes type=FWD name="gsfzb.com" }
 :if ([:len [find name="gsgltz.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="cn" match-subdomain=yes type=FWD name="gsgltz.com" }
 :if ([:len [find name="gsgs10086.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="cn" match-subdomain=yes type=FWD name="gsgs10086.com" }
 :if ([:len [find name="gsgundam.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="cn" match-subdomain=yes type=FWD name="gsgundam.com" }
@@ -151,3 +149,5 @@
 :if ([:len [find name="gtm-a1b3.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="cn" match-subdomain=yes type=FWD name="gtm-a1b3.com" }
 :if ([:len [find name="gtm-a1b4.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="cn" match-subdomain=yes type=FWD name="gtm-a1b4.com" }
 :if ([:len [find name="gtm-a1b5.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="cn" match-subdomain=yes type=FWD name="gtm-a1b5.com" }
+:if ([:len [find name="gtm-a1b6.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="cn" match-subdomain=yes type=FWD name="gtm-a1b6.com" }
+:if ([:len [find name="gtm-a1b7.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="cn" match-subdomain=yes type=FWD name="gtm-a1b7.com" }
