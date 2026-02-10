@@ -15,6 +15,7 @@
 :if ([:len [find name="sunlogin.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-collaborate-cn" match-subdomain=yes type=FWD name="sunlogin.net" }
 :if ([:len [find name="todesk.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-collaborate-cn" match-subdomain=yes type=FWD name="todesk.com" }
 :if ([:len [find name="tritoninfo.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-collaborate-cn" match-subdomain=yes type=FWD name="tritoninfo.net" }
+:if ([:len [find name="worktile.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-collaborate-cn" match-subdomain=yes type=FWD name="worktile.com" }
 :if ([:len [find name="xedge.cc"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-collaborate-cn" match-subdomain=yes type=FWD name="xedge.cc" }
 :if ([:len [find name="xiumi.us"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-collaborate-cn" match-subdomain=yes type=FWD name="xiumi.us" }
 :if ([:len [find name="xiumius.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-collaborate-cn" match-subdomain=yes type=FWD name="xiumius.com" }

@@ -6,6 +6,7 @@
 :if ([:len [find name="17k.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-entertainment-cn" match-subdomain=yes type=FWD name="17k.com" }
 :if ([:len [find name="17roco.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-entertainment-cn" match-subdomain=yes type=FWD name="17roco.com" }
 :if ([:len [find name="18183.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-entertainment-cn" match-subdomain=yes type=FWD name="18183.com" }
+:if ([:len [find name="1905.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-entertainment-cn" match-subdomain=yes type=FWD name="1905.com" }
 :if ([:len [find name="3304399.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-entertainment-cn" match-subdomain=yes type=FWD name="3304399.com" }
 :if ([:len [find name="3304399.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-entertainment-cn" match-subdomain=yes type=FWD name="3304399.net" }
 :if ([:len [find name="3839.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-entertainment-cn" match-subdomain=yes type=FWD name="3839.com" }
@@ -150,4 +151,3 @@
 :if ([:len [find name="fanqiesdkpic.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-entertainment-cn" match-subdomain=yes type=FWD name="fanqiesdkpic.com" }
 :if ([:len [find name="fanqiesdkstatic.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-entertainment-cn" match-subdomain=yes type=FWD name="fanqiesdkstatic.com" }
 :if ([:len [find name="fanqiesdkvod.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-entertainment-cn" match-subdomain=yes type=FWD name="fanqiesdkvod.com" }
-:if ([:len [find name="fanxingliveshow.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-entertainment-cn" match-subdomain=yes type=FWD name="fanxingliveshow.com" }

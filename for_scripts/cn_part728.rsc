@@ -1,9 +1,6 @@
 :global AddressList
 :global ForwardTo
 /ip dns static
-:if ([:len [find name="yuanzhi.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="cn" match-subdomain=yes type=FWD name="yuanzhi.com" }
-:if ([:len [find name="yuanzhihao.life"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="cn" match-subdomain=yes type=FWD name="yuanzhihao.life" }
-:if ([:len [find name="yuanzhiyijiantong.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="cn" match-subdomain=yes type=FWD name="yuanzhiyijiantong.com" }
 :if ([:len [find name="yuanzidai.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="cn" match-subdomain=yes type=FWD name="yuanzidai.com" }
 :if ([:len [find name="yuanzige.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="cn" match-subdomain=yes type=FWD name="yuanzige.com" }
 :if ([:len [find name="yuanzipower.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="cn" match-subdomain=yes type=FWD name="yuanzipower.com" }
@@ -151,3 +148,6 @@
 :if ([:len [find name="yuexirc.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="cn" match-subdomain=yes type=FWD name="yuexirc.com" }
 :if ([:len [find name="yuexiren.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="cn" match-subdomain=yes type=FWD name="yuexiren.com" }
 :if ([:len [find name="yuexiu-finance.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="cn" match-subdomain=yes type=FWD name="yuexiu-finance.com" }
+:if ([:len [find name="yuexiu.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="cn" match-subdomain=yes type=FWD name="yuexiu.com" }
+:if ([:len [find name="yuexiudevelopment.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="cn" match-subdomain=yes type=FWD name="yuexiudevelopment.com" }
+:if ([:len [find name="yuexiufoods.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="cn" match-subdomain=yes type=FWD name="yuexiufoods.com" }

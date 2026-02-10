@@ -1,9 +1,6 @@
 :global AddressList
 :global ForwardTo
 /ip dns static
-:if ([:len [find name="jianhuw.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="cn" match-subdomain=yes type=FWD name="jianhuw.com" }
-:if ([:len [find name="jianianle.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="cn" match-subdomain=yes type=FWD name="jianianle.com" }
-:if ([:len [find name="jianjian.tv"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="cn" match-subdomain=yes type=FWD name="jianjian.tv" }
 :if ([:len [find name="jianjiaobuluo.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="cn" match-subdomain=yes type=FWD name="jianjiaobuluo.com" }
 :if ([:len [find name="jianjutec.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="cn" match-subdomain=yes type=FWD name="jianjutec.com" }
 :if ([:len [find name="jiankang123.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="cn" match-subdomain=yes type=FWD name="jiankang123.net" }
@@ -151,3 +148,6 @@
 :if ([:len [find name="jiaoyudao.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="cn" match-subdomain=yes type=FWD name="jiaoyudao.com" }
 :if ([:len [find name="jiaoyumao.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="cn" match-subdomain=yes type=FWD name="jiaoyumao.com" }
 :if ([:len [find name="jiaoyundiandongmen.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="cn" match-subdomain=yes type=FWD name="jiaoyundiandongmen.com" }
+:if ([:len [find name="jiaoyunw.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="cn" match-subdomain=yes type=FWD name="jiaoyunw.com" }
+:if ([:len [find name="jiaoyuwo.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="cn" match-subdomain=yes type=FWD name="jiaoyuwo.com" }
+:if ([:len [find name="jiaoyuzhan.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="cn" match-subdomain=yes type=FWD name="jiaoyuzhan.net" }
