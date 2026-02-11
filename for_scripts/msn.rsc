@@ -1,6 +1,7 @@
 :global AddressList
 :global ForwardTo
 /ip dns static
+:if ([:len [find name="browser.events.data.msn.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="msn" match-subdomain=yes type=FWD name="browser.events.data.msn.com" }
 :if ([:len [find name="microsoftnews.cc"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="msn" match-subdomain=yes type=FWD name="microsoftnews.cc" }
 :if ([:len [find name="microsoftnews.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="msn" match-subdomain=yes type=FWD name="microsoftnews.com" }
 :if ([:len [find name="microsoftnews.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="msn" match-subdomain=yes type=FWD name="microsoftnews.net" }

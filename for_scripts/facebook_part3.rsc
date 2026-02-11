@@ -1,6 +1,8 @@
 :global AddressList
 :global ForwardTo
 /ip dns static
+:if ([:len [find name="fecbooc.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="facebook" match-subdomain=yes type=FWD name="fecbooc.com" }
+:if ([:len [find name="fecbook.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="facebook" match-subdomain=yes type=FWD name="fecbook.com" }
 :if ([:len [find name="feceboock.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="facebook" match-subdomain=yes type=FWD name="feceboock.com" }
 :if ([:len [find name="fecebook.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="facebook" match-subdomain=yes type=FWD name="fecebook.net" }
 :if ([:len [find name="feceboox.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="facebook" match-subdomain=yes type=FWD name="feceboox.com" }
@@ -66,6 +68,7 @@
 :if ([:len [find name="nextstop.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="facebook" match-subdomain=yes type=FWD name="nextstop.com" }
 :if ([:len [find name="online-deals.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="facebook" match-subdomain=yes type=FWD name="online-deals.net" }
 :if ([:len [find name="opencreate.org"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="facebook" match-subdomain=yes type=FWD name="opencreate.org" }
+:if ([:len [find name="pixel.facebook.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="facebook" match-subdomain=yes type=FWD name="pixel.facebook.com" }
 :if ([:len [find name="reachtheworldonfacebook.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="facebook" match-subdomain=yes type=FWD name="reachtheworldonfacebook.com" }
 :if ([:len [find name="redkix.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="facebook" match-subdomain=yes type=FWD name="redkix.com" }
 :if ([:len [find name="rocksdb.org"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="facebook" match-subdomain=yes type=FWD name="rocksdb.org" }

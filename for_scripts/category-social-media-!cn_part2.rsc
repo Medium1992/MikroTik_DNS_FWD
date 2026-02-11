@@ -1,6 +1,8 @@
 :global AddressList
 :global ForwardTo
 /ip dns static
+:if ([:len [find name="facebookgames.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-social-media-!cn" match-subdomain=yes type=FWD name="facebookgames.com" }
+:if ([:len [find name="facebookgraphsearch.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-social-media-!cn" match-subdomain=yes type=FWD name="facebookgraphsearch.com" }
 :if ([:len [find name="facebookgraphsearch.info"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-social-media-!cn" match-subdomain=yes type=FWD name="facebookgraphsearch.info" }
 :if ([:len [find name="facebookgroups.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-social-media-!cn" match-subdomain=yes type=FWD name="facebookgroups.com" }
 :if ([:len [find name="facebookhome.cc"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-social-media-!cn" match-subdomain=yes type=FWD name="facebookhome.cc" }
@@ -149,5 +151,3 @@
 :if ([:len [find name="fbrpms.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-social-media-!cn" match-subdomain=yes type=FWD name="fbrpms.com" }
 :if ([:len [find name="fbsbx.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-social-media-!cn" match-subdomain=yes type=FWD name="fbsbx.com" }
 :if ([:len [find name="fbsbx.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-social-media-!cn" match-subdomain=yes type=FWD name="fbsbx.net" }
-:if ([:len [find name="fbsupport-covid.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-social-media-!cn" match-subdomain=yes type=FWD name="fbsupport-covid.net" }
-:if ([:len [find name="fbthirdpartypixel.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-social-media-!cn" match-subdomain=yes type=FWD name="fbthirdpartypixel.com" }

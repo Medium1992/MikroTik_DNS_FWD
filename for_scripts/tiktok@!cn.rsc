@@ -1,6 +1,7 @@
 :global AddressList
 :global ForwardTo
 /ip dns static
+:if ([:len [find name="analytics.tiktok.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="tiktok@!cn" match-subdomain=yes type=FWD name="analytics.tiktok.com" }
 :if ([:len [find name="bytedapm.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="tiktok@!cn" match-subdomain=yes type=FWD name="bytedapm.com" }
 :if ([:len [find name="byteoversea.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="tiktok@!cn" match-subdomain=yes type=FWD name="byteoversea.com" }
 :if ([:len [find name="muscdn.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="tiktok@!cn" match-subdomain=yes type=FWD name="muscdn.com" }
