@@ -1,13 +1,6 @@
 :global AddressList
 :global ForwardTo
 /ip dns static
-:if ([:len [find name="beatbydreuk2014.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" match-subdomain=yes type=FWD name="beatbydreuk2014.com" }
-:if ([:len [find name="beatdrdres.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" match-subdomain=yes type=FWD name="beatdrdres.com" }
-:if ([:len [find name="beatfactoryoutlets.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" match-subdomain=yes type=FWD name="beatfactoryoutlets.com" }
-:if ([:len [find name="beatmonstersaustralia.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" match-subdomain=yes type=FWD name="beatmonstersaustralia.net" }
-:if ([:len [find name="beats-by-dre-australia.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" match-subdomain=yes type=FWD name="beats-by-dre-australia.com" }
-:if ([:len [find name="beats-bydrdre.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" match-subdomain=yes type=FWD name="beats-bydrdre.net" }
-:if ([:len [find name="beats-bydre-mall.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" match-subdomain=yes type=FWD name="beats-bydre-mall.com" }
 :if ([:len [find name="beats-bydrecheapsale.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" match-subdomain=yes type=FWD name="beats-bydrecheapsale.com" }
 :if ([:len [find name="beats-bydreoutletonline.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" match-subdomain=yes type=FWD name="beats-bydreoutletonline.com" }
 :if ([:len [find name="beats-bydreoutletsale.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" match-subdomain=yes type=FWD name="beats-bydreoutletsale.com" }
@@ -151,3 +144,10 @@
 :if ([:len [find name="beatsbydresstudio.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" match-subdomain=yes type=FWD name="beatsbydresstudio.com" }
 :if ([:len [find name="beatsbydrestorevip.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" match-subdomain=yes type=FWD name="beatsbydrestorevip.com" }
 :if ([:len [find name="beatsbydrestudio-australia.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" match-subdomain=yes type=FWD name="beatsbydrestudio-australia.com" }
+:if ([:len [find name="beatsbydrestudio.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" match-subdomain=yes type=FWD name="beatsbydrestudio.com" }
+:if ([:len [find name="beatsbydretoutlet.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" match-subdomain=yes type=FWD name="beatsbydretoutlet.com" }
+:if ([:len [find name="beatsbydreuk.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" match-subdomain=yes type=FWD name="beatsbydreuk.com" }
+:if ([:len [find name="beatsbydreuk.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" match-subdomain=yes type=FWD name="beatsbydreuk.net" }
+:if ([:len [find name="beatsbydreus.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" match-subdomain=yes type=FWD name="beatsbydreus.com" }
+:if ([:len [find name="beatsbydrevipde.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" match-subdomain=yes type=FWD name="beatsbydrevipde.com" }
+:if ([:len [find name="beatsbydrew.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" match-subdomain=yes type=FWD name="beatsbydrew.com" }

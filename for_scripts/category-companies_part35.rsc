@@ -1,6 +1,9 @@
 :global AddressList
 :global ForwardTo
 /ip dns static
+:if ([:len [find name="antigravity-pa.googleapis.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" type=FWD name="antigravity-pa.googleapis.com" }
+:if ([:len [find name="antigravity.googleapis.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" type=FWD name="antigravity.googleapis.com" }
+:if ([:len [find name="aod-ssl.itunes.apple.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" type=FWD name="aod-ssl.itunes.apple.com" }
 :if ([:len [find name="aod.itunes.apple.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" type=FWD name="aod.itunes.apple.com" }
 :if ([:len [find name="api-edge.apps.apple.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" type=FWD name="api-edge.apps.apple.com" }
 :if ([:len [find name="api.viu.now.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" type=FWD name="api.viu.now.com" }
@@ -148,6 +151,3 @@
 :if ([:len [find name="dnl-03.geo.kaspersky.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" type=FWD name="dnl-03.geo.kaspersky.com" }
 :if ([:len [find name="dnl-04.geo.kaspersky.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" type=FWD name="dnl-04.geo.kaspersky.com" }
 :if ([:len [find name="dnl-05.geo.kaspersky.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" type=FWD name="dnl-05.geo.kaspersky.com" }
-:if ([:len [find name="dnl-06.geo.kaspersky.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" type=FWD name="dnl-06.geo.kaspersky.com" }
-:if ([:len [find name="dnl-07.geo.kaspersky.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" type=FWD name="dnl-07.geo.kaspersky.com" }
-:if ([:len [find name="dnl-08.geo.kaspersky.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" type=FWD name="dnl-08.geo.kaspersky.com" }

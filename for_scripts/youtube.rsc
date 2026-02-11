@@ -1,6 +1,7 @@
 :global AddressList
 :global ForwardTo
 /ip dns static
+:if ([:len [find name="ads.youtube.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="youtube" match-subdomain=yes type=FWD name="ads.youtube.com" }
 :if ([:len [find name="ggpht.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="youtube" match-subdomain=yes type=FWD name="ggpht.com" }
 :if ([:len [find name="googlevideo.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="youtube" match-subdomain=yes type=FWD name="googlevideo.com" }
 :if ([:len [find name="wide-youtube.l.google.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="youtube" match-subdomain=yes type=FWD name="wide-youtube.l.google.com" }

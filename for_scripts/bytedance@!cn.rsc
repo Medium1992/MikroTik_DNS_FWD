@@ -1,12 +1,19 @@
 :global AddressList
 :global ForwardTo
 /ip dns static
+:if ([:len [find name="analytics.tiktok.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="bytedance@!cn" match-subdomain=yes type=FWD name="analytics.tiktok.com" }
 :if ([:len [find name="bytedapm.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="bytedance@!cn" match-subdomain=yes type=FWD name="bytedapm.com" }
 :if ([:len [find name="byteglb.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="bytedance@!cn" match-subdomain=yes type=FWD name="byteglb.com" }
 :if ([:len [find name="byteoversea.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="bytedance@!cn" match-subdomain=yes type=FWD name="byteoversea.com" }
 :if ([:len [find name="byteoversea.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="bytedance@!cn" match-subdomain=yes type=FWD name="byteoversea.net" }
+:if ([:len [find name="cici.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="bytedance@!cn" match-subdomain=yes type=FWD name="cici.com" }
+:if ([:len [find name="ciciai.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="bytedance@!cn" match-subdomain=yes type=FWD name="ciciai.com" }
+:if ([:len [find name="ciciaicdn.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="bytedance@!cn" match-subdomain=yes type=FWD name="ciciaicdn.com" }
+:if ([:len [find name="coze.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="bytedance@!cn" match-subdomain=yes type=FWD name="coze.com" }
+:if ([:len [find name="dola.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="bytedance@!cn" match-subdomain=yes type=FWD name="dola.com" }
 :if ([:len [find name="ibytedtos.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="bytedance@!cn" match-subdomain=yes type=FWD name="ibytedtos.com" }
 :if ([:len [find name="ibyteimg.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="bytedance@!cn" match-subdomain=yes type=FWD name="ibyteimg.com" }
+:if ([:len [find name="marscode.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="bytedance@!cn" match-subdomain=yes type=FWD name="marscode.com" }
 :if ([:len [find name="muscdn.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="bytedance@!cn" match-subdomain=yes type=FWD name="muscdn.com" }
 :if ([:len [find name="tik-tokapi.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="bytedance@!cn" match-subdomain=yes type=FWD name="tik-tokapi.com" }
 :if ([:len [find name="tiktok-minis.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="bytedance@!cn" match-subdomain=yes type=FWD name="tiktok-minis.com" }

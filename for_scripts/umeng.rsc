@@ -13,6 +13,7 @@
 :if ([:len [find name="cnlogs.umeng.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="umeng" match-subdomain=yes type=FWD name="cnlogs.umeng.com" }
 :if ([:len [find name="cnlogs.umengcloud.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="umeng" match-subdomain=yes type=FWD name="cnlogs.umengcloud.com" }
 :if ([:len [find name="cnzz.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="umeng" match-subdomain=yes type=FWD name="cnzz.com" }
+:if ([:len [find name="log.umtrack.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="umeng" match-subdomain=yes type=FWD name="log.umtrack.com" }
 :if ([:len [find name="mobmore.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="umeng" match-subdomain=yes type=FWD name="mobmore.com" }
 :if ([:len [find name="new-aaid.umeng.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="umeng" match-subdomain=yes type=FWD name="new-aaid.umeng.com" }
 :if ([:len [find name="new-aaid.umeng.com.gds.alibabadns.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="umeng" match-subdomain=yes type=FWD name="new-aaid.umeng.com.gds.alibabadns.com" }

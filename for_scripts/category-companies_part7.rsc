@@ -1,6 +1,7 @@
 :global AddressList
 :global ForwardTo
 /ip dns static
+:if ([:len [find name="beatsbydrdreus.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" match-subdomain=yes type=FWD name="beatsbydrdreus.com" }
 :if ([:len [find name="beatsbydre-beatsheadphone.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" match-subdomain=yes type=FWD name="beatsbydre-beatsheadphone.com" }
 :if ([:len [find name="beatsbydre-chen.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" match-subdomain=yes type=FWD name="beatsbydre-chen.com" }
 :if ([:len [find name="beatsbydre-club.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" match-subdomain=yes type=FWD name="beatsbydre-club.com" }
@@ -150,4 +151,3 @@
 :if ([:len [find name="beatsforcheap-usa.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" match-subdomain=yes type=FWD name="beatsforcheap-usa.com" }
 :if ([:len [find name="beatsforme.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" match-subdomain=yes type=FWD name="beatsforme.com" }
 :if ([:len [find name="beatsfranceofficiel.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" match-subdomain=yes type=FWD name="beatsfranceofficiel.com" }
-:if ([:len [find name="beatsheadphones-discount.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" match-subdomain=yes type=FWD name="beatsheadphones-discount.com" }

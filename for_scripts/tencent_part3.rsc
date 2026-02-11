@@ -132,6 +132,7 @@
 :if ([:len [find name="vodtcbk.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="tencent" match-subdomain=yes type=FWD name="vodtcbk.com" }
 :if ([:len [find name="vxo7tu.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="tencent" match-subdomain=yes type=FWD name="vxo7tu.com" }
 :if ([:len [find name="wcbygame.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="tencent" match-subdomain=yes type=FWD name="wcbygame.com" }
+:if ([:len [find name="webnovel.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="tencent" match-subdomain=yes type=FWD name="webnovel.com" }
 :if ([:len [find name="wechat.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="tencent" match-subdomain=yes type=FWD name="wechat.com" }
 :if ([:len [find name="wegame.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="tencent" match-subdomain=yes type=FWD name="wegame.com" }
 :if ([:len [find name="wegamedeveloper.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="tencent" match-subdomain=yes type=FWD name="wegamedeveloper.com" }
@@ -150,4 +151,3 @@
 :if ([:len [find name="xqymuy.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="tencent" match-subdomain=yes type=FWD name="xqymuy.com" }
 :if ([:len [find name="xxsy.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="tencent" match-subdomain=yes type=FWD name="xxsy.net" }
 :if ([:len [find name="ym.run"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="tencent" match-subdomain=yes type=FWD name="ym.run" }
-:if ([:len [find name="yuewen.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="tencent" match-subdomain=yes type=FWD name="yuewen.com" }

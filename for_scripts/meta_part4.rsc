@@ -1,6 +1,8 @@
 :global AddressList
 :global ForwardTo
 /ip dns static
+:if ([:len [find name="intgram.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="meta" match-subdomain=yes type=FWD name="intgram.com" }
+:if ([:len [find name="kingstagram.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="meta" match-subdomain=yes type=FWD name="kingstagram.com" }
 :if ([:len [find name="klik.me"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="meta" match-subdomain=yes type=FWD name="klik.me" }
 :if ([:len [find name="liverail.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="meta" match-subdomain=yes type=FWD name="liverail.com" }
 :if ([:len [find name="liverail.tv"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="meta" match-subdomain=yes type=FWD name="liverail.tv" }
@@ -45,6 +47,7 @@
 :if ([:len [find name="opengraphprotocol.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="meta" match-subdomain=yes type=FWD name="opengraphprotocol.com" }
 :if ([:len [find name="opengraphprotocol.org"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="meta" match-subdomain=yes type=FWD name="opengraphprotocol.org" }
 :if ([:len [find name="parse.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="meta" match-subdomain=yes type=FWD name="parse.com" }
+:if ([:len [find name="pixel.facebook.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="meta" match-subdomain=yes type=FWD name="pixel.facebook.com" }
 :if ([:len [find name="powersunitedvr.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="meta" match-subdomain=yes type=FWD name="powersunitedvr.com" }
 :if ([:len [find name="pyrobot.org"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="meta" match-subdomain=yes type=FWD name="pyrobot.org" }
 :if ([:len [find name="reachtheworldonfacebook.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="meta" match-subdomain=yes type=FWD name="reachtheworldonfacebook.com" }

@@ -72,6 +72,7 @@
 :if ([:len [find name="tuxi.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-logistics-cn" match-subdomain=yes type=FWD name="tuxi.com" }
 :if ([:len [find name="udalogistic.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-logistics-cn" match-subdomain=yes type=FWD name="udalogistic.com" }
 :if ([:len [find name="upfos.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-logistics-cn" match-subdomain=yes type=FWD name="upfos.com" }
+:if ([:len [find name="v6-adashx.ut.cainiao.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-logistics-cn" match-subdomain=yes type=FWD name="v6-adashx.ut.cainiao.com" }
 :if ([:len [find name="wangniuwms.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-logistics-cn" match-subdomain=yes type=FWD name="wangniuwms.com" }
 :if ([:len [find name="xinyuanfin.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-logistics-cn" match-subdomain=yes type=FWD name="xinyuanfin.com" }
 :if ([:len [find name="yl-scm.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-logistics-cn" match-subdomain=yes type=FWD name="yl-scm.com" }

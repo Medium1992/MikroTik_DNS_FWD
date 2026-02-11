@@ -15,8 +15,11 @@
 :if ([:len [find name="spotifyforbrands.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="spotify" match-subdomain=yes type=FWD name="spotifyforbrands.com" }
 :if ([:len [find name="spotifyjobs.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="spotify" match-subdomain=yes type=FWD name="spotifyjobs.com" }
 :if ([:len [find name="tospotify.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="spotify" match-subdomain=yes type=FWD name="tospotify.com" }
+:if ([:len [find name="adeventtracker.spotify.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="spotify" type=FWD name="adeventtracker.spotify.com" }
+:if ([:len [find name="adstudio-assets.scdn.co"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="spotify" type=FWD name="adstudio-assets.scdn.co" }
 :if ([:len [find name="audio-ak-spotify-com.akamaized.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="spotify" type=FWD name="audio-ak-spotify-com.akamaized.net" }
 :if ([:len [find name="audio4-ak-spotify-com.akamaized.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="spotify" type=FWD name="audio4-ak-spotify-com.akamaized.net" }
+:if ([:len [find name="bloodhound.spotify.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="spotify" type=FWD name="bloodhound.spotify.com" }
 :if ([:len [find name="cdn-spotify-experiments.conductrics.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="spotify" type=FWD name="cdn-spotify-experiments.conductrics.com" }
 :if ([:len [find name="heads-ak-spotify-com.akamaized.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="spotify" type=FWD name="heads-ak-spotify-com.akamaized.net" }
 :if ([:len [find name="heads4-ak-spotify-com.akamaized.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="spotify" type=FWD name="heads4-ak-spotify-com.akamaized.net" }

@@ -5,6 +5,7 @@
 :if ([:len [find name="bh3.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="mihoyo-cn" match-subdomain=yes type=FWD name="bh3.com" }
 :if ([:len [find name="bhsr.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="mihoyo-cn" match-subdomain=yes type=FWD name="bhsr.com" }
 :if ([:len [find name="juequling.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="mihoyo-cn" match-subdomain=yes type=FWD name="juequling.com" }
+:if ([:len [find name="log-upload.mihoyo.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="mihoyo-cn" match-subdomain=yes type=FWD name="log-upload.mihoyo.com" }
 :if ([:len [find name="mhystatic.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="mihoyo-cn" match-subdomain=yes type=FWD name="mhystatic.com" }
 :if ([:len [find name="mihayo.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="mihoyo-cn" match-subdomain=yes type=FWD name="mihayo.com" }
 :if ([:len [find name="mihayou.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="mihoyo-cn" match-subdomain=yes type=FWD name="mihayou.com" }

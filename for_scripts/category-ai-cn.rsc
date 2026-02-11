@@ -37,3 +37,4 @@
 :if ([:len [find name="xiezuocat.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-ai-cn" match-subdomain=yes type=FWD name="xiezuocat.com" }
 :if ([:len [find name="xingyeai.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-ai-cn" match-subdomain=yes type=FWD name="xingyeai.com" }
 :if ([:len [find name="yiyan.baidu.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-ai-cn" match-subdomain=yes type=FWD name="yiyan.baidu.com" }
+:if ([:len [find name="zhipucn.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-ai-cn" match-subdomain=yes type=FWD name="zhipucn.com" }
