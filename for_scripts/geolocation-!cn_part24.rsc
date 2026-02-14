@@ -1,6 +1,8 @@
 :global AddressList
 :global ForwardTo
 /ip dns static
+:if ([:len [find name="brazzers-porno.online"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" match-subdomain=yes type=FWD name="brazzers-porno.online" }
+:if ([:len [find name="brazzers-xxx.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" match-subdomain=yes type=FWD name="brazzers-xxx.net" }
 :if ([:len [find name="brazzers.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" match-subdomain=yes type=FWD name="brazzers.com" }
 :if ([:len [find name="brazzers.xxx"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" match-subdomain=yes type=FWD name="brazzers.xxx" }
 :if ([:len [find name="brazzersnetwork.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" match-subdomain=yes type=FWD name="brazzersnetwork.com" }
@@ -149,5 +151,3 @@
 :if ([:len [find name="bushiroad-global-online-store.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" match-subdomain=yes type=FWD name="bushiroad-global-online-store.com" }
 :if ([:len [find name="bushiroad-move.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" match-subdomain=yes type=FWD name="bushiroad-move.com" }
 :if ([:len [find name="bushiroad-music.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" match-subdomain=yes type=FWD name="bushiroad-music.com" }
-:if ([:len [find name="bushiroad-store.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" match-subdomain=yes type=FWD name="bushiroad-store.com" }
-:if ([:len [find name="bushiroad-works.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" match-subdomain=yes type=FWD name="bushiroad-works.com" }
