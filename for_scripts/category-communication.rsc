@@ -106,6 +106,7 @@
 :if ([:len [find name="telegram.space"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-communication" match-subdomain=yes type=FWD name="telegram.space" }
 :if ([:len [find name="temp-mail.org"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-communication" match-subdomain=yes type=FWD name="temp-mail.org" }
 :if ([:len [find name="tg.dev"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-communication" match-subdomain=yes type=FWD name="tg.dev" }
+:if ([:len [find name="ton.org"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-communication" match-subdomain=yes type=FWD name="ton.org" }
 :if ([:len [find name="tx.me"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-communication" match-subdomain=yes type=FWD name="tx.me" }
 :if ([:len [find name="uicdn.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-communication" match-subdomain=yes type=FWD name="uicdn.com" }
 :if ([:len [find name="uimserv.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-communication" match-subdomain=yes type=FWD name="uimserv.net" }
