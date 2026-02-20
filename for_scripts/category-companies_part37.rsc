@@ -1,6 +1,8 @@
 :global AddressList
 :global ForwardTo
 /ip dns static
+:if ([:len [find name="i.dell.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" type=FWD name="i.dell.com" }
+:if ([:len [find name="i.pki.goog"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" type=FWD name="i.pki.goog" }
 :if ([:len [find name="icloud-cdn.icloud.com.akadns.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" type=FWD name="icloud-cdn.icloud.com.akadns.net" }
 :if ([:len [find name="icloud.cdn-apple.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" type=FWD name="icloud.cdn-apple.com" }
 :if ([:len [find name="images-cn-8.ssl-images-amazon.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" type=FWD name="images-cn-8.ssl-images-amazon.com" }
@@ -149,5 +151,3 @@
 :if ([:len [find name="packages.microsoft.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" type=FWD name="packages.microsoft.com" }
 :if ([:len [find name="pagead-googlehosted.l.google.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" type=FWD name="pagead-googlehosted.l.google.com" }
 :if ([:len [find name="pancake.apple.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" type=FWD name="pancake.apple.com" }
-:if ([:len [find name="pancake.cdn-apple.com.akadns.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" type=FWD name="pancake.cdn-apple.com.akadns.net" }
-:if ([:len [find name="pba0.apple.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" type=FWD name="pba0.apple.com" }

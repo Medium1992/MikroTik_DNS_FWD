@@ -1,6 +1,8 @@
 :global AddressList
 :global ForwardTo
 /ip dns static
+:if ([:len [find name="livehdcams.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-porn" match-subdomain=yes type=FWD name="livehdcams.com" }
+:if ([:len [find name="livejasmin.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-porn" match-subdomain=yes type=FWD name="livejasmin.com" }
 :if ([:len [find name="livejasminbabes.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-porn" match-subdomain=yes type=FWD name="livejasminbabes.net" }
 :if ([:len [find name="livemodels.co"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-porn" match-subdomain=yes type=FWD name="livemodels.co" }
 :if ([:len [find name="liveporngirls.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-porn" match-subdomain=yes type=FWD name="liveporngirls.com" }
@@ -149,5 +151,3 @@
 :if ([:len [find name="masterwanker.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-porn" match-subdomain=yes type=FWD name="masterwanker.com" }
 :if ([:len [find name="masturbate2gether.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-porn" match-subdomain=yes type=FWD name="masturbate2gether.com" }
 :if ([:len [find name="mat6tube.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-porn" match-subdomain=yes type=FWD name="mat6tube.com" }
-:if ([:len [find name="mature-amateur-sex.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-porn" match-subdomain=yes type=FWD name="mature-amateur-sex.com" }
-:if ([:len [find name="mature-nl.eu"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-porn" match-subdomain=yes type=FWD name="mature-nl.eu" }

@@ -1,6 +1,8 @@
 :global AddressList
 :global ForwardTo
 /ip dns static
+:if ([:len [find name="pancake.cdn-apple.com.akadns.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" type=FWD name="pancake.cdn-apple.com.akadns.net" }
+:if ([:len [find name="pba0.apple.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" type=FWD name="pba0.apple.com" }
 :if ([:len [find name="pd-nk.itunes.apple.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" type=FWD name="pd-nk.itunes.apple.com" }
 :if ([:len [find name="pd.itunes.apple.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" type=FWD name="pd.itunes.apple.com" }
 :if ([:len [find name="performanceparameters.googleapis.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" type=FWD name="performanceparameters.googleapis.com" }
@@ -149,5 +151,3 @@
 :if ([:len [find name="sup.l.google.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" type=FWD name="sup.l.google.com" }
 :if ([:len [find name="support-china.apple-support.akadns.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" type=FWD name="support-china.apple-support.akadns.net" }
 :if ([:len [find name="support.apple.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" type=FWD name="support.apple.com" }
-:if ([:len [find name="supportassist.dell.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" type=FWD name="supportassist.dell.com" }
-:if ([:len [find name="surface.downloads.prss.microsoft.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" type=FWD name="surface.downloads.prss.microsoft.com" }

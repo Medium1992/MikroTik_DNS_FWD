@@ -1,6 +1,7 @@
 :global AddressList
 :global ForwardTo
 /ip dns static
+:if ([:len [find name="mfg-inspector.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" match-subdomain=yes type=FWD name="mfg-inspector.com" }
 :if ([:len [find name="microbit.org"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" match-subdomain=yes type=FWD name="microbit.org" }
 :if ([:len [find name="microsoft"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" match-subdomain=yes type=FWD name="microsoft" }
 :if ([:len [find name="microsoft-falcon.io"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" match-subdomain=yes type=FWD name="microsoft-falcon.io" }
@@ -150,4 +151,3 @@
 :if ([:len [find name="monsterbeatsitaly.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" match-subdomain=yes type=FWD name="monsterbeatsitaly.com" }
 :if ([:len [find name="monsterbeatsmall.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" match-subdomain=yes type=FWD name="monsterbeatsmall.com" }
 :if ([:len [find name="monsterbeatsnegozi.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" match-subdomain=yes type=FWD name="monsterbeatsnegozi.net" }
-:if ([:len [find name="monsterbeatsok.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" match-subdomain=yes type=FWD name="monsterbeatsok.com" }

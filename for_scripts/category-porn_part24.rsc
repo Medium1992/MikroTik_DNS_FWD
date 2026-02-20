@@ -1,6 +1,8 @@
 :global AddressList
 :global ForwardTo
 /ip dns static
+:if ([:len [find name="mature-amateur-sex.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-porn" match-subdomain=yes type=FWD name="mature-amateur-sex.com" }
+:if ([:len [find name="mature-nl.eu"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-porn" match-subdomain=yes type=FWD name="mature-nl.eu" }
 :if ([:len [find name="mature-porn-flix.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-porn" match-subdomain=yes type=FWD name="mature-porn-flix.com" }
 :if ([:len [find name="mature-tube.sexy"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-porn" match-subdomain=yes type=FWD name="mature-tube.sexy" }
 :if ([:len [find name="mature.nl"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-porn" match-subdomain=yes type=FWD name="mature.nl" }
@@ -108,6 +110,7 @@
 :if ([:len [find name="minuporno.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-porn" match-subdomain=yes type=FWD name="minuporno.com" }
 :if ([:len [find name="miohentai.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-porn" match-subdomain=yes type=FWD name="miohentai.com" }
 :if ([:len [find name="missav.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-porn" match-subdomain=yes type=FWD name="missav.com" }
+:if ([:len [find name="missav.live"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-porn" match-subdomain=yes type=FWD name="missav.live" }
 :if ([:len [find name="missav.uno"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-porn" match-subdomain=yes type=FWD name="missav.uno" }
 :if ([:len [find name="missav.vip"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-porn" match-subdomain=yes type=FWD name="missav.vip" }
 :if ([:len [find name="missav.ws"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-porn" match-subdomain=yes type=FWD name="missav.ws" }
@@ -148,6 +151,3 @@
 :if ([:len [find name="momesear-chs.buzz"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-porn" match-subdomain=yes type=FWD name="momesear-chs.buzz" }
 :if ([:len [find name="momfucktube.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-porn" match-subdomain=yes type=FWD name="momfucktube.com" }
 :if ([:len [find name="momhomeporn.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-porn" match-subdomain=yes type=FWD name="momhomeporn.com" }
-:if ([:len [find name="mommystoytime.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-porn" match-subdomain=yes type=FWD name="mommystoytime.com" }
-:if ([:len [find name="momon-ga.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-porn" match-subdomain=yes type=FWD name="momon-ga.com" }
-:if ([:len [find name="momoniji.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-porn" match-subdomain=yes type=FWD name="momoniji.com" }
