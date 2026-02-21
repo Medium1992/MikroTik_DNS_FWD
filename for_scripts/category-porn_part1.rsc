@@ -70,6 +70,7 @@
 :if ([:len [find name="18hmanga.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-porn" match-subdomain=yes type=FWD name="18hmanga.com" }
 :if ([:len [find name="18insta.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-porn" match-subdomain=yes type=FWD name="18insta.com" }
 :if ([:len [find name="18j.tv"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-porn" match-subdomain=yes type=FWD name="18j.tv" }
+:if ([:len [find name="18jav.tv"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-porn" match-subdomain=yes type=FWD name="18jav.tv" }
 :if ([:len [find name="18jms.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-porn" match-subdomain=yes type=FWD name="18jms.com" }
 :if ([:len [find name="18mh.co"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-porn" match-subdomain=yes type=FWD name="18mh.co" }
 :if ([:len [find name="18mh.me"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-porn" match-subdomain=yes type=FWD name="18mh.me" }
@@ -150,4 +151,3 @@
 :if ([:len [find name="41maonn.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-porn" match-subdomain=yes type=FWD name="41maonn.com" }
 :if ([:len [find name="444.coffee"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-porn" match-subdomain=yes type=FWD name="444.coffee" }
 :if ([:len [find name="445gei.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-porn" match-subdomain=yes type=FWD name="445gei.com" }
-:if ([:len [find name="445jun.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-porn" match-subdomain=yes type=FWD name="445jun.com" }
