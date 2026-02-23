@@ -104,6 +104,7 @@
 :if ([:len [find name="toppornsites.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="gfw" match-subdomain=yes type=FWD name="toppornsites.com" }
 :if ([:len [find name="topsy.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="gfw" match-subdomain=yes type=FWD name="topsy.com" }
 :if ([:len [find name="toptoon.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="gfw" match-subdomain=yes type=FWD name="toptoon.net" }
+:if ([:len [find name="tor.eff.org"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="gfw" match-subdomain=yes type=FWD name="tor.eff.org" }
 :if ([:len [find name="torguard.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="gfw" match-subdomain=yes type=FWD name="torguard.net" }
 :if ([:len [find name="torlock.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="gfw" match-subdomain=yes type=FWD name="torlock.com" }
 :if ([:len [find name="torproject.org"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="gfw" match-subdomain=yes type=FWD name="torproject.org" }
@@ -150,4 +151,3 @@
 :if ([:len [find name="tunnelbear.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="gfw" match-subdomain=yes type=FWD name="tunnelbear.com" }
 :if ([:len [find name="tunnelblick.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="gfw" match-subdomain=yes type=FWD name="tunnelblick.net" }
 :if ([:len [find name="tunnelr.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="gfw" match-subdomain=yes type=FWD name="tunnelr.com" }
-:if ([:len [find name="tunsafe.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="gfw" match-subdomain=yes type=FWD name="tunsafe.com" }
