@@ -10,4 +10,5 @@
 :if ([:len [find name="kpdl.link"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="kinopub" match-subdomain=yes type=FWD name="kpdl.link" }
 :if ([:len [find name="mos-gorsud.co"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="kinopub" match-subdomain=yes type=FWD name="mos-gorsud.co" }
 :if ([:len [find name="pushbr.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="kinopub" match-subdomain=yes type=FWD name="pushbr.com" }
+:if ([:len [find name="smarttvcdn.online"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="kinopub" match-subdomain=yes type=FWD name="smarttvcdn.online" }
 :if ([:len [find regexp="(\\\\w+)-static-[0-9]+\\\\.cdntogo\\\\.net\$"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="kinopub" type=FWD regexp="(\\\\w+)-static-[0-9]+\\\\.cdntogo\\\\.net\$" }
