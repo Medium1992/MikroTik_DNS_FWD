@@ -43,6 +43,7 @@
 :if ([:len [find name="awsstatic.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="aws" match-subdomain=yes type=FWD name="awsstatic.com" }
 :if ([:len [find name="awsthinkbox.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="aws" match-subdomain=yes type=FWD name="awsthinkbox.com" }
 :if ([:len [find name="awstrack.me"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="aws" match-subdomain=yes type=FWD name="awstrack.me" }
+:if ([:len [find name="awswaf.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="aws" match-subdomain=yes type=FWD name="awswaf.com" }
 :if ([:len [find name="cdkworkshop.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="aws" match-subdomain=yes type=FWD name="cdkworkshop.com" }
 :if ([:len [find name="cloudfront-cn.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="aws" match-subdomain=yes type=FWD name="cloudfront-cn.net" }
 :if ([:len [find name="cloudfront.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="aws" match-subdomain=yes type=FWD name="cloudfront.com" }
