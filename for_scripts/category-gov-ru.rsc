@@ -29,6 +29,7 @@
 :if ([:len [find name="gosuslugi.ru"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-gov-ru" match-subdomain=yes type=FWD name="gosuslugi.ru" }
 :if ([:len [find name="gov.ru"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-gov-ru" match-subdomain=yes type=FWD name="gov.ru" }
 :if ([:len [find name="government.ru"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-gov-ru" match-subdomain=yes type=FWD name="government.ru" }
+:if ([:len [find name="grfc.ru"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-gov-ru" match-subdomain=yes type=FWD name="grfc.ru" }
 :if ([:len [find name="grozny.ru"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-gov-ru" match-subdomain=yes type=FWD name="grozny.ru" }
 :if ([:len [find name="gu-st.ru"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-gov-ru" match-subdomain=yes type=FWD name="gu-st.ru" }
 :if ([:len [find name="i-ola.ru"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-gov-ru" match-subdomain=yes type=FWD name="i-ola.ru" }
