@@ -23,4 +23,5 @@
 :if ([:len [find name="wbimg.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="sina" match-subdomain=yes type=FWD name="wbimg.com" }
 :if ([:len [find name="weibo.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="sina" match-subdomain=yes type=FWD name="weibo.com" }
 :if ([:len [find name="weibocdn.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="sina" match-subdomain=yes type=FWD name="weibocdn.com" }
+:if ([:len [find name="weibopay.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="sina" match-subdomain=yes type=FWD name="weibopay.com" }
 :if ([:len [find name="xhaiwai.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="sina" match-subdomain=yes type=FWD name="xhaiwai.com" }

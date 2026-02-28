@@ -1,6 +1,9 @@
 :global AddressList
 :global ForwardTo
 /ip dns static
+:if ([:len [find name="np-edge.itunes.apple.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="apple@cn" type=FWD name="np-edge.itunes.apple.com" }
+:if ([:len [find name="ocsp-lb.apple.com.akadns.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="apple@cn" type=FWD name="ocsp-lb.apple.com.akadns.net" }
+:if ([:len [find name="ocsp.apple.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="apple@cn" type=FWD name="ocsp.apple.com" }
 :if ([:len [find name="ocsp2-lb.apple.com.akadns.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="apple@cn" type=FWD name="ocsp2-lb.apple.com.akadns.net" }
 :if ([:len [find name="ocsp2.apple.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="apple@cn" type=FWD name="ocsp2.apple.com" }
 :if ([:len [find name="oscdn.apple.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="apple@cn" type=FWD name="oscdn.apple.com" }
@@ -36,6 +39,7 @@
 :if ([:len [find name="shazam-insights.cdn-apple.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="apple@cn" type=FWD name="shazam-insights.cdn-apple.com" }
 :if ([:len [find name="smp-device-content.apple.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="apple@cn" type=FWD name="smp-device-content.apple.com" }
 :if ([:len [find name="sp.itunes.apple.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="apple@cn" type=FWD name="sp.itunes.apple.com" }
+:if ([:len [find name="speedysub.music.apple.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="apple@cn" type=FWD name="speedysub.music.apple.com" }
 :if ([:len [find name="static.gc.apple.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="apple@cn" type=FWD name="static.gc.apple.com" }
 :if ([:len [find name="stocks-sparkline-lb.apple.com.akadns.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="apple@cn" type=FWD name="stocks-sparkline-lb.apple.com.akadns.net" }
 :if ([:len [find name="stocks-sparkline.apple.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="apple@cn" type=FWD name="stocks-sparkline.apple.com" }

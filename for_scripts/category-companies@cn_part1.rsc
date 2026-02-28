@@ -77,6 +77,7 @@
 :if ([:len [find name="amp-api-edge-lb-cn.itunes-apple.com.akadns.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies@cn" type=FWD name="amp-api-edge-lb-cn.itunes-apple.com.akadns.net" }
 :if ([:len [find name="amp-api-edge-lb.itunes-apple.com.akadns.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies@cn" type=FWD name="amp-api-edge-lb.itunes-apple.com.akadns.net" }
 :if ([:len [find name="amp-api-edge.apps.apple.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies@cn" type=FWD name="amp-api-edge.apps.apple.com" }
+:if ([:len [find name="amp-api-edge.music.apple.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies@cn" type=FWD name="amp-api-edge.music.apple.com" }
 :if ([:len [find name="amp-api-search-edge.apps.apple.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies@cn" type=FWD name="amp-api-search-edge.apps.apple.com" }
 :if ([:len [find name="amp-api-updates.apps.apple.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies@cn" type=FWD name="amp-api-updates.apps.apple.com" }
 :if ([:len [find name="amp-api.apps.apple.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies@cn" type=FWD name="amp-api.apps.apple.com" }
@@ -150,4 +151,3 @@
 :if ([:len [find name="client-api.itunes.apple.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies@cn" type=FWD name="client-api.itunes.apple.com" }
 :if ([:len [find name="clientflow.apple.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies@cn" type=FWD name="clientflow.apple.com" }
 :if ([:len [find name="clientflow.apple.com.akadns.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies@cn" type=FWD name="clientflow.apple.com.akadns.net" }
-:if ([:len [find name="clientperipherals.dell.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies@cn" type=FWD name="clientperipherals.dell.com" }

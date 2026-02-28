@@ -1,6 +1,10 @@
 :global AddressList
 :global ForwardTo
 /ip dns static
+:if ([:len [find name="p12.upd.kaspersky.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" type=FWD name="p12.upd.kaspersky.com" }
+:if ([:len [find name="p13.upd.kaspersky.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" type=FWD name="p13.upd.kaspersky.com" }
+:if ([:len [find name="p14.upd.kaspersky.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" type=FWD name="p14.upd.kaspersky.com" }
+:if ([:len [find name="p15.upd.kaspersky.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" type=FWD name="p15.upd.kaspersky.com" }
 :if ([:len [find name="p16.upd.kaspersky.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" type=FWD name="p16.upd.kaspersky.com" }
 :if ([:len [find name="p17.upd.kaspersky.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" type=FWD name="p17.upd.kaspersky.com" }
 :if ([:len [find name="p18.upd.kaspersky.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" type=FWD name="p18.upd.kaspersky.com" }
@@ -128,6 +132,7 @@
 :if ([:len [find name="snpi.dell.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" type=FWD name="snpi.dell.com" }
 :if ([:len [find name="software.download.prss.microsoft.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" type=FWD name="software.download.prss.microsoft.com" }
 :if ([:len [find name="sp.itunes.apple.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" type=FWD name="sp.itunes.apple.com" }
+:if ([:len [find name="speedysub.music.apple.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" type=FWD name="speedysub.music.apple.com" }
 :if ([:len [find name="ssl-google-analytics.l.google.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" type=FWD name="ssl-google-analytics.l.google.com" }
 :if ([:len [find name="ssl.gstatic.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" type=FWD name="ssl.gstatic.com" }
 :if ([:len [find name="sslredirect.corp.google.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" type=FWD name="sslredirect.corp.google.com" }
@@ -146,8 +151,3 @@
 :if ([:len [find name="store.apple.com.edgekey.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" type=FWD name="store.apple.com.edgekey.net" }
 :if ([:len [find name="store.apple.com.edgekey.net.globalredir.akadns.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" type=FWD name="store.apple.com.edgekey.net.globalredir.akadns.net" }
 :if ([:len [find name="store.storeimages.apple.com.akadns.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" type=FWD name="store.storeimages.apple.com.akadns.net" }
-:if ([:len [find name="store.storeimages.cdn-apple.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" type=FWD name="store.storeimages.cdn-apple.com" }
-:if ([:len [find name="storeedgefd.dsx.mp.microsoft.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" type=FWD name="storeedgefd.dsx.mp.microsoft.com" }
-:if ([:len [find name="streaming-uberproxy-rotation.corp.google.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" type=FWD name="streaming-uberproxy-rotation.corp.google.com" }
-:if ([:len [find name="streaming-uberproxy.corp.google.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" type=FWD name="streaming-uberproxy.corp.google.com" }
-:if ([:len [find name="streamingaudio.itunes.apple.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" type=FWD name="streamingaudio.itunes.apple.com" }

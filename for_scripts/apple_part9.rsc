@@ -44,6 +44,7 @@
 :if ([:len [find name="amp-api-edge-lb-cn.itunes-apple.com.akadns.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="apple" type=FWD name="amp-api-edge-lb-cn.itunes-apple.com.akadns.net" }
 :if ([:len [find name="amp-api-edge-lb.itunes-apple.com.akadns.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="apple" type=FWD name="amp-api-edge-lb.itunes-apple.com.akadns.net" }
 :if ([:len [find name="amp-api-edge.apps.apple.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="apple" type=FWD name="amp-api-edge.apps.apple.com" }
+:if ([:len [find name="amp-api-edge.music.apple.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="apple" type=FWD name="amp-api-edge.music.apple.com" }
 :if ([:len [find name="amp-api-search-edge.apps.apple.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="apple" type=FWD name="amp-api-search-edge.apps.apple.com" }
 :if ([:len [find name="amp-api-updates.apps.apple.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="apple" type=FWD name="amp-api-updates.apps.apple.com" }
 :if ([:len [find name="amp-api.apps.apple.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="apple" type=FWD name="amp-api.apps.apple.com" }
@@ -150,4 +151,3 @@
 :if ([:len [find name="inappcheck.itunes.apple.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="apple" type=FWD name="inappcheck.itunes.apple.com" }
 :if ([:len [find name="ingest.apple-studies.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="apple" type=FWD name="ingest.apple-studies.com" }
 :if ([:len [find name="init-kt.apple.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="apple" type=FWD name="init-kt.apple.com" }
-:if ([:len [find name="init-p01md-lb.push-apple.com.akadns.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="apple" type=FWD name="init-p01md-lb.push-apple.com.akadns.net" }
