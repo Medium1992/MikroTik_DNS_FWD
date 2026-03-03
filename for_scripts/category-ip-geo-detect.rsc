@@ -5,6 +5,7 @@
 :if ([:len [find name="2ip.ru"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-ip-geo-detect" match-subdomain=yes type=FWD name="2ip.ru" }
 :if ([:len [find name="abstractapi.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-ip-geo-detect" match-subdomain=yes type=FWD name="abstractapi.com" }
 :if ([:len [find name="bigdatacloud.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-ip-geo-detect" match-subdomain=yes type=FWD name="bigdatacloud.net" }
+:if ([:len [find name="check-host.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-ip-geo-detect" match-subdomain=yes type=FWD name="check-host.net" }
 :if ([:len [find name="db-ip.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-ip-geo-detect" match-subdomain=yes type=FWD name="db-ip.com" }
 :if ([:len [find name="extreme-ip-lookup.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-ip-geo-detect" match-subdomain=yes type=FWD name="extreme-ip-lookup.com" }
 :if ([:len [find name="fraudguard.io"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-ip-geo-detect" match-subdomain=yes type=FWD name="fraudguard.io" }
