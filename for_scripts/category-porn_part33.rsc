@@ -1,6 +1,8 @@
 :global AddressList
 :global ForwardTo
 /ip dns static
+:if ([:len [find name="sex-for-work.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-porn" match-subdomain=yes type=FWD name="sex-for-work.com" }
+:if ([:len [find name="sex-gif.org"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-porn" match-subdomain=yes type=FWD name="sex-gif.org" }
 :if ([:len [find name="sex-hay.pro"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-porn" match-subdomain=yes type=FWD name="sex-hay.pro" }
 :if ([:len [find name="sex-hot-sites.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-porn" match-subdomain=yes type=FWD name="sex-hot-sites.com" }
 :if ([:len [find name="sex-ly.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-porn" match-subdomain=yes type=FWD name="sex-ly.com" }
@@ -149,5 +151,3 @@
 :if ([:len [find name="sexybabesz.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-porn" match-subdomain=yes type=FWD name="sexybabesz.com" }
 :if ([:len [find name="sexycandidgirls.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-porn" match-subdomain=yes type=FWD name="sexycandidgirls.com" }
 :if ([:len [find name="sexyculo.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-porn" match-subdomain=yes type=FWD name="sexyculo.com" }
-:if ([:len [find name="sexyfeet.tv"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-porn" match-subdomain=yes type=FWD name="sexyfeet.tv" }
-:if ([:len [find name="sexyfuckgames.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-porn" match-subdomain=yes type=FWD name="sexyfuckgames.com" }

@@ -1,6 +1,8 @@
 :global AddressList
 :global ForwardTo
 /ip dns static
+:if ([:len [find name="nintendo3ds.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" match-subdomain=yes type=FWD name="nintendo3ds.com" }
+:if ([:len [find name="nintendodsi.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" match-subdomain=yes type=FWD name="nintendodsi.com" }
 :if ([:len [find name="nintendoeurope.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" match-subdomain=yes type=FWD name="nintendoeurope.com" }
 :if ([:len [find name="nintendonetwork.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" match-subdomain=yes type=FWD name="nintendonetwork.net" }
 :if ([:len [find name="nintendonyc.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" match-subdomain=yes type=FWD name="nintendonyc.com" }
@@ -149,5 +151,3 @@
 :if ([:len [find name="ntp3.jst.mfeed.ad.jp"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" match-subdomain=yes type=FWD name="ntp3.jst.mfeed.ad.jp" }
 :if ([:len [find name="ntp3.v6.mfeed.ad.jp"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" match-subdomain=yes type=FWD name="ntp3.v6.mfeed.ad.jp" }
 :if ([:len [find name="ntten-mg.buzz"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" match-subdomain=yes type=FWD name="ntten-mg.buzz" }
-:if ([:len [find name="nu-bay.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" match-subdomain=yes type=FWD name="nu-bay.com" }
-:if ([:len [find name="nu36.vip"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" match-subdomain=yes type=FWD name="nu36.vip" }

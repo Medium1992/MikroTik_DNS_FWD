@@ -1,8 +1,6 @@
 :global AddressList
 :global ForwardTo
 /ip dns static
-:if ([:len [find name="0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.ip6.arpa"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="private" match-subdomain=yes type=FWD name="0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.ip6.arpa" }
-:if ([:len [find name="0.in-addr.arpa"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="private" match-subdomain=yes type=FWD name="0.in-addr.arpa" }
 :if ([:len [find name="1.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.ip6.arpa"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="private" match-subdomain=yes type=FWD name="1.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.ip6.arpa" }
 :if ([:len [find name="10.in-addr.arpa"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="private" match-subdomain=yes type=FWD name="10.in-addr.arpa" }
 :if ([:len [find name="100.100.in-addr.arpa"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="private" match-subdomain=yes type=FWD name="100.100.in-addr.arpa" }

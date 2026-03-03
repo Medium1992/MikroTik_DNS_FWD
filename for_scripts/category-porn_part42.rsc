@@ -1,6 +1,8 @@
 :global AddressList
 :global ForwardTo
 /ip dns static
+:if ([:len [find name="xxxpenguin.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-porn" match-subdomain=yes type=FWD name="xxxpenguin.com" }
+:if ([:len [find name="xxxpicz.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-porn" match-subdomain=yes type=FWD name="xxxpicz.com" }
 :if ([:len [find name="xxxporn.su"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-porn" match-subdomain=yes type=FWD name="xxxporn.su" }
 :if ([:len [find name="xxxporn123.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-porn" match-subdomain=yes type=FWD name="xxxporn123.com" }
 :if ([:len [find name="xxxporndig.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-porn" match-subdomain=yes type=FWD name="xxxporndig.com" }
@@ -149,5 +151,3 @@
 :if ([:len [find name="ysav184.xyz"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-porn" match-subdomain=yes type=FWD name="ysav184.xyz" }
 :if ([:len [find name="ysg-link.sbs"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-porn" match-subdomain=yes type=FWD name="ysg-link.sbs" }
 :if ([:len [find name="yskg-ber.buzz"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-porn" match-subdomain=yes type=FWD name="yskg-ber.buzz" }
-:if ([:len [find name="ysporn.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-porn" match-subdomain=yes type=FWD name="ysporn.com" }
-:if ([:len [find name="yuenuge113.xyz"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-porn" match-subdomain=yes type=FWD name="yuenuge113.xyz" }
