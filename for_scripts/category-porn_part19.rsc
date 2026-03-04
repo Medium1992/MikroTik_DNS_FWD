@@ -106,6 +106,7 @@
 :if ([:len [find name="jadult.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-porn" match-subdomain=yes type=FWD name="jadult.net" }
 :if ([:len [find name="jambotube.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-porn" match-subdomain=yes type=FWD name="jambotube.com" }
 :if ([:len [find name="janor6.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-porn" match-subdomain=yes type=FWD name="janor6.net" }
+:if ([:len [find name="japan-illgames.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-porn" match-subdomain=yes type=FWD name="japan-illgames.com" }
 :if ([:len [find name="japan-whores.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-porn" match-subdomain=yes type=FWD name="japan-whores.com" }
 :if ([:len [find name="japan18tube.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-porn" match-subdomain=yes type=FWD name="japan18tube.com" }
 :if ([:len [find name="japanbeast.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-porn" match-subdomain=yes type=FWD name="japanbeast.com" }
@@ -150,4 +151,3 @@
 :if ([:len [find name="javbangers.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-porn" match-subdomain=yes type=FWD name="javbangers.com" }
 :if ([:len [find name="javbest.tv"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-porn" match-subdomain=yes type=FWD name="javbest.tv" }
 :if ([:len [find name="javbobo.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-porn" match-subdomain=yes type=FWD name="javbobo.com" }
-:if ([:len [find name="javbooks.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-porn" match-subdomain=yes type=FWD name="javbooks.com" }

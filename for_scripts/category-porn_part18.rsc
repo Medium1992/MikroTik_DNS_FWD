@@ -1,6 +1,7 @@
 :global AddressList
 :global ForwardTo
 /ip dns static
+:if ([:len [find name="hornygirlsonline.org"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-porn" match-subdomain=yes type=FWD name="hornygirlsonline.org" }
 :if ([:len [find name="hornyjav.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-porn" match-subdomain=yes type=FWD name="hornyjav.com" }
 :if ([:len [find name="hornywhores.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-porn" match-subdomain=yes type=FWD name="hornywhores.net" }
 :if ([:len [find name="horse-cum.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-porn" match-subdomain=yes type=FWD name="horse-cum.net" }
@@ -142,8 +143,7 @@
 :if ([:len [find name="ikanhm.xyz"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-porn" match-subdomain=yes type=FWD name="ikanhm.xyz" }
 :if ([:len [find name="ikanmh.xyz"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-porn" match-subdomain=yes type=FWD name="ikanmh.xyz" }
 :if ([:len [find name="iknowthatgirl.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-porn" match-subdomain=yes type=FWD name="iknowthatgirl.com" }
-:if ([:len [find name="illusion.co.jp"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-porn" match-subdomain=yes type=FWD name="illusion.co.jp" }
-:if ([:len [find name="illusion.jp"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-porn" match-subdomain=yes type=FWD name="illusion.jp" }
+:if ([:len [find name="illgames.jp"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-porn" match-subdomain=yes type=FWD name="illgames.jp" }
 :if ([:len [find name="illusion111.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-porn" match-subdomain=yes type=FWD name="illusion111.com" }
 :if ([:len [find name="illusionas.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-porn" match-subdomain=yes type=FWD name="illusionas.com" }
 :if ([:len [find name="illusionchn.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-porn" match-subdomain=yes type=FWD name="illusionchn.com" }

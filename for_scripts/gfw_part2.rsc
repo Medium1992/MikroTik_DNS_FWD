@@ -82,6 +82,7 @@
 :if ([:len [find name="arte.tv"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="gfw" match-subdomain=yes type=FWD name="arte.tv" }
 :if ([:len [find name="artstation.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="gfw" match-subdomain=yes type=FWD name="artstation.com" }
 :if ([:len [find name="arvanstorage.ir"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="gfw" match-subdomain=yes type=FWD name="arvanstorage.ir" }
+:if ([:len [find name="arweave.org"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="gfw" match-subdomain=yes type=FWD name="arweave.org" }
 :if ([:len [find name="asacp.org"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="gfw" match-subdomain=yes type=FWD name="asacp.org" }
 :if ([:len [find name="asiaharvest.org"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="gfw" match-subdomain=yes type=FWD name="asiaharvest.org" }
 :if ([:len [find name="asianage.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="gfw" match-subdomain=yes type=FWD name="asianage.com" }
@@ -150,4 +151,3 @@
 :if ([:len [find name="bb-chat.tv"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="gfw" match-subdomain=yes type=FWD name="bb-chat.tv" }
 :if ([:len [find name="bbc.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="gfw" match-subdomain=yes type=FWD name="bbc.com" }
 :if ([:len [find name="bbc.pdn.tritondigital.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="gfw" match-subdomain=yes type=FWD name="bbc.pdn.tritondigital.com" }
-:if ([:len [find name="bbcchinese.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="gfw" match-subdomain=yes type=FWD name="bbcchinese.com" }

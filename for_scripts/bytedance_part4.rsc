@@ -38,6 +38,7 @@
 :if ([:len [find name="trae.guru"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="bytedance" match-subdomain=yes type=FWD name="trae.guru" }
 :if ([:len [find name="ttbyte.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="bytedance" match-subdomain=yes type=FWD name="ttbyte.com" }
 :if ([:len [find name="ttbyte.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="bytedance" match-subdomain=yes type=FWD name="ttbyte.net" }
+:if ([:len [find name="ttcdn-us.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="bytedance" match-subdomain=yes type=FWD name="ttcdn-us.com" }
 :if ([:len [find name="ttgslb.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="bytedance" match-subdomain=yes type=FWD name="ttgslb.com" }
 :if ([:len [find name="ttgtm.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="bytedance" match-subdomain=yes type=FWD name="ttgtm.com" }
 :if ([:len [find name="ttjisu.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="bytedance" match-subdomain=yes type=FWD name="ttjisu.com" }
@@ -150,4 +151,3 @@
 :if ([:len [find name="volctranscdn.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="bytedance" match-subdomain=yes type=FWD name="volctranscdn.com" }
 :if ([:len [find name="volcvideo.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="bytedance" match-subdomain=yes type=FWD name="volcvideo.com" }
 :if ([:len [find name="volcvideos.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="bytedance" match-subdomain=yes type=FWD name="volcvideos.com" }
-:if ([:len [find name="volcvms.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="bytedance" match-subdomain=yes type=FWD name="volcvms.com" }

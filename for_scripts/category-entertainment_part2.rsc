@@ -137,6 +137,7 @@
 :if ([:len [find name="disneyworld-go.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-entertainment" match-subdomain=yes type=FWD name="disneyworld-go.com" }
 :if ([:len [find name="dkr.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-entertainment" match-subdomain=yes type=FWD name="dkr.com" }
 :if ([:len [find name="dl.steam.clngaa.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-entertainment" match-subdomain=yes type=FWD name="dl.steam.clngaa.com" }
+:if ([:len [find name="dlaf.jp"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-entertainment" match-subdomain=yes type=FWD name="dlaf.jp" }
 :if ([:len [find name="dlsite.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-entertainment" match-subdomain=yes type=FWD name="dlsite.com" }
 :if ([:len [find name="dlsite.com.tw"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-entertainment" match-subdomain=yes type=FWD name="dlsite.com.tw" }
 :if ([:len [find name="dlsite.jp"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-entertainment" match-subdomain=yes type=FWD name="dlsite.jp" }
@@ -150,4 +151,3 @@
 :if ([:len [find name="dokusho-ojikan.jp"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-entertainment" match-subdomain=yes type=FWD name="dokusho-ojikan.jp" }
 :if ([:len [find name="donkeykongcountryreturns.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-entertainment" match-subdomain=yes type=FWD name="donkeykongcountryreturns.com" }
 :if ([:len [find name="doom.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-entertainment" match-subdomain=yes type=FWD name="doom.com" }
-:if ([:len [find name="dragonage.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-entertainment" match-subdomain=yes type=FWD name="dragonage.com" }

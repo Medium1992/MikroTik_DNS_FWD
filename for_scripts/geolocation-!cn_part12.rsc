@@ -73,6 +73,7 @@
 :if ([:len [find name="artstor.org"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" match-subdomain=yes type=FWD name="artstor.org" }
 :if ([:len [find name="artstorm.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" match-subdomain=yes type=FWD name="artstorm.com" }
 :if ([:len [find name="arvanstorage.ir"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" match-subdomain=yes type=FWD name="arvanstorage.ir" }
+:if ([:len [find name="arweave.org"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" match-subdomain=yes type=FWD name="arweave.org" }
 :if ([:len [find name="arxiv.org"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" match-subdomain=yes type=FWD name="arxiv.org" }
 :if ([:len [find name="arzon.jp"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" match-subdomain=yes type=FWD name="arzon.jp" }
 :if ([:len [find name="asacp.org"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" match-subdomain=yes type=FWD name="asacp.org" }
@@ -150,4 +151,3 @@
 :if ([:len [find name="assets.nxtrace.org"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" match-subdomain=yes type=FWD name="assets.nxtrace.org" }
 :if ([:len [find name="assetsadobe.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" match-subdomain=yes type=FWD name="assetsadobe.com" }
 :if ([:len [find name="assimp.org"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" match-subdomain=yes type=FWD name="assimp.org" }
-:if ([:len [find name="assistirhentai.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" match-subdomain=yes type=FWD name="assistirhentai.com" }

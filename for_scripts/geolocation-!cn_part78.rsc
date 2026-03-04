@@ -1,6 +1,9 @@
 :global AddressList
 :global ForwardTo
 /ip dns static
+:if ([:len [find name="mediachinese.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" match-subdomain=yes type=FWD name="mediachinese.com" }
+:if ([:len [find name="mediaclip.jp"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" match-subdomain=yes type=FWD name="mediaclip.jp" }
+:if ([:len [find name="mediafiles-cisco.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" match-subdomain=yes type=FWD name="mediafiles-cisco.com" }
 :if ([:len [find name="mediafreakcity.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" match-subdomain=yes type=FWD name="mediafreakcity.com" }
 :if ([:len [find name="mediasama.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" match-subdomain=yes type=FWD name="mediasama.com" }
 :if ([:len [find name="mediawiki.org"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" match-subdomain=yes type=FWD name="mediawiki.org" }
@@ -148,6 +151,3 @@
 :if ([:len [find name="microsoftapp.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" match-subdomain=yes type=FWD name="microsoftapp.net" }
 :if ([:len [find name="microsoftazuread-sso.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" match-subdomain=yes type=FWD name="microsoftazuread-sso.com" }
 :if ([:len [find name="microsoftazuresponsorships.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" match-subdomain=yes type=FWD name="microsoftazuresponsorships.com" }
-:if ([:len [find name="microsoftcloud.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" match-subdomain=yes type=FWD name="microsoftcloud.com" }
-:if ([:len [find name="microsoftcloudsummit.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" match-subdomain=yes type=FWD name="microsoftcloudsummit.com" }
-:if ([:len [find name="microsoftcloudworkshop.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" match-subdomain=yes type=FWD name="microsoftcloudworkshop.com" }

@@ -1,6 +1,7 @@
 :global AddressList
 :global ForwardTo
 /ip dns static
+:if ([:len [find name="nakedgirlpic.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-porn" match-subdomain=yes type=FWD name="nakedgirlpic.com" }
 :if ([:len [find name="nakedgirls.biz"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-porn" match-subdomain=yes type=FWD name="nakedgirls.biz" }
 :if ([:len [find name="nakedmodelsxxx.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-porn" match-subdomain=yes type=FWD name="nakedmodelsxxx.com" }
 :if ([:len [find name="nakednews.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-porn" match-subdomain=yes type=FWD name="nakednews.com" }
@@ -150,4 +151,3 @@
 :if ([:len [find name="nudevista.link"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-porn" match-subdomain=yes type=FWD name="nudevista.link" }
 :if ([:len [find name="nudevista.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-porn" match-subdomain=yes type=FWD name="nudevista.net" }
 :if ([:len [find name="nudevista.vip"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-porn" match-subdomain=yes type=FWD name="nudevista.vip" }
-:if ([:len [find name="nudewifeporn.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-porn" match-subdomain=yes type=FWD name="nudewifeporn.com" }

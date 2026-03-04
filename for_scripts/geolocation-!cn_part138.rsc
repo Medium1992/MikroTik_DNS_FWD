@@ -1,6 +1,11 @@
 :global AddressList
 :global ForwardTo
 /ip dns static
+:if ([:len [find name="mtalk-dev.google.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" type=FWD name="mtalk-dev.google.com" }
+:if ([:len [find name="mtalk-staging.google.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" type=FWD name="mtalk-staging.google.com" }
+:if ([:len [find name="mtalk.google.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" type=FWD name="mtalk.google.com" }
+:if ([:len [find name="mtalk4.google.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" type=FWD name="mtalk4.google.com" }
+:if ([:len [find name="muse.jhu.edu"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" type=FWD name="muse.jhu.edu" }
 :if ([:len [find name="mwf-service.akamaized.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" type=FWD name="mwf-service.akamaized.net" }
 :if ([:len [find name="na1r.services.adobe.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" type=FWD name="na1r.services.adobe.com" }
 :if ([:len [find name="nab.demdex.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" type=FWD name="nab.demdex.net" }
@@ -146,8 +151,3 @@
 :if ([:len [find name="tesla-cdn.thron.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" type=FWD name="tesla-cdn.thron.com" }
 :if ([:len [find name="time-a-b.nist.gov"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" type=FWD name="time-a-b.nist.gov" }
 :if ([:len [find name="time-a-g.nist.gov"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" type=FWD name="time-a-g.nist.gov" }
-:if ([:len [find name="time-a-wwv.nist.gov"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" type=FWD name="time-a-wwv.nist.gov" }
-:if ([:len [find name="time-b-b.nist.gov"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" type=FWD name="time-b-b.nist.gov" }
-:if ([:len [find name="time-b-g.nist.gov"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" type=FWD name="time-b-g.nist.gov" }
-:if ([:len [find name="time-b-wwv.nist.gov"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" type=FWD name="time-b-wwv.nist.gov" }
-:if ([:len [find name="time-c-b.nist.gov"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" type=FWD name="time-c-b.nist.gov" }

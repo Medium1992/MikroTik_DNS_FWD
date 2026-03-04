@@ -58,8 +58,6 @@
 :if ([:len [find name="humblebundle.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-games-!cn" match-subdomain=yes type=FWD name="humblebundle.com" }
 :if ([:len [find name="hutpromos.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-games-!cn" match-subdomain=yes type=FWD name="hutpromos.com" }
 :if ([:len [find name="hyprsense.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-games-!cn" match-subdomain=yes type=FWD name="hyprsense.com" }
-:if ([:len [find name="illusion.co.jp"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-games-!cn" match-subdomain=yes type=FWD name="illusion.co.jp" }
-:if ([:len [find name="illusion.jp"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-games-!cn" match-subdomain=yes type=FWD name="illusion.jp" }
 :if ([:len [find name="industrialtoys.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-games-!cn" match-subdomain=yes type=FWD name="industrialtoys.com" }
 :if ([:len [find name="instituteofwar.org"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-games-!cn" match-subdomain=yes type=FWD name="instituteofwar.org" }
 :if ([:len [find name="itch.io"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-games-!cn" match-subdomain=yes type=FWD name="itch.io" }
@@ -151,3 +149,5 @@
 :if ([:len [find name="nexon.io"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-games-!cn" match-subdomain=yes type=FWD name="nexon.io" }
 :if ([:len [find name="nexus-cdn.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-games-!cn" match-subdomain=yes type=FWD name="nexus-cdn.com" }
 :if ([:len [find name="nexusmods.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-games-!cn" match-subdomain=yes type=FWD name="nexusmods.com" }
+:if ([:len [find name="nfsworld.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-games-!cn" match-subdomain=yes type=FWD name="nfsworld.com" }
+:if ([:len [find name="nikke-de.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-games-!cn" match-subdomain=yes type=FWD name="nikke-de.com" }

@@ -36,6 +36,7 @@
 :if ([:len [find name="deepmind.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-ai-!cn" match-subdomain=yes type=FWD name="deepmind.com" }
 :if ([:len [find name="deepmind.google"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-ai-!cn" match-subdomain=yes type=FWD name="deepmind.google" }
 :if ([:len [find name="diabrowser.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-ai-!cn" match-subdomain=yes type=FWD name="diabrowser.com" }
+:if ([:len [find name="diabrowser.engineering"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-ai-!cn" match-subdomain=yes type=FWD name="diabrowser.engineering" }
 :if ([:len [find name="dola.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-ai-!cn" match-subdomain=yes type=FWD name="dola.com" }
 :if ([:len [find name="elevenlabs.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-ai-!cn" match-subdomain=yes type=FWD name="elevenlabs.com" }
 :if ([:len [find name="elevenlabs.io"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-ai-!cn" match-subdomain=yes type=FWD name="elevenlabs.io" }
