@@ -28,6 +28,7 @@
 :if ([:len [find name="tiktokv.us"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-entertainment@!cn" match-subdomain=yes type=FWD name="tiktokv.us" }
 :if ([:len [find name="tiktokw.eu"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-entertainment@!cn" match-subdomain=yes type=FWD name="tiktokw.eu" }
 :if ([:len [find name="tiktokw.us"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-entertainment@!cn" match-subdomain=yes type=FWD name="tiktokw.us" }
+:if ([:len [find name="ttcdn-us.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-entertainment@!cn" match-subdomain=yes type=FWD name="ttcdn-us.com" }
 :if ([:len [find name="ttlivecdn.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-entertainment@!cn" match-subdomain=yes type=FWD name="ttlivecdn.com" }
 :if ([:len [find name="ttoverseaus.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-entertainment@!cn" match-subdomain=yes type=FWD name="ttoverseaus.net" }
 :if ([:len [find name="ttwstatic.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-entertainment@!cn" match-subdomain=yes type=FWD name="ttwstatic.com" }

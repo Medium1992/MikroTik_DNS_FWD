@@ -4,6 +4,7 @@
 :if ([:len [find name="chobit.cc"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="dlsite" match-subdomain=yes type=FWD name="chobit.cc" }
 :if ([:len [find name="ci-en.jp"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="dlsite" match-subdomain=yes type=FWD name="ci-en.jp" }
 :if ([:len [find name="ci-en.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="dlsite" match-subdomain=yes type=FWD name="ci-en.net" }
+:if ([:len [find name="dlaf.jp"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="dlsite" match-subdomain=yes type=FWD name="dlaf.jp" }
 :if ([:len [find name="dlsite.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="dlsite" match-subdomain=yes type=FWD name="dlsite.com" }
 :if ([:len [find name="dlsite.com.tw"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="dlsite" match-subdomain=yes type=FWD name="dlsite.com.tw" }
 :if ([:len [find name="dlsite.jp"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="dlsite" match-subdomain=yes type=FWD name="dlsite.jp" }

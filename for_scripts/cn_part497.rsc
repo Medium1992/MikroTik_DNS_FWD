@@ -1,6 +1,7 @@
 :global AddressList
 :global ForwardTo
 /ip dns static
+:if ([:len [find name="pagescube.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="cn" match-subdomain=yes type=FWD name="pagescube.com" }
 :if ([:len [find name="pageseagle.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="cn" match-subdomain=yes type=FWD name="pageseagle.com" }
 :if ([:len [find name="pagetu.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="cn" match-subdomain=yes type=FWD name="pagetu.com" }
 :if ([:len [find name="pahhhf.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="cn" match-subdomain=yes type=FWD name="pahhhf.com" }
@@ -150,4 +151,3 @@
 :if ([:len [find name="pangolin-sdk-toutiao2.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="cn" match-subdomain=yes type=FWD name="pangolin-sdk-toutiao2.com" }
 :if ([:len [find name="pangolin-sdk-toutiao3.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="cn" match-subdomain=yes type=FWD name="pangolin-sdk-toutiao3.com" }
 :if ([:len [find name="pangolin-sdk-toutiao4.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="cn" match-subdomain=yes type=FWD name="pangolin-sdk-toutiao4.com" }
-:if ([:len [find name="pangomicro.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="cn" match-subdomain=yes type=FWD name="pangomicro.com" }
