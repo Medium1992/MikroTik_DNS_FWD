@@ -7,6 +7,7 @@
 :if ([:len [find name="intellij.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="jetbrains" match-subdomain=yes type=FWD name="intellij.net" }
 :if ([:len [find name="intellij.org"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="jetbrains" match-subdomain=yes type=FWD name="intellij.org" }
 :if ([:len [find name="jb.gg"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="jetbrains" match-subdomain=yes type=FWD name="jb.gg" }
+:if ([:len [find name="jetbrains.cloud"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="jetbrains" match-subdomain=yes type=FWD name="jetbrains.cloud" }
 :if ([:len [find name="jetbrains.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="jetbrains" match-subdomain=yes type=FWD name="jetbrains.com" }
 :if ([:len [find name="jetbrains.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="jetbrains" match-subdomain=yes type=FWD name="jetbrains.net" }
 :if ([:len [find name="jetbrains.space"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="jetbrains" match-subdomain=yes type=FWD name="jetbrains.space" }
