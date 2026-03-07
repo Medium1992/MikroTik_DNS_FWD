@@ -8,4 +8,7 @@
 :if ([:len [find name="apkpures.xyz"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-android-app-download" match-subdomain=yes type=FWD name="apkpures.xyz" }
 :if ([:len [find name="cdnpure.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-android-app-download" match-subdomain=yes type=FWD name="cdnpure.com" }
 :if ([:len [find name="pureapk.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-android-app-download" match-subdomain=yes type=FWD name="pureapk.com" }
+:if ([:len [find name="uptodown.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-android-app-download" match-subdomain=yes type=FWD name="uptodown.com" }
+:if ([:len [find name="utdstc.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-android-app-download" match-subdomain=yes type=FWD name="utdstc.com" }
 :if ([:len [find name="winudf.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-android-app-download" match-subdomain=yes type=FWD name="winudf.com" }
+:if ([:len [find name="apkmirror.disqus.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-android-app-download" type=FWD name="apkmirror.disqus.com" }
