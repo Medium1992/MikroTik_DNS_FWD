@@ -75,6 +75,7 @@
 :if ([:len [find name="bunnycdn.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-cdn-!cn" match-subdomain=yes type=FWD name="bunnycdn.com" }
 :if ([:len [find name="cdn77.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-cdn-!cn" match-subdomain=yes type=FWD name="cdn77.com" }
 :if ([:len [find name="cdn77.org"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-cdn-!cn" match-subdomain=yes type=FWD name="cdn77.org" }
+:if ([:len [find name="cdnjs.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-cdn-!cn" match-subdomain=yes type=FWD name="cdnjs.com" }
 :if ([:len [find name="cf-china.info"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-cdn-!cn" match-subdomain=yes type=FWD name="cf-china.info" }
 :if ([:len [find name="cf-ipfs.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-cdn-!cn" match-subdomain=yes type=FWD name="cf-ipfs.com" }
 :if ([:len [find name="cf-ns.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-cdn-!cn" match-subdomain=yes type=FWD name="cf-ns.com" }
@@ -133,6 +134,7 @@
 :if ([:len [find name="edgekey88.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-cdn-!cn" match-subdomain=yes type=FWD name="edgekey88.net" }
 :if ([:len [find name="edgesuite.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-cdn-!cn" match-subdomain=yes type=FWD name="edgesuite.net" }
 :if ([:len [find name="encryptedsni.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-cdn-!cn" match-subdomain=yes type=FWD name="encryptedsni.com" }
+:if ([:len [find name="esm.run"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-cdn-!cn" match-subdomain=yes type=FWD name="esm.run" }
 :if ([:len [find name="every1dns.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-cdn-!cn" match-subdomain=yes type=FWD name="every1dns.net" }
 :if ([:len [find name="fastly-edge.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-cdn-!cn" match-subdomain=yes type=FWD name="fastly-edge.com" }
 :if ([:len [find name="fastly-terrarium.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-cdn-!cn" match-subdomain=yes type=FWD name="fastly-terrarium.com" }
@@ -149,5 +151,3 @@
 :if ([:len [find name="imagedelivery.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-cdn-!cn" match-subdomain=yes type=FWD name="imagedelivery.net" }
 :if ([:len [find name="imgix.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-cdn-!cn" match-subdomain=yes type=FWD name="imgix.com" }
 :if ([:len [find name="imgix.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-cdn-!cn" match-subdomain=yes type=FWD name="imgix.net" }
-:if ([:len [find name="isbgpsafeyet.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-cdn-!cn" match-subdomain=yes type=FWD name="isbgpsafeyet.com" }
-:if ([:len [find name="janrain.biz"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-cdn-!cn" match-subdomain=yes type=FWD name="janrain.biz" }

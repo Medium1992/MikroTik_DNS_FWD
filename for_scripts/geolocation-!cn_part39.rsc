@@ -44,6 +44,7 @@
 :if ([:len [find name="dynamobuilds.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" match-subdomain=yes type=FWD name="dynamobuilds.com" }
 :if ([:len [find name="dynamopackages.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" match-subdomain=yes type=FWD name="dynamopackages.com" }
 :if ([:len [find name="dynamoreach.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" match-subdomain=yes type=FWD name="dynamoreach.com" }
+:if ([:len [find name="dynatrace.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" match-subdomain=yes type=FWD name="dynatrace.com" }
 :if ([:len [find name="dynawebinc.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" match-subdomain=yes type=FWD name="dynawebinc.com" }
 :if ([:len [find name="dyncdn.me"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" match-subdomain=yes type=FWD name="dyncdn.me" }
 :if ([:len [find name="dynu.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" match-subdomain=yes type=FWD name="dynu.com" }
@@ -150,4 +151,3 @@
 :if ([:len [find name="ebaycdn.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" match-subdomain=yes type=FWD name="ebaycdn.net" }
 :if ([:len [find name="ebaychina.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" match-subdomain=yes type=FWD name="ebaychina.net" }
 :if ([:len [find name="ebayclassifieds.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" match-subdomain=yes type=FWD name="ebayclassifieds.com" }
-:if ([:len [find name="ebayclassifieds.info"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" match-subdomain=yes type=FWD name="ebayclassifieds.info" }

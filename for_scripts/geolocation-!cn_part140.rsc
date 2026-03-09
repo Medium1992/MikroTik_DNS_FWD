@@ -1,6 +1,8 @@
 :global AddressList
 :global ForwardTo
 /ip dns static
+:if ([:len [find name="wwis-dubc1-vip34.adobe.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" type=FWD name="wwis-dubc1-vip34.adobe.com" }
+:if ([:len [find name="wwis-dubc1-vip35.adobe.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" type=FWD name="wwis-dubc1-vip35.adobe.com" }
 :if ([:len [find name="wwis-dubc1-vip36.adobe.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" type=FWD name="wwis-dubc1-vip36.adobe.com" }
 :if ([:len [find name="wwis-dubc1-vip37.adobe.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" type=FWD name="wwis-dubc1-vip37.adobe.com" }
 :if ([:len [find name="wwis-dubc1-vip38.adobe.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" type=FWD name="wwis-dubc1-vip38.adobe.com" }
@@ -149,5 +151,3 @@
 :if ([:len [find regexp="(^|\\\\.)jmtt\\\\.(app|live|tv|vip)\$"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" type=FWD regexp="(^|\\\\.)jmtt\\\\.(app|live|tv|vip)\$" }
 :if ([:len [find regexp="(^|\\\\.)jstv[0-9]{2}\\\\.com\$"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" type=FWD regexp="(^|\\\\.)jstv[0-9]{2}\\\\.com\$" }
 :if ([:len [find regexp="(^|\\\\.)kdfl[0-9]{2}\\\\.xyz\$"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" type=FWD regexp="(^|\\\\.)kdfl[0-9]{2}\\\\.xyz\$" }
-:if ([:len [find regexp="(^|\\\\.)kimoav([1-9][0-9]\?)\?\\\\.com\$"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" type=FWD regexp="(^|\\\\.)kimoav([1-9][0-9]\?)\?\\\\.com\$" }
-:if ([:len [find regexp="(^|\\\\.)kpkuang\\\\.(bond|fun|info|one|us)\$"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" type=FWD regexp="(^|\\\\.)kpkuang\\\\.(bond|fun|info|one|us)\$" }
