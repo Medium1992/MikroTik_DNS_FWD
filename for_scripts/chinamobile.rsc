@@ -7,6 +7,7 @@
 :if ([:len [find name="chinamobileltd.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="chinamobile" match-subdomain=yes type=FWD name="chinamobileltd.com" }
 :if ([:len [find name="cmicapm.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="chinamobile" match-subdomain=yes type=FWD name="cmicapm.com" }
 :if ([:len [find name="cmpassport.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="chinamobile" match-subdomain=yes type=FWD name="cmpassport.com" }
+:if ([:len [find name="cmpay.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="chinamobile" match-subdomain=yes type=FWD name="cmpay.com" }
 :if ([:len [find name="cmread.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="chinamobile" match-subdomain=yes type=FWD name="cmread.com" }
 :if ([:len [find name="fetion-portal.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="chinamobile" match-subdomain=yes type=FWD name="fetion-portal.com" }
 :if ([:len [find name="fetionpic.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="chinamobile" match-subdomain=yes type=FWD name="fetionpic.com" }
