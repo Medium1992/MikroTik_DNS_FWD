@@ -1,6 +1,8 @@
 :global AddressList
 :global ForwardTo
 /ip dns static
+:if ([:len [find name="11cdn.org"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="video" match-subdomain=yes type=FWD name="11cdn.org" }
+:if ([:len [find name="bigsv.ru"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="video" match-subdomain=yes type=FWD name="bigsv.ru" }
 :if ([:len [find name="cdn32.lol"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="video" match-subdomain=yes type=FWD name="cdn32.lol" }
 :if ([:len [find name="cdntogo.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="video" match-subdomain=yes type=FWD name="cdntogo.net" }
 :if ([:len [find name="daramalive.life"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="video" match-subdomain=yes type=FWD name="daramalive.life" }
@@ -48,10 +50,12 @@
 :if ([:len [find name="rezka.ag"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="video" match-subdomain=yes type=FWD name="rezka.ag" }
 :if ([:len [find name="rezka.my"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="video" match-subdomain=yes type=FWD name="rezka.my" }
 :if ([:len [find name="rezkify.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="video" match-subdomain=yes type=FWD name="rezkify.com" }
+:if ([:len [find name="seasonvar.ru"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="video" match-subdomain=yes type=FWD name="seasonvar.ru" }
 :if ([:len [find name="serv01001.xyz"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="video" match-subdomain=yes type=FWD name="serv01001.xyz" }
 :if ([:len [find name="statichdrezka.ac"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="video" match-subdomain=yes type=FWD name="statichdrezka.ac" }
 :if ([:len [find name="themoviedb.org"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="video" match-subdomain=yes type=FWD name="themoviedb.org" }
 :if ([:len [find name="tmdb.org"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="video" match-subdomain=yes type=FWD name="tmdb.org" }
+:if ([:len [find name="traffmovie.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="video" match-subdomain=yes type=FWD name="traffmovie.com" }
 :if ([:len [find name="voidboost.cc"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="video" match-subdomain=yes type=FWD name="voidboost.cc" }
 :if ([:len [find name="voidboost.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="video" match-subdomain=yes type=FWD name="voidboost.com" }
 :if ([:len [find name="voidboost.in"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="video" match-subdomain=yes type=FWD name="voidboost.in" }
