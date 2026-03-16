@@ -25,4 +25,5 @@
 :if ([:len [find name="tegrazone.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="nvidia" match-subdomain=yes type=FWD name="tegrazone.com" }
 :if ([:len [find name="tegrazone.jp"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="nvidia" match-subdomain=yes type=FWD name="tegrazone.jp" }
 :if ([:len [find name="cn.download.nvidia.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="nvidia" type=FWD name="cn.download.nvidia.com" }
+:if ([:len [find name="nvidia.custhelp.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="nvidia" type=FWD name="nvidia.custhelp.com" }
 :if ([:len [find name="nvidia.tt.omtrdc.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="nvidia" type=FWD name="nvidia.tt.omtrdc.net" }
