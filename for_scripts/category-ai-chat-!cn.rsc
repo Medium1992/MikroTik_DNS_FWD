@@ -79,6 +79,7 @@
 :if ([:len [find name="proactivebackend-pa.googleapis.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-ai-chat-!cn" match-subdomain=yes type=FWD name="proactivebackend-pa.googleapis.com" }
 :if ([:len [find name="robinfrontend-pa.googleapis.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-ai-chat-!cn" match-subdomain=yes type=FWD name="robinfrontend-pa.googleapis.com" }
 :if ([:len [find name="sora.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-ai-chat-!cn" match-subdomain=yes type=FWD name="sora.com" }
+:if ([:len [find name="spicywriter.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-ai-chat-!cn" match-subdomain=yes type=FWD name="spicywriter.com" }
 :if ([:len [find name="turn.livekit.cloud"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-ai-chat-!cn" match-subdomain=yes type=FWD name="turn.livekit.cloud" }
 :if ([:len [find name="windsurf.build"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-ai-chat-!cn" match-subdomain=yes type=FWD name="windsurf.build" }
 :if ([:len [find name="windsurf.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-ai-chat-!cn" match-subdomain=yes type=FWD name="windsurf.com" }

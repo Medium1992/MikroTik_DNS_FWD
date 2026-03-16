@@ -8,6 +8,7 @@
 :if ([:len [find name="bronto.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="oracle" match-subdomain=yes type=FWD name="bronto.com" }
 :if ([:len [find name="covid19-rx.org"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="oracle" match-subdomain=yes type=FWD name="covid19-rx.org" }
 :if ([:len [find name="covid19rx.org"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="oracle" match-subdomain=yes type=FWD name="covid19rx.org" }
+:if ([:len [find name="custhelp.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="oracle" match-subdomain=yes type=FWD name="custhelp.com" }
 :if ([:len [find name="java"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="oracle" match-subdomain=yes type=FWD name="java" }
 :if ([:len [find name="java.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="oracle" match-subdomain=yes type=FWD name="java.com" }
 :if ([:len [find name="java.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="oracle" match-subdomain=yes type=FWD name="java.net" }
