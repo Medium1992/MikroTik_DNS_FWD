@@ -1,6 +1,7 @@
 :global AddressList
 :global ForwardTo
 /ip dns static
+:if ([:len [find name="epochtimes.se"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" match-subdomain=yes type=FWD name="epochtimes.se" }
 :if ([:len [find name="epochtimeshk.org"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" match-subdomain=yes type=FWD name="epochtimeshk.org" }
 :if ([:len [find name="epochtimestr.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" match-subdomain=yes type=FWD name="epochtimestr.com" }
 :if ([:len [find name="epochweek.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" match-subdomain=yes type=FWD name="epochweek.com" }
@@ -150,4 +151,3 @@
 :if ([:len [find name="europeansustainabledesign.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" match-subdomain=yes type=FWD name="europeansustainabledesign.com" }
 :if ([:len [find name="europeansustainabledesign.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" match-subdomain=yes type=FWD name="europeansustainabledesign.net" }
 :if ([:len [find name="europeansustainabledesigncouncil.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" match-subdomain=yes type=FWD name="europeansustainabledesigncouncil.com" }
-:if ([:len [find name="europeansustainabledesigncouncil.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" match-subdomain=yes type=FWD name="europeansustainabledesigncouncil.net" }
