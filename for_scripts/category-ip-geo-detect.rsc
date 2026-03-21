@@ -43,6 +43,7 @@
 :if ([:len [find name="ip-api.ru"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-ip-geo-detect" match-subdomain=yes type=FWD name="ip-api.ru" }
 :if ([:len [find name="ip-check.info"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-ip-geo-detect" match-subdomain=yes type=FWD name="ip-check.info" }
 :if ([:len [find name="ip-score.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-ip-geo-detect" match-subdomain=yes type=FWD name="ip-score.com" }
+:if ([:len [find name="ip.hetzner.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-ip-geo-detect" match-subdomain=yes type=FWD name="ip.hetzner.com" }
 :if ([:len [find name="ip.mail.ru"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-ip-geo-detect" match-subdomain=yes type=FWD name="ip.mail.ru" }
 :if ([:len [find name="ip.me"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-ip-geo-detect" match-subdomain=yes type=FWD name="ip.me" }
 :if ([:len [find name="ip.nic.ru"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-ip-geo-detect" match-subdomain=yes type=FWD name="ip.nic.ru" }
