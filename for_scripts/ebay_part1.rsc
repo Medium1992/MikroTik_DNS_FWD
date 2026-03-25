@@ -64,6 +64,7 @@
 :if ([:len [find name="ebay-vacation.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="ebay" match-subdomain=yes type=FWD name="ebay-vacation.com" }
 :if ([:len [find name="ebay.be"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="ebay" match-subdomain=yes type=FWD name="ebay.be" }
 :if ([:len [find name="ebay.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="ebay" match-subdomain=yes type=FWD name="ebay.com" }
+:if ([:len [find name="ebay.de"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="ebay" match-subdomain=yes type=FWD name="ebay.de" }
 :if ([:len [find name="ebay.jp"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="ebay" match-subdomain=yes type=FWD name="ebay.jp" }
 :if ([:len [find name="ebay.nl"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="ebay" match-subdomain=yes type=FWD name="ebay.nl" }
 :if ([:len [find name="ebay.org"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="ebay" match-subdomain=yes type=FWD name="ebay.org" }
@@ -150,4 +151,3 @@
 :if ([:len [find name="ebayoncampus.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="ebay" match-subdomain=yes type=FWD name="ebayoncampus.com" }
 :if ([:len [find name="ebayopen.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="ebay" match-subdomain=yes type=FWD name="ebayopen.com" }
 :if ([:len [find name="ebayopensource.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="ebay" match-subdomain=yes type=FWD name="ebayopensource.com" }
-:if ([:len [find name="ebayopensource.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="ebay" match-subdomain=yes type=FWD name="ebayopensource.net" }

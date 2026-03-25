@@ -1,6 +1,7 @@
 :global AddressList
 :global ForwardTo
 /ip dns static
+:if ([:len [find name="ebayopensource.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="ebay" match-subdomain=yes type=FWD name="ebayopensource.net" }
 :if ([:len [find name="ebaypakistan.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="ebay" match-subdomain=yes type=FWD name="ebaypakistan.net" }
 :if ([:len [find name="ebaypark.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="ebay" match-subdomain=yes type=FWD name="ebaypark.com" }
 :if ([:len [find name="ebayparts.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="ebay" match-subdomain=yes type=FWD name="ebayparts.com" }
@@ -57,6 +58,7 @@
 :if ([:len [find name="liveauction.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="ebay" match-subdomain=yes type=FWD name="liveauction.com" }
 :if ([:len [find name="marketexecutive.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="ebay" match-subdomain=yes type=FWD name="marketexecutive.net" }
 :if ([:len [find name="milofetch.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="ebay" match-subdomain=yes type=FWD name="milofetch.com" }
+:if ([:len [find name="mobile.de"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="ebay" match-subdomain=yes type=FWD name="mobile.de" }
 :if ([:len [find name="mobileinternational.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="ebay" match-subdomain=yes type=FWD name="mobileinternational.com" }
 :if ([:len [find name="musicbay.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="ebay" match-subdomain=yes type=FWD name="musicbay.net" }
 :if ([:len [find name="myconstructionworld.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="ebay" match-subdomain=yes type=FWD name="myconstructionworld.net" }

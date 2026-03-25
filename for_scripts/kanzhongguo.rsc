@@ -10,6 +10,7 @@
 :if ([:len [find name="trithucvn.org"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="kanzhongguo" match-subdomain=yes type=FWD name="trithucvn.org" }
 :if ([:len [find name="vct.news"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="kanzhongguo" match-subdomain=yes type=FWD name="vct.news" }
 :if ([:len [find name="visiontimes.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="kanzhongguo" match-subdomain=yes type=FWD name="visiontimes.com" }
+:if ([:len [find name="visiontimes.de"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="kanzhongguo" match-subdomain=yes type=FWD name="visiontimes.de" }
 :if ([:len [find name="visiontimes.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="kanzhongguo" match-subdomain=yes type=FWD name="visiontimes.net" }
 :if ([:len [find name="visiontimesjp.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="kanzhongguo" match-subdomain=yes type=FWD name="visiontimesjp.com" }
 :if ([:len [find name="vtvan.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="kanzhongguo" match-subdomain=yes type=FWD name="vtvan.com" }

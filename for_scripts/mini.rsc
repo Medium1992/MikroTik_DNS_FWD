@@ -13,6 +13,7 @@
 :if ([:len [find name="mini-clubs-international.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="mini" match-subdomain=yes type=FWD name="mini-clubs-international.com" }
 :if ([:len [find name="mini-connected.be"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="mini" match-subdomain=yes type=FWD name="mini-connected.be" }
 :if ([:len [find name="mini-connected.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="mini" match-subdomain=yes type=FWD name="mini-connected.com" }
+:if ([:len [find name="mini-connected.de"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="mini" match-subdomain=yes type=FWD name="mini-connected.de" }
 :if ([:len [find name="mini-connected.nl"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="mini" match-subdomain=yes type=FWD name="mini-connected.nl" }
 :if ([:len [find name="mini-connected.se"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="mini" match-subdomain=yes type=FWD name="mini-connected.se" }
 :if ([:len [find name="mini-corporate-sales.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="mini" match-subdomain=yes type=FWD name="mini-corporate-sales.com" }
@@ -20,6 +21,7 @@
 :if ([:len [find name="mini-e.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="mini" match-subdomain=yes type=FWD name="mini-e.com" }
 :if ([:len [find name="mini-egypt.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="mini" match-subdomain=yes type=FWD name="mini-egypt.com" }
 :if ([:len [find name="mini-georgia.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="mini" match-subdomain=yes type=FWD name="mini-georgia.com" }
+:if ([:len [find name="mini-grouparchiv.de"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="mini" match-subdomain=yes type=FWD name="mini-grouparchiv.de" }
 :if ([:len [find name="mini-grouparchive.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="mini" match-subdomain=yes type=FWD name="mini-grouparchive.com" }
 :if ([:len [find name="mini-jordan.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="mini" match-subdomain=yes type=FWD name="mini-jordan.com" }
 :if ([:len [find name="mini-ksa.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="mini" match-subdomain=yes type=FWD name="mini-ksa.com" }
@@ -40,6 +42,7 @@
 :if ([:len [find name="mini.com.co"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="mini" match-subdomain=yes type=FWD name="mini.com.co" }
 :if ([:len [find name="mini.com.mo"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="mini" match-subdomain=yes type=FWD name="mini.com.mo" }
 :if ([:len [find name="mini.com.tw"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="mini" match-subdomain=yes type=FWD name="mini.com.tw" }
+:if ([:len [find name="mini.de"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="mini" match-subdomain=yes type=FWD name="mini.de" }
 :if ([:len [find name="mini.gp"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="mini" match-subdomain=yes type=FWD name="mini.gp" }
 :if ([:len [find name="mini.jp"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="mini" match-subdomain=yes type=FWD name="mini.jp" }
 :if ([:len [find name="mini.mq"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="mini" match-subdomain=yes type=FWD name="mini.mq" }

@@ -4,6 +4,7 @@
 :if ([:len [find name="kindle"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="kindle" match-subdomain=yes type=FWD name="kindle" }
 :if ([:len [find name="kindle.co.jp"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="kindle" match-subdomain=yes type=FWD name="kindle.co.jp" }
 :if ([:len [find name="kindle.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="kindle" match-subdomain=yes type=FWD name="kindle.com" }
+:if ([:len [find name="kindle.de"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="kindle" match-subdomain=yes type=FWD name="kindle.de" }
 :if ([:len [find name="kindle.jp"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="kindle" match-subdomain=yes type=FWD name="kindle.jp" }
 :if ([:len [find name="kindleoasis.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="kindle" match-subdomain=yes type=FWD name="kindleoasis.com" }
 :if ([:len [find name="kindleoasis.info"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="kindle" match-subdomain=yes type=FWD name="kindleoasis.info" }

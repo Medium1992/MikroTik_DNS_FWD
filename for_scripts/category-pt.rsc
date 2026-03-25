@@ -96,6 +96,7 @@
 :if ([:len [find name="springsunday.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-pt" match-subdomain=yes type=FWD name="springsunday.net" }
 :if ([:len [find name="tjupt.org"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-pt" match-subdomain=yes type=FWD name="tjupt.org" }
 :if ([:len [find name="torrentleech.org"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-pt" match-subdomain=yes type=FWD name="torrentleech.org" }
+:if ([:len [find name="totheglory.im"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-pt" match-subdomain=yes type=FWD name="totheglory.im" }
 :if ([:len [find name="ubits.club"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-pt" match-subdomain=yes type=FWD name="ubits.club" }
 :if ([:len [find name="uhdbits.org"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-pt" match-subdomain=yes type=FWD name="uhdbits.org" }
 :if ([:len [find name="ultrahd.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-pt" match-subdomain=yes type=FWD name="ultrahd.net" }

@@ -12,6 +12,7 @@
 :if ([:len [find name="icbc.co.jp"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="icbc" match-subdomain=yes type=FWD name="icbc.co.jp" }
 :if ([:len [find name="icbc.co.nl"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="icbc" match-subdomain=yes type=FWD name="icbc.co.nl" }
 :if ([:len [find name="icbc.com.mo"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="icbc" match-subdomain=yes type=FWD name="icbc.com.mo" }
+:if ([:len [find name="icbc.de"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="icbc" match-subdomain=yes type=FWD name="icbc.de" }
 :if ([:len [find name="icbc.eu"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="icbc" match-subdomain=yes type=FWD name="icbc.eu" }
 :if ([:len [find name="icbcasia.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="icbc" match-subdomain=yes type=FWD name="icbcasia.com" }
 :if ([:len [find name="icbcina.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="icbc" match-subdomain=yes type=FWD name="icbcina.com" }

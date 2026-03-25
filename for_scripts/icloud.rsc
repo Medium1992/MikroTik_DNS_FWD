@@ -6,6 +6,7 @@
 :if ([:len [find name="icloud-isupport.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="icloud" match-subdomain=yes type=FWD name="icloud-isupport.com" }
 :if ([:len [find name="icloud-sandbox.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="icloud" match-subdomain=yes type=FWD name="icloud-sandbox.com" }
 :if ([:len [find name="icloud.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="icloud" match-subdomain=yes type=FWD name="icloud.com" }
+:if ([:len [find name="icloud.de"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="icloud" match-subdomain=yes type=FWD name="icloud.de" }
 :if ([:len [find name="icloud.jp"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="icloud" match-subdomain=yes type=FWD name="icloud.jp" }
 :if ([:len [find name="icloud.org"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="icloud" match-subdomain=yes type=FWD name="icloud.org" }
 :if ([:len [find name="icloud.se"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="icloud" match-subdomain=yes type=FWD name="icloud.se" }
@@ -18,7 +19,9 @@
 :if ([:len [find name="icloudmusic.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="icloud" match-subdomain=yes type=FWD name="icloudmusic.net" }
 :if ([:len [find name="icloudnet.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="icloud" match-subdomain=yes type=FWD name="icloudnet.net" }
 :if ([:len [find name="icloudo.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="icloud" match-subdomain=yes type=FWD name="icloudo.com" }
+:if ([:len [find name="icloudo.de"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="icloud" match-subdomain=yes type=FWD name="icloudo.de" }
 :if ([:len [find name="icloudo.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="icloud" match-subdomain=yes type=FWD name="icloudo.net" }
+:if ([:len [find name="icloudos.de"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="icloud" match-subdomain=yes type=FWD name="icloudos.de" }
 :if ([:len [find name="icloudos.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="icloud" match-subdomain=yes type=FWD name="icloudos.net" }
 :if ([:len [find name="icloudpay.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="icloud" match-subdomain=yes type=FWD name="icloudpay.net" }
 :if ([:len [find name="icloudsecure.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="icloud" match-subdomain=yes type=FWD name="icloudsecure.net" }

@@ -1,6 +1,7 @@
 :global AddressList
 :global ForwardTo
 /ip dns static
+:if ([:len [find name="managed-pki.de"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="swisssign" match-subdomain=yes type=FWD name="managed-pki.de" }
 :if ([:len [find name="rootsigning.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="swisssign" match-subdomain=yes type=FWD name="rootsigning.com" }
 :if ([:len [find name="swissign.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="swisssign" match-subdomain=yes type=FWD name="swissign.com" }
 :if ([:len [find name="swisssign-group.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="swisssign" match-subdomain=yes type=FWD name="swisssign-group.com" }

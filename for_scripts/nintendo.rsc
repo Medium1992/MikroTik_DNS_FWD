@@ -35,6 +35,7 @@
 :if ([:len [find name="nintendo.be"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="nintendo" match-subdomain=yes type=FWD name="nintendo.be" }
 :if ([:len [find name="nintendo.co.jp"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="nintendo" match-subdomain=yes type=FWD name="nintendo.co.jp" }
 :if ([:len [find name="nintendo.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="nintendo" match-subdomain=yes type=FWD name="nintendo.com" }
+:if ([:len [find name="nintendo.de"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="nintendo" match-subdomain=yes type=FWD name="nintendo.de" }
 :if ([:len [find name="nintendo.eu"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="nintendo" match-subdomain=yes type=FWD name="nintendo.eu" }
 :if ([:len [find name="nintendo.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="nintendo" match-subdomain=yes type=FWD name="nintendo.net" }
 :if ([:len [find name="nintendo.nl"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="nintendo" match-subdomain=yes type=FWD name="nintendo.nl" }

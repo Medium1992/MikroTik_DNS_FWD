@@ -5,6 +5,7 @@
 :if ([:len [find name="spraynwash.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="vanish" match-subdomain=yes type=FWD name="spraynwash.com" }
 :if ([:len [find name="vanish.be"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="vanish" match-subdomain=yes type=FWD name="vanish.be" }
 :if ([:len [find name="vanish.com.co"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="vanish" match-subdomain=yes type=FWD name="vanish.com.co" }
+:if ([:len [find name="vanish.de"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="vanish" match-subdomain=yes type=FWD name="vanish.de" }
 :if ([:len [find name="vanish.nl"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="vanish" match-subdomain=yes type=FWD name="vanish.nl" }
 :if ([:len [find name="vanish.ru"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="vanish" match-subdomain=yes type=FWD name="vanish.ru" }
 :if ([:len [find name="vanish.se"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="vanish" match-subdomain=yes type=FWD name="vanish.se" }

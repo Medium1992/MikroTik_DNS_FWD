@@ -1,6 +1,7 @@
 :global AddressList
 :global ForwardTo
 /ip dns static
+:if ([:len [find name="opentracker.r4sas.i2p"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-public-tracker" type=FWD name="opentracker.r4sas.i2p" }
 :if ([:len [find name="opentracker.simp.i2p"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-public-tracker" type=FWD name="opentracker.simp.i2p" }
 :if ([:len [find name="opentracker.skank.i2p"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-public-tracker" type=FWD name="opentracker.skank.i2p" }
 :if ([:len [find name="opentrackr.org"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-public-tracker" type=FWD name="opentrackr.org" }
@@ -54,6 +55,7 @@
 :if ([:len [find name="torrent.resonatingmedia.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-public-tracker" type=FWD name="torrent.resonatingmedia.com" }
 :if ([:len [find name="torrent.tracker.durukanbal.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-public-tracker" type=FWD name="torrent.tracker.durukanbal.com" }
 :if ([:len [find name="torrent.ubuntu.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-public-tracker" type=FWD name="torrent.ubuntu.com" }
+:if ([:len [find name="torrent.unix-ag.uni-kl.de"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-public-tracker" type=FWD name="torrent.unix-ag.uni-kl.de" }
 :if ([:len [find name="torrentclub.online"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-public-tracker" type=FWD name="torrentclub.online" }
 :if ([:len [find name="torrents.artixlinux.org"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-public-tracker" type=FWD name="torrents.artixlinux.org" }
 :if ([:len [find name="torrents.hikarinokiseki.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-public-tracker" type=FWD name="torrents.hikarinokiseki.com" }
@@ -81,6 +83,7 @@
 :if ([:len [find name="tracker.auctor.tv"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-public-tracker" type=FWD name="tracker.auctor.tv" }
 :if ([:len [find name="tracker.baltracker.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-public-tracker" type=FWD name="tracker.baltracker.net" }
 :if ([:len [find name="tracker.belmult.online"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-public-tracker" type=FWD name="tracker.belmult.online" }
+:if ([:len [find name="tracker.birkenwald.de"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-public-tracker" type=FWD name="tracker.birkenwald.de" }
 :if ([:len [find name="tracker.bitcoinindia.space"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-public-tracker" type=FWD name="tracker.bitcoinindia.space" }
 :if ([:len [find name="tracker.bitsearch.to"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-public-tracker" type=FWD name="tracker.bitsearch.to" }
 :if ([:len [find name="tracker.bittor.pw"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-public-tracker" type=FWD name="tracker.bittor.pw" }
@@ -148,6 +151,3 @@
 :if ([:len [find name="tracker.netmap.top"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-public-tracker" type=FWD name="tracker.netmap.top" }
 :if ([:len [find name="tracker.nighthawk.pw"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-public-tracker" type=FWD name="tracker.nighthawk.pw" }
 :if ([:len [find name="tracker.open-internet.nl"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-public-tracker" type=FWD name="tracker.open-internet.nl" }
-:if ([:len [find name="tracker.openbittorrent.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-public-tracker" type=FWD name="tracker.openbittorrent.com" }
-:if ([:len [find name="tracker.opentrackr.org"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-public-tracker" type=FWD name="tracker.opentrackr.org" }
-:if ([:len [find name="tracker.picotorrent.one"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-public-tracker" type=FWD name="tracker.picotorrent.one" }

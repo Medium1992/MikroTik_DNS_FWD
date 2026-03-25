@@ -42,6 +42,7 @@
 :if ([:len [find name="dns.us.futuredns.eu.org"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-doh" type=FWD name="dns.us.futuredns.eu.org" }
 :if ([:len [find name="dns10.quad9.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-doh" type=FWD name="dns10.quad9.net" }
 :if ([:len [find name="dns11.quad9.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-doh" type=FWD name="dns11.quad9.net" }
+:if ([:len [find name="dnsforge.de"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-doh" type=FWD name="dnsforge.de" }
 :if ([:len [find name="dnsguard.pub"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-doh" type=FWD name="dnsguard.pub" }
 :if ([:len [find name="doh-pure.onedns.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-doh" type=FWD name="doh-pure.onedns.net" }
 :if ([:len [find name="doh.applied-privacy.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-doh" type=FWD name="doh.applied-privacy.net" }

@@ -12,6 +12,7 @@
 :if ([:len [find name="nvidia.co.jp"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="nvidia" match-subdomain=yes type=FWD name="nvidia.co.jp" }
 :if ([:len [find name="nvidia.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="nvidia" match-subdomain=yes type=FWD name="nvidia.com" }
 :if ([:len [find name="nvidia.com.tw"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="nvidia" match-subdomain=yes type=FWD name="nvidia.com.tw" }
+:if ([:len [find name="nvidia.de"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="nvidia" match-subdomain=yes type=FWD name="nvidia.de" }
 :if ([:len [find name="nvidia.eu"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="nvidia" match-subdomain=yes type=FWD name="nvidia.eu" }
 :if ([:len [find name="nvidia.jp"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="nvidia" match-subdomain=yes type=FWD name="nvidia.jp" }
 :if ([:len [find name="nvidia.nl"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="nvidia" match-subdomain=yes type=FWD name="nvidia.nl" }

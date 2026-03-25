@@ -3,6 +3,7 @@
 /ip dns static
 :if ([:len [find name="calgon.be"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="calgoncarbon" match-subdomain=yes type=FWD name="calgon.be" }
 :if ([:len [find name="calgon.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="calgoncarbon" match-subdomain=yes type=FWD name="calgon.com" }
+:if ([:len [find name="calgon.de"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="calgoncarbon" match-subdomain=yes type=FWD name="calgon.de" }
 :if ([:len [find name="calgon.nl"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="calgoncarbon" match-subdomain=yes type=FWD name="calgon.nl" }
 :if ([:len [find name="calgon.ru"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="calgoncarbon" match-subdomain=yes type=FWD name="calgon.ru" }
 :if ([:len [find name="calgon.tv"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="calgoncarbon" match-subdomain=yes type=FWD name="calgon.tv" }

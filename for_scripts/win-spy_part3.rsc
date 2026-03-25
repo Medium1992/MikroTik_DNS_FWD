@@ -1,6 +1,7 @@
 :global AddressList
 :global ForwardTo
 /ip dns static
+:if ([:len [find name="tele.trafficmanager.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="win-spy" match-subdomain=yes type=FWD name="tele.trafficmanager.net" }
 :if ([:len [find name="telemetry.appex.bing.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="win-spy" match-subdomain=yes type=FWD name="telemetry.appex.bing.net" }
 :if ([:len [find name="telemetry.microsoft.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="win-spy" match-subdomain=yes type=FWD name="telemetry.microsoft.com" }
 :if ([:len [find name="telemetry.remoteapp.windowsazure.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="win-spy" match-subdomain=yes type=FWD name="telemetry.remoteapp.windowsazure.com" }

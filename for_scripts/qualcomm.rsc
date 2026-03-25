@@ -23,6 +23,7 @@
 :if ([:len [find name="qualcomm.co.jp"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="qualcomm" match-subdomain=yes type=FWD name="qualcomm.co.jp" }
 :if ([:len [find name="qualcomm.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="qualcomm" match-subdomain=yes type=FWD name="qualcomm.com" }
 :if ([:len [find name="qualcomm.com.tw"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="qualcomm" match-subdomain=yes type=FWD name="qualcomm.com.tw" }
+:if ([:len [find name="qualcomm.de"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="qualcomm" match-subdomain=yes type=FWD name="qualcomm.de" }
 :if ([:len [find name="qualcommhalo.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="qualcomm" match-subdomain=yes type=FWD name="qualcommhalo.com" }
 :if ([:len [find name="qualcommlabs.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="qualcomm" match-subdomain=yes type=FWD name="qualcommlabs.com" }
 :if ([:len [find name="qualcommmea.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="qualcomm" match-subdomain=yes type=FWD name="qualcommmea.com" }

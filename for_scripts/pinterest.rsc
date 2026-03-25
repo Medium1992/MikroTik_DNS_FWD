@@ -6,6 +6,7 @@
 :if ([:len [find name="pinterest.be"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="pinterest" match-subdomain=yes type=FWD name="pinterest.be" }
 :if ([:len [find name="pinterest.co"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="pinterest" match-subdomain=yes type=FWD name="pinterest.co" }
 :if ([:len [find name="pinterest.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="pinterest" match-subdomain=yes type=FWD name="pinterest.com" }
+:if ([:len [find name="pinterest.de"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="pinterest" match-subdomain=yes type=FWD name="pinterest.de" }
 :if ([:len [find name="pinterest.engineering"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="pinterest" match-subdomain=yes type=FWD name="pinterest.engineering" }
 :if ([:len [find name="pinterest.info"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="pinterest" match-subdomain=yes type=FWD name="pinterest.info" }
 :if ([:len [find name="pinterest.jp"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="pinterest" match-subdomain=yes type=FWD name="pinterest.jp" }
