@@ -1,6 +1,8 @@
 :global AddressList
 :global ForwardTo
 /ip dns static
+:if ([:len [find name="royalsocietypublishing.org"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" match-subdomain=yes type=FWD name="royalsocietypublishing.org" }
+:if ([:len [find name="rpglogs.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" match-subdomain=yes type=FWD name="rpglogs.com" }
 :if ([:len [find name="rplay.live"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" match-subdomain=yes type=FWD name="rplay.live" }
 :if ([:len [find name="rpmfusion.org"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" match-subdomain=yes type=FWD name="rpmfusion.org" }
 :if ([:len [find name="rprimelab.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" match-subdomain=yes type=FWD name="rprimelab.com" }
@@ -149,5 +151,3 @@
 :if ([:len [find name="sankei-ad.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" match-subdomain=yes type=FWD name="sankei-ad.net" }
 :if ([:len [find name="sankei-books.co.jp"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" match-subdomain=yes type=FWD name="sankei-books.co.jp" }
 :if ([:len [find name="sankei-call.jp"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" match-subdomain=yes type=FWD name="sankei-call.jp" }
-:if ([:len [find name="sankei-digital.co.jp"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" match-subdomain=yes type=FWD name="sankei-digital.co.jp" }
-:if ([:len [find name="sankei-eiga.co.jp"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" match-subdomain=yes type=FWD name="sankei-eiga.co.jp" }

@@ -5,6 +5,7 @@
 :if ([:len [find name="externulls.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="porn" match-subdomain=yes type=FWD name="externulls.com" }
 :if ([:len [find name="f95zone.to"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="porn" match-subdomain=yes type=FWD name="f95zone.to" }
 :if ([:len [find name="hqporner.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="porn" match-subdomain=yes type=FWD name="hqporner.com" }
+:if ([:len [find name="kemono.cr"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="porn" match-subdomain=yes type=FWD name="kemono.cr" }
 :if ([:len [find name="phncdn.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="porn" match-subdomain=yes type=FWD name="phncdn.com" }
 :if ([:len [find name="plab.site"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="porn" match-subdomain=yes type=FWD name="plab.site" }
 :if ([:len [find name="pornhub.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="porn" match-subdomain=yes type=FWD name="pornhub.com" }

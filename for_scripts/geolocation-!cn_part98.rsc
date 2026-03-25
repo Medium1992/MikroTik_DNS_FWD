@@ -1,6 +1,8 @@
 :global AddressList
 :global ForwardTo
 /ip dns static
+:if ([:len [find name="pornoirado.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" match-subdomain=yes type=FWD name="pornoirado.com" }
+:if ([:len [find name="pornoitaliano.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" match-subdomain=yes type=FWD name="pornoitaliano.com" }
 :if ([:len [find name="pornojefe.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" match-subdomain=yes type=FWD name="pornojefe.com" }
 :if ([:len [find name="pornojux.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" match-subdomain=yes type=FWD name="pornojux.com" }
 :if ([:len [find name="pornoko.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" match-subdomain=yes type=FWD name="pornoko.net" }
@@ -149,5 +151,3 @@
 :if ([:len [find name="powershape.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" match-subdomain=yes type=FWD name="powershape.com" }
 :if ([:len [find name="powershellgallery.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" match-subdomain=yes type=FWD name="powershellgallery.com" }
 :if ([:len [find name="powersunitedvr.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" match-subdomain=yes type=FWD name="powersunitedvr.com" }
-:if ([:len [find name="pp-soc.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" match-subdomain=yes type=FWD name="pp-soc.com" }
-:if ([:len [find name="pp6.info"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" match-subdomain=yes type=FWD name="pp6.info" }

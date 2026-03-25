@@ -1,6 +1,8 @@
 :global AddressList
 :global ForwardTo
 /ip dns static
+:if ([:len [find name="sexiframe.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" match-subdomain=yes type=FWD name="sexiframe.com" }
+:if ([:len [find name="sexindians.cc"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" match-subdomain=yes type=FWD name="sexindians.cc" }
 :if ([:len [find name="sexinsex.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" match-subdomain=yes type=FWD name="sexinsex.net" }
 :if ([:len [find name="sexiranian.party"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" match-subdomain=yes type=FWD name="sexiranian.party" }
 :if ([:len [find name="sexjk.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" match-subdomain=yes type=FWD name="sexjk.com" }
@@ -149,5 +151,3 @@
 :if ([:len [find name="shattered.io"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" match-subdomain=yes type=FWD name="shattered.io" }
 :if ([:len [find name="shazam.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" match-subdomain=yes type=FWD name="shazam.com" }
 :if ([:len [find name="shdd.ink"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" match-subdomain=yes type=FWD name="shdd.ink" }
-:if ([:len [find name="sheet.new"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" match-subdomain=yes type=FWD name="sheet.new" }
-:if ([:len [find name="sheets.new"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" match-subdomain=yes type=FWD name="sheets.new" }

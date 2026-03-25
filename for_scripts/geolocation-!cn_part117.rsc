@@ -1,6 +1,8 @@
 :global AddressList
 :global ForwardTo
 /ip dns static
+:if ([:len [find name="thewonderful101.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" match-subdomain=yes type=FWD name="thewonderful101.com" }
+:if ([:len [find name="theync.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" match-subdomain=yes type=FWD name="theync.com" }
 :if ([:len [find name="theyxxx.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" match-subdomain=yes type=FWD name="theyxxx.com" }
 :if ([:len [find name="thieme-connect.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" match-subdomain=yes type=FWD name="thieme-connect.com" }
 :if ([:len [find name="thinkboxsoftware.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" match-subdomain=yes type=FWD name="thinkboxsoftware.com" }
@@ -149,5 +151,3 @@
 :if ([:len [find name="tinkerplay.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" match-subdomain=yes type=FWD name="tinkerplay.net" }
 :if ([:len [find name="tiny.cc"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" match-subdomain=yes type=FWD name="tiny.cc" }
 :if ([:len [find name="tiny4k.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" match-subdomain=yes type=FWD name="tiny4k.com" }
-:if ([:len [find name="tinychat.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" match-subdomain=yes type=FWD name="tinychat.com" }
-:if ([:len [find name="tinypaste.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" match-subdomain=yes type=FWD name="tinypaste.com" }

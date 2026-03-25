@@ -5,6 +5,8 @@
 :if ([:len [find name="byspotify.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="music" match-subdomain=yes type=FWD name="byspotify.com" }
 :if ([:len [find name="deezer.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="music" match-subdomain=yes type=FWD name="deezer.com" }
 :if ([:len [find name="dzcdn.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="music" match-subdomain=yes type=FWD name="dzcdn.net" }
+:if ([:len [find name="fastly.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="music" match-subdomain=yes type=FWD name="fastly.net" }
+:if ([:len [find name="last.fm"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="music" match-subdomain=yes type=FWD name="last.fm" }
 :if ([:len [find name="metabrainz.org"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="music" match-subdomain=yes type=FWD name="metabrainz.org" }
 :if ([:len [find name="musicbrainz.org"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="music" match-subdomain=yes type=FWD name="musicbrainz.org" }
 :if ([:len [find name="pscdn.co"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="music" match-subdomain=yes type=FWD name="pscdn.co" }

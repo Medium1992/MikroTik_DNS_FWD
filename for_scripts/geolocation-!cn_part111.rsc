@@ -1,6 +1,8 @@
 :global AddressList
 :global ForwardTo
 /ip dns static
+:if ([:len [find name="sonystoragemedia.co.jp"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" match-subdomain=yes type=FWD name="sonystoragemedia.co.jp" }
+:if ([:len [find name="sonytc.co.jp"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" match-subdomain=yes type=FWD name="sonytc.co.jp" }
 :if ([:len [find name="soolakhi.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" match-subdomain=yes type=FWD name="soolakhi.com" }
 :if ([:len [find name="soooyinfor.lol"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" match-subdomain=yes type=FWD name="soooyinfor.lol" }
 :if ([:len [find name="soporn.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" match-subdomain=yes type=FWD name="soporn.com" }
@@ -149,5 +151,3 @@
 :if ([:len [find name="sslpaypal.org"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" match-subdomain=yes type=FWD name="sslpaypal.org" }
 :if ([:len [find name="sspanel.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" match-subdomain=yes type=FWD name="sspanel.net" }
 :if ([:len [find name="ssplive.pw"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" match-subdomain=yes type=FWD name="ssplive.pw" }
-:if ([:len [find name="ssr.tools"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" match-subdomain=yes type=FWD name="ssr.tools" }
-:if ([:len [find name="ssrpass.pw"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" match-subdomain=yes type=FWD name="ssrpass.pw" }
