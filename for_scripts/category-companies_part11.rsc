@@ -1,6 +1,8 @@
 :global AddressList
 :global ForwardTo
 /ip dns static
+:if ([:len [find name="compass-system.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" match-subdomain=yes type=FWD name="compass-system.com" }
+:if ([:len [find name="compass-systems.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" match-subdomain=yes type=FWD name="compass-systems.com" }
 :if ([:len [find name="componentkit.org"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" match-subdomain=yes type=FWD name="componentkit.org" }
 :if ([:len [find name="compresspdf.new"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" match-subdomain=yes type=FWD name="compresspdf.new" }
 :if ([:len [find name="connect-in-canada.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" match-subdomain=yes type=FWD name="connect-in-canada.com" }
@@ -124,6 +126,7 @@
 :if ([:len [find name="dell.be"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" match-subdomain=yes type=FWD name="dell.be" }
 :if ([:len [find name="dell.co.jp"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" match-subdomain=yes type=FWD name="dell.co.jp" }
 :if ([:len [find name="dell.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" match-subdomain=yes type=FWD name="dell.com" }
+:if ([:len [find name="dell.com.ai"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" match-subdomain=yes type=FWD name="dell.com.ai" }
 :if ([:len [find name="dell.com.bb"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" match-subdomain=yes type=FWD name="dell.com.bb" }
 :if ([:len [find name="dell.com.co"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" match-subdomain=yes type=FWD name="dell.com.co" }
 :if ([:len [find name="dell.com.kn"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" match-subdomain=yes type=FWD name="dell.com.kn" }
@@ -148,6 +151,3 @@
 :if ([:len [find name="dellcomunidade.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" match-subdomain=yes type=FWD name="dellcomunidade.com" }
 :if ([:len [find name="dellcustomerservice.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" match-subdomain=yes type=FWD name="dellcustomerservice.com" }
 :if ([:len [find name="delldesignsystem.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" match-subdomain=yes type=FWD name="delldesignsystem.com" }
-:if ([:len [find name="delldrivers.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" match-subdomain=yes type=FWD name="delldrivers.com" }
-:if ([:len [find name="dellemc.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" match-subdomain=yes type=FWD name="dellemc.com" }
-:if ([:len [find name="dellemcevents.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" match-subdomain=yes type=FWD name="dellemcevents.com" }

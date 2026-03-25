@@ -44,6 +44,7 @@
 :if ([:len [find name="apat1989.org"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="gfw" match-subdomain=yes type=FWD name="apat1989.org" }
 :if ([:len [find name="api-secure.recaptcha.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="gfw" match-subdomain=yes type=FWD name="api-secure.recaptcha.net" }
 :if ([:len [find name="api-verify.recaptcha.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="gfw" match-subdomain=yes type=FWD name="api-verify.recaptcha.net" }
+:if ([:len [find name="api.ai"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="gfw" match-subdomain=yes type=FWD name="api.ai" }
 :if ([:len [find name="api.palworldgame.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="gfw" match-subdomain=yes type=FWD name="api.palworldgame.com" }
 :if ([:len [find name="api.pureapk.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="gfw" match-subdomain=yes type=FWD name="api.pureapk.com" }
 :if ([:len [find name="api.recaptcha.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="gfw" match-subdomain=yes type=FWD name="api.recaptcha.net" }
@@ -77,6 +78,7 @@
 :if ([:len [find name="archives.gov"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="gfw" match-subdomain=yes type=FWD name="archives.gov" }
 :if ([:len [find name="arctosia.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="gfw" match-subdomain=yes type=FWD name="arctosia.com" }
 :if ([:len [find name="areca-backup.org"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="gfw" match-subdomain=yes type=FWD name="areca-backup.org" }
+:if ([:len [find name="arena.ai"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="gfw" match-subdomain=yes type=FWD name="arena.ai" }
 :if ([:len [find name="arena.taipei"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="gfw" match-subdomain=yes type=FWD name="arena.taipei" }
 :if ([:len [find name="arethusa.su"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="gfw" match-subdomain=yes type=FWD name="arethusa.su" }
 :if ([:len [find name="arlingtoncemetery.mil"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="gfw" match-subdomain=yes type=FWD name="arlingtoncemetery.mil" }
@@ -149,5 +151,3 @@
 :if ([:len [find name="bartender.dowjones.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="gfw" match-subdomain=yes type=FWD name="bartender.dowjones.com" }
 :if ([:len [find name="bastillepost.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="gfw" match-subdomain=yes type=FWD name="bastillepost.com" }
 :if ([:len [find name="bayvoice.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="gfw" match-subdomain=yes type=FWD name="bayvoice.net" }
-:if ([:len [find name="bb-chat.tv"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="gfw" match-subdomain=yes type=FWD name="bb-chat.tv" }
-:if ([:len [find name="bbc.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="gfw" match-subdomain=yes type=FWD name="bbc.com" }

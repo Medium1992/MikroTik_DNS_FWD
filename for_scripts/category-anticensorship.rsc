@@ -7,6 +7,7 @@
 :if ([:len [find name="browserleaks.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-anticensorship" match-subdomain=yes type=FWD name="browserleaks.com" }
 :if ([:len [find name="bypasscensorship.org"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-anticensorship" match-subdomain=yes type=FWD name="bypasscensorship.org" }
 :if ([:len [find name="c4rex.co"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-anticensorship" match-subdomain=yes type=FWD name="c4rex.co" }
+:if ([:len [find name="censorship.ai"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-anticensorship" match-subdomain=yes type=FWD name="censorship.ai" }
 :if ([:len [find name="cf-ipfs.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-anticensorship" match-subdomain=yes type=FWD name="cf-ipfs.com" }
 :if ([:len [find name="citizenlab.org"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-anticensorship" match-subdomain=yes type=FWD name="citizenlab.org" }
 :if ([:len [find name="cloudflare-ipfs.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-anticensorship" match-subdomain=yes type=FWD name="cloudflare-ipfs.com" }

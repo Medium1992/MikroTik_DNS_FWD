@@ -67,6 +67,7 @@
 :if ([:len [find name="tencent-cloud.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-dev-cn" match-subdomain=yes type=FWD name="tencent-cloud.com" }
 :if ([:len [find name="tencent.design"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-dev-cn" match-subdomain=yes type=FWD name="tencent.design" }
 :if ([:len [find name="tencentcloud.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-dev-cn" match-subdomain=yes type=FWD name="tencentcloud.com" }
+:if ([:len [find name="tidb.ai"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-dev-cn" match-subdomain=yes type=FWD name="tidb.ai" }
 :if ([:len [find name="tidb.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-dev-cn" match-subdomain=yes type=FWD name="tidb.net" }
 :if ([:len [find name="tidbcloud.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-dev-cn" match-subdomain=yes type=FWD name="tidbcloud.com" }
 :if ([:len [find name="tikv.org"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-dev-cn" match-subdomain=yes type=FWD name="tikv.org" }

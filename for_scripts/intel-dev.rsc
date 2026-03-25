@@ -11,6 +11,7 @@
 :if ([:len [find name="oneapi.io"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="intel-dev" match-subdomain=yes type=FWD name="oneapi.io" }
 :if ([:len [find name="opencas.io"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="intel-dev" match-subdomain=yes type=FWD name="opencas.io" }
 :if ([:len [find name="opendroneid.org"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="intel-dev" match-subdomain=yes type=FWD name="opendroneid.org" }
+:if ([:len [find name="openvino.ai"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="intel-dev" match-subdomain=yes type=FWD name="openvino.ai" }
 :if ([:len [find name="openvinotoolkit.org"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="intel-dev" match-subdomain=yes type=FWD name="openvinotoolkit.org" }
 :if ([:len [find name="ospray.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="intel-dev" match-subdomain=yes type=FWD name="ospray.net" }
 :if ([:len [find name="ospray.org"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="intel-dev" match-subdomain=yes type=FWD name="ospray.org" }

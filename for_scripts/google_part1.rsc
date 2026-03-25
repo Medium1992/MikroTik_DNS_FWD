@@ -29,6 +29,7 @@
 :if ([:len [find name="android.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="google" match-subdomain=yes type=FWD name="android.com" }
 :if ([:len [find name="androidify.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="google" match-subdomain=yes type=FWD name="androidify.com" }
 :if ([:len [find name="angulardart.org"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="google" match-subdomain=yes type=FWD name="angulardart.org" }
+:if ([:len [find name="api.ai"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="google" match-subdomain=yes type=FWD name="api.ai" }
 :if ([:len [find name="apigee.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="google" match-subdomain=yes type=FWD name="apigee.com" }
 :if ([:len [find name="app-analytics-services-att.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="google" match-subdomain=yes type=FWD name="app-analytics-services-att.com" }
 :if ([:len [find name="app-analytics-services.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="google" match-subdomain=yes type=FWD name="app-analytics-services.com" }
@@ -150,4 +151,3 @@
 :if ([:len [find name="gmodules.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="google" match-subdomain=yes type=FWD name="gmodules.com" }
 :if ([:len [find name="go-lang.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="google" match-subdomain=yes type=FWD name="go-lang.com" }
 :if ([:len [find name="go-lang.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="google" match-subdomain=yes type=FWD name="go-lang.net" }
-:if ([:len [find name="go-lang.org"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="google" match-subdomain=yes type=FWD name="go-lang.org" }

@@ -22,6 +22,7 @@
 :if ([:len [find name="ap0le.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" match-subdomain=yes type=FWD name="ap0le.com" }
 :if ([:len [find name="api-adservices.apple.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" match-subdomain=yes type=FWD name="api-adservices.apple.com" }
 :if ([:len [find name="api-extractor.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" match-subdomain=yes type=FWD name="api-extractor.com" }
+:if ([:len [find name="api.ai"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" match-subdomain=yes type=FWD name="api.ai" }
 :if ([:len [find name="apigee.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" match-subdomain=yes type=FWD name="apigee.com" }
 :if ([:len [find name="apisof.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" match-subdomain=yes type=FWD name="apisof.net" }
 :if ([:len [find name="aple.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" match-subdomain=yes type=FWD name="aple.com" }
@@ -150,4 +151,3 @@
 :if ([:len [find name="applemusicconnect.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" match-subdomain=yes type=FWD name="applemusicconnect.com" }
 :if ([:len [find name="applemusicfestival.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" match-subdomain=yes type=FWD name="applemusicfestival.com" }
 :if ([:len [find name="applemx-icloud.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" match-subdomain=yes type=FWD name="applemx-icloud.com" }
-:if ([:len [find name="applenews.berlin"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" match-subdomain=yes type=FWD name="applenews.berlin" }

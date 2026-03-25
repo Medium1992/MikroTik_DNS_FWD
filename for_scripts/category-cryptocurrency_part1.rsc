@@ -100,6 +100,7 @@
 :if ([:len [find name="gateio.live"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-cryptocurrency" match-subdomain=yes type=FWD name="gateio.live" }
 :if ([:len [find name="gateio.services"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-cryptocurrency" match-subdomain=yes type=FWD name="gateio.services" }
 :if ([:len [find name="gemini.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-cryptocurrency" match-subdomain=yes type=FWD name="gemini.com" }
+:if ([:len [find name="gmgn.ai"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-cryptocurrency" match-subdomain=yes type=FWD name="gmgn.ai" }
 :if ([:len [find name="guardarian.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-cryptocurrency" match-subdomain=yes type=FWD name="guardarian.com" }
 :if ([:len [find name="hashflow.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-cryptocurrency" match-subdomain=yes type=FWD name="hashflow.com" }
 :if ([:len [find name="hbabit.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-cryptocurrency" match-subdomain=yes type=FWD name="hbabit.com" }
@@ -150,4 +151,3 @@
 :if ([:len [find name="saasexch.co"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-cryptocurrency" match-subdomain=yes type=FWD name="saasexch.co" }
 :if ([:len [find name="saasexch.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-cryptocurrency" match-subdomain=yes type=FWD name="saasexch.com" }
 :if ([:len [find name="saasexch.io"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-cryptocurrency" match-subdomain=yes type=FWD name="saasexch.io" }
-:if ([:len [find name="satoshilabs.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-cryptocurrency" match-subdomain=yes type=FWD name="satoshilabs.com" }

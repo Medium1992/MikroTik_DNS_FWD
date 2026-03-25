@@ -25,4 +25,5 @@
 :if ([:len [find name="twttr.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="x" match-subdomain=yes type=FWD name="twttr.net" }
 :if ([:len [find name="twvid.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="x" match-subdomain=yes type=FWD name="twvid.com" }
 :if ([:len [find name="vine.co"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="x" match-subdomain=yes type=FWD name="vine.co" }
+:if ([:len [find name="x.ai"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="x" match-subdomain=yes type=FWD name="x.ai" }
 :if ([:len [find name="x.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="x" match-subdomain=yes type=FWD name="x.com" }

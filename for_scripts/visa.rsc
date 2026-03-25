@@ -19,6 +19,7 @@
 :if ([:len [find name="visa.be"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="visa" match-subdomain=yes type=FWD name="visa.be" }
 :if ([:len [find name="visa.co.jp"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="visa" match-subdomain=yes type=FWD name="visa.co.jp" }
 :if ([:len [find name="visa.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="visa" match-subdomain=yes type=FWD name="visa.com" }
+:if ([:len [find name="visa.com.ai"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="visa" match-subdomain=yes type=FWD name="visa.com.ai" }
 :if ([:len [find name="visa.com.co"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="visa" match-subdomain=yes type=FWD name="visa.com.co" }
 :if ([:len [find name="visa.com.kn"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="visa" match-subdomain=yes type=FWD name="visa.com.kn" }
 :if ([:len [find name="visa.com.ru"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="visa" match-subdomain=yes type=FWD name="visa.com.ru" }

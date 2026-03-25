@@ -1,6 +1,17 @@
 :global AddressList
 :global ForwardTo
 /ip dns static
+:if ([:len [find name="xn--d1acpjx3f.xn--p1ai"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" match-subdomain=yes type=FWD name="xn--d1acpjx3f.xn--p1ai" }
+:if ([:len [find name="xn--fiqs8sxootzz.xn--hxt814e"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" match-subdomain=yes type=FWD name="xn--fiqs8sxootzz.xn--hxt814e" }
+:if ([:len [find name="xn--flw351e"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" match-subdomain=yes type=FWD name="xn--flw351e" }
+:if ([:len [find name="xn--flw351e.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" match-subdomain=yes type=FWD name="xn--flw351e.com" }
+:if ([:len [find name="xn--ggle-55da.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" match-subdomain=yes type=FWD name="xn--ggle-55da.com" }
+:if ([:len [find name="xn--gogl-0nd52e.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" match-subdomain=yes type=FWD name="xn--gogl-0nd52e.com" }
+:if ([:len [find name="xn--gogl-1nd42e.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" match-subdomain=yes type=FWD name="xn--gogl-1nd42e.com" }
+:if ([:len [find name="xn--gtvq61aiijy0b.xn--hxt814e"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" match-subdomain=yes type=FWD name="xn--gtvq61aiijy0b.xn--hxt814e" }
+:if ([:len [find name="xn--gtvz22d.wang"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" match-subdomain=yes type=FWD name="xn--gtvz22d.wang" }
+:if ([:len [find name="xn--gtvz22d.xn--hxt814e"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" match-subdomain=yes type=FWD name="xn--gtvz22d.xn--hxt814e" }
+:if ([:len [find name="xn--hxtr4rozx.xn--czr694b"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" match-subdomain=yes type=FWD name="xn--hxtr4rozx.xn--czr694b" }
 :if ([:len [find name="xn--jlq480n2rg"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" match-subdomain=yes type=FWD name="xn--jlq480n2rg" }
 :if ([:len [find name="xn--kput3imi374g.xn--hxt814e"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" match-subdomain=yes type=FWD name="xn--kput3imi374g.xn--hxt814e" }
 :if ([:len [find name="xn--ngstr-lra8j.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" match-subdomain=yes type=FWD name="xn--ngstr-lra8j.com" }
@@ -19,6 +30,7 @@
 :if ([:len [find name="yahoo.cat"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" match-subdomain=yes type=FWD name="yahoo.cat" }
 :if ([:len [find name="yahoo.co.jp"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" match-subdomain=yes type=FWD name="yahoo.co.jp" }
 :if ([:len [find name="yahoo.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" match-subdomain=yes type=FWD name="yahoo.com" }
+:if ([:len [find name="yahoo.com.ai"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" match-subdomain=yes type=FWD name="yahoo.com.ai" }
 :if ([:len [find name="yahoo.com.co"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" match-subdomain=yes type=FWD name="yahoo.com.co" }
 :if ([:len [find name="yahoo.com.nf"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" match-subdomain=yes type=FWD name="yahoo.com.nf" }
 :if ([:len [find name="yahoo.com.tw"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" match-subdomain=yes type=FWD name="yahoo.com.tw" }
@@ -139,15 +151,3 @@
 :if ([:len [find name="3dns-3.adobe.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" type=FWD name="3dns-3.adobe.com" }
 :if ([:len [find name="3dns-4.adobe.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" type=FWD name="3dns-4.adobe.com" }
 :if ([:len [find name="3dns-5.adobe.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" type=FWD name="3dns-5.adobe.com" }
-:if ([:len [find name="3dns.adobe.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" type=FWD name="3dns.adobe.com" }
-:if ([:len [find name="a1.mzstatic.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" type=FWD name="a1.mzstatic.com" }
-:if ([:len [find name="a2.mzstatic.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" type=FWD name="a2.mzstatic.com" }
-:if ([:len [find name="a3.mzstatic.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" type=FWD name="a3.mzstatic.com" }
-:if ([:len [find name="a4.mzstatic.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" type=FWD name="a4.mzstatic.com" }
-:if ([:len [find name="a5.mzstatic.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" type=FWD name="a5.mzstatic.com" }
-:if ([:len [find name="activate-sea.adobe.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" type=FWD name="activate-sea.adobe.com" }
-:if ([:len [find name="activate-sjc0.adobe.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" type=FWD name="activate-sjc0.adobe.com" }
-:if ([:len [find name="activate.activation-v2.kaspersky.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" type=FWD name="activate.activation-v2.kaspersky.com" }
-:if ([:len [find name="activate.adobe.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" type=FWD name="activate.adobe.com" }
-:if ([:len [find name="activate.wip1.adobe.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" type=FWD name="activate.wip1.adobe.com" }
-:if ([:len [find name="activate.wip2.adobe.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" type=FWD name="activate.wip2.adobe.com" }

@@ -39,6 +39,7 @@
 :if ([:len [find name="intel"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="intel" match-subdomain=yes type=FWD name="intel" }
 :if ([:len [find name="intel-research.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="intel" match-subdomain=yes type=FWD name="intel-research.net" }
 :if ([:len [find name="intel-university-collaboration.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="intel" match-subdomain=yes type=FWD name="intel-university-collaboration.net" }
+:if ([:len [find name="intel.ai"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="intel" match-subdomain=yes type=FWD name="intel.ai" }
 :if ([:len [find name="intel.cc"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="intel" match-subdomain=yes type=FWD name="intel.cc" }
 :if ([:len [find name="intel.co"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="intel" match-subdomain=yes type=FWD name="intel.co" }
 :if ([:len [find name="intel.co.jp"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="intel" match-subdomain=yes type=FWD name="intel.co.jp" }
@@ -111,6 +112,7 @@
 :if ([:len [find name="openamt.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="intel" match-subdomain=yes type=FWD name="openamt.com" }
 :if ([:len [find name="opencas.io"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="intel" match-subdomain=yes type=FWD name="opencas.io" }
 :if ([:len [find name="opendroneid.org"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="intel" match-subdomain=yes type=FWD name="opendroneid.org" }
+:if ([:len [find name="openvino.ai"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="intel" match-subdomain=yes type=FWD name="openvino.ai" }
 :if ([:len [find name="openvinotoolkit.org"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="intel" match-subdomain=yes type=FWD name="openvinotoolkit.org" }
 :if ([:len [find name="optanedifference.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="intel" match-subdomain=yes type=FWD name="optanedifference.com" }
 :if ([:len [find name="ospray.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="intel" match-subdomain=yes type=FWD name="ospray.net" }
@@ -149,5 +151,3 @@
 :if ([:len [find name="thunderbolttechnology.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="intel" match-subdomain=yes type=FWD name="thunderbolttechnology.net" }
 :if ([:len [find name="trustedanalytics.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="intel" match-subdomain=yes type=FWD name="trustedanalytics.com" }
 :if ([:len [find name="trustedanalytics.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="intel" match-subdomain=yes type=FWD name="trustedanalytics.net" }
-:if ([:len [find name="universalscalablefirmware.org"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="intel" match-subdomain=yes type=FWD name="universalscalablefirmware.org" }
-:if ([:len [find name="vokevr.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="intel" match-subdomain=yes type=FWD name="vokevr.com" }

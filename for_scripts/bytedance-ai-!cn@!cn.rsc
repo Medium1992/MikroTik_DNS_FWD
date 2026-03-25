@@ -7,3 +7,4 @@
 :if ([:len [find name="coze.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="bytedance-ai-!cn@!cn" match-subdomain=yes type=FWD name="coze.com" }
 :if ([:len [find name="dola.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="bytedance-ai-!cn@!cn" match-subdomain=yes type=FWD name="dola.com" }
 :if ([:len [find name="marscode.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="bytedance-ai-!cn@!cn" match-subdomain=yes type=FWD name="marscode.com" }
+:if ([:len [find name="trae.ai"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="bytedance-ai-!cn@!cn" match-subdomain=yes type=FWD name="trae.ai" }

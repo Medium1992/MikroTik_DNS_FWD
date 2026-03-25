@@ -1,6 +1,12 @@
 :global AddressList
 :global ForwardTo
 /ip dns static
+:if ([:len [find name="c5a13eec21010.beer"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="cn" match-subdomain=yes type=FWD name="c5a13eec21010.beer" }
+:if ([:len [find name="c5a7e584ed460dcd.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="cn" match-subdomain=yes type=FWD name="c5a7e584ed460dcd.com" }
+:if ([:len [find name="c5b3c3db298ea985.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="cn" match-subdomain=yes type=FWD name="c5b3c3db298ea985.com" }
+:if ([:len [find name="c5b6bpoq7q.world"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="cn" match-subdomain=yes type=FWD name="c5b6bpoq7q.world" }
+:if ([:len [find name="c5bf2b35337761f4.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="cn" match-subdomain=yes type=FWD name="c5bf2b35337761f4.com" }
+:if ([:len [find name="c5game.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="cn" match-subdomain=yes type=FWD name="c5game.com" }
 :if ([:len [find name="c5iot.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="cn" match-subdomain=yes type=FWD name="c5iot.com" }
 :if ([:len [find name="c6133f7f98120d7f.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="cn" match-subdomain=yes type=FWD name="c6133f7f98120d7f.com" }
 :if ([:len [find name="c631dlc0br.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="cn" match-subdomain=yes type=FWD name="c631dlc0br.com" }
@@ -145,9 +151,3 @@
 :if ([:len [find name="cagoe.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="cn" match-subdomain=yes type=FWD name="cagoe.com" }
 :if ([:len [find name="cahkms.org"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="cn" match-subdomain=yes type=FWD name="cahkms.org" }
 :if ([:len [find name="cai-ba.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="cn" match-subdomain=yes type=FWD name="cai-ba.com" }
-:if ([:len [find name="cai110.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="cn" match-subdomain=yes type=FWD name="cai110.com" }
-:if ([:len [find name="cai58t.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="cn" match-subdomain=yes type=FWD name="cai58t.com" }
-:if ([:len [find name="cai88.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="cn" match-subdomain=yes type=FWD name="cai88.com" }
-:if ([:len [find name="caiacn.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="cn" match-subdomain=yes type=FWD name="caiacn.com" }
-:if ([:len [find name="caiair.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="cn" match-subdomain=yes type=FWD name="caiair.com" }
-:if ([:len [find name="caian.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="cn" match-subdomain=yes type=FWD name="caian.net" }
