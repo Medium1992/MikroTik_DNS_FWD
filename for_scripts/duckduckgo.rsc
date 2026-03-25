@@ -10,6 +10,7 @@
 :if ([:len [find name="dgg.gg"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="duckduckgo" match-subdomain=yes type=FWD name="dgg.gg" }
 :if ([:len [find name="dontbubble.us"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="duckduckgo" match-subdomain=yes type=FWD name="dontbubble.us" }
 :if ([:len [find name="donttrack.us"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="duckduckgo" match-subdomain=yes type=FWD name="donttrack.us" }
+:if ([:len [find name="duck.ai"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="duckduckgo" match-subdomain=yes type=FWD name="duck.ai" }
 :if ([:len [find name="duck.co"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="duckduckgo" match-subdomain=yes type=FWD name="duck.co" }
 :if ([:len [find name="duck.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="duckduckgo" match-subdomain=yes type=FWD name="duck.com" }
 :if ([:len [find name="duckduckco.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="duckduckgo" match-subdomain=yes type=FWD name="duckduckco.com" }

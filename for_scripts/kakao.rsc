@@ -30,6 +30,7 @@
 :if ([:len [find name="kakaostyle.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="kakao" match-subdomain=yes type=FWD name="kakaostyle.com" }
 :if ([:len [find name="kakaotalk.jp"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="kakao" match-subdomain=yes type=FWD name="kakaotalk.jp" }
 :if ([:len [find name="kakaovx.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="kakao" match-subdomain=yes type=FWD name="kakaovx.com" }
+:if ([:len [find name="karechat.ai"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="kakao" match-subdomain=yes type=FWD name="karechat.ai" }
 :if ([:len [find name="kgslb.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="kakao" match-subdomain=yes type=FWD name="kgslb.com" }
 :if ([:len [find name="kpinsurances.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="kakao" match-subdomain=yes type=FWD name="kpinsurances.com" }
 :if ([:len [find name="krosspictures.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="kakao" match-subdomain=yes type=FWD name="krosspictures.com" }

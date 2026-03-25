@@ -1,6 +1,7 @@
 :global AddressList
 :global ForwardTo
 /ip dns static
+:if ([:len [find name="cds489.lcy.llnw.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="win-spy" match-subdomain=yes type=FWD name="cds489.lcy.llnw.net" }
 :if ([:len [find name="cds493.lcy.llnw.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="win-spy" match-subdomain=yes type=FWD name="cds493.lcy.llnw.net" }
 :if ([:len [find name="cds494.lcy.llnw.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="win-spy" match-subdomain=yes type=FWD name="cds494.lcy.llnw.net" }
 :if ([:len [find name="cds54.ory.llnw.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="win-spy" match-subdomain=yes type=FWD name="cds54.ory.llnw.net" }
@@ -150,4 +151,3 @@
 :if ([:len [find name="sqm.telemetry.microsoft.com.nsatc.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="win-spy" match-subdomain=yes type=FWD name="sqm.telemetry.microsoft.com.nsatc.net" }
 :if ([:len [find name="ssw.live.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="win-spy" match-subdomain=yes type=FWD name="ssw.live.com" }
 :if ([:len [find name="tele.trafficmanager.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="win-spy" match-subdomain=yes type=FWD name="tele.trafficmanager.net" }
-:if ([:len [find name="telemetry.appex.bing.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="win-spy" match-subdomain=yes type=FWD name="telemetry.appex.bing.net" }

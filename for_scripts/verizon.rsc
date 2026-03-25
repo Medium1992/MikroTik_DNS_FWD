@@ -29,6 +29,7 @@
 :if ([:len [find name="yahoo.cat"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="verizon" match-subdomain=yes type=FWD name="yahoo.cat" }
 :if ([:len [find name="yahoo.co.jp"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="verizon" match-subdomain=yes type=FWD name="yahoo.co.jp" }
 :if ([:len [find name="yahoo.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="verizon" match-subdomain=yes type=FWD name="yahoo.com" }
+:if ([:len [find name="yahoo.com.ai"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="verizon" match-subdomain=yes type=FWD name="yahoo.com.ai" }
 :if ([:len [find name="yahoo.com.co"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="verizon" match-subdomain=yes type=FWD name="yahoo.com.co" }
 :if ([:len [find name="yahoo.com.nf"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="verizon" match-subdomain=yes type=FWD name="yahoo.com.nf" }
 :if ([:len [find name="yahoo.com.tw"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="verizon" match-subdomain=yes type=FWD name="yahoo.com.tw" }
