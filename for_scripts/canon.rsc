@@ -14,6 +14,7 @@
 :if ([:len [find name="canon.be"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="canon" match-subdomain=yes type=FWD name="canon.be" }
 :if ([:len [find name="canon.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="canon" match-subdomain=yes type=FWD name="canon.com" }
 :if ([:len [find name="canon.com.tw"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="canon" match-subdomain=yes type=FWD name="canon.com.tw" }
+:if ([:len [find name="canon.de"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="canon" match-subdomain=yes type=FWD name="canon.de" }
 :if ([:len [find name="canon.me"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="canon" match-subdomain=yes type=FWD name="canon.me" }
 :if ([:len [find name="canon.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="canon" match-subdomain=yes type=FWD name="canon.net" }
 :if ([:len [find name="canon.nl"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="canon" match-subdomain=yes type=FWD name="canon.nl" }

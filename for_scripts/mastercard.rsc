@@ -23,6 +23,7 @@
 :if ([:len [find name="mastercard.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="mastercard" match-subdomain=yes type=FWD name="mastercard.com" }
 :if ([:len [find name="mastercard.com.co"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="mastercard" match-subdomain=yes type=FWD name="mastercard.com.co" }
 :if ([:len [find name="mastercard.com.tw"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="mastercard" match-subdomain=yes type=FWD name="mastercard.com.tw" }
+:if ([:len [find name="mastercard.de"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="mastercard" match-subdomain=yes type=FWD name="mastercard.de" }
 :if ([:len [find name="mastercard.eu"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="mastercard" match-subdomain=yes type=FWD name="mastercard.eu" }
 :if ([:len [find name="mastercard.inc"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="mastercard" match-subdomain=yes type=FWD name="mastercard.inc" }
 :if ([:len [find name="mastercard.nl"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="mastercard" match-subdomain=yes type=FWD name="mastercard.nl" }
@@ -82,6 +83,7 @@
 :if ([:len [find name="travelex.be"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="mastercard" match-subdomain=yes type=FWD name="travelex.be" }
 :if ([:len [find name="travelex.co.jp"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="mastercard" match-subdomain=yes type=FWD name="travelex.co.jp" }
 :if ([:len [find name="travelex.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="mastercard" match-subdomain=yes type=FWD name="travelex.com" }
+:if ([:len [find name="travelex.de"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="mastercard" match-subdomain=yes type=FWD name="travelex.de" }
 :if ([:len [find name="travelexae.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="mastercard" match-subdomain=yes type=FWD name="travelexae.com" }
 :if ([:len [find name="travelexch.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="mastercard" match-subdomain=yes type=FWD name="travelexch.com" }
 :if ([:len [find name="travelexmoneycard.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="mastercard" match-subdomain=yes type=FWD name="travelexmoneycard.com" }

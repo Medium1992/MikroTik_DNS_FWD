@@ -18,10 +18,12 @@
 :if ([:len [find name="pearson.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="pearson" match-subdomain=yes type=FWD name="pearson.com" }
 :if ([:len [find name="pearsonactivelearn.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="pearson" match-subdomain=yes type=FWD name="pearsonactivelearn.com" }
 :if ([:len [find name="pearsonassessment.be"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="pearson" match-subdomain=yes type=FWD name="pearsonassessment.be" }
+:if ([:len [find name="pearsonassessment.de"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="pearson" match-subdomain=yes type=FWD name="pearsonassessment.de" }
 :if ([:len [find name="pearsonassessment.nl"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="pearson" match-subdomain=yes type=FWD name="pearsonassessment.nl" }
 :if ([:len [find name="pearsonassessment.se"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="pearson" match-subdomain=yes type=FWD name="pearsonassessment.se" }
 :if ([:len [find name="pearsonassessments.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="pearson" match-subdomain=yes type=FWD name="pearsonassessments.com" }
 :if ([:len [find name="pearsonclinical.be"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="pearson" match-subdomain=yes type=FWD name="pearsonclinical.be" }
+:if ([:len [find name="pearsonclinical.de"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="pearson" match-subdomain=yes type=FWD name="pearsonclinical.de" }
 :if ([:len [find name="pearsonclinical.eu"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="pearson" match-subdomain=yes type=FWD name="pearsonclinical.eu" }
 :if ([:len [find name="pearsonclinical.nl"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="pearson" match-subdomain=yes type=FWD name="pearsonclinical.nl" }
 :if ([:len [find name="pearsonclinical.se"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="pearson" match-subdomain=yes type=FWD name="pearsonclinical.se" }

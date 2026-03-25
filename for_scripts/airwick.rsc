@@ -3,6 +3,7 @@
 /ip dns static
 :if ([:len [find name="airwick.be"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="airwick" match-subdomain=yes type=FWD name="airwick.be" }
 :if ([:len [find name="airwick.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="airwick" match-subdomain=yes type=FWD name="airwick.com" }
+:if ([:len [find name="airwick.de"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="airwick" match-subdomain=yes type=FWD name="airwick.de" }
 :if ([:len [find name="airwick.jp"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="airwick" match-subdomain=yes type=FWD name="airwick.jp" }
 :if ([:len [find name="airwick.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="airwick" match-subdomain=yes type=FWD name="airwick.net" }
 :if ([:len [find name="airwick.nl"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="airwick" match-subdomain=yes type=FWD name="airwick.nl" }

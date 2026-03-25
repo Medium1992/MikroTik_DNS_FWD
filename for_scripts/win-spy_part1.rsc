@@ -12,6 +12,7 @@
 :if ([:len [find name="ads1.msads.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="win-spy" match-subdomain=yes type=FWD name="ads1.msads.net" }
 :if ([:len [find name="ads1.msn.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="win-spy" match-subdomain=yes type=FWD name="ads1.msn.com" }
 :if ([:len [find name="aidps.atdmt.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="win-spy" match-subdomain=yes type=FWD name="aidps.atdmt.com" }
+:if ([:len [find name="aka-cdn-ns.adtech.de"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="win-spy" match-subdomain=yes type=FWD name="aka-cdn-ns.adtech.de" }
 :if ([:len [find name="api.cortana.ai"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="win-spy" match-subdomain=yes type=FWD name="api.cortana.ai" }
 :if ([:len [find name="api.edgeoffer.microsoft.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="win-spy" match-subdomain=yes type=FWD name="api.edgeoffer.microsoft.com" }
 :if ([:len [find name="asimov-win.settings.data.microsoft.com.akadns.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="win-spy" match-subdomain=yes type=FWD name="asimov-win.settings.data.microsoft.com.akadns.net" }
@@ -150,4 +151,3 @@
 :if ([:len [find name="cds469.lcy.llnw.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="win-spy" match-subdomain=yes type=FWD name="cds469.lcy.llnw.net" }
 :if ([:len [find name="cds471.lcy.llnw.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="win-spy" match-subdomain=yes type=FWD name="cds471.lcy.llnw.net" }
 :if ([:len [find name="cds483.lcy.llnw.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="win-spy" match-subdomain=yes type=FWD name="cds483.lcy.llnw.net" }
-:if ([:len [find name="cds484.lcy.llnw.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="win-spy" match-subdomain=yes type=FWD name="cds484.lcy.llnw.net" }

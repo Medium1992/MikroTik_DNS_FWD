@@ -8,6 +8,7 @@
 :if ([:len [find name="airbnb.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="airbnb" match-subdomain=yes type=FWD name="airbnb.com" }
 :if ([:len [find name="airbnb.com.co"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="airbnb" match-subdomain=yes type=FWD name="airbnb.com.co" }
 :if ([:len [find name="airbnb.com.tw"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="airbnb" match-subdomain=yes type=FWD name="airbnb.com.tw" }
+:if ([:len [find name="airbnb.de"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="airbnb" match-subdomain=yes type=FWD name="airbnb.de" }
 :if ([:len [find name="airbnb.jp"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="airbnb" match-subdomain=yes type=FWD name="airbnb.jp" }
 :if ([:len [find name="airbnb.me"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="airbnb" match-subdomain=yes type=FWD name="airbnb.me" }
 :if ([:len [find name="airbnb.nl"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="airbnb" match-subdomain=yes type=FWD name="airbnb.nl" }

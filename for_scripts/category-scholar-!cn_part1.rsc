@@ -138,6 +138,7 @@
 :if ([:len [find name="hk1lib.org"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-scholar-!cn" match-subdomain=yes type=FWD name="hk1lib.org" }
 :if ([:len [find name="hotcrp.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-scholar-!cn" match-subdomain=yes type=FWD name="hotcrp.com" }
 :if ([:len [find name="icevirtuallibrary.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-scholar-!cn" match-subdomain=yes type=FWD name="icevirtuallibrary.com" }
+:if ([:len [find name="icsd.fiz-karlsruhe.de"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-scholar-!cn" match-subdomain=yes type=FWD name="icsd.fiz-karlsruhe.de" }
 :if ([:len [find name="ieee-aess.org"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-scholar-!cn" match-subdomain=yes type=FWD name="ieee-aess.org" }
 :if ([:len [find name="ieee-cas.org"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-scholar-!cn" match-subdomain=yes type=FWD name="ieee-cas.org" }
 :if ([:len [find name="ieee-ccnc.org"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-scholar-!cn" match-subdomain=yes type=FWD name="ieee-ccnc.org" }
@@ -150,4 +151,3 @@
 :if ([:len [find name="ieee-isto.org"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-scholar-!cn" match-subdomain=yes type=FWD name="ieee-isto.org" }
 :if ([:len [find name="ieee-npss.org"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-scholar-!cn" match-subdomain=yes type=FWD name="ieee-npss.org" }
 :if ([:len [find name="ieee-pels.org"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-scholar-!cn" match-subdomain=yes type=FWD name="ieee-pels.org" }
-:if ([:len [find name="ieee-pes.org"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-scholar-!cn" match-subdomain=yes type=FWD name="ieee-pes.org" }

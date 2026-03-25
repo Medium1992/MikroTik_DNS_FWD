@@ -14,3 +14,4 @@
 :if ([:len [find name="test-ipv6.se"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="test-ipv6" match-subdomain=yes type=FWD name="test-ipv6.se" }
 :if ([:len [find name="test-ipv6.sin.vr.org"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="test-ipv6" match-subdomain=yes type=FWD name="test-ipv6.sin.vr.org" }
 :if ([:len [find name="test-ipv6.ttk.ru"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="test-ipv6" match-subdomain=yes type=FWD name="test-ipv6.ttk.ru" }
+:if ([:len [find name="testipv6.de"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="test-ipv6" match-subdomain=yes type=FWD name="testipv6.de" }

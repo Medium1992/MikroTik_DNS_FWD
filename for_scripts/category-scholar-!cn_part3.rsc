@@ -1,6 +1,7 @@
 :global AddressList
 :global ForwardTo
 /ip dns static
+:if ([:len [find name="statsmakemecry.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-scholar-!cn" match-subdomain=yes type=FWD name="statsmakemecry.com" }
 :if ([:len [find name="tandfonline.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-scholar-!cn" match-subdomain=yes type=FWD name="tandfonline.com" }
 :if ([:len [find name="taylorandfrancis.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-scholar-!cn" match-subdomain=yes type=FWD name="taylorandfrancis.com" }
 :if ([:len [find name="taylorfrancis.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-scholar-!cn" match-subdomain=yes type=FWD name="taylorfrancis.com" }
@@ -8,6 +9,8 @@
 :if ([:len [find name="techstreet.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-scholar-!cn" match-subdomain=yes type=FWD name="techstreet.com" }
 :if ([:len [find name="thelancet.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-scholar-!cn" match-subdomain=yes type=FWD name="thelancet.com" }
 :if ([:len [find name="thieme-connect.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-scholar-!cn" match-subdomain=yes type=FWD name="thieme-connect.com" }
+:if ([:len [find name="thieme-connect.de"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-scholar-!cn" match-subdomain=yes type=FWD name="thieme-connect.de" }
+:if ([:len [find name="thieme.de"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-scholar-!cn" match-subdomain=yes type=FWD name="thieme.de" }
 :if ([:len [find name="tickdata.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-scholar-!cn" match-subdomain=yes type=FWD name="tickdata.com" }
 :if ([:len [find name="totalmateria.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-scholar-!cn" match-subdomain=yes type=FWD name="totalmateria.com" }
 :if ([:len [find name="tryengineering.org"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-scholar-!cn" match-subdomain=yes type=FWD name="tryengineering.org" }
@@ -36,6 +39,7 @@
 :if ([:len [find name="zlibcdn.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-scholar-!cn" match-subdomain=yes type=FWD name="zlibcdn.com" }
 :if ([:len [find name="zlibcdn2.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-scholar-!cn" match-subdomain=yes type=FWD name="zlibcdn2.com" }
 :if ([:len [find name="angle.com.tw"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-scholar-!cn" type=FWD name="angle.com.tw" }
+:if ([:len [find name="beck-online.beck.de"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-scholar-!cn" type=FWD name="beck-online.beck.de" }
 :if ([:len [find name="databank.worldbank.org"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-scholar-!cn" type=FWD name="databank.worldbank.org" }
 :if ([:len [find name="database.asahi.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-scholar-!cn" type=FWD name="database.asahi.com" }
 :if ([:len [find name="dl.begellhouse.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-scholar-!cn" type=FWD name="dl.begellhouse.com" }
@@ -50,6 +54,7 @@
 :if ([:len [find name="scholar.google.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-scholar-!cn" type=FWD name="scholar.google.com" }
 :if ([:len [find name="scholar.google.com.co"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-scholar-!cn" type=FWD name="scholar.google.com.co" }
 :if ([:len [find name="scholar.google.com.tw"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-scholar-!cn" type=FWD name="scholar.google.com.tw" }
+:if ([:len [find name="scholar.google.de"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-scholar-!cn" type=FWD name="scholar.google.de" }
 :if ([:len [find name="scholar.google.nl"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-scholar-!cn" type=FWD name="scholar.google.nl" }
 :if ([:len [find name="scholar.google.ru"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-scholar-!cn" type=FWD name="scholar.google.ru" }
 :if ([:len [find name="scholar.google.se"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-scholar-!cn" type=FWD name="scholar.google.se" }

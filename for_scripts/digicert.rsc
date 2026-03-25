@@ -70,4 +70,5 @@
 :if ([:len [find name="symcb.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="digicert" match-subdomain=yes type=FWD name="symcb.com" }
 :if ([:len [find name="symcd.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="digicert" match-subdomain=yes type=FWD name="symcd.com" }
 :if ([:len [find name="thawte.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="digicert" match-subdomain=yes type=FWD name="thawte.com" }
+:if ([:len [find name="thawte.de"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="digicert" match-subdomain=yes type=FWD name="thawte.de" }
 :if ([:len [find name="ws.symantec.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="digicert" match-subdomain=yes type=FWD name="ws.symantec.com" }

@@ -5,6 +5,7 @@
 :if ([:len [find name="sandisk.co.jp"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="westerndigital" match-subdomain=yes type=FWD name="sandisk.co.jp" }
 :if ([:len [find name="sandisk.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="westerndigital" match-subdomain=yes type=FWD name="sandisk.com" }
 :if ([:len [find name="sandisk.com.tw"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="westerndigital" match-subdomain=yes type=FWD name="sandisk.com.tw" }
+:if ([:len [find name="sandisk.de"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="westerndigital" match-subdomain=yes type=FWD name="sandisk.de" }
 :if ([:len [find name="sandisk.nl"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="westerndigital" match-subdomain=yes type=FWD name="sandisk.nl" }
 :if ([:len [find name="wd.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="westerndigital" match-subdomain=yes type=FWD name="wd.com" }
 :if ([:len [find name="wdc.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="westerndigital" match-subdomain=yes type=FWD name="wdc.com" }

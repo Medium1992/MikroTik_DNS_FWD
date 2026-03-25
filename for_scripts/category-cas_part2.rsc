@@ -1,6 +1,7 @@
 :global AddressList
 :global ForwardTo
 /ip dns static
+:if ([:len [find name="swisssign.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-cas" match-subdomain=yes type=FWD name="swisssign.com" }
 :if ([:len [find name="swisssign.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-cas" match-subdomain=yes type=FWD name="swisssign.net" }
 :if ([:len [find name="swisssign.org"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-cas" match-subdomain=yes type=FWD name="swisssign.org" }
 :if ([:len [find name="swisssigner.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-cas" match-subdomain=yes type=FWD name="swisssigner.com" }
@@ -11,7 +12,10 @@
 :if ([:len [find name="symcd.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-cas" match-subdomain=yes type=FWD name="symcd.com" }
 :if ([:len [find name="techcrunch.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-cas" match-subdomain=yes type=FWD name="techcrunch.com" }
 :if ([:len [find name="telekom.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-cas" match-subdomain=yes type=FWD name="telekom.com" }
+:if ([:len [find name="telekom.de"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-cas" match-subdomain=yes type=FWD name="telekom.de" }
+:if ([:len [find name="telesec.de"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-cas" match-subdomain=yes type=FWD name="telesec.de" }
 :if ([:len [find name="thawte.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-cas" match-subdomain=yes type=FWD name="thawte.com" }
+:if ([:len [find name="thawte.de"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-cas" match-subdomain=yes type=FWD name="thawte.de" }
 :if ([:len [find name="tls.hinet.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-cas" match-subdomain=yes type=FWD name="tls.hinet.net" }
 :if ([:len [find name="trendmicro.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-cas" match-subdomain=yes type=FWD name="trendmicro.com" }
 :if ([:len [find name="trust-provider.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-cas" match-subdomain=yes type=FWD name="trust-provider.com" }
@@ -30,6 +34,7 @@
 :if ([:len [find name="verizonmedia.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-cas" match-subdomain=yes type=FWD name="verizonmedia.com" }
 :if ([:len [find name="verizonwireless.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-cas" match-subdomain=yes type=FWD name="verizonwireless.com" }
 :if ([:len [find name="vodafone.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-cas" match-subdomain=yes type=FWD name="vodafone.com" }
+:if ([:len [find name="vodafone.de"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-cas" match-subdomain=yes type=FWD name="vodafone.de" }
 :if ([:len [find name="vzw.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-cas" match-subdomain=yes type=FWD name="vzw.com" }
 :if ([:len [find name="wisecoin.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-cas" match-subdomain=yes type=FWD name="wisecoin.com" }
 :if ([:len [find name="wiseid.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-cas" match-subdomain=yes type=FWD name="wiseid.com" }
@@ -46,9 +51,11 @@
 :if ([:len [find name="yahoo.com.co"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-cas" match-subdomain=yes type=FWD name="yahoo.com.co" }
 :if ([:len [find name="yahoo.com.nf"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-cas" match-subdomain=yes type=FWD name="yahoo.com.nf" }
 :if ([:len [find name="yahoo.com.tw"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-cas" match-subdomain=yes type=FWD name="yahoo.com.tw" }
+:if ([:len [find name="yahoo.de"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-cas" match-subdomain=yes type=FWD name="yahoo.de" }
 :if ([:len [find name="yahoo.fm"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-cas" match-subdomain=yes type=FWD name="yahoo.fm" }
 :if ([:len [find name="yahoo.gg"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-cas" match-subdomain=yes type=FWD name="yahoo.gg" }
 :if ([:len [find name="yahoo.gp"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-cas" match-subdomain=yes type=FWD name="yahoo.gp" }
+:if ([:len [find name="yahoo.im"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-cas" match-subdomain=yes type=FWD name="yahoo.im" }
 :if ([:len [find name="yahoo.me"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-cas" match-subdomain=yes type=FWD name="yahoo.me" }
 :if ([:len [find name="yahoo.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-cas" match-subdomain=yes type=FWD name="yahoo.net" }
 :if ([:len [find name="yahoo.nl"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-cas" match-subdomain=yes type=FWD name="yahoo.nl" }

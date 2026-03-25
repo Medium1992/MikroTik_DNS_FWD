@@ -7,6 +7,7 @@
 :if ([:len [find name="starbucks.co.jp"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="starbucks" match-subdomain=yes type=FWD name="starbucks.co.jp" }
 :if ([:len [find name="starbucks.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="starbucks" match-subdomain=yes type=FWD name="starbucks.com" }
 :if ([:len [find name="starbucks.com.co"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="starbucks" match-subdomain=yes type=FWD name="starbucks.com.co" }
+:if ([:len [find name="starbucks.de"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="starbucks" match-subdomain=yes type=FWD name="starbucks.de" }
 :if ([:len [find name="starbucks.nl"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="starbucks" match-subdomain=yes type=FWD name="starbucks.nl" }
 :if ([:len [find name="starbucks.ru"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="starbucks" match-subdomain=yes type=FWD name="starbucks.ru" }
 :if ([:len [find name="starbucks.se"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="starbucks" match-subdomain=yes type=FWD name="starbucks.se" }

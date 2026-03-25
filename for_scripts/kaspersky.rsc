@@ -6,6 +6,7 @@
 :if ([:len [find name="kaspersky.co.jp"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="kaspersky" match-subdomain=yes type=FWD name="kaspersky.co.jp" }
 :if ([:len [find name="kaspersky.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="kaspersky" match-subdomain=yes type=FWD name="kaspersky.com" }
 :if ([:len [find name="kaspersky.com.tw"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="kaspersky" match-subdomain=yes type=FWD name="kaspersky.com.tw" }
+:if ([:len [find name="kaspersky.de"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="kaspersky" match-subdomain=yes type=FWD name="kaspersky.de" }
 :if ([:len [find name="kaspersky.nl"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="kaspersky" match-subdomain=yes type=FWD name="kaspersky.nl" }
 :if ([:len [find name="kaspersky.ru"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="kaspersky" match-subdomain=yes type=FWD name="kaspersky.ru" }
 :if ([:len [find name="kaspersky.se"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="kaspersky" match-subdomain=yes type=FWD name="kaspersky.se" }

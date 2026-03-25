@@ -29,6 +29,7 @@
 :if ([:len [find name="sony.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="sony" match-subdomain=yes type=FWD name="sony.com" }
 :if ([:len [find name="sony.com.co"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="sony" match-subdomain=yes type=FWD name="sony.com.co" }
 :if ([:len [find name="sony.com.tw"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="sony" match-subdomain=yes type=FWD name="sony.com.tw" }
+:if ([:len [find name="sony.de"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="sony" match-subdomain=yes type=FWD name="sony.de" }
 :if ([:len [find name="sony.eu"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="sony" match-subdomain=yes type=FWD name="sony.eu" }
 :if ([:len [find name="sony.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="sony" match-subdomain=yes type=FWD name="sony.net" }
 :if ([:len [find name="sony.nl"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="sony" match-subdomain=yes type=FWD name="sony.nl" }

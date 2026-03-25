@@ -3,3 +3,4 @@
 /ip dns static
 :if ([:len [find name="myvodafone.com.ws"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="vodafone" match-subdomain=yes type=FWD name="myvodafone.com.ws" }
 :if ([:len [find name="vodafone.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="vodafone" match-subdomain=yes type=FWD name="vodafone.com" }
+:if ([:len [find name="vodafone.de"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="vodafone" match-subdomain=yes type=FWD name="vodafone.de" }

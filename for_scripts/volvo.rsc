@@ -9,6 +9,7 @@
 :if ([:len [find name="udtrucksmeena.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="volvo" match-subdomain=yes type=FWD name="udtrucksmeena.com" }
 :if ([:len [find name="vfsco.be"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="volvo" match-subdomain=yes type=FWD name="vfsco.be" }
 :if ([:len [find name="vfsco.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="volvo" match-subdomain=yes type=FWD name="vfsco.com" }
+:if ([:len [find name="vfsco.de"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="volvo" match-subdomain=yes type=FWD name="vfsco.de" }
 :if ([:len [find name="vfsco.jp"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="volvo" match-subdomain=yes type=FWD name="vfsco.jp" }
 :if ([:len [find name="vfsco.nl"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="volvo" match-subdomain=yes type=FWD name="vfsco.nl" }
 :if ([:len [find name="vfsco.ru"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="volvo" match-subdomain=yes type=FWD name="vfsco.ru" }
@@ -24,6 +25,7 @@
 :if ([:len [find name="volvobuses.co"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="volvo" match-subdomain=yes type=FWD name="volvobuses.co" }
 :if ([:len [find name="volvobuses.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="volvo" match-subdomain=yes type=FWD name="volvobuses.com" }
 :if ([:len [find name="volvobuses.com.tw"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="volvo" match-subdomain=yes type=FWD name="volvobuses.com.tw" }
+:if ([:len [find name="volvobuses.de"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="volvo" match-subdomain=yes type=FWD name="volvobuses.de" }
 :if ([:len [find name="volvobuses.ru"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="volvo" match-subdomain=yes type=FWD name="volvobuses.ru" }
 :if ([:len [find name="volvobuses.se"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="volvo" match-subdomain=yes type=FWD name="volvobuses.se" }
 :if ([:len [find name="volvobuses.us"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="volvo" match-subdomain=yes type=FWD name="volvobuses.us" }
@@ -31,6 +33,7 @@
 :if ([:len [find name="volvodefense.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="volvo" match-subdomain=yes type=FWD name="volvodefense.com" }
 :if ([:len [find name="volvogroup.be"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="volvo" match-subdomain=yes type=FWD name="volvogroup.be" }
 :if ([:len [find name="volvogroup.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="volvo" match-subdomain=yes type=FWD name="volvogroup.com" }
+:if ([:len [find name="volvogroup.de"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="volvo" match-subdomain=yes type=FWD name="volvogroup.de" }
 :if ([:len [find name="volvogroup.jp"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="volvo" match-subdomain=yes type=FWD name="volvogroup.jp" }
 :if ([:len [find name="volvogroup.nl"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="volvo" match-subdomain=yes type=FWD name="volvogroup.nl" }
 :if ([:len [find name="volvogroup.ru"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="volvo" match-subdomain=yes type=FWD name="volvogroup.ru" }
@@ -38,6 +41,7 @@
 :if ([:len [find name="volvogrouptruckcenter.nl"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="volvo" match-subdomain=yes type=FWD name="volvogrouptruckcenter.nl" }
 :if ([:len [find name="volvomerchandise.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="volvo" match-subdomain=yes type=FWD name="volvomerchandise.com" }
 :if ([:len [find name="volvopenta.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="volvo" match-subdomain=yes type=FWD name="volvopenta.com" }
+:if ([:len [find name="volvopenta.de"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="volvo" match-subdomain=yes type=FWD name="volvopenta.de" }
 :if ([:len [find name="volvopenta.nl"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="volvo" match-subdomain=yes type=FWD name="volvopenta.nl" }
 :if ([:len [find name="volvopenta.se"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="volvo" match-subdomain=yes type=FWD name="volvopenta.se" }
 :if ([:len [find name="volvopenta.us"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="volvo" match-subdomain=yes type=FWD name="volvopenta.us" }
@@ -50,6 +54,7 @@
 :if ([:len [find name="volvotrucks.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="volvo" match-subdomain=yes type=FWD name="volvotrucks.com" }
 :if ([:len [find name="volvotrucks.com.co"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="volvo" match-subdomain=yes type=FWD name="volvotrucks.com.co" }
 :if ([:len [find name="volvotrucks.com.tw"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="volvo" match-subdomain=yes type=FWD name="volvotrucks.com.tw" }
+:if ([:len [find name="volvotrucks.de"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="volvo" match-subdomain=yes type=FWD name="volvotrucks.de" }
 :if ([:len [find name="volvotrucks.jp"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="volvo" match-subdomain=yes type=FWD name="volvotrucks.jp" }
 :if ([:len [find name="volvotrucks.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="volvo" match-subdomain=yes type=FWD name="volvotrucks.net" }
 :if ([:len [find name="volvotrucks.nl"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="volvo" match-subdomain=yes type=FWD name="volvotrucks.nl" }

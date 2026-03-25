@@ -4,6 +4,7 @@
 :if ([:len [find name="veet.be"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="veet" match-subdomain=yes type=FWD name="veet.be" }
 :if ([:len [find name="veet.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="veet" match-subdomain=yes type=FWD name="veet.com" }
 :if ([:len [find name="veet.com.co"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="veet" match-subdomain=yes type=FWD name="veet.com.co" }
+:if ([:len [find name="veet.de"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="veet" match-subdomain=yes type=FWD name="veet.de" }
 :if ([:len [find name="veet.jp"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="veet" match-subdomain=yes type=FWD name="veet.jp" }
 :if ([:len [find name="veet.nl"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="veet" match-subdomain=yes type=FWD name="veet.nl" }
 :if ([:len [find name="veet.ru"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="veet" match-subdomain=yes type=FWD name="veet.ru" }

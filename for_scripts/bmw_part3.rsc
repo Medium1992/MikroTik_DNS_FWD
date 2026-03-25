@@ -1,6 +1,21 @@
 :global AddressList
 :global ForwardTo
 /ip dns static
+:if ([:len [find name="minimoncton.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="bmw" match-subdomain=yes type=FWD name="minimoncton.com" }
+:if ([:len [find name="minimontroyal.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="bmw" match-subdomain=yes type=FWD name="minimontroyal.com" }
+:if ([:len [find name="minimotoringrewards.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="bmw" match-subdomain=yes type=FWD name="minimotoringrewards.com" }
+:if ([:len [find name="minimotoringschool.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="bmw" match-subdomain=yes type=FWD name="minimotoringschool.com" }
+:if ([:len [find name="minimotorsport.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="bmw" match-subdomain=yes type=FWD name="minimotorsport.com" }
+:if ([:len [find name="mininanaimo.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="bmw" match-subdomain=yes type=FWD name="mininanaimo.com" }
+:if ([:len [find name="minioakville.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="bmw" match-subdomain=yes type=FWD name="minioakville.com" }
+:if ([:len [find name="miniofmonrovia.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="bmw" match-subdomain=yes type=FWD name="miniofmonrovia.com" }
+:if ([:len [find name="minipetfriendly.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="bmw" match-subdomain=yes type=FWD name="minipetfriendly.com" }
+:if ([:len [find name="minirichmond.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="bmw" match-subdomain=yes type=FWD name="minirichmond.com" }
+:if ([:len [find name="minisaskatoon.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="bmw" match-subdomain=yes type=FWD name="minisaskatoon.com" }
+:if ([:len [find name="minispace.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="bmw" match-subdomain=yes type=FWD name="minispace.com" }
+:if ([:len [find name="minispygear.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="bmw" match-subdomain=yes type=FWD name="minispygear.com" }
+:if ([:len [find name="ministeagathe.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="bmw" match-subdomain=yes type=FWD name="ministeagathe.com" }
+:if ([:len [find name="minitakesthestates.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="bmw" match-subdomain=yes type=FWD name="minitakesthestates.com" }
 :if ([:len [find name="miniusa.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="bmw" match-subdomain=yes type=FWD name="miniusa.com" }
 :if ([:len [find name="miniusaservice.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="bmw" match-subdomain=yes type=FWD name="miniusaservice.com" }
 :if ([:len [find name="miniusatires.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="bmw" match-subdomain=yes type=FWD name="miniusatires.com" }
@@ -23,9 +38,11 @@
 :if ([:len [find name="pdxbmw.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="bmw" match-subdomain=yes type=FWD name="pdxbmw.com" }
 :if ([:len [find name="phxbmw.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="bmw" match-subdomain=yes type=FWD name="phxbmw.com" }
 :if ([:len [find name="pre-bmwgroup.jobs"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="bmw" match-subdomain=yes type=FWD name="pre-bmwgroup.jobs" }
+:if ([:len [find name="premiumfs.de"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="bmw" match-subdomain=yes type=FWD name="premiumfs.de" }
 :if ([:len [find name="pugetsoundbmw.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="bmw" match-subdomain=yes type=FWD name="pugetsoundbmw.com" }
 :if ([:len [find name="pugetsoundmini.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="bmw" match-subdomain=yes type=FWD name="pugetsoundmini.com" }
 :if ([:len [find name="rentaride.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="bmw" match-subdomain=yes type=FWD name="rentaride.com" }
+:if ([:len [find name="rentaride.de"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="bmw" match-subdomain=yes type=FWD name="rentaride.de" }
 :if ([:len [find name="rhodeislandbmw.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="bmw" match-subdomain=yes type=FWD name="rhodeislandbmw.com" }
 :if ([:len [find name="rolls-roycecullinan.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="bmw" match-subdomain=yes type=FWD name="rolls-roycecullinan.com" }
 :if ([:len [find name="rolls-roycemotorcars.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="bmw" match-subdomain=yes type=FWD name="rolls-roycemotorcars.com" }

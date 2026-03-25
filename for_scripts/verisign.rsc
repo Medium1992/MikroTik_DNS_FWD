@@ -5,6 +5,7 @@
 :if ([:len [find name="verisign.biz"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="verisign" match-subdomain=yes type=FWD name="verisign.biz" }
 :if ([:len [find name="verisign.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="verisign" match-subdomain=yes type=FWD name="verisign.com" }
 :if ([:len [find name="verisign.com.tw"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="verisign" match-subdomain=yes type=FWD name="verisign.com.tw" }
+:if ([:len [find name="verisign.de"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="verisign" match-subdomain=yes type=FWD name="verisign.de" }
 :if ([:len [find name="verisign.info"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="verisign" match-subdomain=yes type=FWD name="verisign.info" }
 :if ([:len [find name="verisign.jobs"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="verisign" match-subdomain=yes type=FWD name="verisign.jobs" }
 :if ([:len [find name="verisign.mobi"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="verisign" match-subdomain=yes type=FWD name="verisign.mobi" }

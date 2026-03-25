@@ -9,6 +9,7 @@
 :if ([:len [find name="cn.eset.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-antivirus" match-subdomain=yes type=FWD name="cn.eset.com" }
 :if ([:len [find name="comodo.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-antivirus" match-subdomain=yes type=FWD name="comodo.com" }
 :if ([:len [find name="comodo.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-antivirus" match-subdomain=yes type=FWD name="comodo.net" }
+:if ([:len [find name="drweb-av.de"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-antivirus" match-subdomain=yes type=FWD name="drweb-av.de" }
 :if ([:len [find name="drweb.co.jp"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-antivirus" match-subdomain=yes type=FWD name="drweb.co.jp" }
 :if ([:len [find name="drweb.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-antivirus" match-subdomain=yes type=FWD name="drweb.com" }
 :if ([:len [find name="drweb.ru"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-antivirus" match-subdomain=yes type=FWD name="drweb.ru" }
@@ -22,6 +23,7 @@
 :if ([:len [find name="kaspersky.co.jp"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-antivirus" match-subdomain=yes type=FWD name="kaspersky.co.jp" }
 :if ([:len [find name="kaspersky.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-antivirus" match-subdomain=yes type=FWD name="kaspersky.com" }
 :if ([:len [find name="kaspersky.com.tw"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-antivirus" match-subdomain=yes type=FWD name="kaspersky.com.tw" }
+:if ([:len [find name="kaspersky.de"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-antivirus" match-subdomain=yes type=FWD name="kaspersky.de" }
 :if ([:len [find name="kaspersky.nl"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-antivirus" match-subdomain=yes type=FWD name="kaspersky.nl" }
 :if ([:len [find name="kaspersky.ru"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-antivirus" match-subdomain=yes type=FWD name="kaspersky.ru" }
 :if ([:len [find name="kaspersky.se"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-antivirus" match-subdomain=yes type=FWD name="kaspersky.se" }

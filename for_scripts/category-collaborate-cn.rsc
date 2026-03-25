@@ -11,9 +11,11 @@
 :if ([:len [find name="orayer.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-collaborate-cn" match-subdomain=yes type=FWD name="orayer.com" }
 :if ([:len [find name="orayimg.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-collaborate-cn" match-subdomain=yes type=FWD name="orayimg.com" }
 :if ([:len [find name="privateapi.xyz"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-collaborate-cn" match-subdomain=yes type=FWD name="privateapi.xyz" }
+:if ([:len [find name="shimo.im"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-collaborate-cn" match-subdomain=yes type=FWD name="shimo.im" }
 :if ([:len [find name="shimonote.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-collaborate-cn" match-subdomain=yes type=FWD name="shimonote.com" }
 :if ([:len [find name="sunlogin.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-collaborate-cn" match-subdomain=yes type=FWD name="sunlogin.net" }
 :if ([:len [find name="todesk.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-collaborate-cn" match-subdomain=yes type=FWD name="todesk.com" }
+:if ([:len [find name="tower.im"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-collaborate-cn" match-subdomain=yes type=FWD name="tower.im" }
 :if ([:len [find name="tritoninfo.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-collaborate-cn" match-subdomain=yes type=FWD name="tritoninfo.net" }
 :if ([:len [find name="worktile.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-collaborate-cn" match-subdomain=yes type=FWD name="worktile.com" }
 :if ([:len [find name="xedge.cc"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-collaborate-cn" match-subdomain=yes type=FWD name="xedge.cc" }
