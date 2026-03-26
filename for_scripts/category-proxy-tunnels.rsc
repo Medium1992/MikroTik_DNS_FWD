@@ -1,6 +1,8 @@
 :global AddressList
 :global ForwardTo
 /ip dns static
+:if ([:len [find name="equinox.io"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-proxy-tunnels" match-subdomain=yes type=FWD name="equinox.io" }
+:if ([:len [find name="ngrok-agent.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-proxy-tunnels" match-subdomain=yes type=FWD name="ngrok-agent.com" }
 :if ([:len [find name="ngrok-free.app"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-proxy-tunnels" match-subdomain=yes type=FWD name="ngrok-free.app" }
 :if ([:len [find name="ngrok-free.dev"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-proxy-tunnels" match-subdomain=yes type=FWD name="ngrok-free.dev" }
 :if ([:len [find name="ngrok-free.pizza"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-proxy-tunnels" match-subdomain=yes type=FWD name="ngrok-free.pizza" }

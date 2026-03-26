@@ -20,6 +20,7 @@
 :if ([:len [find name="charlotte-anime.jp"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-entertainment" match-subdomain=yes type=FWD name="charlotte-anime.jp" }
 :if ([:len [find name="chillingo.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-entertainment" match-subdomain=yes type=FWD name="chillingo.com" }
 :if ([:len [find name="chobit.cc"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-entertainment" match-subdomain=yes type=FWD name="chobit.cc" }
+:if ([:len [find name="chunkbase.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-entertainment" match-subdomain=yes type=FWD name="chunkbase.com" }
 :if ([:len [find name="ci-en.jp"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-entertainment" match-subdomain=yes type=FWD name="ci-en.jp" }
 :if ([:len [find name="ci-en.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-entertainment" match-subdomain=yes type=FWD name="ci-en.net" }
 :if ([:len [find name="cinemax.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-entertainment" match-subdomain=yes type=FWD name="cinemax.com" }
@@ -150,4 +151,3 @@
 :if ([:len [find name="dmcdn.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-entertainment" match-subdomain=yes type=FWD name="dmcdn.net" }
 :if ([:len [find name="dmed.technology"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-entertainment" match-subdomain=yes type=FWD name="dmed.technology" }
 :if ([:len [find name="dodi-repacks.download"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-entertainment" match-subdomain=yes type=FWD name="dodi-repacks.download" }
-:if ([:len [find name="dodi-repacks.site"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-entertainment" match-subdomain=yes type=FWD name="dodi-repacks.site" }

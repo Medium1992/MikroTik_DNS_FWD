@@ -121,6 +121,7 @@
 :if ([:len [find name="cdncl.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-games" match-subdomain=yes type=FWD name="cdncl.net" }
 :if ([:len [find name="championshipseriesleague.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-games" match-subdomain=yes type=FWD name="championshipseriesleague.com" }
 :if ([:len [find name="chillingo.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-games" match-subdomain=yes type=FWD name="chillingo.com" }
+:if ([:len [find name="chunkbase.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-games" match-subdomain=yes type=FWD name="chunkbase.com" }
 :if ([:len [find name="clash.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-games" match-subdomain=yes type=FWD name="clash.com" }
 :if ([:len [find name="clashmini.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-games" match-subdomain=yes type=FWD name="clashmini.com" }
 :if ([:len [find name="clashofclans.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-games" match-subdomain=yes type=FWD name="clashofclans.com" }
@@ -150,4 +151,3 @@
 :if ([:len [find name="deadspacegame.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-games" match-subdomain=yes type=FWD name="deadspacegame.com" }
 :if ([:len [find name="diablo3.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-games" match-subdomain=yes type=FWD name="diablo3.com" }
 :if ([:len [find name="diabloimmortal.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-games" match-subdomain=yes type=FWD name="diabloimmortal.com" }
-:if ([:len [find name="dialga.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-games" match-subdomain=yes type=FWD name="dialga.com" }

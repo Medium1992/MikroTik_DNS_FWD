@@ -105,6 +105,7 @@
 :if ([:len [find name="proxycheck.io"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-ip-geo-detect" match-subdomain=yes type=FWD name="proxycheck.io" }
 :if ([:len [find name="realip.cc"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-ip-geo-detect" match-subdomain=yes type=FWD name="realip.cc" }
 :if ([:len [find name="seeip.org"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-ip-geo-detect" match-subdomain=yes type=FWD name="seeip.org" }
+:if ([:len [find name="showip.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-ip-geo-detect" match-subdomain=yes type=FWD name="showip.net" }
 :if ([:len [find name="showmyip.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-ip-geo-detect" match-subdomain=yes type=FWD name="showmyip.com" }
 :if ([:len [find name="showmyipaddress.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-ip-geo-detect" match-subdomain=yes type=FWD name="showmyipaddress.com" }
 :if ([:len [find name="spur.us"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-ip-geo-detect" match-subdomain=yes type=FWD name="spur.us" }
