@@ -1,6 +1,8 @@
 :global AddressList
 :global ForwardTo
 /ip dns static
+:if ([:len [find name="ksn-crypto-kas-geo.kaspersky-labs.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" type=FWD name="ksn-crypto-kas-geo.kaspersky-labs.com" }
+:if ([:len [find name="ksn-crypto-tcert-geo.kaspersky-labs.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" type=FWD name="ksn-crypto-tcert-geo.kaspersky-labs.com" }
 :if ([:len [find name="ksn-crypto-url-geo.kaspersky-labs.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" type=FWD name="ksn-crypto-url-geo.kaspersky-labs.com" }
 :if ([:len [find name="ksn-crypto-verdict-geo.kaspersky-labs.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" type=FWD name="ksn-crypto-verdict-geo.kaspersky-labs.com" }
 :if ([:len [find name="ksn-crypto-wifiplus-geo.kaspersky-labs.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" type=FWD name="ksn-crypto-wifiplus-geo.kaspersky-labs.com" }
@@ -149,5 +151,3 @@
 :if ([:len [find name="redirector.gvt1.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" type=FWD name="redirector.gvt1.com" }
 :if ([:len [find name="redirector.offline-maps.gvt1.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" type=FWD name="redirector.offline-maps.gvt1.com" }
 :if ([:len [find name="redirector.snap.gvt1.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" type=FWD name="redirector.snap.gvt1.com" }
-:if ([:len [find name="redirector.xn--ngstr-lra8j.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" type=FWD name="redirector.xn--ngstr-lra8j.com" }
-:if ([:len [find name="refresh-bkg.activation-v2.kaspersky.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" type=FWD name="refresh-bkg.activation-v2.kaspersky.com" }

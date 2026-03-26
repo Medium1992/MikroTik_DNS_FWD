@@ -1,6 +1,8 @@
 :global AddressList
 :global ForwardTo
 /ip dns static
+:if ([:len [find name="redirector.xn--ngstr-lra8j.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" type=FWD name="redirector.xn--ngstr-lra8j.com" }
+:if ([:len [find name="refresh-bkg.activation-v2.kaspersky.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" type=FWD name="refresh-bkg.activation-v2.kaspersky.com" }
 :if ([:len [find name="res-1.cdn.office.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" type=FWD name="res-1.cdn.office.net" }
 :if ([:len [find name="res.cdn.office.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" type=FWD name="res.cdn.office.net" }
 :if ([:len [find name="reserve-prime.apple.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" type=FWD name="reserve-prime.apple.com" }
@@ -149,5 +151,3 @@
 :if ([:len [find name="wear.googleapis.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" type=FWD name="wear.googleapis.com" }
 :if ([:len [find name="weather-data.apple.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" type=FWD name="weather-data.apple.com" }
 :if ([:len [find name="weather-data.apple.com.akadns.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" type=FWD name="weather-data.apple.com.akadns.net" }
-:if ([:len [find name="weather-map.apple.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" type=FWD name="weather-map.apple.com" }
-:if ([:len [find name="weather-map2.apple.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" type=FWD name="weather-map2.apple.com" }

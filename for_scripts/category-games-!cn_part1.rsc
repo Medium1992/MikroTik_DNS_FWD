@@ -66,6 +66,7 @@
 :if ([:len [find name="capturingreality.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-games-!cn" match-subdomain=yes type=FWD name="capturingreality.com" }
 :if ([:len [find name="championshipseriesleague.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-games-!cn" match-subdomain=yes type=FWD name="championshipseriesleague.com" }
 :if ([:len [find name="chillingo.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-games-!cn" match-subdomain=yes type=FWD name="chillingo.com" }
+:if ([:len [find name="chunkbase.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-games-!cn" match-subdomain=yes type=FWD name="chunkbase.com" }
 :if ([:len [find name="clash.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-games-!cn" match-subdomain=yes type=FWD name="clash.com" }
 :if ([:len [find name="clashmini.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-games-!cn" match-subdomain=yes type=FWD name="clashmini.com" }
 :if ([:len [find name="clashofclans.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-games-!cn" match-subdomain=yes type=FWD name="clashofclans.com" }
@@ -150,4 +151,3 @@
 :if ([:len [find name="escapefromtarkov.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-games-!cn" match-subdomain=yes type=FWD name="escapefromtarkov.com" }
 :if ([:len [find name="excitebots.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-games-!cn" match-subdomain=yes type=FWD name="excitebots.com" }
 :if ([:len [find name="fab.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-games-!cn" match-subdomain=yes type=FWD name="fab.com" }
-:if ([:len [find name="fabricmc.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-games-!cn" match-subdomain=yes type=FWD name="fabricmc.net" }

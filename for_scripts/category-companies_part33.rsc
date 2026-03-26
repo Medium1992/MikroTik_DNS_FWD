@@ -1,6 +1,8 @@
 :global AddressList
 :global ForwardTo
 /ip dns static
+:if ([:len [find name="vmmark.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" match-subdomain=yes type=FWD name="vmmark.com" }
+:if ([:len [find name="vmtestdrive.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" match-subdomain=yes type=FWD name="vmtestdrive.com" }
 :if ([:len [find name="vmw.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" match-subdomain=yes type=FWD name="vmw.com" }
 :if ([:len [find name="vmware-cloudmanagement.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" match-subdomain=yes type=FWD name="vmware-cloudmanagement.com" }
 :if ([:len [find name="vmware-techcenter.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" match-subdomain=yes type=FWD name="vmware-techcenter.com" }
@@ -149,5 +151,3 @@
 :if ([:len [find name="workplace.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" match-subdomain=yes type=FWD name="workplace.com" }
 :if ([:len [find name="workplaceusecases.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" match-subdomain=yes type=FWD name="workplaceusecases.com" }
 :if ([:len [find name="worksmobile.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" match-subdomain=yes type=FWD name="worksmobile.com" }
-:if ([:len [find name="workspaceair.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" match-subdomain=yes type=FWD name="workspaceair.com" }
-:if ([:len [find name="workspaceone.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" match-subdomain=yes type=FWD name="workspaceone.com" }
