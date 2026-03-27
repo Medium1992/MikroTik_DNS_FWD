@@ -16,9 +16,11 @@
 :if ([:len [find name="meetsmartbook.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="qualcomm" match-subdomain=yes type=FWD name="meetsmartbook.com" }
 :if ([:len [find name="patenttruth.org"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="qualcomm" match-subdomain=yes type=FWD name="patenttruth.org" }
 :if ([:len [find name="pixtronix.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="qualcomm" match-subdomain=yes type=FWD name="pixtronix.com" }
+:if ([:len [find name="qcomgeo2.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="qualcomm" match-subdomain=yes type=FWD name="qcomgeo2.com" }
 :if ([:len [find name="qctconnect.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="qualcomm" match-subdomain=yes type=FWD name="qctconnect.com" }
 :if ([:len [find name="qprize.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="qualcomm" match-subdomain=yes type=FWD name="qprize.com" }
 :if ([:len [find name="qualcomm-email.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="qualcomm" match-subdomain=yes type=FWD name="qualcomm-email.com" }
+:if ([:len [find name="qualcomm-inc.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="qualcomm" match-subdomain=yes type=FWD name="qualcomm-inc.com" }
 :if ([:len [find name="qualcomm.cn.cdn.cloudflare.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="qualcomm" match-subdomain=yes type=FWD name="qualcomm.cn.cdn.cloudflare.net" }
 :if ([:len [find name="qualcomm.co.jp"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="qualcomm" match-subdomain=yes type=FWD name="qualcomm.co.jp" }
 :if ([:len [find name="qualcomm.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="qualcomm" match-subdomain=yes type=FWD name="qualcomm.com" }
