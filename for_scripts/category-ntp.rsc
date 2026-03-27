@@ -35,6 +35,7 @@
 :if ([:len [find name="ntp3.v6.mfeed.ad.jp"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-ntp" match-subdomain=yes type=FWD name="ntp3.v6.mfeed.ad.jp" }
 :if ([:len [find name="pool.ntp.org"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-ntp" match-subdomain=yes type=FWD name="pool.ntp.org" }
 :if ([:len [find name="s2csntp.miz.nao.ac.jp"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-ntp" match-subdomain=yes type=FWD name="s2csntp.miz.nao.ac.jp" }
+:if ([:len [find name="izattime.qcomgeo2.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-ntp" type=FWD name="izattime.qcomgeo2.com" }
 :if ([:len [find name="ntp-b.nist.gov"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-ntp" type=FWD name="ntp-b.nist.gov" }
 :if ([:len [find name="ntp-c.colorado.edu"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-ntp" type=FWD name="ntp-c.colorado.edu" }
 :if ([:len [find name="ntp-d.nist.gov"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-ntp" type=FWD name="ntp-d.nist.gov" }
@@ -102,3 +103,4 @@
 :if ([:len [find name="utcnist.colorado.edu"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-ntp" type=FWD name="utcnist.colorado.edu" }
 :if ([:len [find name="utcnist2.colorado.edu"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-ntp" type=FWD name="utcnist2.colorado.edu" }
 :if ([:len [find name="utcnist3.colorado.edu"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-ntp" type=FWD name="utcnist3.colorado.edu" }
+:if ([:len [find name="xtratime.qcomgeo2.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-ntp" type=FWD name="xtratime.qcomgeo2.com" }
