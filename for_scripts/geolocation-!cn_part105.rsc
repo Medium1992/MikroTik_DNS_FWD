@@ -130,7 +130,6 @@
 :if ([:len [find name="s-msn.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" match-subdomain=yes type=FWD name="s-msn.com" }
 :if ([:len [find name="s-nbcnews.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" match-subdomain=yes type=FWD name="s-nbcnews.com" }
 :if ([:len [find name="s-xoom.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" match-subdomain=yes type=FWD name="s-xoom.com" }
-:if ([:len [find name="s.rmimg.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" match-subdomain=yes type=FWD name="s.rmimg.com" }
 :if ([:len [find name="s.team"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" match-subdomain=yes type=FWD name="s.team" }
 :if ([:len [find name="s1s1s1.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" match-subdomain=yes type=FWD name="s1s1s1.com" }
 :if ([:len [find name="s2csntp.miz.nao.ac.jp"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" match-subdomain=yes type=FWD name="s2csntp.miz.nao.ac.jp" }
@@ -151,3 +150,4 @@
 :if ([:len [find name="saerock.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" match-subdomain=yes type=FWD name="saerock.com" }
 :if ([:len [find name="safebooru.org"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" match-subdomain=yes type=FWD name="safebooru.org" }
 :if ([:len [find name="safechat.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" match-subdomain=yes type=FWD name="safechat.com" }
+:if ([:len [find name="safeguarddefenders.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" match-subdomain=yes type=FWD name="safeguarddefenders.com" }

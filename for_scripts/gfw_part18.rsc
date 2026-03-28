@@ -7,7 +7,6 @@
 :if ([:len [find name="rutracker.org"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="gfw" match-subdomain=yes type=FWD name="rutracker.org" }
 :if ([:len [find name="rxhj.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="gfw" match-subdomain=yes type=FWD name="rxhj.net" }
 :if ([:len [find name="s-cute.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="gfw" match-subdomain=yes type=FWD name="s-cute.com" }
-:if ([:len [find name="s.rmimg.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="gfw" match-subdomain=yes type=FWD name="s.rmimg.com" }
 :if ([:len [find name="s.yimg.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="gfw" match-subdomain=yes type=FWD name="s.yimg.com" }
 :if ([:len [find name="s3-ap-northeast-1.amazonaws.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="gfw" match-subdomain=yes type=FWD name="s3-ap-northeast-1.amazonaws.com" }
 :if ([:len [find name="s3-ap-northeast-2.amazonaws.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="gfw" match-subdomain=yes type=FWD name="s3-ap-northeast-2.amazonaws.com" }
@@ -151,3 +150,4 @@
 :if ([:len [find name="socialblade.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="gfw" match-subdomain=yes type=FWD name="socialblade.com" }
 :if ([:len [find name="socks-proxy.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="gfw" match-subdomain=yes type=FWD name="socks-proxy.net" }
 :if ([:len [find name="sockslist.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="gfw" match-subdomain=yes type=FWD name="sockslist.net" }
+:if ([:len [find name="socrec.org"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="gfw" match-subdomain=yes type=FWD name="socrec.org" }

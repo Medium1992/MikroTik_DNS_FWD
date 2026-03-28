@@ -101,8 +101,10 @@
 :if ([:len [find name="trainingpeaks.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="tools" match-subdomain=yes type=FWD name="trainingpeaks.com" }
 :if ([:len [find name="tuta.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="tools" match-subdomain=yes type=FWD name="tuta.com" }
 :if ([:len [find name="tutanota.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="tools" match-subdomain=yes type=FWD name="tutanota.com" }
+:if ([:len [find name="wdfiles.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="tools" match-subdomain=yes type=FWD name="wdfiles.com" }
 :if ([:len [find name="web-platform.io"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="tools" match-subdomain=yes type=FWD name="web-platform.io" }
 :if ([:len [find name="whoop.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="tools" match-subdomain=yes type=FWD name="whoop.com" }
+:if ([:len [find name="wikidot.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="tools" match-subdomain=yes type=FWD name="wikidot.com" }
 :if ([:len [find name="x.ai"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="tools" match-subdomain=yes type=FWD name="x.ai" }
 :if ([:len [find name="zapier-deployment.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="tools" match-subdomain=yes type=FWD name="zapier-deployment.com" }
 :if ([:len [find name="zapier.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="tools" match-subdomain=yes type=FWD name="zapier.com" }
