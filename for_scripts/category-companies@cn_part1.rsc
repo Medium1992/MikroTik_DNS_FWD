@@ -5,6 +5,7 @@
 :if ([:len [find name="21vbluecloud.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies@cn" match-subdomain=yes type=FWD name="21vbluecloud.com" }
 :if ([:len [find name="21vbluecloud.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies@cn" match-subdomain=yes type=FWD name="21vbluecloud.net" }
 :if ([:len [find name="aggresmart.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies@cn" match-subdomain=yes type=FWD name="aggresmart.com" }
+:if ([:len [find name="alphassl.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies@cn" match-subdomain=yes type=FWD name="alphassl.com" }
 :if ([:len [find name="amzndns-cn.biz"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies@cn" match-subdomain=yes type=FWD name="amzndns-cn.biz" }
 :if ([:len [find name="amzndns-cn.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies@cn" match-subdomain=yes type=FWD name="amzndns-cn.com" }
 :if ([:len [find name="amzndns-cn.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies@cn" match-subdomain=yes type=FWD name="amzndns-cn.net" }
@@ -40,7 +41,10 @@
 :if ([:len [find name="ditu.live.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies@cn" match-subdomain=yes type=FWD name="ditu.live.com" }
 :if ([:len [find name="dl.delivery.mp.microsoft.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies@cn" match-subdomain=yes type=FWD name="dl.delivery.mp.microsoft.com" }
 :if ([:len [find name="download.windowsupdate.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies@cn" match-subdomain=yes type=FWD name="download.windowsupdate.com" }
+:if ([:len [find name="easy-signing.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies@cn" match-subdomain=yes type=FWD name="easy-signing.com" }
 :if ([:len [find name="engkoo.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies@cn" match-subdomain=yes type=FWD name="engkoo.com" }
+:if ([:len [find name="globalsign.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies@cn" match-subdomain=yes type=FWD name="globalsign.com" }
+:if ([:len [find name="globalsigncdn.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies@cn" match-subdomain=yes type=FWD name="globalsigncdn.com" }
 :if ([:len [find name="gpsonextra.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies@cn" match-subdomain=yes type=FWD name="gpsonextra.net" }
 :if ([:len [find name="gvt1-cn.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies@cn" match-subdomain=yes type=FWD name="gvt1-cn.com" }
 :if ([:len [find name="gvt2-cn.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies@cn" match-subdomain=yes type=FWD name="gvt2-cn.com" }
@@ -121,6 +125,7 @@
 :if ([:len [find name="cdn-cn3.apple-mapkit.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies@cn" type=FWD name="cdn-cn3.apple-mapkit.com" }
 :if ([:len [find name="cdn-cn4.apple-mapkit.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies@cn" type=FWD name="cdn-cn4.apple-mapkit.com" }
 :if ([:len [find name="cdn.apple-mapkit.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies@cn" type=FWD name="cdn.apple-mapkit.com" }
+:if ([:len [find name="cdn.globalsigncdn.com.cdn.cloudflare.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies@cn" type=FWD name="cdn.globalsigncdn.com.cdn.cloudflare.net" }
 :if ([:len [find name="cdn.marketplaceimages.windowsphone.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies@cn" type=FWD name="cdn.marketplaceimages.windowsphone.com" }
 :if ([:len [find name="cdn1.apple-mapkit.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies@cn" type=FWD name="cdn1.apple-mapkit.com" }
 :if ([:len [find name="cdn2.apple-mapkit.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies@cn" type=FWD name="cdn2.apple-mapkit.com" }
@@ -146,8 +151,3 @@
 :if ([:len [find name="cl5-cdn.origin-apple.com.akadns.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies@cn" type=FWD name="cl5-cdn.origin-apple.com.akadns.net" }
 :if ([:len [find name="cl5.apple.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies@cn" type=FWD name="cl5.apple.com" }
 :if ([:len [find name="clickserve.cc-dt.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies@cn" type=FWD name="clickserve.cc-dt.com" }
-:if ([:len [find name="clickserve.dartsearch.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies@cn" type=FWD name="clickserve.dartsearch.net" }
-:if ([:len [find name="clickserver.googleads.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies@cn" type=FWD name="clickserver.googleads.com" }
-:if ([:len [find name="client-api.itunes.apple.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies@cn" type=FWD name="client-api.itunes.apple.com" }
-:if ([:len [find name="clientflow.apple.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies@cn" type=FWD name="clientflow.apple.com" }
-:if ([:len [find name="clientflow.apple.com.akadns.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies@cn" type=FWD name="clientflow.apple.com.akadns.net" }
