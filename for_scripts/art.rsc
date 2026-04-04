@@ -6,6 +6,7 @@
 :if ([:len [find name="booth.pm"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="art" match-subdomain=yes type=FWD name="booth.pm" }
 :if ([:len [find name="deviantart.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="art" match-subdomain=yes type=FWD name="deviantart.com" }
 :if ([:len [find name="donmai.us"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="art" match-subdomain=yes type=FWD name="donmai.us" }
+:if ([:len [find name="e621.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="art" match-subdomain=yes type=FWD name="e621.net" }
 :if ([:len [find name="fanbox.cc"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="art" match-subdomain=yes type=FWD name="fanbox.cc" }
 :if ([:len [find name="ficbook.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="art" match-subdomain=yes type=FWD name="ficbook.net" }
 :if ([:len [find name="gelbooru.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="art" match-subdomain=yes type=FWD name="gelbooru.com" }

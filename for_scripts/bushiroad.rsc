@@ -26,6 +26,7 @@
 :if ([:len [find name="hikosen.co.jp"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="bushiroad" match-subdomain=yes type=FWD name="hikosen.co.jp" }
 :if ([:len [find name="njpw.co.jp"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="bushiroad" match-subdomain=yes type=FWD name="njpw.co.jp" }
 :if ([:len [find name="njpw1972.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="bushiroad" match-subdomain=yes type=FWD name="njpw1972.com" }
+:if ([:len [find name="our-notes.jp"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="bushiroad" match-subdomain=yes type=FWD name="our-notes.jp" }
 :if ([:len [find name="rebirth-fy.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="bushiroad" match-subdomain=yes type=FWD name="rebirth-fy.com" }
 :if ([:len [find name="revuestarlight.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="bushiroad" match-subdomain=yes type=FWD name="revuestarlight.com" }
 :if ([:len [find name="shadowverse-evolve.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="bushiroad" match-subdomain=yes type=FWD name="shadowverse-evolve.com" }
