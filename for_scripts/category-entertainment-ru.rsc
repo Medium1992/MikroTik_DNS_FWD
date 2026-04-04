@@ -5,6 +5,7 @@
 :if ([:len [find name="amediateka.ru"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-entertainment-ru" match-subdomain=yes type=FWD name="amediateka.ru" }
 :if ([:len [find name="beeline.tv"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-entertainment-ru" match-subdomain=yes type=FWD name="beeline.tv" }
 :if ([:len [find name="cdnvideo.ru"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-entertainment-ru" match-subdomain=yes type=FWD name="cdnvideo.ru" }
+:if ([:len [find name="cdnvideohub.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-entertainment-ru" match-subdomain=yes type=FWD name="cdnvideohub.com" }
 :if ([:len [find name="ivi.ru"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-entertainment-ru" match-subdomain=yes type=FWD name="ivi.ru" }
 :if ([:len [find name="kinopoisk-ru.clstorage.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-entertainment-ru" match-subdomain=yes type=FWD name="kinopoisk-ru.clstorage.net" }
 :if ([:len [find name="kinopoisk.ru"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-entertainment-ru" match-subdomain=yes type=FWD name="kinopoisk.ru" }

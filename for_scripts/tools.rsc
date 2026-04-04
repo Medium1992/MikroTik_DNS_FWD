@@ -3,6 +3,7 @@
 /ip dns static
 :if ([:len [find name="10minutemail.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="tools" match-subdomain=yes type=FWD name="10minutemail.com" }
 :if ([:len [find name="37signals.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="tools" match-subdomain=yes type=FWD name="37signals.com" }
+:if ([:len [find name="9proxy.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="tools" match-subdomain=yes type=FWD name="9proxy.com" }
 :if ([:len [find name="a-msedge.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="tools" match-subdomain=yes type=FWD name="a-msedge.net" }
 :if ([:len [find name="amazonaws.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="tools" match-subdomain=yes type=FWD name="amazonaws.com" }
 :if ([:len [find name="anthropic.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="tools" match-subdomain=yes type=FWD name="anthropic.com" }
@@ -67,6 +68,8 @@
 :if ([:len [find name="microsoftapp.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="tools" match-subdomain=yes type=FWD name="microsoftapp.net" }
 :if ([:len [find name="miro.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="tools" match-subdomain=yes type=FWD name="miro.com" }
 :if ([:len [find name="mirostatic.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="tools" match-subdomain=yes type=FWD name="mirostatic.com" }
+:if ([:len [find name="myheritage.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="tools" match-subdomain=yes type=FWD name="myheritage.com" }
+:if ([:len [find name="myheritage.ee"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="tools" match-subdomain=yes type=FWD name="myheritage.ee" }
 :if ([:len [find name="naukimg.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="tools" match-subdomain=yes type=FWD name="naukimg.com" }
 :if ([:len [find name="naukri.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="tools" match-subdomain=yes type=FWD name="naukri.com" }
 :if ([:len [find name="notepad-plus-plus.org"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="tools" match-subdomain=yes type=FWD name="notepad-plus-plus.org" }
@@ -93,6 +96,7 @@
 :if ([:len [find name="proxyline.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="tools" match-subdomain=yes type=FWD name="proxyline.net" }
 :if ([:len [find name="pubnubapi.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="tools" match-subdomain=yes type=FWD name="pubnubapi.com" }
 :if ([:len [find name="qualtrics.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="tools" match-subdomain=yes type=FWD name="qualtrics.com" }
+:if ([:len [find name="sankakucomplex.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="tools" match-subdomain=yes type=FWD name="sankakucomplex.com" }
 :if ([:len [find name="sentry-cdn.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="tools" match-subdomain=yes type=FWD name="sentry-cdn.com" }
 :if ([:len [find name="sentry.dev"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="tools" match-subdomain=yes type=FWD name="sentry.dev" }
 :if ([:len [find name="sentry.io"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="tools" match-subdomain=yes type=FWD name="sentry.io" }
