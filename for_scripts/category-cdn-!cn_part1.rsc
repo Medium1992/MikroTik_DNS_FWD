@@ -135,6 +135,7 @@
 :if ([:len [find name="edgesuite.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-cdn-!cn" match-subdomain=yes type=FWD name="edgesuite.net" }
 :if ([:len [find name="encryptedsni.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-cdn-!cn" match-subdomain=yes type=FWD name="encryptedsni.com" }
 :if ([:len [find name="esm.run"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-cdn-!cn" match-subdomain=yes type=FWD name="esm.run" }
+:if ([:len [find name="esm.sh"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-cdn-!cn" match-subdomain=yes type=FWD name="esm.sh" }
 :if ([:len [find name="every1dns.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-cdn-!cn" match-subdomain=yes type=FWD name="every1dns.net" }
 :if ([:len [find name="fastly-edge.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-cdn-!cn" match-subdomain=yes type=FWD name="fastly-edge.com" }
 :if ([:len [find name="fastly-terrarium.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-cdn-!cn" match-subdomain=yes type=FWD name="fastly-terrarium.com" }
@@ -150,4 +151,3 @@
 :if ([:len [find name="gcore.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-cdn-!cn" match-subdomain=yes type=FWD name="gcore.com" }
 :if ([:len [find name="gcore.pro"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-cdn-!cn" match-subdomain=yes type=FWD name="gcore.pro" }
 :if ([:len [find name="iamakamai.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-cdn-!cn" match-subdomain=yes type=FWD name="iamakamai.com" }
-:if ([:len [find name="iamakamai.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-cdn-!cn" match-subdomain=yes type=FWD name="iamakamai.net" }
