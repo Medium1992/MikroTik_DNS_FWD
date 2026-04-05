@@ -115,7 +115,6 @@
 :if ([:len [find name="router.ctc"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="private" match-subdomain=yes type=FWD name="router.ctc" }
 :if ([:len [find name="tendawifi.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="private" match-subdomain=yes type=FWD name="tendawifi.com" }
 :if ([:len [find name="test"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="private" match-subdomain=yes type=FWD name="test" }
-:if ([:len [find name="test.steampowered.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="private" match-subdomain=yes type=FWD name="test.steampowered.com" }
 :if ([:len [find name="tplinkwifi.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="private" match-subdomain=yes type=FWD name="tplinkwifi.net" }
 :if ([:len [find name="ts.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="private" match-subdomain=yes type=FWD name="ts.net" }
 :if ([:len [find name="zte.home"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="private" match-subdomain=yes type=FWD name="zte.home" }
