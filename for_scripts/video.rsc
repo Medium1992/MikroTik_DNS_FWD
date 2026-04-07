@@ -18,6 +18,7 @@
 :if ([:len [find name="kinobase.org"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="video" match-subdomain=yes type=FWD name="kinobase.org" }
 :if ([:len [find name="kinovod.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="video" match-subdomain=yes type=FWD name="kinovod.net" }
 :if ([:len [find name="kinovod.pro"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="video" match-subdomain=yes type=FWD name="kinovod.pro" }
+:if ([:len [find name="kinozal.guru"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="video" match-subdomain=yes type=FWD name="kinozal.guru" }
 :if ([:len [find name="kinozal.me"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="video" match-subdomain=yes type=FWD name="kinozal.me" }
 :if ([:len [find name="kinozal.tv"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="video" match-subdomain=yes type=FWD name="kinozal.tv" }
 :if ([:len [find name="lostfilm.run"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="video" match-subdomain=yes type=FWD name="lostfilm.run" }
