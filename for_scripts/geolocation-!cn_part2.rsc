@@ -31,6 +31,7 @@
 :if ([:len [find name="2049bbs.xyz"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" match-subdomain=yes type=FWD name="2049bbs.xyz" }
 :if ([:len [find name="20thcenturystudios.jp"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" match-subdomain=yes type=FWD name="20thcenturystudios.jp" }
 :if ([:len [find name="20yearsoffea.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" match-subdomain=yes type=FWD name="20yearsoffea.com" }
+:if ([:len [find name="21-school.ru"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" match-subdomain=yes type=FWD name="21-school.ru" }
 :if ([:len [find name="21centuryaccess.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" match-subdomain=yes type=FWD name="21centuryaccess.com" }
 :if ([:len [find name="21heise360dh.cc"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" match-subdomain=yes type=FWD name="21heise360dh.cc" }
 :if ([:len [find name="21hub.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" match-subdomain=yes type=FWD name="21hub.com" }
@@ -150,4 +151,3 @@
 :if ([:len [find name="4gamer.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" match-subdomain=yes type=FWD name="4gamer.net" }
 :if ([:len [find name="4gamers.com.tw"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" match-subdomain=yes type=FWD name="4gamers.com.tw" }
 :if ([:len [find name="4greedy.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" match-subdomain=yes type=FWD name="4greedy.com" }
-:if ([:len [find name="4gtv.tv"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" match-subdomain=yes type=FWD name="4gtv.tv" }
