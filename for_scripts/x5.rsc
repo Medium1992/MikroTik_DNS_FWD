@@ -27,6 +27,7 @@
 :if ([:len [find name="x5club.ru"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="x5" match-subdomain=yes type=FWD name="x5club.ru" }
 :if ([:len [find name="x5id.ru"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="x5" match-subdomain=yes type=FWD name="x5id.ru" }
 :if ([:len [find name="x5l.ru"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="x5" match-subdomain=yes type=FWD name="x5l.ru" }
+:if ([:len [find name="x5media.ru"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="x5" match-subdomain=yes type=FWD name="x5media.ru" }
 :if ([:len [find name="x5paket.ru"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="x5" match-subdomain=yes type=FWD name="x5paket.ru" }
 :if ([:len [find name="x5q.ru"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="x5" match-subdomain=yes type=FWD name="x5q.ru" }
 :if ([:len [find name="x5static.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="x5" match-subdomain=yes type=FWD name="x5static.net" }
