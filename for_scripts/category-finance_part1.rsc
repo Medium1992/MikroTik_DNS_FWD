@@ -117,6 +117,14 @@
 :if ([:len [find name="izbank.ir"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-finance" match-subdomain=yes type=FWD name="izbank.ir" }
 :if ([:len [find name="jfc.go.jp"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-finance" match-subdomain=yes type=FWD name="jfc.go.jp" }
 :if ([:len [find name="jibunbank.co.jp"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-finance" match-subdomain=yes type=FWD name="jibunbank.co.jp" }
+:if ([:len [find name="jivo.chat"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-finance" match-subdomain=yes type=FWD name="jivo.chat" }
+:if ([:len [find name="jivo.ru"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-finance" match-subdomain=yes type=FWD name="jivo.ru" }
+:if ([:len [find name="jivochat.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-finance" match-subdomain=yes type=FWD name="jivochat.com" }
+:if ([:len [find name="jivochat.com.co"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-finance" match-subdomain=yes type=FWD name="jivochat.com.co" }
+:if ([:len [find name="jivochat.de"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-finance" match-subdomain=yes type=FWD name="jivochat.de" }
+:if ([:len [find name="jivochat.ru"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-finance" match-subdomain=yes type=FWD name="jivochat.ru" }
+:if ([:len [find name="jivosite.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-finance" match-subdomain=yes type=FWD name="jivosite.com" }
+:if ([:len [find name="jivosite.ru"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-finance" match-subdomain=yes type=FWD name="jivosite.ru" }
 :if ([:len [find name="joyobank.co.jp"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-finance" match-subdomain=yes type=FWD name="joyobank.co.jp" }
 :if ([:len [find name="jp-bank.japanpost.jp"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-finance" match-subdomain=yes type=FWD name="jp-bank.japanpost.jp" }
 :if ([:len [find name="juhachibank.co.jp"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-finance" match-subdomain=yes type=FWD name="juhachibank.co.jp" }
@@ -143,11 +151,3 @@
 :if ([:len [find name="mebank.ir"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-finance" match-subdomain=yes type=FWD name="mebank.ir" }
 :if ([:len [find name="megamarket.ru"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-finance" match-subdomain=yes type=FWD name="megamarket.ru" }
 :if ([:len [find name="megamarket.tech"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-finance" match-subdomain=yes type=FWD name="megamarket.tech" }
-:if ([:len [find name="michinokubank.co.jp"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-finance" match-subdomain=yes type=FWD name="michinokubank.co.jp" }
-:if ([:len [find name="mie.co.jp"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-finance" match-subdomain=yes type=FWD name="mie.co.jp" }
-:if ([:len [find name="miyazakibank.co.jp"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-finance" match-subdomain=yes type=FWD name="miyazakibank.co.jp" }
-:if ([:len [find name="mizuhobank.co.jp"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-finance" match-subdomain=yes type=FWD name="mizuhobank.co.jp" }
-:if ([:len [find name="mmtourismbank.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-finance" match-subdomain=yes type=FWD name="mmtourismbank.com" }
-:if ([:len [find name="mobmyanmar.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-finance" match-subdomain=yes type=FWD name="mobmyanmar.com" }
-:if ([:len [find name="moomoo.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-finance" match-subdomain=yes type=FWD name="moomoo.com" }
-:if ([:len [find name="moomooequity.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-finance" match-subdomain=yes type=FWD name="moomooequity.com" }

@@ -1,6 +1,14 @@
 :global AddressList
 :global ForwardTo
 /ip dns static
+:if ([:len [find name="michinokubank.co.jp"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-finance" match-subdomain=yes type=FWD name="michinokubank.co.jp" }
+:if ([:len [find name="mie.co.jp"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-finance" match-subdomain=yes type=FWD name="mie.co.jp" }
+:if ([:len [find name="miyazakibank.co.jp"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-finance" match-subdomain=yes type=FWD name="miyazakibank.co.jp" }
+:if ([:len [find name="mizuhobank.co.jp"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-finance" match-subdomain=yes type=FWD name="mizuhobank.co.jp" }
+:if ([:len [find name="mmtourismbank.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-finance" match-subdomain=yes type=FWD name="mmtourismbank.com" }
+:if ([:len [find name="mobmyanmar.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-finance" match-subdomain=yes type=FWD name="mobmyanmar.com" }
+:if ([:len [find name="moomoo.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-finance" match-subdomain=yes type=FWD name="moomoo.com" }
+:if ([:len [find name="moomooequity.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-finance" match-subdomain=yes type=FWD name="moomooequity.com" }
 :if ([:len [find name="moomootrustee.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-finance" match-subdomain=yes type=FWD name="moomootrustee.com" }
 :if ([:len [find name="mql5.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-finance" match-subdomain=yes type=FWD name="mql5.com" }
 :if ([:len [find name="mresalat.ir"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-finance" match-subdomain=yes type=FWD name="mresalat.ir" }

@@ -10,6 +10,14 @@
 :if ([:len [find name="eapteka.ru"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="sber" match-subdomain=yes type=FWD name="eapteka.ru" }
 :if ([:len [find name="giga.chat"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="sber" match-subdomain=yes type=FWD name="giga.chat" }
 :if ([:len [find name="id.ru"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="sber" match-subdomain=yes type=FWD name="id.ru" }
+:if ([:len [find name="jivo.chat"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="sber" match-subdomain=yes type=FWD name="jivo.chat" }
+:if ([:len [find name="jivo.ru"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="sber" match-subdomain=yes type=FWD name="jivo.ru" }
+:if ([:len [find name="jivochat.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="sber" match-subdomain=yes type=FWD name="jivochat.com" }
+:if ([:len [find name="jivochat.com.co"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="sber" match-subdomain=yes type=FWD name="jivochat.com.co" }
+:if ([:len [find name="jivochat.de"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="sber" match-subdomain=yes type=FWD name="jivochat.de" }
+:if ([:len [find name="jivochat.ru"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="sber" match-subdomain=yes type=FWD name="jivochat.ru" }
+:if ([:len [find name="jivosite.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="sber" match-subdomain=yes type=FWD name="jivosite.com" }
+:if ([:len [find name="jivosite.ru"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="sber" match-subdomain=yes type=FWD name="jivosite.ru" }
 :if ([:len [find name="kuper.ru"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="sber" match-subdomain=yes type=FWD name="kuper.ru" }
 :if ([:len [find name="megamarket.ru"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="sber" match-subdomain=yes type=FWD name="megamarket.ru" }
 :if ([:len [find name="megamarket.tech"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="sber" match-subdomain=yes type=FWD name="megamarket.tech" }

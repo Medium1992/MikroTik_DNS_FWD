@@ -1,6 +1,9 @@
 :global AddressList
 :global ForwardTo
 /ip dns static
+:if ([:len [find name="evschool.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" match-subdomain=yes type=FWD name="evschool.net" }
+:if ([:len [find name="eworld.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" match-subdomain=yes type=FWD name="eworld.com" }
+:if ([:len [find name="exacttarget.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" match-subdomain=yes type=FWD name="exacttarget.com" }
 :if ([:len [find name="exascale-tech.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" match-subdomain=yes type=FWD name="exascale-tech.com" }
 :if ([:len [find name="excedo.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" match-subdomain=yes type=FWD name="excedo.com" }
 :if ([:len [find name="excitebots.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" match-subdomain=yes type=FWD name="excitebots.com" }
@@ -148,6 +151,3 @@
 :if ([:len [find name="facebook30.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" match-subdomain=yes type=FWD name="facebook30.net" }
 :if ([:len [find name="facebook30.org"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" match-subdomain=yes type=FWD name="facebook30.org" }
 :if ([:len [find name="facebook4business.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" match-subdomain=yes type=FWD name="facebook4business.com" }
-:if ([:len [find name="facebookadvertisingsecrets.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" match-subdomain=yes type=FWD name="facebookadvertisingsecrets.com" }
-:if ([:len [find name="facebookappcenter.info"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" match-subdomain=yes type=FWD name="facebookappcenter.info" }
-:if ([:len [find name="facebookappcenter.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" match-subdomain=yes type=FWD name="facebookappcenter.net" }

@@ -95,6 +95,9 @@
 :if ([:len [find name="entrust.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" match-subdomain=yes type=FWD name="entrust.com" }
 :if ([:len [find name="entrust.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" match-subdomain=yes type=FWD name="entrust.net" }
 :if ([:len [find name="entrustdatacard.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" match-subdomain=yes type=FWD name="entrustdatacard.com" }
+:if ([:len [find name="envato-static.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" match-subdomain=yes type=FWD name="envato-static.com" }
+:if ([:len [find name="envato.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" match-subdomain=yes type=FWD name="envato.com" }
+:if ([:len [find name="envatousercontent.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" match-subdomain=yes type=FWD name="envatousercontent.com" }
 :if ([:len [find name="eotarchive.org"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" match-subdomain=yes type=FWD name="eotarchive.org" }
 :if ([:len [find name="epicbrowser.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" match-subdomain=yes type=FWD name="epicbrowser.com" }
 :if ([:len [find name="epicgames.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" match-subdomain=yes type=FWD name="epicgames.com" }
@@ -148,6 +151,3 @@
 :if ([:len [find name="ero-labs.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" match-subdomain=yes type=FWD name="ero-labs.com" }
 :if ([:len [find name="ero-labs.fun"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" match-subdomain=yes type=FWD name="ero-labs.fun" }
 :if ([:len [find name="ero-labs.io"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" match-subdomain=yes type=FWD name="ero-labs.io" }
-:if ([:len [find name="ero-labs.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" match-subdomain=yes type=FWD name="ero-labs.net" }
-:if ([:len [find name="ero-labs.one"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" match-subdomain=yes type=FWD name="ero-labs.one" }
-:if ([:len [find name="ero-labs.online"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" match-subdomain=yes type=FWD name="ero-labs.online" }

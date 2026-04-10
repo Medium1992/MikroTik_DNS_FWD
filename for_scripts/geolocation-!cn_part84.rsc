@@ -1,6 +1,19 @@
 :global AddressList
 :global ForwardTo
 /ip dns static
+:if ([:len [find name="monsterbeatstudio.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" match-subdomain=yes type=FWD name="monsterbeatstudio.com" }
+:if ([:len [find name="monsterbydrebeat.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" match-subdomain=yes type=FWD name="monsterbydrebeat.com" }
+:if ([:len [find name="monstercasquebeatspascher.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" match-subdomain=yes type=FWD name="monstercasquebeatspascher.net" }
+:if ([:len [find name="monstercheapbeatss.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" match-subdomain=yes type=FWD name="monstercheapbeatss.com" }
+:if ([:len [find name="monstercockland.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" match-subdomain=yes type=FWD name="monstercockland.com" }
+:if ([:len [find name="monsterdrebeats-canada.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" match-subdomain=yes type=FWD name="monsterdrebeats-canada.net" }
+:if ([:len [find name="monsterdrebeats-usa.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" match-subdomain=yes type=FWD name="monsterdrebeats-usa.com" }
+:if ([:len [find name="monsterdrebeats-usa.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" match-subdomain=yes type=FWD name="monsterdrebeats-usa.net" }
+:if ([:len [find name="monsterheadphone.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" match-subdomain=yes type=FWD name="monsterheadphone.net" }
+:if ([:len [find name="monsterproduct.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" match-subdomain=yes type=FWD name="monsterproduct.net" }
+:if ([:len [find name="monstersbeatbydres.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" match-subdomain=yes type=FWD name="monstersbeatbydres.com" }
+:if ([:len [find name="monstersdebea.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" match-subdomain=yes type=FWD name="monstersdebea.com" }
+:if ([:len [find name="monstersexporn.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" match-subdomain=yes type=FWD name="monstersexporn.net" }
 :if ([:len [find name="monstershopcheapbeats.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" match-subdomain=yes type=FWD name="monstershopcheapbeats.net" }
 :if ([:len [find name="monthlyav.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" match-subdomain=yes type=FWD name="monthlyav.com" }
 :if ([:len [find name="moodstocks.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" match-subdomain=yes type=FWD name="moodstocks.com" }
@@ -138,16 +151,3 @@
 :if ([:len [find name="mtt.org"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" match-subdomain=yes type=FWD name="mtt.org" }
 :if ([:len [find name="mtvnservices.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" match-subdomain=yes type=FWD name="mtvnservices.com" }
 :if ([:len [find name="mubi.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" match-subdomain=yes type=FWD name="mubi.com" }
-:if ([:len [find name="mubicdn.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" match-subdomain=yes type=FWD name="mubicdn.net" }
-:if ([:len [find name="muchohentai.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" match-subdomain=yes type=FWD name="muchohentai.com" }
-:if ([:len [find name="muchomasporno.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" match-subdomain=yes type=FWD name="muchomasporno.com" }
-:if ([:len [find name="mucinex.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" match-subdomain=yes type=FWD name="mucinex.com" }
-:if ([:len [find name="mucinex.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" match-subdomain=yes type=FWD name="mucinex.net" }
-:if ([:len [find name="mucinex.tv"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" match-subdomain=yes type=FWD name="mucinex.tv" }
-:if ([:len [find name="mucinexprofessional.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" match-subdomain=yes type=FWD name="mucinexprofessional.com" }
-:if ([:len [find name="mudbox3d.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" match-subdomain=yes type=FWD name="mudbox3d.com" }
-:if ([:len [find name="mudfish.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" match-subdomain=yes type=FWD name="mudfish.net" }
-:if ([:len [find name="mudvod.tv"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" match-subdomain=yes type=FWD name="mudvod.tv" }
-:if ([:len [find name="muji.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" match-subdomain=yes type=FWD name="muji.com" }
-:if ([:len [find name="muji.eu"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" match-subdomain=yes type=FWD name="muji.eu" }
-:if ([:len [find name="muji.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" match-subdomain=yes type=FWD name="muji.net" }

@@ -1,7 +1,6 @@
 :global AddressList
 :global ForwardTo
 /ip dns static
-:if ([:len [find name="chegg.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" match-subdomain=yes type=FWD name="chegg.com" }
 :if ([:len [find name="cheggcdn.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" match-subdomain=yes type=FWD name="cheggcdn.com" }
 :if ([:len [find name="chemequations.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" match-subdomain=yes type=FWD name="chemequations.com" }
 :if ([:len [find name="chemnetbase.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" match-subdomain=yes type=FWD name="chemnetbase.com" }
@@ -151,3 +150,4 @@
 :if ([:len [find name="ciscoinvestments.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" match-subdomain=yes type=FWD name="ciscoinvestments.com" }
 :if ([:len [find name="ciscojabbervideo.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" match-subdomain=yes type=FWD name="ciscojabbervideo.net" }
 :if ([:len [find name="ciscokinetic.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" match-subdomain=yes type=FWD name="ciscokinetic.com" }
+:if ([:len [find name="ciscoknowledgenetwork.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" match-subdomain=yes type=FWD name="ciscoknowledgenetwork.com" }

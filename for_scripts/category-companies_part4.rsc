@@ -1,6 +1,17 @@
 :global AddressList
 :global ForwardTo
 /ip dns static
+:if ([:len [find name="appleid-applemx.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" match-subdomain=yes type=FWD name="appleid-applemx.com" }
+:if ([:len [find name="appleid-applemx.us"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" match-subdomain=yes type=FWD name="appleid-applemx.us" }
+:if ([:len [find name="appleid-iclou.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" match-subdomain=yes type=FWD name="appleid-iclou.com" }
+:if ([:len [find name="appleid-uk.us"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" match-subdomain=yes type=FWD name="appleid-uk.us" }
+:if ([:len [find name="appleid.berlin"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" match-subdomain=yes type=FWD name="appleid.berlin" }
+:if ([:len [find name="appleid.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" match-subdomain=yes type=FWD name="appleid.com" }
+:if ([:len [find name="appleid.hamburg"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" match-subdomain=yes type=FWD name="appleid.hamburg" }
+:if ([:len [find name="appleimac.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" match-subdomain=yes type=FWD name="appleimac.com" }
+:if ([:len [find name="appleinclegal.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" match-subdomain=yes type=FWD name="appleinclegal.com" }
+:if ([:len [find name="appleiphone.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" match-subdomain=yes type=FWD name="appleiphone.net" }
+:if ([:len [find name="appleiphonecell.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" match-subdomain=yes type=FWD name="appleiphonecell.com" }
 :if ([:len [find name="appleipodsettlement.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" match-subdomain=yes type=FWD name="appleipodsettlement.com" }
 :if ([:len [find name="appleiservices.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" match-subdomain=yes type=FWD name="appleiservices.com" }
 :if ([:len [find name="applelink.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" match-subdomain=yes type=FWD name="applelink.com" }
@@ -92,6 +103,10 @@
 :if ([:len [find name="applle.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" match-subdomain=yes type=FWD name="applle.com" }
 :if ([:len [find name="applw.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" match-subdomain=yes type=FWD name="applw.com" }
 :if ([:len [find name="appmediagroup.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" match-subdomain=yes type=FWD name="appmediagroup.com" }
+:if ([:len [find name="appmetrica.yandex.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" match-subdomain=yes type=FWD name="appmetrica.yandex.com" }
+:if ([:len [find name="appmetrica.yandex.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" match-subdomain=yes type=FWD name="appmetrica.yandex.net" }
+:if ([:len [find name="appmetrica.yandex.ru"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" match-subdomain=yes type=FWD name="appmetrica.yandex.ru" }
+:if ([:len [find name="appmetrica.yango.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" match-subdomain=yes type=FWD name="appmetrica.yango.com" }
 :if ([:len [find name="appspot.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" match-subdomain=yes type=FWD name="appspot.com" }
 :if ([:len [find name="appule.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" match-subdomain=yes type=FWD name="appule.com" }
 :if ([:len [find name="appye.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" match-subdomain=yes type=FWD name="appye.com" }
@@ -136,18 +151,3 @@
 :if ([:len [find name="att-promotions.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" match-subdomain=yes type=FWD name="att-promotions.com" }
 :if ([:len [find name="att-rsvp.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" match-subdomain=yes type=FWD name="att-rsvp.com" }
 :if ([:len [find name="att.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" match-subdomain=yes type=FWD name="att.com" }
-:if ([:len [find name="att.jobs"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" match-subdomain=yes type=FWD name="att.jobs" }
-:if ([:len [find name="att.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" match-subdomain=yes type=FWD name="att.net" }
-:if ([:len [find name="att.tv"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" match-subdomain=yes type=FWD name="att.tv" }
-:if ([:len [find name="attalascom.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" match-subdomain=yes type=FWD name="attalascom.com" }
-:if ([:len [find name="attbelieves.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" match-subdomain=yes type=FWD name="attbelieves.com" }
-:if ([:len [find name="attbusiness.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" match-subdomain=yes type=FWD name="attbusiness.net" }
-:if ([:len [find name="attcenter.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" match-subdomain=yes type=FWD name="attcenter.com" }
-:if ([:len [find name="attcollaborate.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" match-subdomain=yes type=FWD name="attcollaborate.com" }
-:if ([:len [find name="attdns.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" match-subdomain=yes type=FWD name="attdns.com" }
-:if ([:len [find name="attdns.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" match-subdomain=yes type=FWD name="attdns.net" }
-:if ([:len [find name="attexperts.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" match-subdomain=yes type=FWD name="attexperts.com" }
-:if ([:len [find name="attglobal.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" match-subdomain=yes type=FWD name="attglobal.net" }
-:if ([:len [find name="attic.io"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" match-subdomain=yes type=FWD name="attic.io" }
-:if ([:len [find name="attinnovationspace.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" match-subdomain=yes type=FWD name="attinnovationspace.com" }
-:if ([:len [find name="attinternetservice.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" match-subdomain=yes type=FWD name="attinternetservice.com" }

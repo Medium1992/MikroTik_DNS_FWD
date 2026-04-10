@@ -24,9 +24,6 @@
 :if ([:len [find name="angola.org"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="gfw" match-subdomain=yes type=FWD name="angola.org" }
 :if ([:len [find name="angularjs.org"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="gfw" match-subdomain=yes type=FWD name="angularjs.org" }
 :if ([:len [find name="aniscartujo.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="gfw" match-subdomain=yes type=FWD name="aniscartujo.com" }
-:if ([:len [find name="annas-archive.org"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="gfw" match-subdomain=yes type=FWD name="annas-archive.org" }
-:if ([:len [find name="annas-archive.pm"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="gfw" match-subdomain=yes type=FWD name="annas-archive.pm" }
-:if ([:len [find name="annas-archive.se"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="gfw" match-subdomain=yes type=FWD name="annas-archive.se" }
 :if ([:len [find name="anobii.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="gfw" match-subdomain=yes type=FWD name="anobii.com" }
 :if ([:len [find name="anonfiles.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="gfw" match-subdomain=yes type=FWD name="anonfiles.com" }
 :if ([:len [find name="anonymouse.org"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="gfw" match-subdomain=yes type=FWD name="anonymouse.org" }
@@ -151,3 +148,6 @@
 :if ([:len [find name="bannedbook.org"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="gfw" match-subdomain=yes type=FWD name="bannedbook.org" }
 :if ([:len [find name="banorte.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="gfw" match-subdomain=yes type=FWD name="banorte.com" }
 :if ([:len [find name="baramangaonline.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="gfw" match-subdomain=yes type=FWD name="baramangaonline.com" }
+:if ([:len [find name="bartender.dowjones.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="gfw" match-subdomain=yes type=FWD name="bartender.dowjones.com" }
+:if ([:len [find name="barton.de"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="gfw" match-subdomain=yes type=FWD name="barton.de" }
+:if ([:len [find name="bastillepost.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="gfw" match-subdomain=yes type=FWD name="bastillepost.com" }

@@ -1,9 +1,6 @@
 :global AddressList
 :global ForwardTo
 /ip dns static
-:if ([:len [find name="bloombergtax1.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" match-subdomain=yes type=FWD name="bloombergtax1.com" }
-:if ([:len [find name="bloombergtaxtech.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" match-subdomain=yes type=FWD name="bloombergtaxtech.com" }
-:if ([:len [find name="bloombergtradingchallenge.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" match-subdomain=yes type=FWD name="bloombergtradingchallenge.com" }
 :if ([:len [find name="bloombergvault.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" match-subdomain=yes type=FWD name="bloombergvault.com" }
 :if ([:len [find name="bloombergview.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" match-subdomain=yes type=FWD name="bloombergview.com" }
 :if ([:len [find name="bloomfortune.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" match-subdomain=yes type=FWD name="bloomfortune.com" }
@@ -151,3 +148,6 @@
 :if ([:len [find name="bmw.ps"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" match-subdomain=yes type=FWD name="bmw.ps" }
 :if ([:len [find name="bmw.se"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" match-subdomain=yes type=FWD name="bmw.se" }
 :if ([:len [find name="bmwarchiv.de"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" match-subdomain=yes type=FWD name="bmwarchiv.de" }
+:if ([:len [find name="bmwartjourney.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" match-subdomain=yes type=FWD name="bmwartjourney.com" }
+:if ([:len [find name="bmwasia.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" match-subdomain=yes type=FWD name="bmwasia.com" }
+:if ([:len [find name="bmwauslieferungszentrum.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" match-subdomain=yes type=FWD name="bmwauslieferungszentrum.com" }

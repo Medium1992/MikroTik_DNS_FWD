@@ -54,6 +54,8 @@
 :if ([:len [find name="addthisedge.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-ads-all" match-subdomain=yes type=FWD name="addthisedge.com" }
 :if ([:len [find name="adfilter.imtt.qq.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-ads-all" match-subdomain=yes type=FWD name="adfilter.imtt.qq.com" }
 :if ([:len [find name="adfox.ru"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-ads-all" match-subdomain=yes type=FWD name="adfox.ru" }
+:if ([:len [find name="adfox.yandex.ru"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-ads-all" match-subdomain=yes type=FWD name="adfox.yandex.ru" }
+:if ([:len [find name="adfstat.yandex.ru"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-ads-all" match-subdomain=yes type=FWD name="adfstat.yandex.ru" }
 :if ([:len [find name="adimg.uve.weibo.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-ads-all" match-subdomain=yes type=FWD name="adimg.uve.weibo.com" }
 :if ([:len [find name="adinplay.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-ads-all" match-subdomain=yes type=FWD name="adinplay.com" }
 :if ([:len [find name="adivery.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-ads-all" match-subdomain=yes type=FWD name="adivery.com" }
@@ -91,9 +93,13 @@
 :if ([:len [find name="ads.wteam.xyz"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-ads-all" match-subdomain=yes type=FWD name="ads.wteam.xyz" }
 :if ([:len [find name="ads.yahoo.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-ads-all" match-subdomain=yes type=FWD name="ads.yahoo.com" }
 :if ([:len [find name="ads.yandex"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-ads-all" match-subdomain=yes type=FWD name="ads.yandex" }
+:if ([:len [find name="ads.yandex.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-ads-all" match-subdomain=yes type=FWD name="ads.yandex.com" }
+:if ([:len [find name="ads.yandex.ru"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-ads-all" match-subdomain=yes type=FWD name="ads.yandex.ru" }
+:if ([:len [find name="ads.yango.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-ads-all" match-subdomain=yes type=FWD name="ads.yango.com" }
 :if ([:len [find name="ads.youtube.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-ads-all" match-subdomain=yes type=FWD name="ads.youtube.com" }
 :if ([:len [find name="adscdn.baidu.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-ads-all" match-subdomain=yes type=FWD name="adscdn.baidu.com" }
 :if ([:len [find name="adsclick.qq.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-ads-all" match-subdomain=yes type=FWD name="adsclick.qq.com" }
+:if ([:len [find name="adsdk.yandex.ru"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-ads-all" match-subdomain=yes type=FWD name="adsdk.yandex.ru" }
 :if ([:len [find name="adse.wsa.ximalaya.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-ads-all" match-subdomain=yes type=FWD name="adse.wsa.ximalaya.com" }
 :if ([:len [find name="adse.ximalaya.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-ads-all" match-subdomain=yes type=FWD name="adse.ximalaya.com" }
 :if ([:len [find name="adsense.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-ads-all" match-subdomain=yes type=FWD name="adsense.com" }
@@ -119,6 +125,8 @@
 :if ([:len [find name="adv.app.qq.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-ads-all" match-subdomain=yes type=FWD name="adv.app.qq.com" }
 :if ([:len [find name="adv.sec.intl.miui.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-ads-all" match-subdomain=yes type=FWD name="adv.sec.intl.miui.com" }
 :if ([:len [find name="adv.sec.miui.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-ads-all" match-subdomain=yes type=FWD name="adv.sec.miui.com" }
+:if ([:len [find name="adv.yandex.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-ads-all" match-subdomain=yes type=FWD name="adv.yandex.com" }
+:if ([:len [find name="adv.yandex.ru"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-ads-all" match-subdomain=yes type=FWD name="adv.yandex.ru" }
 :if ([:len [find name="advapi.joyplus.tv"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-ads-all" match-subdomain=yes type=FWD name="advapi.joyplus.tv" }
 :if ([:len [find name="advapikj.joyplus.tv"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-ads-all" match-subdomain=yes type=FWD name="advapikj.joyplus.tv" }
 :if ([:len [find name="adver.qq.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-ads-all" match-subdomain=yes type=FWD name="adver.qq.com" }
@@ -143,11 +151,3 @@
 :if ([:len [find name="alogs.umeng.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-ads-all" match-subdomain=yes type=FWD name="alogs.umeng.com" }
 :if ([:len [find name="alogus.umeng.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-ads-all" match-subdomain=yes type=FWD name="alogus.umeng.com" }
 :if ([:len [find name="amazon-adsystem.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-ads-all" match-subdomain=yes type=FWD name="amazon-adsystem.com" }
-:if ([:len [find name="analytics-alv.google.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-ads-all" match-subdomain=yes type=FWD name="analytics-alv.google.com" }
-:if ([:len [find name="analytics-data.io"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-ads-all" match-subdomain=yes type=FWD name="analytics-data.io" }
-:if ([:len [find name="analytics.163.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-ads-all" match-subdomain=yes type=FWD name="analytics.163.com" }
-:if ([:len [find name="analytics.facebook.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-ads-all" match-subdomain=yes type=FWD name="analytics.facebook.com" }
-:if ([:len [find name="analytics.tiktok.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-ads-all" match-subdomain=yes type=FWD name="analytics.tiktok.com" }
-:if ([:len [find name="analytics.umetrip.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-ads-all" match-subdomain=yes type=FWD name="analytics.umetrip.com" }
-:if ([:len [find name="analytics.vpc.duolingo.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-ads-all" match-subdomain=yes type=FWD name="analytics.vpc.duolingo.com" }
-:if ([:len [find name="api-adservices.apple.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-ads-all" match-subdomain=yes type=FWD name="api-adservices.apple.com" }

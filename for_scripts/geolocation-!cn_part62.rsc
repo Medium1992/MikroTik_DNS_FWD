@@ -1,6 +1,11 @@
 :global AddressList
 :global ForwardTo
 /ip dns static
+:if ([:len [find name="hotntubes.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" match-subdomain=yes type=FWD name="hotntubes.com" }
+:if ([:len [find name="hotnudegirls.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" match-subdomain=yes type=FWD name="hotnudegirls.net" }
+:if ([:len [find name="hotporn.today"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" match-subdomain=yes type=FWD name="hotporn.today" }
+:if ([:len [find name="hotpornbible.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" match-subdomain=yes type=FWD name="hotpornbible.com" }
+:if ([:len [find name="hotpornfile.org"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" match-subdomain=yes type=FWD name="hotpornfile.org" }
 :if ([:len [find name="hotporntubes.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" match-subdomain=yes type=FWD name="hotporntubes.com" }
 :if ([:len [find name="hotscope.tv"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" match-subdomain=yes type=FWD name="hotscope.tv" }
 :if ([:len [find name="hotsexvideo.mobi"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" match-subdomain=yes type=FWD name="hotsexvideo.mobi" }
@@ -146,8 +151,3 @@
 :if ([:len [find name="hptechventures.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" match-subdomain=yes type=FWD name="hptechventures.com" }
 :if ([:len [find name="hpto.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" match-subdomain=yes type=FWD name="hpto.net" }
 :if ([:len [find name="hptouch.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" match-subdomain=yes type=FWD name="hptouch.com" }
-:if ([:len [find name="hptouchpointmanager.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" match-subdomain=yes type=FWD name="hptouchpointmanager.com" }
-:if ([:len [find name="hptrainingcenter.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" match-subdomain=yes type=FWD name="hptrainingcenter.com" }
-:if ([:len [find name="hptv.fun"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" match-subdomain=yes type=FWD name="hptv.fun" }
-:if ([:len [find name="hpuae.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" match-subdomain=yes type=FWD name="hpuae.com" }
-:if ([:len [find name="hpuniversity.info"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" match-subdomain=yes type=FWD name="hpuniversity.info" }

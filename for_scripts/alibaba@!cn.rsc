@@ -2,6 +2,8 @@
 :global ForwardTo
 /ip dns static
 :if ([:len [find name="ae-rus.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="alibaba@!cn" match-subdomain=yes type=FWD name="ae-rus.net" }
+:if ([:len [find name="aedns.ru"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="alibaba@!cn" match-subdomain=yes type=FWD name="aedns.ru" }
+:if ([:len [find name="aeplatform.ru"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="alibaba@!cn" match-subdomain=yes type=FWD name="aeplatform.ru" }
 :if ([:len [find name="aestatic.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="alibaba@!cn" match-subdomain=yes type=FWD name="aestatic.net" }
 :if ([:len [find name="alibabacloud.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="alibaba@!cn" match-subdomain=yes type=FWD name="alibabacloud.com" }
 :if ([:len [find name="alibabacloud.com.tw"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="alibaba@!cn" match-subdomain=yes type=FWD name="alibabacloud.com.tw" }

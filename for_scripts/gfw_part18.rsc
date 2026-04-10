@@ -1,9 +1,6 @@
 :global AddressList
 :global ForwardTo
 /ip dns static
-:if ([:len [find name="rumble.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="gfw" match-subdomain=yes type=FWD name="rumble.com" }
-:if ([:len [find name="rustdesk.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="gfw" match-subdomain=yes type=FWD name="rustdesk.com" }
-:if ([:len [find name="rusvpn.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="gfw" match-subdomain=yes type=FWD name="rusvpn.com" }
 :if ([:len [find name="ruten.com.tw"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="gfw" match-subdomain=yes type=FWD name="ruten.com.tw" }
 :if ([:len [find name="rutracker.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="gfw" match-subdomain=yes type=FWD name="rutracker.net" }
 :if ([:len [find name="rutracker.org"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="gfw" match-subdomain=yes type=FWD name="rutracker.org" }
@@ -151,3 +148,6 @@
 :if ([:len [find name="social.datalabour.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="gfw" match-subdomain=yes type=FWD name="social.datalabour.com" }
 :if ([:len [find name="socialblade.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="gfw" match-subdomain=yes type=FWD name="socialblade.com" }
 :if ([:len [find name="socks-proxy.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="gfw" match-subdomain=yes type=FWD name="socks-proxy.net" }
+:if ([:len [find name="sockslist.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="gfw" match-subdomain=yes type=FWD name="sockslist.net" }
+:if ([:len [find name="socrec.org"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="gfw" match-subdomain=yes type=FWD name="socrec.org" }
+:if ([:len [find name="softether-download.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="gfw" match-subdomain=yes type=FWD name="softether-download.com" }

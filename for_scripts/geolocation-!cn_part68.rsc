@@ -1,6 +1,11 @@
 :global AddressList
 :global ForwardTo
 /ip dns static
+:if ([:len [find name="ipad3.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" match-subdomain=yes type=FWD name="ipad3.com" }
+:if ([:len [find name="ipadair.jp"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" match-subdomain=yes type=FWD name="ipadair.jp" }
+:if ([:len [find name="ipadair.tw"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" match-subdomain=yes type=FWD name="ipadair.tw" }
+:if ([:len [find name="ipadaustralia.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" match-subdomain=yes type=FWD name="ipadaustralia.com" }
+:if ([:len [find name="ipadpro.buzz"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" match-subdomain=yes type=FWD name="ipadpro.buzz" }
 :if ([:len [find name="ipdefenseforum.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" match-subdomain=yes type=FWD name="ipdefenseforum.com" }
 :if ([:len [find name="ipfire.org"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" match-subdomain=yes type=FWD name="ipfire.org" }
 :if ([:len [find name="ipfs-gateway.cloud"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" match-subdomain=yes type=FWD name="ipfs-gateway.cloud" }
@@ -146,8 +151,3 @@
 :if ([:len [find name="itigergrowtha.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" match-subdomain=yes type=FWD name="itigergrowtha.com" }
 :if ([:len [find name="itigerup.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" match-subdomain=yes type=FWD name="itigerup.com" }
 :if ([:len [find name="itmedia.co.jp"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" match-subdomain=yes type=FWD name="itmedia.co.jp" }
-:if ([:len [find name="itnel.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" match-subdomain=yes type=FWD name="itnel.com" }
-:if ([:len [find name="itools.info"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" match-subdomain=yes type=FWD name="itools.info" }
-:if ([:len [find name="itripto.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" match-subdomain=yes type=FWD name="itripto.com" }
-:if ([:len [find name="itsbetterwhenyouwinit.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" match-subdomain=yes type=FWD name="itsbetterwhenyouwinit.com" }
-:if ([:len [find name="itsfuck.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" match-subdomain=yes type=FWD name="itsfuck.com" }

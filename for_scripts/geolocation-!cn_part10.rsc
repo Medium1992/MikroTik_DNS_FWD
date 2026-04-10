@@ -27,9 +27,6 @@
 :if ([:len [find name="anistreaming.xyz"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" match-subdomain=yes type=FWD name="anistreaming.xyz" }
 :if ([:len [find name="ankarazirvesi2018.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" match-subdomain=yes type=FWD name="ankarazirvesi2018.com" }
 :if ([:len [find name="annamilk.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" match-subdomain=yes type=FWD name="annamilk.com" }
-:if ([:len [find name="annas-archive.org"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" match-subdomain=yes type=FWD name="annas-archive.org" }
-:if ([:len [find name="annas-archive.pm"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" match-subdomain=yes type=FWD name="annas-archive.pm" }
-:if ([:len [find name="annas-archive.se"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" match-subdomain=yes type=FWD name="annas-archive.se" }
 :if ([:len [find name="annstores.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" match-subdomain=yes type=FWD name="annstores.net" }
 :if ([:len [find name="annualpelvicexam.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" match-subdomain=yes type=FWD name="annualpelvicexam.com" }
 :if ([:len [find name="annualreviews.org"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" match-subdomain=yes type=FWD name="annualreviews.org" }
@@ -151,3 +148,6 @@
 :if ([:len [find name="apple-online.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" match-subdomain=yes type=FWD name="apple-online.com" }
 :if ([:len [find name="apple-pay.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" match-subdomain=yes type=FWD name="apple-pay.com" }
 :if ([:len [find name="apple-pay.wang"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" match-subdomain=yes type=FWD name="apple-pay.wang" }
+:if ([:len [find name="apple-store.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" match-subdomain=yes type=FWD name="apple-store.net" }
+:if ([:len [find name="apple-store.wang"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" match-subdomain=yes type=FWD name="apple-store.wang" }
+:if ([:len [find name="apple-usa.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" match-subdomain=yes type=FWD name="apple-usa.net" }
