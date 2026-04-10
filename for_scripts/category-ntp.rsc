@@ -42,14 +42,17 @@
 :if ([:len [find name="ntp-wwv.nist.gov"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-ntp" type=FWD name="ntp-wwv.nist.gov" }
 :if ([:len [find name="ntp.aliyun.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-ntp" type=FWD name="ntp.aliyun.com" }
 :if ([:len [find name="ntp.tencent.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-ntp" type=FWD name="ntp.tencent.com" }
+:if ([:len [find name="ntp.time.nl"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-ntp" type=FWD name="ntp.time.nl" }
 :if ([:len [find name="ntp.ubuntu.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-ntp" type=FWD name="ntp.ubuntu.com" }
 :if ([:len [find name="ntp0.ntp-servers.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-ntp" type=FWD name="ntp0.ntp-servers.net" }
 :if ([:len [find name="ntp1.aliyun.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-ntp" type=FWD name="ntp1.aliyun.com" }
 :if ([:len [find name="ntp1.ntp-servers.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-ntp" type=FWD name="ntp1.ntp-servers.net" }
 :if ([:len [find name="ntp1.tencent.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-ntp" type=FWD name="ntp1.tencent.com" }
+:if ([:len [find name="ntp1.time.nl"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-ntp" type=FWD name="ntp1.time.nl" }
 :if ([:len [find name="ntp2.aliyun.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-ntp" type=FWD name="ntp2.aliyun.com" }
 :if ([:len [find name="ntp2.ntp-servers.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-ntp" type=FWD name="ntp2.ntp-servers.net" }
 :if ([:len [find name="ntp2.tencent.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-ntp" type=FWD name="ntp2.tencent.com" }
+:if ([:len [find name="ntp2.time.nl"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-ntp" type=FWD name="ntp2.time.nl" }
 :if ([:len [find name="ntp3.aliyun.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-ntp" type=FWD name="ntp3.aliyun.com" }
 :if ([:len [find name="ntp3.ntp-servers.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-ntp" type=FWD name="ntp3.ntp-servers.net" }
 :if ([:len [find name="ntp3.tencent.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-ntp" type=FWD name="ntp3.tencent.com" }
@@ -63,6 +66,8 @@
 :if ([:len [find name="ntp6.ntp-servers.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-ntp" type=FWD name="ntp6.ntp-servers.net" }
 :if ([:len [find name="ntp7.aliyun.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-ntp" type=FWD name="ntp7.aliyun.com" }
 :if ([:len [find name="ntp7.ntp-servers.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-ntp" type=FWD name="ntp7.ntp-servers.net" }
+:if ([:len [find name="ntppool1.time.nl"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-ntp" type=FWD name="ntppool1.time.nl" }
+:if ([:len [find name="ntppool2.time.nl"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-ntp" type=FWD name="ntppool2.time.nl" }
 :if ([:len [find name="time-a-b.nist.gov"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-ntp" type=FWD name="time-a-b.nist.gov" }
 :if ([:len [find name="time-a-g.nist.gov"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-ntp" type=FWD name="time-a-g.nist.gov" }
 :if ([:len [find name="time-a-wwv.nist.gov"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-ntp" type=FWD name="time-a-wwv.nist.gov" }

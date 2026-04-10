@@ -1,16 +1,17 @@
 :global AddressList
 :global ForwardTo
 /ip dns static
+:if ([:len [find name="cloudflare-dns.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-doh" match-subdomain=yes type=FWD name="cloudflare-dns.com" }
+:if ([:len [find name="nextdns.io"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-doh" match-subdomain=yes type=FWD name="nextdns.io" }
+:if ([:len [find name="opendns.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-doh" match-subdomain=yes type=FWD name="opendns.com" }
 :if ([:len [find name="ada.openbld.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-doh" type=FWD name="ada.openbld.net" }
 :if ([:len [find name="adblock.dns.mullvad.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-doh" type=FWD name="adblock.dns.mullvad.net" }
 :if ([:len [find name="all.dns.mullvad.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-doh" type=FWD name="all.dns.mullvad.net" }
 :if ([:len [find name="antivirus.bebasid.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-doh" type=FWD name="antivirus.bebasid.com" }
-:if ([:len [find name="anycast.dns.nextdns.io"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-doh" type=FWD name="anycast.dns.nextdns.io" }
 :if ([:len [find name="base.dns.mullvad.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-doh" type=FWD name="base.dns.mullvad.net" }
 :if ([:len [find name="basic.rethinkdns.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-doh" type=FWD name="basic.rethinkdns.com" }
 :if ([:len [find name="child-noads.joindns4.eu"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-doh" type=FWD name="child-noads.joindns4.eu" }
 :if ([:len [find name="child.joindns4.eu"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-doh" type=FWD name="child.joindns4.eu" }
-:if ([:len [find name="cloudflare-dns.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-doh" type=FWD name="cloudflare-dns.com" }
 :if ([:len [find name="common.dot.dns.yandex.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-doh" type=FWD name="common.dot.dns.yandex.net" }
 :if ([:len [find name="dandelionsprout.asuscomm.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-doh" type=FWD name="dandelionsprout.asuscomm.com" }
 :if ([:len [find name="dns-doh.dnsforfamily.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-doh" type=FWD name="dns-doh.dnsforfamily.com" }
@@ -30,7 +31,6 @@
 :if ([:len [find name="dns.jupitrdns.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-doh" type=FWD name="dns.jupitrdns.com" }
 :if ([:len [find name="dns.marbledfennec.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-doh" type=FWD name="dns.marbledfennec.net" }
 :if ([:len [find name="dns.mullvad.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-doh" type=FWD name="dns.mullvad.net" }
-:if ([:len [find name="dns.nextdns.io"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-doh" type=FWD name="dns.nextdns.io" }
 :if ([:len [find name="dns.oszx.co"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-doh" type=FWD name="dns.oszx.co" }
 :if ([:len [find name="dns.pub"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-doh" type=FWD name="dns.pub" }
 :if ([:len [find name="dns.pumplex.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-doh" type=FWD name="dns.pumplex.com" }
@@ -48,20 +48,16 @@
 :if ([:len [find name="doh.applied-privacy.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-doh" type=FWD name="doh.applied-privacy.net" }
 :if ([:len [find name="doh.cleanbrowsing.org"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-doh" type=FWD name="doh.cleanbrowsing.org" }
 :if ([:len [find name="doh.dns.apple.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-doh" type=FWD name="doh.dns.apple.com" }
-:if ([:len [find name="doh.familyshield.opendns.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-doh" type=FWD name="doh.familyshield.opendns.com" }
 :if ([:len [find name="doh.ffmuc.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-doh" type=FWD name="doh.ffmuc.net" }
 :if ([:len [find name="doh.la.ahadns.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-doh" type=FWD name="doh.la.ahadns.net" }
 :if ([:len [find name="doh.nl.ahadns.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-doh" type=FWD name="doh.nl.ahadns.net" }
 :if ([:len [find name="doh.onedns.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-doh" type=FWD name="doh.onedns.net" }
-:if ([:len [find name="doh.opendns.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-doh" type=FWD name="doh.opendns.com" }
 :if ([:len [find name="doh.pub"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-doh" type=FWD name="doh.pub" }
 :if ([:len [find name="doh.qis.io"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-doh" type=FWD name="doh.qis.io" }
-:if ([:len [find name="doh.sandbox.opendns.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-doh" type=FWD name="doh.sandbox.opendns.com" }
 :if ([:len [find name="doh.tiar.app"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-doh" type=FWD name="doh.tiar.app" }
 :if ([:len [find name="doh.tiarap.org"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-doh" type=FWD name="doh.tiarap.org" }
 :if ([:len [find name="extended.dns.mullvad.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-doh" type=FWD name="extended.dns.mullvad.net" }
 :if ([:len [find name="family.adguard-dns.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-doh" type=FWD name="family.adguard-dns.com" }
-:if ([:len [find name="family.cloudflare-dns.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-doh" type=FWD name="family.cloudflare-dns.com" }
 :if ([:len [find name="family.dns.mullvad.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-doh" type=FWD name="family.dns.mullvad.net" }
 :if ([:len [find name="family.dot.dns.yandex.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-doh" type=FWD name="family.dot.dns.yandex.net" }
 :if ([:len [find name="family.rabbitdns.org"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-doh" type=FWD name="family.rabbitdns.org" }
@@ -82,7 +78,6 @@
 :if ([:len [find name="rx.techomespace.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-doh" type=FWD name="rx.techomespace.com" }
 :if ([:len [find name="safe.dot.dns.yandex.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-doh" type=FWD name="safe.dot.dns.yandex.net" }
 :if ([:len [find name="secondary.dns.seia.io"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-doh" type=FWD name="secondary.dns.seia.io" }
-:if ([:len [find name="security.cloudflare-dns.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-doh" type=FWD name="security.cloudflare-dns.com" }
 :if ([:len [find name="security.rabbitdns.org"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-doh" type=FWD name="security.rabbitdns.org" }
 :if ([:len [find name="sm2.doh.pub"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-doh" type=FWD name="sm2.doh.pub" }
 :if ([:len [find name="unfiltered.adguard-dns.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-doh" type=FWD name="unfiltered.adguard-dns.com" }
