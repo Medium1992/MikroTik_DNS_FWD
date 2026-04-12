@@ -101,6 +101,7 @@
 :if ([:len [find name="home.arpa"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="private" match-subdomain=yes type=FWD name="home.arpa" }
 :if ([:len [find name="internal"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="private" match-subdomain=yes type=FWD name="internal" }
 :if ([:len [find name="invalid"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="private" match-subdomain=yes type=FWD name="invalid" }
+:if ([:len [find name="kis.v2.scr.kaspersky-labs.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="private" match-subdomain=yes type=FWD name="kis.v2.scr.kaspersky-labs.com" }
 :if ([:len [find name="lan"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="private" match-subdomain=yes type=FWD name="lan" }
 :if ([:len [find name="leike.cc"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="private" match-subdomain=yes type=FWD name="leike.cc" }
 :if ([:len [find name="local"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="private" match-subdomain=yes type=FWD name="local" }
@@ -120,6 +121,7 @@
 :if ([:len [find name="zte.home"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="private" match-subdomain=yes type=FWD name="zte.home" }
 :if ([:len [find name="asusrouter.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="private" type=FWD name="asusrouter.com" }
 :if ([:len [find name="instant.arubanetworks.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="private" type=FWD name="instant.arubanetworks.com" }
+:if ([:len [find name="local.adguard.org"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="private" type=FWD name="local.adguard.org" }
 :if ([:len [find name="miwifi.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="private" type=FWD name="miwifi.com" }
 :if ([:len [find name="oasisauth.h3c.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="private" type=FWD name="oasisauth.h3c.com" }
 :if ([:len [find name="router.asus.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="private" type=FWD name="router.asus.com" }

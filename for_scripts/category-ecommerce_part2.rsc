@@ -1,6 +1,29 @@
 :global AddressList
 :global ForwardTo
 /ip dns static
+:if ([:len [find name="costco-static.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-ecommerce" match-subdomain=yes type=FWD name="costco-static.com" }
+:if ([:len [find name="costco.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-ecommerce" match-subdomain=yes type=FWD name="costco.com" }
+:if ([:len [find name="costcobusinessdelivery.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-ecommerce" match-subdomain=yes type=FWD name="costcobusinessdelivery.com" }
+:if ([:len [find name="coupang.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-ecommerce" match-subdomain=yes type=FWD name="coupang.com" }
+:if ([:len [find name="coupangcdn.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-ecommerce" match-subdomain=yes type=FWD name="coupangcdn.com" }
+:if ([:len [find name="cowboom.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-ecommerce" match-subdomain=yes type=FWD name="cowboom.com" }
+:if ([:len [find name="craigslist.org"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-ecommerce" match-subdomain=yes type=FWD name="craigslist.org" }
+:if ([:len [find name="crececonebay.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-ecommerce" match-subdomain=yes type=FWD name="crececonebay.com" }
+:if ([:len [find name="creditcardsbay.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-ecommerce" match-subdomain=yes type=FWD name="creditcardsbay.com" }
+:if ([:len [find name="customnikeshoes.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-ecommerce" match-subdomain=yes type=FWD name="customnikeshoes.com" }
+:if ([:len [find name="cyber-bay.info"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-ecommerce" match-subdomain=yes type=FWD name="cyber-bay.info" }
+:if ([:len [find name="cyber-bay.org"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-ecommerce" match-subdomain=yes type=FWD name="cyber-bay.org" }
+:if ([:len [find name="dealbay.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-ecommerce" match-subdomain=yes type=FWD name="dealbay.com" }
+:if ([:len [find name="dealtime.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-ecommerce" match-subdomain=yes type=FWD name="dealtime.com" }
+:if ([:len [find name="dealtree.org"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-ecommerce" match-subdomain=yes type=FWD name="dealtree.org" }
+:if ([:len [find name="didce.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-ecommerce" match-subdomain=yes type=FWD name="didce.com" }
+:if ([:len [find name="digital-wb.ru"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-ecommerce" match-subdomain=yes type=FWD name="digital-wb.ru" }
+:if ([:len [find name="digitalwb.ru"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-ecommerce" match-subdomain=yes type=FWD name="digitalwb.ru" }
+:if ([:len [find name="dmm-extension.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-ecommerce" match-subdomain=yes type=FWD name="dmm-extension.com" }
+:if ([:len [find name="dmm.co.jp"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-ecommerce" match-subdomain=yes type=FWD name="dmm.co.jp" }
+:if ([:len [find name="dmm.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-ecommerce" match-subdomain=yes type=FWD name="dmm.com" }
+:if ([:len [find name="dmmapis.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-ecommerce" match-subdomain=yes type=FWD name="dmmapis.com" }
+:if ([:len [find name="dmmrex.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-ecommerce" match-subdomain=yes type=FWD name="dmmrex.com" }
 :if ([:len [find name="douya.org"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-ecommerce" match-subdomain=yes type=FWD name="douya.org" }
 :if ([:len [find name="dreamtoplay.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-ecommerce" match-subdomain=yes type=FWD name="dreamtoplay.com" }
 :if ([:len [find name="e-bay.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-ecommerce" match-subdomain=yes type=FWD name="e-bay.com" }
@@ -128,26 +151,3 @@
 :if ([:len [find name="ebayshopping.org"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-ecommerce" match-subdomain=yes type=FWD name="ebayshopping.org" }
 :if ([:len [find name="ebaysocial.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-ecommerce" match-subdomain=yes type=FWD name="ebaysocial.com" }
 :if ([:len [find name="ebaysocial.ru"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-ecommerce" match-subdomain=yes type=FWD name="ebaysocial.ru" }
-:if ([:len [find name="ebaysoho.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-ecommerce" match-subdomain=yes type=FWD name="ebaysoho.com" }
-:if ([:len [find name="ebaysohos.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-ecommerce" match-subdomain=yes type=FWD name="ebaysohos.com" }
-:if ([:len [find name="ebaystatic.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-ecommerce" match-subdomain=yes type=FWD name="ebaystatic.com" }
-:if ([:len [find name="ebaystore.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-ecommerce" match-subdomain=yes type=FWD name="ebaystore.com" }
-:if ([:len [find name="ebaystore77.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-ecommerce" match-subdomain=yes type=FWD name="ebaystore77.com" }
-:if ([:len [find name="ebaystyle.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-ecommerce" match-subdomain=yes type=FWD name="ebaystyle.com" }
-:if ([:len [find name="ebaysweden.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-ecommerce" match-subdomain=yes type=FWD name="ebaysweden.com" }
-:if ([:len [find name="ebayt.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-ecommerce" match-subdomain=yes type=FWD name="ebayt.com" }
-:if ([:len [find name="ebaytechblog.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-ecommerce" match-subdomain=yes type=FWD name="ebaytechblog.com" }
-:if ([:len [find name="ebaytopratedseller.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-ecommerce" match-subdomain=yes type=FWD name="ebaytopratedseller.net" }
-:if ([:len [find name="ebaytrading.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-ecommerce" match-subdomain=yes type=FWD name="ebaytrading.com" }
-:if ([:len [find name="ebaytradingassistant.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-ecommerce" match-subdomain=yes type=FWD name="ebaytradingassistant.com" }
-:if ([:len [find name="ebaytv.org"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-ecommerce" match-subdomain=yes type=FWD name="ebaytv.org" }
-:if ([:len [find name="ebayuae.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-ecommerce" match-subdomain=yes type=FWD name="ebayuae.net" }
-:if ([:len [find name="ebayvakantiehuizen.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-ecommerce" match-subdomain=yes type=FWD name="ebayvakantiehuizen.com" }
-:if ([:len [find name="ebayvalet.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-ecommerce" match-subdomain=yes type=FWD name="ebayvalet.com" }
-:if ([:len [find name="ebayvietnam.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-ecommerce" match-subdomain=yes type=FWD name="ebayvietnam.net" }
-:if ([:len [find name="ebayworlds.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-ecommerce" match-subdomain=yes type=FWD name="ebayworlds.com" }
-:if ([:len [find name="ebayy.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-ecommerce" match-subdomain=yes type=FWD name="ebayy.com" }
-:if ([:len [find name="ebuyer.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-ecommerce" match-subdomain=yes type=FWD name="ebuyer.com" }
-:if ([:len [find name="ecimg.tw"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-ecommerce" match-subdomain=yes type=FWD name="ecimg.tw" }
-:if ([:len [find name="edisebay.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-ecommerce" match-subdomain=yes type=FWD name="edisebay.com" }
-:if ([:len [find name="eebay.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-ecommerce" match-subdomain=yes type=FWD name="eebay.com" }

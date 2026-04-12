@@ -111,6 +111,7 @@
 :if ([:len [find name="fbredex.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-dev" match-subdomain=yes type=FWD name="fbredex.com" }
 :if ([:len [find name="fbrell.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-dev" match-subdomain=yes type=FWD name="fbrell.com" }
 :if ([:len [find name="fedoraforum.org"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-dev" match-subdomain=yes type=FWD name="fedoraforum.org" }
+:if ([:len [find name="fedorainfracloud.org"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-dev" match-subdomain=yes type=FWD name="fedorainfracloud.org" }
 :if ([:len [find name="fedoramagazine.org"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-dev" match-subdomain=yes type=FWD name="fedoramagazine.org" }
 :if ([:len [find name="fedorapeople.org"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-dev" match-subdomain=yes type=FWD name="fedorapeople.org" }
 :if ([:len [find name="fedoraproject.org"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-dev" match-subdomain=yes type=FWD name="fedoraproject.org" }
@@ -150,4 +151,3 @@
 :if ([:len [find name="getbootstrap.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-dev" match-subdomain=yes type=FWD name="getbootstrap.com" }
 :if ([:len [find name="getcomposer.org"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-dev" match-subdomain=yes type=FWD name="getcomposer.org" }
 :if ([:len [find name="getfedora.org"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-dev" match-subdomain=yes type=FWD name="getfedora.org" }
-:if ([:len [find name="getzola.org"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-dev" match-subdomain=yes type=FWD name="getzola.org" }

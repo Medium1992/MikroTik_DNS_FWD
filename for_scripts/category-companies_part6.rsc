@@ -1,6 +1,24 @@
 :global AddressList
 :global ForwardTo
 /ip dns static
+:if ([:len [find name="autodesklearning.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" match-subdomain=yes type=FWD name="autodesklearning.com" }
+:if ([:len [find name="autodesklistens.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" match-subdomain=yes type=FWD name="autodesklistens.com" }
+:if ([:len [find name="autodesklivedesign.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" match-subdomain=yes type=FWD name="autodesklivedesign.com" }
+:if ([:len [find name="autodesklms.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" match-subdomain=yes type=FWD name="autodesklms.com" }
+:if ([:len [find name="autodeskmanufacturingacademy.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" match-subdomain=yes type=FWD name="autodeskmanufacturingacademy.com" }
+:if ([:len [find name="autodeskmayaformotiongraphics.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" match-subdomain=yes type=FWD name="autodeskmayaformotiongraphics.com" }
+:if ([:len [find name="autodeskmedbookrequest.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" match-subdomain=yes type=FWD name="autodeskmedbookrequest.com" }
+:if ([:len [find name="autodeskmedia.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" match-subdomain=yes type=FWD name="autodeskmedia.com" }
+:if ([:len [find name="autodeskmediarequest.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" match-subdomain=yes type=FWD name="autodeskmediarequest.com" }
+:if ([:len [find name="autodeskmeetings.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" match-subdomain=yes type=FWD name="autodeskmeetings.com" }
+:if ([:len [find name="autodeskmfg.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" match-subdomain=yes type=FWD name="autodeskmfg.com" }
+:if ([:len [find name="autodeskmotiongraphicsandmore.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" match-subdomain=yes type=FWD name="autodeskmotiongraphicsandmore.com" }
+:if ([:len [find name="autodesknews.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" match-subdomain=yes type=FWD name="autodesknews.com" }
+:if ([:len [find name="autodeskonline.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" match-subdomain=yes type=FWD name="autodeskonline.com" }
+:if ([:len [find name="autodeskpartner.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" match-subdomain=yes type=FWD name="autodeskpartner.com" }
+:if ([:len [find name="autodeskplm.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" match-subdomain=yes type=FWD name="autodeskplm.com" }
+:if ([:len [find name="autodeskplm360.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" match-subdomain=yes type=FWD name="autodeskplm360.com" }
+:if ([:len [find name="autodeskplm360.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" match-subdomain=yes type=FWD name="autodeskplm360.net" }
 :if ([:len [find name="autodeskproductreviews.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" match-subdomain=yes type=FWD name="autodeskproductreviews.com" }
 :if ([:len [find name="autodeskprofiles.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" match-subdomain=yes type=FWD name="autodeskprofiles.com" }
 :if ([:len [find name="autodeskprograms.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" match-subdomain=yes type=FWD name="autodeskprograms.com" }
@@ -133,21 +151,3 @@
 :if ([:len [find name="bbestmall.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" match-subdomain=yes type=FWD name="bbestmall.com" }
 :if ([:len [find name="bdn.dev"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" match-subdomain=yes type=FWD name="bdn.dev" }
 :if ([:len [find name="beatbd.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" match-subdomain=yes type=FWD name="beatbd.com" }
-:if ([:len [find name="beatbydre2013.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" match-subdomain=yes type=FWD name="beatbydre2013.com" }
-:if ([:len [find name="beatbydreheadphonesonsale.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" match-subdomain=yes type=FWD name="beatbydreheadphonesonsale.com" }
-:if ([:len [find name="beatbydrekopen.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" match-subdomain=yes type=FWD name="beatbydrekopen.com" }
-:if ([:len [find name="beatbydremonster.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" match-subdomain=yes type=FWD name="beatbydremonster.com" }
-:if ([:len [find name="beatbydreuk2014.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" match-subdomain=yes type=FWD name="beatbydreuk2014.com" }
-:if ([:len [find name="beatdrdres.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" match-subdomain=yes type=FWD name="beatdrdres.com" }
-:if ([:len [find name="beatfactoryoutlets.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" match-subdomain=yes type=FWD name="beatfactoryoutlets.com" }
-:if ([:len [find name="beatmonstersaustralia.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" match-subdomain=yes type=FWD name="beatmonstersaustralia.net" }
-:if ([:len [find name="beats-by-dre-australia.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" match-subdomain=yes type=FWD name="beats-by-dre-australia.com" }
-:if ([:len [find name="beats-bydrdre.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" match-subdomain=yes type=FWD name="beats-bydrdre.net" }
-:if ([:len [find name="beats-bydre-mall.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" match-subdomain=yes type=FWD name="beats-bydre-mall.com" }
-:if ([:len [find name="beats-bydrecheapsale.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" match-subdomain=yes type=FWD name="beats-bydrecheapsale.com" }
-:if ([:len [find name="beats-bydreoutletonline.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" match-subdomain=yes type=FWD name="beats-bydreoutletonline.com" }
-:if ([:len [find name="beats-bydreoutletsale.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" match-subdomain=yes type=FWD name="beats-bydreoutletsale.com" }
-:if ([:len [find name="beats-bydreoutletsale.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" match-subdomain=yes type=FWD name="beats-bydreoutletsale.net" }
-:if ([:len [find name="beats-bydreoutletssale.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" match-subdomain=yes type=FWD name="beats-bydreoutletssale.net" }
-:if ([:len [find name="beats-bydrestore.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" match-subdomain=yes type=FWD name="beats-bydrestore.com" }
-:if ([:len [find name="beats-bydreuk.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" match-subdomain=yes type=FWD name="beats-bydreuk.com" }
