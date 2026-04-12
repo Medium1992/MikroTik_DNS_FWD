@@ -3,6 +3,8 @@
 /ip dns static
 :if ([:len [find name="5ka.ru"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="x5" match-subdomain=yes type=FWD name="5ka.ru" }
 :if ([:len [find name="5post.market"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="x5" match-subdomain=yes type=FWD name="5post.market" }
+:if ([:len [find name="abonementx5.ru"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="x5" match-subdomain=yes type=FWD name="abonementx5.ru" }
+:if ([:len [find name="ads.x5media.ru"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="x5" match-subdomain=yes type=FWD name="ads.x5media.ru" }
 :if ([:len [find name="chizhik.club"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="x5" match-subdomain=yes type=FWD name="chizhik.club" }
 :if ([:len [find name="clubx5.ru"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="x5" match-subdomain=yes type=FWD name="clubx5.ru" }
 :if ([:len [find name="dialogx5.ru"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="x5" match-subdomain=yes type=FWD name="dialogx5.ru" }
@@ -16,6 +18,7 @@
 :if ([:len [find name="okolo.app"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="x5" match-subdomain=yes type=FWD name="okolo.app" }
 :if ([:len [find name="perekrestok.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="x5" match-subdomain=yes type=FWD name="perekrestok.com" }
 :if ([:len [find name="perekrestok.ru"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="x5" match-subdomain=yes type=FWD name="perekrestok.ru" }
+:if ([:len [find name="sentry.x5.ru"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="x5" match-subdomain=yes type=FWD name="sentry.x5.ru" }
 :if ([:len [find name="x5.ai"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="x5" match-subdomain=yes type=FWD name="x5.ai" }
 :if ([:len [find name="x5.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="x5" match-subdomain=yes type=FWD name="x5.com" }
 :if ([:len [find name="x5.digital"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="x5" match-subdomain=yes type=FWD name="x5.digital" }
