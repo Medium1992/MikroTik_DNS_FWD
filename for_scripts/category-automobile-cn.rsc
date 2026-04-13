@@ -1,6 +1,7 @@
 :global AddressList
 :global ForwardTo
 /ip dns static
+:if ([:len [find name="12365auto.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-automobile-cn" match-subdomain=yes type=FWD name="12365auto.com" }
 :if ([:len [find name="autohome.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-automobile-cn" match-subdomain=yes type=FWD name="autohome.com" }
 :if ([:len [find name="autohome.tel"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-automobile-cn" match-subdomain=yes type=FWD name="autohome.tel" }
 :if ([:len [find name="bitauto.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-automobile-cn" match-subdomain=yes type=FWD name="bitauto.com" }

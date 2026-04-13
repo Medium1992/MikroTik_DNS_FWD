@@ -12,5 +12,7 @@
 :if ([:len [find name="advert-media-api.wildberries.ru"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="wildberries@ads" match-subdomain=yes type=FWD name="advert-media-api.wildberries.ru" }
 :if ([:len [find name="analytics-stage.wildberries.ru"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="wildberries@ads" match-subdomain=yes type=FWD name="analytics-stage.wildberries.ru" }
 :if ([:len [find name="analytics.wildberries.ru"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="wildberries@ads" match-subdomain=yes type=FWD name="analytics.wildberries.ru" }
+:if ([:len [find name="marketing-info.wildberries.ru"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="wildberries@ads" match-subdomain=yes type=FWD name="marketing-info.wildberries.ru" }
+:if ([:len [find name="marketplace-sentry.wb.ru"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="wildberries@ads" match-subdomain=yes type=FWD name="marketplace-sentry.wb.ru" }
 :if ([:len [find name="sentry.wb.ru"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="wildberries@ads" match-subdomain=yes type=FWD name="sentry.wb.ru" }
 :if ([:len [find name="web-analytics.wildberries.ru"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="wildberries@ads" match-subdomain=yes type=FWD name="web-analytics.wildberries.ru" }

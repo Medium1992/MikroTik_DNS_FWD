@@ -20,6 +20,8 @@
 :if ([:len [find name="as-south-205.myhuaweicloud.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="huawei@!cn" match-subdomain=yes type=FWD name="as-south-205.myhuaweicloud.com" }
 :if ([:len [find name="as-south-207.myhuaweicloud.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="huawei@!cn" match-subdomain=yes type=FWD name="as-south-207.myhuaweicloud.com" }
 :if ([:len [find name="ca-east-201.myhuaweicloud.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="huawei@!cn" match-subdomain=yes type=FWD name="ca-east-201.myhuaweicloud.com" }
+:if ([:len [find name="dbankcloud.ru"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="huawei@!cn" match-subdomain=yes type=FWD name="dbankcloud.ru" }
+:if ([:len [find name="dt.dbankcloud.ru"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="huawei@!cn" match-subdomain=yes type=FWD name="dt.dbankcloud.ru" }
 :if ([:len [find name="eu-central-201.myhuaweicloud.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="huawei@!cn" match-subdomain=yes type=FWD name="eu-central-201.myhuaweicloud.com" }
 :if ([:len [find name="eu-central-202.myhuaweicloud.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="huawei@!cn" match-subdomain=yes type=FWD name="eu-central-202.myhuaweicloud.com" }
 :if ([:len [find name="eu-north-201.myhuaweicloud.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="huawei@!cn" match-subdomain=yes type=FWD name="eu-north-201.myhuaweicloud.com" }
