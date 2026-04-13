@@ -36,5 +36,4 @@
 :if ([:len [find name="maoercdn.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="bilibili" match-subdomain=yes type=FWD name="maoercdn.com" }
 :if ([:len [find name="mincdn.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="bilibili" match-subdomain=yes type=FWD name="mincdn.com" }
 :if ([:len [find name="yo9.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="bilibili" match-subdomain=yes type=FWD name="yo9.com" }
-:if ([:len [find name="manga.bilibili.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="bilibili" type=FWD name="manga.bilibili.com" }
 :if ([:len [find name="upos-hz-mirrorakam.akamaized.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="bilibili" type=FWD name="upos-hz-mirrorakam.akamaized.net" }

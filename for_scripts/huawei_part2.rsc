@@ -1,6 +1,8 @@
 :global AddressList
 :global ForwardTo
 /ip dns static
+:if ([:len [find name="la-south-2.myhuaweicloud.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="huawei" match-subdomain=yes type=FWD name="la-south-2.myhuaweicloud.com" }
+:if ([:len [find name="me-east-1.myhuaweicloud.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="huawei" match-subdomain=yes type=FWD name="me-east-1.myhuaweicloud.com" }
 :if ([:len [find name="me-east-205.myhuaweicloud.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="huawei" match-subdomain=yes type=FWD name="me-east-205.myhuaweicloud.com" }
 :if ([:len [find name="me-east-208.myhuaweicloud.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="huawei" match-subdomain=yes type=FWD name="me-east-208.myhuaweicloud.com" }
 :if ([:len [find name="me-east-209.myhuaweicloud.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="huawei" match-subdomain=yes type=FWD name="me-east-209.myhuaweicloud.com" }
