@@ -1,6 +1,13 @@
 :global AddressList
 :global ForwardTo
 /ip dns static
+:if ([:len [find name="beatsbydrecustomwireless.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" match-subdomain=yes type=FWD name="beatsbydrecustomwireless.com" }
+:if ([:len [find name="beatsbydrecybermondaydeals2013.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" match-subdomain=yes type=FWD name="beatsbydrecybermondaydeals2013.com" }
+:if ([:len [find name="beatsbydrecybermondaydeals2013.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" match-subdomain=yes type=FWD name="beatsbydrecybermondaydeals2013.net" }
+:if ([:len [find name="beatsbydredanmarks.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" match-subdomain=yes type=FWD name="beatsbydredanmarks.com" }
+:if ([:len [find name="beatsbydredealsblackfriday.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" match-subdomain=yes type=FWD name="beatsbydredealsblackfriday.com" }
+:if ([:len [find name="beatsbydredealscybermonday.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" match-subdomain=yes type=FWD name="beatsbydredealscybermonday.com" }
+:if ([:len [find name="beatsbydrediscount.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" match-subdomain=yes type=FWD name="beatsbydrediscount.com" }
 :if ([:len [find name="beatsbydrediscountonline.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" match-subdomain=yes type=FWD name="beatsbydrediscountonline.net" }
 :if ([:len [find name="beatsbydredr.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" match-subdomain=yes type=FWD name="beatsbydredr.com" }
 :if ([:len [find name="beatsbydreexecutivesale.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" match-subdomain=yes type=FWD name="beatsbydreexecutivesale.com" }
@@ -144,10 +151,3 @@
 :if ([:len [find name="beatspillnewcolor.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" match-subdomain=yes type=FWD name="beatspillnewcolor.com" }
 :if ([:len [find name="beatspills.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" match-subdomain=yes type=FWD name="beatspills.com" }
 :if ([:len [find name="beatspromonsterjp.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" match-subdomain=yes type=FWD name="beatspromonsterjp.com" }
-:if ([:len [find name="beatspromotions.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" match-subdomain=yes type=FWD name="beatspromotions.com" }
-:if ([:len [find name="beatssales.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" match-subdomain=yes type=FWD name="beatssales.com" }
-:if ([:len [find name="beatssaleus.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" match-subdomain=yes type=FWD name="beatssaleus.com" }
-:if ([:len [find name="beatssaustraliabuy.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" match-subdomain=yes type=FWD name="beatssaustraliabuy.com" }
-:if ([:len [find name="beatssbyaustralia.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" match-subdomain=yes type=FWD name="beatssbyaustralia.com" }
-:if ([:len [find name="beatssbydredanmark.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" match-subdomain=yes type=FWD name="beatssbydredanmark.com" }
-:if ([:len [find name="beatsshop-uk.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" match-subdomain=yes type=FWD name="beatsshop-uk.com" }

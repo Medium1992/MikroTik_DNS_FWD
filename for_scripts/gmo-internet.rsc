@@ -69,6 +69,7 @@
 :if ([:len [find name="gmoask.jp"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="gmo-internet" match-subdomain=yes type=FWD name="gmoask.jp" }
 :if ([:len [find name="gmobb.jp"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="gmo-internet" match-subdomain=yes type=FWD name="gmobb.jp" }
 :if ([:len [find name="gmocloud.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="gmo-internet" match-subdomain=yes type=FWD name="gmocloud.com" }
+:if ([:len [find name="gmopg.jp"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="gmo-internet" match-subdomain=yes type=FWD name="gmopg.jp" }
 :if ([:len [find name="gmosign.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="gmo-internet" match-subdomain=yes type=FWD name="gmosign.com" }
 :if ([:len [find name="gmossp.jp"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="gmo-internet" match-subdomain=yes type=FWD name="gmossp.jp" }
 :if ([:len [find name="good-apps.jp"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="gmo-internet" match-subdomain=yes type=FWD name="good-apps.jp" }

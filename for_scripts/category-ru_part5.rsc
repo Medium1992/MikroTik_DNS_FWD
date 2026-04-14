@@ -1,0 +1,43 @@
+:global AddressList
+:global ForwardTo
+/ip dns static
+:if ([:len [find name="p07.upd.kaspersky.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-ru" type=FWD name="p07.upd.kaspersky.com" }
+:if ([:len [find name="p08.upd.kaspersky.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-ru" type=FWD name="p08.upd.kaspersky.com" }
+:if ([:len [find name="p09.upd.kaspersky.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-ru" type=FWD name="p09.upd.kaspersky.com" }
+:if ([:len [find name="p10.upd.kaspersky.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-ru" type=FWD name="p10.upd.kaspersky.com" }
+:if ([:len [find name="p11.upd.kaspersky.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-ru" type=FWD name="p11.upd.kaspersky.com" }
+:if ([:len [find name="p12.upd.kaspersky.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-ru" type=FWD name="p12.upd.kaspersky.com" }
+:if ([:len [find name="p13.upd.kaspersky.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-ru" type=FWD name="p13.upd.kaspersky.com" }
+:if ([:len [find name="p14.upd.kaspersky.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-ru" type=FWD name="p14.upd.kaspersky.com" }
+:if ([:len [find name="p15.upd.kaspersky.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-ru" type=FWD name="p15.upd.kaspersky.com" }
+:if ([:len [find name="p16.upd.kaspersky.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-ru" type=FWD name="p16.upd.kaspersky.com" }
+:if ([:len [find name="p17.upd.kaspersky.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-ru" type=FWD name="p17.upd.kaspersky.com" }
+:if ([:len [find name="p18.upd.kaspersky.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-ru" type=FWD name="p18.upd.kaspersky.com" }
+:if ([:len [find name="p19.upd.kaspersky.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-ru" type=FWD name="p19.upd.kaspersky.com" }
+:if ([:len [find name="podorozhnik.spb.ru"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-ru" type=FWD name="podorozhnik.spb.ru" }
+:if ([:len [find name="refresh-bkg.activation-v2.kaspersky.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-ru" type=FWD name="refresh-bkg.activation-v2.kaspersky.com" }
+:if ([:len [find name="s00.upd.kaspersky.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-ru" type=FWD name="s00.upd.kaspersky.com" }
+:if ([:len [find name="s01.upd.kaspersky.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-ru" type=FWD name="s01.upd.kaspersky.com" }
+:if ([:len [find name="s02.upd.kaspersky.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-ru" type=FWD name="s02.upd.kaspersky.com" }
+:if ([:len [find name="s03.upd.kaspersky.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-ru" type=FWD name="s03.upd.kaspersky.com" }
+:if ([:len [find name="s04.upd.kaspersky.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-ru" type=FWD name="s04.upd.kaspersky.com" }
+:if ([:len [find name="s05.upd.kaspersky.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-ru" type=FWD name="s05.upd.kaspersky.com" }
+:if ([:len [find name="s06.upd.kaspersky.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-ru" type=FWD name="s06.upd.kaspersky.com" }
+:if ([:len [find name="s07.upd.kaspersky.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-ru" type=FWD name="s07.upd.kaspersky.com" }
+:if ([:len [find name="s08.upd.kaspersky.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-ru" type=FWD name="s08.upd.kaspersky.com" }
+:if ([:len [find name="s09.upd.kaspersky.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-ru" type=FWD name="s09.upd.kaspersky.com" }
+:if ([:len [find name="s10.upd.kaspersky.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-ru" type=FWD name="s10.upd.kaspersky.com" }
+:if ([:len [find name="s11.upd.kaspersky.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-ru" type=FWD name="s11.upd.kaspersky.com" }
+:if ([:len [find name="s12.upd.kaspersky.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-ru" type=FWD name="s12.upd.kaspersky.com" }
+:if ([:len [find name="s13.upd.kaspersky.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-ru" type=FWD name="s13.upd.kaspersky.com" }
+:if ([:len [find name="s14.upd.kaspersky.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-ru" type=FWD name="s14.upd.kaspersky.com" }
+:if ([:len [find name="s15.upd.kaspersky.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-ru" type=FWD name="s15.upd.kaspersky.com" }
+:if ([:len [find name="s16.upd.kaspersky.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-ru" type=FWD name="s16.upd.kaspersky.com" }
+:if ([:len [find name="s17.upd.kaspersky.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-ru" type=FWD name="s17.upd.kaspersky.com" }
+:if ([:len [find name="s18.upd.kaspersky.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-ru" type=FWD name="s18.upd.kaspersky.com" }
+:if ([:len [find name="s19.upd.kaspersky.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-ru" type=FWD name="s19.upd.kaspersky.com" }
+:if ([:len [find name="sberpro.vedomosti.ru"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-ru" type=FWD name="sberpro.vedomosti.ru" }
+:if ([:len [find name="st-ok-pts.cdn-vk.ru"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-ru" type=FWD name="st-ok-pts.cdn-vk.ru" }
+:if ([:len [find name="st-ok.cdn-vk.ru"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-ru" type=FWD name="st-ok.cdn-vk.ru" }
+:if ([:len [find name="taxi.yandex.ru"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-ru" type=FWD name="taxi.yandex.ru" }
+:if ([:len [find name="transport.mos.ru"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-ru" type=FWD name="transport.mos.ru" }
