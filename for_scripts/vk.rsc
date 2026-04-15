@@ -1,18 +1,13 @@
 :global AddressList
 :global ForwardTo
 /ip dns static
-:if ([:len [find name="adblogger.vk.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="vk" match-subdomain=yes type=FWD name="adblogger.vk.com" }
-:if ([:len [find name="ads.vk.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="vk" match-subdomain=yes type=FWD name="ads.vk.com" }
-:if ([:len [find name="ads.vk.ru"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="vk" match-subdomain=yes type=FWD name="ads.vk.ru" }
+:if ([:len [find name="adv.vk.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="vk" match-subdomain=yes type=FWD name="adv.vk.com" }
 :if ([:len [find name="analytics.vk.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="vk" match-subdomain=yes type=FWD name="analytics.vk.com" }
-:if ([:len [find name="analytics.vk.ru"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="vk" match-subdomain=yes type=FWD name="analytics.vk.ru" }
 :if ([:len [find name="cdn-vk.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="vk" match-subdomain=yes type=FWD name="cdn-vk.net" }
 :if ([:len [find name="cdn-vk.ru"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="vk" match-subdomain=yes type=FWD name="cdn-vk.ru" }
 :if ([:len [find name="ms.vk.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="vk" match-subdomain=yes type=FWD name="ms.vk.com" }
 :if ([:len [find name="ms.vk.ru"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="vk" match-subdomain=yes type=FWD name="ms.vk.ru" }
 :if ([:len [find name="mvk.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="vk" match-subdomain=yes type=FWD name="mvk.com" }
-:if ([:len [find name="stats.vk-portal.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="vk" match-subdomain=yes type=FWD name="stats.vk-portal.net" }
-:if ([:len [find name="target.vk.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="vk" match-subdomain=yes type=FWD name="target.vk.com" }
 :if ([:len [find name="target.vk.ru"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="vk" match-subdomain=yes type=FWD name="target.vk.ru" }
 :if ([:len [find name="userapi.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="vk" match-subdomain=yes type=FWD name="userapi.com" }
 :if ([:len [find name="userapi.ru"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="vk" match-subdomain=yes type=FWD name="userapi.ru" }
@@ -49,3 +44,12 @@
 :if ([:len [find name="vkuservideo.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="vk" match-subdomain=yes type=FWD name="vkuservideo.com" }
 :if ([:len [find name="vkuservideo.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="vk" match-subdomain=yes type=FWD name="vkuservideo.net" }
 :if ([:len [find name="vkuservideo.ru"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="vk" match-subdomain=yes type=FWD name="vkuservideo.ru" }
+:if ([:len [find name="adblogger.vk.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="vk" type=FWD name="adblogger.vk.com" }
+:if ([:len [find name="adblogger.vk.ru"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="vk" type=FWD name="adblogger.vk.ru" }
+:if ([:len [find name="ads.vk.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="vk" type=FWD name="ads.vk.com" }
+:if ([:len [find name="ads.vk.ru"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="vk" type=FWD name="ads.vk.ru" }
+:if ([:len [find name="adv.vk.ru"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="vk" type=FWD name="adv.vk.ru" }
+:if ([:len [find name="advk.vk.ru"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="vk" type=FWD name="advk.vk.ru" }
+:if ([:len [find name="analytics.vk.ru"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="vk" type=FWD name="analytics.vk.ru" }
+:if ([:len [find name="stats.vk-portal.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="vk" type=FWD name="stats.vk-portal.net" }
+:if ([:len [find name="target.vk.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="vk" type=FWD name="target.vk.com" }

@@ -1,13 +1,6 @@
 :global AddressList
 :global ForwardTo
 /ip dns static
-:if ([:len [find name="opentracker.r4sas.i2p"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-public-tracker" type=FWD name="opentracker.r4sas.i2p" }
-:if ([:len [find name="opentracker.simp.i2p"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-public-tracker" type=FWD name="opentracker.simp.i2p" }
-:if ([:len [find name="opentracker.skank.i2p"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-public-tracker" type=FWD name="opentracker.skank.i2p" }
-:if ([:len [find name="opentrackr.org"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-public-tracker" type=FWD name="opentrackr.org" }
-:if ([:len [find name="oscar.reyesleon.xyz"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-public-tracker" type=FWD name="oscar.reyesleon.xyz" }
-:if ([:len [find name="p2p.0g.cx"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-public-tracker" type=FWD name="p2p.0g.cx" }
-:if ([:len [find name="p2p.publictracker.xyz"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-public-tracker" type=FWD name="p2p.publictracker.xyz" }
 :if ([:len [find name="p4p.arenabg.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-public-tracker" type=FWD name="p4p.arenabg.com" }
 :if ([:len [find name="pirate.t-1.org"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-public-tracker" type=FWD name="pirate.t-1.org" }
 :if ([:len [find name="potuk.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-public-tracker" type=FWD name="potuk.com" }
@@ -16,7 +9,6 @@
 :if ([:len [find name="public.tracker.vraphim.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-public-tracker" type=FWD name="public.tracker.vraphim.com" }
 :if ([:len [find name="pubt.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-public-tracker" type=FWD name="pubt.net" }
 :if ([:len [find name="qg.lorzl.gq"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-public-tracker" type=FWD name="qg.lorzl.gq" }
-:if ([:len [find name="qimlze77z7w32lx2ntnwkuqslrzlsqy7774v3urueuarafyqik5a.b32.i2p"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-public-tracker" type=FWD name="qimlze77z7w32lx2ntnwkuqslrzlsqy7774v3urueuarafyqik5a.b32.i2p" }
 :if ([:len [find name="retracker.ip.ncnet.ru"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-public-tracker" type=FWD name="retracker.ip.ncnet.ru" }
 :if ([:len [find name="retracker.lanta.me"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-public-tracker" type=FWD name="retracker.lanta.me" }
 :if ([:len [find name="retracker.local"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-public-tracker" type=FWD name="retracker.local" }
@@ -32,7 +24,6 @@
 :if ([:len [find name="share.hkg-fansub.info"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-public-tracker" type=FWD name="share.hkg-fansub.info" }
 :if ([:len [find name="shubt.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-public-tracker" type=FWD name="shubt.net" }
 :if ([:len [find name="siambit.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-public-tracker" type=FWD name="siambit.com" }
-:if ([:len [find name="sigmatracker.i2p"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-public-tracker" type=FWD name="sigmatracker.i2p" }
 :if ([:len [find name="su-data.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-public-tracker" type=FWD name="su-data.com" }
 :if ([:len [find name="sugoi.pomf.se"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-public-tracker" type=FWD name="sugoi.pomf.se" }
 :if ([:len [find name="t-115.rhcloud.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-public-tracker" type=FWD name="t-115.rhcloud.com" }
@@ -151,3 +142,12 @@
 :if ([:len [find name="tracker.netmap.top"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-public-tracker" type=FWD name="tracker.netmap.top" }
 :if ([:len [find name="tracker.nighthawk.pw"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-public-tracker" type=FWD name="tracker.nighthawk.pw" }
 :if ([:len [find name="tracker.open-internet.nl"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-public-tracker" type=FWD name="tracker.open-internet.nl" }
+:if ([:len [find name="tracker.openbittorrent.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-public-tracker" type=FWD name="tracker.openbittorrent.com" }
+:if ([:len [find name="tracker.opentrackr.org"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-public-tracker" type=FWD name="tracker.opentrackr.org" }
+:if ([:len [find name="tracker.picotorrent.one"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-public-tracker" type=FWD name="tracker.picotorrent.one" }
+:if ([:len [find name="tracker.plx.im"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-public-tracker" type=FWD name="tracker.plx.im" }
+:if ([:len [find name="tracker.pmman.tech"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-public-tracker" type=FWD name="tracker.pmman.tech" }
+:if ([:len [find name="tracker.pow7.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-public-tracker" type=FWD name="tracker.pow7.com" }
+:if ([:len [find name="tracker.prq.to"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-public-tracker" type=FWD name="tracker.prq.to" }
+:if ([:len [find name="tracker.publicbt.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-public-tracker" type=FWD name="tracker.publicbt.com" }
+:if ([:len [find name="tracker.pussytorrents.org"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-public-tracker" type=FWD name="tracker.pussytorrents.org" }
