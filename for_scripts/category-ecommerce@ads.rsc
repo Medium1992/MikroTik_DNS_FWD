@@ -37,9 +37,6 @@
 :if ([:len [find name="sentry.ozon.ru"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-ecommerce@ads" match-subdomain=yes type=FWD name="sentry.ozon.ru" }
 :if ([:len [find name="sentry.wb.ru"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-ecommerce@ads" match-subdomain=yes type=FWD name="sentry.wb.ru" }
 :if ([:len [find name="socdm.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-ecommerce@ads" match-subdomain=yes type=FWD name="socdm.com" }
-:if ([:len [find name="tracking.ocourier.ru"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-ecommerce@ads" match-subdomain=yes type=FWD name="tracking.ocourier.ru" }
-:if ([:len [find name="tracking.ozon-dostavka.ru"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-ecommerce@ads" match-subdomain=yes type=FWD name="tracking.ozon-dostavka.ru" }
-:if ([:len [find name="tracking.ozon.ru"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-ecommerce@ads" match-subdomain=yes type=FWD name="tracking.ozon.ru" }
 :if ([:len [find name="web-analytics.wildberries.ru"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-ecommerce@ads" match-subdomain=yes type=FWD name="web-analytics.wildberries.ru" }
 :if ([:len [find name="xapi.ozon.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-ecommerce@ads" match-subdomain=yes type=FWD name="xapi.ozon.com" }
 :if ([:len [find name="xapi.ozon.ru"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-ecommerce@ads" match-subdomain=yes type=FWD name="xapi.ozon.ru" }

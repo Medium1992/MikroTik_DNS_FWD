@@ -12,9 +12,6 @@
 :if ([:len [find name="prodvizhenie-adv.ozon.ru"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="ozon@ads" match-subdomain=yes type=FWD name="prodvizhenie-adv.ozon.ru" }
 :if ([:len [find name="questions-adv.ozon.ru"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="ozon@ads" match-subdomain=yes type=FWD name="questions-adv.ozon.ru" }
 :if ([:len [find name="sentry.ozon.ru"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="ozon@ads" match-subdomain=yes type=FWD name="sentry.ozon.ru" }
-:if ([:len [find name="tracking.ocourier.ru"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="ozon@ads" match-subdomain=yes type=FWD name="tracking.ocourier.ru" }
-:if ([:len [find name="tracking.ozon-dostavka.ru"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="ozon@ads" match-subdomain=yes type=FWD name="tracking.ozon-dostavka.ru" }
-:if ([:len [find name="tracking.ozon.ru"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="ozon@ads" match-subdomain=yes type=FWD name="tracking.ozon.ru" }
 :if ([:len [find name="xapi.ozon.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="ozon@ads" match-subdomain=yes type=FWD name="xapi.ozon.com" }
 :if ([:len [find name="xapi.ozon.ru"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="ozon@ads" match-subdomain=yes type=FWD name="xapi.ozon.ru" }
 :if ([:len [find name="xapi.ozonru.me"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="ozon@ads" match-subdomain=yes type=FWD name="xapi.ozonru.me" }
