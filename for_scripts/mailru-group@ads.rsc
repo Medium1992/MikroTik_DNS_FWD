@@ -5,6 +5,7 @@
 :if ([:len [find name="ads.viqeo.tv"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="mailru-group@ads" match-subdomain=yes type=FWD name="ads.viqeo.tv" }
 :if ([:len [find name="adsadvisor.io"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="mailru-group@ads" match-subdomain=yes type=FWD name="adsadvisor.io" }
 :if ([:len [find name="adv.vk.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="mailru-group@ads" match-subdomain=yes type=FWD name="adv.vk.com" }
+:if ([:len [find name="alt-ad.mail.ru"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="mailru-group@ads" match-subdomain=yes type=FWD name="alt-ad.mail.ru" }
 :if ([:len [find name="analytics.vk.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="mailru-group@ads" match-subdomain=yes type=FWD name="analytics.vk.com" }
 :if ([:len [find name="apptracer.ru"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="mailru-group@ads" match-subdomain=yes type=FWD name="apptracer.ru" }
 :if ([:len [find name="cxhub.ru"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="mailru-group@ads" match-subdomain=yes type=FWD name="cxhub.ru" }
