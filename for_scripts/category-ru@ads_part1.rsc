@@ -30,6 +30,7 @@
 :if ([:len [find name="advert-media-api.wb.ru"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-ru@ads" match-subdomain=yes type=FWD name="advert-media-api.wb.ru" }
 :if ([:len [find name="advert-media-api.wildberries.ru"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-ru@ads" match-subdomain=yes type=FWD name="advert-media-api.wildberries.ru" }
 :if ([:len [find name="agency-adv.ozon.ru"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-ru@ads" match-subdomain=yes type=FWD name="agency-adv.ozon.ru" }
+:if ([:len [find name="alt-ad.mail.ru"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-ru@ads" match-subdomain=yes type=FWD name="alt-ad.mail.ru" }
 :if ([:len [find name="amc.yandex.ru"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-ru@ads" match-subdomain=yes type=FWD name="amc.yandex.ru" }
 :if ([:len [find name="an.yandex.ru"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-ru@ads" match-subdomain=yes type=FWD name="an.yandex.ru" }
 :if ([:len [find name="analytics-adv.ozon.ru"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-ru@ads" match-subdomain=yes type=FWD name="analytics-adv.ozon.ru" }
@@ -150,4 +151,3 @@
 :if ([:len [find name="b2.mail.ru"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-ru@ads" type=FWD name="b2.mail.ru" }
 :if ([:len [find name="bs.mail.ru"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-ru@ads" type=FWD name="bs.mail.ru" }
 :if ([:len [find name="click.rustore.ru"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-ru@ads" type=FWD name="click.rustore.ru" }
-:if ([:len [find name="pixel.rustore.ru"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-ru@ads" type=FWD name="pixel.rustore.ru" }

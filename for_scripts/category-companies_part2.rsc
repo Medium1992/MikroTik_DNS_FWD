@@ -111,6 +111,7 @@
 :if ([:len [find name="alivevmax.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" match-subdomain=yes type=FWD name="alivevmax.com" }
 :if ([:len [find name="alivevue.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" match-subdomain=yes type=FWD name="alivevue.com" }
 :if ([:len [find name="alphassl.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" match-subdomain=yes type=FWD name="alphassl.com" }
+:if ([:len [find name="alt-ad.mail.ru"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" match-subdomain=yes type=FWD name="alt-ad.mail.ru" }
 :if ([:len [find name="altera.co.jp"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" match-subdomain=yes type=FWD name="altera.co.jp" }
 :if ([:len [find name="altera.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" match-subdomain=yes type=FWD name="altera.com" }
 :if ([:len [find name="alteraforum.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" match-subdomain=yes type=FWD name="alteraforum.com" }
@@ -150,4 +151,3 @@
 :if ([:len [find name="amazonimages.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" match-subdomain=yes type=FWD name="amazonimages.com" }
 :if ([:len [find name="amazonlaunchpad.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" match-subdomain=yes type=FWD name="amazonlaunchpad.com" }
 :if ([:len [find name="amazonliterarypartnership.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" match-subdomain=yes type=FWD name="amazonliterarypartnership.com" }
-:if ([:len [find name="amazonlumberyard.wang"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" match-subdomain=yes type=FWD name="amazonlumberyard.wang" }
