@@ -4,7 +4,7 @@
 :if ([:len [find name="5ka.ru"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-retail-ru" match-subdomain=yes type=FWD name="5ka.ru" }
 :if ([:len [find name="5post.market"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-retail-ru" match-subdomain=yes type=FWD name="5post.market" }
 :if ([:len [find name="abonementx5.ru"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-retail-ru" match-subdomain=yes type=FWD name="abonementx5.ru" }
-:if ([:len [find name="ads.x5media.ru"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-retail-ru" match-subdomain=yes type=FWD name="ads.x5media.ru" }
+:if ([:len [find name="acmvid.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-retail-ru" match-subdomain=yes type=FWD name="acmvid.com" }
 :if ([:len [find name="auchan.ru"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-retail-ru" match-subdomain=yes type=FWD name="auchan.ru" }
 :if ([:len [find name="av.ru"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-retail-ru" match-subdomain=yes type=FWD name="av.ru" }
 :if ([:len [find name="bristol.ru"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-retail-ru" match-subdomain=yes type=FWD name="bristol.ru" }
@@ -26,20 +26,27 @@
 :if ([:len [find name="idx5.ru"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-retail-ru" match-subdomain=yes type=FWD name="idx5.ru" }
 :if ([:len [find name="ilovesakura.ru"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-retail-ru" match-subdomain=yes type=FWD name="ilovesakura.ru" }
 :if ([:len [find name="jx5.ru"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-retail-ru" match-subdomain=yes type=FWD name="jx5.ru" }
+:if ([:len [find name="kazanexpress.ru"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-retail-ru" match-subdomain=yes type=FWD name="kazanexpress.ru" }
 :if ([:len [find name="keyx5.ru"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-retail-ru" match-subdomain=yes type=FWD name="keyx5.ru" }
 :if ([:len [find name="krasnoeibeloe.ru"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-retail-ru" match-subdomain=yes type=FWD name="krasnoeibeloe.ru" }
 :if ([:len [find name="lenta.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-retail-ru" match-subdomain=yes type=FWD name="lenta.com" }
 :if ([:len [find name="lenta.tech"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-retail-ru" match-subdomain=yes type=FWD name="lenta.tech" }
+:if ([:len [find name="magnit.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-retail-ru" match-subdomain=yes type=FWD name="magnit.com" }
 :if ([:len [find name="magnit.ru"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-retail-ru" match-subdomain=yes type=FWD name="magnit.ru" }
 :if ([:len [find name="metro-cc.ru"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-retail-ru" match-subdomain=yes type=FWD name="metro-cc.ru" }
+:if ([:len [find name="mm.ru"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-retail-ru" match-subdomain=yes type=FWD name="mm.ru" }
 :if ([:len [find name="mnogolososya.ru"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-retail-ru" match-subdomain=yes type=FWD name="mnogolososya.ru" }
+:if ([:len [find name="mvideo.ru"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-retail-ru" match-subdomain=yes type=FWD name="mvideo.ru" }
 :if ([:len [find name="myapelsin.ru"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-retail-ru" match-subdomain=yes type=FWD name="myapelsin.ru" }
 :if ([:len [find name="myspar.ru"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-retail-ru" match-subdomain=yes type=FWD name="myspar.ru" }
 :if ([:len [find name="okolo.app"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-retail-ru" match-subdomain=yes type=FWD name="okolo.app" }
+:if ([:len [find name="oskelly.co"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-retail-ru" match-subdomain=yes type=FWD name="oskelly.co" }
+:if ([:len [find name="oskelly.ru"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-retail-ru" match-subdomain=yes type=FWD name="oskelly.ru" }
 :if ([:len [find name="perekrestok.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-retail-ru" match-subdomain=yes type=FWD name="perekrestok.com" }
 :if ([:len [find name="perekrestok.ru"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-retail-ru" match-subdomain=yes type=FWD name="perekrestok.ru" }
 :if ([:len [find name="rostics.ru"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-retail-ru" match-subdomain=yes type=FWD name="rostics.ru" }
-:if ([:len [find name="sentry.x5.ru"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-retail-ru" match-subdomain=yes type=FWD name="sentry.x5.ru" }
+:if ([:len [find name="sokolov.io"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-retail-ru" match-subdomain=yes type=FWD name="sokolov.io" }
+:if ([:len [find name="sokolov.ru"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-retail-ru" match-subdomain=yes type=FWD name="sokolov.ru" }
 :if ([:len [find name="sushiwok.ru"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-retail-ru" match-subdomain=yes type=FWD name="sushiwok.ru" }
 :if ([:len [find name="uni.rest"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-retail-ru" match-subdomain=yes type=FWD name="uni.rest" }
 :if ([:len [find name="unirest.tech"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-retail-ru" match-subdomain=yes type=FWD name="unirest.tech" }
@@ -62,3 +69,7 @@
 :if ([:len [find name="x5q.ru"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-retail-ru" match-subdomain=yes type=FWD name="x5q.ru" }
 :if ([:len [find name="x5static.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-retail-ru" match-subdomain=yes type=FWD name="x5static.net" }
 :if ([:len [find name="x5w.ru"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-retail-ru" match-subdomain=yes type=FWD name="x5w.ru" }
+:if ([:len [find name="ads.x5.ru"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-retail-ru" type=FWD name="ads.x5.ru" }
+:if ([:len [find name="ads.x5media.ru"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-retail-ru" type=FWD name="ads.x5media.ru" }
+:if ([:len [find name="mvideo.edna.io"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-retail-ru" type=FWD name="mvideo.edna.io" }
+:if ([:len [find name="sentry.x5.ru"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-retail-ru" type=FWD name="sentry.x5.ru" }

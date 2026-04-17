@@ -39,10 +39,8 @@
 :if ([:len [find name="tochka-tech.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-bank-ru" match-subdomain=yes type=FWD name="tochka-tech.com" }
 :if ([:len [find name="tochka.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-bank-ru" match-subdomain=yes type=FWD name="tochka.com" }
 :if ([:len [find name="tpension.ru"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-bank-ru" match-subdomain=yes type=FWD name="tpension.ru" }
-:if ([:len [find name="tracing-http.megamarket.tech"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-bank-ru" match-subdomain=yes type=FWD name="tracing-http.megamarket.tech" }
 :if ([:len [find name="travel-tec.ru"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-bank-ru" match-subdomain=yes type=FWD name="travel-tec.ru" }
 :if ([:len [find name="unidraw.io"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-bank-ru" match-subdomain=yes type=FWD name="unidraw.io" }
-:if ([:len [find name="visor.sberbank.ru"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-bank-ru" match-subdomain=yes type=FWD name="visor.sberbank.ru" }
 :if ([:len [find name="vtb.ru"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-bank-ru" match-subdomain=yes type=FWD name="vtb.ru" }
 :if ([:len [find name="xn----7sbhmncai5a0arm7c1e.xn--p1ai"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-bank-ru" match-subdomain=yes type=FWD name="xn----7sbhmncai5a0arm7c1e.xn--p1ai" }
 :if ([:len [find name="xn----8sbkfzespdwig.xn--p1ai"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-bank-ru" match-subdomain=yes type=FWD name="xn----8sbkfzespdwig.xn--p1ai" }
@@ -56,4 +54,9 @@
 :if ([:len [find name="zvuk.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-bank-ru" match-subdomain=yes type=FWD name="zvuk.com" }
 :if ([:len [find name="edu.tinkoff.ru"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-bank-ru" type=FWD name="edu.tinkoff.ru" }
 :if ([:len [find name="education.tbank.ru"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-bank-ru" type=FWD name="education.tbank.ru" }
+:if ([:len [find name="error-tracking.megamarket.tech"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-bank-ru" type=FWD name="error-tracking.megamarket.tech" }
+:if ([:len [find name="metrics.21-school.ru"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-bank-ru" type=FWD name="metrics.21-school.ru" }
 :if ([:len [find name="sberpro.vedomosti.ru"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-bank-ru" type=FWD name="sberpro.vedomosti.ru" }
+:if ([:len [find name="sentry.sberauto.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-bank-ru" type=FWD name="sentry.sberauto.com" }
+:if ([:len [find name="tracing-http.megamarket.tech"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-bank-ru" type=FWD name="tracing-http.megamarket.tech" }
+:if ([:len [find name="visor.sberbank.ru"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-bank-ru" type=FWD name="visor.sberbank.ru" }

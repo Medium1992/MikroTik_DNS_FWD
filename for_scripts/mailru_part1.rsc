@@ -13,6 +13,7 @@
 :if ([:len [find name="appsmail.ru"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="mailru" match-subdomain=yes type=FWD name="appsmail.ru" }
 :if ([:len [find name="apptracer.ru"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="mailru" match-subdomain=yes type=FWD name="apptracer.ru" }
 :if ([:len [find name="armgs.team"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="mailru" match-subdomain=yes type=FWD name="armgs.team" }
+:if ([:len [find name="attachmail.ru"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="mailru" match-subdomain=yes type=FWD name="attachmail.ru" }
 :if ([:len [find name="attachmy.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="mailru" match-subdomain=yes type=FWD name="attachmy.com" }
 :if ([:len [find name="bargipsy.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="mailru" match-subdomain=yes type=FWD name="bargipsy.com" }
 :if ([:len [find name="bizmrg.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="mailru" match-subdomain=yes type=FWD name="bizmrg.com" }
@@ -150,4 +151,3 @@
 :if ([:len [find name="tech-mail.ru"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="mailru" match-subdomain=yes type=FWD name="tech-mail.ru" }
 :if ([:len [find name="telega.info"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="mailru" match-subdomain=yes type=FWD name="telega.info" }
 :if ([:len [find name="telega.me"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="mailru" match-subdomain=yes type=FWD name="telega.me" }
-:if ([:len [find name="tetrika-school.ru"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="mailru" match-subdomain=yes type=FWD name="tetrika-school.ru" }
