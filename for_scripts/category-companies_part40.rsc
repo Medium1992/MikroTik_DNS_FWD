@@ -1,6 +1,8 @@
 :global AddressList
 :global ForwardTo
 /ip dns static
+:if ([:len [find name="dl.dell.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" type=FWD name="dl.dell.com" }
+:if ([:len [find name="dl.google.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" type=FWD name="dl.google.com" }
 :if ([:len [find name="dl.l.google.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" type=FWD name="dl.l.google.com" }
 :if ([:len [find name="dmqdd6hw24ucf.cloudfront.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" type=FWD name="dmqdd6hw24ucf.cloudfront.net" }
 :if ([:len [find name="dnl-00.geo.kaspersky.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" type=FWD name="dnl-00.geo.kaspersky.com" }
@@ -149,5 +151,3 @@
 :if ([:len [find name="images-na.ssl-images-amazon.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" type=FWD name="images-na.ssl-images-amazon.com" }
 :if ([:len [find name="images.apple.com.edgekey.net.globalredir.akadns.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" type=FWD name="images.apple.com.edgekey.net.globalredir.akadns.net" }
 :if ([:len [find name="imasdk.googleapis.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" type=FWD name="imasdk.googleapis.com" }
-:if ([:len [find name="img-prod-cms-rt-microsoft-com.akamaized.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" type=FWD name="img-prod-cms-rt-microsoft-com.akamaized.net" }
-:if ([:len [find name="img-s-msn-com.akamaized.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" type=FWD name="img-s-msn-com.akamaized.net" }

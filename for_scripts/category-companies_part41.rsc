@@ -1,6 +1,8 @@
 :global AddressList
 :global ForwardTo
 /ip dns static
+:if ([:len [find name="img-prod-cms-rt-microsoft-com.akamaized.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" type=FWD name="img-prod-cms-rt-microsoft-com.akamaized.net" }
+:if ([:len [find name="img-s-msn-com.akamaized.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" type=FWD name="img-s-msn-com.akamaized.net" }
 :if ([:len [find name="impala-media-production.s3.amazonaws.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" type=FWD name="impala-media-production.s3.amazonaws.com" }
 :if ([:len [find name="inappcheck-cn.itunes-apple.com.akadns.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" type=FWD name="inappcheck-cn.itunes-apple.com.akadns.net" }
 :if ([:len [find name="inappcheck-lb.itunes-apple.com.akadns.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" type=FWD name="inappcheck-lb.itunes-apple.com.akadns.net" }
@@ -149,5 +151,3 @@
 :if ([:len [find name="pba0.apple.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" type=FWD name="pba0.apple.com" }
 :if ([:len [find name="pd-nk.itunes.apple.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" type=FWD name="pd-nk.itunes.apple.com" }
 :if ([:len [find name="pd.itunes.apple.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" type=FWD name="pd.itunes.apple.com" }
-:if ([:len [find name="performanceparameters.googleapis.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" type=FWD name="performanceparameters.googleapis.com" }
-:if ([:len [find name="pixel.rustore.ru"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" type=FWD name="pixel.rustore.ru" }

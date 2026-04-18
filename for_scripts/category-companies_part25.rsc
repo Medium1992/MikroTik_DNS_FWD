@@ -45,6 +45,8 @@
 :if ([:len [find name="managedmeetingrooms.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" match-subdomain=yes type=FWD name="managedmeetingrooms.com" }
 :if ([:len [find name="management-azure-devices-int.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" match-subdomain=yes type=FWD name="management-azure-devices-int.net" }
 :if ([:len [find name="management-azure-devices.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" match-subdomain=yes type=FWD name="management-azure-devices.net" }
+:if ([:len [find name="manus.im"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" match-subdomain=yes type=FWD name="manus.im" }
+:if ([:len [find name="manuscdn.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" match-subdomain=yes type=FWD name="manuscdn.com" }
 :if ([:len [find name="map-software.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" match-subdomain=yes type=FWD name="map-software.com" }
 :if ([:len [find name="mapguide.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" match-subdomain=yes type=FWD name="mapguide.com" }
 :if ([:len [find name="mappingonline.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" match-subdomain=yes type=FWD name="mappingonline.com" }
@@ -149,5 +151,3 @@
 :if ([:len [find name="microsoft.de"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" match-subdomain=yes type=FWD name="microsoft.de" }
 :if ([:len [find name="microsoft.eu"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" match-subdomain=yes type=FWD name="microsoft.eu" }
 :if ([:len [find name="microsoft.io"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" match-subdomain=yes type=FWD name="microsoft.io" }
-:if ([:len [find name="microsoft.jp"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" match-subdomain=yes type=FWD name="microsoft.jp" }
-:if ([:len [find name="microsoft.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" match-subdomain=yes type=FWD name="microsoft.net" }

@@ -1,6 +1,8 @@
 :global AddressList
 :global ForwardTo
 /ip dns static
+:if ([:len [find name="monsterbeatsonlinestoreuk.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" match-subdomain=yes type=FWD name="monsterbeatsonlinestoreuk.com" }
+:if ([:len [find name="monsterbeatsoutlet.us"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" match-subdomain=yes type=FWD name="monsterbeatsoutlet.us" }
 :if ([:len [find name="monsterbeatspascher.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" match-subdomain=yes type=FWD name="monsterbeatspascher.net" }
 :if ([:len [find name="monsterbeatsru.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" match-subdomain=yes type=FWD name="monsterbeatsru.com" }
 :if ([:len [find name="monsterbeatssales.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" match-subdomain=yes type=FWD name="monsterbeatssales.com" }
@@ -149,5 +151,3 @@
 :if ([:len [find name="navercloudcorp.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" match-subdomain=yes type=FWD name="navercloudcorp.com" }
 :if ([:len [find name="navercorp.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" match-subdomain=yes type=FWD name="navercorp.com" }
 :if ([:len [find name="naverfincorp.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" match-subdomain=yes type=FWD name="naverfincorp.com" }
-:if ([:len [find name="naverlabs.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" match-subdomain=yes type=FWD name="naverlabs.com" }
-:if ([:len [find name="naverncp.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" match-subdomain=yes type=FWD name="naverncp.com" }

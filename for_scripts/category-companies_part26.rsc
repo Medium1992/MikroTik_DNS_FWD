@@ -1,6 +1,8 @@
 :global AddressList
 :global ForwardTo
 /ip dns static
+:if ([:len [find name="microsoft.jp"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" match-subdomain=yes type=FWD name="microsoft.jp" }
+:if ([:len [find name="microsoft.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" match-subdomain=yes type=FWD name="microsoft.net" }
 :if ([:len [find name="microsoft.red"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" match-subdomain=yes type=FWD name="microsoft.red" }
 :if ([:len [find name="microsoft.ru"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" match-subdomain=yes type=FWD name="microsoft.ru" }
 :if ([:len [find name="microsoft.se"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" match-subdomain=yes type=FWD name="microsoft.se" }
@@ -149,5 +151,3 @@
 :if ([:len [find name="monsterbeatsmall.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" match-subdomain=yes type=FWD name="monsterbeatsmall.com" }
 :if ([:len [find name="monsterbeatsnegozi.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" match-subdomain=yes type=FWD name="monsterbeatsnegozi.net" }
 :if ([:len [find name="monsterbeatsok.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" match-subdomain=yes type=FWD name="monsterbeatsok.com" }
-:if ([:len [find name="monsterbeatsonlinestoreuk.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" match-subdomain=yes type=FWD name="monsterbeatsonlinestoreuk.com" }
-:if ([:len [find name="monsterbeatsoutlet.us"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" match-subdomain=yes type=FWD name="monsterbeatsoutlet.us" }

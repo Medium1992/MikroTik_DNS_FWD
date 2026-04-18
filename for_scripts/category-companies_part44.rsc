@@ -1,6 +1,8 @@
 :global AddressList
 :global ForwardTo
 /ip dns static
+:if ([:len [find name="wwis-dubc1-vip71.adobe.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" type=FWD name="wwis-dubc1-vip71.adobe.com" }
+:if ([:len [find name="wwis-dubc1-vip72.adobe.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" type=FWD name="wwis-dubc1-vip72.adobe.com" }
 :if ([:len [find name="wwis-dubc1-vip73.adobe.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" type=FWD name="wwis-dubc1-vip73.adobe.com" }
 :if ([:len [find name="wwis-dubc1-vip74.adobe.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" type=FWD name="wwis-dubc1-vip74.adobe.com" }
 :if ([:len [find name="wwis-dubc1-vip75.adobe.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" type=FWD name="wwis-dubc1-vip75.adobe.com" }

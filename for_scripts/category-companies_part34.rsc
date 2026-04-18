@@ -1,6 +1,8 @@
 :global AddressList
 :global ForwardTo
 /ip dns static
+:if ([:len [find name="timefxapp.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" match-subdomain=yes type=FWD name="timefxapp.com" }
+:if ([:len [find name="timelinestoryteller.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" match-subdomain=yes type=FWD name="timelinestoryteller.com" }
 :if ([:len [find name="timeweb.cloud"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" match-subdomain=yes type=FWD name="timeweb.cloud" }
 :if ([:len [find name="timeweb.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" match-subdomain=yes type=FWD name="timeweb.com" }
 :if ([:len [find name="tinkerboxapp.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" match-subdomain=yes type=FWD name="tinkerboxapp.com" }
@@ -149,5 +151,3 @@
 :if ([:len [find name="verilylifesciences.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" match-subdomain=yes type=FWD name="verilylifesciences.com" }
 :if ([:len [find name="verilystudyhub.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" match-subdomain=yes type=FWD name="verilystudyhub.com" }
 :if ([:len [find name="verilystudywatch.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" match-subdomain=yes type=FWD name="verilystudywatch.com" }
-:if ([:len [find name="verilystudywatch.org"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" match-subdomain=yes type=FWD name="verilystudywatch.org" }
-:if ([:len [find name="verisign.asia"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" match-subdomain=yes type=FWD name="verisign.asia" }
