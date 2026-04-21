@@ -36,6 +36,7 @@
 :if ([:len [find name="ctfile.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-netdisk-cn" match-subdomain=yes type=FWD name="ctfile.com" }
 :if ([:len [find name="feimaoyun.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-netdisk-cn" match-subdomain=yes type=FWD name="feimaoyun.com" }
 :if ([:len [find name="filez.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-netdisk-cn" match-subdomain=yes type=FWD name="filez.com" }
+:if ([:len [find name="guangyapan.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-netdisk-cn" match-subdomain=yes type=FWD name="guangyapan.com" }
 :if ([:len [find name="ilanzou.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-netdisk-cn" match-subdomain=yes type=FWD name="ilanzou.com" }
 :if ([:len [find name="jianguoyun.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-netdisk-cn" match-subdomain=yes type=FWD name="jianguoyun.com" }
 :if ([:len [find name="lanosso.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-netdisk-cn" match-subdomain=yes type=FWD name="lanosso.com" }
