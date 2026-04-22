@@ -1,6 +1,7 @@
 :global AddressList
 :global ForwardTo
 /ip dns static
+:if ([:len [find name="dqd0jw5gvbchn.cloudfront.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" type=FWD name="dqd0jw5gvbchn.cloudfront.net" }
 :if ([:len [find name="dqrpb9wgowsf5.cloudfront.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" type=FWD name="dqrpb9wgowsf5.cloudfront.net" }
 :if ([:len [find name="ds-linear-abematv.akamaized.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" type=FWD name="ds-linear-abematv.akamaized.net" }
 :if ([:len [find name="ds-vod-abematv.akamaized.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" type=FWD name="ds-vod-abematv.akamaized.net" }
@@ -150,4 +151,3 @@
 :if ([:len [find name="openaicom-api-bdcpf8c6d2e9atf6.z01.azurefd.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" type=FWD name="openaicom-api-bdcpf8c6d2e9atf6.z01.azurefd.net" }
 :if ([:len [find name="openaicom.imgix.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" type=FWD name="openaicom.imgix.net" }
 :if ([:len [find name="openaicomproductionae4b.blob.core.windows.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" type=FWD name="openaicomproductionae4b.blob.core.windows.net" }
-:if ([:len [find name="opgg-static.akamaized.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" type=FWD name="opgg-static.akamaized.net" }

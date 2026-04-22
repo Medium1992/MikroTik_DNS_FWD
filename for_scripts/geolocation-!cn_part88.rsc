@@ -1,6 +1,7 @@
 :global AddressList
 :global ForwardTo
 /ip dns static
+:if ([:len [find name="nanyang.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" match-subdomain=yes type=FWD name="nanyang.com" }
 :if ([:len [find name="nanyangpost.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" match-subdomain=yes type=FWD name="nanyangpost.com" }
 :if ([:len [find name="naoconto.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" match-subdomain=yes type=FWD name="naoconto.com" }
 :if ([:len [find name="napiszex.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" match-subdomain=yes type=FWD name="napiszex.com" }
@@ -150,4 +151,3 @@
 :if ([:len [find name="netlify.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" match-subdomain=yes type=FWD name="netlify.com" }
 :if ([:len [find name="netlifystatus.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" match-subdomain=yes type=FWD name="netlifystatus.com" }
 :if ([:len [find name="netme.cc"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" match-subdomain=yes type=FWD name="netme.cc" }
-:if ([:len [find name="netpornsex.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" match-subdomain=yes type=FWD name="netpornsex.com" }

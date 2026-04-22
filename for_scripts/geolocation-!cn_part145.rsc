@@ -1,6 +1,7 @@
 :global AddressList
 :global ForwardTo
 /ip dns static
+:if ([:len [find name="opgg-static.akamaized.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" type=FWD name="opgg-static.akamaized.net" }
 :if ([:len [find name="origin-a.akamaihd.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" type=FWD name="origin-a.akamaihd.net" }
 :if ([:len [find name="osu.ppy.sh"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" type=FWD name="osu.ppy.sh" }
 :if ([:len [find name="p-events-delivery.akamaized.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" type=FWD name="p-events-delivery.akamaized.net" }
@@ -150,4 +151,3 @@
 :if ([:len [find name="ubistatic13-a.akamaihd.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" type=FWD name="ubistatic13-a.akamaihd.net" }
 :if ([:len [find name="ubistatic14-a.akamaihd.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" type=FWD name="ubistatic14-a.akamaihd.net" }
 :if ([:len [find name="ubistatic15-a.akamaihd.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" type=FWD name="ubistatic15-a.akamaihd.net" }
-:if ([:len [find name="ubistatic16-a.akamaihd.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" type=FWD name="ubistatic16-a.akamaihd.net" }

@@ -1,6 +1,7 @@
 :global AddressList
 :global ForwardTo
 /ip dns static
+:if ([:len [find name="viu.tv"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" match-subdomain=yes type=FWD name="viu.tv" }
 :if ([:len [find name="vivaldi.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" match-subdomain=yes type=FWD name="vivaldi.com" }
 :if ([:len [find name="vivaxnxx.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" match-subdomain=yes type=FWD name="vivaxnxx.com" }
 :if ([:len [find name="vivthomas.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" match-subdomain=yes type=FWD name="vivthomas.com" }
@@ -150,4 +151,3 @@
 :if ([:len [find name="volvoce.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" match-subdomain=yes type=FWD name="volvoce.com" }
 :if ([:len [find name="volvodefense.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" match-subdomain=yes type=FWD name="volvodefense.com" }
 :if ([:len [find name="volvogroup.be"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" match-subdomain=yes type=FWD name="volvogroup.be" }
-:if ([:len [find name="volvogroup.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" match-subdomain=yes type=FWD name="volvogroup.com" }

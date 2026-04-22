@@ -1,6 +1,7 @@
 :global AddressList
 :global ForwardTo
 /ip dns static
+:if ([:len [find name="yandex.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" match-subdomain=yes type=FWD name="yandex.net" }
 :if ([:len [find name="yandex.org"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" match-subdomain=yes type=FWD name="yandex.org" }
 :if ([:len [find name="yandex.ru"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" match-subdomain=yes type=FWD name="yandex.ru" }
 :if ([:len [find name="yandexadexchange.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" match-subdomain=yes type=FWD name="yandexadexchange.net" }
@@ -150,4 +151,3 @@
 :if ([:len [find name="youporngay.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" match-subdomain=yes type=FWD name="youporngay.com" }
 :if ([:len [find name="youpornlist.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" match-subdomain=yes type=FWD name="youpornlist.com" }
 :if ([:len [find name="youpornpremium.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" match-subdomain=yes type=FWD name="youpornpremium.com" }
-:if ([:len [find name="youpornru.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" match-subdomain=yes type=FWD name="youpornru.com" }

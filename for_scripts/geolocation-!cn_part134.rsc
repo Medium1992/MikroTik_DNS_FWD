@@ -1,6 +1,7 @@
 :global AddressList
 :global ForwardTo
 /ip dns static
+:if ([:len [find name="wiki.gamerp.jp"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" match-subdomain=yes type=FWD name="wiki.gamerp.jp" }
 :if ([:len [find name="wiki.gg"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" match-subdomain=yes type=FWD name="wiki.gg" }
 :if ([:len [find name="wiki.oauth.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" match-subdomain=yes type=FWD name="wiki.oauth.net" }
 :if ([:len [find name="wiki.phonegap.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" match-subdomain=yes type=FWD name="wiki.phonegap.com" }
@@ -150,4 +151,3 @@
 :if ([:len [find name="wolfatbestbuy.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" match-subdomain=yes type=FWD name="wolfatbestbuy.com" }
 :if ([:len [find name="wolfatbestbuy.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" match-subdomain=yes type=FWD name="wolfatbestbuy.net" }
 :if ([:len [find name="wolfax.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" match-subdomain=yes type=FWD name="wolfax.com" }
-:if ([:len [find name="wolfberries.ru"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" match-subdomain=yes type=FWD name="wolfberries.ru" }

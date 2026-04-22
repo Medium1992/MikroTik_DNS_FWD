@@ -1,6 +1,7 @@
 :global AddressList
 :global ForwardTo
 /ip dns static
+:if ([:len [find name="lesbianpics.org"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" match-subdomain=yes type=FWD name="lesbianpics.org" }
 :if ([:len [find name="lesbianpornvideos.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" match-subdomain=yes type=FWD name="lesbianpornvideos.com" }
 :if ([:len [find name="lesbiansubmission.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" match-subdomain=yes type=FWD name="lesbiansubmission.com" }
 :if ([:len [find name="lesboerotica.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" match-subdomain=yes type=FWD name="lesboerotica.net" }
@@ -150,4 +151,3 @@
 :if ([:len [find name="livefilestore.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" match-subdomain=yes type=FWD name="livefilestore.com" }
 :if ([:len [find name="livehdcams.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" match-subdomain=yes type=FWD name="livehdcams.com" }
 :if ([:len [find name="livejasmin.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" match-subdomain=yes type=FWD name="livejasmin.com" }
-:if ([:len [find name="livejasminbabes.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" match-subdomain=yes type=FWD name="livejasminbabes.net" }

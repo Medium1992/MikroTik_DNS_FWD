@@ -10,6 +10,7 @@
 :if ([:len [find name="improd.works"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" match-subdomain=yes type=FWD name="improd.works" }
 :if ([:len [find name="imstagram.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" match-subdomain=yes type=FWD name="imstagram.com" }
 :if ([:len [find name="imtagram.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" match-subdomain=yes type=FWD name="imtagram.com" }
+:if ([:len [find name="imtintl.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" match-subdomain=yes type=FWD name="imtintl.com" }
 :if ([:len [find name="imzog.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" match-subdomain=yes type=FWD name="imzog.com" }
 :if ([:len [find name="inaporn.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" match-subdomain=yes type=FWD name="inaporn.com" }
 :if ([:len [find name="inasian.club"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" match-subdomain=yes type=FWD name="inasian.club" }
@@ -150,4 +151,3 @@
 :if ([:len [find name="instantink.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" match-subdomain=yes type=FWD name="instantink.com" }
 :if ([:len [find name="instantssl.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" match-subdomain=yes type=FWD name="instantssl.com" }
 :if ([:len [find name="instanttelegram.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" match-subdomain=yes type=FWD name="instanttelegram.com" }
-:if ([:len [find name="instaplayer.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" match-subdomain=yes type=FWD name="instaplayer.net" }
