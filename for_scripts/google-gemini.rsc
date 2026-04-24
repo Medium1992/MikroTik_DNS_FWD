@@ -2,6 +2,7 @@
 :global ForwardTo
 /ip dns static
 :if ([:len [find name="ai.studio"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="google-gemini" match-subdomain=yes type=FWD name="ai.studio" }
+:if ([:len [find name="aicode.googleapis.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="google-gemini" match-subdomain=yes type=FWD name="aicode.googleapis.com" }
 :if ([:len [find name="aida.googleapis.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="google-gemini" match-subdomain=yes type=FWD name="aida.googleapis.com" }
 :if ([:len [find name="aisandbox-pa.googleapis.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="google-gemini" match-subdomain=yes type=FWD name="aisandbox-pa.googleapis.com" }
 :if ([:len [find name="aistudio.google.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="google-gemini" match-subdomain=yes type=FWD name="aistudio.google.com" }
