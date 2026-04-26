@@ -246,15 +246,29 @@ jobs:
         id: find_files
         run: |
           cd meta-rules-dat
-          if [ ! -d "geo/geosite" ]; then
-            echo "Error: Directory geo/geosite not found!"
+          if [ ! -d "geo/geosite" ] && [ ! -d "geo-lite/geosite" ]; then
+            echo "Error: Neither geo/geosite nor geo-lite/geosite found!"
             echo "Available dirs:"
             find . -type d -name "geo*" || true
             exit 1
           fi
-          find "geo/geosite" -name "*.json" | sed 's|.*/||' | sort > ../geosite_files.txt
+
+          # Prefer full geo/geosite files; append only missing basenames from geo-lite/geosite.
+          : > ../geosite_files.txt
+          if [ -d "geo/geosite" ]; then
+            find "geo/geosite" -name "*.json" | sort > ../geosite_files.txt
+          fi
+          if [ -d "geo-lite/geosite" ]; then
+            while IFS= read -r lite_file; do
+              base_name=$(basename "$lite_file")
+              if ! grep -Fq "/${base_name}" ../geosite_files.txt; then
+                echo "$lite_file" >> ../geosite_files.txt
+              fi
+            done < <(find "geo-lite/geosite" -name "*.json" | sort)
+          fi
+          sort -u ../geosite_files.txt -o ../geosite_files.txt
           FILE_COUNT=$(wc -l < ../geosite_files.txt)
-          echo "Found $FILE_COUNT JSON files in geo/geosite/"
+          echo "Found $FILE_COUNT JSON files from geo/geosite + geo-lite/geosite"
           head -20 ../geosite_files.txt
 
       - name: Process ALL geosite JSON files from MetaCubeX
@@ -264,11 +278,12 @@ jobs:
           REPO_DIR="meta-rules-dat"
           excluded_tlds="cv|dj|dm|kg|ki|li|ml|ms|mv|ne|nr|sm|ad|as|bf|bj|bt|cd|cf|ci|ao|bw|ck|ls|mz|vi|zm|bn|bz|cy|et|fj|gi|kh|mm|na|np|pg|sb|sl|vc|mg|ac|af|ag|bi|bs|cg|cm|cu|dz|ga|gd|gl|gm|gs|gy|ht|je|lc|mp|mu|mw|nu|pn|re|rw|sc|sr|st|sx|sy|tf|tj|tl|tt|vg|vu|wf|yt|do|ec|eg|gh|hn|jm|kw|lb|mt|om|py|tr|ae|al|am|at|bg|ch|id|cn|ve|uk|za|zw|ar|au|bd|br|il|ke|nz|th|tz|es|fr|gr|hr|hu|ie|is|it|ng|pl|ro|rs|sa|ua|jo|uz|tm|az|ba|bh|bo|by|ca|qa|vn|uy|ug|tn|sv|sk|si|sg|ee|sn|cl|pt|pr|pk|ph|pe|pa|no|ni|my|mx|mn|mk|md|ma|ly|lv|lu|lt|lk|la|kz|kr|iq|in|hk|gt|ge|fi|cr|cz|dk"
 
-          while IFS= read -r json_file; do
-            [ -n "$json_file" ] || continue
+          while IFS= read -r relative_json_path; do
+            [ -n "$relative_json_path" ] || continue
+            json_file=$(basename "$relative_json_path")
             resource="${json_file%.json}"
-            json_path="$REPO_DIR/geo/geosite/$json_file"
-            echo "Processing: $resource ($json_file)"
+            json_path="$REPO_DIR/$relative_json_path"
+            echo "Processing: $resource ($relative_json_path)"
 
             # Extract domains, suffixes, regex
             domains=$(jq -r '
