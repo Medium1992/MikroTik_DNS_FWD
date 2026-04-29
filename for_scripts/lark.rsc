@@ -60,7 +60,6 @@
 :if ([:len [find name="larksuiteimg.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="lark" match-subdomain=yes type=FWD name="larksuiteimg.com" }
 :if ([:len [find name="larkvc.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="lark" match-subdomain=yes type=FWD name="larkvc.com" }
 :if ([:len [find name="meegobeta.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="lark" match-subdomain=yes type=FWD name="meegobeta.com" }
-:if ([:len [find name="oceancloudapi.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="lark" match-subdomain=yes type=FWD name="oceancloudapi.com" }
 :if ([:len [find name="okr.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="lark" match-subdomain=yes type=FWD name="okr.com" }
 :if ([:len [find name="statuslarkoffice.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="lark" match-subdomain=yes type=FWD name="statuslarkoffice.com" }
 :if ([:len [find name="thelarkcloud.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="lark" match-subdomain=yes type=FWD name="thelarkcloud.com" }
