@@ -1,8 +1,6 @@
 :global AddressList
 :global ForwardTo
 /ip dns static
-:if ([:len [find name="stats.dev.telega.info"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" type=FWD name="stats.dev.telega.info" }
-:if ([:len [find name="stats.rustore.ru"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" type=FWD name="stats.rustore.ru" }
 :if ([:len [find name="stats.telega.info"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" type=FWD name="stats.telega.info" }
 :if ([:len [find name="stats.vk-portal.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" type=FWD name="stats.vk-portal.net" }
 :if ([:len [find name="stocks-sparkline-lb.apple.com.akadns.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" type=FWD name="stocks-sparkline-lb.apple.com.akadns.net" }
@@ -52,6 +50,7 @@
 :if ([:len [find name="uberproxy-debug4.corp.google.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" type=FWD name="uberproxy-debug4.corp.google.com" }
 :if ([:len [find name="uberproxy.corp.google.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" type=FWD name="uberproxy.corp.google.com" }
 :if ([:len [find name="uberproxy6.corp.google.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" type=FWD name="uberproxy6.corp.google.com" }
+:if ([:len [find name="universal-activity-service.itunes.apple.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" type=FWD name="universal-activity-service.itunes.apple.com" }
 :if ([:len [find name="update.crashlytics.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" type=FWD name="update.crashlytics.com" }
 :if ([:len [find name="update.googleapis.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" type=FWD name="update.googleapis.com" }
 :if ([:len [find name="updates-http.cdn-apple.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" type=FWD name="updates-http.cdn-apple.com" }
@@ -151,3 +150,4 @@
 :if ([:len [find name="wwis-dubc1-vip68.adobe.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" type=FWD name="wwis-dubc1-vip68.adobe.com" }
 :if ([:len [find name="wwis-dubc1-vip69.adobe.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" type=FWD name="wwis-dubc1-vip69.adobe.com" }
 :if ([:len [find name="wwis-dubc1-vip70.adobe.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" type=FWD name="wwis-dubc1-vip70.adobe.com" }
+:if ([:len [find name="wwis-dubc1-vip71.adobe.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" type=FWD name="wwis-dubc1-vip71.adobe.com" }

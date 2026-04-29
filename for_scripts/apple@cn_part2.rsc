@@ -66,6 +66,7 @@
 :if ([:len [find name="sync.itunes.apple.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="apple@cn" type=FWD name="sync.itunes.apple.com" }
 :if ([:len [find name="tf-feedback.itunes.apple.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="apple@cn" type=FWD name="tf-feedback.itunes.apple.com" }
 :if ([:len [find name="tj-pod1-smp-device.apple.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="apple@cn" type=FWD name="tj-pod1-smp-device.apple.com" }
+:if ([:len [find name="universal-activity-service.itunes.apple.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="apple@cn" type=FWD name="universal-activity-service.itunes.apple.com" }
 :if ([:len [find name="updates-http.cdn-apple.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="apple@cn" type=FWD name="updates-http.cdn-apple.com" }
 :if ([:len [find name="updates-http.cdn-apple.com.akadns.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="apple@cn" type=FWD name="updates-http.cdn-apple.com.akadns.net" }
 :if ([:len [find name="updates.cdn-apple.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="apple@cn" type=FWD name="updates.cdn-apple.com" }

@@ -10,6 +10,8 @@
 :if ([:len [find name="baicizhan.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-education-cn" match-subdomain=yes type=FWD name="baicizhan.com" }
 :if ([:len [find name="baicizhan.org"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-education-cn" match-subdomain=yes type=FWD name="baicizhan.org" }
 :if ([:len [find name="banmaaike.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-education-cn" match-subdomain=yes type=FWD name="banmaaike.com" }
+:if ([:len [find name="banxiaoer.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-education-cn" match-subdomain=yes type=FWD name="banxiaoer.com" }
+:if ([:len [find name="banxiaoer.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-education-cn" match-subdomain=yes type=FWD name="banxiaoer.net" }
 :if ([:len [find name="baydn.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-education-cn" match-subdomain=yes type=FWD name="baydn.com" }
 :if ([:len [find name="bczcdn.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-education-cn" match-subdomain=yes type=FWD name="bczcdn.com" }
 :if ([:len [find name="biyehome.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-education-cn" match-subdomain=yes type=FWD name="biyehome.net" }
