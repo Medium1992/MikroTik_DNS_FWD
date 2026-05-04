@@ -144,10 +144,10 @@
 :if ([:len [find name="dierectv.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" match-subdomain=yes type=FWD name="dierectv.com" }
 :if ([:len [find name="digitalassetlinks.org"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" match-subdomain=yes type=FWD name="digitalassetlinks.org" }
 :if ([:len [find name="digitalhub.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" match-subdomain=yes type=FWD name="digitalhub.com" }
+:if ([:len [find name="digitalocean-ui.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" match-subdomain=yes type=FWD name="digitalocean-ui.com" }
 :if ([:len [find name="digitalocean.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" match-subdomain=yes type=FWD name="digitalocean.com" }
 :if ([:len [find name="digitaloceanspaces.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" match-subdomain=yes type=FWD name="digitaloceanspaces.com" }
 :if ([:len [find name="digitalpack.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" match-subdomain=yes type=FWD name="digitalpack.com" }
 :if ([:len [find name="digitalplayground.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" match-subdomain=yes type=FWD name="digitalplayground.com" }
 :if ([:len [find name="digitalplaygroundnetwork.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" match-subdomain=yes type=FWD name="digitalplaygroundnetwork.com" }
 :if ([:len [find name="digitalprototyping.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" match-subdomain=yes type=FWD name="digitalprototyping.com" }
-:if ([:len [find name="dirctv.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" match-subdomain=yes type=FWD name="dirctv.com" }
