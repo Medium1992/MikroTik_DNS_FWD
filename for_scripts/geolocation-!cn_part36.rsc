@@ -134,6 +134,7 @@
 :if ([:len [find name="digitalcertvalidation.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" match-subdomain=yes type=FWD name="digitalcertvalidation.com" }
 :if ([:len [find name="digitaldesire.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" match-subdomain=yes type=FWD name="digitaldesire.com" }
 :if ([:len [find name="digitalhub.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" match-subdomain=yes type=FWD name="digitalhub.com" }
+:if ([:len [find name="digitalocean-ui.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" match-subdomain=yes type=FWD name="digitalocean-ui.com" }
 :if ([:len [find name="digitalocean.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" match-subdomain=yes type=FWD name="digitalocean.com" }
 :if ([:len [find name="digitaloceanspaces.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" match-subdomain=yes type=FWD name="digitaloceanspaces.com" }
 :if ([:len [find name="digitalpack.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" match-subdomain=yes type=FWD name="digitalpack.com" }
@@ -150,4 +151,3 @@
 :if ([:len [find name="direcpath.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" match-subdomain=yes type=FWD name="direcpath.com" }
 :if ([:len [find name="direcpath.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" match-subdomain=yes type=FWD name="direcpath.net" }
 :if ([:len [find name="directcreative.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" match-subdomain=yes type=FWD name="directcreative.com" }
-:if ([:len [find name="directtv-deals.tv"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" match-subdomain=yes type=FWD name="directtv-deals.tv" }
