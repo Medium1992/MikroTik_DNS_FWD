@@ -18,6 +18,7 @@
 :if ([:len [find name="kwaicdn.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="kuaishou" match-subdomain=yes type=FWD name="kwaicdn.com" }
 :if ([:len [find name="kwaizt.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="kuaishou" match-subdomain=yes type=FWD name="kwaizt.com" }
 :if ([:len [find name="kwimgs.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="kuaishou" match-subdomain=yes type=FWD name="kwimgs.com" }
+:if ([:len [find name="viviv.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="kuaishou" match-subdomain=yes type=FWD name="viviv.com" }
 :if ([:len [find name="wsukwai.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="kuaishou" match-subdomain=yes type=FWD name="wsukwai.com" }
 :if ([:len [find name="yximgs.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="kuaishou" match-subdomain=yes type=FWD name="yximgs.com" }
 :if ([:len [find name="log-sdk.gifshow.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="kuaishou" type=FWD name="log-sdk.gifshow.com" }
