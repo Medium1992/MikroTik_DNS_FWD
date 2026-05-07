@@ -86,7 +86,9 @@
 :if ([:len [find name="iproyal.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-ip-geo-detect" match-subdomain=yes type=FWD name="iproyal.com" }
 :if ([:len [find name="ipstack.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-ip-geo-detect" match-subdomain=yes type=FWD name="ipstack.com" }
 :if ([:len [find name="ipv4-internet.yandex.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-ip-geo-detect" match-subdomain=yes type=FWD name="ipv4-internet.yandex.net" }
+:if ([:len [find name="ipv4.internet.yandex.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-ip-geo-detect" match-subdomain=yes type=FWD name="ipv4.internet.yandex.net" }
 :if ([:len [find name="ipv6-internet.yandex.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-ip-geo-detect" match-subdomain=yes type=FWD name="ipv6-internet.yandex.net" }
+:if ([:len [find name="ipv6.internet.yandex.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-ip-geo-detect" match-subdomain=yes type=FWD name="ipv6.internet.yandex.net" }
 :if ([:len [find name="ipverify.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-ip-geo-detect" match-subdomain=yes type=FWD name="ipverify.com" }
 :if ([:len [find name="ipwhois.io"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-ip-geo-detect" match-subdomain=yes type=FWD name="ipwhois.io" }
 :if ([:len [find name="ipxapi.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-ip-geo-detect" match-subdomain=yes type=FWD name="ipxapi.com" }

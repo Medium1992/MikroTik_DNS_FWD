@@ -39,6 +39,7 @@
 :if ([:len [find name="grapheneos.social"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-orgs" match-subdomain=yes type=FWD name="grapheneos.social" }
 :if ([:len [find name="grss-ieee.org"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-orgs" match-subdomain=yes type=FWD name="grss-ieee.org" }
 :if ([:len [find name="iana.org"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-orgs" match-subdomain=yes type=FWD name="iana.org" }
+:if ([:len [find name="iccf.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-orgs" match-subdomain=yes type=FWD name="iccf.com" }
 :if ([:len [find name="ieee-aess.org"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-orgs" match-subdomain=yes type=FWD name="ieee-aess.org" }
 :if ([:len [find name="ieee-cas.org"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-orgs" match-subdomain=yes type=FWD name="ieee-cas.org" }
 :if ([:len [find name="ieee-ccnc.org"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-orgs" match-subdomain=yes type=FWD name="ieee-ccnc.org" }
