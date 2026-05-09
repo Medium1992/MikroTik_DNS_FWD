@@ -35,6 +35,7 @@
 :if ([:len [find name="verizonwireless.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-cas" match-subdomain=yes type=FWD name="verizonwireless.com" }
 :if ([:len [find name="vodafone.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-cas" match-subdomain=yes type=FWD name="vodafone.com" }
 :if ([:len [find name="vodafone.de"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-cas" match-subdomain=yes type=FWD name="vodafone.de" }
+:if ([:len [find name="vodafone.nl"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-cas" match-subdomain=yes type=FWD name="vodafone.nl" }
 :if ([:len [find name="vzw.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-cas" match-subdomain=yes type=FWD name="vzw.com" }
 :if ([:len [find name="wisecoin.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-cas" match-subdomain=yes type=FWD name="wisecoin.com" }
 :if ([:len [find name="wiseid.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-cas" match-subdomain=yes type=FWD name="wiseid.com" }
