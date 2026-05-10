@@ -6,6 +6,7 @@
 :if ([:len [find name="happymealdigital.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="mcdonalds" match-subdomain=yes type=FWD name="happymealdigital.com" }
 :if ([:len [find name="mcd-holdings.co.jp"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="mcdonalds" match-subdomain=yes type=FWD name="mcd-holdings.co.jp" }
 :if ([:len [find name="mcd.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="mcdonalds" match-subdomain=yes type=FWD name="mcd.com" }
+:if ([:len [find name="mcdchina.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="mcdonalds" match-subdomain=yes type=FWD name="mcdchina.net" }
 :if ([:len [find name="mcdelivery.com.tw"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="mcdonalds" match-subdomain=yes type=FWD name="mcdelivery.com.tw" }
 :if ([:len [find name="mcdindia.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="mcdonalds" match-subdomain=yes type=FWD name="mcdindia.com" }
 :if ([:len [find name="mcdindonesia.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="mcdonalds" match-subdomain=yes type=FWD name="mcdindonesia.com" }

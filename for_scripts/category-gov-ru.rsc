@@ -123,6 +123,7 @@
 :if ([:len [find name="vyatka.ru"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-gov-ru" match-subdomain=yes type=FWD name="vyatka.ru" }
 :if ([:len [find name="xn--80acgfbsl1azdqr.xn--p1ai"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-gov-ru" match-subdomain=yes type=FWD name="xn--80acgfbsl1azdqr.xn--p1ai" }
 :if ([:len [find name="xn--80ajghhoc2aj1c8b.xn--p1ai"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-gov-ru" match-subdomain=yes type=FWD name="xn--80ajghhoc2aj1c8b.xn--p1ai" }
+:if ([:len [find name="xn--b1afabzvcegckfhg.xn--p1ai"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-gov-ru" match-subdomain=yes type=FWD name="xn--b1afabzvcegckfhg.xn--p1ai" }
 :if ([:len [find name="yakutia.ru"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-gov-ru" match-subdomain=yes type=FWD name="yakutia.ru" }
 :if ([:len [find name="yamal.ru"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-gov-ru" match-subdomain=yes type=FWD name="yamal.ru" }
 :if ([:len [find name="yaroslavl.ru"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-gov-ru" match-subdomain=yes type=FWD name="yaroslavl.ru" }

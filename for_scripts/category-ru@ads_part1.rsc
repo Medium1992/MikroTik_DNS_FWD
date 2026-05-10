@@ -6,6 +6,7 @@
 :if ([:len [find name="adfox.ru"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-ru@ads" match-subdomain=yes type=FWD name="adfox.ru" }
 :if ([:len [find name="adfox.yandex.ru"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-ru@ads" match-subdomain=yes type=FWD name="adfox.yandex.ru" }
 :if ([:len [find name="admetrica.ru"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-ru@ads" match-subdomain=yes type=FWD name="admetrica.ru" }
+:if ([:len [find name="adriver.ru"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-ru@ads" match-subdomain=yes type=FWD name="adriver.ru" }
 :if ([:len [find name="ads.sber.ru"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-ru@ads" match-subdomain=yes type=FWD name="ads.sber.ru" }
 :if ([:len [find name="ads.viqeo.tv"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-ru@ads" match-subdomain=yes type=FWD name="ads.viqeo.tv" }
 :if ([:len [find name="ads.yandex"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-ru@ads" match-subdomain=yes type=FWD name="ads.yandex" }
@@ -150,4 +151,3 @@
 :if ([:len [find name="reklama.mail.ru"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-ru@ads" type=FWD name="reklama.mail.ru" }
 :if ([:len [find name="report.ap.yandex-net.ru"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-ru@ads" type=FWD name="report.ap.yandex-net.ru" }
 :if ([:len [find name="rs.mail.ru"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-ru@ads" type=FWD name="rs.mail.ru" }
-:if ([:len [find name="sentry-ng.g.smailru.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-ru@ads" type=FWD name="sentry-ng.g.smailru.net" }

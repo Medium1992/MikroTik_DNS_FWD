@@ -22,6 +22,7 @@
 :if ([:len [find name="cloudflarestoragegw.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-cn@cn" match-subdomain=yes type=FWD name="cloudflarestoragegw.com" }
 :if ([:len [find name="cloudfront-cn.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-cn@cn" match-subdomain=yes type=FWD name="cloudfront-cn.net" }
 :if ([:len [find name="cn.pool.ntp.org"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-cn@cn" match-subdomain=yes type=FWD name="cn.pool.ntp.org" }
+:if ([:len [find name="mcdchina.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-cn@cn" match-subdomain=yes type=FWD name="mcdchina.net" }
 :if ([:len [find name="izattime.qcomgeo2.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-cn@cn" type=FWD name="izattime.qcomgeo2.com" }
 :if ([:len [find name="ntp.aliyun.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-cn@cn" type=FWD name="ntp.aliyun.com" }
 :if ([:len [find name="ntp.tencent.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-cn@cn" type=FWD name="ntp.tencent.com" }
