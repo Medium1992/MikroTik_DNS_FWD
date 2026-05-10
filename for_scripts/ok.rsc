@@ -4,6 +4,7 @@
 :if ([:len [find name="apiok.ru"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="ok" match-subdomain=yes type=FWD name="apiok.ru" }
 :if ([:len [find name="insideok.ru"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="ok" match-subdomain=yes type=FWD name="insideok.ru" }
 :if ([:len [find name="odkl.ru"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="ok" match-subdomain=yes type=FWD name="odkl.ru" }
+:if ([:len [find name="odnoklassniki.eu"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="ok" match-subdomain=yes type=FWD name="odnoklassniki.eu" }
 :if ([:len [find name="odnoklassniki.ru"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="ok" match-subdomain=yes type=FWD name="odnoklassniki.ru" }
 :if ([:len [find name="ok.me"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="ok" match-subdomain=yes type=FWD name="ok.me" }
 :if ([:len [find name="ok.ru"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="ok" match-subdomain=yes type=FWD name="ok.ru" }

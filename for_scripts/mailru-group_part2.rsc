@@ -1,6 +1,11 @@
 :global AddressList
 :global ForwardTo
 /ip dns static
+:if ([:len [find name="target.my.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="mailru-group" match-subdomain=yes type=FWD name="target.my.com" }
+:if ([:len [find name="target.vk.ru"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="mailru-group" match-subdomain=yes type=FWD name="target.vk.ru" }
+:if ([:len [find name="tech-mail.ru"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="mailru-group" match-subdomain=yes type=FWD name="tech-mail.ru" }
+:if ([:len [find name="telega.info"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="mailru-group" match-subdomain=yes type=FWD name="telega.info" }
+:if ([:len [find name="telega.me"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="mailru-group" match-subdomain=yes type=FWD name="telega.me" }
 :if ([:len [find name="tetrika-school.ru"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="mailru-group" match-subdomain=yes type=FWD name="tetrika-school.ru" }
 :if ([:len [find name="top-fwz1.mail.ru"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="mailru-group" match-subdomain=yes type=FWD name="top-fwz1.mail.ru" }
 :if ([:len [find name="tracker-api.my.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="mailru-group" match-subdomain=yes type=FWD name="tracker-api.my.com" }

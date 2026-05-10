@@ -85,6 +85,8 @@
 :if ([:len [find name="insideok.ru"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="mailru-group" match-subdomain=yes type=FWD name="insideok.ru" }
 :if ([:len [find name="internet.ru"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="mailru-group" match-subdomain=yes type=FWD name="internet.ru" }
 :if ([:len [find name="it-territory.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="mailru-group" match-subdomain=yes type=FWD name="it-territory.com" }
+:if ([:len [find name="justveryok.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="mailru-group" match-subdomain=yes type=FWD name="justveryok.com" }
+:if ([:len [find name="keyboardmen.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="mailru-group" match-subdomain=yes type=FWD name="keyboardmen.com" }
 :if ([:len [find name="knightspeak.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="mailru-group" match-subdomain=yes type=FWD name="knightspeak.com" }
 :if ([:len [find name="koddobra.ru"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="mailru-group" match-subdomain=yes type=FWD name="koddobra.ru" }
 :if ([:len [find name="lerna.ru"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="mailru-group" match-subdomain=yes type=FWD name="lerna.ru" }
@@ -117,6 +119,7 @@
 :if ([:len [find name="mytopf.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="mailru-group" match-subdomain=yes type=FWD name="mytopf.com" }
 :if ([:len [find name="mytrk.link"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="mailru-group" match-subdomain=yes type=FWD name="mytrk.link" }
 :if ([:len [find name="odkl.ru"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="mailru-group" match-subdomain=yes type=FWD name="odkl.ru" }
+:if ([:len [find name="odnoklassniki.eu"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="mailru-group" match-subdomain=yes type=FWD name="odnoklassniki.eu" }
 :if ([:len [find name="odnoklassniki.ru"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="mailru-group" match-subdomain=yes type=FWD name="odnoklassniki.ru" }
 :if ([:len [find name="ok.me"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="mailru-group" match-subdomain=yes type=FWD name="ok.me" }
 :if ([:len [find name="ok.ru"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="mailru-group" match-subdomain=yes type=FWD name="ok.ru" }
@@ -126,6 +129,7 @@
 :if ([:len [find name="pixonic.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="mailru-group" match-subdomain=yes type=FWD name="pixonic.com" }
 :if ([:len [find name="prod-my.games"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="mailru-group" match-subdomain=yes type=FWD name="prod-my.games" }
 :if ([:len [find name="r.mail.ru"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="mailru-group" match-subdomain=yes type=FWD name="r.mail.ru" }
+:if ([:len [find name="rabbitcounter.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="mailru-group" match-subdomain=yes type=FWD name="rabbitcounter.com" }
 :if ([:len [find name="radar.imgsmail.ru"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="mailru-group" match-subdomain=yes type=FWD name="radar.imgsmail.ru" }
 :if ([:len [find name="relap.mail.ru"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="mailru-group" match-subdomain=yes type=FWD name="relap.mail.ru" }
 :if ([:len [find name="ruhub.tv"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="mailru-group" match-subdomain=yes type=FWD name="ruhub.tv" }
@@ -133,6 +137,7 @@
 :if ([:len [find name="rustore.ru"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="mailru-group" match-subdomain=yes type=FWD name="rustore.ru" }
 :if ([:len [find name="rustore.team"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="mailru-group" match-subdomain=yes type=FWD name="rustore.team" }
 :if ([:len [find name="rustore.tv"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="mailru-group" match-subdomain=yes type=FWD name="rustore.tv" }
+:if ([:len [find name="sayeasy.eu"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="mailru-group" match-subdomain=yes type=FWD name="sayeasy.eu" }
 :if ([:len [find name="sferum-dev.ru"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="mailru-group" match-subdomain=yes type=FWD name="sferum-dev.ru" }
 :if ([:len [find name="sferum.ru"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="mailru-group" match-subdomain=yes type=FWD name="sferum.ru" }
 :if ([:len [find name="skbx.pro"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="mailru-group" match-subdomain=yes type=FWD name="skbx.pro" }
@@ -146,8 +151,3 @@
 :if ([:len [find name="tamtam.chat"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="mailru-group" match-subdomain=yes type=FWD name="tamtam.chat" }
 :if ([:len [find name="tarantool.io"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="mailru-group" match-subdomain=yes type=FWD name="tarantool.io" }
 :if ([:len [find name="tarantoolplus.ru"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="mailru-group" match-subdomain=yes type=FWD name="tarantoolplus.ru" }
-:if ([:len [find name="target.my.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="mailru-group" match-subdomain=yes type=FWD name="target.my.com" }
-:if ([:len [find name="target.vk.ru"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="mailru-group" match-subdomain=yes type=FWD name="target.vk.ru" }
-:if ([:len [find name="tech-mail.ru"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="mailru-group" match-subdomain=yes type=FWD name="tech-mail.ru" }
-:if ([:len [find name="telega.info"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="mailru-group" match-subdomain=yes type=FWD name="telega.info" }
-:if ([:len [find name="telega.me"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="mailru-group" match-subdomain=yes type=FWD name="telega.me" }
