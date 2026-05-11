@@ -3,6 +3,7 @@
 /ip dns static
 :if ([:len [find name="careerjournal.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="wsj" match-subdomain=yes type=FWD name="careerjournal.com" }
 :if ([:len [find name="collegejournal.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="wsj" match-subdomain=yes type=FWD name="collegejournal.com" }
+:if ([:len [find name="getwsj.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="wsj" match-subdomain=yes type=FWD name="getwsj.com" }
 :if ([:len [find name="opinionjournal.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="wsj" match-subdomain=yes type=FWD name="opinionjournal.com" }
 :if ([:len [find name="realestatejournal.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="wsj" match-subdomain=yes type=FWD name="realestatejournal.com" }
 :if ([:len [find name="startupjournal.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="wsj" match-subdomain=yes type=FWD name="startupjournal.com" }
