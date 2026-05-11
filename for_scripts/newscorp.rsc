@@ -17,6 +17,7 @@
 :if ([:len [find name="dreamteamfc.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="newscorp" match-subdomain=yes type=FWD name="dreamteamfc.com" }
 :if ([:len [find name="epicreads.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="newscorp" match-subdomain=yes type=FWD name="epicreads.com" }
 :if ([:len [find name="fnlondon.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="newscorp" match-subdomain=yes type=FWD name="fnlondon.com" }
+:if ([:len [find name="getwsj.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="newscorp" match-subdomain=yes type=FWD name="getwsj.com" }
 :if ([:len [find name="harperacademic.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="newscorp" match-subdomain=yes type=FWD name="harperacademic.com" }
 :if ([:len [find name="harperapps.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="newscorp" match-subdomain=yes type=FWD name="harperapps.com" }
 :if ([:len [find name="harpercollins.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="newscorp" match-subdomain=yes type=FWD name="harpercollins.com" }
