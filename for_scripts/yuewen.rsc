@@ -9,5 +9,6 @@
 :if ([:len [find name="rongshuxia.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="yuewen" match-subdomain=yes type=FWD name="rongshuxia.com" }
 :if ([:len [find name="tingbook.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="yuewen" match-subdomain=yes type=FWD name="tingbook.com" }
 :if ([:len [find name="webnovel.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="yuewen" match-subdomain=yes type=FWD name="webnovel.com" }
+:if ([:len [find name="wting.info"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="yuewen" match-subdomain=yes type=FWD name="wting.info" }
 :if ([:len [find name="xxsy.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="yuewen" match-subdomain=yes type=FWD name="xxsy.net" }
 :if ([:len [find name="yuewen.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="yuewen" match-subdomain=yes type=FWD name="yuewen.com" }
