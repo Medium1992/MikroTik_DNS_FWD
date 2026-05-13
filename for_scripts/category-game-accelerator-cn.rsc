@@ -2,6 +2,7 @@
 :global ForwardTo
 /ip dns static
 :if ([:len [find name="3dmjiasu.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-game-accelerator-cn" match-subdomain=yes type=FWD name="3dmjiasu.com" }
+:if ([:len [find name="99jiasu.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-game-accelerator-cn" match-subdomain=yes type=FWD name="99jiasu.net" }
 :if ([:len [find name="akspeedy.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-game-accelerator-cn" match-subdomain=yes type=FWD name="akspeedy.com" }
 :if ([:len [find name="benfuip.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-game-accelerator-cn" match-subdomain=yes type=FWD name="benfuip.com" }
 :if ([:len [find name="biubiu001.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-game-accelerator-cn" match-subdomain=yes type=FWD name="biubiu001.com" }
