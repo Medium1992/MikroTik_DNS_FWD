@@ -100,6 +100,7 @@
 :if ([:len [find name="adservice.google.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-ads" match-subdomain=yes type=FWD name="adservice.google.com" }
 :if ([:len [find name="adserviceretry.kugou.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-ads" match-subdomain=yes type=FWD name="adserviceretry.kugou.com" }
 :if ([:len [find name="adsfile.qq.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-ads" match-subdomain=yes type=FWD name="adsfile.qq.com" }
+:if ([:len [find name="adsgram.ai"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-ads" match-subdomain=yes type=FWD name="adsgram.ai" }
 :if ([:len [find name="adsh.m.taobao.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-ads" match-subdomain=yes type=FWD name="adsh.m.taobao.com" }
 :if ([:len [find name="adshmmsg.qq.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-ads" match-subdomain=yes type=FWD name="adshmmsg.qq.com" }
 :if ([:len [find name="adslvfile.qq.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-ads" match-subdomain=yes type=FWD name="adslvfile.qq.com" }
@@ -150,4 +151,3 @@
 :if ([:len [find name="analytics.163.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-ads" match-subdomain=yes type=FWD name="analytics.163.com" }
 :if ([:len [find name="analytics.facebook.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-ads" match-subdomain=yes type=FWD name="analytics.facebook.com" }
 :if ([:len [find name="analytics.tiktok.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-ads" match-subdomain=yes type=FWD name="analytics.tiktok.com" }
-:if ([:len [find name="analytics.umetrip.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-ads" match-subdomain=yes type=FWD name="analytics.umetrip.com" }

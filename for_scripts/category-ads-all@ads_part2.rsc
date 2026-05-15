@@ -1,6 +1,7 @@
 :global AddressList
 :global ForwardTo
 /ip dns static
+:if ([:len [find name="apptracer.ru"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-ads-all@ads" match-subdomain=yes type=FWD name="apptracer.ru" }
 :if ([:len [find name="ar.umeng.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-ads-all@ads" match-subdomain=yes type=FWD name="ar.umeng.com" }
 :if ([:len [find name="ark.letv.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-ads-all@ads" match-subdomain=yes type=FWD name="ark.letv.com" }
 :if ([:len [find name="aspect-upush.umeng.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-ads-all@ads" match-subdomain=yes type=FWD name="aspect-upush.umeng.com" }
@@ -150,4 +151,3 @@
 :if ([:len [find name="iadmat.nosdn.127.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-ads-all@ads" match-subdomain=yes type=FWD name="iadmat.nosdn.127.net" }
 :if ([:len [find name="iadmatapk.nosdn.127.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-ads-all@ads" match-subdomain=yes type=FWD name="iadmatapk.nosdn.127.net" }
 :if ([:len [find name="iadmusicmat.music.126.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-ads-all@ads" match-subdomain=yes type=FWD name="iadmusicmat.music.126.net" }
-:if ([:len [find name="iadmusicmatvideo.music.126.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-ads-all@ads" match-subdomain=yes type=FWD name="iadmusicmatvideo.music.126.net" }
