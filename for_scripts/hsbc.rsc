@@ -16,3 +16,4 @@
 :if ([:len [find name="hsbcnet.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="hsbc" match-subdomain=yes type=FWD name="hsbcnet.com" }
 :if ([:len [find name="hsbcprivatebank.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="hsbc" match-subdomain=yes type=FWD name="hsbcprivatebank.com" }
 :if ([:len [find name="hsbctrinkaus.de"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="hsbc" match-subdomain=yes type=FWD name="hsbctrinkaus.de" }
+:if ([:len [find name="vv1865.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="hsbc" match-subdomain=yes type=FWD name="vv1865.com" }
