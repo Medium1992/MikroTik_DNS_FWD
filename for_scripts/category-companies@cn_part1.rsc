@@ -43,6 +43,7 @@
 :if ([:len [find name="download.windowsupdate.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies@cn" match-subdomain=yes type=FWD name="download.windowsupdate.com" }
 :if ([:len [find name="easy-signing.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies@cn" match-subdomain=yes type=FWD name="easy-signing.com" }
 :if ([:len [find name="engkoo.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies@cn" match-subdomain=yes type=FWD name="engkoo.com" }
+:if ([:len [find name="fussengroup.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies@cn" match-subdomain=yes type=FWD name="fussengroup.com" }
 :if ([:len [find name="globalsign.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies@cn" match-subdomain=yes type=FWD name="globalsign.com" }
 :if ([:len [find name="globalsigncdn.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies@cn" match-subdomain=yes type=FWD name="globalsigncdn.com" }
 :if ([:len [find name="gpsonextra.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies@cn" match-subdomain=yes type=FWD name="gpsonextra.net" }
@@ -150,4 +151,3 @@
 :if ([:len [find name="cl4.apple.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies@cn" type=FWD name="cl4.apple.com" }
 :if ([:len [find name="cl5-cdn.origin-apple.com.akadns.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies@cn" type=FWD name="cl5-cdn.origin-apple.com.akadns.net" }
 :if ([:len [find name="cl5.apple.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies@cn" type=FWD name="cl5.apple.com" }
-:if ([:len [find name="clickserve.cc-dt.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies@cn" type=FWD name="clickserve.cc-dt.com" }
