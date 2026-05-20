@@ -71,6 +71,7 @@
 :if ([:len [find name="matrix.to"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-communication" match-subdomain=yes type=FWD name="matrix.to" }
 :if ([:len [find name="messenger.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-communication" match-subdomain=yes type=FWD name="messenger.com" }
 :if ([:len [find name="modular.im"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-communication" match-subdomain=yes type=FWD name="modular.im" }
+:if ([:len [find name="myteamspeak.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-communication" match-subdomain=yes type=FWD name="myteamspeak.com" }
 :if ([:len [find name="nbabot.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-communication" match-subdomain=yes type=FWD name="nbabot.net" }
 :if ([:len [find name="nhncorp.jp"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-communication" match-subdomain=yes type=FWD name="nhncorp.jp" }
 :if ([:len [find name="nicegram.app"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-communication" match-subdomain=yes type=FWD name="nicegram.app" }
@@ -104,6 +105,8 @@
 :if ([:len [find name="slackhq.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-communication" match-subdomain=yes type=FWD name="slackhq.com" }
 :if ([:len [find name="t.me"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-communication" match-subdomain=yes type=FWD name="t.me" }
 :if ([:len [find name="tdesktop.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-communication" match-subdomain=yes type=FWD name="tdesktop.com" }
+:if ([:len [find name="teamspeak-services.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-communication" match-subdomain=yes type=FWD name="teamspeak-services.com" }
+:if ([:len [find name="teamspeak.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-communication" match-subdomain=yes type=FWD name="teamspeak.com" }
 :if ([:len [find name="telega.one"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-communication" match-subdomain=yes type=FWD name="telega.one" }
 :if ([:len [find name="telegram-cdn.org"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-communication" match-subdomain=yes type=FWD name="telegram-cdn.org" }
 :if ([:len [find name="telegram.dog"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-communication" match-subdomain=yes type=FWD name="telegram.dog" }

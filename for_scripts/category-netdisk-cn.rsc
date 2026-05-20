@@ -13,6 +13,7 @@
 :if ([:len [find name="116cd.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-netdisk-cn" match-subdomain=yes type=FWD name="116cd.net" }
 :if ([:len [find name="123245.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-netdisk-cn" match-subdomain=yes type=FWD name="123245.com" }
 :if ([:len [find name="123254.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-netdisk-cn" match-subdomain=yes type=FWD name="123254.com" }
+:if ([:len [find name="123278.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-netdisk-cn" match-subdomain=yes type=FWD name="123278.com" }
 :if ([:len [find name="123294.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-netdisk-cn" match-subdomain=yes type=FWD name="123294.com" }
 :if ([:len [find name="123624.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-netdisk-cn" match-subdomain=yes type=FWD name="123624.com" }
 :if ([:len [find name="123641.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-netdisk-cn" match-subdomain=yes type=FWD name="123641.com" }
