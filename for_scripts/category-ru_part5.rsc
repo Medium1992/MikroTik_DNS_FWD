@@ -1,6 +1,7 @@
 :global AddressList
 :global ForwardTo
 /ip dns static
+:if ([:len [find name="dnl-06.geo.kaspersky.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-ru" type=FWD name="dnl-06.geo.kaspersky.com" }
 :if ([:len [find name="dnl-07.geo.kaspersky.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-ru" type=FWD name="dnl-07.geo.kaspersky.com" }
 :if ([:len [find name="dnl-08.geo.kaspersky.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-ru" type=FWD name="dnl-08.geo.kaspersky.com" }
 :if ([:len [find name="dnl-09.geo.kaspersky.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-ru" type=FWD name="dnl-09.geo.kaspersky.com" }
