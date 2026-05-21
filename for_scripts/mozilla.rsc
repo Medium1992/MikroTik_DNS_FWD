@@ -13,10 +13,12 @@
 :if ([:len [find name="mdnplay.dev"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="mozilla" match-subdomain=yes type=FWD name="mdnplay.dev" }
 :if ([:len [find name="mdnyalp.dev"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="mozilla" match-subdomain=yes type=FWD name="mdnyalp.dev" }
 :if ([:len [find name="mozgcp.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="mozilla" match-subdomain=yes type=FWD name="mozgcp.net" }
+:if ([:len [find name="mozilla.ai"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="mozilla" match-subdomain=yes type=FWD name="mozilla.ai" }
 :if ([:len [find name="mozilla.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="mozilla" match-subdomain=yes type=FWD name="mozilla.com" }
 :if ([:len [find name="mozilla.community"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="mozilla" match-subdomain=yes type=FWD name="mozilla.community" }
 :if ([:len [find name="mozilla.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="mozilla" match-subdomain=yes type=FWD name="mozilla.net" }
 :if ([:len [find name="mozilla.org"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="mozilla" match-subdomain=yes type=FWD name="mozilla.org" }
+:if ([:len [find name="mozillafoundation.org"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="mozilla" match-subdomain=yes type=FWD name="mozillafoundation.org" }
 :if ([:len [find name="seamonkey-project.org"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="mozilla" match-subdomain=yes type=FWD name="seamonkey-project.org" }
 :if ([:len [find name="thunderbird.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="mozilla" match-subdomain=yes type=FWD name="thunderbird.net" }
 :if ([:len [find name="mdn.mozillademos.org"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="mozilla" type=FWD name="mdn.mozillademos.org" }

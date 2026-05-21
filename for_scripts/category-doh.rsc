@@ -56,6 +56,7 @@
 :if ([:len [find name="doh.qis.io"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-doh" type=FWD name="doh.qis.io" }
 :if ([:len [find name="doh.tiar.app"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-doh" type=FWD name="doh.tiar.app" }
 :if ([:len [find name="doh.tiarap.org"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-doh" type=FWD name="doh.tiarap.org" }
+:if ([:len [find name="doh.xfinity.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-doh" type=FWD name="doh.xfinity.com" }
 :if ([:len [find name="extended.dns.mullvad.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-doh" type=FWD name="extended.dns.mullvad.net" }
 :if ([:len [find name="family.adguard-dns.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-doh" type=FWD name="family.adguard-dns.com" }
 :if ([:len [find name="family.dns.mullvad.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-doh" type=FWD name="family.dns.mullvad.net" }
