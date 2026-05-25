@@ -55,6 +55,10 @@
 :if ([:len [find name="seasonvar.ru"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="video" match-subdomain=yes type=FWD name="seasonvar.ru" }
 :if ([:len [find name="serv01001.xyz"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="video" match-subdomain=yes type=FWD name="serv01001.xyz" }
 :if ([:len [find name="statichdrezka.ac"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="video" match-subdomain=yes type=FWD name="statichdrezka.ac" }
+:if ([:len [find name="strem.io"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="video" match-subdomain=yes type=FWD name="strem.io" }
+:if ([:len [find name="stremio.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="video" match-subdomain=yes type=FWD name="stremio.com" }
+:if ([:len [find name="stremio.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="video" match-subdomain=yes type=FWD name="stremio.net" }
+:if ([:len [find name="stremio.one"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="video" match-subdomain=yes type=FWD name="stremio.one" }
 :if ([:len [find name="themoviedb.org"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="video" match-subdomain=yes type=FWD name="themoviedb.org" }
 :if ([:len [find name="tmdb.org"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="video" match-subdomain=yes type=FWD name="tmdb.org" }
 :if ([:len [find name="traffmovie.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="video" match-subdomain=yes type=FWD name="traffmovie.com" }
