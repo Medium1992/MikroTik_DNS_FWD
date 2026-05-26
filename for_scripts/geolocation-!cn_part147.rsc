@@ -1,6 +1,7 @@
 :global AddressList
 :global ForwardTo
 /ip dns static
+:if ([:len [find name="push-apple.com.akadns.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" type=FWD name="push-apple.com.akadns.net" }
 :if ([:len [find name="pvr-hamivideo.cdn.hinet.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" type=FWD name="pvr-hamivideo.cdn.hinet.net" }
 :if ([:len [find name="qualcomm.sc.omtrdc.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" type=FWD name="qualcomm.sc.omtrdc.net" }
 :if ([:len [find name="rink.hockeyapp.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" type=FWD name="rink.hockeyapp.net" }
@@ -150,4 +151,3 @@
 :if ([:len [find name="utcnist2.colorado.edu"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" type=FWD name="utcnist2.colorado.edu" }
 :if ([:len [find name="utcnist3.colorado.edu"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" type=FWD name="utcnist3.colorado.edu" }
 :if ([:len [find name="uts-api.itunes.apple.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" type=FWD name="uts-api.itunes.apple.com" }
-:if ([:len [find name="ve-dash-uk-live.akamaized.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" type=FWD name="ve-dash-uk-live.akamaized.net" }

@@ -22,6 +22,7 @@
 :if ([:len [find name="micstl.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" match-subdomain=yes type=FWD name="micstl.com" }
 :if ([:len [find name="midatlanticbmwmotorcycles.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" match-subdomain=yes type=FWD name="midatlanticbmwmotorcycles.com" }
 :if ([:len [find name="midentsolutions.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" match-subdomain=yes type=FWD name="midentsolutions.com" }
+:if ([:len [find name="midjourney.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" match-subdomain=yes type=FWD name="midjourney.com" }
 :if ([:len [find name="midoushe.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" match-subdomain=yes type=FWD name="midoushe.com" }
 :if ([:len [find name="mie.co.jp"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" match-subdomain=yes type=FWD name="mie.co.jp" }
 :if ([:len [find name="miexnoviadesnuda.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" match-subdomain=yes type=FWD name="miexnoviadesnuda.com" }
@@ -150,4 +151,3 @@
 :if ([:len [find name="mini.gp"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" match-subdomain=yes type=FWD name="mini.gp" }
 :if ([:len [find name="mini.jp"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" match-subdomain=yes type=FWD name="mini.jp" }
 :if ([:len [find name="mini.mq"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" match-subdomain=yes type=FWD name="mini.mq" }
-:if ([:len [find name="mini.nc"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" match-subdomain=yes type=FWD name="mini.nc" }

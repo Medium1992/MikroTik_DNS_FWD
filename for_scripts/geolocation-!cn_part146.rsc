@@ -1,6 +1,7 @@
 :global AddressList
 :global ForwardTo
 /ip dns static
+:if ([:len [find name="github-production-repository-file-5c1aeb.s3.amazonaws.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" type=FWD name="github-production-repository-file-5c1aeb.s3.amazonaws.com" }
 :if ([:len [find name="github-production-repository-image-32fea6.s3.amazonaws.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" type=FWD name="github-production-repository-image-32fea6.s3.amazonaws.com" }
 :if ([:len [find name="github-production-upload-manifest-file-7fdce7.s3.amazonaws.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" type=FWD name="github-production-upload-manifest-file-7fdce7.s3.amazonaws.com" }
 :if ([:len [find name="github-production-user-asset-6210df.s3.amazonaws.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" type=FWD name="github-production-user-asset-6210df.s3.amazonaws.com" }
@@ -150,4 +151,3 @@
 :if ([:len [find name="pubg1.battleye.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" type=FWD name="pubg1.battleye.com" }
 :if ([:len [find name="public-us-pingsx.api.clonoth.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" type=FWD name="public-us-pingsx.api.clonoth.com" }
 :if ([:len [find name="publicca.googleapis.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" type=FWD name="publicca.googleapis.com" }
-:if ([:len [find name="push-apple.com.akadns.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" type=FWD name="push-apple.com.akadns.net" }
