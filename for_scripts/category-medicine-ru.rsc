@@ -3,6 +3,7 @@
 /ip dns static
 :if ([:len [find name="emias.info"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-medicine-ru" match-subdomain=yes type=FWD name="emias.info" }
 :if ([:len [find name="emias.ru"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-medicine-ru" match-subdomain=yes type=FWD name="emias.ru" }
+:if ([:len [find name="gorzdrav.spb.ru"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-medicine-ru" match-subdomain=yes type=FWD name="gorzdrav.spb.ru" }
 :if ([:len [find name="klinikabudzdorov.ru"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-medicine-ru" match-subdomain=yes type=FWD name="klinikabudzdorov.ru" }
 :if ([:len [find name="lk.emias.mos.ru"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-medicine-ru" match-subdomain=yes type=FWD name="lk.emias.mos.ru" }
 :if ([:len [find name="medsi-premium.ru"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-medicine-ru" match-subdomain=yes type=FWD name="medsi-premium.ru" }

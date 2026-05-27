@@ -53,6 +53,7 @@
 :if ([:len [find name="target.vk.ru"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-ru@ads" match-subdomain=yes type=FWD name="target.vk.ru" }
 :if ([:len [find name="targetads.io"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-ru@ads" match-subdomain=yes type=FWD name="targetads.io" }
 :if ([:len [find name="top-fwz1.mail.ru"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-ru@ads" match-subdomain=yes type=FWD name="top-fwz1.mail.ru" }
+:if ([:len [find name="trace-flow.ru"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-ru@ads" match-subdomain=yes type=FWD name="trace-flow.ru" }
 :if ([:len [find name="tracker-api.my.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-ru@ads" match-subdomain=yes type=FWD name="tracker-api.my.com" }
 :if ([:len [find name="tracker.my.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-ru@ads" match-subdomain=yes type=FWD name="tracker.my.com" }
 :if ([:len [find name="vk-analytics.ru"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-ru@ads" match-subdomain=yes type=FWD name="vk-analytics.ru" }
@@ -150,4 +151,3 @@
 :if ([:len [find name="r1.mail.ru"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-ru@ads" type=FWD name="r1.mail.ru" }
 :if ([:len [find name="reklama.mail.ru"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-ru@ads" type=FWD name="reklama.mail.ru" }
 :if ([:len [find name="report.ap.yandex-net.ru"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-ru@ads" type=FWD name="report.ap.yandex-net.ru" }
-:if ([:len [find name="rs.mail.ru"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-ru@ads" type=FWD name="rs.mail.ru" }

@@ -4,6 +4,7 @@
 :if ([:len [find name="1688.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="alibaba" match-subdomain=yes type=FWD name="1688.com" }
 :if ([:len [find name="25pp.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="alibaba" match-subdomain=yes type=FWD name="25pp.com" }
 :if ([:len [find name="56che.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="alibaba" match-subdomain=yes type=FWD name="56che.com" }
+:if ([:len [find name="88cha.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="alibaba" match-subdomain=yes type=FWD name="88cha.com" }
 :if ([:len [find name="95095.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="alibaba" match-subdomain=yes type=FWD name="95095.com" }
 :if ([:len [find name="a-map.co"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="alibaba" match-subdomain=yes type=FWD name="a-map.co" }
 :if ([:len [find name="a-map.link"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="alibaba" match-subdomain=yes type=FWD name="a-map.link" }
@@ -150,4 +151,3 @@
 :if ([:len [find name="dualstack-logs.amap.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="alibaba" match-subdomain=yes type=FWD name="dualstack-logs.amap.com" }
 :if ([:len [find name="e.stat.ykimg.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="alibaba" match-subdomain=yes type=FWD name="e.stat.ykimg.com" }
 :if ([:len [find name="ele.me"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="alibaba" match-subdomain=yes type=FWD name="ele.me" }
-:if ([:len [find name="ele.to"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="alibaba" match-subdomain=yes type=FWD name="ele.to" }

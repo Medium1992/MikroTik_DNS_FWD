@@ -1,6 +1,7 @@
 :global AddressList
 :global ForwardTo
 /ip dns static
+:if ([:len [find name="1l-hit.mail.ru"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" type=FWD name="1l-hit.mail.ru" }
 :if ([:len [find name="1l-hit.vkplay.ru"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" type=FWD name="1l-hit.vkplay.ru" }
 :if ([:len [find name="265.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" type=FWD name="265.com" }
 :if ([:len [find name="2mdn-cn.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" type=FWD name="2mdn-cn.net" }
@@ -150,4 +151,3 @@
 :if ([:len [find name="cdn-cn2.apple-mapkit.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" type=FWD name="cdn-cn2.apple-mapkit.com" }
 :if ([:len [find name="cdn-cn3.apple-mapkit.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" type=FWD name="cdn-cn3.apple-mapkit.com" }
 :if ([:len [find name="cdn-cn4.apple-mapkit.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" type=FWD name="cdn-cn4.apple-mapkit.com" }
-:if ([:len [find name="cdn.apple-mapkit.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" type=FWD name="cdn.apple-mapkit.com" }
