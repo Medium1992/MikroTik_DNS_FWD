@@ -11,8 +11,10 @@
 :if ([:len [find name="dlib.eastview.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-scholar-uk" match-subdomain=yes type=FWD name="dlib.eastview.com" }
 :if ([:len [find name="epigeum.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-scholar-uk" match-subdomain=yes type=FWD name="epigeum.com" }
 :if ([:len [find name="imperialbusiness.school"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-scholar-uk" match-subdomain=yes type=FWD name="imperialbusiness.school" }
+:if ([:len [find name="livinno.org"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-scholar-uk" match-subdomain=yes type=FWD name="livinno.org" }
 :if ([:len [find name="oed.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-scholar-uk" match-subdomain=yes type=FWD name="oed.com" }
 :if ([:len [find name="omscr.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-scholar-uk" match-subdomain=yes type=FWD name="omscr.com" }
+:if ([:len [find name="opac-project.eu"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-scholar-uk" match-subdomain=yes type=FWD name="opac-project.eu" }
 :if ([:len [find name="oup.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-scholar-uk" match-subdomain=yes type=FWD name="oup.com" }
 :if ([:len [find name="ouplaw.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-scholar-uk" match-subdomain=yes type=FWD name="ouplaw.com" }
 :if ([:len [find name="oxfordaasc.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-scholar-uk" match-subdomain=yes type=FWD name="oxfordaasc.com" }
