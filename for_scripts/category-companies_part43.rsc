@@ -1,6 +1,7 @@
 :global AddressList
 :global ForwardTo
 /ip dns static
+:if ([:len [find name="productionresultssa6.blob.core.windows.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" type=FWD name="productionresultssa6.blob.core.windows.net" }
 :if ([:len [find name="productionresultssa7.blob.core.windows.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" type=FWD name="productionresultssa7.blob.core.windows.net" }
 :if ([:len [find name="productionresultssa8.blob.core.windows.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" type=FWD name="productionresultssa8.blob.core.windows.net" }
 :if ([:len [find name="productionresultssa9.blob.core.windows.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" type=FWD name="productionresultssa9.blob.core.windows.net" }
@@ -150,4 +151,3 @@
 :if ([:len [find name="swcdn.apple.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" type=FWD name="swcdn.apple.com" }
 :if ([:len [find name="swcdn.g.aaplimg.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" type=FWD name="swcdn.g.aaplimg.com" }
 :if ([:len [find name="swdist.apple.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" type=FWD name="swdist.apple.com" }
-:if ([:len [find name="swdist.apple.com.akadns.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" type=FWD name="swdist.apple.com.akadns.net" }

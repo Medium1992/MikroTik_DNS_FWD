@@ -1,6 +1,10 @@
 :global AddressList
 :global ForwardTo
 /ip dns static
+:if ([:len [find name="xnxxfap.info"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-porn" match-subdomain=yes type=FWD name="xnxxfap.info" }
+:if ([:len [find name="xnxxhamster.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-porn" match-subdomain=yes type=FWD name="xnxxhamster.net" }
+:if ([:len [find name="xnxxhd.biz"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-porn" match-subdomain=yes type=FWD name="xnxxhd.biz" }
+:if ([:len [find name="xnxxhd.tv"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-porn" match-subdomain=yes type=FWD name="xnxxhd.tv" }
 :if ([:len [find name="xnxxmovies.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-porn" match-subdomain=yes type=FWD name="xnxxmovies.com" }
 :if ([:len [find name="xnxxporn.de"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-porn" match-subdomain=yes type=FWD name="xnxxporn.de" }
 :if ([:len [find name="xnxxporn.fun"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-porn" match-subdomain=yes type=FWD name="xnxxporn.fun" }
@@ -147,7 +151,3 @@
 :if ([:len [find name="xxxifuck.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-porn" match-subdomain=yes type=FWD name="xxxifuck.com" }
 :if ([:len [find name="xxxindianporn2.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-porn" match-subdomain=yes type=FWD name="xxxindianporn2.com" }
 :if ([:len [find name="xxxindiantv.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-porn" match-subdomain=yes type=FWD name="xxxindiantv.com" }
-:if ([:len [find name="xxxjapanesemovies.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-porn" match-subdomain=yes type=FWD name="xxxjapanesemovies.com" }
-:if ([:len [find name="xxxland.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-porn" match-subdomain=yes type=FWD name="xxxland.net" }
-:if ([:len [find name="xxxlesbians.me"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-porn" match-subdomain=yes type=FWD name="xxxlesbians.me" }
-:if ([:len [find name="xxxlucah.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-porn" match-subdomain=yes type=FWD name="xxxlucah.com" }

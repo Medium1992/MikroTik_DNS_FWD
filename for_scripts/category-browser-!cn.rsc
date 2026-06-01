@@ -29,3 +29,4 @@
 :if ([:len [find name="vivaldi.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-browser-!cn" match-subdomain=yes type=FWD name="vivaldi.com" }
 :if ([:len [find name="waterfox.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-browser-!cn" match-subdomain=yes type=FWD name="waterfox.net" }
 :if ([:len [find name="zen-browser.app"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-browser-!cn" match-subdomain=yes type=FWD name="zen-browser.app" }
+:if ([:len [find name="mozilla-ohttp.fastly-edge.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-browser-!cn" type=FWD name="mozilla-ohttp.fastly-edge.com" }
