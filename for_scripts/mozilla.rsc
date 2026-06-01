@@ -26,3 +26,4 @@
 :if ([:len [find name="incoming-telemetry.thunderbird.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="mozilla" type=FWD name="incoming-telemetry.thunderbird.net" }
 :if ([:len [find name="incoming.telemetry.mozilla.org"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="mozilla" type=FWD name="incoming.telemetry.mozilla.org" }
 :if ([:len [find name="mdn.mozillademos.org"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="mozilla" type=FWD name="mdn.mozillademos.org" }
+:if ([:len [find name="mozilla-ohttp.fastly-edge.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="mozilla" type=FWD name="mozilla-ohttp.fastly-edge.com" }
