@@ -17,5 +17,6 @@
 :if ([:len [find name="telegram.space"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="telegram" match-subdomain=yes type=FWD name="telegram.space" }
 :if ([:len [find name="tg.dev"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="telegram" match-subdomain=yes type=FWD name="tg.dev" }
 :if ([:len [find name="ton.org"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="telegram" match-subdomain=yes type=FWD name="ton.org" }
+:if ([:len [find name="toncenter.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="telegram" match-subdomain=yes type=FWD name="toncenter.com" }
 :if ([:len [find name="tx.me"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="telegram" match-subdomain=yes type=FWD name="tx.me" }
 :if ([:len [find name="usercontent.dev"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="telegram" match-subdomain=yes type=FWD name="usercontent.dev" }
