@@ -3,6 +3,7 @@
 /ip dns static
 :if ([:len [find name="ad.cctv.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="cctv" match-subdomain=yes type=FWD name="ad.cctv.com" }
 :if ([:len [find name="cctv.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="cctv" match-subdomain=yes type=FWD name="cctv.com" }
+:if ([:len [find name="cctv4g.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="cctv" match-subdomain=yes type=FWD name="cctv4g.com" }
 :if ([:len [find name="cctvpic.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="cctv" match-subdomain=yes type=FWD name="cctvpic.com" }
 :if ([:len [find name="chinalive.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="cctv" match-subdomain=yes type=FWD name="chinalive.com" }
 :if ([:len [find name="chinaott.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="cctv" match-subdomain=yes type=FWD name="chinaott.com" }

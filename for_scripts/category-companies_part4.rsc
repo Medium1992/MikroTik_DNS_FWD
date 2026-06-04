@@ -1,6 +1,8 @@
 :global AddressList
 :global ForwardTo
 /ip dns static
+:if ([:len [find name="appleenews.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" match-subdomain=yes type=FWD name="appleenews.com" }
+:if ([:len [find name="appleexpo.eu"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" match-subdomain=yes type=FWD name="appleexpo.eu" }
 :if ([:len [find name="appleexpo.info"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" match-subdomain=yes type=FWD name="appleexpo.info" }
 :if ([:len [find name="applefilmaker.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" match-subdomain=yes type=FWD name="applefilmaker.com" }
 :if ([:len [find name="applefilmmaker.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" match-subdomain=yes type=FWD name="applefilmmaker.com" }
@@ -149,5 +151,3 @@
 :if ([:len [find name="atlasdmt.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" match-subdomain=yes type=FWD name="atlasdmt.com" }
 :if ([:len [find name="atlasonepoint.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" match-subdomain=yes type=FWD name="atlasonepoint.com" }
 :if ([:len [find name="atlassian-dev.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" match-subdomain=yes type=FWD name="atlassian-dev.net" }
-:if ([:len [find name="atlassian.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" match-subdomain=yes type=FWD name="atlassian.com" }
-:if ([:len [find name="atlassian.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" match-subdomain=yes type=FWD name="atlassian.net" }

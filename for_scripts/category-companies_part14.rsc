@@ -1,6 +1,11 @@
 :global AddressList
 :global ForwardTo
 /ip dns static
+:if ([:len [find name="drebeatscanada.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" match-subdomain=yes type=FWD name="drebeatscanada.com" }
+:if ([:len [find name="drebeatsdeutschland.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" match-subdomain=yes type=FWD name="drebeatsdeutschland.net" }
+:if ([:len [find name="drebeatsforsaleus.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" match-subdomain=yes type=FWD name="drebeatsforsaleus.com" }
+:if ([:len [find name="drebeatsheadphones-nz.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" match-subdomain=yes type=FWD name="drebeatsheadphones-nz.com" }
+:if ([:len [find name="drebeatshome.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" match-subdomain=yes type=FWD name="drebeatshome.com" }
 :if ([:len [find name="drebeatsoldes.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" match-subdomain=yes type=FWD name="drebeatsoldes.com" }
 :if ([:len [find name="drebeatsoutletstore.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" match-subdomain=yes type=FWD name="drebeatsoutletstore.com" }
 :if ([:len [find name="drebeatspill.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" match-subdomain=yes type=FWD name="drebeatspill.com" }
@@ -54,6 +59,7 @@
 :if ([:len [find name="ecgapp.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" match-subdomain=yes type=FWD name="ecgapp.net" }
 :if ([:len [find name="echocdn.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" match-subdomain=yes type=FWD name="echocdn.com" }
 :if ([:len [find name="echosign.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" match-subdomain=yes type=FWD name="echosign.com" }
+:if ([:len [find name="ecmascript.org"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" match-subdomain=yes type=FWD name="ecmascript.org" }
 :if ([:len [find name="ecotect.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" match-subdomain=yes type=FWD name="ecotect.com" }
 :if ([:len [find name="ecotect.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" match-subdomain=yes type=FWD name="ecotect.net" }
 :if ([:len [find name="ecscad.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" match-subdomain=yes type=FWD name="ecscad.com" }
@@ -116,6 +122,7 @@
 :if ([:len [find name="experience-vmware.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" match-subdomain=yes type=FWD name="experience-vmware.com" }
 :if ([:len [find name="exploreintel.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" match-subdomain=yes type=FWD name="exploreintel.com" }
 :if ([:len [find name="expresswifi.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" match-subdomain=yes type=FWD name="expresswifi.com" }
+:if ([:len [find name="extendfirefox.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" match-subdomain=yes type=FWD name="extendfirefox.com" }
 :if ([:len [find name="extensions4revit.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" match-subdomain=yes type=FWD name="extensions4revit.com" }
 :if ([:len [find name="extensionworkshop.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" match-subdomain=yes type=FWD name="extensionworkshop.com" }
 :if ([:len [find name="extremetube.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" match-subdomain=yes type=FWD name="extremetube.com" }
@@ -144,10 +151,3 @@
 :if ([:len [find name="facebbook.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" match-subdomain=yes type=FWD name="facebbook.com" }
 :if ([:len [find name="facebboook.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" match-subdomain=yes type=FWD name="facebboook.com" }
 :if ([:len [find name="facebcook.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" match-subdomain=yes type=FWD name="facebcook.com" }
-:if ([:len [find name="facebdok.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" match-subdomain=yes type=FWD name="facebdok.com" }
-:if ([:len [find name="facebgook.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" match-subdomain=yes type=FWD name="facebgook.com" }
-:if ([:len [find name="facebhook.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" match-subdomain=yes type=FWD name="facebhook.com" }
-:if ([:len [find name="facebkkk.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" match-subdomain=yes type=FWD name="facebkkk.com" }
-:if ([:len [find name="facebo-ok.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" match-subdomain=yes type=FWD name="facebo-ok.com" }
-:if ([:len [find name="faceboak.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" match-subdomain=yes type=FWD name="faceboak.com" }
-:if ([:len [find name="facebock.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" match-subdomain=yes type=FWD name="facebock.com" }

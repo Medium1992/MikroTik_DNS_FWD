@@ -1,6 +1,7 @@
 :global AddressList
 :global ForwardTo
 /ip dns static
+:if ([:len [find name="rosbank-capital.ru"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-finance" match-subdomain=yes type=FWD name="rosbank-capital.ru" }
 :if ([:len [find name="rosbank-credit.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-finance" match-subdomain=yes type=FWD name="rosbank-credit.com" }
 :if ([:len [find name="rosbank-dom.ru"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-finance" match-subdomain=yes type=FWD name="rosbank-dom.ru" }
 :if ([:len [find name="rosbank-leasing.ru"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-finance" match-subdomain=yes type=FWD name="rosbank-leasing.ru" }
@@ -150,4 +151,3 @@
 :if ([:len [find name="unidraw.io"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-finance" match-subdomain=yes type=FWD name="unidraw.io" }
 :if ([:len [find name="uralsib.ru"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-finance" match-subdomain=yes type=FWD name="uralsib.ru" }
 :if ([:len [find name="vlb100.ru"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-finance" match-subdomain=yes type=FWD name="vlb100.ru" }
-:if ([:len [find name="vtb-direct.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-finance" match-subdomain=yes type=FWD name="vtb-direct.com" }
