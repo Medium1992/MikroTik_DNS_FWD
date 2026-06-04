@@ -12,7 +12,9 @@
 :if ([:len [find name="decentr.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-browser-!cn" match-subdomain=yes type=FWD name="decentr.net" }
 :if ([:len [find name="dothq.org"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-browser-!cn" match-subdomain=yes type=FWD name="dothq.org" }
 :if ([:len [find name="epicbrowser.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-browser-!cn" match-subdomain=yes type=FWD name="epicbrowser.com" }
+:if ([:len [find name="extendfirefox.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-browser-!cn" match-subdomain=yes type=FWD name="extendfirefox.com" }
 :if ([:len [find name="firefox.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-browser-!cn" match-subdomain=yes type=FWD name="firefox.com" }
+:if ([:len [find name="firefoxtweetmachine.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-browser-!cn" match-subdomain=yes type=FWD name="firefoxtweetmachine.com" }
 :if ([:len [find name="firefoxusercontent.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-browser-!cn" match-subdomain=yes type=FWD name="firefoxusercontent.com" }
 :if ([:len [find name="floorp.app"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-browser-!cn" match-subdomain=yes type=FWD name="floorp.app" }
 :if ([:len [find name="iridiumbrowser.de"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-browser-!cn" match-subdomain=yes type=FWD name="iridiumbrowser.de" }

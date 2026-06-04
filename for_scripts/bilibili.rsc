@@ -33,7 +33,9 @@
 :if ([:len [find name="hdslb.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="bilibili" match-subdomain=yes type=FWD name="hdslb.com" }
 :if ([:len [find name="hdslb.org"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="bilibili" match-subdomain=yes type=FWD name="hdslb.org" }
 :if ([:len [find name="im9.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="bilibili" match-subdomain=yes type=FWD name="im9.com" }
+:if ([:len [find name="maoer.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="bilibili" match-subdomain=yes type=FWD name="maoer.com" }
 :if ([:len [find name="maoercdn.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="bilibili" match-subdomain=yes type=FWD name="maoercdn.com" }
 :if ([:len [find name="mincdn.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="bilibili" match-subdomain=yes type=FWD name="mincdn.com" }
+:if ([:len [find name="missevan.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="bilibili" match-subdomain=yes type=FWD name="missevan.com" }
 :if ([:len [find name="yo9.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="bilibili" match-subdomain=yes type=FWD name="yo9.com" }
 :if ([:len [find name="upos-hz-mirrorakam.akamaized.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="bilibili" type=FWD name="upos-hz-mirrorakam.akamaized.net" }

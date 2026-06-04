@@ -24,9 +24,12 @@
 :if ([:len [find name="ganjistatic1.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="58tongcheng" match-subdomain=yes type=FWD name="ganjistatic1.com" }
 :if ([:len [find name="jxedt.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="58tongcheng" match-subdomain=yes type=FWD name="jxedt.com" }
 :if ([:len [find name="jxksw.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="58tongcheng" match-subdomain=yes type=FWD name="jxksw.net" }
+:if ([:len [find name="kaoshibao.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="58tongcheng" match-subdomain=yes type=FWD name="kaoshibao.com" }
 :if ([:len [find name="sofun.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="58tongcheng" match-subdomain=yes type=FWD name="sofun.com" }
 :if ([:len [find name="soufunimg.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="58tongcheng" match-subdomain=yes type=FWD name="soufunimg.com" }
 :if ([:len [find name="xinchong.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="58tongcheng" match-subdomain=yes type=FWD name="xinchong.com" }
+:if ([:len [find name="xueche.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="58tongcheng" match-subdomain=yes type=FWD name="xueche.com" }
+:if ([:len [find name="zaixiankaoshi.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="58tongcheng" match-subdomain=yes type=FWD name="zaixiankaoshi.com" }
 :if ([:len [find name="zhuancorp.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="58tongcheng" match-subdomain=yes type=FWD name="zhuancorp.com" }
 :if ([:len [find name="zhuaninc.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="58tongcheng" match-subdomain=yes type=FWD name="zhuaninc.com" }
 :if ([:len [find name="zhuanspirit.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="58tongcheng" match-subdomain=yes type=FWD name="zhuanspirit.com" }
