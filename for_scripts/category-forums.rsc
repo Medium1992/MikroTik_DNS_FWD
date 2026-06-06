@@ -94,3 +94,4 @@
 :if ([:len [find name="xdaimages.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-forums" match-subdomain=yes type=FWD name="xdaimages.com" }
 :if ([:len [find name="xwbo.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-forums" match-subdomain=yes type=FWD name="xwbo.com" }
 :if ([:len [find name="bbs.boingboing.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-forums" type=FWD name="bbs.boingboing.net" }
+:if ([:len [find name="www.quora.com.cdn.cloudflare.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-forums" type=FWD name="www.quora.com.cdn.cloudflare.net" }
