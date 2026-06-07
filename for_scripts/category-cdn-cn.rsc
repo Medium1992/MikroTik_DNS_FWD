@@ -5,6 +5,7 @@
 :if ([:len [find name="8686c.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-cdn-cn" match-subdomain=yes type=FWD name="8686c.com" }
 :if ([:len [find name="acadn.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-cdn-cn" match-subdomain=yes type=FWD name="acadn.com" }
 :if ([:len [find name="aicdn.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-cdn-cn" match-subdomain=yes type=FWD name="aicdn.com" }
+:if ([:len [find name="aocde.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-cdn-cn" match-subdomain=yes type=FWD name="aocde.com" }
 :if ([:len [find name="bbbcdns.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-cdn-cn" match-subdomain=yes type=FWD name="bbbcdns.com" }
 :if ([:len [find name="bootcdn.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-cdn-cn" match-subdomain=yes type=FWD name="bootcdn.net" }
 :if ([:len [find name="bootcss.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-cdn-cn" match-subdomain=yes type=FWD name="bootcss.com" }

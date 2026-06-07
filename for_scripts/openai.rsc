@@ -7,6 +7,7 @@
 :if ([:len [find name="crixet.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="openai" match-subdomain=yes type=FWD name="crixet.com" }
 :if ([:len [find name="host.livekit.cloud"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="openai" match-subdomain=yes type=FWD name="host.livekit.cloud" }
 :if ([:len [find name="oaistatic.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="openai" match-subdomain=yes type=FWD name="oaistatic.com" }
+:if ([:len [find name="oaistatsig.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="openai" match-subdomain=yes type=FWD name="oaistatsig.com" }
 :if ([:len [find name="oaiusercontent.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="openai" match-subdomain=yes type=FWD name="oaiusercontent.com" }
 :if ([:len [find name="openai.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="openai" match-subdomain=yes type=FWD name="openai.com" }
 :if ([:len [find name="openai.com.cdn.cloudflare.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="openai" match-subdomain=yes type=FWD name="openai.com.cdn.cloudflare.net" }
