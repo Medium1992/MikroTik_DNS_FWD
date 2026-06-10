@@ -7,3 +7,4 @@
 :if ([:len [find name="connect.rom.miui.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="connectivity-check@cn" type=FWD name="connect.rom.miui.com" }
 :if ([:len [find name="connectivitycheck.platform.hicloud.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="connectivity-check@cn" type=FWD name="connectivitycheck.platform.hicloud.com" }
 :if ([:len [find name="connectivitycheck.platform.hihonorcloud.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="connectivity-check@cn" type=FWD name="connectivitycheck.platform.hihonorcloud.com" }
+:if ([:len [find name="www.gstatic.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="connectivity-check@cn" type=FWD name="www.gstatic.com" }

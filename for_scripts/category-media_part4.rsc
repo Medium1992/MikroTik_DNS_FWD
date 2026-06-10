@@ -125,6 +125,7 @@
 :if ([:len [find name="ind.sh"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-media" match-subdomain=yes type=FWD name="ind.sh" }
 :if ([:len [find name="india.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-media" match-subdomain=yes type=FWD name="india.com" }
 :if ([:len [find name="indiancolleges.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-media" match-subdomain=yes type=FWD name="indiancolleges.com" }
+:if ([:len [find name="infoq.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-media" match-subdomain=yes type=FWD name="infoq.com" }
 :if ([:len [find name="infotimes.com.tw"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-media" match-subdomain=yes type=FWD name="infotimes.com.tw" }
 :if ([:len [find name="infowars.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-media" match-subdomain=yes type=FWD name="infowars.com" }
 :if ([:len [find name="infowarsmedia.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-media" match-subdomain=yes type=FWD name="infowarsmedia.com" }
@@ -150,4 +151,3 @@
 :if ([:len [find name="kannewyork.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-media" match-subdomain=yes type=FWD name="kannewyork.com" }
 :if ([:len [find name="kanzhongguo.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-media" match-subdomain=yes type=FWD name="kanzhongguo.com" }
 :if ([:len [find name="kanzhongguo.eu"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-media" match-subdomain=yes type=FWD name="kanzhongguo.eu" }
-:if ([:len [find name="kanzlerdaddy.ru"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-media" match-subdomain=yes type=FWD name="kanzlerdaddy.ru" }

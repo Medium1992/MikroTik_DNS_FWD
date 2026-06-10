@@ -23,6 +23,5 @@
 :if ([:len [find name="nmcheck.gnome.org"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="connectivity-check" type=FWD name="nmcheck.gnome.org" }
 :if ([:len [find name="ping.archlinux.org"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="connectivity-check" type=FWD name="ping.archlinux.org" }
 :if ([:len [find name="redirect.archlinux.org"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="connectivity-check" type=FWD name="redirect.archlinux.org" }
-:if ([:len [find name="www.google.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="connectivity-check" type=FWD name="www.google.com" }
 :if ([:len [find name="www.gstatic.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="connectivity-check" type=FWD name="www.gstatic.com" }
 :if ([:len [find name="www.qualcomm.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="connectivity-check" type=FWD name="www.qualcomm.com" }
