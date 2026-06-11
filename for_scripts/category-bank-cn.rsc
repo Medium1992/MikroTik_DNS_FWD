@@ -6,6 +6,8 @@
 :if ([:len [find name="abchina.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-bank-cn" match-subdomain=yes type=FWD name="abchina.com" }
 :if ([:len [find name="bankcomm.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-bank-cn" match-subdomain=yes type=FWD name="bankcomm.com" }
 :if ([:len [find name="cebbank.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-bank-cn" match-subdomain=yes type=FWD name="cebbank.com" }
+:if ([:len [find name="chinapay.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-bank-cn" match-subdomain=yes type=FWD name="chinapay.com" }
+:if ([:len [find name="chinaums.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-bank-cn" match-subdomain=yes type=FWD name="chinaums.com" }
 :if ([:len [find name="chinaunionpay.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-bank-cn" match-subdomain=yes type=FWD name="chinaunionpay.com" }
 :if ([:len [find name="chinaunionpay.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-bank-cn" match-subdomain=yes type=FWD name="chinaunionpay.net" }
 :if ([:len [find name="csxbank.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-bank-cn" match-subdomain=yes type=FWD name="csxbank.com" }

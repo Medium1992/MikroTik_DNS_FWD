@@ -1,6 +1,11 @@
 :global AddressList
 :global ForwardTo
 /ip dns static
+:if ([:len [find name="ksn-mdr.geoksn.kaspersky.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-ru" type=FWD name="ksn-mdr.geoksn.kaspersky.com" }
+:if ([:len [find name="ksn-tcert-geo.kaspersky-labs.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-ru" type=FWD name="ksn-tcert-geo.kaspersky-labs.com" }
+:if ([:len [find name="ksn-tcert.geoksn.kaspersky.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-ru" type=FWD name="ksn-tcert.geoksn.kaspersky.com" }
+:if ([:len [find name="ksn-url-geo.kaspersky-labs.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-ru" type=FWD name="ksn-url-geo.kaspersky-labs.com" }
+:if ([:len [find name="ksn-url.geoksn.kaspersky.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-ru" type=FWD name="ksn-url.geoksn.kaspersky.com" }
 :if ([:len [find name="ksn-verdict-geo.kaspersky-labs.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-ru" type=FWD name="ksn-verdict-geo.kaspersky-labs.com" }
 :if ([:len [find name="ksn-verdict.geoksn.kaspersky.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-ru" type=FWD name="ksn-verdict.geoksn.kaspersky.com" }
 :if ([:len [find name="log.strm.yandex.ru"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-ru" type=FWD name="log.strm.yandex.ru" }

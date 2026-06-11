@@ -1,6 +1,26 @@
 :global AddressList
 :global ForwardTo
 /ip dns static
+:if ([:len [find name="wbdubna.ru"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-ecommerce" match-subdomain=yes type=FWD name="wbdubna.ru" }
+:if ([:len [find name="wbkids.ru"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-ecommerce" match-subdomain=yes type=FWD name="wbkids.ru" }
+:if ([:len [find name="wbmail.ru"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-ecommerce" match-subdomain=yes type=FWD name="wbmail.ru" }
+:if ([:len [find name="wbmotivator.ru"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-ecommerce" match-subdomain=yes type=FWD name="wbmotivator.ru" }
+:if ([:len [find name="wbpay.ru"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-ecommerce" match-subdomain=yes type=FWD name="wbpay.ru" }
+:if ([:len [find name="wbrep.ru"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-ecommerce" match-subdomain=yes type=FWD name="wbrep.ru" }
+:if ([:len [find name="wbstatic.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-ecommerce" match-subdomain=yes type=FWD name="wbstatic.net" }
+:if ([:len [find name="wbstatic.ru"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-ecommerce" match-subdomain=yes type=FWD name="wbstatic.ru" }
+:if ([:len [find name="wbtek.ru"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-ecommerce" match-subdomain=yes type=FWD name="wbtek.ru" }
+:if ([:len [find name="wbwh.ru"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-ecommerce" match-subdomain=yes type=FWD name="wbwh.ru" }
+:if ([:len [find name="wbwh.tech"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-ecommerce" match-subdomain=yes type=FWD name="wbwh.tech" }
+:if ([:len [find name="weareebay.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-ecommerce" match-subdomain=yes type=FWD name="weareebay.com" }
+:if ([:len [find name="weildberries.ru"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-ecommerce" match-subdomain=yes type=FWD name="weildberries.ru" }
+:if ([:len [find name="welberris.ru"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-ecommerce" match-subdomain=yes type=FWD name="welberris.ru" }
+:if ([:len [find name="weldberies.ru"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-ecommerce" match-subdomain=yes type=FWD name="weldberies.ru" }
+:if ([:len [find name="weldberres.ru"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-ecommerce" match-subdomain=yes type=FWD name="weldberres.ru" }
+:if ([:len [find name="weldberric.ru"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-ecommerce" match-subdomain=yes type=FWD name="weldberric.ru" }
+:if ([:len [find name="wellberes.ru"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-ecommerce" match-subdomain=yes type=FWD name="wellberes.ru" }
+:if ([:len [find name="wellberies.ru"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-ecommerce" match-subdomain=yes type=FWD name="wellberies.ru" }
+:if ([:len [find name="wellnessinstitute.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-ecommerce" match-subdomain=yes type=FWD name="wellnessinstitute.com" }
 :if ([:len [find name="whisolutions.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-ecommerce" match-subdomain=yes type=FWD name="whisolutions.com" }
 :if ([:len [find name="wibes.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-ecommerce" match-subdomain=yes type=FWD name="wibes.com" }
 :if ([:len [find name="wibes.ru"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-ecommerce" match-subdomain=yes type=FWD name="wibes.ru" }

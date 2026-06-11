@@ -3,6 +3,7 @@
 /ip dns static
 :if ([:len [find name="videopress.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="wordpress" match-subdomain=yes type=FWD name="videopress.com" }
 :if ([:len [find name="w.org"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="wordpress" match-subdomain=yes type=FWD name="w.org" }
+:if ([:len [find name="wordcamp.org"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="wordpress" match-subdomain=yes type=FWD name="wordcamp.org" }
 :if ([:len [find name="wordpress.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="wordpress" match-subdomain=yes type=FWD name="wordpress.com" }
 :if ([:len [find name="wordpress.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="wordpress" match-subdomain=yes type=FWD name="wordpress.net" }
 :if ([:len [find name="wordpress.org"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="wordpress" match-subdomain=yes type=FWD name="wordpress.org" }
