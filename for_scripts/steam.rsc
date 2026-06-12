@@ -3,6 +3,7 @@
 /ip dns static
 :if ([:len [find name="client-update.queniuqe.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="steam" match-subdomain=yes type=FWD name="client-update.queniuqe.com" }
 :if ([:len [find name="dl.steam.clngaa.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="steam" match-subdomain=yes type=FWD name="dl.steam.clngaa.com" }
+:if ([:len [find name="dota2.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="steam" match-subdomain=yes type=FWD name="dota2.com" }
 :if ([:len [find name="edge.steam-dns.top.comcast.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="steam" match-subdomain=yes type=FWD name="edge.steam-dns.top.comcast.net" }
 :if ([:len [find name="gstore.val.manlaxy.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="steam" match-subdomain=yes type=FWD name="gstore.val.manlaxy.com" }
 :if ([:len [find name="playartifact.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="steam" match-subdomain=yes type=FWD name="playartifact.com" }
@@ -31,6 +32,7 @@
 :if ([:len [find name="steamstatic.com.8686c.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="steam" match-subdomain=yes type=FWD name="steamstatic.com.8686c.com" }
 :if ([:len [find name="steamusercontent.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="steam" match-subdomain=yes type=FWD name="steamusercontent.com" }
 :if ([:len [find name="underlords.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="steam" match-subdomain=yes type=FWD name="underlords.com" }
+:if ([:len [find name="valve.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="steam" match-subdomain=yes type=FWD name="valve.net" }
 :if ([:len [find name="valvesoftware.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="steam" match-subdomain=yes type=FWD name="valvesoftware.com" }
 :if ([:len [find name="wmsjsteam.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="steam" match-subdomain=yes type=FWD name="wmsjsteam.com" }
 :if ([:len [find name="a4e8s8k3.map2.ssl.hwcdn.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="steam" type=FWD name="a4e8s8k3.map2.ssl.hwcdn.net" }
