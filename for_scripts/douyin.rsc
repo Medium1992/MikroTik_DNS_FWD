@@ -35,6 +35,7 @@
 :if ([:len [find name="huoshanxiaoshipin.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="douyin" match-subdomain=yes type=FWD name="huoshanxiaoshipin.net" }
 :if ([:len [find name="huoshanzhibo.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="douyin" match-subdomain=yes type=FWD name="huoshanzhibo.com" }
 :if ([:len [find name="huoshanzhibo.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="douyin" match-subdomain=yes type=FWD name="huoshanzhibo.net" }
+:if ([:len [find name="hypercachenode.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="douyin" match-subdomain=yes type=FWD name="hypercachenode.com" }
 :if ([:len [find name="idouyinliving.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="douyin" match-subdomain=yes type=FWD name="idouyinliving.com" }
 :if ([:len [find name="idouyinpic.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="douyin" match-subdomain=yes type=FWD name="idouyinpic.com" }
 :if ([:len [find name="idouyinstatic.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="douyin" match-subdomain=yes type=FWD name="idouyinstatic.com" }

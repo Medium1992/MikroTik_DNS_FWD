@@ -14,7 +14,6 @@
 :if ([:len [find name="cpro.baidustatic.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="baidu@ads" match-subdomain=yes type=FWD name="cpro.baidustatic.com" }
 :if ([:len [find name="cpu.baidu.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="baidu@ads" match-subdomain=yes type=FWD name="cpu.baidu.com" }
 :if ([:len [find name="cstm.baidu.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="baidu@ads" match-subdomain=yes type=FWD name="cstm.baidu.com" }
-:if ([:len [find name="dlswbr.baidu.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="baidu@ads" match-subdomain=yes type=FWD name="dlswbr.baidu.com" }
 :if ([:len [find name="drmcmm.baidu.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="baidu@ads" match-subdomain=yes type=FWD name="drmcmm.baidu.com" }
 :if ([:len [find name="duiwai.baidu.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="baidu@ads" match-subdomain=yes type=FWD name="duiwai.baidu.com" }
 :if ([:len [find name="dup.baidustatic.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="baidu@ads" match-subdomain=yes type=FWD name="dup.baidustatic.com" }
@@ -32,7 +31,6 @@
 :if ([:len [find name="hmma.baidu.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="baidu@ads" match-subdomain=yes type=FWD name="hmma.baidu.com" }
 :if ([:len [find name="imgstat.baidu.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="baidu@ads" match-subdomain=yes type=FWD name="imgstat.baidu.com" }
 :if ([:len [find name="iwanad.baidu.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="baidu@ads" match-subdomain=yes type=FWD name="iwanad.baidu.com" }
-:if ([:len [find name="miao.baidu.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="baidu@ads" match-subdomain=yes type=FWD name="miao.baidu.com" }
 :if ([:len [find name="miaowu.baidu.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="baidu@ads" match-subdomain=yes type=FWD name="miaowu.baidu.com" }
 :if ([:len [find name="mipcache.bdstatic.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="baidu@ads" match-subdomain=yes type=FWD name="mipcache.bdstatic.com" }
 :if ([:len [find name="mobads-logs.baidu.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="baidu@ads" match-subdomain=yes type=FWD name="mobads-logs.baidu.com" }
