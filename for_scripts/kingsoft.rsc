@@ -24,6 +24,7 @@
 :if ([:len [find name="ksyungslb.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="kingsoft" match-subdomain=yes type=FWD name="ksyungslb.com" }
 :if ([:len [find name="papocket.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="kingsoft" match-subdomain=yes type=FWD name="papocket.com" }
 :if ([:len [find name="seasungames.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="kingsoft" match-subdomain=yes type=FWD name="seasungames.com" }
+:if ([:len [find name="seasunwbl.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="kingsoft" match-subdomain=yes type=FWD name="seasunwbl.com" }
 :if ([:len [find name="wps.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="kingsoft" match-subdomain=yes type=FWD name="wps.com" }
 :if ([:len [find name="wpscdn.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="kingsoft" match-subdomain=yes type=FWD name="wpscdn.com" }
 :if ([:len [find name="wpsmail.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="kingsoft" match-subdomain=yes type=FWD name="wpsmail.net" }

@@ -22,6 +22,7 @@
 :if ([:len [find name="steam.tv"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="steam" match-subdomain=yes type=FWD name="steam.tv" }
 :if ([:len [find name="steamchina.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="steam" match-subdomain=yes type=FWD name="steamchina.com" }
 :if ([:len [find name="steamcommunity.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="steam" match-subdomain=yes type=FWD name="steamcommunity.com" }
+:if ([:len [find name="steamconnecttest.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="steam" match-subdomain=yes type=FWD name="steamconnecttest.com" }
 :if ([:len [find name="steamcontent.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="steam" match-subdomain=yes type=FWD name="steamcontent.com" }
 :if ([:len [find name="steamdeck.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="steam" match-subdomain=yes type=FWD name="steamdeck.com" }
 :if ([:len [find name="steamgames.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="steam" match-subdomain=yes type=FWD name="steamgames.com" }

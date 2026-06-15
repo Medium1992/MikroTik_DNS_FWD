@@ -1,6 +1,8 @@
 :global AddressList
 :global ForwardTo
 /ip dns static
+:if ([:len [find name="ixiguapi.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="huawei" match-subdomain=yes type=FWD name="ixiguapi.com" }
+:if ([:len [find name="la-north-2.myhuaweicloud.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="huawei" match-subdomain=yes type=FWD name="la-north-2.myhuaweicloud.com" }
 :if ([:len [find name="la-north-205.myhuaweicloud.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="huawei" match-subdomain=yes type=FWD name="la-north-205.myhuaweicloud.com" }
 :if ([:len [find name="la-south-2.myhuaweicloud.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="huawei" match-subdomain=yes type=FWD name="la-south-2.myhuaweicloud.com" }
 :if ([:len [find name="me-east-1.myhuaweicloud.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="huawei" match-subdomain=yes type=FWD name="me-east-1.myhuaweicloud.com" }
@@ -22,6 +24,8 @@
 :if ([:len [find name="na-mexico-1.myhuaweicloud.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="huawei" match-subdomain=yes type=FWD name="na-mexico-1.myhuaweicloud.com" }
 :if ([:len [find name="owsgo.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="huawei" match-subdomain=yes type=FWD name="owsgo.com" }
 :if ([:len [find name="pagescube.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="huawei" match-subdomain=yes type=FWD name="pagescube.com" }
+:if ([:len [find name="petalmail.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="huawei" match-subdomain=yes type=FWD name="petalmail.com" }
+:if ([:len [find name="petalmaps.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="huawei" match-subdomain=yes type=FWD name="petalmaps.com" }
 :if ([:len [find name="powerapp.io"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="huawei" match-subdomain=yes type=FWD name="powerapp.io" }
 :if ([:len [find name="ru-moscow-1.myhuaweicloud.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="huawei" match-subdomain=yes type=FWD name="ru-moscow-1.myhuaweicloud.com" }
 :if ([:len [find name="ru-northwest-2.myhuaweicloud.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="huawei" match-subdomain=yes type=FWD name="ru-northwest-2.myhuaweicloud.com" }

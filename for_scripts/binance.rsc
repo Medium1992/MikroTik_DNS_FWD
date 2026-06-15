@@ -1,7 +1,6 @@
 :global AddressList
 :global ForwardTo
 /ip dns static
-:if ([:len [find name="appsflayer.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="binance" match-subdomain=yes type=FWD name="appsflayer.com" }
 :if ([:len [find name="binance.cc"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="binance" match-subdomain=yes type=FWD name="binance.cc" }
 :if ([:len [find name="binance.charity"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="binance" match-subdomain=yes type=FWD name="binance.charity" }
 :if ([:len [find name="binance.cloud"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="binance" match-subdomain=yes type=FWD name="binance.cloud" }
@@ -31,11 +30,19 @@
 :if ([:len [find name="binancezh.pro"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="binance" match-subdomain=yes type=FWD name="binancezh.pro" }
 :if ([:len [find name="binancezh.sh"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="binance" match-subdomain=yes type=FWD name="binancezh.sh" }
 :if ([:len [find name="binancezh.top"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="binance" match-subdomain=yes type=FWD name="binancezh.top" }
+:if ([:len [find name="bmwweb.solutions"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="binance" match-subdomain=yes type=FWD name="bmwweb.solutions" }
+:if ([:len [find name="bnappweb.black"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="binance" match-subdomain=yes type=FWD name="bnappweb.black" }
+:if ([:len [find name="bnbchain.org"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="binance" match-subdomain=yes type=FWD name="bnbchain.org" }
 :if ([:len [find name="bnbstatic.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="binance" match-subdomain=yes type=FWD name="bnbstatic.com" }
 :if ([:len [find name="bntrace.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="binance" match-subdomain=yes type=FWD name="bntrace.com" }
+:if ([:len [find name="bsappapi.cc"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="binance" match-subdomain=yes type=FWD name="bsappapi.cc" }
 :if ([:len [find name="bsappapi.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="binance" match-subdomain=yes type=FWD name="bsappapi.com" }
+:if ([:len [find name="bscdnweb.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="binance" match-subdomain=yes type=FWD name="bscdnweb.com" }
 :if ([:len [find name="nftstatic.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="binance" match-subdomain=yes type=FWD name="nftstatic.com" }
 :if ([:len [find name="saasexch.cc"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="binance" match-subdomain=yes type=FWD name="saasexch.cc" }
 :if ([:len [find name="saasexch.co"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="binance" match-subdomain=yes type=FWD name="saasexch.co" }
 :if ([:len [find name="saasexch.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="binance" match-subdomain=yes type=FWD name="saasexch.com" }
+:if ([:len [find name="saasexch.info"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="binance" match-subdomain=yes type=FWD name="saasexch.info" }
 :if ([:len [find name="saasexch.io"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="binance" match-subdomain=yes type=FWD name="saasexch.io" }
+:if ([:len [find name="zftksc.cdn-settings.appsflyersdk.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="binance" type=FWD name="zftksc.cdn-settings.appsflyersdk.com" }
+:if ([:len [find name="zftksc.launches.appsflyersdk.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="binance" type=FWD name="zftksc.launches.appsflyersdk.com" }

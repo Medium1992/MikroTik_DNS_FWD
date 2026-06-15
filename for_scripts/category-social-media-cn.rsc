@@ -17,6 +17,7 @@
 :if ([:len [find name="ivwen.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-social-media-cn" match-subdomain=yes type=FWD name="ivwen.com" }
 :if ([:len [find name="jike.city"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-social-media-cn" match-subdomain=yes type=FWD name="jike.city" }
 :if ([:len [find name="jikecdn.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-social-media-cn" match-subdomain=yes type=FWD name="jikecdn.com" }
+:if ([:len [find name="laiyagushi.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-social-media-cn" match-subdomain=yes type=FWD name="laiyagushi.com" }
 :if ([:len [find name="meipian.me"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-social-media-cn" match-subdomain=yes type=FWD name="meipian.me" }
 :if ([:len [find name="okjike.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-social-media-cn" match-subdomain=yes type=FWD name="okjike.com" }
 :if ([:len [find name="okjk.co"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-social-media-cn" match-subdomain=yes type=FWD name="okjk.co" }
@@ -24,6 +25,7 @@
 :if ([:len [find name="taou.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-social-media-cn" match-subdomain=yes type=FWD name="taou.com" }
 :if ([:len [find name="tieba.baidu.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-social-media-cn" match-subdomain=yes type=FWD name="tieba.baidu.com" }
 :if ([:len [find name="tieba.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-social-media-cn" match-subdomain=yes type=FWD name="tieba.com" }
+:if ([:len [find name="vzuu.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-social-media-cn" match-subdomain=yes type=FWD name="vzuu.com" }
 :if ([:len [find name="zhihu-web-analytics.zhihu.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-social-media-cn" match-subdomain=yes type=FWD name="zhihu-web-analytics.zhihu.com" }
 :if ([:len [find name="zhihu.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-social-media-cn" match-subdomain=yes type=FWD name="zhihu.com" }
 :if ([:len [find name="zhimg.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-social-media-cn" match-subdomain=yes type=FWD name="zhimg.com" }

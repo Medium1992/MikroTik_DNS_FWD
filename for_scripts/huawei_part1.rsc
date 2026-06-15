@@ -82,6 +82,7 @@
 :if ([:len [find name="cdnhwczth23.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="huawei" match-subdomain=yes type=FWD name="cdnhwczth23.com" }
 :if ([:len [find name="cdnhwcztu09.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="huawei" match-subdomain=yes type=FWD name="cdnhwcztu09.com" }
 :if ([:len [find name="cdnhwczxh101.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="huawei" match-subdomain=yes type=FWD name="cdnhwczxh101.com" }
+:if ([:len [find name="chaspark.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="huawei" match-subdomain=yes type=FWD name="chaspark.com" }
 :if ([:len [find name="dbank.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="huawei" match-subdomain=yes type=FWD name="dbank.com" }
 :if ([:len [find name="dbankcdn.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="huawei" match-subdomain=yes type=FWD name="dbankcdn.com" }
 :if ([:len [find name="dbankcloud.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="huawei" match-subdomain=yes type=FWD name="dbankcloud.com" }
@@ -134,6 +135,7 @@
 :if ([:len [find name="huaweisre.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="huawei" match-subdomain=yes type=FWD name="huaweisre.com" }
 :if ([:len [find name="huaweistatic.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="huawei" match-subdomain=yes type=FWD name="huaweistatic.com" }
 :if ([:len [find name="huaweiyun.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="huawei" match-subdomain=yes type=FWD name="huaweiyun.com" }
+:if ([:len [find name="hwad.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="huawei" match-subdomain=yes type=FWD name="hwad.net" }
 :if ([:len [find name="hwastro.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="huawei" match-subdomain=yes type=FWD name="hwastro.com" }
 :if ([:len [find name="hwccpc.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="huawei" match-subdomain=yes type=FWD name="hwccpc.com" }
 :if ([:len [find name="hwcdnsre.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="huawei" match-subdomain=yes type=FWD name="hwcdnsre.com" }
@@ -149,5 +151,3 @@
 :if ([:len [find name="idonguapi.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="huawei" match-subdomain=yes type=FWD name="idonguapi.com" }
 :if ([:len [find name="imcapptest.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="huawei" match-subdomain=yes type=FWD name="imcapptest.com" }
 :if ([:len [find name="inanguapi.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="huawei" match-subdomain=yes type=FWD name="inanguapi.com" }
-:if ([:len [find name="ixiguapi.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="huawei" match-subdomain=yes type=FWD name="ixiguapi.com" }
-:if ([:len [find name="la-north-2.myhuaweicloud.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="huawei" match-subdomain=yes type=FWD name="la-north-2.myhuaweicloud.com" }
