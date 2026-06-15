@@ -9,3 +9,4 @@
 :if ([:len [find name="okx.cab"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="okx" match-subdomain=yes type=FWD name="okx.cab" }
 :if ([:len [find name="okx.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="okx" match-subdomain=yes type=FWD name="okx.com" }
 :if ([:len [find name="okx.com.cdn.cloudflare.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="okx" match-subdomain=yes type=FWD name="okx.com.cdn.cloudflare.net" }
+:if ([:len [find name="xlayer.tech"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="okx" match-subdomain=yes type=FWD name="xlayer.tech" }

@@ -1,6 +1,13 @@
 :global AddressList
 :global ForwardTo
 /ip dns static
+:if ([:len [find name="d25xi40x97liuc.cloudfront.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" type=FWD name="d25xi40x97liuc.cloudfront.net" }
+:if ([:len [find name="d27xxe7juh1us6.cloudfront.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" type=FWD name="d27xxe7juh1us6.cloudfront.net" }
+:if ([:len [find name="d2anahhhmp1ffz.cloudfront.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" type=FWD name="d2anahhhmp1ffz.cloudfront.net" }
+:if ([:len [find name="daily-cloudcode-pa.googleapis.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" type=FWD name="daily-cloudcode-pa.googleapis.com" }
+:if ([:len [find name="dartsearch-cn.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" type=FWD name="dartsearch-cn.net" }
+:if ([:len [find name="dc1-cert.ksn.kaspersky-labs.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" type=FWD name="dc1-cert.ksn.kaspersky-labs.com" }
+:if ([:len [find name="dc1-file.ksn.kaspersky-labs.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" type=FWD name="dc1-file.ksn.kaspersky-labs.com" }
 :if ([:len [find name="dc1-pp.ksn.kaspersky-labs.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" type=FWD name="dc1-pp.ksn.kaspersky-labs.com" }
 :if ([:len [find name="dc1-st.ksn.kaspersky-labs.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" type=FWD name="dc1-st.ksn.kaspersky-labs.com" }
 :if ([:len [find name="dc1.ksn.kaspersky-labs.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" type=FWD name="dc1.ksn.kaspersky-labs.com" }
@@ -144,10 +151,3 @@
 :if ([:len [find name="gspe19-cn.ls-apple.com.akadns.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" type=FWD name="gspe19-cn.ls-apple.com.akadns.net" }
 :if ([:len [find name="gspe19-cn.ls.apple.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" type=FWD name="gspe19-cn.ls.apple.com" }
 :if ([:len [find name="gspe21-ssl.ls.apple.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" type=FWD name="gspe21-ssl.ls.apple.com" }
-:if ([:len [find name="gspe35-ssl.ls.apple.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" type=FWD name="gspe35-ssl.ls.apple.com" }
-:if ([:len [find name="gspe79-cn-ssl.ls.apple.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" type=FWD name="gspe79-cn-ssl.ls.apple.com" }
-:if ([:len [find name="gspe85-cn-ssl.ls.apple.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" type=FWD name="gspe85-cn-ssl.ls.apple.com" }
-:if ([:len [find name="gstatic-cn.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" type=FWD name="gstatic-cn.com" }
-:if ([:len [find name="gstaticadssl.l.google.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" type=FWD name="gstaticadssl.l.google.com" }
-:if ([:len [find name="gtm.oasisfeng.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" type=FWD name="gtm.oasisfeng.com" }
-:if ([:len [find name="guzzoni-apple-com.v.aaplimg.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" type=FWD name="guzzoni-apple-com.v.aaplimg.com" }

@@ -52,7 +52,6 @@
 :if ([:len [find name="approvedusedbmw.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" match-subdomain=yes type=FWD name="approvedusedbmw.com" }
 :if ([:len [find name="apps.evozi.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" match-subdomain=yes type=FWD name="apps.evozi.com" }
 :if ([:len [find name="apps5.oingo.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" match-subdomain=yes type=FWD name="apps5.oingo.com" }
-:if ([:len [find name="appsflayer.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" match-subdomain=yes type=FWD name="appsflayer.com" }
 :if ([:len [find name="appshopper.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" match-subdomain=yes type=FWD name="appshopper.com" }
 :if ([:len [find name="appsmail.ru"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" match-subdomain=yes type=FWD name="appsmail.ru" }
 :if ([:len [find name="appsocks.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" match-subdomain=yes type=FWD name="appsocks.net" }
@@ -151,3 +150,4 @@
 :if ([:len [find name="ashemaletv.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" match-subdomain=yes type=FWD name="ashemaletv.com" }
 :if ([:len [find name="ashikagabank.co.jp"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" match-subdomain=yes type=FWD name="ashikagabank.co.jp" }
 :if ([:len [find name="ashleysageellison.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" match-subdomain=yes type=FWD name="ashleysageellison.com" }
+:if ([:len [find name="asia-pay.ru"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" match-subdomain=yes type=FWD name="asia-pay.ru" }

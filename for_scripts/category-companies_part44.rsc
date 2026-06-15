@@ -1,6 +1,13 @@
 :global AddressList
 :global ForwardTo
 /ip dns static
+:if ([:len [find name="sequoia.apple.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" type=FWD name="sequoia.apple.com" }
+:if ([:len [find name="service.urchin.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" type=FWD name="service.urchin.com" }
+:if ([:len [find name="sf-api-token-service.itunes.apple.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" type=FWD name="sf-api-token-service.itunes.apple.com" }
+:if ([:len [find name="sh-pod2-smp-device.apple.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" type=FWD name="sh-pod2-smp-device.apple.com" }
+:if ([:len [find name="shazam-insights.cdn-apple.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" type=FWD name="shazam-insights.cdn-apple.com" }
+:if ([:len [find name="shell.cdn.office.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" type=FWD name="shell.cdn.office.net" }
+:if ([:len [find name="si.cdn.dell.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" type=FWD name="si.cdn.dell.com" }
 :if ([:len [find name="sm.dell.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" type=FWD name="sm.dell.com" }
 :if ([:len [find name="smp-device-content.apple.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" type=FWD name="smp-device-content.apple.com" }
 :if ([:len [find name="sni1dcb6gl.wpc.edgecastcdn.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" type=FWD name="sni1dcb6gl.wpc.edgecastcdn.net" }
@@ -144,10 +151,3 @@
 :if ([:len [find name="wwis-dubc1-vip47.adobe.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" type=FWD name="wwis-dubc1-vip47.adobe.com" }
 :if ([:len [find name="wwis-dubc1-vip48.adobe.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" type=FWD name="wwis-dubc1-vip48.adobe.com" }
 :if ([:len [find name="wwis-dubc1-vip49.adobe.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" type=FWD name="wwis-dubc1-vip49.adobe.com" }
-:if ([:len [find name="wwis-dubc1-vip50.adobe.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" type=FWD name="wwis-dubc1-vip50.adobe.com" }
-:if ([:len [find name="wwis-dubc1-vip51.adobe.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" type=FWD name="wwis-dubc1-vip51.adobe.com" }
-:if ([:len [find name="wwis-dubc1-vip52.adobe.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" type=FWD name="wwis-dubc1-vip52.adobe.com" }
-:if ([:len [find name="wwis-dubc1-vip53.adobe.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" type=FWD name="wwis-dubc1-vip53.adobe.com" }
-:if ([:len [find name="wwis-dubc1-vip54.adobe.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" type=FWD name="wwis-dubc1-vip54.adobe.com" }
-:if ([:len [find name="wwis-dubc1-vip55.adobe.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" type=FWD name="wwis-dubc1-vip55.adobe.com" }
-:if ([:len [find name="wwis-dubc1-vip56.adobe.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" type=FWD name="wwis-dubc1-vip56.adobe.com" }
