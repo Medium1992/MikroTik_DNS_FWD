@@ -1,6 +1,8 @@
 :global AddressList
 :global ForwardTo
 /ip dns static
+:if ([:len [find name="snapp.supply"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-ir" match-subdomain=yes type=FWD name="snapp.supply" }
+:if ([:len [find name="snapp.taxi"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-ir" match-subdomain=yes type=FWD name="snapp.taxi" }
 :if ([:len [find name="snapp.tech"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-ir" match-subdomain=yes type=FWD name="snapp.tech" }
 :if ([:len [find name="snappcloud.io"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-ir" match-subdomain=yes type=FWD name="snappcloud.io" }
 :if ([:len [find name="snappfood.dev"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-ir" match-subdomain=yes type=FWD name="snappfood.dev" }

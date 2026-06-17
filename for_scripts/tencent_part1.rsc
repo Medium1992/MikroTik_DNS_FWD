@@ -60,6 +60,7 @@
 :if ([:len [find name="beacon.cdn.qq.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="tencent" match-subdomain=yes type=FWD name="beacon.cdn.qq.com" }
 :if ([:len [find name="beacon.qq.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="tencent" match-subdomain=yes type=FWD name="beacon.qq.com" }
 :if ([:len [find name="beaconcdn.qq.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="tencent" match-subdomain=yes type=FWD name="beaconcdn.qq.com" }
+:if ([:len [find name="binglianhuajianzhan.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="tencent" match-subdomain=yes type=FWD name="binglianhuajianzhan.com" }
 :if ([:len [find name="bkapigw.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="tencent" match-subdomain=yes type=FWD name="bkapigw.com" }
 :if ([:len [find name="bkapps.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="tencent" match-subdomain=yes type=FWD name="bkapps.com" }
 :if ([:len [find name="bkclouds.cc"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="tencent" match-subdomain=yes type=FWD name="bkclouds.cc" }
@@ -150,4 +151,3 @@
 :if ([:len [find name="fymallqa2.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="tencent" match-subdomain=yes type=FWD name="fymallqa2.com" }
 :if ([:len [find name="fymallqa3.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="tencent" match-subdomain=yes type=FWD name="fymallqa3.com" }
 :if ([:len [find name="fymallqa4.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="tencent" match-subdomain=yes type=FWD name="fymallqa4.com" }
-:if ([:len [find name="fymallqa7.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="tencent" match-subdomain=yes type=FWD name="fymallqa7.com" }

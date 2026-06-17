@@ -131,6 +131,7 @@
 :if ([:len [find name="celebgramme.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" match-subdomain=yes type=FWD name="celebgramme.com" }
 :if ([:len [find name="celebmasta.live"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" match-subdomain=yes type=FWD name="celebmasta.live" }
 :if ([:len [find name="celebritygay.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" match-subdomain=yes type=FWD name="celebritygay.com" }
+:if ([:len [find name="celebritymoviearchive.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" match-subdomain=yes type=FWD name="celebritymoviearchive.com" }
 :if ([:len [find name="celebritynakeds.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" match-subdomain=yes type=FWD name="celebritynakeds.com" }
 :if ([:len [find name="celebrityslips.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" match-subdomain=yes type=FWD name="celebrityslips.com" }
 :if ([:len [find name="celebritystorysite.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" match-subdomain=yes type=FWD name="celebritystorysite.com" }
@@ -150,4 +151,3 @@
 :if ([:len [find name="centralnation.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" match-subdomain=yes type=FWD name="centralnation.com" }
 :if ([:len [find name="centraluniversity.ru"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" match-subdomain=yes type=FWD name="centraluniversity.ru" }
 :if ([:len [find name="centralvalidation.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" match-subdomain=yes type=FWD name="centralvalidation.com" }
-:if ([:len [find name="centrino.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" match-subdomain=yes type=FWD name="centrino.com" }

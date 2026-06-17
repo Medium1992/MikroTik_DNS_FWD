@@ -96,6 +96,8 @@
 :if ([:len [find name="mehrnews.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-ir" match-subdomain=yes type=FWD name="mehrnews.com" }
 :if ([:len [find name="mellatbroker.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-ir" match-subdomain=yes type=FWD name="mellatbroker.com" }
 :if ([:len [find name="mellatinsurance.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-ir" match-subdomain=yes type=FWD name="mellatinsurance.com" }
+:if ([:len [find name="melodify.app"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-ir" match-subdomain=yes type=FWD name="melodify.app" }
+:if ([:len [find name="melodify.pw"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-ir" match-subdomain=yes type=FWD name="melodify.pw" }
 :if ([:len [find name="mihanwebhost.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-ir" match-subdomain=yes type=FWD name="mihanwebhost.com" }
 :if ([:len [find name="mofidonline.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-ir" match-subdomain=yes type=FWD name="mofidonline.com" }
 :if ([:len [find name="mrbilit.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-ir" match-subdomain=yes type=FWD name="mrbilit.com" }
@@ -149,5 +151,3 @@
 :if ([:len [find name="snapp.express"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-ir" match-subdomain=yes type=FWD name="snapp.express" }
 :if ([:len [find name="snapp.ninja"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-ir" match-subdomain=yes type=FWD name="snapp.ninja" }
 :if ([:len [find name="snapp.site"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-ir" match-subdomain=yes type=FWD name="snapp.site" }
-:if ([:len [find name="snapp.supply"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-ir" match-subdomain=yes type=FWD name="snapp.supply" }
-:if ([:len [find name="snapp.taxi"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-ir" match-subdomain=yes type=FWD name="snapp.taxi" }
