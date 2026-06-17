@@ -12,6 +12,8 @@
 :if ([:len [find name="iribtv.ir"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-media-ir" match-subdomain=yes type=FWD name="iribtv.ir" }
 :if ([:len [find name="irinn.ir"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-media-ir" match-subdomain=yes type=FWD name="irinn.ir" }
 :if ([:len [find name="jjtvn.ir"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-media-ir" match-subdomain=yes type=FWD name="jjtvn.ir" }
+:if ([:len [find name="melodify.app"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-media-ir" match-subdomain=yes type=FWD name="melodify.app" }
+:if ([:len [find name="melodify.pw"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-media-ir" match-subdomain=yes type=FWD name="melodify.pw" }
 :if ([:len [find name="namava.ir"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-media-ir" match-subdomain=yes type=FWD name="namava.ir" }
 :if ([:len [find name="qurantv.ir"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-media-ir" match-subdomain=yes type=FWD name="qurantv.ir" }
 :if ([:len [find name="radio.ir"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-media-ir" match-subdomain=yes type=FWD name="radio.ir" }
