@@ -1,7 +1,6 @@
 :global AddressList
 :global ForwardTo
 /ip dns static
-:if ([:len [find name="wbagora.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-games-!cn" match-subdomain=yes type=FWD name="wbagora.com" }
 :if ([:len [find name="wbgames.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-games-!cn" match-subdomain=yes type=FWD name="wbgames.com" }
 :if ([:len [find name="wbinsights.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-games-!cn" match-subdomain=yes type=FWD name="wbinsights.com" }
 :if ([:len [find name="wgcdn.co"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-games-!cn" match-subdomain=yes type=FWD name="wgcdn.co" }
@@ -126,6 +125,8 @@
 :if ([:len [find name="steamusercontent-a.akamaihd.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-games-!cn" type=FWD name="steamusercontent-a.akamaihd.net" }
 :if ([:len [find name="steamuserimages-a.akamaihd.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-games-!cn" type=FWD name="steamuserimages-a.akamaihd.net" }
 :if ([:len [find name="steamvideo-a.akamaihd.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-games-!cn" type=FWD name="steamvideo-a.akamaihd.net" }
+:if ([:len [find name="supercell.helpshift.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-games-!cn" type=FWD name="supercell.helpshift.com" }
+:if ([:len [find name="supercell.zendesk.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-games-!cn" type=FWD name="supercell.zendesk.com" }
 :if ([:len [find name="ubisoft-orbit-savegames.s3.amazonaws.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-games-!cn" type=FWD name="ubisoft-orbit-savegames.s3.amazonaws.com" }
 :if ([:len [find name="ubisoft-uplay-savegames.s3.amazonaws.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-games-!cn" type=FWD name="ubisoft-uplay-savegames.s3.amazonaws.com" }
 :if ([:len [find name="ubisoft.siteintercept.qualtrics.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-games-!cn" type=FWD name="ubisoft.siteintercept.qualtrics.com" }
@@ -150,4 +151,3 @@
 :if ([:len [find name="ubistatic4-a.akamaihd.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-games-!cn" type=FWD name="ubistatic4-a.akamaihd.net" }
 :if ([:len [find name="ubistatic5-a.akamaihd.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-games-!cn" type=FWD name="ubistatic5-a.akamaihd.net" }
 :if ([:len [find name="ubistatic6-a.akamaihd.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-games-!cn" type=FWD name="ubistatic6-a.akamaihd.net" }
-:if ([:len [find name="ubistatic7-a.akamaihd.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-games-!cn" type=FWD name="ubistatic7-a.akamaihd.net" }

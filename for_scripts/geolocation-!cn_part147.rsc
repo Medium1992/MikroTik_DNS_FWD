@@ -1,6 +1,13 @@
 :global AddressList
 :global ForwardTo
 /ip dns static
+:if ([:len [find name="activate-sjc0.adobe.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" type=FWD name="activate-sjc0.adobe.com" }
+:if ([:len [find name="activate.adobe.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" type=FWD name="activate.adobe.com" }
+:if ([:len [find name="activate.wip1.adobe.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" type=FWD name="activate.wip1.adobe.com" }
+:if ([:len [find name="activate.wip2.adobe.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" type=FWD name="activate.wip2.adobe.com" }
+:if ([:len [find name="activate.wip3.adobe.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" type=FWD name="activate.wip3.adobe.com" }
+:if ([:len [find name="activate.wip4.adobe.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" type=FWD name="activate.wip4.adobe.com" }
+:if ([:len [find name="adobe-dns-1.adobe.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" type=FWD name="adobe-dns-1.adobe.com" }
 :if ([:len [find name="adobe-dns-2.adobe.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" type=FWD name="adobe-dns-2.adobe.com" }
 :if ([:len [find name="adobe-dns-3.adobe.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" type=FWD name="adobe-dns-3.adobe.com" }
 :if ([:len [find name="adobe-dns-4.adobe.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" type=FWD name="adobe-dns-4.adobe.com" }
@@ -144,10 +151,3 @@
 :if ([:len [find name="e122475.dscg.akamaiedge.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" type=FWD name="e122475.dscg.akamaiedge.net" }
 :if ([:len [find name="ea.tt.omtrdc.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" type=FWD name="ea.tt.omtrdc.net" }
 :if ([:len [find name="eaassets-a.akamaihd.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" type=FWD name="eaassets-a.akamaihd.net" }
-:if ([:len [find name="ebay-25-assets.s3-us-west-1.amazonaws.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" type=FWD name="ebay-25-assets.s3-us-west-1.amazonaws.com" }
-:if ([:len [find name="ecapi-pchome.cdn.hinet.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" type=FWD name="ecapi-pchome.cdn.hinet.net" }
-:if ([:len [find name="edu.tinkoff.ru"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" type=FWD name="edu.tinkoff.ru" }
-:if ([:len [find name="education.tbank.ru"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" type=FWD name="education.tbank.ru" }
-:if ([:len [find name="efe8f8a4-abd5-44c9-bf5c-cd217442c52f.t.ssp.hinet.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" type=FWD name="efe8f8a4-abd5-44c9-bf5c-cd217442c52f.t.ssp.hinet.net" }
-:if ([:len [find name="elib.maruzen.co.jp"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" type=FWD name="elib.maruzen.co.jp" }
-:if ([:len [find name="epc-de-agent-proxy.germanywestcentral.cloudapp.azure.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" type=FWD name="epc-de-agent-proxy.germanywestcentral.cloudapp.azure.com" }

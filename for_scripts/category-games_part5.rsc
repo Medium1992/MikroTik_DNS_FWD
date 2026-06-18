@@ -92,7 +92,6 @@
 :if ([:len [find name="stellasora.global"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-games" match-subdomain=yes type=FWD name="stellasora.global" }
 :if ([:len [find name="stellasora.jp"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-games" match-subdomain=yes type=FWD name="stellasora.jp" }
 :if ([:len [find name="supercell.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-games" match-subdomain=yes type=FWD name="supercell.com" }
-:if ([:len [find name="supercell.helpshift.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-games" match-subdomain=yes type=FWD name="supercell.helpshift.com" }
 :if ([:len [find name="supercell.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-games" match-subdomain=yes type=FWD name="supercell.net" }
 :if ([:len [find name="supercellcreators.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-games" match-subdomain=yes type=FWD name="supercellcreators.com" }
 :if ([:len [find name="supercellgames.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-games" match-subdomain=yes type=FWD name="supercellgames.com" }
@@ -151,3 +150,4 @@
 :if ([:len [find name="unraveltwo.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-games" match-subdomain=yes type=FWD name="unraveltwo.com" }
 :if ([:len [find name="unrealengine.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-games" match-subdomain=yes type=FWD name="unrealengine.com" }
 :if ([:len [find name="unrealtournament.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-games" match-subdomain=yes type=FWD name="unrealtournament.com" }
+:if ([:len [find name="uo.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-games" match-subdomain=yes type=FWD name="uo.com" }
