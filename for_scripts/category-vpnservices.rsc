@@ -17,6 +17,7 @@
 :if ([:len [find name="ctyun.online"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-vpnservices" match-subdomain=yes type=FWD name="ctyun.online" }
 :if ([:len [find name="cylink.pro"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-vpnservices" match-subdomain=yes type=FWD name="cylink.pro" }
 :if ([:len [find name="cylink0122.icu"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-vpnservices" match-subdomain=yes type=FWD name="cylink0122.icu" }
+:if ([:len [find name="dfvpn.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-vpnservices" match-subdomain=yes type=FWD name="dfvpn.com" }
 :if ([:len [find name="dlercloud.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-vpnservices" match-subdomain=yes type=FWD name="dlercloud.com" }
 :if ([:len [find name="dlercloud.me"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-vpnservices" match-subdomain=yes type=FWD name="dlercloud.me" }
 :if ([:len [find name="dlercloud.org"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-vpnservices" match-subdomain=yes type=FWD name="dlercloud.org" }
