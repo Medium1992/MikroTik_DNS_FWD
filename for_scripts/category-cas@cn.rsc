@@ -25,4 +25,3 @@
 :if ([:len [find name="pki-goog.l.google.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-cas@cn" type=FWD name="pki-goog.l.google.com" }
 :if ([:len [find name="valid.apple.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-cas@cn" type=FWD name="valid.apple.com" }
 :if ([:len [find name="valid.origin-apple.com.akadns.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-cas@cn" type=FWD name="valid.origin-apple.com.akadns.net" }
-:if ([:len [find name="www.microsoft.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-cas@cn" type=FWD name="www.microsoft.com" }

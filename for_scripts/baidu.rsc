@@ -41,6 +41,7 @@
 :if ([:len [find name="cbjs.baidu.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="baidu" match-subdomain=yes type=FWD name="cbjs.baidu.com" }
 :if ([:len [find name="chuanke.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="baidu" match-subdomain=yes type=FWD name="chuanke.com" }
 :if ([:len [find name="cm.baidu.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="baidu" match-subdomain=yes type=FWD name="cm.baidu.com" }
+:if ([:len [find name="combofin.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="baidu" match-subdomain=yes type=FWD name="combofin.com" }
 :if ([:len [find name="cpro.baidu.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="baidu" match-subdomain=yes type=FWD name="cpro.baidu.com" }
 :if ([:len [find name="cpro.baidustatic.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="baidu" match-subdomain=yes type=FWD name="cpro.baidustatic.com" }
 :if ([:len [find name="cpu.baidu.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="baidu" match-subdomain=yes type=FWD name="cpu.baidu.com" }
@@ -56,9 +57,11 @@
 :if ([:len [find name="duxiaoman-int.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="baidu" match-subdomain=yes type=FWD name="duxiaoman-int.com" }
 :if ([:len [find name="duxiaoman.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="baidu" match-subdomain=yes type=FWD name="duxiaoman.com" }
 :if ([:len [find name="duxiaomanfintech.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="baidu" match-subdomain=yes type=FWD name="duxiaomanfintech.com" }
+:if ([:len [find name="duxiaomanfund.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="baidu" match-subdomain=yes type=FWD name="duxiaomanfund.com" }
 :if ([:len [find name="duxiaomantech.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="baidu" match-subdomain=yes type=FWD name="duxiaomantech.com" }
 :if ([:len [find name="dxm-cdn.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="baidu" match-subdomain=yes type=FWD name="dxm-cdn.com" }
 :if ([:len [find name="dxm-int.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="baidu" match-subdomain=yes type=FWD name="dxm-int.com" }
+:if ([:len [find name="dxmbaoxian.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="baidu" match-subdomain=yes type=FWD name="dxmbaoxian.com" }
 :if ([:len [find name="dxmjinr.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="baidu" match-subdomain=yes type=FWD name="dxmjinr.com" }
 :if ([:len [find name="dxmlcf.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="baidu" match-subdomain=yes type=FWD name="dxmlcf.com" }
 :if ([:len [find name="dxmlcfintech.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="baidu" match-subdomain=yes type=FWD name="dxmlcfintech.com" }
