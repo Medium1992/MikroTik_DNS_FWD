@@ -48,7 +48,10 @@
 :if ([:len [find name="vsassets.io"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="microsoft-dev" match-subdomain=yes type=FWD name="vsassets.io" }
 :if ([:len [find name="vscode-cdn.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="microsoft-dev" match-subdomain=yes type=FWD name="vscode-cdn.net" }
 :if ([:len [find name="vscode-unpkg.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="microsoft-dev" match-subdomain=yes type=FWD name="vscode-unpkg.net" }
+:if ([:len [find name="vscode-webview.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="microsoft-dev" match-subdomain=yes type=FWD name="vscode-webview.net" }
 :if ([:len [find name="vscode.dev"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="microsoft-dev" match-subdomain=yes type=FWD name="vscode.dev" }
+:if ([:len [find name="vscodeedu.app"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="microsoft-dev" match-subdomain=yes type=FWD name="vscodeedu.app" }
+:if ([:len [find name="vscodeedu.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="microsoft-dev" match-subdomain=yes type=FWD name="vscodeedu.com" }
 :if ([:len [find name="xamarin.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="microsoft-dev" match-subdomain=yes type=FWD name="xamarin.com" }
 :if ([:len [find name="az764295.vo.msecnd.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="microsoft-dev" type=FWD name="az764295.vo.msecnd.net" }
 :if ([:len [find name="bingsettingssearch.trafficmanager.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="microsoft-dev" type=FWD name="bingsettingssearch.trafficmanager.net" }

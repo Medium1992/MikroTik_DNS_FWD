@@ -91,6 +91,7 @@
 :if ([:len [find name="allspyclips.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" match-subdomain=yes type=FWD name="allspyclips.com" }
 :if ([:len [find name="allswingersclubs.org"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" match-subdomain=yes type=FWD name="allswingersclubs.org" }
 :if ([:len [find name="allthefallen.moe"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" match-subdomain=yes type=FWD name="allthefallen.moe" }
+:if ([:len [find name="almalinux.org"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" match-subdomain=yes type=FWD name="almalinux.org" }
 :if ([:len [find name="alohatube.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" match-subdomain=yes type=FWD name="alohatube.com" }
 :if ([:len [find name="alotporn.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" match-subdomain=yes type=FWD name="alotporn.com" }
 :if ([:len [find name="alphabet.asia"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" match-subdomain=yes type=FWD name="alphabet.asia" }
@@ -150,4 +151,3 @@
 :if ([:len [find name="amateurgalore.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" match-subdomain=yes type=FWD name="amateurgalore.net" }
 :if ([:len [find name="amateurgirlfriends.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" match-subdomain=yes type=FWD name="amateurgirlfriends.net" }
 :if ([:len [find name="amateurhomevids.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" match-subdomain=yes type=FWD name="amateurhomevids.com" }
-:if ([:len [find name="amateurhousewifefuck.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" match-subdomain=yes type=FWD name="amateurhousewifefuck.com" }

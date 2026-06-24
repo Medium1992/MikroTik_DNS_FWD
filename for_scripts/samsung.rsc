@@ -12,10 +12,12 @@
 :if ([:len [find name="samsungads.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="samsung" match-subdomain=yes type=FWD name="samsungads.com" }
 :if ([:len [find name="samsungapps.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="samsung" match-subdomain=yes type=FWD name="samsungapps.com" }
 :if ([:len [find name="samsungcloud.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="samsung" match-subdomain=yes type=FWD name="samsungcloud.com" }
+:if ([:len [find name="samsungcloudcn.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="samsung" match-subdomain=yes type=FWD name="samsungcloudcn.com" }
 :if ([:len [find name="samsungconsent.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="samsung" match-subdomain=yes type=FWD name="samsungconsent.com" }
 :if ([:len [find name="samsungdm.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="samsung" match-subdomain=yes type=FWD name="samsungdm.com" }
 :if ([:len [find name="samsunggalaxyfriends.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="samsung" match-subdomain=yes type=FWD name="samsunggalaxyfriends.com" }
 :if ([:len [find name="samsunghealth.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="samsung" match-subdomain=yes type=FWD name="samsunghealth.com" }
+:if ([:len [find name="samsunghealthcn.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="samsung" match-subdomain=yes type=FWD name="samsunghealthcn.com" }
 :if ([:len [find name="samsungiotcloud.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="samsung" match-subdomain=yes type=FWD name="samsungiotcloud.com" }
 :if ([:len [find name="samsungiots.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="samsung" match-subdomain=yes type=FWD name="samsungiots.com" }
 :if ([:len [find name="samsungknox.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="samsung" match-subdomain=yes type=FWD name="samsungknox.com" }

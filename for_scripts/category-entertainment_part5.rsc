@@ -29,6 +29,7 @@
 :if ([:len [find name="leaguesharp.info"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-entertainment" match-subdomain=yes type=FWD name="leaguesharp.info" }
 :if ([:len [find name="leaguoflegends.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-entertainment" match-subdomain=yes type=FWD name="leaguoflegends.com" }
 :if ([:len [find name="learnwithleague.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-entertainment" match-subdomain=yes type=FWD name="learnwithleague.com" }
+:if ([:len [find name="lifeatspotify.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-entertainment" match-subdomain=yes type=FWD name="lifeatspotify.com" }
 :if ([:len [find name="linetv.tw"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-entertainment" match-subdomain=yes type=FWD name="linetv.tw" }
 :if ([:len [find name="litbus-anime.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-entertainment" match-subdomain=yes type=FWD name="litbus-anime.com" }
 :if ([:len [find name="litv.tv"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-entertainment" match-subdomain=yes type=FWD name="litv.tv" }
@@ -150,4 +151,3 @@
 :if ([:len [find name="needforspeedredline.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-entertainment" match-subdomain=yes type=FWD name="needforspeedredline.com" }
 :if ([:len [find name="needforspeedshowdown.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-entertainment" match-subdomain=yes type=FWD name="needforspeedshowdown.com" }
 :if ([:len [find name="needforspeedstreetkings.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-entertainment" match-subdomain=yes type=FWD name="needforspeedstreetkings.com" }
-:if ([:len [find name="needforspeedtakedown.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-entertainment" match-subdomain=yes type=FWD name="needforspeedtakedown.com" }

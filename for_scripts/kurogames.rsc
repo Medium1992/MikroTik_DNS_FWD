@@ -6,6 +6,7 @@
 :if ([:len [find name="aki-game2.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="kurogames" match-subdomain=yes type=FWD name="aki-game2.com" }
 :if ([:len [find name="aki-game2.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="kurogames" match-subdomain=yes type=FWD name="aki-game2.net" }
 :if ([:len [find name="kurobbs.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="kurogames" match-subdomain=yes type=FWD name="kurobbs.com" }
+:if ([:len [find name="kurogame-service.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="kurogames" match-subdomain=yes type=FWD name="kurogame-service.com" }
 :if ([:len [find name="kurogame.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="kurogames" match-subdomain=yes type=FWD name="kurogame.com" }
 :if ([:len [find name="kurogame.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="kurogames" match-subdomain=yes type=FWD name="kurogame.net" }
 :if ([:len [find name="kurogame.xyz"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="kurogames" match-subdomain=yes type=FWD name="kurogame.xyz" }

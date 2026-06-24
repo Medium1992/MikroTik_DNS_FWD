@@ -1,6 +1,17 @@
 :global AddressList
 :global ForwardTo
 /ip dns static
+:if ([:len [find name="d2dylwb3shzel1.cloudfront.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" type=FWD name="d2dylwb3shzel1.cloudfront.net" }
+:if ([:len [find name="d2e2de1etea730.cloudfront.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" type=FWD name="d2e2de1etea730.cloudfront.net" }
+:if ([:len [find name="d2nvs31859zcd8.cloudfront.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" type=FWD name="d2nvs31859zcd8.cloudfront.net" }
+:if ([:len [find name="d2um2qdswy1tb0.cloudfront.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" type=FWD name="d2um2qdswy1tb0.cloudfront.net" }
+:if ([:len [find name="d2vjef5jvl6bfs.cloudfront.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" type=FWD name="d2vjef5jvl6bfs.cloudfront.net" }
+:if ([:len [find name="d2xmjdvx03ij56.cloudfront.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" type=FWD name="d2xmjdvx03ij56.cloudfront.net" }
+:if ([:len [find name="d33wubrfki0l68.cloudfront.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" type=FWD name="d33wubrfki0l68.cloudfront.net" }
+:if ([:len [find name="d36nr0u3xmc4mm.cloudfront.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" type=FWD name="d36nr0u3xmc4mm.cloudfront.net" }
+:if ([:len [find name="d3aqoihi2n8ty8.cloudfront.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" type=FWD name="d3aqoihi2n8ty8.cloudfront.net" }
+:if ([:len [find name="d3c27h4odz752x.cloudfront.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" type=FWD name="d3c27h4odz752x.cloudfront.net" }
+:if ([:len [find name="d3r7nsslvs6aaf.cloudfront.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" type=FWD name="d3r7nsslvs6aaf.cloudfront.net" }
 :if ([:len [find name="d3vd9lfkzbru3h.cloudfront.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" type=FWD name="d3vd9lfkzbru3h.cloudfront.net" }
 :if ([:len [find name="d6d4ismr40iw.cloudfront.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" type=FWD name="d6d4ismr40iw.cloudfront.net" }
 :if ([:len [find name="d6tizftlrpuof.cloudfront.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" type=FWD name="d6tizftlrpuof.cloudfront.net" }
@@ -140,14 +151,3 @@
 :if ([:len [find name="mtalk4.google.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" type=FWD name="mtalk4.google.com" }
 :if ([:len [find name="muse.jhu.edu"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" type=FWD name="muse.jhu.edu" }
 :if ([:len [find name="mwf-service.akamaized.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" type=FWD name="mwf-service.akamaized.net" }
-:if ([:len [find name="na1r.services.adobe.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" type=FWD name="na1r.services.adobe.com" }
-:if ([:len [find name="nab.demdex.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" type=FWD name="nab.demdex.net" }
-:if ([:len [find name="nationalaustraliaban.tt.omtrdc.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" type=FWD name="nationalaustraliaban.tt.omtrdc.net" }
-:if ([:len [find name="netflix.com.edgesuite.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" type=FWD name="netflix.com.edgesuite.net" }
-:if ([:len [find name="notary-submissions-prod.s3-accelerate.amazonaws.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" type=FWD name="notary-submissions-prod.s3-accelerate.amazonaws.com" }
-:if ([:len [find name="notary-submissions-prod.s3.us-west-2.amazonaws.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" type=FWD name="notary-submissions-prod.s3.us-west-2.amazonaws.com" }
-:if ([:len [find name="notebooklm-pa.googleapis.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" type=FWD name="notebooklm-pa.googleapis.com" }
-:if ([:len [find name="notebooklm.googleapis.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" type=FWD name="notebooklm.googleapis.com" }
-:if ([:len [find name="notify.ppy.sh"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" type=FWD name="notify.ppy.sh" }
-:if ([:len [find name="np-edge.itunes.apple.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" type=FWD name="np-edge.itunes.apple.com" }
-:if ([:len [find name="ntdfreemobile-tgc.cdn.hinet.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" type=FWD name="ntdfreemobile-tgc.cdn.hinet.net" }

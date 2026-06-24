@@ -1,6 +1,13 @@
 :global AddressList
 :global ForwardTo
 /ip dns static
+:if ([:len [find name="np-edge.itunes.apple.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" type=FWD name="np-edge.itunes.apple.com" }
+:if ([:len [find name="nvidia.custhelp.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" type=FWD name="nvidia.custhelp.com" }
+:if ([:len [find name="nvidia.tt.omtrdc.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" type=FWD name="nvidia.tt.omtrdc.net" }
+:if ([:len [find name="o.pki.goog"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" type=FWD name="o.pki.goog" }
+:if ([:len [find name="ocsp.apple.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" type=FWD name="ocsp.apple.com" }
+:if ([:len [find name="ocsp.microsoft.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" type=FWD name="ocsp.microsoft.com" }
+:if ([:len [find name="ocsp.pki.goog"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" type=FWD name="ocsp.pki.goog" }
 :if ([:len [find name="ocsp2.apple.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" type=FWD name="ocsp2.apple.com" }
 :if ([:len [find name="oemsoc.download.prss.microsoft.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" type=FWD name="oemsoc.download.prss.microsoft.com" }
 :if ([:len [find name="oemsocuat.download.prss.microsoft.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" type=FWD name="oemsocuat.download.prss.microsoft.com" }
@@ -144,10 +151,3 @@
 :if ([:len [find name="safebrowsing-cache.google.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" type=FWD name="safebrowsing-cache.google.com" }
 :if ([:len [find name="safebrowsing.googleapis.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" type=FWD name="safebrowsing.googleapis.com" }
 :if ([:len [find name="scene7-cdn.dell.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" type=FWD name="scene7-cdn.dell.com" }
-:if ([:len [find name="scholar.google.be"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" type=FWD name="scholar.google.be" }
-:if ([:len [find name="scholar.google.cat"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" type=FWD name="scholar.google.cat" }
-:if ([:len [find name="scholar.google.co.jp"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" type=FWD name="scholar.google.co.jp" }
-:if ([:len [find name="scholar.google.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" type=FWD name="scholar.google.com" }
-:if ([:len [find name="scholar.google.com.co"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" type=FWD name="scholar.google.com.co" }
-:if ([:len [find name="scholar.google.com.tw"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" type=FWD name="scholar.google.com.tw" }
-:if ([:len [find name="scholar.google.de"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" type=FWD name="scholar.google.de" }

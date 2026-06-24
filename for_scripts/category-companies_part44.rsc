@@ -1,6 +1,13 @@
 :global AddressList
 :global ForwardTo
 /ip dns static
+:if ([:len [find name="scholar.google.be"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" type=FWD name="scholar.google.be" }
+:if ([:len [find name="scholar.google.cat"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" type=FWD name="scholar.google.cat" }
+:if ([:len [find name="scholar.google.co.jp"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" type=FWD name="scholar.google.co.jp" }
+:if ([:len [find name="scholar.google.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" type=FWD name="scholar.google.com" }
+:if ([:len [find name="scholar.google.com.co"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" type=FWD name="scholar.google.com.co" }
+:if ([:len [find name="scholar.google.com.tw"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" type=FWD name="scholar.google.com.tw" }
+:if ([:len [find name="scholar.google.de"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" type=FWD name="scholar.google.de" }
 :if ([:len [find name="scholar.google.nl"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" type=FWD name="scholar.google.nl" }
 :if ([:len [find name="scholar.google.ru"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" type=FWD name="scholar.google.ru" }
 :if ([:len [find name="scholar.google.se"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" type=FWD name="scholar.google.se" }
@@ -144,10 +151,3 @@
 :if ([:len [find name="wwis-dubc1-vip111.adobe.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" type=FWD name="wwis-dubc1-vip111.adobe.com" }
 :if ([:len [find name="wwis-dubc1-vip112.adobe.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" type=FWD name="wwis-dubc1-vip112.adobe.com" }
 :if ([:len [find name="wwis-dubc1-vip113.adobe.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" type=FWD name="wwis-dubc1-vip113.adobe.com" }
-:if ([:len [find name="wwis-dubc1-vip114.adobe.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" type=FWD name="wwis-dubc1-vip114.adobe.com" }
-:if ([:len [find name="wwis-dubc1-vip115.adobe.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" type=FWD name="wwis-dubc1-vip115.adobe.com" }
-:if ([:len [find name="wwis-dubc1-vip116.adobe.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" type=FWD name="wwis-dubc1-vip116.adobe.com" }
-:if ([:len [find name="wwis-dubc1-vip117.adobe.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" type=FWD name="wwis-dubc1-vip117.adobe.com" }
-:if ([:len [find name="wwis-dubc1-vip118.adobe.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" type=FWD name="wwis-dubc1-vip118.adobe.com" }
-:if ([:len [find name="wwis-dubc1-vip119.adobe.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" type=FWD name="wwis-dubc1-vip119.adobe.com" }
-:if ([:len [find name="wwis-dubc1-vip120.adobe.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" type=FWD name="wwis-dubc1-vip120.adobe.com" }

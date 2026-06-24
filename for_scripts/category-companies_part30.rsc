@@ -1,6 +1,8 @@
 :global AddressList
 :global ForwardTo
 /ip dns static
+:if ([:len [find name="openamt.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" match-subdomain=yes type=FWD name="openamt.com" }
+:if ([:len [find name="openapiplatform.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" match-subdomain=yes type=FWD name="openapiplatform.com" }
 :if ([:len [find name="openapiservice.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" match-subdomain=yes type=FWD name="openapiservice.com" }
 :if ([:len [find name="opencas.io"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" match-subdomain=yes type=FWD name="opencas.io" }
 :if ([:len [find name="opencreate.org"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" match-subdomain=yes type=FWD name="opencreate.org" }
@@ -149,5 +151,3 @@
 :if ([:len [find name="powerappscdn.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" match-subdomain=yes type=FWD name="powerappscdn.net" }
 :if ([:len [find name="powerautomate.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" match-subdomain=yes type=FWD name="powerautomate.com" }
 :if ([:len [find name="powerbeats2wireless.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" match-subdomain=yes type=FWD name="powerbeats2wireless.com" }
-:if ([:len [find name="powerbeatsbydrdre.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" match-subdomain=yes type=FWD name="powerbeatsbydrdre.com" }
-:if ([:len [find name="powerbeatsbydre.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" match-subdomain=yes type=FWD name="powerbeatsbydre.com" }

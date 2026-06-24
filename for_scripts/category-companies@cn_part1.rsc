@@ -61,6 +61,8 @@
 :if ([:len [find name="razerapi.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies@cn" match-subdomain=yes type=FWD name="razerapi.com" }
 :if ([:len [find name="razersynapse.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies@cn" match-subdomain=yes type=FWD name="razersynapse.com" }
 :if ([:len [find name="razerzone.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies@cn" match-subdomain=yes type=FWD name="razerzone.com" }
+:if ([:len [find name="samsungcloudcn.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies@cn" match-subdomain=yes type=FWD name="samsungcloudcn.com" }
+:if ([:len [find name="samsunghealthcn.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies@cn" match-subdomain=yes type=FWD name="samsunghealthcn.com" }
 :if ([:len [find name="th.bing.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies@cn" match-subdomain=yes type=FWD name="th.bing.com" }
 :if ([:len [find name="ubnt.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies@cn" match-subdomain=yes type=FWD name="ubnt.com" }
 :if ([:len [find name="uwn.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies@cn" match-subdomain=yes type=FWD name="uwn.com" }
@@ -149,5 +151,3 @@
 :if ([:len [find name="cl3-cdn.origin-apple.com.akadns.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies@cn" type=FWD name="cl3-cdn.origin-apple.com.akadns.net" }
 :if ([:len [find name="cl3.apple.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies@cn" type=FWD name="cl3.apple.com" }
 :if ([:len [find name="cl4-cdn.origin-apple.com.akadns.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies@cn" type=FWD name="cl4-cdn.origin-apple.com.akadns.net" }
-:if ([:len [find name="cl4-cn.apple.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies@cn" type=FWD name="cl4-cn.apple.com" }
-:if ([:len [find name="cl4.apple.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies@cn" type=FWD name="cl4.apple.com" }

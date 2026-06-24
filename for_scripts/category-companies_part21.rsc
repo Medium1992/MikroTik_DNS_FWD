@@ -1,6 +1,8 @@
 :global AddressList
 :global ForwardTo
 /ip dns static
+:if ([:len [find name="hpkeyboard.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" match-subdomain=yes type=FWD name="hpkeyboard.com" }
+:if ([:len [find name="hplaptop.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" match-subdomain=yes type=FWD name="hplaptop.com" }
 :if ([:len [find name="hplaptopbattery.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" match-subdomain=yes type=FWD name="hplaptopbattery.com" }
 :if ([:len [find name="hplargeformatremote.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" match-subdomain=yes type=FWD name="hplargeformatremote.com" }
 :if ([:len [find name="hplatexknowledgecenter.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" match-subdomain=yes type=FWD name="hplatexknowledgecenter.com" }
@@ -149,5 +151,3 @@
 :if ([:len [find name="icqmail.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" match-subdomain=yes type=FWD name="icqmail.net" }
 :if ([:len [find name="icqonline.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" match-subdomain=yes type=FWD name="icqonline.com" }
 :if ([:len [find name="icqpassword.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" match-subdomain=yes type=FWD name="icqpassword.com" }
-:if ([:len [find name="icqpeople.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" match-subdomain=yes type=FWD name="icqpeople.com" }
-:if ([:len [find name="icqservers.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" match-subdomain=yes type=FWD name="icqservers.com" }

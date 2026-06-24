@@ -134,6 +134,7 @@
 :if ([:len [find name="efproject.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="microsoft" match-subdomain=yes type=FWD name="efproject.net" }
 :if ([:len [find name="elderscrolls.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="microsoft" match-subdomain=yes type=FWD name="elderscrolls.com" }
 :if ([:len [find name="engkoo.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="microsoft" match-subdomain=yes type=FWD name="engkoo.com" }
+:if ([:len [find name="exp-tas.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="microsoft" match-subdomain=yes type=FWD name="exp-tas.com" }
 :if ([:len [find name="fasttrackreadysupport.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="microsoft" match-subdomain=yes type=FWD name="fasttrackreadysupport.com" }
 :if ([:len [find name="femalefounderscomp.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="microsoft" match-subdomain=yes type=FWD name="femalefounderscomp.com" }
 :if ([:len [find name="flightsimulator.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="microsoft" match-subdomain=yes type=FWD name="flightsimulator.com" }
@@ -150,4 +151,3 @@
 :if ([:len [find name="gears5.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="microsoft" match-subdomain=yes type=FWD name="gears5.com" }
 :if ([:len [find name="gearspop.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="microsoft" match-subdomain=yes type=FWD name="gearspop.com" }
 :if ([:len [find name="gearstactics.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="microsoft" match-subdomain=yes type=FWD name="gearstactics.com" }
-:if ([:len [find name="gh.io"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="microsoft" match-subdomain=yes type=FWD name="gh.io" }

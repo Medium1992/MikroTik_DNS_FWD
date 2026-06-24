@@ -33,7 +33,6 @@
 :if ([:len [find name="stun.rounds.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-stun" type=FWD name="stun.rounds.com" }
 :if ([:len [find name="stun.ru-brides.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-stun" type=FWD name="stun.ru-brides.com" }
 :if ([:len [find name="stun.rynga.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-stun" type=FWD name="stun.rynga.com" }
-:if ([:len [find name="stun.samsungsmartcam.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-stun" type=FWD name="stun.samsungsmartcam.com" }
 :if ([:len [find name="stun.schlund.de"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-stun" type=FWD name="stun.schlund.de" }
 :if ([:len [find name="stun.services.mozilla.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-stun" type=FWD name="stun.services.mozilla.com" }
 :if ([:len [find name="stun.sigmavoip.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-stun" type=FWD name="stun.sigmavoip.com" }

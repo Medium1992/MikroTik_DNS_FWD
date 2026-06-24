@@ -1,6 +1,11 @@
 :global AddressList
 :global ForwardTo
 /ip dns static
+:if ([:len [find name="windowsphone.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="microsoft" match-subdomain=yes type=FWD name="windowsphone.com" }
+:if ([:len [find name="windowssearch.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="microsoft" match-subdomain=yes type=FWD name="windowssearch.com" }
+:if ([:len [find name="windowsupdate.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="microsoft" match-subdomain=yes type=FWD name="windowsupdate.com" }
+:if ([:len [find name="winhec.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="microsoft" match-subdomain=yes type=FWD name="winhec.com" }
+:if ([:len [find name="winhec.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="microsoft" match-subdomain=yes type=FWD name="winhec.net" }
 :if ([:len [find name="xamarin.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="microsoft" match-subdomain=yes type=FWD name="xamarin.com" }
 :if ([:len [find name="xbox"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="microsoft" match-subdomain=yes type=FWD name="xbox" }
 :if ([:len [find name="xbox.co"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="microsoft" match-subdomain=yes type=FWD name="xbox.co" }

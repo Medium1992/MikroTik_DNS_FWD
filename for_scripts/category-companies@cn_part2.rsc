@@ -1,6 +1,8 @@
 :global AddressList
 :global ForwardTo
 /ip dns static
+:if ([:len [find name="cl4-cn.apple.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies@cn" type=FWD name="cl4-cn.apple.com" }
+:if ([:len [find name="cl4.apple.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies@cn" type=FWD name="cl4.apple.com" }
 :if ([:len [find name="cl5-cdn.origin-apple.com.akadns.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies@cn" type=FWD name="cl5-cdn.origin-apple.com.akadns.net" }
 :if ([:len [find name="cl5.apple.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies@cn" type=FWD name="cl5.apple.com" }
 :if ([:len [find name="clickserve.cc-dt.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies@cn" type=FWD name="clickserve.cc-dt.com" }
@@ -149,5 +151,3 @@
 :if ([:len [find name="gstatic-cn.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies@cn" type=FWD name="gstatic-cn.com" }
 :if ([:len [find name="gstaticadssl.l.google.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies@cn" type=FWD name="gstaticadssl.l.google.com" }
 :if ([:len [find name="gtm.oasisfeng.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies@cn" type=FWD name="gtm.oasisfeng.com" }
-:if ([:len [find name="guzzoni-apple-com.v.aaplimg.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies@cn" type=FWD name="guzzoni-apple-com.v.aaplimg.com" }
-:if ([:len [find name="guzzoni.apple.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies@cn" type=FWD name="guzzoni.apple.com" }

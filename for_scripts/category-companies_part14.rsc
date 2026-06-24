@@ -122,6 +122,7 @@
 :if ([:len [find name="eworld.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" match-subdomain=yes type=FWD name="eworld.com" }
 :if ([:len [find name="exacttarget.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" match-subdomain=yes type=FWD name="exacttarget.com" }
 :if ([:len [find name="exascale-tech.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" match-subdomain=yes type=FWD name="exascale-tech.com" }
+:if ([:len [find name="exp-tas.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" match-subdomain=yes type=FWD name="exp-tas.com" }
 :if ([:len [find name="experience-vmware.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" match-subdomain=yes type=FWD name="experience-vmware.com" }
 :if ([:len [find name="exploreintel.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" match-subdomain=yes type=FWD name="exploreintel.com" }
 :if ([:len [find name="expresswifi.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" match-subdomain=yes type=FWD name="expresswifi.com" }
@@ -150,4 +151,3 @@
 :if ([:len [find name="facdebook.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" match-subdomain=yes type=FWD name="facdebook.com" }
 :if ([:len [find name="face-book.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" match-subdomain=yes type=FWD name="face-book.com" }
 :if ([:len [find name="faceabook.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" match-subdomain=yes type=FWD name="faceabook.com" }
-:if ([:len [find name="facebboc.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" match-subdomain=yes type=FWD name="facebboc.com" }

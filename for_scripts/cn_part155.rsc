@@ -1,16 +1,6 @@
 :global AddressList
 :global ForwardTo
 /ip dns static
-:if ([:len [find name="cloud-industry-delivery.site"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="cn" match-subdomain=yes type=FWD name="cloud-industry-delivery.site" }
-:if ([:len [find name="cloud-link.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="cn" match-subdomain=yes type=FWD name="cloud-link.com" }
-:if ([:len [find name="cloud-links.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="cn" match-subdomain=yes type=FWD name="cloud-links.net" }
-:if ([:len [find name="cloud-neofussvr.sslcs.cdngc.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="cn" match-subdomain=yes type=FWD name="cloud-neofussvr.sslcs.cdngc.net" }
-:if ([:len [find name="cloud-ningbo.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="cn" match-subdomain=yes type=FWD name="cloud-ningbo.com" }
-:if ([:len [find name="cloud-ordos.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="cn" match-subdomain=yes type=FWD name="cloud-ordos.com" }
-:if ([:len [find name="cloud-rtc.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="cn" match-subdomain=yes type=FWD name="cloud-rtc.com" }
-:if ([:len [find name="cloud-rtc.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="cn" match-subdomain=yes type=FWD name="cloud-rtc.net" }
-:if ([:len [find name="cloud-scdn-ns.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="cn" match-subdomain=yes type=FWD name="cloud-scdn-ns.net" }
-:if ([:len [find name="cloud-scdn-ns.tech"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="cn" match-subdomain=yes type=FWD name="cloud-scdn-ns.tech" }
 :if ([:len [find name="cloud-scdn.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="cn" match-subdomain=yes type=FWD name="cloud-scdn.com" }
 :if ([:len [find name="cloud-shenzhen.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="cn" match-subdomain=yes type=FWD name="cloud-shenzhen.com" }
 :if ([:len [find name="cloud-shiyan.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="cn" match-subdomain=yes type=FWD name="cloud-shiyan.com" }
@@ -151,3 +141,13 @@
 :if ([:len [find name="cloudsigma.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="cn" match-subdomain=yes type=FWD name="cloudsigma.com" }
 :if ([:len [find name="cloudsiping.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="cn" match-subdomain=yes type=FWD name="cloudsiping.com" }
 :if ([:len [find name="cloudsite.vip"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="cn" match-subdomain=yes type=FWD name="cloudsite.vip" }
+:if ([:len [find name="cloudskysec.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="cn" match-subdomain=yes type=FWD name="cloudskysec.com" }
+:if ([:len [find name="cloudstencent.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="cn" match-subdomain=yes type=FWD name="cloudstencent.com" }
+:if ([:len [find name="cloudstudio-app.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="cn" match-subdomain=yes type=FWD name="cloudstudio-app.net" }
+:if ([:len [find name="cloudstudio.club"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="cn" match-subdomain=yes type=FWD name="cloudstudio.club" }
+:if ([:len [find name="cloudstudio.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="cn" match-subdomain=yes type=FWD name="cloudstudio.net" }
+:if ([:len [find name="cloudstudio.run"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="cn" match-subdomain=yes type=FWD name="cloudstudio.run" }
+:if ([:len [find name="cloudstudio.work"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="cn" match-subdomain=yes type=FWD name="cloudstudio.work" }
+:if ([:len [find name="cloudsuqian.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="cn" match-subdomain=yes type=FWD name="cloudsuqian.com" }
+:if ([:len [find name="cloudswift.cloud"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="cn" match-subdomain=yes type=FWD name="cloudswift.cloud" }
+:if ([:len [find name="cloudtalkers.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="cn" match-subdomain=yes type=FWD name="cloudtalkers.com" }
