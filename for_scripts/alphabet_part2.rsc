@@ -1,6 +1,7 @@
 :global AddressList
 :global ForwardTo
 /ip dns static
+:if ([:len [find name="gle"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="alphabet" match-subdomain=yes type=FWD name="gle" }
 :if ([:len [find name="globaledu.org"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="alphabet" match-subdomain=yes type=FWD name="globaledu.org" }
 :if ([:len [find name="gmail"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="alphabet" match-subdomain=yes type=FWD name="gmail" }
 :if ([:len [find name="gmail.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="alphabet" match-subdomain=yes type=FWD name="gmail.com" }
@@ -150,4 +151,3 @@
 :if ([:len [find name="like.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="alphabet" match-subdomain=yes type=FWD name="like.com" }
 :if ([:len [find name="madewithcode.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="alphabet" match-subdomain=yes type=FWD name="madewithcode.com" }
 :if ([:len [find name="mail-ads.google.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="alphabet" match-subdomain=yes type=FWD name="mail-ads.google.com" }
-:if ([:len [find name="marketingplatform.google.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="alphabet" match-subdomain=yes type=FWD name="marketingplatform.google.com" }
