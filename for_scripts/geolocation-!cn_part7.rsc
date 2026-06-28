@@ -57,6 +57,7 @@
 :if ([:len [find name="airtunes.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" match-subdomain=yes type=FWD name="airtunes.com" }
 :if ([:len [find name="airtunes.info"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" match-subdomain=yes type=FWD name="airtunes.info" }
 :if ([:len [find name="airtunes.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" match-subdomain=yes type=FWD name="airtunes.net" }
+:if ([:len [find name="airuniversity.af.edu"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" match-subdomain=yes type=FWD name="airuniversity.af.edu" }
 :if ([:len [find name="airvpn.org"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" match-subdomain=yes type=FWD name="airvpn.org" }
 :if ([:len [find name="airwatchexpress.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" match-subdomain=yes type=FWD name="airwatchexpress.com" }
 :if ([:len [find name="airwatchqa.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" match-subdomain=yes type=FWD name="airwatchqa.com" }
@@ -150,4 +151,3 @@
 :if ([:len [find name="akbars.ru"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" match-subdomain=yes type=FWD name="akbars.ru" }
 :if ([:len [find name="akiba-online.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" match-subdomain=yes type=FWD name="akiba-online.com" }
 :if ([:len [find name="akiba-souken.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" match-subdomain=yes type=FWD name="akiba-souken.com" }
-:if ([:len [find name="akiba-web.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" match-subdomain=yes type=FWD name="akiba-web.com" }
