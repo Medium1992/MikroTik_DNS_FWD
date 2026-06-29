@@ -10,4 +10,5 @@
 :if ([:len [find name="nebulance.io"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-pt@!cn" match-subdomain=yes type=FWD name="nebulance.io" }
 :if ([:len [find name="skyey2.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-pt@!cn" match-subdomain=yes type=FWD name="skyey2.com" }
 :if ([:len [find name="skyeysnow.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-pt@!cn" match-subdomain=yes type=FWD name="skyeysnow.com" }
+:if ([:len [find name="torrentleech.cc"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-pt@!cn" match-subdomain=yes type=FWD name="torrentleech.cc" }
 :if ([:len [find name="torrentleech.org"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-pt@!cn" match-subdomain=yes type=FWD name="torrentleech.org" }
