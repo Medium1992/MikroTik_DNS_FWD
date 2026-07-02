@@ -150,4 +150,4 @@
 :if ([:len [find name="blackstonespoliceservice.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" match-subdomain=yes type=FWD name="blackstonespoliceservice.com" }
 :if ([:len [find name="blacktowhite.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" match-subdomain=yes type=FWD name="blacktowhite.net" }
 :if ([:len [find name="blackvpn.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" match-subdomain=yes type=FWD name="blackvpn.com" }
-:if ([:len [find name="blaoshi.cc"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" match-subdomain=yes type=FWD name="blaoshi.cc" }
+:if ([:len [find name="blanc.ru"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" match-subdomain=yes type=FWD name="blanc.ru" }

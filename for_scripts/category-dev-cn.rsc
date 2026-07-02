@@ -12,6 +12,7 @@
 :if ([:len [find name="blogjava.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-dev-cn" match-subdomain=yes type=FWD name="blogjava.net" }
 :if ([:len [find name="cnb.cool"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-dev-cn" match-subdomain=yes type=FWD name="cnb.cool" }
 :if ([:len [find name="cnblogs.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-dev-cn" match-subdomain=yes type=FWD name="cnblogs.com" }
+:if ([:len [find name="cnblogs.vip"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-dev-cn" match-subdomain=yes type=FWD name="cnblogs.vip" }
 :if ([:len [find name="cnitblog.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-dev-cn" match-subdomain=yes type=FWD name="cnitblog.com" }
 :if ([:len [find name="cnweblog.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-dev-cn" match-subdomain=yes type=FWD name="cnweblog.com" }
 :if ([:len [find name="cocos.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-dev-cn" match-subdomain=yes type=FWD name="cocos.com" }

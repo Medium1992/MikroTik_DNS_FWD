@@ -13,6 +13,7 @@
 :if ([:len [find name="hentaichan.live"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="art" match-subdomain=yes type=FWD name="hentaichan.live" }
 :if ([:len [find name="infinitenovel.eu"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="art" match-subdomain=yes type=FWD name="infinitenovel.eu" }
 :if ([:len [find name="pastela.app"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="art" match-subdomain=yes type=FWD name="pastela.app" }
+:if ([:len [find name="pixabay.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="art" match-subdomain=yes type=FWD name="pixabay.com" }
 :if ([:len [find name="pixiv-recommend.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="art" match-subdomain=yes type=FWD name="pixiv-recommend.net" }
 :if ([:len [find name="pixiv.co.jp"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="art" match-subdomain=yes type=FWD name="pixiv.co.jp" }
 :if ([:len [find name="pixiv.help"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="art" match-subdomain=yes type=FWD name="pixiv.help" }

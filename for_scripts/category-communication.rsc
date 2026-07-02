@@ -6,6 +6,7 @@
 :if ([:len [find name="airhornbot.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-communication" match-subdomain=yes type=FWD name="airhornbot.com" }
 :if ([:len [find name="arewereadyyet.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-communication" match-subdomain=yes type=FWD name="arewereadyyet.com" }
 :if ([:len [find name="bigbeans.solutions"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-communication" match-subdomain=yes type=FWD name="bigbeans.solutions" }
+:if ([:len [find name="botim.me"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-communication" match-subdomain=yes type=FWD name="botim.me" }
 :if ([:len [find name="cdn-telegram.org"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-communication" match-subdomain=yes type=FWD name="cdn-telegram.org" }
 :if ([:len [find name="clubhouse.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-communication" match-subdomain=yes type=FWD name="clubhouse.com" }
 :if ([:len [find name="clubhouseapi.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-communication" match-subdomain=yes type=FWD name="clubhouseapi.com" }
