@@ -4,6 +4,7 @@
 :if ([:len [find name="byteq5k.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="bytedance" match-subdomain=yes type=FWD name="byteq5k.com" }
 :if ([:len [find name="byteq8u.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="bytedance" match-subdomain=yes type=FWD name="byteq8u.net" }
 :if ([:len [find name="bytescm.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="bytedance" match-subdomain=yes type=FWD name="bytescm.com" }
+:if ([:len [find name="bytespeech.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="bytedance" match-subdomain=yes type=FWD name="bytespeech.com" }
 :if ([:len [find name="bytesslb.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="bytedance" match-subdomain=yes type=FWD name="bytesslb.net" }
 :if ([:len [find name="bytetcc.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="bytedance" match-subdomain=yes type=FWD name="bytetcc.com" }
 :if ([:len [find name="bytetech.info"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="bytedance" match-subdomain=yes type=FWD name="bytetech.info" }
@@ -150,4 +151,3 @@
 :if ([:len [find name="ibdxiguastatic.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="bytedance" match-subdomain=yes type=FWD name="ibdxiguastatic.com" }
 :if ([:len [find name="ibdxiguavod.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="bytedance" match-subdomain=yes type=FWD name="ibdxiguavod.com" }
 :if ([:len [find name="ibytedapm.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="bytedance" match-subdomain=yes type=FWD name="ibytedapm.com" }
-:if ([:len [find name="ibytedtos.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="bytedance" match-subdomain=yes type=FWD name="ibytedtos.com" }

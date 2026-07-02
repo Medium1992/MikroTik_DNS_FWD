@@ -50,6 +50,7 @@
 :if ([:len [find name="ihuoshanvod.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="douyin" match-subdomain=yes type=FWD name="ihuoshanvod.com" }
 :if ([:len [find name="kesong.co"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="douyin" match-subdomain=yes type=FWD name="kesong.co" }
 :if ([:len [find name="nextvid.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="douyin" match-subdomain=yes type=FWD name="nextvid.net" }
+:if ([:len [find name="open-douyin.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="douyin" match-subdomain=yes type=FWD name="open-douyin.com" }
 :if ([:len [find name="ppkankan01.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="douyin" match-subdomain=yes type=FWD name="ppkankan01.com" }
 :if ([:len [find name="qishui.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="douyin" match-subdomain=yes type=FWD name="qishui.com" }
 :if ([:len [find name="supercachenet.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="douyin" match-subdomain=yes type=FWD name="supercachenet.com" }

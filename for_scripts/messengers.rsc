@@ -4,6 +4,7 @@
 :if ([:len [find name="cdn-telegram.org"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="messengers" match-subdomain=yes type=FWD name="cdn-telegram.org" }
 :if ([:len [find name="comments.app"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="messengers" match-subdomain=yes type=FWD name="comments.app" }
 :if ([:len [find name="contest.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="messengers" match-subdomain=yes type=FWD name="contest.com" }
+:if ([:len [find name="dynect.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="messengers" match-subdomain=yes type=FWD name="dynect.net" }
 :if ([:len [find name="facebook.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="messengers" match-subdomain=yes type=FWD name="facebook.com" }
 :if ([:len [find name="fbcdn.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="messengers" match-subdomain=yes type=FWD name="fbcdn.net" }
 :if ([:len [find name="fbsbx.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="messengers" match-subdomain=yes type=FWD name="fbsbx.com" }
@@ -18,6 +19,7 @@
 :if ([:len [find name="signal.me"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="messengers" match-subdomain=yes type=FWD name="signal.me" }
 :if ([:len [find name="signal.org"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="messengers" match-subdomain=yes type=FWD name="signal.org" }
 :if ([:len [find name="signal.tube"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="messengers" match-subdomain=yes type=FWD name="signal.tube" }
+:if ([:len [find name="softlayer.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="messengers" match-subdomain=yes type=FWD name="softlayer.com" }
 :if ([:len [find name="t.me"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="messengers" match-subdomain=yes type=FWD name="t.me" }
 :if ([:len [find name="tdesktop.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="messengers" match-subdomain=yes type=FWD name="tdesktop.com" }
 :if ([:len [find name="telega.one"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="messengers" match-subdomain=yes type=FWD name="telega.one" }

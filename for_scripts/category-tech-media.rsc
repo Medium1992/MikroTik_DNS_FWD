@@ -18,6 +18,7 @@
 :if ([:len [find name="startupschool.org"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-tech-media" match-subdomain=yes type=FWD name="startupschool.org" }
 :if ([:len [find name="technews.tw"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-tech-media" match-subdomain=yes type=FWD name="technews.tw" }
 :if ([:len [find name="techradar.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-tech-media" match-subdomain=yes type=FWD name="techradar.com" }
+:if ([:len [find name="techspot.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-tech-media" match-subdomain=yes type=FWD name="techspot.com" }
 :if ([:len [find name="thetype.cloud"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-tech-media" match-subdomain=yes type=FWD name="thetype.cloud" }
 :if ([:len [find name="thetype.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-tech-media" match-subdomain=yes type=FWD name="thetype.com" }
 :if ([:len [find name="theverge.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-tech-media" match-subdomain=yes type=FWD name="theverge.com" }
