@@ -1,6 +1,9 @@
 :global AddressList
 :global ForwardTo
 /ip dns static
+:if ([:len [find regexp="(^|\\\\.)[1-9]+zipai\\\\.(com|net)\$"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" type=FWD regexp="(^|\\\\.)[1-9]+zipai\\\\.(com|net)\$" }
+:if ([:len [find regexp="(^|\\\\.)[1-9]00caocao\\\\.com\$"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" type=FWD regexp="(^|\\\\.)[1-9]00caocao\\\\.com\$" }
+:if ([:len [find regexp="(^|\\\\.)[3-9]0000sao\\\\.com\$"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" type=FWD regexp="(^|\\\\.)[3-9]0000sao\\\\.com\$" }
 :if ([:len [find regexp="(^|\\\\.)[a-z]\?fulibl\\\\.(cc|com|org|net|xyz)\$"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" type=FWD regexp="(^|\\\\.)[a-z]\?fulibl\\\\.(cc|com|org|net|xyz)\$" }
 :if ([:len [find regexp="(^|\\\\.)[a-z][1-9][0-9][a-z]\\\\.com\$"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" type=FWD regexp="(^|\\\\.)[a-z][1-9][0-9][a-z]\\\\.com\$" }
 :if ([:len [find regexp="(^|\\\\.)aipa(111|222|333|444|555|666|777|888|999)\\\\.life\$"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" type=FWD regexp="(^|\\\\.)aipa(111|222|333|444|555|666|777|888|999)\\\\.life\$" }
