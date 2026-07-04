@@ -1,6 +1,9 @@
 :global AddressList
 :global ForwardTo
 /ip dns static
+:if ([:len [find name="dawenming.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="cn" match-subdomain=yes type=FWD name="dawenming.com" }
+:if ([:len [find name="dawensk.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="cn" match-subdomain=yes type=FWD name="dawensk.com" }
+:if ([:len [find name="dawenxue.org"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="cn" match-subdomain=yes type=FWD name="dawenxue.org" }
 :if ([:len [find name="dawnarc.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="cn" match-subdomain=yes type=FWD name="dawnarc.com" }
 :if ([:len [find name="dawndiy.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="cn" match-subdomain=yes type=FWD name="dawndiy.com" }
 :if ([:len [find name="dawnjs.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="cn" match-subdomain=yes type=FWD name="dawnjs.com" }
@@ -148,6 +151,3 @@
 :if ([:len [find name="db162.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="cn" match-subdomain=yes type=FWD name="db162.com" }
 :if ([:len [find name="db23bc6de1024.beer"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="cn" match-subdomain=yes type=FWD name="db23bc6de1024.beer" }
 :if ([:len [find name="db2b0d032aefa755.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="cn" match-subdomain=yes type=FWD name="db2b0d032aefa755.com" }
-:if ([:len [find name="db5f9bf125415ac9.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="cn" match-subdomain=yes type=FWD name="db5f9bf125415ac9.com" }
-:if ([:len [find name="db6bfe859b7825fc.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="cn" match-subdomain=yes type=FWD name="db6bfe859b7825fc.com" }
-:if ([:len [find name="db6f227cfb009078.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="cn" match-subdomain=yes type=FWD name="db6f227cfb009078.com" }

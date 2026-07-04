@@ -1,6 +1,10 @@
 :global AddressList
 :global ForwardTo
 /ip dns static
+:if ([:len [find name="regenchem.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="cn" match-subdomain=yes type=FWD name="regenchem.com" }
+:if ([:len [find name="regexlab.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="cn" match-subdomain=yes type=FWD name="regexlab.com" }
+:if ([:len [find name="regexr-cn.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="cn" match-subdomain=yes type=FWD name="regexr-cn.com" }
+:if ([:len [find name="reglogo.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="cn" match-subdomain=yes type=FWD name="reglogo.net" }
 :if ([:len [find name="regltd.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="cn" match-subdomain=yes type=FWD name="regltd.com" }
 :if ([:len [find name="regtm.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="cn" match-subdomain=yes type=FWD name="regtm.com" }
 :if ([:len [find name="regulatory-ledger-transaction-check.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="cn" match-subdomain=yes type=FWD name="regulatory-ledger-transaction-check.com" }
@@ -147,7 +151,3 @@
 :if ([:len [find name="replicawatchhot.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="cn" match-subdomain=yes type=FWD name="replicawatchhot.com" }
 :if ([:len [find name="replicawatchshipping.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="cn" match-subdomain=yes type=FWD name="replicawatchshipping.com" }
 :if ([:len [find name="replicawatchshop.cc"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="cn" match-subdomain=yes type=FWD name="replicawatchshop.cc" }
-:if ([:len [find name="replicawatchsshop.cc"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="cn" match-subdomain=yes type=FWD name="replicawatchsshop.cc" }
-:if ([:len [find name="repliquesuisse.co"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="cn" match-subdomain=yes type=FWD name="repliquesuisse.co" }
-:if ([:len [find name="repont.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="cn" match-subdomain=yes type=FWD name="repont.com" }
-:if ([:len [find name="reportify.cc"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="cn" match-subdomain=yes type=FWD name="reportify.cc" }
