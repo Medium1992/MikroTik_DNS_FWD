@@ -78,6 +78,7 @@
 :if ([:len [find name="apple-pay.wang"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="apple" match-subdomain=yes type=FWD name="apple-pay.wang" }
 :if ([:len [find name="apple-store.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="apple" match-subdomain=yes type=FWD name="apple-store.net" }
 :if ([:len [find name="apple-store.wang"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="apple" match-subdomain=yes type=FWD name="apple-store.wang" }
+:if ([:len [find name="apple-studies.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="apple" match-subdomain=yes type=FWD name="apple-studies.com" }
 :if ([:len [find name="apple-usa.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="apple" match-subdomain=yes type=FWD name="apple-usa.net" }
 :if ([:len [find name="apple-watch.com.ru"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="apple" match-subdomain=yes type=FWD name="apple-watch.com.ru" }
 :if ([:len [find name="apple.be"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="apple" match-subdomain=yes type=FWD name="apple.be" }
@@ -150,4 +151,3 @@
 :if ([:len [find name="appleiphone.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="apple" match-subdomain=yes type=FWD name="appleiphone.net" }
 :if ([:len [find name="appleiphonecell.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="apple" match-subdomain=yes type=FWD name="appleiphonecell.com" }
 :if ([:len [find name="appleipodsettlement.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="apple" match-subdomain=yes type=FWD name="appleipodsettlement.com" }
-:if ([:len [find name="appleiservices.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="apple" match-subdomain=yes type=FWD name="appleiservices.com" }
