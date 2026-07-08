@@ -36,6 +36,7 @@
 :if ([:len [find name="fastcdn.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-cdn-cn" match-subdomain=yes type=FWD name="fastcdn.com" }
 :if ([:len [find name="flxdns.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-cdn-cn" match-subdomain=yes type=FWD name="flxdns.com" }
 :if ([:len [find name="funcdn.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-cdn-cn" match-subdomain=yes type=FWD name="funcdn.com" }
+:if ([:len [find name="hydun.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-cdn-cn" match-subdomain=yes type=FWD name="hydun.com" }
 :if ([:len [find name="jiashule.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-cdn-cn" match-subdomain=yes type=FWD name="jiashule.com" }
 :if ([:len [find name="jiasule.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-cdn-cn" match-subdomain=yes type=FWD name="jiasule.com" }
 :if ([:len [find name="lxdns.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-cdn-cn" match-subdomain=yes type=FWD name="lxdns.com" }
