@@ -7,6 +7,7 @@
 :if ([:len [find name="fanmingming.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-blog-cn" match-subdomain=yes type=FWD name="fanmingming.com" }
 :if ([:len [find name="huangyuhui.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-blog-cn" match-subdomain=yes type=FWD name="huangyuhui.net" }
 :if ([:len [find name="lg3000.top"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-blog-cn" match-subdomain=yes type=FWD name="lg3000.top" }
+:if ([:len [find name="lovestu.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-blog-cn" match-subdomain=yes type=FWD name="lovestu.com" }
 :if ([:len [find name="misaka-net.top"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-blog-cn" match-subdomain=yes type=FWD name="misaka-net.top" }
 :if ([:len [find name="moliranran.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-blog-cn" match-subdomain=yes type=FWD name="moliranran.com" }
 :if ([:len [find name="mryys.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-blog-cn" match-subdomain=yes type=FWD name="mryys.com" }
