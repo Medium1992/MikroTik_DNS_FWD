@@ -71,6 +71,14 @@
 :if ([:len [find name="ao3.org"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-entertainment" match-subdomain=yes type=FWD name="ao3.org" }
 :if ([:len [find name="apexlegends.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-entertainment" match-subdomain=yes type=FWD name="apexlegends.com" }
 :if ([:len [find name="appget.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-entertainment" match-subdomain=yes type=FWD name="appget.com" }
+:if ([:len [find name="applemusic.berlin"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-entertainment" match-subdomain=yes type=FWD name="applemusic.berlin" }
+:if ([:len [find name="applemusic.co"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-entertainment" match-subdomain=yes type=FWD name="applemusic.co" }
+:if ([:len [find name="applemusic.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-entertainment" match-subdomain=yes type=FWD name="applemusic.com" }
+:if ([:len [find name="applemusic.hamburg"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-entertainment" match-subdomain=yes type=FWD name="applemusic.hamburg" }
+:if ([:len [find name="applemusic.wang"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-entertainment" match-subdomain=yes type=FWD name="applemusic.wang" }
+:if ([:len [find name="applemusicconnect.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-entertainment" match-subdomain=yes type=FWD name="applemusicconnect.com" }
+:if ([:len [find name="applemusicfestival.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-entertainment" match-subdomain=yes type=FWD name="applemusicfestival.com" }
+:if ([:len [find name="applepodcasts.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-entertainment" match-subdomain=yes type=FWD name="applepodcasts.com" }
 :if ([:len [find name="appmedia.jp"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-entertainment" match-subdomain=yes type=FWD name="appmedia.jp" }
 :if ([:len [find name="archiveofourown.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-entertainment" match-subdomain=yes type=FWD name="archiveofourown.com" }
 :if ([:len [find name="archiveofourown.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-entertainment" match-subdomain=yes type=FWD name="archiveofourown.net" }
@@ -143,11 +151,3 @@
 :if ([:len [find name="brawlstarsgame.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-entertainment" match-subdomain=yes type=FWD name="brawlstarsgame.com" }
 :if ([:len [find name="brightline.tv"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-entertainment" match-subdomain=yes type=FWD name="brightline.tv" }
 :if ([:len [find name="bucketeer.jp"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-entertainment" match-subdomain=yes type=FWD name="bucketeer.jp" }
-:if ([:len [find name="bushi-navi.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-entertainment" match-subdomain=yes type=FWD name="bushi-navi.com" }
-:if ([:len [find name="bushimo.jp"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-entertainment" match-subdomain=yes type=FWD name="bushimo.jp" }
-:if ([:len [find name="bushiroad-creative.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-entertainment" match-subdomain=yes type=FWD name="bushiroad-creative.com" }
-:if ([:len [find name="bushiroad-global-online-store.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-entertainment" match-subdomain=yes type=FWD name="bushiroad-global-online-store.com" }
-:if ([:len [find name="bushiroad-move.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-entertainment" match-subdomain=yes type=FWD name="bushiroad-move.com" }
-:if ([:len [find name="bushiroad-music.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-entertainment" match-subdomain=yes type=FWD name="bushiroad-music.com" }
-:if ([:len [find name="bushiroad-store.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-entertainment" match-subdomain=yes type=FWD name="bushiroad-store.com" }
-:if ([:len [find name="bushiroad-works.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-entertainment" match-subdomain=yes type=FWD name="bushiroad-works.com" }

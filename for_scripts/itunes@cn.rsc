@@ -32,7 +32,9 @@
 :if ([:len [find name="osxapps.itunes.g.aaplimg.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="itunes@cn" type=FWD name="osxapps.itunes.g.aaplimg.com" }
 :if ([:len [find name="pd-nk.itunes.apple.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="itunes@cn" type=FWD name="pd-nk.itunes.apple.com" }
 :if ([:len [find name="pd.itunes.apple.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="itunes@cn" type=FWD name="pd.itunes.apple.com" }
+:if ([:len [find name="play-edge.itunes.apple.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="itunes@cn" type=FWD name="play-edge.itunes.apple.com" }
 :if ([:len [find name="play.itunes.apple.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="itunes@cn" type=FWD name="play.itunes.apple.com" }
+:if ([:len [find name="podcasts.itunes.apple.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="itunes@cn" type=FWD name="podcasts.itunes.apple.com" }
 :if ([:len [find name="se-edge.itunes.apple.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="itunes@cn" type=FWD name="se-edge.itunes.apple.com" }
 :if ([:len [find name="se2.itunes.apple.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="itunes@cn" type=FWD name="se2.itunes.apple.com" }
 :if ([:len [find name="search.itunes.apple.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="itunes@cn" type=FWD name="search.itunes.apple.com" }
