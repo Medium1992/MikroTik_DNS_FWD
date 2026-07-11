@@ -3,6 +3,7 @@
 /ip dns static
 :if ([:len [find name="51nod.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-olympiad-in-informatics" match-subdomain=yes type=FWD name="51nod.com" }
 :if ([:len [find name="acwing.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-olympiad-in-informatics" match-subdomain=yes type=FWD name="acwing.com" }
+:if ([:len [find name="adacpp.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-olympiad-in-informatics" match-subdomain=yes type=FWD name="adacpp.com" }
 :if ([:len [find name="hihocoder.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-olympiad-in-informatics" match-subdomain=yes type=FWD name="hihocoder.com" }
 :if ([:len [find name="jisuanke.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-olympiad-in-informatics" match-subdomain=yes type=FWD name="jisuanke.com" }
 :if ([:len [find name="kidsccshow.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-olympiad-in-informatics" match-subdomain=yes type=FWD name="kidsccshow.com" }
