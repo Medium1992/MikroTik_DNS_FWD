@@ -12,6 +12,7 @@
 :if ([:len [find name="cy.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="sohu" match-subdomain=yes type=FWD name="cy.com" }
 :if ([:len [find name="fpb.sohu.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="sohu" match-subdomain=yes type=FWD name="fpb.sohu.com" }
 :if ([:len [find name="imp.go.sohu.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="sohu" match-subdomain=yes type=FWD name="imp.go.sohu.com" }
+:if ([:len [find name="kuaizhan.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="sohu" match-subdomain=yes type=FWD name="kuaizhan.com" }
 :if ([:len [find name="m.aty.sohu.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="sohu" match-subdomain=yes type=FWD name="m.aty.sohu.com" }
 :if ([:len [find name="p.aty.sohu.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="sohu" match-subdomain=yes type=FWD name="p.aty.sohu.com" }
 :if ([:len [find name="playcool.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="sohu" match-subdomain=yes type=FWD name="playcool.com" }
