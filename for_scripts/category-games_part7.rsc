@@ -1,7 +1,6 @@
 :global AddressList
 :global ForwardTo
 /ip dns static
-:if ([:len [find name="end-api.shallow.ink"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-games" type=FWD name="end-api.shallow.ink" }
 :if ([:len [find name="end.shallow.ink"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-games" type=FWD name="end.shallow.ink" }
 :if ([:len [find name="f3b7q2p3.ssl.hwcdn.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-games" type=FWD name="f3b7q2p3.ssl.hwcdn.net" }
 :if ([:len [find name="flightsimulator.azureedge.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-games" type=FWD name="flightsimulator.azureedge.net" }

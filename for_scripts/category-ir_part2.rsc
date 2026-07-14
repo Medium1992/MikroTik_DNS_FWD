@@ -36,7 +36,6 @@
 :if ([:len [find name="webinarplus.online"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-ir" match-subdomain=yes type=FWD name="webinarplus.online" }
 :if ([:len [find name="weswap.digital"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-ir" match-subdomain=yes type=FWD name="weswap.digital" }
 :if ([:len [find name="xn--mgba3a4f16a"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-ir" match-subdomain=yes type=FWD name="xn--mgba3a4f16a" }
-:if ([:len [find name="xn--mgba3a4fra"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-ir" match-subdomain=yes type=FWD name="xn--mgba3a4fra" }
 :if ([:len [find name="yasdl.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-ir" match-subdomain=yes type=FWD name="yasdl.com" }
 :if ([:len [find name="yektanet.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-ir" match-subdomain=yes type=FWD name="yektanet.com" }
 :if ([:len [find name="zarinpal.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-ir" match-subdomain=yes type=FWD name="zarinpal.com" }

@@ -19,7 +19,6 @@
 :if ([:len [find name="alexa.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" match-subdomain=yes type=FWD name="alexa.com" }
 :if ([:len [find name="alexanderstreet.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" match-subdomain=yes type=FWD name="alexanderstreet.com" }
 :if ([:len [find name="alfa.me"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" match-subdomain=yes type=FWD name="alfa.me" }
-:if ([:len [find name="alfabank.oavdo.amc"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" match-subdomain=yes type=FWD name="alfabank.oavdo.amc" }
 :if ([:len [find name="alfabank.ru"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" match-subdomain=yes type=FWD name="alfabank.ru" }
 :if ([:len [find name="alfadirect.ru"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" match-subdomain=yes type=FWD name="alfadirect.ru" }
 :if ([:len [find name="alforattv.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" match-subdomain=yes type=FWD name="alforattv.net" }
@@ -151,3 +150,4 @@
 :if ([:len [find name="amateurest.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" match-subdomain=yes type=FWD name="amateurest.com" }
 :if ([:len [find name="amateurgalore.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" match-subdomain=yes type=FWD name="amateurgalore.net" }
 :if ([:len [find name="amateurgirlfriends.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" match-subdomain=yes type=FWD name="amateurgirlfriends.net" }
+:if ([:len [find name="amateurhomevids.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" match-subdomain=yes type=FWD name="amateurhomevids.com" }

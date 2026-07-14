@@ -17,7 +17,6 @@
 :if ([:len [find name="golang.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="alphabet" match-subdomain=yes type=FWD name="golang.net" }
 :if ([:len [find name="golang.org"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="alphabet" match-subdomain=yes type=FWD name="golang.org" }
 :if ([:len [find name="gonglchuangl.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="alphabet" match-subdomain=yes type=FWD name="gonglchuangl.net" }
-:if ([:len [find name="goo"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="alphabet" match-subdomain=yes type=FWD name="goo" }
 :if ([:len [find name="goog"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="alphabet" match-subdomain=yes type=FWD name="goog" }
 :if ([:len [find name="googel.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="alphabet" match-subdomain=yes type=FWD name="googel.com" }
 :if ([:len [find name="googil.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="alphabet" match-subdomain=yes type=FWD name="googil.com" }
@@ -151,3 +150,4 @@
 :if ([:len [find name="like.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="alphabet" match-subdomain=yes type=FWD name="like.com" }
 :if ([:len [find name="madewithcode.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="alphabet" match-subdomain=yes type=FWD name="madewithcode.com" }
 :if ([:len [find name="mail-ads.google.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="alphabet" match-subdomain=yes type=FWD name="mail-ads.google.com" }
+:if ([:len [find name="marketingplatform.google.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="alphabet" match-subdomain=yes type=FWD name="marketingplatform.google.com" }

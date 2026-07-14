@@ -1,12 +1,6 @@
 :global AddressList
 :global ForwardTo
 /ip dns static
-:if ([:len [find name="zftksc.launches.appsflyersdk.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" type=FWD name="zftksc.launches.appsflyersdk.com" }
-:if ([:len [find regexp="(^|\\\\.)13mei[5-7]\\\\.buzz\$"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" type=FWD regexp="(^|\\\\.)13mei[5-7]\\\\.buzz\$" }
-:if ([:len [find regexp="(^|\\\\.)18j[efg]\\\\.life\$"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" type=FWD regexp="(^|\\\\.)18j[efg]\\\\.life\$" }
-:if ([:len [find regexp="(^|\\\\.)18jmttios[0-9]{2}\\\\.com\$"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" type=FWD regexp="(^|\\\\.)18jmttios[0-9]{2}\\\\.com\$" }
-:if ([:len [find regexp="(^|\\\\.)18tv[1-5]\\\\.com\$"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" type=FWD regexp="(^|\\\\.)18tv[1-5]\\\\.com\$" }
-:if ([:len [find regexp="(^|\\\\.)1[0-9]{2}\\\\.one\$"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" type=FWD regexp="(^|\\\\.)1[0-9]{2}\\\\.one\$" }
 :if ([:len [find regexp="(^|\\\\.)2024(3[0-9]|4[0-9]|6[0-9]|7[0-9])\\\\.xyz\$"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" type=FWD regexp="(^|\\\\.)2024(3[0-9]|4[0-9]|6[0-9]|7[0-9])\\\\.xyz\$" }
 :if ([:len [find regexp="(^|\\\\.)3[0-9]{2}\\\\.icu\$"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" type=FWD regexp="(^|\\\\.)3[0-9]{2}\\\\.icu\$" }
 :if ([:len [find regexp="(^|\\\\.)3[0-9]{2}\\\\.one\$"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" type=FWD regexp="(^|\\\\.)3[0-9]{2}\\\\.one\$" }
@@ -151,3 +145,5 @@
 :if ([:len [find regexp="^chatgpt-async-webps-prod-\\\\S+-\\\\d+\\\\.webpubsub\\\\.azure\\\\.com\$"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" type=FWD regexp="^chatgpt-async-webps-prod-\\\\S+-\\\\d+\\\\.webpubsub\\\\.azure\\\\.com\$" }
 :if ([:len [find regexp="^epicgames-download\\\\d\\\\.akamaized\\\\.net\$"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" type=FWD regexp="^epicgames-download\\\\d\\\\.akamaized\\\\.net\$" }
 :if ([:len [find regexp="^ewcdn[0-9]+\\\\.nowe\\\\.com\$"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" type=FWD regexp="^ewcdn[0-9]+\\\\.nowe\\\\.com\$" }
+:if ([:len [find regexp="^hses[1-7]\?\\\\.akamaized\\\\.net\$"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" type=FWD regexp="^hses[1-7]\?\\\\.akamaized\\\\.net\$" }
+:if ([:len [find regexp="javdb\\\\d+\\\\.com\$"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" type=FWD regexp="javdb\\\\d+\\\\.com\$" }

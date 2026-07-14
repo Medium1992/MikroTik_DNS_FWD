@@ -77,7 +77,6 @@
 :if ([:len [find name="kirbysepicyarn.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-games-!cn" match-subdomain=yes type=FWD name="kirbysepicyarn.com" }
 :if ([:len [find name="kirbysuperstarultra.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-games-!cn" match-subdomain=yes type=FWD name="kirbysuperstarultra.com" }
 :if ([:len [find name="kiwi.jp"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-games-!cn" match-subdomain=yes type=FWD name="kiwi.jp" }
-:if ([:len [find name="konami"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-games-!cn" match-subdomain=yes type=FWD name="konami" }
 :if ([:len [find name="konami-igaming.online"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-games-!cn" match-subdomain=yes type=FWD name="konami-igaming.online" }
 :if ([:len [find name="konami.co.jp"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-games-!cn" match-subdomain=yes type=FWD name="konami.co.jp" }
 :if ([:len [find name="konami.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-games-!cn" match-subdomain=yes type=FWD name="konami.com" }
@@ -151,3 +150,4 @@
 :if ([:len [find name="molesports.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-games-!cn" match-subdomain=yes type=FWD name="molesports.com" }
 :if ([:len [find name="muvluv-girls-garden.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-games-!cn" match-subdomain=yes type=FWD name="muvluv-girls-garden.com" }
 :if ([:len [find name="mysims.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-games-!cn" match-subdomain=yes type=FWD name="mysims.com" }
+:if ([:len [find name="mysimsracing.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-games-!cn" match-subdomain=yes type=FWD name="mysimsracing.com" }

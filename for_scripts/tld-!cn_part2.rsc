@@ -119,7 +119,6 @@
 :if ([:len [find name="gn"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="tld-!cn" match-subdomain=yes type=FWD name="gn" }
 :if ([:len [find name="godaddy"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="tld-!cn" match-subdomain=yes type=FWD name="godaddy" }
 :if ([:len [find name="goldpoint"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="tld-!cn" match-subdomain=yes type=FWD name="goldpoint" }
-:if ([:len [find name="goo"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="tld-!cn" match-subdomain=yes type=FWD name="goo" }
 :if ([:len [find name="goodyear"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="tld-!cn" match-subdomain=yes type=FWD name="goodyear" }
 :if ([:len [find name="goog"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="tld-!cn" match-subdomain=yes type=FWD name="goog" }
 :if ([:len [find name="google"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="tld-!cn" match-subdomain=yes type=FWD name="google" }
@@ -151,3 +150,4 @@
 :if ([:len [find name="homesense"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="tld-!cn" match-subdomain=yes type=FWD name="homesense" }
 :if ([:len [find name="honda"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="tld-!cn" match-subdomain=yes type=FWD name="honda" }
 :if ([:len [find name="hot"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="tld-!cn" match-subdomain=yes type=FWD name="hot" }
+:if ([:len [find name="hotmail"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="tld-!cn" match-subdomain=yes type=FWD name="hotmail" }

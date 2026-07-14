@@ -23,6 +23,7 @@
 :if ([:len [find name="kamisama-maeda-lab.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-entertainment" match-subdomain=yes type=FWD name="kamisama-maeda-lab.com" }
 :if ([:len [find name="kfs.io"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-entertainment" match-subdomain=yes type=FWD name="kfs.io" }
 :if ([:len [find name="kgisystems.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-entertainment" match-subdomain=yes type=FWD name="kgisystems.com" }
+:if ([:len [find name="kick.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-entertainment" match-subdomain=yes type=FWD name="kick.com" }
 :if ([:len [find name="kingkong.com.tw"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-entertainment" match-subdomain=yes type=FWD name="kingkong.com.tw" }
 :if ([:len [find name="kingkongapp.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-entertainment" match-subdomain=yes type=FWD name="kingkongapp.com" }
 :if ([:len [find name="kinopoisk-ru.clstorage.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-entertainment" match-subdomain=yes type=FWD name="kinopoisk-ru.clstorage.net" }
@@ -37,7 +38,6 @@
 :if ([:len [find name="kktix.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-entertainment" match-subdomain=yes type=FWD name="kktix.com" }
 :if ([:len [find name="kktv.com.tw"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-entertainment" match-subdomain=yes type=FWD name="kktv.com.tw" }
 :if ([:len [find name="kktv.me"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-entertainment" match-subdomain=yes type=FWD name="kktv.me" }
-:if ([:len [find name="konami"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-entertainment" match-subdomain=yes type=FWD name="konami" }
 :if ([:len [find name="konami-igaming.online"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-entertainment" match-subdomain=yes type=FWD name="konami-igaming.online" }
 :if ([:len [find name="konami.co.jp"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-entertainment" match-subdomain=yes type=FWD name="konami.co.jp" }
 :if ([:len [find name="konami.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-entertainment" match-subdomain=yes type=FWD name="konami.com" }
