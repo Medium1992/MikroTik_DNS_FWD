@@ -46,7 +46,6 @@
 :if ([:len [find name="stun.sipthor.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-stun" type=FWD name="stun.sipthor.net" }
 :if ([:len [find name="stun.siptraffic.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-stun" type=FWD name="stun.siptraffic.com" }
 :if ([:len [find name="stun.siptrunk.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-stun" type=FWD name="stun.siptrunk.com" }
-:if ([:len [find name="stun.sipus"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-stun" type=FWD name="stun.sipus" }
 :if ([:len [find name="stun.skydrone.aero"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-stun" type=FWD name="stun.skydrone.aero" }
 :if ([:len [find name="stun.skylink.ru"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-stun" type=FWD name="stun.skylink.ru" }
 :if ([:len [find name="stun.sma.de"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-stun" type=FWD name="stun.sma.de" }
@@ -63,7 +62,6 @@
 :if ([:len [find name="stun.ssl7.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-stun" type=FWD name="stun.ssl7.net" }
 :if ([:len [find name="stun.stochastix.de"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-stun" type=FWD name="stun.stochastix.de" }
 :if ([:len [find name="stun.stunprotocol.org"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-stun" type=FWD name="stun.stunprotocol.org" }
-:if ([:len [find name="stun.stunprotocol.prg"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-stun" type=FWD name="stun.stunprotocol.prg" }
 :if ([:len [find name="stun.symform.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-stun" type=FWD name="stun.symform.com" }
 :if ([:len [find name="stun.symplicity.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-stun" type=FWD name="stun.symplicity.com" }
 :if ([:len [find name="stun.sysadminman.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-stun" type=FWD name="stun.sysadminman.net" }
