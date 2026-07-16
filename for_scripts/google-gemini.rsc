@@ -11,6 +11,7 @@
 :if ([:len [find name="bard.google.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="google-gemini" match-subdomain=yes type=FWD name="bard.google.com" }
 :if ([:len [find name="deepmind.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="google-gemini" match-subdomain=yes type=FWD name="deepmind.com" }
 :if ([:len [find name="deepmind.google"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="google-gemini" match-subdomain=yes type=FWD name="deepmind.google" }
+:if ([:len [find name="flow.google"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="google-gemini" match-subdomain=yes type=FWD name="flow.google" }
 :if ([:len [find name="geller-pa.googleapis.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="google-gemini" match-subdomain=yes type=FWD name="geller-pa.googleapis.com" }
 :if ([:len [find name="gemini.google"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="google-gemini" match-subdomain=yes type=FWD name="gemini.google" }
 :if ([:len [find name="gemini.google.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="google-gemini" match-subdomain=yes type=FWD name="gemini.google.com" }

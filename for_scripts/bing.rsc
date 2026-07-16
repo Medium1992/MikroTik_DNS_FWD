@@ -17,6 +17,7 @@
 :if ([:len [find name="cn.bing.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="bing" match-subdomain=yes type=FWD name="cn.bing.com" }
 :if ([:len [find name="cn.bing.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="bing" match-subdomain=yes type=FWD name="cn.bing.net" }
 :if ([:len [find name="cn.mm.bing.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="bing" match-subdomain=yes type=FWD name="cn.mm.bing.net" }
+:if ([:len [find name="copilot-stg.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="bing" match-subdomain=yes type=FWD name="copilot-stg.com" }
 :if ([:len [find name="copilot.cloud.microsoft"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="bing" match-subdomain=yes type=FWD name="copilot.cloud.microsoft" }
 :if ([:len [find name="copilot.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="bing" match-subdomain=yes type=FWD name="copilot.com" }
 :if ([:len [find name="copilot.microsoft.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="bing" match-subdomain=yes type=FWD name="copilot.microsoft.com" }
