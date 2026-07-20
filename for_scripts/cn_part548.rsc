@@ -1,6 +1,7 @@
 :global AddressList
 :global ForwardTo
 /ip dns static
+:if ([:len [find name="shwx.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="cn" match-subdomain=yes type=FWD name="shwx.com" }
 :if ([:len [find name="shwxzf-tencentclb.cloud"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="cn" match-subdomain=yes type=FWD name="shwxzf-tencentclb.cloud" }
 :if ([:len [find name="shwxzf-tencentclb.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="cn" match-subdomain=yes type=FWD name="shwxzf-tencentclb.com" }
 :if ([:len [find name="shwxzf-tencentclb.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="cn" match-subdomain=yes type=FWD name="shwxzf-tencentclb.net" }
@@ -150,4 +151,3 @@
 :if ([:len [find name="siad-c.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="cn" match-subdomain=yes type=FWD name="siad-c.com" }
 :if ([:len [find name="siaedu.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="cn" match-subdomain=yes type=FWD name="siaedu.net" }
 :if ([:len [find name="sialiagames.com.tw"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="cn" match-subdomain=yes type=FWD name="sialiagames.com.tw" }
-:if ([:len [find name="siam.org"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="cn" match-subdomain=yes type=FWD name="siam.org" }
