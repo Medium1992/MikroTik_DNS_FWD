@@ -1,6 +1,7 @@
 :global AddressList
 :global ForwardTo
 /ip dns static
+:if ([:len [find name="blackmagicdesign.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" match-subdomain=yes type=FWD name="blackmagicdesign.com" }
 :if ([:len [find name="blackmonsterterror.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" match-subdomain=yes type=FWD name="blackmonsterterror.com" }
 :if ([:len [find name="blackshemalevideo.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" match-subdomain=yes type=FWD name="blackshemalevideo.com" }
 :if ([:len [find name="blacksonblondes.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" match-subdomain=yes type=FWD name="blacksonblondes.com" }
@@ -150,4 +151,3 @@
 :if ([:len [find name="bmw-connected-drive.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" match-subdomain=yes type=FWD name="bmw-connected-drive.com" }
 :if ([:len [find name="bmw-connecteddrive.be"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" match-subdomain=yes type=FWD name="bmw-connecteddrive.be" }
 :if ([:len [find name="bmw-connecteddrive.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" match-subdomain=yes type=FWD name="bmw-connecteddrive.com" }
-:if ([:len [find name="bmw-connecteddrive.de"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" match-subdomain=yes type=FWD name="bmw-connecteddrive.de" }

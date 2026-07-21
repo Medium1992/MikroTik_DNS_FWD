@@ -138,6 +138,7 @@
 :if ([:len [find name="berlinerbericht.de"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" match-subdomain=yes type=FWD name="berlinerbericht.de" }
 :if ([:len [find name="berlintwitterwall.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" match-subdomain=yes type=FWD name="berlintwitterwall.com" }
 :if ([:len [find name="best-sex-games.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" match-subdomain=yes type=FWD name="best-sex-games.com" }
+:if ([:len [find name="best2pay.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" match-subdomain=yes type=FWD name="best2pay.net" }
 :if ([:len [find name="best4bim.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" match-subdomain=yes type=FWD name="best4bim.com" }
 :if ([:len [find name="bestbeats4u.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" match-subdomain=yes type=FWD name="bestbeats4u.com" }
 :if ([:len [find name="bestbhy.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" match-subdomain=yes type=FWD name="bestbhy.com" }
@@ -150,4 +151,3 @@
 :if ([:len [find name="bestbuy.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" match-subdomain=yes type=FWD name="bestbuy.com" }
 :if ([:len [find name="bestbuy.info"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" match-subdomain=yes type=FWD name="bestbuy.info" }
 :if ([:len [find name="bestbuy24x7solutions.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" match-subdomain=yes type=FWD name="bestbuy24x7solutions.com" }
-:if ([:len [find name="bestbuybusiness.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" match-subdomain=yes type=FWD name="bestbuybusiness.com" }

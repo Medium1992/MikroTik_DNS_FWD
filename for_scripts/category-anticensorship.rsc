@@ -10,6 +10,7 @@
 :if ([:len [find name="censorship.ai"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-anticensorship" match-subdomain=yes type=FWD name="censorship.ai" }
 :if ([:len [find name="cf-ipfs.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-anticensorship" match-subdomain=yes type=FWD name="cf-ipfs.com" }
 :if ([:len [find name="citizenlab.org"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-anticensorship" match-subdomain=yes type=FWD name="citizenlab.org" }
+:if ([:len [find name="clashyun.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-anticensorship" match-subdomain=yes type=FWD name="clashyun.com" }
 :if ([:len [find name="cloudflare-ipfs.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-anticensorship" match-subdomain=yes type=FWD name="cloudflare-ipfs.com" }
 :if ([:len [find name="crustwebsites.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-anticensorship" match-subdomain=yes type=FWD name="crustwebsites.net" }
 :if ([:len [find name="dat.foundation"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-anticensorship" match-subdomain=yes type=FWD name="dat.foundation" }
@@ -74,7 +75,6 @@
 :if ([:len [find name="telex.cc"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-anticensorship" match-subdomain=yes type=FWD name="telex.cc" }
 :if ([:len [find name="torproject.org"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-anticensorship" match-subdomain=yes type=FWD name="torproject.org" }
 :if ([:len [find name="tribler.org"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-anticensorship" match-subdomain=yes type=FWD name="tribler.org" }
-:if ([:len [find name="trojan-gfw.github.io"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-anticensorship" match-subdomain=yes type=FWD name="trojan-gfw.github.io" }
 :if ([:len [find name="tunsafe.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-anticensorship" match-subdomain=yes type=FWD name="tunsafe.com" }
 :if ([:len [find name="turkeyblocks.org"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-anticensorship" match-subdomain=yes type=FWD name="turkeyblocks.org" }
 :if ([:len [find name="twister.net.co"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-anticensorship" match-subdomain=yes type=FWD name="twister.net.co" }
@@ -91,5 +91,6 @@
 :if ([:len [find name="wikileaks.org"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-anticensorship" match-subdomain=yes type=FWD name="wikileaks.org" }
 :if ([:len [find name="wikiunblocked.org"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-anticensorship" match-subdomain=yes type=FWD name="wikiunblocked.org" }
 :if ([:len [find name="wireguard.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-anticensorship" match-subdomain=yes type=FWD name="wireguard.com" }
-:if ([:len [find name="xtls.github.io"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-anticensorship" match-subdomain=yes type=FWD name="xtls.github.io" }
 :if ([:len [find name="zeronet.io"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-anticensorship" match-subdomain=yes type=FWD name="zeronet.io" }
+:if ([:len [find name="trojan-gfw.github.io"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-anticensorship" type=FWD name="trojan-gfw.github.io" }
+:if ([:len [find name="xtls.github.io"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-anticensorship" type=FWD name="xtls.github.io" }

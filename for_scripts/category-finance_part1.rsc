@@ -51,6 +51,7 @@
 :if ([:len [find name="bbr.ru"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-finance" match-subdomain=yes type=FWD name="bbr.ru" }
 :if ([:len [find name="bcs-bank.ru"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-finance" match-subdomain=yes type=FWD name="bcs-bank.ru" }
 :if ([:len [find name="bcs.ru"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-finance" match-subdomain=yes type=FWD name="bcs.ru" }
+:if ([:len [find name="best2pay.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-finance" match-subdomain=yes type=FWD name="best2pay.net" }
 :if ([:len [find name="bfa.ru"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-finance" match-subdomain=yes type=FWD name="bfa.ru" }
 :if ([:len [find name="bim.ir"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-finance" match-subdomain=yes type=FWD name="bim.ir" }
 :if ([:len [find name="bk.mufg.jp"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-finance" match-subdomain=yes type=FWD name="bk.mufg.jp" }
@@ -150,4 +151,3 @@
 :if ([:len [find name="hsbc-transactionservices.de"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-finance" match-subdomain=yes type=FWD name="hsbc-transactionservices.de" }
 :if ([:len [find name="hsbc-zertifikate.de"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-finance" match-subdomain=yes type=FWD name="hsbc-zertifikate.de" }
 :if ([:len [find name="hsbc.bm"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-finance" match-subdomain=yes type=FWD name="hsbc.bm" }
-:if ([:len [find name="hsbc.co.jp"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-finance" match-subdomain=yes type=FWD name="hsbc.co.jp" }

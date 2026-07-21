@@ -1,6 +1,10 @@
 :global AddressList
 :global ForwardTo
 /ip dns static
+:if ([:len [find name="rencredit.ru"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-bank-ru" match-subdomain=yes type=FWD name="rencredit.ru" }
+:if ([:len [find name="restnproducts.ru"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-bank-ru" match-subdomain=yes type=FWD name="restnproducts.ru" }
+:if ([:len [find name="rf-sim-mobile.ru"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-bank-ru" match-subdomain=yes type=FWD name="rf-sim-mobile.ru" }
+:if ([:len [find name="rncoluminis.ru"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-bank-ru" match-subdomain=yes type=FWD name="rncoluminis.ru" }
 :if ([:len [find name="rosbank-auto.ru"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-bank-ru" match-subdomain=yes type=FWD name="rosbank-auto.ru" }
 :if ([:len [find name="rosbank-capital.ru"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-bank-ru" match-subdomain=yes type=FWD name="rosbank-capital.ru" }
 :if ([:len [find name="rosbank-credit.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-bank-ru" match-subdomain=yes type=FWD name="rosbank-credit.com" }
