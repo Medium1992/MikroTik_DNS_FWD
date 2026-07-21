@@ -15,6 +15,8 @@
 :if ([:len [find name="mosgorzdrav.ru"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-medicine-ru" match-subdomain=yes type=FWD name="mosgorzdrav.ru" }
 :if ([:len [find name="oms.karelia.ru"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-medicine-ru" match-subdomain=yes type=FWD name="oms.karelia.ru" }
 :if ([:len [find name="polyclinika.ru"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-medicine-ru" match-subdomain=yes type=FWD name="polyclinika.ru" }
+:if ([:len [find name="reaviz.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-medicine-ru" match-subdomain=yes type=FWD name="reaviz.com" }
+:if ([:len [find name="reaviz.ru"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-medicine-ru" match-subdomain=yes type=FWD name="reaviz.ru" }
 :if ([:len [find name="reso-med.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-medicine-ru" match-subdomain=yes type=FWD name="reso-med.com" }
 :if ([:len [find name="reso-med.ru"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-medicine-ru" match-subdomain=yes type=FWD name="reso-med.ru" }
 :if ([:len [find name="smartmed.pro"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-medicine-ru" match-subdomain=yes type=FWD name="smartmed.pro" }
