@@ -32,6 +32,7 @@
 :if ([:len [find name="qmai.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-food-cn" match-subdomain=yes type=FWD name="qmai.com" }
 :if ([:len [find name="shuanghui.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-food-cn" match-subdomain=yes type=FWD name="shuanghui.net" }
 :if ([:len [find name="shuxinyc.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-food-cn" match-subdomain=yes type=FWD name="shuxinyc.com" }
+:if ([:len [find name="telunsu.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-food-cn" match-subdomain=yes type=FWD name="telunsu.net" }
 :if ([:len [find name="trackingprd.hwwt8.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-food-cn" match-subdomain=yes type=FWD name="trackingprd.hwwt8.com" }
 :if ([:len [find name="trackserver.shuxinyc.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-food-cn" match-subdomain=yes type=FWD name="trackserver.shuxinyc.com" }
 :if ([:len [find name="vipbcw.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-food-cn" match-subdomain=yes type=FWD name="vipbcw.com" }

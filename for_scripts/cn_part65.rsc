@@ -1,6 +1,9 @@
 :global AddressList
 :global ForwardTo
 /ip dns static
+:if ([:len [find name="a5089302099a537e.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="cn" match-subdomain=yes type=FWD name="a5089302099a537e.com" }
+:if ([:len [find name="a5380a8e41016.beer"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="cn" match-subdomain=yes type=FWD name="a5380a8e41016.beer" }
+:if ([:len [find name="a5399.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="cn" match-subdomain=yes type=FWD name="a5399.com" }
 :if ([:len [find name="a549543886.asia"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="cn" match-subdomain=yes type=FWD name="a549543886.asia" }
 :if ([:len [find name="a5600.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="cn" match-subdomain=yes type=FWD name="a5600.com" }
 :if ([:len [find name="a58cd776cc.baby"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="cn" match-subdomain=yes type=FWD name="a58cd776cc.baby" }
@@ -148,6 +151,3 @@
 :if ([:len [find name="abcsbank.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="cn" match-subdomain=yes type=FWD name="abcsbank.com" }
 :if ([:len [find name="abctime.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="cn" match-subdomain=yes type=FWD name="abctime.com" }
 :if ([:len [find name="abcve.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="cn" match-subdomain=yes type=FWD name="abcve.com" }
-:if ([:len [find name="abcxyzkk.xyz"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="cn" match-subdomain=yes type=FWD name="abcxyzkk.xyz" }
-:if ([:len [find name="abcydia.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="cn" match-subdomain=yes type=FWD name="abcydia.com" }
-:if ([:len [find name="abd007.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="cn" match-subdomain=yes type=FWD name="abd007.com" }

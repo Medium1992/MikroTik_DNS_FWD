@@ -1,6 +1,7 @@
 :global AddressList
 :global ForwardTo
 /ip dns static
+:if ([:len [find name="officecdn-microsoft-com.akamaized.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" type=FWD name="officecdn-microsoft-com.akamaized.net" }
 :if ([:len [find name="onekey.zendesk.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" type=FWD name="onekey.zendesk.com" }
 :if ([:len [find name="oneocsp.microsoft.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" type=FWD name="oneocsp.microsoft.com" }
 :if ([:len [find name="ood.opsource.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" type=FWD name="ood.opsource.net" }
@@ -150,4 +151,3 @@
 :if ([:len [find name="time-e-b.nist.gov"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" type=FWD name="time-e-b.nist.gov" }
 :if ([:len [find name="time-e-g.nist.gov"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" type=FWD name="time-e-g.nist.gov" }
 :if ([:len [find name="time-e-wwv.nist.gov"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" type=FWD name="time-e-wwv.nist.gov" }
-:if ([:len [find name="time.apple.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" type=FWD name="time.apple.com" }

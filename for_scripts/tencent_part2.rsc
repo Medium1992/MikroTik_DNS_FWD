@@ -95,6 +95,7 @@
 :if ([:len [find name="mszdld.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="tencent" match-subdomain=yes type=FWD name="mszdld.net" }
 :if ([:len [find name="mting.info"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="tencent" match-subdomain=yes type=FWD name="mting.info" }
 :if ([:len [find name="mtrace.qq.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="tencent" match-subdomain=yes type=FWD name="mtrace.qq.com" }
+:if ([:len [find name="my-imcloud.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="tencent" match-subdomain=yes type=FWD name="my-imcloud.com" }
 :if ([:len [find name="my-qcloud.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="tencent" match-subdomain=yes type=FWD name="my-qcloud.com" }
 :if ([:len [find name="myapp.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="tencent" match-subdomain=yes type=FWD name="myapp.com" }
 :if ([:len [find name="myelasticsearch.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="tencent" match-subdomain=yes type=FWD name="myelasticsearch.com" }
@@ -150,4 +151,3 @@
 :if ([:len [find name="qlivecdn.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="tencent" match-subdomain=yes type=FWD name="qlivecdn.com" }
 :if ([:len [find name="qq.cn.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="tencent" match-subdomain=yes type=FWD name="qq.cn.com" }
 :if ([:len [find name="qq.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="tencent" match-subdomain=yes type=FWD name="qq.com" }
-:if ([:len [find name="qq.design"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="tencent" match-subdomain=yes type=FWD name="qq.design" }

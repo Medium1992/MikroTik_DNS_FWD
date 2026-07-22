@@ -1,6 +1,7 @@
 :global AddressList
 :global ForwardTo
 /ip dns static
+:if ([:len [find name="qq.design"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="tencent" match-subdomain=yes type=FWD name="qq.design" }
 :if ([:len [find name="qq.wang"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="tencent" match-subdomain=yes type=FWD name="qq.wang" }
 :if ([:len [find name="qq.xn--fiqs8s"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="tencent" match-subdomain=yes type=FWD name="qq.xn--fiqs8s" }
 :if ([:len [find name="qqdata.ab.qq.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="tencent" match-subdomain=yes type=FWD name="qqdata.ab.qq.com" }
@@ -150,4 +151,3 @@
 :if ([:len [find name="tendbcluster.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="tencent" match-subdomain=yes type=FWD name="tendbcluster.com" }
 :if ([:len [find name="tendis.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="tencent" match-subdomain=yes type=FWD name="tendis.net" }
 :if ([:len [find name="tenpay.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="tencent" match-subdomain=yes type=FWD name="tenpay.com" }
-:if ([:len [find name="testwaf.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="tencent" match-subdomain=yes type=FWD name="testwaf.com" }
