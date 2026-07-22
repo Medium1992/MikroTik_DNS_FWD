@@ -7,6 +7,7 @@
 :if ([:len [find name="acloudrender.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="amap" match-subdomain=yes type=FWD name="acloudrender.com" }
 :if ([:len [find name="adashx.ut.amap.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="amap" match-subdomain=yes type=FWD name="adashx.ut.amap.com" }
 :if ([:len [find name="amap.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="amap" match-subdomain=yes type=FWD name="amap.com" }
+:if ([:len [find name="amap.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="amap" match-subdomain=yes type=FWD name="amap.net" }
 :if ([:len [find name="amapauto.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="amap" match-subdomain=yes type=FWD name="amapauto.com" }
 :if ([:len [find name="anav.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="amap" match-subdomain=yes type=FWD name="anav.com" }
 :if ([:len [find name="autonavi.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="amap" match-subdomain=yes type=FWD name="autonavi.com" }

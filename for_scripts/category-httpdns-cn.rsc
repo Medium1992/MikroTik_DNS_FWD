@@ -40,6 +40,7 @@
 :if ([:len [find name="httpdns.zhihu.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-httpdns-cn" match-subdomain=yes type=FWD name="httpdns.zhihu.com" }
 :if ([:len [find name="httpdns.zybang.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-httpdns-cn" match-subdomain=yes type=FWD name="httpdns.zybang.com" }
 :if ([:len [find name="httpdns1.cc.cdnhwc5.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-httpdns-cn" match-subdomain=yes type=FWD name="httpdns1.cc.cdnhwc5.com" }
+:if ([:len [find name="httpdnsmultiapivip.meituan.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-httpdns-cn" match-subdomain=yes type=FWD name="httpdnsmultiapivip.meituan.com" }
 :if ([:len [find name="httpdnsvip.meituan.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-httpdns-cn" match-subdomain=yes type=FWD name="httpdnsvip.meituan.com" }
 :if ([:len [find name="httpsdns.baidu.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-httpdns-cn" match-subdomain=yes type=FWD name="httpsdns.baidu.com" }
 :if ([:len [find name="kuaishou.httpdns.pro"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-httpdns-cn" match-subdomain=yes type=FWD name="kuaishou.httpdns.pro" }

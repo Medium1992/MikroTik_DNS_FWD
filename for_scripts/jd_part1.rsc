@@ -12,6 +12,7 @@
 :if ([:len [find name="ads.union.jd.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="jd" match-subdomain=yes type=FWD name="ads.union.jd.com" }
 :if ([:len [find name="baitiao.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="jd" match-subdomain=yes type=FWD name="baitiao.com" }
 :if ([:len [find name="blackdragon.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="jd" match-subdomain=yes type=FWD name="blackdragon.com" }
+:if ([:len [find name="buyjingxi.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="jd" match-subdomain=yes type=FWD name="buyjingxi.com" }
 :if ([:len [find name="c-nfa.jd.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="jd" match-subdomain=yes type=FWD name="c-nfa.jd.com" }
 :if ([:len [find name="caiyu.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="jd" match-subdomain=yes type=FWD name="caiyu.com" }
 :if ([:len [find name="cloud-beijing.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="jd" match-subdomain=yes type=FWD name="cloud-beijing.com" }
@@ -150,4 +151,3 @@
 :if ([:len [find name="jdcloud-oss.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="jd" match-subdomain=yes type=FWD name="jdcloud-oss.com" }
 :if ([:len [find name="jdcloud.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="jd" match-subdomain=yes type=FWD name="jdcloud.com" }
 :if ([:len [find name="jdcloudcache.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="jd" match-subdomain=yes type=FWD name="jdcloudcache.com" }
-:if ([:len [find name="jdcloudcache.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="jd" match-subdomain=yes type=FWD name="jdcloudcache.net" }

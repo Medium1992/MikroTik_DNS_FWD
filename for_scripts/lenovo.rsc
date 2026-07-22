@@ -11,6 +11,7 @@
 :if ([:len [find name="ileapcloud.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="lenovo" match-subdomain=yes type=FWD name="ileapcloud.com" }
 :if ([:len [find name="juhuiwan.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="lenovo" match-subdomain=yes type=FWD name="juhuiwan.com" }
 :if ([:len [find name="juhuiwan.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="lenovo" match-subdomain=yes type=FWD name="juhuiwan.net" }
+:if ([:len [find name="lecoo.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="lenovo" match-subdomain=yes type=FWD name="lecoo.com" }
 :if ([:len [find name="lenauth.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="lenovo" match-subdomain=yes type=FWD name="lenauth.com" }
 :if ([:len [find name="lenovo.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="lenovo" match-subdomain=yes type=FWD name="lenovo.com" }
 :if ([:len [find name="lenovo.com.cdn.cloudflare.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="lenovo" match-subdomain=yes type=FWD name="lenovo.com.cdn.cloudflare.net" }
