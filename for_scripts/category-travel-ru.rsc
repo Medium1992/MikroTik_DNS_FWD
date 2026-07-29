@@ -9,6 +9,7 @@
 :if ([:len [find name="blablacar.ru"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-travel-ru" match-subdomain=yes type=FWD name="blablacar.ru" }
 :if ([:len [find name="fasten.ru"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-travel-ru" match-subdomain=yes type=FWD name="fasten.ru" }
 :if ([:len [find name="gorodpay.ru"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-travel-ru" match-subdomain=yes type=FWD name="gorodpay.ru" }
+:if ([:len [find name="greywallpass.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-travel-ru" match-subdomain=yes type=FWD name="greywallpass.com" }
 :if ([:len [find name="mosmetro.ru"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-travel-ru" match-subdomain=yes type=FWD name="mosmetro.ru" }
 :if ([:len [find name="mosmetro.tech"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-travel-ru" match-subdomain=yes type=FWD name="mosmetro.tech" }
 :if ([:len [find name="ostrovok.ru"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-travel-ru" match-subdomain=yes type=FWD name="ostrovok.ru" }

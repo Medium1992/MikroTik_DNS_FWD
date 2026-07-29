@@ -1,6 +1,7 @@
 :global AddressList
 :global ForwardTo
 /ip dns static
+:if ([:len [find name="googleanalytics.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" type=FWD name="googleanalytics.com" }
 :if ([:len [find name="googleapis-cn.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" type=FWD name="googleapis-cn.com" }
 :if ([:len [find name="googleapps-cn.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" type=FWD name="googleapps-cn.com" }
 :if ([:len [find name="googleflights-cn.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" type=FWD name="googleflights-cn.net" }
@@ -150,4 +151,3 @@
 :if ([:len [find name="mpnbenefitsrtluat.download.prss.microsoft.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" type=FWD name="mpnbenefitsrtluat.download.prss.microsoft.com" }
 :if ([:len [find name="mscrl.microsoft.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" type=FWD name="mscrl.microsoft.com" }
 :if ([:len [find name="msdn.download.prss.microsoft.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" type=FWD name="msdn.download.prss.microsoft.com" }
-:if ([:len [find name="msdprod-ad.download.prss.microsoft.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" type=FWD name="msdprod-ad.download.prss.microsoft.com" }

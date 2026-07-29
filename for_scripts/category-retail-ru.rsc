@@ -47,6 +47,7 @@
 :if ([:len [find name="okolo.app"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-retail-ru" match-subdomain=yes type=FWD name="okolo.app" }
 :if ([:len [find name="oskelly.co"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-retail-ru" match-subdomain=yes type=FWD name="oskelly.co" }
 :if ([:len [find name="oskelly.ru"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-retail-ru" match-subdomain=yes type=FWD name="oskelly.ru" }
+:if ([:len [find name="ostin.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-retail-ru" match-subdomain=yes type=FWD name="ostin.com" }
 :if ([:len [find name="perekrestok.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-retail-ru" match-subdomain=yes type=FWD name="perekrestok.com" }
 :if ([:len [find name="perekrestok.ru"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-retail-ru" match-subdomain=yes type=FWD name="perekrestok.ru" }
 :if ([:len [find name="regard.ru"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-retail-ru" match-subdomain=yes type=FWD name="regard.ru" }
