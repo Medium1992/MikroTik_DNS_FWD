@@ -3,4 +3,5 @@
 /ip dns static
 :if ([:len [find name="grok.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="xai" match-subdomain=yes type=FWD name="grok.com" }
 :if ([:len [find name="grok.x.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="xai" match-subdomain=yes type=FWD name="grok.x.com" }
+:if ([:len [find name="grokipedia.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="xai" match-subdomain=yes type=FWD name="grokipedia.com" }
 :if ([:len [find name="x.ai"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="xai" match-subdomain=yes type=FWD name="x.ai" }

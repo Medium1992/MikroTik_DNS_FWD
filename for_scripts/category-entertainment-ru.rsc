@@ -7,6 +7,8 @@
 :if ([:len [find name="cdnvideo.ru"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-entertainment-ru" match-subdomain=yes type=FWD name="cdnvideo.ru" }
 :if ([:len [find name="cdnvideohub.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-entertainment-ru" match-subdomain=yes type=FWD name="cdnvideohub.com" }
 :if ([:len [find name="ivi.ru"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-entertainment-ru" match-subdomain=yes type=FWD name="ivi.ru" }
+:if ([:len [find name="ivicdn.tv"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-entertainment-ru" match-subdomain=yes type=FWD name="ivicdn.tv" }
+:if ([:len [find name="kinescopecdn.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-entertainment-ru" match-subdomain=yes type=FWD name="kinescopecdn.net" }
 :if ([:len [find name="kinopoisk-ru.clstorage.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-entertainment-ru" match-subdomain=yes type=FWD name="kinopoisk-ru.clstorage.net" }
 :if ([:len [find name="kinopoisk.ru"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-entertainment-ru" match-subdomain=yes type=FWD name="kinopoisk.ru" }
 :if ([:len [find name="kinorium.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-entertainment-ru" match-subdomain=yes type=FWD name="kinorium.com" }

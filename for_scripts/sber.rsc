@@ -42,6 +42,7 @@
 :if ([:len [find name="sber.ru"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="sber" match-subdomain=yes type=FWD name="sber.ru" }
 :if ([:len [find name="sberauto.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="sber" match-subdomain=yes type=FWD name="sberauto.com" }
 :if ([:len [find name="sberbank-insurance.ru"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="sber" match-subdomain=yes type=FWD name="sberbank-insurance.ru" }
+:if ([:len [find name="sberbank-tele.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="sber" match-subdomain=yes type=FWD name="sberbank-tele.com" }
 :if ([:len [find name="sberbank.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="sber" match-subdomain=yes type=FWD name="sberbank.com" }
 :if ([:len [find name="sberbank.ru"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="sber" match-subdomain=yes type=FWD name="sberbank.ru" }
 :if ([:len [find name="sberbankaktivno.ru"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="sber" match-subdomain=yes type=FWD name="sberbankaktivno.ru" }

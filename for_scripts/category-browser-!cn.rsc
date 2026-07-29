@@ -5,6 +5,7 @@
 :if ([:len [find name="brave.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-browser-!cn" match-subdomain=yes type=FWD name="brave.com" }
 :if ([:len [find name="bromite.org"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-browser-!cn" match-subdomain=yes type=FWD name="bromite.org" }
 :if ([:len [find name="browser.kagi.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-browser-!cn" match-subdomain=yes type=FWD name="browser.kagi.com" }
+:if ([:len [find name="ceno.app"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-browser-!cn" match-subdomain=yes type=FWD name="ceno.app" }
 :if ([:len [find name="chrome"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-browser-!cn" match-subdomain=yes type=FWD name="chrome" }
 :if ([:len [find name="chrome.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-browser-!cn" match-subdomain=yes type=FWD name="chrome.com" }
 :if ([:len [find name="chromium.org"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-browser-!cn" match-subdomain=yes type=FWD name="chromium.org" }

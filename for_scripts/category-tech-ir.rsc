@@ -27,6 +27,7 @@
 :if ([:len [find name="p30download.ir"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-tech-ir" match-subdomain=yes type=FWD name="p30download.ir" }
 :if ([:len [find name="parsonline.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-tech-ir" match-subdomain=yes type=FWD name="parsonline.com" }
 :if ([:len [find name="parspack.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-tech-ir" match-subdomain=yes type=FWD name="parspack.com" }
+:if ([:len [find name="pazhnetwork.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-tech-ir" match-subdomain=yes type=FWD name="pazhnetwork.com" }
 :if ([:len [find name="picofile.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-tech-ir" match-subdomain=yes type=FWD name="picofile.com" }
 :if ([:len [find name="pishgaman.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-tech-ir" match-subdomain=yes type=FWD name="pishgaman.net" }
 :if ([:len [find name="rightel.ir"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-tech-ir" match-subdomain=yes type=FWD name="rightel.ir" }

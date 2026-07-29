@@ -12,3 +12,4 @@
 :if ([:len [find name="lingkou.xyz"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-olympiad-in-informatics" match-subdomain=yes type=FWD name="lingkou.xyz" }
 :if ([:len [find name="oi-wiki.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-olympiad-in-informatics" match-subdomain=yes type=FWD name="oi-wiki.com" }
 :if ([:len [find name="vijos.org"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-olympiad-in-informatics" match-subdomain=yes type=FWD name="vijos.org" }
+:if ([:len [find name="xmoj.tech"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-olympiad-in-informatics" match-subdomain=yes type=FWD name="xmoj.tech" }

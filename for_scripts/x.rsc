@@ -4,6 +4,7 @@
 :if ([:len [find name="ads-twitter.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="x" match-subdomain=yes type=FWD name="ads-twitter.com" }
 :if ([:len [find name="cms-twdigitalassets.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="x" match-subdomain=yes type=FWD name="cms-twdigitalassets.com" }
 :if ([:len [find name="grok.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="x" match-subdomain=yes type=FWD name="grok.com" }
+:if ([:len [find name="grokipedia.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="x" match-subdomain=yes type=FWD name="grokipedia.com" }
 :if ([:len [find name="periscope.tv"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="x" match-subdomain=yes type=FWD name="periscope.tv" }
 :if ([:len [find name="pscp.tv"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="x" match-subdomain=yes type=FWD name="pscp.tv" }
 :if ([:len [find name="t.co"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="x" match-subdomain=yes type=FWD name="t.co" }
