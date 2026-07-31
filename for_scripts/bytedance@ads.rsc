@@ -5,6 +5,7 @@
 :if ([:len [find name="analytics.tiktok.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="bytedance@ads" match-subdomain=yes type=FWD name="analytics.tiktok.com" }
 :if ([:len [find name="bds.snssdk.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="bytedance@ads" match-subdomain=yes type=FWD name="bds.snssdk.com" }
 :if ([:len [find name="byteadverts.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="bytedance@ads" match-subdomain=yes type=FWD name="byteadverts.com" }
+:if ([:len [find name="csjplatform.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="bytedance@ads" match-subdomain=yes type=FWD name="csjplatform.com" }
 :if ([:len [find name="ctobsnssdk.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="bytedance@ads" match-subdomain=yes type=FWD name="ctobsnssdk.com" }
 :if ([:len [find name="dig.bdurl.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="bytedance@ads" match-subdomain=yes type=FWD name="dig.bdurl.net" }
 :if ([:len [find name="extlog.snssdk.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="bytedance@ads" match-subdomain=yes type=FWD name="extlog.snssdk.com" }

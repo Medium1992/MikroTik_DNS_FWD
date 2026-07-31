@@ -1,6 +1,7 @@
 :global AddressList
 :global ForwardTo
 /ip dns static
+:if ([:len [find name="tarantoolplus.ru"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="mailru-group" match-subdomain=yes type=FWD name="tarantoolplus.ru" }
 :if ([:len [find name="target.my.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="mailru-group" match-subdomain=yes type=FWD name="target.my.com" }
 :if ([:len [find name="target.vk.ru"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="mailru-group" match-subdomain=yes type=FWD name="target.vk.ru" }
 :if ([:len [find name="tech-mail.ru"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="mailru-group" match-subdomain=yes type=FWD name="tech-mail.ru" }
@@ -13,6 +14,7 @@
 :if ([:len [find name="tracker.my.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="mailru-group" match-subdomain=yes type=FWD name="tracker.my.com" }
 :if ([:len [find name="tusco.ru"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="mailru-group" match-subdomain=yes type=FWD name="tusco.ru" }
 :if ([:len [find name="uchi.ru"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="mailru-group" match-subdomain=yes type=FWD name="uchi.ru" }
+:if ([:len [find name="uchilk.ru"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="mailru-group" match-subdomain=yes type=FWD name="uchilk.ru" }
 :if ([:len [find name="uma.media"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="mailru-group" match-subdomain=yes type=FWD name="uma.media" }
 :if ([:len [find name="umschool.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="mailru-group" match-subdomain=yes type=FWD name="umschool.net" }
 :if ([:len [find name="userapi.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="mailru-group" match-subdomain=yes type=FWD name="userapi.com" }
@@ -76,6 +78,7 @@
 :if ([:len [find name="xn----7sbbamm1bv2bh7i.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="mailru-group" match-subdomain=yes type=FWD name="xn----7sbbamm1bv2bh7i.com" }
 :if ([:len [find name="xn----8sbaroledu6bi7j.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="mailru-group" match-subdomain=yes type=FWD name="xn----8sbaroledu6bi7j.com" }
 :if ([:len [find name="xn----8sbeoy5bze.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="mailru-group" match-subdomain=yes type=FWD name="xn----8sbeoy5bze.com" }
+:if ([:len [find name="xn----otbzjdu.xn--p1ai"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="mailru-group" match-subdomain=yes type=FWD name="xn----otbzjdu.xn--p1ai" }
 :if ([:len [find name="xn--80aqcf7a6do.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="mailru-group" match-subdomain=yes type=FWD name="xn--80aqcf7a6do.com" }
 :if ([:len [find name="xn--80asgb.xn--p1ai"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="mailru-group" match-subdomain=yes type=FWD name="xn--80asgb.xn--p1ai" }
 :if ([:len [find name="xn--e1aigb.xn--p1ai"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="mailru-group" match-subdomain=yes type=FWD name="xn--e1aigb.xn--p1ai" }
