@@ -8,5 +8,6 @@
 :if ([:len [find name="eleme.io"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="eleme" match-subdomain=yes type=FWD name="eleme.io" }
 :if ([:len [find name="elemecdn.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="eleme" match-subdomain=yes type=FWD name="elemecdn.com" }
 :if ([:len [find name="elenet.me"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="eleme" match-subdomain=yes type=FWD name="elenet.me" }
+:if ([:len [find name="fengniaojipei.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="eleme" match-subdomain=yes type=FWD name="fengniaojipei.net" }
 :if ([:len [find name="h-adashx.ut.ele.me"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="eleme" match-subdomain=yes type=FWD name="h-adashx.ut.ele.me" }
 :if ([:len [find name="v6-adashx.ut.ele.me"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="eleme" match-subdomain=yes type=FWD name="v6-adashx.ut.ele.me" }

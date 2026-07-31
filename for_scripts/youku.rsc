@@ -12,7 +12,6 @@
 :if ([:len [find name="h-adashx.ut.youku.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="youku" match-subdomain=yes type=FWD name="h-adashx.ut.youku.com" }
 :if ([:len [find name="kumiao.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="youku" match-subdomain=yes type=FWD name="kumiao.com" }
 :if ([:len [find name="lstat.youku.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="youku" match-subdomain=yes type=FWD name="lstat.youku.com" }
-:if ([:len [find name="mmstat.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="youku" match-subdomain=yes type=FWD name="mmstat.com" }
 :if ([:len [find name="mobilemsg.youku.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="youku" match-subdomain=yes type=FWD name="mobilemsg.youku.com" }
 :if ([:len [find name="msg.youku.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="youku" match-subdomain=yes type=FWD name="msg.youku.com" }
 :if ([:len [find name="p-log.ykimg.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="youku" match-subdomain=yes type=FWD name="p-log.ykimg.com" }
@@ -31,3 +30,4 @@
 :if ([:len [find name="youku.tv"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="youku" match-subdomain=yes type=FWD name="youku.tv" }
 :if ([:len [find name="youkuhonor.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="youku" match-subdomain=yes type=FWD name="youkuhonor.com" }
 :if ([:len [find name="youkuplay.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="youku" match-subdomain=yes type=FWD name="youkuplay.com" }
+:if ([:len [find name="ykimg.alicdn.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="youku" type=FWD name="ykimg.alicdn.com" }
