@@ -111,6 +111,7 @@
 :if ([:len [find name="acmvalidationsaws.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" match-subdomain=yes type=FWD name="acmvalidationsaws.com" }
 :if ([:len [find name="acpica.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" match-subdomain=yes type=FWD name="acpica.com" }
 :if ([:len [find name="acrobat.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" match-subdomain=yes type=FWD name="acrobat.com" }
+:if ([:len [find name="actifio.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" match-subdomain=yes type=FWD name="actifio.com" }
 :if ([:len [find name="ad.mail.ru"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" match-subdomain=yes type=FWD name="ad.mail.ru" }
 :if ([:len [find name="adam.jp"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" match-subdomain=yes type=FWD name="adam.jp" }
 :if ([:len [find name="adaptivecards.io"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" match-subdomain=yes type=FWD name="adaptivecards.io" }
@@ -150,4 +151,3 @@
 :if ([:len [find name="adobeku.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" match-subdomain=yes type=FWD name="adobeku.com" }
 :if ([:len [find name="adobelanding.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" match-subdomain=yes type=FWD name="adobelanding.com" }
 :if ([:len [find name="adobelogin.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" match-subdomain=yes type=FWD name="adobelogin.com" }
-:if ([:len [find name="adobeoobe.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" match-subdomain=yes type=FWD name="adobeoobe.com" }

@@ -1,11 +1,18 @@
 :global AddressList
 :global ForwardTo
 /ip dns static
+:if ([:len [find name="stackoverflowjobs.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-dev" match-subdomain=yes type=FWD name="stackoverflowjobs.com" }
+:if ([:len [find name="stackoverflowsolutions.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-dev" match-subdomain=yes type=FWD name="stackoverflowsolutions.com" }
+:if ([:len [find name="stackoverflowteams.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-dev" match-subdomain=yes type=FWD name="stackoverflowteams.com" }
+:if ([:len [find name="stacksnippets.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-dev" match-subdomain=yes type=FWD name="stacksnippets.net" }
+:if ([:len [find name="stockagainstphotography.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-dev" match-subdomain=yes type=FWD name="stockagainstphotography.com" }
+:if ([:len [find name="strikingly.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-dev" match-subdomain=yes type=FWD name="strikingly.com" }
 :if ([:len [find name="strikinglycdn.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-dev" match-subdomain=yes type=FWD name="strikinglycdn.com" }
 :if ([:len [find name="sublimetext.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-dev" match-subdomain=yes type=FWD name="sublimetext.com" }
 :if ([:len [find name="superuser.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-dev" match-subdomain=yes type=FWD name="superuser.com" }
 :if ([:len [find name="swift.org"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-dev" match-subdomain=yes type=FWD name="swift.org" }
 :if ([:len [find name="system76.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-dev" match-subdomain=yes type=FWD name="system76.com" }
+:if ([:len [find name="talkingkotlin.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-dev" match-subdomain=yes type=FWD name="talkingkotlin.com" }
 :if ([:len [find name="tampermonkey.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-dev" match-subdomain=yes type=FWD name="tampermonkey.net" }
 :if ([:len [find name="termius.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-dev" match-subdomain=yes type=FWD name="termius.com" }
 :if ([:len [find name="termux.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-dev" match-subdomain=yes type=FWD name="termux.com" }
@@ -144,10 +151,3 @@
 :if ([:len [find name="productionresultssa15.blob.core.windows.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-dev" type=FWD name="productionresultssa15.blob.core.windows.net" }
 :if ([:len [find name="productionresultssa16.blob.core.windows.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-dev" type=FWD name="productionresultssa16.blob.core.windows.net" }
 :if ([:len [find name="productionresultssa17.blob.core.windows.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-dev" type=FWD name="productionresultssa17.blob.core.windows.net" }
-:if ([:len [find name="productionresultssa18.blob.core.windows.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-dev" type=FWD name="productionresultssa18.blob.core.windows.net" }
-:if ([:len [find name="productionresultssa19.blob.core.windows.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-dev" type=FWD name="productionresultssa19.blob.core.windows.net" }
-:if ([:len [find name="productionresultssa2.blob.core.windows.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-dev" type=FWD name="productionresultssa2.blob.core.windows.net" }
-:if ([:len [find name="productionresultssa3.blob.core.windows.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-dev" type=FWD name="productionresultssa3.blob.core.windows.net" }
-:if ([:len [find name="productionresultssa4.blob.core.windows.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-dev" type=FWD name="productionresultssa4.blob.core.windows.net" }
-:if ([:len [find name="productionresultssa5.blob.core.windows.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-dev" type=FWD name="productionresultssa5.blob.core.windows.net" }
-:if ([:len [find name="productionresultssa6.blob.core.windows.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-dev" type=FWD name="productionresultssa6.blob.core.windows.net" }
