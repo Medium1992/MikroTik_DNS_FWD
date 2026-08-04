@@ -1,9 +1,6 @@
 :global AddressList
 :global ForwardTo
 /ip dns static
-:if ([:len [find name="0m7eaq04292.xin"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="cn" match-subdomain=yes type=FWD name="0m7eaq04292.xin" }
-:if ([:len [find name="0mbvyf1437.xin"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="cn" match-subdomain=yes type=FWD name="0mbvyf1437.xin" }
-:if ([:len [find name="0me14c18373.xin"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="cn" match-subdomain=yes type=FWD name="0me14c18373.xin" }
 :if ([:len [find name="0mfqi124198.xin"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="cn" match-subdomain=yes type=FWD name="0mfqi124198.xin" }
 :if ([:len [find name="0mk9ht2449.xin"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="cn" match-subdomain=yes type=FWD name="0mk9ht2449.xin" }
 :if ([:len [find name="0moju716460.xin"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="cn" match-subdomain=yes type=FWD name="0moju716460.xin" }
@@ -151,3 +148,6 @@
 :if ([:len [find name="100md.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="cn" match-subdomain=yes type=FWD name="100md.com" }
 :if ([:len [find name="100mian.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="cn" match-subdomain=yes type=FWD name="100mian.com" }
 :if ([:len [find name="100mmedia.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="cn" match-subdomain=yes type=FWD name="100mmedia.net" }
+:if ([:len [find name="100nets.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="cn" match-subdomain=yes type=FWD name="100nets.com" }
+:if ([:len [find name="100njz.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="cn" match-subdomain=yes type=FWD name="100njz.com" }
+:if ([:len [find name="100nong.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="cn" match-subdomain=yes type=FWD name="100nong.com" }

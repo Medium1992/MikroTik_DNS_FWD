@@ -1,9 +1,6 @@
 :global AddressList
 :global ForwardTo
 /ip dns static
-:if ([:len [find name="0912app.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="cn" match-subdomain=yes type=FWD name="0912app.com" }
-:if ([:len [find name="0912fdj.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="cn" match-subdomain=yes type=FWD name="0912fdj.com" }
-:if ([:len [find name="0913ss.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="cn" match-subdomain=yes type=FWD name="0913ss.com" }
 :if ([:len [find name="0915531111.xin"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="cn" match-subdomain=yes type=FWD name="0915531111.xin" }
 :if ([:len [find name="0916001.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="cn" match-subdomain=yes type=FWD name="0916001.com" }
 :if ([:len [find name="0917.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="cn" match-subdomain=yes type=FWD name="0917.com" }
@@ -151,3 +148,6 @@
 :if ([:len [find name="0l7mqk1284.xin"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="cn" match-subdomain=yes type=FWD name="0l7mqk1284.xin" }
 :if ([:len [find name="0leb5s268.xin"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="cn" match-subdomain=yes type=FWD name="0leb5s268.xin" }
 :if ([:len [find name="0lircg1235.xin"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="cn" match-subdomain=yes type=FWD name="0lircg1235.xin" }
+:if ([:len [find name="0m7eaq04292.xin"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="cn" match-subdomain=yes type=FWD name="0m7eaq04292.xin" }
+:if ([:len [find name="0mbvyf1437.xin"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="cn" match-subdomain=yes type=FWD name="0mbvyf1437.xin" }
+:if ([:len [find name="0me14c18373.xin"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="cn" match-subdomain=yes type=FWD name="0me14c18373.xin" }
