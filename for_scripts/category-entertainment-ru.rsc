@@ -23,6 +23,7 @@
 :if ([:len [find name="restream.ru"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-entertainment-ru" match-subdomain=yes type=FWD name="restream.ru" }
 :if ([:len [find name="rtbcdn.ru"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-entertainment-ru" match-subdomain=yes type=FWD name="rtbcdn.ru" }
 :if ([:len [find name="rutube.ru"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-entertainment-ru" match-subdomain=yes type=FWD name="rutube.ru" }
+:if ([:len [find name="rutube.sport"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-entertainment-ru" match-subdomain=yes type=FWD name="rutube.sport" }
 :if ([:len [find name="rutubelist.ru"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-entertainment-ru" match-subdomain=yes type=FWD name="rutubelist.ru" }
 :if ([:len [find name="smotreshka.tv"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-entertainment-ru" match-subdomain=yes type=FWD name="smotreshka.tv" }
 :if ([:len [find name="start.ru"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-entertainment-ru" match-subdomain=yes type=FWD name="start.ru" }
