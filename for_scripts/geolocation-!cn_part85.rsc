@@ -1,6 +1,12 @@
 :global AddressList
 :global ForwardTo
 /ip dns static
+:if ([:len [find name="milfhunter.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" match-subdomain=yes type=FWD name="milfhunter.com" }
+:if ([:len [find name="milflove.live"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" match-subdomain=yes type=FWD name="milflove.live" }
+:if ([:len [find name="milfmaturesex.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" match-subdomain=yes type=FWD name="milfmaturesex.net" }
+:if ([:len [find name="milfmovs.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" match-subdomain=yes type=FWD name="milfmovs.com" }
+:if ([:len [find name="milfnut.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" match-subdomain=yes type=FWD name="milfnut.com" }
+:if ([:len [find name="milfporn.pro"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" match-subdomain=yes type=FWD name="milfporn.pro" }
 :if ([:len [find name="milfpornonly.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" match-subdomain=yes type=FWD name="milfpornonly.com" }
 :if ([:len [find name="milfpornpics.xxx"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" match-subdomain=yes type=FWD name="milfpornpics.xxx" }
 :if ([:len [find name="milfprime.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" match-subdomain=yes type=FWD name="milfprime.com" }
@@ -145,9 +151,3 @@
 :if ([:len [find name="miniso-au.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" match-subdomain=yes type=FWD name="miniso-au.com" }
 :if ([:len [find name="miniso-bh.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" match-subdomain=yes type=FWD name="miniso-bh.com" }
 :if ([:len [find name="miniso-np.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" match-subdomain=yes type=FWD name="miniso-np.com" }
-:if ([:len [find name="miniso-nz.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" match-subdomain=yes type=FWD name="miniso-nz.com" }
-:if ([:len [find name="miniso.co"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" match-subdomain=yes type=FWD name="miniso.co" }
-:if ([:len [find name="miniso.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" match-subdomain=yes type=FWD name="miniso.com" }
-:if ([:len [find name="miniso.jp"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" match-subdomain=yes type=FWD name="miniso.jp" }
-:if ([:len [find name="minisoindia.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" match-subdomain=yes type=FWD name="minisoindia.com" }
-:if ([:len [find name="minisojordan.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" match-subdomain=yes type=FWD name="minisojordan.com" }

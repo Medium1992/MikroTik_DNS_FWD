@@ -1,6 +1,7 @@
 :global AddressList
 :global ForwardTo
 /ip dns static
+:if ([:len [find name="okkoapi.tv"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-entertainment" match-subdomain=yes type=FWD name="okkoapi.tv" }
 :if ([:len [find name="olehd.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-entertainment" match-subdomain=yes type=FWD name="olehd.com" }
 :if ([:len [find name="olelive.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-entertainment" match-subdomain=yes type=FWD name="olelive.com" }
 :if ([:len [find name="olemovienews.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-entertainment" match-subdomain=yes type=FWD name="olemovienews.com" }
@@ -121,6 +122,7 @@
 :if ([:len [find name="radgametools.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-entertainment" match-subdomain=yes type=FWD name="radgametools.com" }
 :if ([:len [find name="radiko-cf.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-entertainment" match-subdomain=yes type=FWD name="radiko-cf.com" }
 :if ([:len [find name="radiko.jp"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-entertainment" match-subdomain=yes type=FWD name="radiko.jp" }
+:if ([:len [find name="rateyourmusic.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-entertainment" match-subdomain=yes type=FWD name="rateyourmusic.com" }
 :if ([:len [find name="ravm.tv"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-entertainment" match-subdomain=yes type=FWD name="ravm.tv" }
 :if ([:len [find name="rayark.download"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-entertainment" match-subdomain=yes type=FWD name="rayark.download" }
 :if ([:len [find name="rayark.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-entertainment" match-subdomain=yes type=FWD name="rayark.net" }
@@ -149,5 +151,3 @@
 :if ([:len [find name="rgpub.io"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-entertainment" match-subdomain=yes type=FWD name="rgpub.io" }
 :if ([:len [find name="riot-games.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-entertainment" match-subdomain=yes type=FWD name="riot-games.com" }
 :if ([:len [find name="riot.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-entertainment" match-subdomain=yes type=FWD name="riot.com" }
-:if ([:len [find name="riot.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-entertainment" match-subdomain=yes type=FWD name="riot.net" }
-:if ([:len [find name="riotcdn.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-entertainment" match-subdomain=yes type=FWD name="riotcdn.net" }

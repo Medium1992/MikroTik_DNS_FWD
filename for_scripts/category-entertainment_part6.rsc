@@ -1,6 +1,7 @@
 :global AddressList
 :global ForwardTo
 /ip dns static
+:if ([:len [find name="minecraft.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-entertainment" match-subdomain=yes type=FWD name="minecraft.net" }
 :if ([:len [find name="minecraft.wiki"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-entertainment" match-subdomain=yes type=FWD name="minecraft.wiki" }
 :if ([:len [find name="minecraftforge.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-entertainment" match-subdomain=yes type=FWD name="minecraftforge.net" }
 :if ([:len [find name="minecraftservices.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-entertainment" match-subdomain=yes type=FWD name="minecraftservices.com" }
@@ -150,4 +151,3 @@
 :if ([:len [find name="ofiii.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-entertainment" match-subdomain=yes type=FWD name="ofiii.com" }
 :if ([:len [find name="okko.sport"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-entertainment" match-subdomain=yes type=FWD name="okko.sport" }
 :if ([:len [find name="okko.tv"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-entertainment" match-subdomain=yes type=FWD name="okko.tv" }
-:if ([:len [find name="okkoapi.tv"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-entertainment" match-subdomain=yes type=FWD name="okkoapi.tv" }

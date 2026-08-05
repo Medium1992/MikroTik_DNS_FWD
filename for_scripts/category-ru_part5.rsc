@@ -1,6 +1,10 @@
 :global AddressList
 :global ForwardTo
 /ip dns static
+:if ([:len [find name="vkuservideo.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-ru" match-subdomain=yes type=FWD name="vkuservideo.net" }
+:if ([:len [find name="vmailru.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-ru" match-subdomain=yes type=FWD name="vmailru.net" }
+:if ([:len [find name="volganet.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-ru" match-subdomain=yes type=FWD name="volganet.net" }
+:if ([:len [find name="vscale.blog"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-ru" match-subdomain=yes type=FWD name="vscale.blog" }
 :if ([:len [find name="vscale.io"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-ru" match-subdomain=yes type=FWD name="vscale.io" }
 :if ([:len [find name="vtb-direct.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-ru" match-subdomain=yes type=FWD name="vtb-direct.com" }
 :if ([:len [find name="vtbglobalperspectives.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-ru" match-subdomain=yes type=FWD name="vtbglobalperspectives.com" }
@@ -147,7 +151,3 @@
 :if ([:len [find name="api.carrottrack.app"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-ru" type=FWD name="api.carrottrack.app" }
 :if ([:len [find name="api.dashly.app"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-ru" type=FWD name="api.dashly.app" }
 :if ([:len [find name="api.dashlytrack.app"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-ru" type=FWD name="api.dashlytrack.app" }
-:if ([:len [find name="api.mindbox.cloud"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-ru" type=FWD name="api.mindbox.cloud" }
-:if ([:len [find name="api.mindbox.ru"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-ru" type=FWD name="api.mindbox.ru" }
-:if ([:len [find name="arenda.yandex.ru"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-ru" type=FWD name="arenda.yandex.ru" }
-:if ([:len [find name="b2.mail.ru"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-ru" type=FWD name="b2.mail.ru" }

@@ -1,6 +1,10 @@
 :global AddressList
 :global ForwardTo
 /ip dns static
+:if ([:len [find name="rutube.sport"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-ru" match-subdomain=yes type=FWD name="rutube.sport" }
+:if ([:len [find name="rwbautomation.tech"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-ru" match-subdomain=yes type=FWD name="rwbautomation.tech" }
+:if ([:len [find name="s.mindbox.ru"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-ru" match-subdomain=yes type=FWD name="s.mindbox.ru" }
+:if ([:len [find name="saas-support.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-ru" match-subdomain=yes type=FWD name="saas-support.com" }
 :if ([:len [find name="safeliner.tech"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-ru" match-subdomain=yes type=FWD name="safeliner.tech" }
 :if ([:len [find name="sage-observability.tech"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-ru" match-subdomain=yes type=FWD name="sage-observability.tech" }
 :if ([:len [find name="sayeasy.eu"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-ru" match-subdomain=yes type=FWD name="sayeasy.eu" }
@@ -147,7 +151,3 @@
 :if ([:len [find name="vkuserlive.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-ru" match-subdomain=yes type=FWD name="vkuserlive.com" }
 :if ([:len [find name="vkuserlive.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-ru" match-subdomain=yes type=FWD name="vkuserlive.net" }
 :if ([:len [find name="vkuservideo.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-ru" match-subdomain=yes type=FWD name="vkuservideo.com" }
-:if ([:len [find name="vkuservideo.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-ru" match-subdomain=yes type=FWD name="vkuservideo.net" }
-:if ([:len [find name="vmailru.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-ru" match-subdomain=yes type=FWD name="vmailru.net" }
-:if ([:len [find name="volganet.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-ru" match-subdomain=yes type=FWD name="volganet.net" }
-:if ([:len [find name="vscale.blog"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-ru" match-subdomain=yes type=FWD name="vscale.blog" }

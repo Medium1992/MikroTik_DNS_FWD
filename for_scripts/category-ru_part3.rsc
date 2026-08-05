@@ -38,9 +38,12 @@
 :if ([:len [find name="opennet.dev"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-ru" match-subdomain=yes type=FWD name="opennet.dev" }
 :if ([:len [find name="oskelly.co"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-ru" match-subdomain=yes type=FWD name="oskelly.co" }
 :if ([:len [find name="ostin.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-ru" match-subdomain=yes type=FWD name="ostin.com" }
+:if ([:len [find name="ozon.app"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-ru" match-subdomain=yes type=FWD name="ozon.app" }
 :if ([:len [find name="ozon.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-ru" match-subdomain=yes type=FWD name="ozon.com" }
 :if ([:len [find name="ozon.dev"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-ru" match-subdomain=yes type=FWD name="ozon.dev" }
 :if ([:len [find name="ozon.express"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-ru" match-subdomain=yes type=FWD name="ozon.express" }
+:if ([:len [find name="ozon.global"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-ru" match-subdomain=yes type=FWD name="ozon.global" }
+:if ([:len [find name="ozon.market"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-ru" match-subdomain=yes type=FWD name="ozon.market" }
 :if ([:len [find name="ozon.tech"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-ru" match-subdomain=yes type=FWD name="ozon.tech" }
 :if ([:len [find name="ozon.travel"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-ru" match-subdomain=yes type=FWD name="ozon.travel" }
 :if ([:len [find name="ozoncamp.pro"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-ru" match-subdomain=yes type=FWD name="ozoncamp.pro" }
@@ -148,6 +151,3 @@
 :if ([:len [find name="russiatoday.tv"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-ru" match-subdomain=yes type=FWD name="russiatoday.tv" }
 :if ([:len [find name="rustore.team"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-ru" match-subdomain=yes type=FWD name="rustore.team" }
 :if ([:len [find name="rustore.tv"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-ru" match-subdomain=yes type=FWD name="rustore.tv" }
-:if ([:len [find name="rwbautomation.tech"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-ru" match-subdomain=yes type=FWD name="rwbautomation.tech" }
-:if ([:len [find name="s.mindbox.ru"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-ru" match-subdomain=yes type=FWD name="s.mindbox.ru" }
-:if ([:len [find name="saas-support.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-ru" match-subdomain=yes type=FWD name="saas-support.com" }

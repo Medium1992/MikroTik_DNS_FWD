@@ -1,6 +1,15 @@
 :global AddressList
 :global ForwardTo
 /ip dns static
+:if ([:len [find name="rbdigitallab.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" match-subdomain=yes type=FWD name="rbdigitallab.com" }
+:if ([:len [find name="rbe996.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" match-subdomain=yes type=FWD name="rbe996.com" }
+:if ([:len [find name="rbeopp.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" match-subdomain=yes type=FWD name="rbeopp.com" }
+:if ([:len [find name="rbeuroinfo.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" match-subdomain=yes type=FWD name="rbeuroinfo.com" }
+:if ([:len [find name="rbgrads.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" match-subdomain=yes type=FWD name="rbgrads.com" }
+:if ([:len [find name="rbgraduates.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" match-subdomain=yes type=FWD name="rbgraduates.com" }
+:if ([:len [find name="rblx.co"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" match-subdomain=yes type=FWD name="rblx.co" }
+:if ([:len [find name="rblx.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" match-subdomain=yes type=FWD name="rblx.com" }
+:if ([:len [find name="rblx.org"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" match-subdomain=yes type=FWD name="rblx.org" }
 :if ([:len [find name="rbmavericks.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" match-subdomain=yes type=FWD name="rbmavericks.com" }
 :if ([:len [find name="rbnainternational.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" match-subdomain=yes type=FWD name="rbnainternational.com" }
 :if ([:len [find name="rbplc.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" match-subdomain=yes type=FWD name="rbplc.com" }
@@ -142,12 +151,3 @@
 :if ([:len [find name="redlightcenter.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" match-subdomain=yes type=FWD name="redlightcenter.com" }
 :if ([:len [find name="redmatureporn.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" match-subdomain=yes type=FWD name="redmatureporn.com" }
 :if ([:len [find name="redotpay.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" match-subdomain=yes type=FWD name="redotpay.com" }
-:if ([:len [find name="redporn.xxx"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" match-subdomain=yes type=FWD name="redporn.xxx" }
-:if ([:len [find name="redpornpictures.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" match-subdomain=yes type=FWD name="redpornpictures.com" }
-:if ([:len [find name="redsexhub.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" match-subdomain=yes type=FWD name="redsexhub.com" }
-:if ([:len [find name="redteenporn.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" match-subdomain=yes type=FWD name="redteenporn.com" }
-:if ([:len [find name="redtub3xxx.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" match-subdomain=yes type=FWD name="redtub3xxx.com" }
-:if ([:len [find name="redtube.blog"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" match-subdomain=yes type=FWD name="redtube.blog" }
-:if ([:len [find name="redtube.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" match-subdomain=yes type=FWD name="redtube.com" }
-:if ([:len [find name="redtube9.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" match-subdomain=yes type=FWD name="redtube9.com" }
-:if ([:len [find name="redtubepremium.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" match-subdomain=yes type=FWD name="redtubepremium.com" }

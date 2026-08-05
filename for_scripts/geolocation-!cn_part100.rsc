@@ -1,6 +1,15 @@
 :global AddressList
 :global ForwardTo
 /ip dns static
+:if ([:len [find name="paypal-hrsystem.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" match-subdomain=yes type=FWD name="paypal-hrsystem.com" }
+:if ([:len [find name="paypal-innovationlab.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" match-subdomain=yes type=FWD name="paypal-innovationlab.com" }
+:if ([:len [find name="paypal-integration.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" match-subdomain=yes type=FWD name="paypal-integration.com" }
+:if ([:len [find name="paypal-japan.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" match-subdomain=yes type=FWD name="paypal-japan.com" }
+:if ([:len [find name="paypal-knowledge.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" match-subdomain=yes type=FWD name="paypal-knowledge.com" }
+:if ([:len [find name="paypal-labs.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" match-subdomain=yes type=FWD name="paypal-labs.com" }
+:if ([:len [find name="paypal-latam.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" match-subdomain=yes type=FWD name="paypal-latam.com" }
+:if ([:len [find name="paypal-learning.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" match-subdomain=yes type=FWD name="paypal-learning.com" }
+:if ([:len [find name="paypal-login.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" match-subdomain=yes type=FWD name="paypal-login.com" }
 :if ([:len [find name="paypal-login.info"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" match-subdomain=yes type=FWD name="paypal-login.info" }
 :if ([:len [find name="paypal-login.org"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" match-subdomain=yes type=FWD name="paypal-login.org" }
 :if ([:len [find name="paypal-login.us"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" match-subdomain=yes type=FWD name="paypal-login.us" }
@@ -142,12 +151,3 @@
 :if ([:len [find name="pearsonassessment.be"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" match-subdomain=yes type=FWD name="pearsonassessment.be" }
 :if ([:len [find name="pearsonassessment.de"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" match-subdomain=yes type=FWD name="pearsonassessment.de" }
 :if ([:len [find name="pearsonassessment.nl"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" match-subdomain=yes type=FWD name="pearsonassessment.nl" }
-:if ([:len [find name="pearsonassessment.se"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" match-subdomain=yes type=FWD name="pearsonassessment.se" }
-:if ([:len [find name="pearsonassessments.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" match-subdomain=yes type=FWD name="pearsonassessments.com" }
-:if ([:len [find name="pearsonclinical.be"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" match-subdomain=yes type=FWD name="pearsonclinical.be" }
-:if ([:len [find name="pearsonclinical.de"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" match-subdomain=yes type=FWD name="pearsonclinical.de" }
-:if ([:len [find name="pearsonclinical.eu"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" match-subdomain=yes type=FWD name="pearsonclinical.eu" }
-:if ([:len [find name="pearsonclinical.nl"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" match-subdomain=yes type=FWD name="pearsonclinical.nl" }
-:if ([:len [find name="pearsonclinical.se"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" match-subdomain=yes type=FWD name="pearsonclinical.se" }
-:if ([:len [find name="pearsoncmg.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" match-subdomain=yes type=FWD name="pearsoncmg.com" }
-:if ([:len [find name="pearsoncred.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" match-subdomain=yes type=FWD name="pearsoncred.com" }

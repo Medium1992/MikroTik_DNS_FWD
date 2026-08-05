@@ -111,6 +111,8 @@
 :if ([:len [find name="tac.googleapis.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies@cn" type=FWD name="tac.googleapis.com" }
 :if ([:len [find name="tf-feedback.itunes.apple.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies@cn" type=FWD name="tf-feedback.itunes.apple.com" }
 :if ([:len [find name="tj-pod1-smp-device.apple.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies@cn" type=FWD name="tj-pod1-smp-device.apple.com" }
+:if ([:len [find name="tj-pod2-smp-device.apple.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies@cn" type=FWD name="tj-pod2-smp-device.apple.com" }
+:if ([:len [find name="tj-pod3-smp-device.apple.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies@cn" type=FWD name="tj-pod3-smp-device.apple.com" }
 :if ([:len [find name="tools.google.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies@cn" type=FWD name="tools.google.com" }
 :if ([:len [find name="tp.louisvuitton.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies@cn" type=FWD name="tp.louisvuitton.com" }
 :if ([:len [find name="universal-activity-service.itunes.apple.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies@cn" type=FWD name="universal-activity-service.itunes.apple.com" }
@@ -149,5 +151,3 @@
 :if ([:len [find name="xp.apple.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies@cn" type=FWD name="xp.apple.com" }
 :if ([:len [find regexp=".+\\\\.awsdns-cn-[0-9][0-9]\\\\.(biz|com|net|top)\$"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies@cn" type=FWD regexp=".+\\\\.awsdns-cn-[0-9][0-9]\\\\.(biz|com|net|top)\$" }
 :if ([:len [find regexp=".+\\\\.awsdns-cn-[0-9][a-e0-9]\\\\.cn\$"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies@cn" type=FWD regexp=".+\\\\.awsdns-cn-[0-9][a-e0-9]\\\\.cn\$" }
-:if ([:len [find regexp="^r+[0-9]+(---|\\\\.)sn-(2x3|ni5|j5o)\\\\w{5}\\\\.googlevideo\\\\.com\$"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies@cn" type=FWD regexp="^r+[0-9]+(---|\\\\.)sn-(2x3|ni5|j5o)\\\\w{5}\\\\.googlevideo\\\\.com\$" }
-:if ([:len [find regexp="^r+[0-9]+(---|\\\\.)sn-(2x3|ni5|j5o)\\\\w{5}\\\\.xn--ngstr-lra8j\\\\.com\$"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies@cn" type=FWD regexp="^r+[0-9]+(---|\\\\.)sn-(2x3|ni5|j5o)\\\\w{5}\\\\.xn--ngstr-lra8j\\\\.com\$" }

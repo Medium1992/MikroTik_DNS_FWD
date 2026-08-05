@@ -1,6 +1,20 @@
 :global AddressList
 :global ForwardTo
 /ip dns static
+:if ([:len [find name="vkuservideo.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" match-subdomain=yes type=FWD name="vkuservideo.net" }
+:if ([:len [find name="vkuservideo.ru"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" match-subdomain=yes type=FWD name="vkuservideo.ru" }
+:if ([:len [find name="vkvideo.ru"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" match-subdomain=yes type=FWD name="vkvideo.ru" }
+:if ([:len [find name="vl4x.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" match-subdomain=yes type=FWD name="vl4x.net" }
+:if ([:len [find name="vlb100.ru"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" match-subdomain=yes type=FWD name="vlb100.ru" }
+:if ([:len [find name="vllcs.org"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" match-subdomain=yes type=FWD name="vllcs.org" }
+:if ([:len [find name="vmailru.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" match-subdomain=yes type=FWD name="vmailru.net" }
+:if ([:len [find name="vmglobal.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" match-subdomain=yes type=FWD name="vmglobal.net" }
+:if ([:len [find name="vmixcore.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" match-subdomain=yes type=FWD name="vmixcore.com" }
+:if ([:len [find name="vmmark.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" match-subdomain=yes type=FWD name="vmmark.com" }
+:if ([:len [find name="vmpsoft.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" match-subdomain=yes type=FWD name="vmpsoft.com" }
+:if ([:len [find name="vmtestdrive.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" match-subdomain=yes type=FWD name="vmtestdrive.com" }
+:if ([:len [find name="vmw.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" match-subdomain=yes type=FWD name="vmw.com" }
+:if ([:len [find name="vmware-cloudmanagement.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" match-subdomain=yes type=FWD name="vmware-cloudmanagement.com" }
 :if ([:len [find name="vmware-techcenter.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" match-subdomain=yes type=FWD name="vmware-techcenter.com" }
 :if ([:len [find name="vmware.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" match-subdomain=yes type=FWD name="vmware.com" }
 :if ([:len [find name="vmware20mosaic.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" match-subdomain=yes type=FWD name="vmware20mosaic.com" }
@@ -137,17 +151,3 @@
 :if ([:len [find name="voyeurporntapes.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" match-subdomain=yes type=FWD name="voyeurporntapes.com" }
 :if ([:len [find name="voyeurstyle.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" match-subdomain=yes type=FWD name="voyeurstyle.com" }
 :if ([:len [find name="voyeurweb.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" match-subdomain=yes type=FWD name="voyeurweb.com" }
-:if ([:len [find name="vpl.bibliocommons.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" match-subdomain=yes type=FWD name="vpl.bibliocommons.com" }
-:if ([:len [find name="vpn.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" match-subdomain=yes type=FWD name="vpn.net" }
-:if ([:len [find name="vpn4all.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" match-subdomain=yes type=FWD name="vpn4all.com" }
-:if ([:len [find name="vpnaccount.org"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" match-subdomain=yes type=FWD name="vpnaccount.org" }
-:if ([:len [find name="vpnaccounts.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" match-subdomain=yes type=FWD name="vpnaccounts.com" }
-:if ([:len [find name="vpncoupons.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" match-subdomain=yes type=FWD name="vpncoupons.com" }
-:if ([:len [find name="vpncup.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" match-subdomain=yes type=FWD name="vpncup.com" }
-:if ([:len [find name="vpndada.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" match-subdomain=yes type=FWD name="vpndada.com" }
-:if ([:len [find name="vpnforgame.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" match-subdomain=yes type=FWD name="vpnforgame.net" }
-:if ([:len [find name="vpngate.jp"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" match-subdomain=yes type=FWD name="vpngate.jp" }
-:if ([:len [find name="vpngate.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" match-subdomain=yes type=FWD name="vpngate.net" }
-:if ([:len [find name="vpnhub.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" match-subdomain=yes type=FWD name="vpnhub.com" }
-:if ([:len [find name="vpninja.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" match-subdomain=yes type=FWD name="vpninja.net" }
-:if ([:len [find name="vpnjack.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" match-subdomain=yes type=FWD name="vpnjack.com" }

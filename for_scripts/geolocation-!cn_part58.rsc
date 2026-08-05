@@ -1,6 +1,12 @@
 :global AddressList
 :global ForwardTo
 /ip dns static
+:if ([:len [find name="goldenfrog.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" match-subdomain=yes type=FWD name="goldenfrog.com" }
+:if ([:len [find name="goldgay.tv"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" match-subdomain=yes type=FWD name="goldgay.tv" }
+:if ([:len [find name="goldjizz.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" match-subdomain=yes type=FWD name="goldjizz.com" }
+:if ([:len [find name="goldnikeclub.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" match-subdomain=yes type=FWD name="goldnikeclub.com" }
+:if ([:len [find name="goldsexvideos.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" match-subdomain=yes type=FWD name="goldsexvideos.com" }
+:if ([:len [find name="goldteenporn.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" match-subdomain=yes type=FWD name="goldteenporn.com" }
 :if ([:len [find name="goldvip.cyou"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" match-subdomain=yes type=FWD name="goldvip.cyou" }
 :if ([:len [find name="goldwave.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" match-subdomain=yes type=FWD name="goldwave.com" }
 :if ([:len [find name="golos-ameriki.ru"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" match-subdomain=yes type=FWD name="golos-ameriki.ru" }
@@ -145,9 +151,3 @@
 :if ([:len [find name="gorin.jp"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" match-subdomain=yes type=FWD name="gorin.jp" }
 :if ([:len [find name="gosdolgi.ru"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" match-subdomain=yes type=FWD name="gosdolgi.ru" }
 :if ([:len [find name="gosexpod.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" match-subdomain=yes type=FWD name="gosexpod.com" }
-:if ([:len [find name="goshemalecams.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" match-subdomain=yes type=FWD name="goshemalecams.com" }
-:if ([:len [find name="gospelherald.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" match-subdomain=yes type=FWD name="gospelherald.com" }
-:if ([:len [find name="gosq.co"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" match-subdomain=yes type=FWD name="gosq.co" }
-:if ([:len [find name="gosq.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" match-subdomain=yes type=FWD name="gosq.com" }
-:if ([:len [find name="gossipfuli4511.xyz"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" match-subdomain=yes type=FWD name="gossipfuli4511.xyz" }
-:if ([:len [find name="gossipfuli5522.xyz"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" match-subdomain=yes type=FWD name="gossipfuli5522.xyz" }

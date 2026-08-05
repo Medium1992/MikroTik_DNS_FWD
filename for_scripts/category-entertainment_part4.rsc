@@ -2,6 +2,7 @@
 :global ForwardTo
 /ip dns static
 :if ([:len [find name="giratina.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-entertainment" match-subdomain=yes type=FWD name="giratina.com" }
+:if ([:len [find name="glitchwave.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-entertainment" match-subdomain=yes type=FWD name="glitchwave.com" }
 :if ([:len [find name="gloryofheracles.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-entertainment" match-subdomain=yes type=FWD name="gloryofheracles.com" }
 :if ([:len [find name="go-disneyworldgo.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-entertainment" match-subdomain=yes type=FWD name="go-disneyworldgo.com" }
 :if ([:len [find name="go.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-entertainment" match-subdomain=yes type=FWD name="go.com" }
@@ -150,4 +151,3 @@
 :if ([:len [find name="itunes.apple.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-entertainment" match-subdomain=yes type=FWD name="itunes.apple.com" }
 :if ([:len [find name="itunes.co"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-entertainment" match-subdomain=yes type=FWD name="itunes.co" }
 :if ([:len [find name="itunes.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-entertainment" match-subdomain=yes type=FWD name="itunes.com" }
-:if ([:len [find name="itunes.org"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-entertainment" match-subdomain=yes type=FWD name="itunes.org" }

@@ -1,6 +1,15 @@
 :global AddressList
 :global ForwardTo
 /ip dns static
+:if ([:len [find name="pearsonassessment.se"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" match-subdomain=yes type=FWD name="pearsonassessment.se" }
+:if ([:len [find name="pearsonassessments.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" match-subdomain=yes type=FWD name="pearsonassessments.com" }
+:if ([:len [find name="pearsonclinical.be"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" match-subdomain=yes type=FWD name="pearsonclinical.be" }
+:if ([:len [find name="pearsonclinical.de"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" match-subdomain=yes type=FWD name="pearsonclinical.de" }
+:if ([:len [find name="pearsonclinical.eu"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" match-subdomain=yes type=FWD name="pearsonclinical.eu" }
+:if ([:len [find name="pearsonclinical.nl"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" match-subdomain=yes type=FWD name="pearsonclinical.nl" }
+:if ([:len [find name="pearsonclinical.se"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" match-subdomain=yes type=FWD name="pearsonclinical.se" }
+:if ([:len [find name="pearsoncmg.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" match-subdomain=yes type=FWD name="pearsoncmg.com" }
+:if ([:len [find name="pearsoncred.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" match-subdomain=yes type=FWD name="pearsoncred.com" }
 :if ([:len [find name="pearsoned.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" match-subdomain=yes type=FWD name="pearsoned.com" }
 :if ([:len [find name="pearsoneducacion.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" match-subdomain=yes type=FWD name="pearsoneducacion.net" }
 :if ([:len [find name="pearsoneducationbooks.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" match-subdomain=yes type=FWD name="pearsoneducationbooks.com" }
@@ -142,12 +151,3 @@
 :if ([:len [find name="pinkvelvetvault.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" match-subdomain=yes type=FWD name="pinkvelvetvault.com" }
 :if ([:len [find name="pinkworld.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" match-subdomain=yes type=FWD name="pinkworld.com" }
 :if ([:len [find name="pinoy-n.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" match-subdomain=yes type=FWD name="pinoy-n.com" }
-:if ([:len [find name="pinterest.be"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" match-subdomain=yes type=FWD name="pinterest.be" }
-:if ([:len [find name="pinterest.co"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" match-subdomain=yes type=FWD name="pinterest.co" }
-:if ([:len [find name="pinterest.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" match-subdomain=yes type=FWD name="pinterest.com" }
-:if ([:len [find name="pinterest.de"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" match-subdomain=yes type=FWD name="pinterest.de" }
-:if ([:len [find name="pinterest.engineering"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" match-subdomain=yes type=FWD name="pinterest.engineering" }
-:if ([:len [find name="pinterest.info"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" match-subdomain=yes type=FWD name="pinterest.info" }
-:if ([:len [find name="pinterest.jp"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" match-subdomain=yes type=FWD name="pinterest.jp" }
-:if ([:len [find name="pinterest.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" match-subdomain=yes type=FWD name="pinterest.net" }
-:if ([:len [find name="pinterest.nl"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" match-subdomain=yes type=FWD name="pinterest.nl" }
