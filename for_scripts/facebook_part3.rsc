@@ -71,7 +71,6 @@
 :if ([:len [find name="pixel.facebook.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="facebook" match-subdomain=yes type=FWD name="pixel.facebook.com" }
 :if ([:len [find name="reachtheworldonfacebook.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="facebook" match-subdomain=yes type=FWD name="reachtheworldonfacebook.com" }
 :if ([:len [find name="redkix.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="facebook" match-subdomain=yes type=FWD name="redkix.com" }
-:if ([:len [find name="rocksdb.org"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="facebook" match-subdomain=yes type=FWD name="rocksdb.org" }
 :if ([:len [find name="shopfacebook.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="facebook" match-subdomain=yes type=FWD name="shopfacebook.com" }
 :if ([:len [find name="sportsfacebook.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="facebook" match-subdomain=yes type=FWD name="sportsfacebook.com" }
 :if ([:len [find name="sportstream.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="facebook" match-subdomain=yes type=FWD name="sportstream.com" }

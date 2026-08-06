@@ -1,6 +1,8 @@
 :global AddressList
 :global ForwardTo
 /ip dns static
+:if ([:len [find name="microsoftsilverlight.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" match-subdomain=yes type=FWD name="microsoftsilverlight.net" }
+:if ([:len [find name="microsoftsilverlight.org"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" match-subdomain=yes type=FWD name="microsoftsilverlight.org" }
 :if ([:len [find name="microsoftsiteselection.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" match-subdomain=yes type=FWD name="microsoftsiteselection.com" }
 :if ([:len [find name="microsoftsqlserver.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" match-subdomain=yes type=FWD name="microsoftsqlserver.com" }
 :if ([:len [find name="microsoftstart.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" match-subdomain=yes type=FWD name="microsoftstart.com" }
@@ -149,5 +151,3 @@
 :if ([:len [find name="mozilla.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" match-subdomain=yes type=FWD name="mozilla.com" }
 :if ([:len [find name="mozilla.community"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" match-subdomain=yes type=FWD name="mozilla.community" }
 :if ([:len [find name="mozilla.de"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" match-subdomain=yes type=FWD name="mozilla.de" }
-:if ([:len [find name="mozilla.jp"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" match-subdomain=yes type=FWD name="mozilla.jp" }
-:if ([:len [find name="mozilla.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" match-subdomain=yes type=FWD name="mozilla.net" }

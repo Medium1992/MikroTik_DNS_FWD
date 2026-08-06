@@ -1,6 +1,8 @@
 :global AddressList
 :global ForwardTo
 /ip dns static
+:if ([:len [find name="pangolin-lf.snssdk.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="bytedance" match-subdomain=yes type=FWD name="pangolin-lf.snssdk.com" }
+:if ([:len [find name="pangolin-lq.snssdk.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="bytedance" match-subdomain=yes type=FWD name="pangolin-lq.snssdk.com" }
 :if ([:len [find name="pangolin-sdk-toutiao-b.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="bytedance" match-subdomain=yes type=FWD name="pangolin-sdk-toutiao-b.com" }
 :if ([:len [find name="pangolin-sdk-toutiao.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="bytedance" match-subdomain=yes type=FWD name="pangolin-sdk-toutiao.com" }
 :if ([:len [find name="pangolin-sdk-toutiao1.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="bytedance" match-subdomain=yes type=FWD name="pangolin-sdk-toutiao1.com" }
@@ -149,5 +151,3 @@
 :if ([:len [find name="vertciot.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="bytedance" match-subdomain=yes type=FWD name="vertciot.com" }
 :if ([:len [find name="vestack-beta.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="bytedance" match-subdomain=yes type=FWD name="vestack-beta.com" }
 :if ([:len [find name="vestack-cicd.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="bytedance" match-subdomain=yes type=FWD name="vestack-cicd.com" }
-:if ([:len [find name="vestack-preview.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="bytedance" match-subdomain=yes type=FWD name="vestack-preview.com" }
-:if ([:len [find name="vestack-sandbox.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="bytedance" match-subdomain=yes type=FWD name="vestack-sandbox.com" }

@@ -1,6 +1,13 @@
 :global AddressList
 :global ForwardTo
 /ip dns static
+:if ([:len [find name="app-pay.jp"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" match-subdomain=yes type=FWD name="app-pay.jp" }
+:if ([:len [find name="app-store.wang"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" match-subdomain=yes type=FWD name="app-store.wang" }
+:if ([:len [find name="app.box.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" match-subdomain=yes type=FWD name="app.box.com" }
+:if ([:len [find name="app.smartmailcloud.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" match-subdomain=yes type=FWD name="app.smartmailcloud.com" }
+:if ([:len [find name="app0le.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" match-subdomain=yes type=FWD name="app0le.com" }
+:if ([:len [find name="app756.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" match-subdomain=yes type=FWD name="app756.com" }
+:if ([:len [find name="appadvice.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" match-subdomain=yes type=FWD name="appadvice.com" }
 :if ([:len [find name="appbrain.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" match-subdomain=yes type=FWD name="appbrain.com" }
 :if ([:len [find name="appbridge.io"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" match-subdomain=yes type=FWD name="appbridge.io" }
 :if ([:len [find name="appcloud.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" match-subdomain=yes type=FWD name="appcloud.com" }
@@ -144,10 +151,3 @@
 :if ([:len [find name="appleone.space"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" match-subdomain=yes type=FWD name="appleone.space" }
 :if ([:len [find name="appleone.tech"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" match-subdomain=yes type=FWD name="appleone.tech" }
 :if ([:len [find name="appleone.website"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" match-subdomain=yes type=FWD name="appleone.website" }
-:if ([:len [find name="appleonline.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" match-subdomain=yes type=FWD name="appleonline.com" }
-:if ([:len [find name="appleonline.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" match-subdomain=yes type=FWD name="appleonline.net" }
-:if ([:len [find name="appleoriginalproductions.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" match-subdomain=yes type=FWD name="appleoriginalproductions.com" }
-:if ([:len [find name="appleos.tv"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" match-subdomain=yes type=FWD name="appleos.tv" }
-:if ([:len [find name="applepay.berlin"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" match-subdomain=yes type=FWD name="applepay.berlin" }
-:if ([:len [find name="applepay.com.tw"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" match-subdomain=yes type=FWD name="applepay.com.tw" }
-:if ([:len [find name="applepay.hamburg"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" match-subdomain=yes type=FWD name="applepay.hamburg" }

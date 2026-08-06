@@ -1,6 +1,18 @@
 :global AddressList
 :global ForwardTo
 /ip dns static
+:if ([:len [find name="dinopoloclub.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" match-subdomain=yes type=FWD name="dinopoloclub.com" }
+:if ([:len [find name="dinotube.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" match-subdomain=yes type=FWD name="dinotube.com" }
+:if ([:len [find name="dirctv.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" match-subdomain=yes type=FWD name="dirctv.com" }
+:if ([:len [find name="direcpath.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" match-subdomain=yes type=FWD name="direcpath.com" }
+:if ([:len [find name="direcpath.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" match-subdomain=yes type=FWD name="direcpath.net" }
+:if ([:len [find name="directcreative.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" match-subdomain=yes type=FWD name="directcreative.com" }
+:if ([:len [find name="directtv-deals.tv"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" match-subdomain=yes type=FWD name="directtv-deals.tv" }
+:if ([:len [find name="directtv-dish.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" match-subdomain=yes type=FWD name="directtv-dish.com" }
+:if ([:len [find name="directtv.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" match-subdomain=yes type=FWD name="directtv.net" }
+:if ([:len [find name="directtvdeals.tv"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" match-subdomain=yes type=FWD name="directtvdeals.tv" }
+:if ([:len [find name="directtvreviews.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" match-subdomain=yes type=FWD name="directtvreviews.com" }
+:if ([:len [find name="directv-4-you.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" match-subdomain=yes type=FWD name="directv-4-you.com" }
 :if ([:len [find name="directv-newyork.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" match-subdomain=yes type=FWD name="directv-newyork.com" }
 :if ([:len [find name="directv.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" match-subdomain=yes type=FWD name="directv.com" }
 :if ([:len [find name="directvadsales.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" match-subdomain=yes type=FWD name="directvadsales.com" }
@@ -109,7 +121,9 @@
 :if ([:len [find name="disney.nl"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" match-subdomain=yes type=FWD name="disney.nl" }
 :if ([:len [find name="disney.ru"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" match-subdomain=yes type=FWD name="disney.ru" }
 :if ([:len [find name="disney.se"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" match-subdomain=yes type=FWD name="disney.se" }
+:if ([:len [find name="disneyaccount.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" match-subdomain=yes type=FWD name="disneyaccount.com" }
 :if ([:len [find name="disneyadsales.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" match-subdomain=yes type=FWD name="disneyadsales.com" }
+:if ([:len [find name="disneyanimation.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" match-subdomain=yes type=FWD name="disneyanimation.com" }
 :if ([:len [find name="disneyarena.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" match-subdomain=yes type=FWD name="disneyarena.com" }
 :if ([:len [find name="disneyaulani.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" match-subdomain=yes type=FWD name="disneyaulani.com" }
 :if ([:len [find name="disneybaby.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" match-subdomain=yes type=FWD name="disneybaby.com" }
@@ -125,6 +139,7 @@
 :if ([:len [find name="disneyinternationalhd.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" match-subdomain=yes type=FWD name="disneyinternationalhd.com" }
 :if ([:len [find name="disneyjunior.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" match-subdomain=yes type=FWD name="disneyjunior.com" }
 :if ([:len [find name="disneyjuniortreataday.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" match-subdomain=yes type=FWD name="disneyjuniortreataday.com" }
+:if ([:len [find name="disneylandparis.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" match-subdomain=yes type=FWD name="disneylandparis.com" }
 :if ([:len [find name="disneylatino.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" match-subdomain=yes type=FWD name="disneylatino.com" }
 :if ([:len [find name="disneymagicmoments.de"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" match-subdomain=yes type=FWD name="disneymagicmoments.de" }
 :if ([:len [find name="disneymagicmomentsme.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" match-subdomain=yes type=FWD name="disneymagicmomentsme.com" }
@@ -136,18 +151,3 @@
 :if ([:len [find name="disneynow.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" match-subdomain=yes type=FWD name="disneynow.com" }
 :if ([:len [find name="disneypeoplesurveys.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" match-subdomain=yes type=FWD name="disneypeoplesurveys.com" }
 :if ([:len [find name="disneyplus.bn5x.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" match-subdomain=yes type=FWD name="disneyplus.bn5x.net" }
-:if ([:len [find name="disneyplus.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" match-subdomain=yes type=FWD name="disneyplus.com" }
-:if ([:len [find name="disneyredirects.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" match-subdomain=yes type=FWD name="disneyredirects.com" }
-:if ([:len [find name="disneysrivieraresort.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" match-subdomain=yes type=FWD name="disneysrivieraresort.com" }
-:if ([:len [find name="disneystore.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" match-subdomain=yes type=FWD name="disneystore.com" }
-:if ([:len [find name="disneystreaming.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" match-subdomain=yes type=FWD name="disneystreaming.com" }
-:if ([:len [find name="disneysubscription.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" match-subdomain=yes type=FWD name="disneysubscription.com" }
-:if ([:len [find name="disneytvajobs.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" match-subdomain=yes type=FWD name="disneytvajobs.com" }
-:if ([:len [find name="disneyworld-go.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" match-subdomain=yes type=FWD name="disneyworld-go.com" }
-:if ([:len [find name="disp.cc"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" match-subdomain=yes type=FWD name="disp.cc" }
-:if ([:len [find name="disq.us"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" match-subdomain=yes type=FWD name="disq.us" }
-:if ([:len [find name="disqus.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" match-subdomain=yes type=FWD name="disqus.com" }
-:if ([:len [find name="disquscdn.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" match-subdomain=yes type=FWD name="disquscdn.com" }
-:if ([:len [find name="disqusservice.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" match-subdomain=yes type=FWD name="disqusservice.com" }
-:if ([:len [find name="dit-inc.us"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" match-subdomain=yes type=FWD name="dit-inc.us" }
-:if ([:len [find name="diwodiwo.xyz"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" match-subdomain=yes type=FWD name="diwodiwo.xyz" }

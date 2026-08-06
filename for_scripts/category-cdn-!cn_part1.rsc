@@ -94,9 +94,11 @@
 :if ([:len [find name="cloudflare-ipfs.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-cdn-!cn" match-subdomain=yes type=FWD name="cloudflare-ipfs.com" }
 :if ([:len [find name="cloudflare-quic.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-cdn-!cn" match-subdomain=yes type=FWD name="cloudflare-quic.com" }
 :if ([:len [find name="cloudflare-terms-of-service-abuse.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-cdn-!cn" match-subdomain=yes type=FWD name="cloudflare-terms-of-service-abuse.com" }
+:if ([:len [find name="cloudflare.app"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-cdn-!cn" match-subdomain=yes type=FWD name="cloudflare.app" }
 :if ([:len [find name="cloudflare.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-cdn-!cn" match-subdomain=yes type=FWD name="cloudflare.com" }
 :if ([:len [find name="cloudflare.dev"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-cdn-!cn" match-subdomain=yes type=FWD name="cloudflare.dev" }
 :if ([:len [find name="cloudflare.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-cdn-!cn" match-subdomain=yes type=FWD name="cloudflare.net" }
+:if ([:len [find name="cloudflare.pay"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-cdn-!cn" match-subdomain=yes type=FWD name="cloudflare.pay" }
 :if ([:len [find name="cloudflare.tv"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-cdn-!cn" match-subdomain=yes type=FWD name="cloudflare.tv" }
 :if ([:len [find name="cloudflareaccess.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-cdn-!cn" match-subdomain=yes type=FWD name="cloudflareaccess.com" }
 :if ([:len [find name="cloudflareanycast.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-cdn-!cn" match-subdomain=yes type=FWD name="cloudflareanycast.net" }
@@ -149,5 +151,3 @@
 :if ([:len [find name="foundationdns.org"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-cdn-!cn" match-subdomain=yes type=FWD name="foundationdns.org" }
 :if ([:len [find name="gcdn.co"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-cdn-!cn" match-subdomain=yes type=FWD name="gcdn.co" }
 :if ([:len [find name="gcore.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-cdn-!cn" match-subdomain=yes type=FWD name="gcore.com" }
-:if ([:len [find name="gcore.pro"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-cdn-!cn" match-subdomain=yes type=FWD name="gcore.pro" }
-:if ([:len [find name="iamakamai.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-cdn-!cn" match-subdomain=yes type=FWD name="iamakamai.com" }

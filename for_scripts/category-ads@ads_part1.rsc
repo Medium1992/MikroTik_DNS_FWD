@@ -112,6 +112,7 @@
 :if ([:len [find name="adwords-community.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-ads@ads" match-subdomain=yes type=FWD name="adwords-community.com" }
 :if ([:len [find name="adwords.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-ads@ads" match-subdomain=yes type=FWD name="adwords.com" }
 :if ([:len [find name="adwordsexpress.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-ads@ads" match-subdomain=yes type=FWD name="adwordsexpress.com" }
+:if ([:len [find name="adx.36kr.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-ads@ads" match-subdomain=yes type=FWD name="adx.36kr.com" }
 :if ([:len [find name="adx.xiaodutv.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-ads@ads" match-subdomain=yes type=FWD name="adx.xiaodutv.com" }
 :if ([:len [find name="afd.baidu.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-ads@ads" match-subdomain=yes type=FWD name="afd.baidu.com" }
 :if ([:len [find name="afdconf.baidu.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-ads@ads" match-subdomain=yes type=FWD name="afdconf.baidu.com" }
@@ -150,4 +151,3 @@
 :if ([:len [find name="aspect-upush.umeng.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-ads@ads" match-subdomain=yes type=FWD name="aspect-upush.umeng.com" }
 :if ([:len [find name="assp.sohu.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-ads@ads" match-subdomain=yes type=FWD name="assp.sohu.com" }
 :if ([:len [find name="atanx.alicdn.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-ads@ads" match-subdomain=yes type=FWD name="atanx.alicdn.com" }
-:if ([:len [find name="atanx2.alicdn.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-ads@ads" match-subdomain=yes type=FWD name="atanx2.alicdn.com" }

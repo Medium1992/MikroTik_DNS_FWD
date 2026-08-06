@@ -1,6 +1,8 @@
 :global AddressList
 :global ForwardTo
 /ip dns static
+:if ([:len [find name="tdsdk.cpatrk.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-ads@ads" match-subdomain=yes type=FWD name="tdsdk.cpatrk.net" }
+:if ([:len [find name="testads.api.my7v.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-ads@ads" match-subdomain=yes type=FWD name="testads.api.my7v.com" }
 :if ([:len [find name="theta.sogoucdn.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-ads@ads" match-subdomain=yes type=FWD name="theta.sogoucdn.com" }
 :if ([:len [find name="tmead.y.qq.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-ads@ads" match-subdomain=yes type=FWD name="tmead.y.qq.com" }
 :if ([:len [find name="tmeadcomm.y.qq.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-ads@ads" match-subdomain=yes type=FWD name="tmeadcomm.y.qq.com" }
@@ -149,5 +151,3 @@
 :if ([:len [find name="log5-applog-hl.fqnovel.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-ads@ads" type=FWD name="log5-applog-hl.fqnovel.com" }
 :if ([:len [find name="log5-applog.fqnovel.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-ads@ads" type=FWD name="log5-applog.fqnovel.com" }
 :if ([:len [find name="loyalnost-adv.ozon.ru"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-ads@ads" type=FWD name="loyalnost-adv.ozon.ru" }
-:if ([:len [find name="marketing-info.wildberries.ru"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-ads@ads" type=FWD name="marketing-info.wildberries.ru" }
-:if ([:len [find name="marketplace-sentry.wb.ru"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-ads@ads" type=FWD name="marketplace-sentry.wb.ru" }

@@ -1,6 +1,7 @@
 :global AddressList
 :global ForwardTo
 /ip dns static
+:if ([:len [find name="fab.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-games-!cn" match-subdomain=yes type=FWD name="fab.com" }
 :if ([:len [find name="fabricmc.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-games-!cn" match-subdomain=yes type=FWD name="fabricmc.net" }
 :if ([:len [find name="faceit-cdn.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-games-!cn" match-subdomain=yes type=FWD name="faceit-cdn.net" }
 :if ([:len [find name="faceit.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-games-!cn" match-subdomain=yes type=FWD name="faceit.com" }
@@ -150,4 +151,3 @@
 :if ([:len [find name="molesports.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-games-!cn" match-subdomain=yes type=FWD name="molesports.com" }
 :if ([:len [find name="muvluv-girls-garden.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-games-!cn" match-subdomain=yes type=FWD name="muvluv-girls-garden.com" }
 :if ([:len [find name="mysims.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-games-!cn" match-subdomain=yes type=FWD name="mysims.com" }
-:if ([:len [find name="mysimsracing.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-games-!cn" match-subdomain=yes type=FWD name="mysimsracing.com" }

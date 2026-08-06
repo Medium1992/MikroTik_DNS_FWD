@@ -1,6 +1,10 @@
 :global AddressList
 :global ForwardTo
 /ip dns static
+:if ([:len [find name="boxofficemojo.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-entertainment" match-subdomain=yes type=FWD name="boxofficemojo.com" }
+:if ([:len [find name="brawlstars.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-entertainment" match-subdomain=yes type=FWD name="brawlstars.com" }
+:if ([:len [find name="brawlstarsgame.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-entertainment" match-subdomain=yes type=FWD name="brawlstarsgame.com" }
+:if ([:len [find name="brightline.tv"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-entertainment" match-subdomain=yes type=FWD name="brightline.tv" }
 :if ([:len [find name="bucketeer.jp"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-entertainment" match-subdomain=yes type=FWD name="bucketeer.jp" }
 :if ([:len [find name="bushi-navi.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-entertainment" match-subdomain=yes type=FWD name="bushi-navi.com" }
 :if ([:len [find name="bushimo.jp"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-entertainment" match-subdomain=yes type=FWD name="bushimo.jp" }
@@ -17,7 +21,6 @@
 :if ([:len [find name="byspotify.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-entertainment" match-subdomain=yes type=FWD name="byspotify.com" }
 :if ([:len [find name="bystys.tech"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-entertainment" match-subdomain=yes type=FWD name="bystys.tech" }
 :if ([:len [find name="bytedapm.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-entertainment" match-subdomain=yes type=FWD name="bytedapm.com" }
-:if ([:len [find name="byteoversea.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-entertainment" match-subdomain=yes type=FWD name="byteoversea.com" }
 :if ([:len [find name="callersbane.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-entertainment" match-subdomain=yes type=FWD name="callersbane.com" }
 :if ([:len [find name="callhulu.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-entertainment" match-subdomain=yes type=FWD name="callhulu.com" }
 :if ([:len [find name="camelot-europe.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-entertainment" match-subdomain=yes type=FWD name="camelot-europe.com" }
@@ -91,6 +94,7 @@
 :if ([:len [find name="deezer.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-entertainment" match-subdomain=yes type=FWD name="deezer.com" }
 :if ([:len [find name="denfaminicogamer.jp"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-entertainment" match-subdomain=yes type=FWD name="denfaminicogamer.jp" }
 :if ([:len [find name="dengekionline.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-entertainment" match-subdomain=yes type=FWD name="dengekionline.com" }
+:if ([:len [find name="detpress.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-entertainment" match-subdomain=yes type=FWD name="detpress.com" }
 :if ([:len [find name="deviantart.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-entertainment" match-subdomain=yes type=FWD name="deviantart.com" }
 :if ([:len [find name="deviantart.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-entertainment" match-subdomain=yes type=FWD name="deviantart.net" }
 :if ([:len [find name="diablo3.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-entertainment" match-subdomain=yes type=FWD name="diablo3.com" }
@@ -102,7 +106,6 @@
 :if ([:len [find name="diddykongracing.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-entertainment" match-subdomain=yes type=FWD name="diddykongracing.com" }
 :if ([:len [find name="dilcdn.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-entertainment" match-subdomain=yes type=FWD name="dilcdn.com" }
 :if ([:len [find name="dinopoloclub.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-entertainment" match-subdomain=yes type=FWD name="dinopoloclub.com" }
-:if ([:len [find name="directv.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-entertainment" match-subdomain=yes type=FWD name="directv.com" }
 :if ([:len [find name="disco-api.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-entertainment" match-subdomain=yes type=FWD name="disco-api.com" }
 :if ([:len [find name="discomax.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-entertainment" match-subdomain=yes type=FWD name="discomax.com" }
 :if ([:len [find name="discoveryplus.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-entertainment" match-subdomain=yes type=FWD name="discoveryplus.com" }
@@ -123,7 +126,9 @@
 :if ([:len [find name="disney.nl"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-entertainment" match-subdomain=yes type=FWD name="disney.nl" }
 :if ([:len [find name="disney.ru"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-entertainment" match-subdomain=yes type=FWD name="disney.ru" }
 :if ([:len [find name="disney.se"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-entertainment" match-subdomain=yes type=FWD name="disney.se" }
+:if ([:len [find name="disneyaccount.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-entertainment" match-subdomain=yes type=FWD name="disneyaccount.com" }
 :if ([:len [find name="disneyadsales.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-entertainment" match-subdomain=yes type=FWD name="disneyadsales.com" }
+:if ([:len [find name="disneyanimation.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-entertainment" match-subdomain=yes type=FWD name="disneyanimation.com" }
 :if ([:len [find name="disneyarena.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-entertainment" match-subdomain=yes type=FWD name="disneyarena.com" }
 :if ([:len [find name="disneyaulani.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-entertainment" match-subdomain=yes type=FWD name="disneyaulani.com" }
 :if ([:len [find name="disneybaby.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-entertainment" match-subdomain=yes type=FWD name="disneybaby.com" }
@@ -138,6 +143,7 @@
 :if ([:len [find name="disneyinternationalhd.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-entertainment" match-subdomain=yes type=FWD name="disneyinternationalhd.com" }
 :if ([:len [find name="disneyjunior.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-entertainment" match-subdomain=yes type=FWD name="disneyjunior.com" }
 :if ([:len [find name="disneyjuniortreataday.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-entertainment" match-subdomain=yes type=FWD name="disneyjuniortreataday.com" }
+:if ([:len [find name="disneylandparis.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-entertainment" match-subdomain=yes type=FWD name="disneylandparis.com" }
 :if ([:len [find name="disneylatino.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-entertainment" match-subdomain=yes type=FWD name="disneylatino.com" }
 :if ([:len [find name="disneymagicmoments.de"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-entertainment" match-subdomain=yes type=FWD name="disneymagicmoments.de" }
 :if ([:len [find name="disneymagicmomentsme.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-entertainment" match-subdomain=yes type=FWD name="disneymagicmomentsme.com" }
@@ -145,9 +151,3 @@
 :if ([:len [find name="disneymeetingsandevents.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-entertainment" match-subdomain=yes type=FWD name="disneymeetingsandevents.com" }
 :if ([:len [find name="disneymovieinsiders.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-entertainment" match-subdomain=yes type=FWD name="disneymovieinsiders.com" }
 :if ([:len [find name="disneymusicpromotion.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-entertainment" match-subdomain=yes type=FWD name="disneymusicpromotion.com" }
-:if ([:len [find name="disneynewseries.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-entertainment" match-subdomain=yes type=FWD name="disneynewseries.com" }
-:if ([:len [find name="disneynow.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-entertainment" match-subdomain=yes type=FWD name="disneynow.com" }
-:if ([:len [find name="disneypeoplesurveys.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-entertainment" match-subdomain=yes type=FWD name="disneypeoplesurveys.com" }
-:if ([:len [find name="disneyplus.bn5x.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-entertainment" match-subdomain=yes type=FWD name="disneyplus.bn5x.net" }
-:if ([:len [find name="disneyplus.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-entertainment" match-subdomain=yes type=FWD name="disneyplus.com" }
-:if ([:len [find name="disneyplus.com.ssl.sc.omtrdc.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-entertainment" match-subdomain=yes type=FWD name="disneyplus.com.ssl.sc.omtrdc.net" }

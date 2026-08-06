@@ -69,6 +69,7 @@
 :if ([:len [find name="mtt.org"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-scholar-!cn" match-subdomain=yes type=FWD name="mtt.org" }
 :if ([:len [find name="nature.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-scholar-!cn" match-subdomain=yes type=FWD name="nature.com" }
 :if ([:len [find name="naturemag.org"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-scholar-!cn" match-subdomain=yes type=FWD name="naturemag.org" }
+:if ([:len [find name="ncbi.nlm.nih.gov"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-scholar-!cn" match-subdomain=yes type=FWD name="ncbi.nlm.nih.gov" }
 :if ([:len [find name="ncl.edu.tw"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-scholar-!cn" match-subdomain=yes type=FWD name="ncl.edu.tw" }
 :if ([:len [find name="nejm.org"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-scholar-!cn" match-subdomain=yes type=FWD name="nejm.org" }
 :if ([:len [find name="neurology.org"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-scholar-!cn" match-subdomain=yes type=FWD name="neurology.org" }
@@ -150,4 +151,3 @@
 :if ([:len [find name="spiedigitallibrary.org"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-scholar-!cn" match-subdomain=yes type=FWD name="spiedigitallibrary.org" }
 :if ([:len [find name="springer.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-scholar-!cn" match-subdomain=yes type=FWD name="springer.com" }
 :if ([:len [find name="springerlink.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-scholar-!cn" match-subdomain=yes type=FWD name="springerlink.com" }
-:if ([:len [find name="springernature.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-scholar-!cn" match-subdomain=yes type=FWD name="springernature.com" }

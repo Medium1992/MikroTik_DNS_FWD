@@ -1,6 +1,16 @@
 :global AddressList
 :global ForwardTo
 /ip dns static
+:if ([:len [find name="productionresultssa0.blob.core.windows.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-dev" type=FWD name="productionresultssa0.blob.core.windows.net" }
+:if ([:len [find name="productionresultssa1.blob.core.windows.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-dev" type=FWD name="productionresultssa1.blob.core.windows.net" }
+:if ([:len [find name="productionresultssa10.blob.core.windows.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-dev" type=FWD name="productionresultssa10.blob.core.windows.net" }
+:if ([:len [find name="productionresultssa11.blob.core.windows.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-dev" type=FWD name="productionresultssa11.blob.core.windows.net" }
+:if ([:len [find name="productionresultssa12.blob.core.windows.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-dev" type=FWD name="productionresultssa12.blob.core.windows.net" }
+:if ([:len [find name="productionresultssa13.blob.core.windows.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-dev" type=FWD name="productionresultssa13.blob.core.windows.net" }
+:if ([:len [find name="productionresultssa14.blob.core.windows.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-dev" type=FWD name="productionresultssa14.blob.core.windows.net" }
+:if ([:len [find name="productionresultssa15.blob.core.windows.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-dev" type=FWD name="productionresultssa15.blob.core.windows.net" }
+:if ([:len [find name="productionresultssa16.blob.core.windows.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-dev" type=FWD name="productionresultssa16.blob.core.windows.net" }
+:if ([:len [find name="productionresultssa17.blob.core.windows.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-dev" type=FWD name="productionresultssa17.blob.core.windows.net" }
 :if ([:len [find name="productionresultssa18.blob.core.windows.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-dev" type=FWD name="productionresultssa18.blob.core.windows.net" }
 :if ([:len [find name="productionresultssa19.blob.core.windows.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-dev" type=FWD name="productionresultssa19.blob.core.windows.net" }
 :if ([:len [find name="productionresultssa2.blob.core.windows.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-dev" type=FWD name="productionresultssa2.blob.core.windows.net" }

@@ -58,7 +58,6 @@
 :if ([:len [find name="pscp.tv"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-social-media-!cn" match-subdomain=yes type=FWD name="pscp.tv" }
 :if ([:len [find name="reachtheworldonfacebook.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-social-media-!cn" match-subdomain=yes type=FWD name="reachtheworldonfacebook.com" }
 :if ([:len [find name="redkix.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-social-media-!cn" match-subdomain=yes type=FWD name="redkix.com" }
-:if ([:len [find name="rocksdb.org"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-social-media-!cn" match-subdomain=yes type=FWD name="rocksdb.org" }
 :if ([:len [find name="shopfacebook.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-social-media-!cn" match-subdomain=yes type=FWD name="shopfacebook.com" }
 :if ([:len [find name="sportsfacebook.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-social-media-!cn" match-subdomain=yes type=FWD name="sportsfacebook.com" }
 :if ([:len [find name="sportstream.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-social-media-!cn" match-subdomain=yes type=FWD name="sportstream.com" }
@@ -151,3 +150,4 @@
 :if ([:len [find name="adv.vk.ru"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-social-media-!cn" type=FWD name="adv.vk.ru" }
 :if ([:len [find name="advk.vk.ru"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-social-media-!cn" type=FWD name="advk.vk.ru" }
 :if ([:len [find name="analytics.vk.ru"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-social-media-!cn" type=FWD name="analytics.vk.ru" }
+:if ([:len [find name="e122475.dscg.akamaiedge.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-social-media-!cn" type=FWD name="e122475.dscg.akamaiedge.net" }

@@ -1,6 +1,13 @@
 :global AddressList
 :global ForwardTo
 /ip dns static
+:if ([:len [find name="atttvnow.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" match-subdomain=yes type=FWD name="atttvnow.com" }
+:if ([:len [find name="attuverseoffers.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" match-subdomain=yes type=FWD name="attuverseoffers.com" }
+:if ([:len [find name="attuverseonline.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" match-subdomain=yes type=FWD name="attuverseonline.com" }
+:if ([:len [find name="attvoip.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" match-subdomain=yes type=FWD name="attvoip.com" }
+:if ([:len [find name="attwatchtv.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" match-subdomain=yes type=FWD name="attwatchtv.com" }
+:if ([:len [find name="attwifi.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" match-subdomain=yes type=FWD name="attwifi.com" }
+:if ([:len [find name="attwirelessinternet.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" match-subdomain=yes type=FWD name="attwirelessinternet.com" }
 :if ([:len [find name="attwirelessonline.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" match-subdomain=yes type=FWD name="attwirelessonline.com" }
 :if ([:len [find name="attwirelesssolutions.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" match-subdomain=yes type=FWD name="attwirelesssolutions.com" }
 :if ([:len [find name="atube.sex"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" match-subdomain=yes type=FWD name="atube.sex" }
@@ -144,10 +151,3 @@
 :if ([:len [find name="autodeskstylebook.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" match-subdomain=yes type=FWD name="autodeskstylebook.com" }
 :if ([:len [find name="autodesksubscription.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" match-subdomain=yes type=FWD name="autodesksubscription.com" }
 :if ([:len [find name="autodesksucks.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" match-subdomain=yes type=FWD name="autodesksucks.com" }
-:if ([:len [find name="autodesksucks.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" match-subdomain=yes type=FWD name="autodesksucks.net" }
-:if ([:len [find name="autodesktechdays.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" match-subdomain=yes type=FWD name="autodesktechdays.com" }
-:if ([:len [find name="autodesktechx.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" match-subdomain=yes type=FWD name="autodesktechx.com" }
-:if ([:len [find name="autodesktinkerbox.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" match-subdomain=yes type=FWD name="autodesktinkerbox.com" }
-:if ([:len [find name="autodesktravel.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" match-subdomain=yes type=FWD name="autodesktravel.com" }
-:if ([:len [find name="autodeskturkiye.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" match-subdomain=yes type=FWD name="autodeskturkiye.com" }
-:if ([:len [find name="autodeskuniversity.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" match-subdomain=yes type=FWD name="autodeskuniversity.com" }

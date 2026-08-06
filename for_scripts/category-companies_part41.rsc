@@ -1,6 +1,8 @@
 :global AddressList
 :global ForwardTo
 /ip dns static
+:if ([:len [find name="clientflow.apple.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" type=FWD name="clientflow.apple.com" }
+:if ([:len [find name="clientflow.apple.com.akadns.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" type=FWD name="clientflow.apple.com.akadns.net" }
 :if ([:len [find name="clientperipherals.dell.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" type=FWD name="clientperipherals.dell.com" }
 :if ([:len [find name="clients1.google.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" type=FWD name="clients1.google.com" }
 :if ([:len [find name="clientservices.googleapis.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" type=FWD name="clientservices.googleapis.com" }
@@ -149,5 +151,3 @@
 :if ([:len [find name="github-cloud.s3.amazonaws.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" type=FWD name="github-cloud.s3.amazonaws.com" }
 :if ([:len [find name="github-production-release-asset-2e65be.s3.amazonaws.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" type=FWD name="github-production-release-asset-2e65be.s3.amazonaws.com" }
 :if ([:len [find name="github-production-repository-file-5c1aeb.s3.amazonaws.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" type=FWD name="github-production-repository-file-5c1aeb.s3.amazonaws.com" }
-:if ([:len [find name="github-production-repository-image-32fea6.s3.amazonaws.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" type=FWD name="github-production-repository-image-32fea6.s3.amazonaws.com" }
-:if ([:len [find name="github-production-upload-manifest-file-7fdce7.s3.amazonaws.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" type=FWD name="github-production-upload-manifest-file-7fdce7.s3.amazonaws.com" }

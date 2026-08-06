@@ -8,8 +8,6 @@
 :if ([:len [find name="fse.tv"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="fox" match-subdomain=yes type=FWD name="fse.tv" }
 :if ([:len [find name="fssta.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="fox" match-subdomain=yes type=FWD name="fssta.com" }
 :if ([:len [find name="fxn.ws"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="fox" match-subdomain=yes type=FWD name="fxn.ws" }
-:if ([:len [find name="fxnetwork.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="fox" match-subdomain=yes type=FWD name="fxnetwork.com" }
-:if ([:len [find name="fxnetworks.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="fox" match-subdomain=yes type=FWD name="fxnetworks.com" }
 :if ([:len [find name="geraldoatlarge.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="fox" match-subdomain=yes type=FWD name="geraldoatlarge.com" }
 :if ([:len [find name="gooddaychicago.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="fox" match-subdomain=yes type=FWD name="gooddaychicago.com" }
 :if ([:len [find name="joeswall.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="fox" match-subdomain=yes type=FWD name="joeswall.com" }
