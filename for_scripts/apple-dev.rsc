@@ -30,6 +30,16 @@
 :if ([:len [find name="wpewebkit.org"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="apple-dev" match-subdomain=yes type=FWD name="wpewebkit.org" }
 :if ([:len [find name="appleworldwidedeveloper.hb-api.omtrdc.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="apple-dev" type=FWD name="appleworldwidedeveloper.hb-api.omtrdc.net" }
 :if ([:len [find name="appleworldwidedeveloper.sc.omtrdc.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="apple-dev" type=FWD name="appleworldwidedeveloper.sc.omtrdc.net" }
+:if ([:len [find name="cdn-cn.apple-mapkit.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="apple-dev" type=FWD name="cdn-cn.apple-mapkit.com" }
+:if ([:len [find name="cdn-cn1.apple-mapkit.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="apple-dev" type=FWD name="cdn-cn1.apple-mapkit.com" }
+:if ([:len [find name="cdn-cn2.apple-mapkit.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="apple-dev" type=FWD name="cdn-cn2.apple-mapkit.com" }
+:if ([:len [find name="cdn-cn3.apple-mapkit.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="apple-dev" type=FWD name="cdn-cn3.apple-mapkit.com" }
+:if ([:len [find name="cdn-cn4.apple-mapkit.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="apple-dev" type=FWD name="cdn-cn4.apple-mapkit.com" }
+:if ([:len [find name="cdn.apple-mapkit.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="apple-dev" type=FWD name="cdn.apple-mapkit.com" }
+:if ([:len [find name="cdn1.apple-mapkit.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="apple-dev" type=FWD name="cdn1.apple-mapkit.com" }
+:if ([:len [find name="cdn2.apple-mapkit.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="apple-dev" type=FWD name="cdn2.apple-mapkit.com" }
+:if ([:len [find name="cdn3.apple-mapkit.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="apple-dev" type=FWD name="cdn3.apple-mapkit.com" }
+:if ([:len [find name="cdn4.apple-mapkit.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="apple-dev" type=FWD name="cdn4.apple-mapkit.com" }
 :if ([:len [find name="notary-submissions-prod.s3-accelerate.amazonaws.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="apple-dev" type=FWD name="notary-submissions-prod.s3-accelerate.amazonaws.com" }
 :if ([:len [find name="notary-submissions-prod.s3.us-west-2.amazonaws.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="apple-dev" type=FWD name="notary-submissions-prod.s3.us-west-2.amazonaws.com" }
 :if ([:len [find name="p-events-delivery.akamaized.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="apple-dev" type=FWD name="p-events-delivery.akamaized.net" }

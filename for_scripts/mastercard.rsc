@@ -88,5 +88,3 @@
 :if ([:len [find name="travelexch.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="mastercard" match-subdomain=yes type=FWD name="travelexch.com" }
 :if ([:len [find name="travelexmoneycard.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="mastercard" match-subdomain=yes type=FWD name="travelexmoneycard.com" }
 :if ([:len [find name="wwwpaypass.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="mastercard" match-subdomain=yes type=FWD name="wwwpaypass.com" }
-:if ([:len [find name="nab.demdex.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="mastercard" type=FWD name="nab.demdex.net" }
-:if ([:len [find name="nationalaustraliaban.tt.omtrdc.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="mastercard" type=FWD name="nationalaustraliaban.tt.omtrdc.net" }

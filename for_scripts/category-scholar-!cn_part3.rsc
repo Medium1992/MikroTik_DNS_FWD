@@ -1,6 +1,7 @@
 :global AddressList
 :global ForwardTo
 /ip dns static
+:if ([:len [find name="springernature.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-scholar-!cn" match-subdomain=yes type=FWD name="springernature.com" }
 :if ([:len [find name="srttu.edu"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-scholar-!cn" match-subdomain=yes type=FWD name="srttu.edu" }
 :if ([:len [find name="standardsuniversity.org"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-scholar-!cn" match-subdomain=yes type=FWD name="standardsuniversity.org" }
 :if ([:len [find name="statsmakemecry.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-scholar-!cn" match-subdomain=yes type=FWD name="statsmakemecry.com" }

@@ -39,6 +39,7 @@
 :if ([:len [find name="attuverseoffers.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="att" match-subdomain=yes type=FWD name="attuverseoffers.com" }
 :if ([:len [find name="attuverseonline.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="att" match-subdomain=yes type=FWD name="attuverseonline.com" }
 :if ([:len [find name="attvoip.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="att" match-subdomain=yes type=FWD name="attvoip.com" }
+:if ([:len [find name="attwatchtv.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="att" match-subdomain=yes type=FWD name="attwatchtv.com" }
 :if ([:len [find name="attwifi.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="att" match-subdomain=yes type=FWD name="attwifi.com" }
 :if ([:len [find name="attwirelessinternet.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="att" match-subdomain=yes type=FWD name="attwirelessinternet.com" }
 :if ([:len [find name="attwirelessonline.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="att" match-subdomain=yes type=FWD name="attwirelessonline.com" }
@@ -105,6 +106,7 @@
 :if ([:len [find name="diretv.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="att" match-subdomain=yes type=FWD name="diretv.com" }
 :if ([:len [find name="dkrecttv.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="att" match-subdomain=yes type=FWD name="dkrecttv.com" }
 :if ([:len [find name="dtv2009offers.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="att" match-subdomain=yes type=FWD name="dtv2009offers.com" }
+:if ([:len [find name="dtvce.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="att" match-subdomain=yes type=FWD name="dtvce.com" }
 :if ([:len [find name="enterprisepaging.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="att" match-subdomain=yes type=FWD name="enterprisepaging.com" }
 :if ([:len [find name="freedirecttvspecial.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="att" match-subdomain=yes type=FWD name="freedirecttvspecial.com" }
 :if ([:len [find name="getdirect.tv"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="att" match-subdomain=yes type=FWD name="getdirect.tv" }
