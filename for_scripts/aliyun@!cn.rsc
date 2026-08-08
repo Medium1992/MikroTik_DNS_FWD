@@ -2,6 +2,7 @@
 :global ForwardTo
 /ip dns static
 :if ([:len [find name="ap-southeast-1.aliyuncs.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="aliyun@!cn" match-subdomain=yes type=FWD name="ap-southeast-1.aliyuncs.com" }
+:if ([:len [find name="cn-hongkong.aliyuncs.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="aliyun@!cn" match-subdomain=yes type=FWD name="cn-hongkong.aliyuncs.com" }
 :if ([:len [find name="oss-ap-northeast-1.aliyuncs.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="aliyun@!cn" match-subdomain=yes type=FWD name="oss-ap-northeast-1.aliyuncs.com" }
 :if ([:len [find name="oss-ap-northeast-2.aliyuncs.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="aliyun@!cn" match-subdomain=yes type=FWD name="oss-ap-northeast-2.aliyuncs.com" }
 :if ([:len [find name="oss-ap-south-1.aliyuncs.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="aliyun@!cn" match-subdomain=yes type=FWD name="oss-ap-south-1.aliyuncs.com" }
