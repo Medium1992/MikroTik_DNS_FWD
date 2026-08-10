@@ -1,6 +1,10 @@
 :global AddressList
 :global ForwardTo
 /ip dns static
+:if ([:len [find name="nutaku.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="gfw" match-subdomain=yes type=FWD name="nutaku.net" }
+:if ([:len [find name="nutsvpn.work"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="gfw" match-subdomain=yes type=FWD name="nutsvpn.work" }
+:if ([:len [find name="nuuvem.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="gfw" match-subdomain=yes type=FWD name="nuuvem.com" }
+:if ([:len [find name="nvdst.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="gfw" match-subdomain=yes type=FWD name="nvdst.com" }
 :if ([:len [find name="nvtongzhisheng.org"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="gfw" match-subdomain=yes type=FWD name="nvtongzhisheng.org" }
 :if ([:len [find name="nyaa.eu"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="gfw" match-subdomain=yes type=FWD name="nyaa.eu" }
 :if ([:len [find name="nybooks.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="gfw" match-subdomain=yes type=FWD name="nybooks.com" }
@@ -147,7 +151,3 @@
 :if ([:len [find name="phosphation13.rssing.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="gfw" match-subdomain=yes type=FWD name="phosphation13.rssing.com" }
 :if ([:len [find name="photodharma.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="gfw" match-subdomain=yes type=FWD name="photodharma.net" }
 :if ([:len [find name="photofocus.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="gfw" match-subdomain=yes type=FWD name="photofocus.com" }
-:if ([:len [find name="photonmedia.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="gfw" match-subdomain=yes type=FWD name="photonmedia.net" }
-:if ([:len [find name="piaotia.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="gfw" match-subdomain=yes type=FWD name="piaotia.com" }
-:if ([:len [find name="picacomic.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="gfw" match-subdomain=yes type=FWD name="picacomic.com" }
-:if ([:len [find name="picacomiccn.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="gfw" match-subdomain=yes type=FWD name="picacomiccn.com" }

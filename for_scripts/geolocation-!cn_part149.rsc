@@ -1,6 +1,8 @@
 :global AddressList
 :global ForwardTo
 /ip dns static
+:if ([:len [find name="cdn-spotify-experiments.conductrics.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" type=FWD name="cdn-spotify-experiments.conductrics.com" }
+:if ([:len [find name="cdn.js7k.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" type=FWD name="cdn.js7k.com" }
 :if ([:len [find name="cdngarenanow-a.akamaihd.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" type=FWD name="cdngarenanow-a.akamaihd.net" }
 :if ([:len [find name="chatscc-hamivideo2.cdn.hinet.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" type=FWD name="chatscc-hamivideo2.cdn.hinet.net" }
 :if ([:len [find name="chinapower.csis.org"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" type=FWD name="chinapower.csis.org" }
@@ -149,5 +151,3 @@
 :if ([:len [find name="github-production-upload-manifest-file-7fdce7.s3.amazonaws.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" type=FWD name="github-production-upload-manifest-file-7fdce7.s3.amazonaws.com" }
 :if ([:len [find name="github-production-user-asset-6210df.s3.amazonaws.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" type=FWD name="github-production-user-asset-6210df.s3.amazonaws.com" }
 :if ([:len [find name="gitlab-assets.oss-cn-hongkong.aliyuncs.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" type=FWD name="gitlab-assets.oss-cn-hongkong.aliyuncs.com" }
-:if ([:len [find name="gog-cdn-lumen.secure2.footprint.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" type=FWD name="gog-cdn-lumen.secure2.footprint.net" }
-:if ([:len [find name="gog-cdn.akamaized.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" type=FWD name="gog-cdn.akamaized.net" }

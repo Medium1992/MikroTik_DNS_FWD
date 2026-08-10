@@ -2,6 +2,7 @@
 :global ForwardTo
 /ip dns static
 :if ([:len [find name="lifeweeker.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="cn" match-subdomain=yes type=FWD name="lifeweeker.com" }
+:if ([:len [find name="lifexue.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="cn" match-subdomain=yes type=FWD name="lifexue.com" }
 :if ([:len [find name="lifeyk.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="cn" match-subdomain=yes type=FWD name="lifeyk.com" }
 :if ([:len [find name="lifeyn.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="cn" match-subdomain=yes type=FWD name="lifeyn.net" }
 :if ([:len [find name="lifezb.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="cn" match-subdomain=yes type=FWD name="lifezb.com" }
@@ -150,4 +151,3 @@
 :if ([:len [find name="linestartech.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="cn" match-subdomain=yes type=FWD name="linestartech.com" }
 :if ([:len [find name="linewell.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="cn" match-subdomain=yes type=FWD name="linewell.com" }
 :if ([:len [find name="linewow.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="cn" match-subdomain=yes type=FWD name="linewow.com" }
-:if ([:len [find name="linfan.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="cn" match-subdomain=yes type=FWD name="linfan.com" }
