@@ -1,6 +1,7 @@
 :global AddressList
 :global ForwardTo
 /ip dns static
+:if ([:len [find name="encrypt.me"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" match-subdomain=yes type=FWD name="encrypt.me" }
 :if ([:len [find name="encryptedsni.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" match-subdomain=yes type=FWD name="encryptedsni.com" }
 :if ([:len [find name="encuentroscasualesoecuador.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" match-subdomain=yes type=FWD name="encuentroscasualesoecuador.com" }
 :if ([:len [find name="encyclopedia.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" match-subdomain=yes type=FWD name="encyclopedia.com" }
@@ -150,4 +151,3 @@
 :if ([:len [find name="eromanga-cafe.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" match-subdomain=yes type=FWD name="eromanga-cafe.com" }
 :if ([:len [find name="eromanga-kingdom.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" match-subdomain=yes type=FWD name="eromanga-kingdom.com" }
 :if ([:len [find name="eromanga-kong.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" match-subdomain=yes type=FWD name="eromanga-kong.com" }
-:if ([:len [find name="eromanga-mainichi.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" match-subdomain=yes type=FWD name="eromanga-mainichi.com" }

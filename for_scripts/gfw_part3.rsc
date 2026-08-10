@@ -1,6 +1,7 @@
 :global AddressList
 :global ForwardTo
 /ip dns static
+:if ([:len [find name="bangdream.space"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="gfw" match-subdomain=yes type=FWD name="bangdream.space" }
 :if ([:len [find name="bangkokpost.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="gfw" match-subdomain=yes type=FWD name="bangkokpost.com" }
 :if ([:len [find name="bangumi.moe"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="gfw" match-subdomain=yes type=FWD name="bangumi.moe" }
 :if ([:len [find name="bangumi.tv"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="gfw" match-subdomain=yes type=FWD name="bangumi.tv" }
@@ -11,6 +12,7 @@
 :if ([:len [find name="baramangaonline.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="gfw" match-subdomain=yes type=FWD name="baramangaonline.com" }
 :if ([:len [find name="bartender.dowjones.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="gfw" match-subdomain=yes type=FWD name="bartender.dowjones.com" }
 :if ([:len [find name="barton.de"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="gfw" match-subdomain=yes type=FWD name="barton.de" }
+:if ([:len [find name="basemaps.arcgis.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="gfw" match-subdomain=yes type=FWD name="basemaps.arcgis.com" }
 :if ([:len [find name="bastillepost.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="gfw" match-subdomain=yes type=FWD name="bastillepost.com" }
 :if ([:len [find name="bayvoice.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="gfw" match-subdomain=yes type=FWD name="bayvoice.net" }
 :if ([:len [find name="bb-chat.tv"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="gfw" match-subdomain=yes type=FWD name="bb-chat.tv" }
@@ -149,5 +151,3 @@
 :if ([:len [find name="book.com.tw"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="gfw" match-subdomain=yes type=FWD name="book.com.tw" }
 :if ([:len [find name="bookdepository.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="gfw" match-subdomain=yes type=FWD name="bookdepository.com" }
 :if ([:len [find name="books.com.tw"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="gfw" match-subdomain=yes type=FWD name="books.com.tw" }
-:if ([:len [find name="bookwalker.com.tw"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="gfw" match-subdomain=yes type=FWD name="bookwalker.com.tw" }
-:if ([:len [find name="boomplay.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="gfw" match-subdomain=yes type=FWD name="boomplay.com" }
