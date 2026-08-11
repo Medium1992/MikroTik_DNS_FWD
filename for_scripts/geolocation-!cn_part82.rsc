@@ -1,6 +1,7 @@
 :global AddressList
 :global ForwardTo
 /ip dns static
+:if ([:len [find name="manhuntdaily.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" match-subdomain=yes type=FWD name="manhuntdaily.com" }
 :if ([:len [find name="manhwa24h.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" match-subdomain=yes type=FWD name="manhwa24h.com" }
 :if ([:len [find name="manhwahentai.me"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" match-subdomain=yes type=FWD name="manhwahentai.me" }
 :if ([:len [find name="maniakey.homes"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" match-subdomain=yes type=FWD name="maniakey.homes" }
@@ -150,4 +151,3 @@
 :if ([:len [find name="maturewifeporn.cc"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" match-subdomain=yes type=FWD name="maturewifeporn.cc" }
 :if ([:len [find name="maturewomenanal.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" match-subdomain=yes type=FWD name="maturewomenanal.com" }
 :if ([:len [find name="maturexxxvideos.cc"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" match-subdomain=yes type=FWD name="maturexxxvideos.cc" }
-:if ([:len [find name="max-tcs.ru"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" match-subdomain=yes type=FWD name="max-tcs.ru" }

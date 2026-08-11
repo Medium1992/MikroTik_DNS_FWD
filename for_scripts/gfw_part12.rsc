@@ -1,6 +1,7 @@
 :global AddressList
 :global ForwardTo
 /ip dns static
+:if ([:len [find name="imago-images.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="gfw" match-subdomain=yes type=FWD name="imago-images.com" }
 :if ([:len [find name="imb.org"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="gfw" match-subdomain=yes type=FWD name="imb.org" }
 :if ([:len [find name="img.dlsite.jp"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="gfw" match-subdomain=yes type=FWD name="img.dlsite.jp" }
 :if ([:len [find name="img.picgo.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="gfw" match-subdomain=yes type=FWD name="img.picgo.net" }
@@ -150,4 +151,3 @@
 :if ([:len [find name="kathmandupost.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="gfw" match-subdomain=yes type=FWD name="kathmandupost.com" }
 :if ([:len [find name="kawaiikawaii.jp"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="gfw" match-subdomain=yes type=FWD name="kawaiikawaii.jp" }
 :if ([:len [find name="kawase.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="gfw" match-subdomain=yes type=FWD name="kawase.com" }
-:if ([:len [find name="kb.monitorware.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="gfw" match-subdomain=yes type=FWD name="kb.monitorware.com" }

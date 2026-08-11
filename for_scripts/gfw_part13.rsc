@@ -1,6 +1,7 @@
 :global AddressList
 :global ForwardTo
 /ip dns static
+:if ([:len [find name="kb.monitorware.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="gfw" match-subdomain=yes type=FWD name="kb.monitorware.com" }
 :if ([:len [find name="kebrum.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="gfw" match-subdomain=yes type=FWD name="kebrum.com" }
 :if ([:len [find name="kendatire.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="gfw" match-subdomain=yes type=FWD name="kendatire.com" }
 :if ([:len [find name="kenengba.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="gfw" match-subdomain=yes type=FWD name="kenengba.com" }
@@ -150,4 +151,3 @@
 :if ([:len [find name="madthumbs.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="gfw" match-subdomain=yes type=FWD name="madthumbs.com" }
 :if ([:len [find name="mahjongsoul.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="gfw" match-subdomain=yes type=FWD name="mahjongsoul.com" }
 :if ([:len [find name="main-ecnpaper-economist.content.pugpig.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="gfw" match-subdomain=yes type=FWD name="main-ecnpaper-economist.content.pugpig.com" }
-:if ([:len [find name="maiplus.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="gfw" match-subdomain=yes type=FWD name="maiplus.com" }

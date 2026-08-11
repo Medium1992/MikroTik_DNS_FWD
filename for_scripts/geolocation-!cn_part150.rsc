@@ -1,6 +1,7 @@
 :global AddressList
 :global ForwardTo
 /ip dns static
+:if ([:len [find name="gitlab-assets.oss-cn-hongkong.aliyuncs.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" type=FWD name="gitlab-assets.oss-cn-hongkong.aliyuncs.com" }
 :if ([:len [find name="gog-cdn-lumen.secure2.footprint.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" type=FWD name="gog-cdn-lumen.secure2.footprint.net" }
 :if ([:len [find name="gog-cdn.akamaized.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" type=FWD name="gog-cdn.akamaized.net" }
 :if ([:len [find name="google-ohttp-relay-safebrowsing.fastly-edge.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" type=FWD name="google-ohttp-relay-safebrowsing.fastly-edge.com" }
@@ -150,4 +151,3 @@
 :if ([:len [find name="pubg1.battleye.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" type=FWD name="pubg1.battleye.com" }
 :if ([:len [find name="public-us-pingsx.api.clonoth.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" type=FWD name="public-us-pingsx.api.clonoth.com" }
 :if ([:len [find name="publicca.googleapis.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" type=FWD name="publicca.googleapis.com" }
-:if ([:len [find name="push-apple.com.akadns.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" type=FWD name="push-apple.com.akadns.net" }

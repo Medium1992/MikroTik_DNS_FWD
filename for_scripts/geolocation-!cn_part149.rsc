@@ -1,6 +1,7 @@
 :global AddressList
 :global ForwardTo
 /ip dns static
+:if ([:len [find name="cbsservice.aws.syncbak.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" type=FWD name="cbsservice.aws.syncbak.com" }
 :if ([:len [find name="cdn-spotify-experiments.conductrics.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" type=FWD name="cdn-spotify-experiments.conductrics.com" }
 :if ([:len [find name="cdn.js7k.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" type=FWD name="cdn.js7k.com" }
 :if ([:len [find name="cdngarenanow-a.akamaihd.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" type=FWD name="cdngarenanow-a.akamaihd.net" }
@@ -150,4 +151,3 @@
 :if ([:len [find name="github-production-repository-image-32fea6.s3.amazonaws.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" type=FWD name="github-production-repository-image-32fea6.s3.amazonaws.com" }
 :if ([:len [find name="github-production-upload-manifest-file-7fdce7.s3.amazonaws.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" type=FWD name="github-production-upload-manifest-file-7fdce7.s3.amazonaws.com" }
 :if ([:len [find name="github-production-user-asset-6210df.s3.amazonaws.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" type=FWD name="github-production-user-asset-6210df.s3.amazonaws.com" }
-:if ([:len [find name="gitlab-assets.oss-cn-hongkong.aliyuncs.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" type=FWD name="gitlab-assets.oss-cn-hongkong.aliyuncs.com" }

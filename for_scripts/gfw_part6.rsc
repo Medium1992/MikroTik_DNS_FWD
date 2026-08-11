@@ -114,6 +114,7 @@
 :if ([:len [find name="disp.cc"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="gfw" match-subdomain=yes type=FWD name="disp.cc" }
 :if ([:len [find name="disqus.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="gfw" match-subdomain=yes type=FWD name="disqus.com" }
 :if ([:len [find name="dit-inc.us"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="gfw" match-subdomain=yes type=FWD name="dit-inc.us" }
+:if ([:len [find name="divdyn.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="gfw" match-subdomain=yes type=FWD name="divdyn.com" }
 :if ([:len [find name="diyin.org"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="gfw" match-subdomain=yes type=FWD name="diyin.org" }
 :if ([:len [find name="dizhuzhishang.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="gfw" match-subdomain=yes type=FWD name="dizhuzhishang.com" }
 :if ([:len [find name="dl-laby.jp"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="gfw" match-subdomain=yes type=FWD name="dl-laby.jp" }
@@ -150,4 +151,3 @@
 :if ([:len [find name="doub.io"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="gfw" match-subdomain=yes type=FWD name="doub.io" }
 :if ([:len [find name="doubibackup.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="gfw" match-subdomain=yes type=FWD name="doubibackup.com" }
 :if ([:len [find name="doubiyunbackup.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="gfw" match-subdomain=yes type=FWD name="doubiyunbackup.com" }
-:if ([:len [find name="doublethinklab.org"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="gfw" match-subdomain=yes type=FWD name="doublethinklab.org" }
