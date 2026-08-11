@@ -18,6 +18,7 @@
 :if ([:len [find name="disquscdn.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" match-subdomain=yes type=FWD name="disquscdn.com" }
 :if ([:len [find name="disqusservice.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" match-subdomain=yes type=FWD name="disqusservice.com" }
 :if ([:len [find name="dit-inc.us"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" match-subdomain=yes type=FWD name="dit-inc.us" }
+:if ([:len [find name="divdyn.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" match-subdomain=yes type=FWD name="divdyn.com" }
 :if ([:len [find name="diwodiwo.xyz"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" match-subdomain=yes type=FWD name="diwodiwo.xyz" }
 :if ([:len [find name="diyarbakirescort.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" match-subdomain=yes type=FWD name="diyarbakirescort.com" }
 :if ([:len [find name="diyin.org"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" match-subdomain=yes type=FWD name="diyin.org" }
@@ -150,4 +151,3 @@
 :if ([:len [find name="dotdeb.org"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" match-subdomain=yes type=FWD name="dotdeb.org" }
 :if ([:len [find name="dotfacebook.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" match-subdomain=yes type=FWD name="dotfacebook.com" }
 :if ([:len [find name="dotfacebook.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" match-subdomain=yes type=FWD name="dotfacebook.net" }
-:if ([:len [find name="dotfreesex.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" match-subdomain=yes type=FWD name="dotfreesex.com" }

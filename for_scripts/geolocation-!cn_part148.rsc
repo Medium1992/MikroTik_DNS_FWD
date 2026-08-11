@@ -1,6 +1,7 @@
 :global AddressList
 :global ForwardTo
 /ip dns static
+:if ([:len [find name="zooporn.pro"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" match-subdomain=yes type=FWD name="zooporn.pro" }
 :if ([:len [find name="zooporn.shiksha"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" match-subdomain=yes type=FWD name="zooporn.shiksha" }
 :if ([:len [find name="zooporn.video"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" match-subdomain=yes type=FWD name="zooporn.video" }
 :if ([:len [find name="zoopornmd.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" match-subdomain=yes type=FWD name="zoopornmd.com" }
@@ -150,4 +151,3 @@
 :if ([:len [find name="c.ppy.sh"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" type=FWD name="c.ppy.sh" }
 :if ([:len [find name="cbsi.live.ott.irdeto.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" type=FWD name="cbsi.live.ott.irdeto.com" }
 :if ([:len [find name="cbsplaylistserver.aws.syncbak.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" type=FWD name="cbsplaylistserver.aws.syncbak.com" }
-:if ([:len [find name="cbsservice.aws.syncbak.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" type=FWD name="cbsservice.aws.syncbak.com" }

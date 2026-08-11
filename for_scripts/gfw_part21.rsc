@@ -1,6 +1,7 @@
 :global AddressList
 :global ForwardTo
 /ip dns static
+:if ([:len [find name="thebcomplex.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="gfw" match-subdomain=yes type=FWD name="thebcomplex.com" }
 :if ([:len [find name="theblaze.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="gfw" match-subdomain=yes type=FWD name="theblaze.com" }
 :if ([:len [find name="thebobs.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="gfw" match-subdomain=yes type=FWD name="thebobs.com" }
 :if ([:len [find name="thebodyshop-usa.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="gfw" match-subdomain=yes type=FWD name="thebodyshop-usa.com" }
@@ -150,4 +151,3 @@
 :if ([:len [find name="tortoisesvn.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="gfw" match-subdomain=yes type=FWD name="tortoisesvn.net" }
 :if ([:len [find name="torvpn.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="gfw" match-subdomain=yes type=FWD name="torvpn.com" }
 :if ([:len [find name="tosh.comedycentral.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="gfw" match-subdomain=yes type=FWD name="tosh.comedycentral.com" }
-:if ([:len [find name="totalvpn.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="gfw" match-subdomain=yes type=FWD name="totalvpn.com" }
