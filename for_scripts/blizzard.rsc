@@ -5,7 +5,9 @@
 :if ([:len [find name="blizzard.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="blizzard" match-subdomain=yes type=FWD name="blizzard.com" }
 :if ([:len [find name="blizzardgearstore.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="blizzard" match-subdomain=yes type=FWD name="blizzardgearstore.com" }
 :if ([:len [find name="blz-contentstack.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="blizzard" match-subdomain=yes type=FWD name="blz-contentstack.com" }
+:if ([:len [find name="diablo.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="blizzard" match-subdomain=yes type=FWD name="diablo.com" }
 :if ([:len [find name="diablo3.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="blizzard" match-subdomain=yes type=FWD name="diablo3.com" }
+:if ([:len [find name="diablo4.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="blizzard" match-subdomain=yes type=FWD name="diablo4.com" }
 :if ([:len [find name="diabloimmortal.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="blizzard" match-subdomain=yes type=FWD name="diabloimmortal.com" }
 :if ([:len [find name="firesidegatherings.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="blizzard" match-subdomain=yes type=FWD name="firesidegatherings.com" }
 :if ([:len [find name="heroesofthestorm.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="blizzard" match-subdomain=yes type=FWD name="heroesofthestorm.com" }
