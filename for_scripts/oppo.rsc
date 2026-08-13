@@ -33,4 +33,5 @@
 :if ([:len [find name="realme.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="oppo" match-subdomain=yes type=FWD name="realme.net" }
 :if ([:len [find name="realmebbs.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="oppo" match-subdomain=yes type=FWD name="realmebbs.com" }
 :if ([:len [find name="realmemobile.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="oppo" match-subdomain=yes type=FWD name="realmemobile.com" }
+:if ([:len [find name="wanyol.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="oppo" match-subdomain=yes type=FWD name="wanyol.com" }
 :if ([:len [find name="community.oneplus.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="oppo" type=FWD name="community.oneplus.com" }
