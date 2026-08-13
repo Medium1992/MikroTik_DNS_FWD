@@ -13,3 +13,4 @@
 :if ([:len [find name="qiuwen.wiki"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-wiki-cn" match-subdomain=yes type=FWD name="qiuwen.wiki" }
 :if ([:len [find name="sec-wiki.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-wiki-cn" match-subdomain=yes type=FWD name="sec-wiki.com" }
 :if ([:len [find name="shidianbaike.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-wiki-cn" match-subdomain=yes type=FWD name="shidianbaike.com" }
+:if ([:len [find name="zdic.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-wiki-cn" match-subdomain=yes type=FWD name="zdic.net" }
