@@ -1,6 +1,11 @@
 :global AddressList
 :global ForwardTo
 /ip dns static
+:if ([:len [find name="ksbm.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="cn" match-subdomain=yes type=FWD name="ksbm.com" }
+:if ([:len [find name="ksc-test.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="cn" match-subdomain=yes type=FWD name="ksc-test.com" }
+:if ([:len [find name="kscac.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="cn" match-subdomain=yes type=FWD name="kscac.com" }
+:if ([:len [find name="kscbigdata.cloud"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="cn" match-subdomain=yes type=FWD name="kscbigdata.cloud" }
+:if ([:len [find name="kscdns.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="cn" match-subdomain=yes type=FWD name="kscdns.com" }
 :if ([:len [find name="kschuangku.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="cn" match-subdomain=yes type=FWD name="kschuangku.com" }
 :if ([:len [find name="kscloudapi.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="cn" match-subdomain=yes type=FWD name="kscloudapi.com" }
 :if ([:len [find name="ksco.cc"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="cn" match-subdomain=yes type=FWD name="ksco.cc" }
@@ -146,8 +151,3 @@
 :if ([:len [find name="kuai-ying.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="cn" match-subdomain=yes type=FWD name="kuai-ying.com" }
 :if ([:len [find name="kuai65.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="cn" match-subdomain=yes type=FWD name="kuai65.com" }
 :if ([:len [find name="kuai666aa8e43gomqhzeg.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="cn" match-subdomain=yes type=FWD name="kuai666aa8e43gomqhzeg.com" }
-:if ([:len [find name="kuai666bj7tu65rkdz82.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="cn" match-subdomain=yes type=FWD name="kuai666bj7tu65rkdz82.com" }
-:if ([:len [find name="kuai666bjeve6ks43qyw4vc8.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="cn" match-subdomain=yes type=FWD name="kuai666bjeve6ks43qyw4vc8.com" }
-:if ([:len [find name="kuai666bjs3gsymi6v4h5pz.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="cn" match-subdomain=yes type=FWD name="kuai666bjs3gsymi6v4h5pz.com" }
-:if ([:len [find name="kuai666e9rqs5wumk7at3.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="cn" match-subdomain=yes type=FWD name="kuai666e9rqs5wumk7at3.com" }
-:if ([:len [find name="kuai666gki3osg54rx7a.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="cn" match-subdomain=yes type=FWD name="kuai666gki3osg54rx7a.com" }

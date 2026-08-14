@@ -2,6 +2,8 @@
 :global ForwardTo
 /ip dns static
 :if ([:len [find name="sc-cdn.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="snap" match-subdomain=yes type=FWD name="sc-cdn.net" }
+:if ([:len [find name="sc-gw.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="snap" match-subdomain=yes type=FWD name="sc-gw.com" }
+:if ([:len [find name="sc-static.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="snap" match-subdomain=yes type=FWD name="sc-static.net" }
 :if ([:len [find name="snap-dev.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="snap" match-subdomain=yes type=FWD name="snap-dev.net" }
 :if ([:len [find name="snap.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="snap" match-subdomain=yes type=FWD name="snap.com" }
 :if ([:len [find name="snapads.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="snap" match-subdomain=yes type=FWD name="snapads.com" }
