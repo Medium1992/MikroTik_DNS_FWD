@@ -88,6 +88,7 @@
 :if ([:len [find name="rutracker.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-forums" match-subdomain=yes type=FWD name="rutracker.net" }
 :if ([:len [find name="rutracker.nl"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-forums" match-subdomain=yes type=FWD name="rutracker.nl" }
 :if ([:len [find name="rutracker.org"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-forums" match-subdomain=yes type=FWD name="rutracker.org" }
+:if ([:len [find name="rutracker.wiki"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-forums" match-subdomain=yes type=FWD name="rutracker.wiki" }
 :if ([:len [find name="rutrk.org"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-forums" match-subdomain=yes type=FWD name="rutrk.org" }
 :if ([:len [find name="safechat.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-forums" match-subdomain=yes type=FWD name="safechat.com" }
 :if ([:len [find name="sis001.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-forums" match-subdomain=yes type=FWD name="sis001.com" }
