@@ -1,6 +1,8 @@
 :global AddressList
 :global ForwardTo
 /ip dns static
+:if ([:len [find name="open-douyin.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="bytedance" match-subdomain=yes type=FWD name="open-douyin.com" }
+:if ([:len [find name="openbcs.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="bytedance" match-subdomain=yes type=FWD name="openbcs.com" }
 :if ([:len [find name="openviking.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="bytedance" match-subdomain=yes type=FWD name="openviking.net" }
 :if ([:len [find name="originalimg.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="bytedance" match-subdomain=yes type=FWD name="originalimg.com" }
 :if ([:len [find name="originalstatic.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="bytedance" match-subdomain=yes type=FWD name="originalstatic.com" }
@@ -149,5 +151,3 @@
 :if ([:len [find name="veew-alb-cn1.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="bytedance" match-subdomain=yes type=FWD name="veew-alb-cn1.com" }
 :if ([:len [find name="veew-alb-cn2.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="bytedance" match-subdomain=yes type=FWD name="veew-alb-cn2.com" }
 :if ([:len [find name="veew-alb-ts.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="bytedance" match-subdomain=yes type=FWD name="veew-alb-ts.com" }
-:if ([:len [find name="vegalb.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="bytedance" match-subdomain=yes type=FWD name="vegalb.com" }
-:if ([:len [find name="vegslb.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="bytedance" match-subdomain=yes type=FWD name="vegslb.com" }

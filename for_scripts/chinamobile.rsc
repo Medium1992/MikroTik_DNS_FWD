@@ -2,6 +2,7 @@
 :global ForwardTo
 /ip dns static
 :if ([:len [find name="139.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="chinamobile" match-subdomain=yes type=FWD name="139.com" }
+:if ([:len [find name="5gxcx.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="chinamobile" match-subdomain=yes type=FWD name="5gxcx.net" }
 :if ([:len [find name="andfx.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="chinamobile" match-subdomain=yes type=FWD name="andfx.net" }
 :if ([:len [find name="chinamobile.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="chinamobile" match-subdomain=yes type=FWD name="chinamobile.com" }
 :if ([:len [find name="chinamobiledevice.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="chinamobile" match-subdomain=yes type=FWD name="chinamobiledevice.com" }
@@ -14,6 +15,8 @@
 :if ([:len [find name="fetion-portal.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="chinamobile" match-subdomain=yes type=FWD name="fetion-portal.com" }
 :if ([:len [find name="fetionpic.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="chinamobile" match-subdomain=yes type=FWD name="fetionpic.com" }
 :if ([:len [find name="fxltsbl.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="chinamobile" match-subdomain=yes type=FWD name="fxltsbl.com" }
+:if ([:len [find name="hfx.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="chinamobile" match-subdomain=yes type=FWD name="hfx.net" }
+:if ([:len [find name="komect.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="chinamobile" match-subdomain=yes type=FWD name="komect.com" }
 :if ([:len [find name="migucloud.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="chinamobile" match-subdomain=yes type=FWD name="migucloud.com" }
 :if ([:len [find name="migufun.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="chinamobile" match-subdomain=yes type=FWD name="migufun.com" }
 :if ([:len [find name="miguvideo.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="chinamobile" match-subdomain=yes type=FWD name="miguvideo.com" }
