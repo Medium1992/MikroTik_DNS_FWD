@@ -14,6 +14,7 @@
 :if ([:len [find name="hdrezka.ac"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="video" match-subdomain=yes type=FWD name="hdrezka.ac" }
 :if ([:len [find name="hdrezka.ag"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="video" match-subdomain=yes type=FWD name="hdrezka.ag" }
 :if ([:len [find name="hdrezka.cm"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="video" match-subdomain=yes type=FWD name="hdrezka.cm" }
+:if ([:len [find name="hdrezka.la"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="video" match-subdomain=yes type=FWD name="hdrezka.la" }
 :if ([:len [find name="kino.pub"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="video" match-subdomain=yes type=FWD name="kino.pub" }
 :if ([:len [find name="kino.watch"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="video" match-subdomain=yes type=FWD name="kino.watch" }
 :if ([:len [find name="kinobase.org"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="video" match-subdomain=yes type=FWD name="kinobase.org" }
@@ -66,6 +67,7 @@
 :if ([:len [find name="voidboost.cc"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="video" match-subdomain=yes type=FWD name="voidboost.cc" }
 :if ([:len [find name="voidboost.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="video" match-subdomain=yes type=FWD name="voidboost.com" }
 :if ([:len [find name="voidboost.in"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="video" match-subdomain=yes type=FWD name="voidboost.in" }
+:if ([:len [find name="voidboost.one"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="video" match-subdomain=yes type=FWD name="voidboost.one" }
 :if ([:len [find name="voidnetwork.cloud"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="video" match-subdomain=yes type=FWD name="voidnetwork.cloud" }
 :if ([:len [find name="zeflix.online"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="video" match-subdomain=yes type=FWD name="zeflix.online" }
 :if ([:len [find name="zet-flix.online"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="video" match-subdomain=yes type=FWD name="zet-flix.online" }

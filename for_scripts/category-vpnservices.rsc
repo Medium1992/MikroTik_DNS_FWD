@@ -43,6 +43,8 @@
 :if ([:len [find name="nexitally.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-vpnservices" match-subdomain=yes type=FWD name="nexitally.com" }
 :if ([:len [find name="nexitallysafe.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-vpnservices" match-subdomain=yes type=FWD name="nexitallysafe.com" }
 :if ([:len [find name="nexitcore.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-vpnservices" match-subdomain=yes type=FWD name="nexitcore.com" }
+:if ([:len [find name="nordcdn.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-vpnservices" match-subdomain=yes type=FWD name="nordcdn.com" }
+:if ([:len [find name="nordvpn.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-vpnservices" match-subdomain=yes type=FWD name="nordvpn.com" }
 :if ([:len [find name="paofu.cloud"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-vpnservices" match-subdomain=yes type=FWD name="paofu.cloud" }
 :if ([:len [find name="paofuyun.me"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-vpnservices" match-subdomain=yes type=FWD name="paofuyun.me" }
 :if ([:len [find name="renzhe.cloud"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-vpnservices" match-subdomain=yes type=FWD name="renzhe.cloud" }
