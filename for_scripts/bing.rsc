@@ -38,5 +38,4 @@
 :if ([:len [find name="sprinklesapp.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="bing" match-subdomain=yes type=FWD name="sprinklesapp.com" }
 :if ([:len [find name="th.bing.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="bing" match-subdomain=yes type=FWD name="th.bing.com" }
 :if ([:len [find name="bj1.api.bing.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="bing" type=FWD name="bj1.api.bing.com" }
-:if ([:len [find name="emoi-cncdn.bing.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="bing" type=FWD name="emoi-cncdn.bing.com" }
 :if ([:len [find name="location.microsoft.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="bing" type=FWD name="location.microsoft.com" }
