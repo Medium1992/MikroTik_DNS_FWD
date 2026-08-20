@@ -13,6 +13,7 @@
 :if ([:len [find name="amazonvideo.cc"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" match-subdomain=yes type=FWD name="amazonvideo.cc" }
 :if ([:len [find name="amazonvideo.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" match-subdomain=yes type=FWD name="amazonvideo.com" }
 :if ([:len [find name="amazonvideodirect.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" match-subdomain=yes type=FWD name="amazonvideodirect.com" }
+:if ([:len [find name="amazonwebservices.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" match-subdomain=yes type=FWD name="amazonwebservices.com" }
 :if ([:len [find name="amazonworkdocs.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" match-subdomain=yes type=FWD name="amazonworkdocs.com" }
 :if ([:len [find name="amd.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" match-subdomain=yes type=FWD name="amd.com" }
 :if ([:len [find name="amdfanstore.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" match-subdomain=yes type=FWD name="amdfanstore.com" }
@@ -150,4 +151,3 @@
 :if ([:len [find name="applecom.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" match-subdomain=yes type=FWD name="applecom.com" }
 :if ([:len [find name="applecomputer-imac.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" match-subdomain=yes type=FWD name="applecomputer-imac.com" }
 :if ([:len [find name="applecomputer.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" match-subdomain=yes type=FWD name="applecomputer.com" }
-:if ([:len [find name="applecomputer.com.tw"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" match-subdomain=yes type=FWD name="applecomputer.com.tw" }

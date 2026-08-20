@@ -1,6 +1,7 @@
 :global AddressList
 :global ForwardTo
 /ip dns static
+:if ([:len [find name="chromebook.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" match-subdomain=yes type=FWD name="chromebook.com" }
 :if ([:len [find name="chromecast.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" match-subdomain=yes type=FWD name="chromecast.com" }
 :if ([:len [find name="chromeos.dev"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" match-subdomain=yes type=FWD name="chromeos.dev" }
 :if ([:len [find name="chromestatus.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" match-subdomain=yes type=FWD name="chromestatus.com" }
@@ -150,4 +151,3 @@
 :if ([:len [find name="courier-push-apple.com.akadns.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" match-subdomain=yes type=FWD name="courier-push-apple.com.akadns.net" }
 :if ([:len [find name="covid19-rx.org"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" match-subdomain=yes type=FWD name="covid19-rx.org" }
 :if ([:len [find name="covid19rx.org"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" match-subdomain=yes type=FWD name="covid19rx.org" }
-:if ([:len [find name="cozydrdrebeats.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" match-subdomain=yes type=FWD name="cozydrdrebeats.com" }

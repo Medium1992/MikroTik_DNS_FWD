@@ -1,6 +1,7 @@
 :global AddressList
 :global ForwardTo
 /ip dns static
+:if ([:len [find name="mastodon.online"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-social-media-!cn" match-subdomain=yes type=FWD name="mastodon.online" }
 :if ([:len [find name="mastodon.social"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-social-media-!cn" match-subdomain=yes type=FWD name="mastodon.social" }
 :if ([:len [find name="mfmf.club"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-social-media-!cn" match-subdomain=yes type=FWD name="mfmf.club" }
 :if ([:len [find name="mi.kochudaho.me"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-social-media-!cn" match-subdomain=yes type=FWD name="mi.kochudaho.me" }
@@ -150,4 +151,3 @@
 :if ([:len [find name="adv.vk.ru"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-social-media-!cn" type=FWD name="adv.vk.ru" }
 :if ([:len [find name="advk.vk.ru"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-social-media-!cn" type=FWD name="advk.vk.ru" }
 :if ([:len [find name="analytics.vk.ru"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-social-media-!cn" type=FWD name="analytics.vk.ru" }
-:if ([:len [find name="e122475.dscg.akamaiedge.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-social-media-!cn" type=FWD name="e122475.dscg.akamaiedge.net" }

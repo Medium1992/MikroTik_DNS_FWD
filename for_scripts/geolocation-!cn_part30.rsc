@@ -1,6 +1,8 @@
 :global AddressList
 :global ForwardTo
 /ip dns static
+:if ([:len [find name="cheapdrdrebeatsca.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" match-subdomain=yes type=FWD name="cheapdrdrebeatsca.com" }
+:if ([:len [find name="cheapdrebeats8.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" match-subdomain=yes type=FWD name="cheapdrebeats8.net" }
 :if ([:len [find name="cheaperbeatsbydresale.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" match-subdomain=yes type=FWD name="cheaperbeatsbydresale.com" }
 :if ([:len [find name="cheapestbeatsdrdre.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" match-subdomain=yes type=FWD name="cheapestbeatsdrdre.com" }
 :if ([:len [find name="cheapheadphonesland.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" match-subdomain=yes type=FWD name="cheapheadphonesland.com" }
@@ -149,5 +151,3 @@
 :if ([:len [find name="chwr7s8u.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" match-subdomain=yes type=FWD name="chwr7s8u.com" }
 :if ([:len [find name="chyoa.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" match-subdomain=yes type=FWD name="chyoa.com" }
 :if ([:len [find name="ci-en.jp"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" match-subdomain=yes type=FWD name="ci-en.jp" }
-:if ([:len [find name="ci-en.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" match-subdomain=yes type=FWD name="ci-en.net" }
-:if ([:len [find name="cia.gov"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" match-subdomain=yes type=FWD name="cia.gov" }

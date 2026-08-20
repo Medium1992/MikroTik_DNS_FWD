@@ -13,6 +13,7 @@
 :if ([:len [find name="amazonaws.tv"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="aws" match-subdomain=yes type=FWD name="amazonaws.tv" }
 :if ([:len [find name="amazoncognito.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="aws" match-subdomain=yes type=FWD name="amazoncognito.com" }
 :if ([:len [find name="amazonses.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="aws" match-subdomain=yes type=FWD name="amazonses.com" }
+:if ([:len [find name="amazonwebservices.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="aws" match-subdomain=yes type=FWD name="amazonwebservices.com" }
 :if ([:len [find name="amazonworkdocs.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="aws" match-subdomain=yes type=FWD name="amazonworkdocs.com" }
 :if ([:len [find name="amplifyapp.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="aws" match-subdomain=yes type=FWD name="amplifyapp.com" }
 :if ([:len [find name="amplifyframework.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="aws" match-subdomain=yes type=FWD name="amplifyframework.com" }
@@ -24,6 +25,8 @@
 :if ([:len [find name="amzndns.org"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="aws" match-subdomain=yes type=FWD name="amzndns.org" }
 :if ([:len [find name="aws"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="aws" match-subdomain=yes type=FWD name="aws" }
 :if ([:len [find name="aws-iot-hackathon.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="aws" match-subdomain=yes type=FWD name="aws-iot-hackathon.com" }
+:if ([:len [find name="aws.a2z.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="aws" match-subdomain=yes type=FWD name="aws.a2z.com" }
+:if ([:len [find name="aws.amazon.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="aws" match-subdomain=yes type=FWD name="aws.amazon.com" }
 :if ([:len [find name="aws.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="aws" match-subdomain=yes type=FWD name="aws.com" }
 :if ([:len [find name="aws.dev"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="aws" match-subdomain=yes type=FWD name="aws.dev" }
 :if ([:len [find name="awsapprunner.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="aws" match-subdomain=yes type=FWD name="awsapprunner.com" }

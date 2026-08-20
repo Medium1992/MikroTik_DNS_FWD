@@ -2,6 +2,7 @@
 :global ForwardTo
 /ip dns static
 :if ([:len [find name="nico"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="niconico" match-subdomain=yes type=FWD name="nico" }
+:if ([:len [find name="nicochannel.jp"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="niconico" match-subdomain=yes type=FWD name="nicochannel.jp" }
 :if ([:len [find name="nicodic.jp"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="niconico" match-subdomain=yes type=FWD name="nicodic.jp" }
 :if ([:len [find name="nicomanga.jp"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="niconico" match-subdomain=yes type=FWD name="nicomanga.jp" }
 :if ([:len [find name="niconico.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="niconico" match-subdomain=yes type=FWD name="niconico.com" }

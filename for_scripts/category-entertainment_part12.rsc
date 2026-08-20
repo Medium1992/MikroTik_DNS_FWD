@@ -1,6 +1,7 @@
 :global AddressList
 :global ForwardTo
 /ip dns static
+:if ([:len [find name="images-eu.ssl-images-amazon.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-entertainment" type=FWD name="images-eu.ssl-images-amazon.com" }
 :if ([:len [find name="images-fe.ssl-images-amazon.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-entertainment" type=FWD name="images-fe.ssl-images-amazon.com" }
 :if ([:len [find name="images-na.ssl-images-amazon.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-entertainment" type=FWD name="images-na.ssl-images-amazon.com" }
 :if ([:len [find name="inappcheck-cn.itunes-apple.com.akadns.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-entertainment" type=FWD name="inappcheck-cn.itunes-apple.com.akadns.net" }
@@ -136,7 +137,6 @@
 :if ([:len [find name="ubistatic8-a.akamaihd.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-entertainment" type=FWD name="ubistatic8-a.akamaihd.net" }
 :if ([:len [find name="ubistatic9-a.akamaihd.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-entertainment" type=FWD name="ubistatic9-a.akamaihd.net" }
 :if ([:len [find name="universal-activity-service.itunes.apple.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-entertainment" type=FWD name="universal-activity-service.itunes.apple.com" }
-:if ([:len [find name="uplaypc-s-ubisoft.cdn.ubi.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-entertainment" type=FWD name="uplaypc-s-ubisoft.cdn.ubi.com" }
 :if ([:len [find name="upp.itunes.apple.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-entertainment" type=FWD name="upp.itunes.apple.com" }
 :if ([:len [find name="uts-api.itunes.apple.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-entertainment" type=FWD name="uts-api.itunes.apple.com" }
 :if ([:len [find name="videos-rockstargames-com.akamaized.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-entertainment" type=FWD name="videos-rockstargames-com.akamaized.net" }

@@ -10,6 +10,7 @@
 :if ([:len [find name="4cdn.org"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-forums" match-subdomain=yes type=FWD name="4cdn.org" }
 :if ([:len [find name="4chan.org"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-forums" match-subdomain=yes type=FWD name="4chan.org" }
 :if ([:len [find name="4channel.org"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-forums" match-subdomain=yes type=FWD name="4channel.org" }
+:if ([:len [find name="5ch.io"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-forums" match-subdomain=yes type=FWD name="5ch.io" }
 :if ([:len [find name="5ch.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-forums" match-subdomain=yes type=FWD name="5ch.net" }
 :if ([:len [find name="5i01.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-forums" match-subdomain=yes type=FWD name="5i01.com" }
 :if ([:len [find name="6park.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-forums" match-subdomain=yes type=FWD name="6park.com" }

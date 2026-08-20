@@ -1,6 +1,7 @@
 :global AddressList
 :global ForwardTo
 /ip dns static
+:if ([:len [find name="asuswebstorage.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" match-subdomain=yes type=FWD name="asuswebstorage.com" }
 :if ([:len [find name="atandt.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" match-subdomain=yes type=FWD name="atandt.com" }
 :if ([:len [find name="atdmt2.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" match-subdomain=yes type=FWD name="atdmt2.com" }
 :if ([:len [find name="ateam-oracle.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" match-subdomain=yes type=FWD name="ateam-oracle.com" }
@@ -150,4 +151,3 @@
 :if ([:len [find name="autodeskfusionlifecycle.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" match-subdomain=yes type=FWD name="autodeskfusionlifecycle.com" }
 :if ([:len [find name="autodeskgovernment.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" match-subdomain=yes type=FWD name="autodeskgovernment.net" }
 :if ([:len [find name="autodeskgreenbuildingstudio.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" match-subdomain=yes type=FWD name="autodeskgreenbuildingstudio.com" }
-:if ([:len [find name="autodeskhelp.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" match-subdomain=yes type=FWD name="autodeskhelp.com" }

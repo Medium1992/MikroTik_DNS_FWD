@@ -1,6 +1,12 @@
 :global AddressList
 :global ForwardTo
 /ip dns static
+:if ([:len [find name="youmind.site"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-ai-!cn" match-subdomain=yes type=FWD name="youmind.site" }
+:if ([:len [find name="ai.google.dev"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-ai-!cn" type=FWD name="ai.google.dev" }
+:if ([:len [find name="alkalicore-pa.clients6.google.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-ai-!cn" type=FWD name="alkalicore-pa.clients6.google.com" }
+:if ([:len [find name="alkalimakersuite-pa.clients6.google.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-ai-!cn" type=FWD name="alkalimakersuite-pa.clients6.google.com" }
+:if ([:len [find name="antigravity-pa.googleapis.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-ai-!cn" type=FWD name="antigravity-pa.googleapis.com" }
+:if ([:len [find name="antigravity.googleapis.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-ai-!cn" type=FWD name="antigravity.googleapis.com" }
 :if ([:len [find name="browser-intake-datadoghq.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-ai-!cn" type=FWD name="browser-intake-datadoghq.com" }
 :if ([:len [find name="cloudaicompanion.googleapis.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-ai-!cn" type=FWD name="cloudaicompanion.googleapis.com" }
 :if ([:len [find name="cloudcode-pa.googleapis.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-ai-!cn" type=FWD name="cloudcode-pa.googleapis.com" }

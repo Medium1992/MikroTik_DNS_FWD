@@ -70,7 +70,6 @@
 :if ([:len [find name="sync.itunes.apple.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-entertainment@cn" type=FWD name="sync.itunes.apple.com" }
 :if ([:len [find name="tf-feedback.itunes.apple.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-entertainment@cn" type=FWD name="tf-feedback.itunes.apple.com" }
 :if ([:len [find name="universal-activity-service.itunes.apple.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-entertainment@cn" type=FWD name="universal-activity-service.itunes.apple.com" }
-:if ([:len [find name="uplaypc-s-ubisoft.cdn.ubi.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-entertainment@cn" type=FWD name="uplaypc-s-ubisoft.cdn.ubi.com" }
 :if ([:len [find name="upp.itunes.apple.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-entertainment@cn" type=FWD name="upp.itunes.apple.com" }
 :if ([:len [find name="xz.pphimalayanrt.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-entertainment@cn" type=FWD name="xz.pphimalayanrt.com" }
 :if ([:len [find regexp="^cdn\\\\d-epicgames-\\\\d+\\\\.file\\\\.myqcloud\\\\.com\$"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-entertainment@cn" type=FWD regexp="^cdn\\\\d-epicgames-\\\\d+\\\\.file\\\\.myqcloud\\\\.com\$" }

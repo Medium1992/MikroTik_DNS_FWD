@@ -128,6 +128,7 @@
 :if ([:len [find name="nfsworld.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-entertainment" match-subdomain=yes type=FWD name="nfsworld.com" }
 :if ([:len [find name="ngeo.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-entertainment" match-subdomain=yes type=FWD name="ngeo.com" }
 :if ([:len [find name="nico"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-entertainment" match-subdomain=yes type=FWD name="nico" }
+:if ([:len [find name="nicochannel.jp"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-entertainment" match-subdomain=yes type=FWD name="nicochannel.jp" }
 :if ([:len [find name="nicodic.jp"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-entertainment" match-subdomain=yes type=FWD name="nicodic.jp" }
 :if ([:len [find name="nicomanga.jp"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-entertainment" match-subdomain=yes type=FWD name="nicomanga.jp" }
 :if ([:len [find name="niconico.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-entertainment" match-subdomain=yes type=FWD name="niconico.com" }
@@ -150,4 +151,3 @@
 :if ([:len [find name="nintendo.eu"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-entertainment" match-subdomain=yes type=FWD name="nintendo.eu" }
 :if ([:len [find name="nintendo.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-entertainment" match-subdomain=yes type=FWD name="nintendo.net" }
 :if ([:len [find name="nintendo.nl"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-entertainment" match-subdomain=yes type=FWD name="nintendo.nl" }
-:if ([:len [find name="nintendo.ru"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-entertainment" match-subdomain=yes type=FWD name="nintendo.ru" }

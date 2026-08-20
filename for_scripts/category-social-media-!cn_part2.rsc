@@ -130,6 +130,7 @@
 :if ([:len [find name="faesebook.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-social-media-!cn" match-subdomain=yes type=FWD name="faesebook.com" }
 :if ([:len [find name="fafacebook.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-social-media-!cn" match-subdomain=yes type=FWD name="fafacebook.com" }
 :if ([:len [find name="faicbooc.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-social-media-!cn" match-subdomain=yes type=FWD name="faicbooc.com" }
+:if ([:len [find name="fansly.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-social-media-!cn" match-subdomain=yes type=FWD name="fansly.com" }
 :if ([:len [find name="fasebokk.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-social-media-!cn" match-subdomain=yes type=FWD name="fasebokk.com" }
 :if ([:len [find name="fasebook.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-social-media-!cn" match-subdomain=yes type=FWD name="fasebook.com" }
 :if ([:len [find name="faseboox.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-social-media-!cn" match-subdomain=yes type=FWD name="faseboox.com" }
@@ -150,4 +151,3 @@
 :if ([:len [find name="fbidb.io"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-social-media-!cn" match-subdomain=yes type=FWD name="fbidb.io" }
 :if ([:len [find name="fbinc.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-social-media-!cn" match-subdomain=yes type=FWD name="fbinc.com" }
 :if ([:len [find name="fbinnovation.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-social-media-!cn" match-subdomain=yes type=FWD name="fbinnovation.com" }
-:if ([:len [find name="fbmarketing.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-social-media-!cn" match-subdomain=yes type=FWD name="fbmarketing.com" }

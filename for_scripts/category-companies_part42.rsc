@@ -1,21 +1,6 @@
 :global AddressList
 :global ForwardTo
 /ip dns static
-:if ([:len [find name="github-production-release-asset-2e65be.s3.amazonaws.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" type=FWD name="github-production-release-asset-2e65be.s3.amazonaws.com" }
-:if ([:len [find name="github-production-repository-file-5c1aeb.s3.amazonaws.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" type=FWD name="github-production-repository-file-5c1aeb.s3.amazonaws.com" }
-:if ([:len [find name="github-production-repository-image-32fea6.s3.amazonaws.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" type=FWD name="github-production-repository-image-32fea6.s3.amazonaws.com" }
-:if ([:len [find name="github-production-upload-manifest-file-7fdce7.s3.amazonaws.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" type=FWD name="github-production-upload-manifest-file-7fdce7.s3.amazonaws.com" }
-:if ([:len [find name="github-production-user-asset-6210df.s3.amazonaws.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" type=FWD name="github-production-user-asset-6210df.s3.amazonaws.com" }
-:if ([:len [find name="gonglchuangl.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" type=FWD name="gonglchuangl.net" }
-:if ([:len [find name="gongyichuangyi.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" type=FWD name="gongyichuangyi.net" }
-:if ([:len [find name="google-analytics-cn.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" type=FWD name="google-analytics-cn.com" }
-:if ([:len [find name="google-analytics.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" type=FWD name="google-analytics.com" }
-:if ([:len [find name="google-ohttp-relay-safebrowsing.fastly-edge.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" type=FWD name="google-ohttp-relay-safebrowsing.fastly-edge.com" }
-:if ([:len [find name="googleadservices-cn.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" type=FWD name="googleadservices-cn.com" }
-:if ([:len [find name="googleadservices.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" type=FWD name="googleadservices.com" }
-:if ([:len [find name="googleanalytics.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" type=FWD name="googleanalytics.com" }
-:if ([:len [find name="googleapis-cn.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" type=FWD name="googleapis-cn.com" }
-:if ([:len [find name="googleapps-cn.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" type=FWD name="googleapps-cn.com" }
 :if ([:len [find name="googleflights-cn.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" type=FWD name="googleflights-cn.net" }
 :if ([:len [find name="googleoptimize-cn.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" type=FWD name="googleoptimize-cn.com" }
 :if ([:len [find name="googleoptimize.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" type=FWD name="googleoptimize.com" }
@@ -61,7 +46,6 @@
 :if ([:len [find name="hls.itunes.apple.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" type=FWD name="hls.itunes.apple.com" }
 :if ([:len [find name="hpefonts.s3.amazonaws.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" type=FWD name="hpefonts.s3.amazonaws.com" }
 :if ([:len [find name="hpstore.corpmerchandise.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" type=FWD name="hpstore.corpmerchandise.com" }
-:if ([:len [find name="i.dell.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" type=FWD name="i.dell.com" }
 :if ([:len [find name="i.pki.goog"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" type=FWD name="i.pki.goog" }
 :if ([:len [find name="images-cn-8.ssl-images-amazon.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" type=FWD name="images-cn-8.ssl-images-amazon.com" }
 :if ([:len [find name="images-cn.ssl-images-amazon.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" type=FWD name="images-cn.ssl-images-amazon.com" }
@@ -151,3 +135,19 @@
 :if ([:len [find name="mc.yango.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" type=FWD name="mc.yango.com" }
 :if ([:len [find name="mdn.mozillademos.org"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" type=FWD name="mdn.mozillademos.org" }
 :if ([:len [find name="mdr.ksn.kaspersky-labs.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" type=FWD name="mdr.ksn.kaspersky-labs.com" }
+:if ([:len [find name="mensura.cdn-apple.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" type=FWD name="mensura.cdn-apple.com" }
+:if ([:len [find name="mesu-cdn.apple.com.akadns.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" type=FWD name="mesu-cdn.apple.com.akadns.net" }
+:if ([:len [find name="mesu-china.apple.com.akadns.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" type=FWD name="mesu-china.apple.com.akadns.net" }
+:if ([:len [find name="mesu.apple.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" type=FWD name="mesu.apple.com" }
+:if ([:len [find name="misc-assets.itunes.apple.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" type=FWD name="misc-assets.itunes.apple.com" }
+:if ([:len [find name="ml.cdn-apple.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" type=FWD name="ml.cdn-apple.com" }
+:if ([:len [find name="mozilla-ohttp.fastly-edge.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" type=FWD name="mozilla-ohttp.fastly-edge.com" }
+:if ([:len [find name="mozilla.map.fastly.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" type=FWD name="mozilla.map.fastly.net" }
+:if ([:len [find name="mpnbenefits.download.prss.microsoft.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" type=FWD name="mpnbenefits.download.prss.microsoft.com" }
+:if ([:len [find name="mpnbenefitsrtl.download.prss.microsoft.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" type=FWD name="mpnbenefitsrtl.download.prss.microsoft.com" }
+:if ([:len [find name="mpnbenefitsrtluat.download.prss.microsoft.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" type=FWD name="mpnbenefitsrtluat.download.prss.microsoft.com" }
+:if ([:len [find name="mscrl.microsoft.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" type=FWD name="mscrl.microsoft.com" }
+:if ([:len [find name="msdn.download.prss.microsoft.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" type=FWD name="msdn.download.prss.microsoft.com" }
+:if ([:len [find name="msdprod-ad.download.prss.microsoft.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" type=FWD name="msdprod-ad.download.prss.microsoft.com" }
+:if ([:len [find name="msproduct.download.prss.microsoft.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" type=FWD name="msproduct.download.prss.microsoft.com" }
+:if ([:len [find name="mtalk-dev.google.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" type=FWD name="mtalk-dev.google.com" }

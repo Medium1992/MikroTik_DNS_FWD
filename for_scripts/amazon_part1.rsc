@@ -57,6 +57,7 @@
 :if ([:len [find name="amazonvideo.cc"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="amazon" match-subdomain=yes type=FWD name="amazonvideo.cc" }
 :if ([:len [find name="amazonvideo.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="amazon" match-subdomain=yes type=FWD name="amazonvideo.com" }
 :if ([:len [find name="amazonvideodirect.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="amazon" match-subdomain=yes type=FWD name="amazonvideodirect.com" }
+:if ([:len [find name="amazonwebservices.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="amazon" match-subdomain=yes type=FWD name="amazonwebservices.com" }
 :if ([:len [find name="amazonworkdocs.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="amazon" match-subdomain=yes type=FWD name="amazonworkdocs.com" }
 :if ([:len [find name="amplifyapp.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="amazon" match-subdomain=yes type=FWD name="amplifyapp.com" }
 :if ([:len [find name="amplifyframework.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="amazon" match-subdomain=yes type=FWD name="amplifyframework.com" }
@@ -150,4 +151,3 @@
 :if ([:len [find name="zappos"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="amazon" match-subdomain=yes type=FWD name="zappos" }
 :if ([:len [find name="d1v5ir2lpwr8os.cloudfront.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="amazon" type=FWD name="d1v5ir2lpwr8os.cloudfront.net" }
 :if ([:len [find name="d22qjgkvxw22r6.cloudfront.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="amazon" type=FWD name="d22qjgkvxw22r6.cloudfront.net" }
-:if ([:len [find name="d25xi40x97liuc.cloudfront.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="amazon" type=FWD name="d25xi40x97liuc.cloudfront.net" }
