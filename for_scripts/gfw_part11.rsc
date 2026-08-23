@@ -19,6 +19,7 @@
 :if ([:len [find name="himemix.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="gfw" match-subdomain=yes type=FWD name="himemix.com" }
 :if ([:len [find name="hindustantimes.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="gfw" match-subdomain=yes type=FWD name="hindustantimes.com" }
 :if ([:len [find name="hinet.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="gfw" match-subdomain=yes type=FWD name="hinet.net" }
+:if ([:len [find name="historylines.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="gfw" match-subdomain=yes type=FWD name="historylines.net" }
 :if ([:len [find name="hitbtc.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="gfw" match-subdomain=yes type=FWD name="hitbtc.com" }
 :if ([:len [find name="hive.blog"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="gfw" match-subdomain=yes type=FWD name="hive.blog" }
 :if ([:len [find name="hiveon.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="gfw" match-subdomain=yes type=FWD name="hiveon.net" }
@@ -150,4 +151,3 @@
 :if ([:len [find name="imageglass.org"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="gfw" match-subdomain=yes type=FWD name="imageglass.org" }
 :if ([:len [find name="images-gaytube.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="gfw" match-subdomain=yes type=FWD name="images-gaytube.com" }
 :if ([:len [find name="images.prismic.io"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="gfw" match-subdomain=yes type=FWD name="images.prismic.io" }
-:if ([:len [find name="imageshack.us"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="gfw" match-subdomain=yes type=FWD name="imageshack.us" }

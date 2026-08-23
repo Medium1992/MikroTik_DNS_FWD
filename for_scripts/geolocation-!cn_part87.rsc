@@ -1,6 +1,9 @@
 :global AddressList
 :global ForwardTo
 /ip dns static
+:if ([:len [find name="mkto-c0100.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" match-subdomain=yes type=FWD name="mkto-c0100.com" }
+:if ([:len [find name="mktorest.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" match-subdomain=yes type=FWD name="mktorest.com" }
+:if ([:len [find name="mktroute.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" match-subdomain=yes type=FWD name="mktroute.com" }
 :if ([:len [find name="mlbootcamp.ru"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" match-subdomain=yes type=FWD name="mlbootcamp.ru" }
 :if ([:len [find name="mlc.ai"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" match-subdomain=yes type=FWD name="mlc.ai" }
 :if ([:len [find name="mlzs.work"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" match-subdomain=yes type=FWD name="mlzs.work" }
@@ -148,6 +151,3 @@
 :if ([:len [find name="monsterbeatsfinland.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" match-subdomain=yes type=FWD name="monsterbeatsfinland.com" }
 :if ([:len [find name="monsterbeatsforsale.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" match-subdomain=yes type=FWD name="monsterbeatsforsale.com" }
 :if ([:len [find name="monsterbeatsheadphone.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" match-subdomain=yes type=FWD name="monsterbeatsheadphone.com" }
-:if ([:len [find name="monsterbeatsheadphones.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" match-subdomain=yes type=FWD name="monsterbeatsheadphones.net" }
-:if ([:len [find name="monsterbeatshere.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" match-subdomain=yes type=FWD name="monsterbeatshere.com" }
-:if ([:len [find name="monsterbeatsitaly.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" match-subdomain=yes type=FWD name="monsterbeatsitaly.com" }
