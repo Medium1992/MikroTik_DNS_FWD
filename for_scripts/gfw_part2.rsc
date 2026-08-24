@@ -55,6 +55,7 @@
 :if ([:len [find name="api.palworldgame.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="gfw" match-subdomain=yes type=FWD name="api.palworldgame.com" }
 :if ([:len [find name="api.pureapk.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="gfw" match-subdomain=yes type=FWD name="api.pureapk.com" }
 :if ([:len [find name="api.recaptcha.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="gfw" match-subdomain=yes type=FWD name="api.recaptcha.net" }
+:if ([:len [find name="api.shuaiapi.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="gfw" match-subdomain=yes type=FWD name="api.shuaiapi.com" }
 :if ([:len [find name="api.steampowered.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="gfw" match-subdomain=yes type=FWD name="api.steampowered.com" }
 :if ([:len [find name="apiary.io"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="gfw" match-subdomain=yes type=FWD name="apiary.io" }
 :if ([:len [find name="apigee.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="gfw" match-subdomain=yes type=FWD name="apigee.com" }
@@ -150,4 +151,3 @@
 :if ([:len [find name="band.us"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="gfw" match-subdomain=yes type=FWD name="band.us" }
 :if ([:len [find name="bandcamp.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="gfw" match-subdomain=yes type=FWD name="bandcamp.com" }
 :if ([:len [find name="bandwagonhost.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="gfw" match-subdomain=yes type=FWD name="bandwagonhost.com" }
-:if ([:len [find name="bangchen.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="gfw" match-subdomain=yes type=FWD name="bangchen.net" }
