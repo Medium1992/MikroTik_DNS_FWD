@@ -67,6 +67,7 @@
 :if ([:len [find name="gsp4-cn.ls.apple.com.edgekey.net.globalredir.akadns.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="apple-cn" type=FWD name="gsp4-cn.ls.apple.com.edgekey.net.globalredir.akadns.net" }
 :if ([:len [find name="gsp5-cn.ls.apple.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="apple-cn" type=FWD name="gsp5-cn.ls.apple.com" }
 :if ([:len [find name="gsp85-cn-ssl.ls.apple.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="apple-cn" type=FWD name="gsp85-cn-ssl.ls.apple.com" }
+:if ([:len [find name="gspe11-2-cn-ssl.ls.apple.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="apple-cn" type=FWD name="gspe11-2-cn-ssl.ls.apple.com" }
 :if ([:len [find name="gspe19-2-cn-ssl.ls-apple.com.akadns.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="apple-cn" type=FWD name="gspe19-2-cn-ssl.ls-apple.com.akadns.net" }
 :if ([:len [find name="gspe19-2-cn-ssl.ls.apple.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="apple-cn" type=FWD name="gspe19-2-cn-ssl.ls.apple.com" }
 :if ([:len [find name="gspe19-cn-ssl.ls.apple.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="apple-cn" type=FWD name="gspe19-cn-ssl.ls.apple.com" }
@@ -150,4 +151,3 @@
 :if ([:len [find name="swdist.apple.com.akadns.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="apple-cn" type=FWD name="swdist.apple.com.akadns.net" }
 :if ([:len [find name="swscan-cdn.apple.com.akadns.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="apple-cn" type=FWD name="swscan-cdn.apple.com.akadns.net" }
 :if ([:len [find name="swscan.apple.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="apple-cn" type=FWD name="swscan.apple.com" }
-:if ([:len [find name="sylvan.apple.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="apple-cn" type=FWD name="sylvan.apple.com" }
