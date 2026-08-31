@@ -22,6 +22,7 @@
 :if ([:len [find name="stream.ntrrr.top"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-emby" match-subdomain=yes type=FWD name="stream.ntrrr.top" }
 :if ([:len [find name="stream.synn.cc"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-emby" match-subdomain=yes type=FWD name="stream.synn.cc" }
 :if ([:len [find name="texon.fans"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-emby" match-subdomain=yes type=FWD name="texon.fans" }
+:if ([:len [find name="uhdnow.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-emby" match-subdomain=yes type=FWD name="uhdnow.com" }
 :if ([:len [find name="yunti.online"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-emby" match-subdomain=yes type=FWD name="yunti.online" }
 :if ([:len [find name="agahk.odysseyplus.site"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-emby" type=FWD name="agahk.odysseyplus.site" }
 :if ([:len [find name="agahk1.jmsooo.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-emby" type=FWD name="agahk1.jmsooo.com" }
