@@ -16,6 +16,7 @@
 :if ([:len [find name="360os.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="qihoo360" match-subdomain=yes type=FWD name="360os.com" }
 :if ([:len [find name="360qhcdn.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="qihoo360" match-subdomain=yes type=FWD name="360qhcdn.com" }
 :if ([:len [find name="360safe.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="qihoo360" match-subdomain=yes type=FWD name="360safe.com" }
+:if ([:len [find name="360scdn.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="qihoo360" match-subdomain=yes type=FWD name="360scdn.com" }
 :if ([:len [find name="360shouji.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="qihoo360" match-subdomain=yes type=FWD name="360shouji.com" }
 :if ([:len [find name="360so.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="qihoo360" match-subdomain=yes type=FWD name="360so.com" }
 :if ([:len [find name="360sou.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="qihoo360" match-subdomain=yes type=FWD name="360sou.com" }

@@ -1,6 +1,11 @@
 :global AddressList
 :global ForwardTo
 /ip dns static
+:if ([:len [find name="youpornlist.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-porn" match-subdomain=yes type=FWD name="youpornlist.com" }
+:if ([:len [find name="youpornpremium.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-porn" match-subdomain=yes type=FWD name="youpornpremium.com" }
+:if ([:len [find name="youpornru.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-porn" match-subdomain=yes type=FWD name="youpornru.com" }
+:if ([:len [find name="youpornxvideos.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-porn" match-subdomain=yes type=FWD name="youpornxvideos.net" }
+:if ([:len [find name="youramateurporn.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-porn" match-subdomain=yes type=FWD name="youramateurporn.com" }
 :if ([:len [find name="yourassbig.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-porn" match-subdomain=yes type=FWD name="yourassbig.com" }
 :if ([:len [find name="yourbrain.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-porn" match-subdomain=yes type=FWD name="yourbrain.com" }
 :if ([:len [find name="yourdailypornvideos.ws"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-porn" match-subdomain=yes type=FWD name="yourdailypornvideos.ws" }
@@ -146,8 +151,3 @@
 :if ([:len [find regexp="(^|\\\\.)[3-9]0000sao\\\\.com\$"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-porn" type=FWD regexp="(^|\\\\.)[3-9]0000sao\\\\.com\$" }
 :if ([:len [find regexp="(^|\\\\.)[a-z]\?fulibl\\\\.(cc|com|org|net|xyz)\$"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-porn" type=FWD regexp="(^|\\\\.)[a-z]\?fulibl\\\\.(cc|com|org|net|xyz)\$" }
 :if ([:len [find regexp="(^|\\\\.)[a-z][1-9][0-9][a-z]\\\\.com\$"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-porn" type=FWD regexp="(^|\\\\.)[a-z][1-9][0-9][a-z]\\\\.com\$" }
-:if ([:len [find regexp="(^|\\\\.)aipa(111|222|333|444|555|666|777|888|999)\\\\.life\$"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-porn" type=FWD regexp="(^|\\\\.)aipa(111|222|333|444|555|666|777|888|999)\\\\.life\$" }
-:if ([:len [find regexp="(^|\\\\.)aisejushi(2|3|5|6)\\\\.com\$"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-porn" type=FWD regexp="(^|\\\\.)aisejushi(2|3|5|6)\\\\.com\$" }
-:if ([:len [find regexp="(^|\\\\.)aiwei[1-9]{2}\\\\.buzz\$"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-porn" type=FWD regexp="(^|\\\\.)aiwei[1-9]{2}\\\\.buzz\$" }
-:if ([:len [find regexp="(^|\\\\.)aqdk[0-9]{3}\\\\.com\$"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-porn" type=FWD regexp="(^|\\\\.)aqdk[0-9]{3}\\\\.com\$" }
-:if ([:len [find regexp="(^|\\\\.)avcc1[0-9]\\\\.com\$"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-porn" type=FWD regexp="(^|\\\\.)avcc1[0-9]\\\\.com\$" }

@@ -1,6 +1,11 @@
 :global AddressList
 :global ForwardTo
 /ip dns static
+:if ([:len [find regexp="(^|\\\\.)aipa(111|222|333|444|555|666|777|888|999)\\\\.life\$"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-porn" type=FWD regexp="(^|\\\\.)aipa(111|222|333|444|555|666|777|888|999)\\\\.life\$" }
+:if ([:len [find regexp="(^|\\\\.)aisejushi(2|3|5|6)\\\\.com\$"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-porn" type=FWD regexp="(^|\\\\.)aisejushi(2|3|5|6)\\\\.com\$" }
+:if ([:len [find regexp="(^|\\\\.)aiwei[1-9]{2}\\\\.buzz\$"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-porn" type=FWD regexp="(^|\\\\.)aiwei[1-9]{2}\\\\.buzz\$" }
+:if ([:len [find regexp="(^|\\\\.)aqdk[0-9]{3}\\\\.com\$"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-porn" type=FWD regexp="(^|\\\\.)aqdk[0-9]{3}\\\\.com\$" }
+:if ([:len [find regexp="(^|\\\\.)avcc1[0-9]\\\\.com\$"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-porn" type=FWD regexp="(^|\\\\.)avcc1[0-9]\\\\.com\$" }
 :if ([:len [find regexp="(^|\\\\.)avstar0[1-9]\\\\.(com|me)\$"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-porn" type=FWD regexp="(^|\\\\.)avstar0[1-9]\\\\.(com|me)\$" }
 :if ([:len [find regexp="(^|\\\\.)awjd[1-9]\?\\\\.tv\$"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-porn" type=FWD regexp="(^|\\\\.)awjd[1-9]\?\\\\.tv\$" }
 :if ([:len [find regexp="(^|\\\\.)awwcn[1-9]\?\\\\.top\$"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-porn" type=FWD regexp="(^|\\\\.)awwcn[1-9]\?\\\\.top\$" }

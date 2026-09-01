@@ -113,7 +113,10 @@
 :if ([:len [find name="fiat24.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-cryptocurrency" match-subdomain=yes type=FWD name="fiat24.com" }
 :if ([:len [find name="flare.network"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-cryptocurrency" match-subdomain=yes type=FWD name="flare.network" }
 :if ([:len [find name="fundingrates.xyz"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-cryptocurrency" match-subdomain=yes type=FWD name="fundingrates.xyz" }
+:if ([:len [find name="gate.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-cryptocurrency" match-subdomain=yes type=FWD name="gate.com" }
 :if ([:len [find name="gate.io"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-cryptocurrency" match-subdomain=yes type=FWD name="gate.io" }
+:if ([:len [find name="gate.tv"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-cryptocurrency" match-subdomain=yes type=FWD name="gate.tv" }
+:if ([:len [find name="gateapi.io"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-cryptocurrency" match-subdomain=yes type=FWD name="gateapi.io" }
 :if ([:len [find name="gatedata.org"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-cryptocurrency" match-subdomain=yes type=FWD name="gatedata.org" }
 :if ([:len [find name="gateimg.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-cryptocurrency" match-subdomain=yes type=FWD name="gateimg.com" }
 :if ([:len [find name="gateio.live"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-cryptocurrency" match-subdomain=yes type=FWD name="gateio.live" }
@@ -148,6 +151,3 @@
 :if ([:len [find name="megaeth.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-cryptocurrency" match-subdomain=yes type=FWD name="megaeth.com" }
 :if ([:len [find name="merkl.xyz"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-cryptocurrency" match-subdomain=yes type=FWD name="merkl.xyz" }
 :if ([:len [find name="metalpha.finance"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-cryptocurrency" match-subdomain=yes type=FWD name="metalpha.finance" }
-:if ([:len [find name="metamask.io"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-cryptocurrency" match-subdomain=yes type=FWD name="metamask.io" }
-:if ([:len [find name="mexc.co"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-cryptocurrency" match-subdomain=yes type=FWD name="mexc.co" }
-:if ([:len [find name="mexc.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-cryptocurrency" match-subdomain=yes type=FWD name="mexc.com" }

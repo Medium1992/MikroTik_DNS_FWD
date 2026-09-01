@@ -1,6 +1,9 @@
 :global AddressList
 :global ForwardTo
 /ip dns static
+:if ([:len [find name="metamask.io"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-cryptocurrency" match-subdomain=yes type=FWD name="metamask.io" }
+:if ([:len [find name="mexc.co"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-cryptocurrency" match-subdomain=yes type=FWD name="mexc.co" }
+:if ([:len [find name="mexc.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-cryptocurrency" match-subdomain=yes type=FWD name="mexc.com" }
 :if ([:len [find name="mexcsensors.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-cryptocurrency" match-subdomain=yes type=FWD name="mexcsensors.com" }
 :if ([:len [find name="mytokenapi.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-cryptocurrency" match-subdomain=yes type=FWD name="mytokenapi.com" }
 :if ([:len [find name="nexo.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-cryptocurrency" match-subdomain=yes type=FWD name="nexo.com" }
