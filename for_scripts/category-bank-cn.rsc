@@ -17,10 +17,12 @@
 :if ([:len [find name="psbc.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-bank-cn" match-subdomain=yes type=FWD name="psbc.com" }
 :if ([:len [find name="shrbank.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-bank-cn" match-subdomain=yes type=FWD name="shrbank.com" }
 :if ([:len [find name="suningbank.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-bank-cn" match-subdomain=yes type=FWD name="suningbank.com" }
+:if ([:len [find name="tctpwebankcdn.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-bank-cn" match-subdomain=yes type=FWD name="tctpwebankcdn.net" }
 :if ([:len [find name="unionpay.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-bank-cn" match-subdomain=yes type=FWD name="unionpay.com" }
 :if ([:len [find name="unionpay.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-bank-cn" match-subdomain=yes type=FWD name="unionpay.net" }
 :if ([:len [find name="unionpayintl.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-bank-cn" match-subdomain=yes type=FWD name="unionpayintl.com" }
 :if ([:len [find name="unionpaysecure.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-bank-cn" match-subdomain=yes type=FWD name="unionpaysecure.com" }
+:if ([:len [find name="wbweilicai.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-bank-cn" match-subdomain=yes type=FWD name="wbweilicai.com" }
 :if ([:len [find name="webank.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-bank-cn" match-subdomain=yes type=FWD name="webank.com" }
 :if ([:len [find name="webankcdn.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-bank-cn" match-subdomain=yes type=FWD name="webankcdn.net" }
 :if ([:len [find name="whccb.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-bank-cn" match-subdomain=yes type=FWD name="whccb.com" }
