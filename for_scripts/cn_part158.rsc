@@ -1,6 +1,15 @@
 :global AddressList
 :global ForwardTo
 /ip dns static
+:if ([:len [find name="cniiib.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="cn" match-subdomain=yes type=FWD name="cniiib.com" }
+:if ([:len [find name="cnimg.elex.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="cn" match-subdomain=yes type=FWD name="cnimg.elex.com" }
+:if ([:len [find name="cnimporter.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="cn" match-subdomain=yes type=FWD name="cnimporter.com" }
+:if ([:len [find name="cninfo.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="cn" match-subdomain=yes type=FWD name="cninfo.net" }
+:if ([:len [find name="cninj.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="cn" match-subdomain=yes type=FWD name="cninj.com" }
+:if ([:len [find name="cninnovatel.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="cn" match-subdomain=yes type=FWD name="cninnovatel.com" }
+:if ([:len [find name="cninsure.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="cn" match-subdomain=yes type=FWD name="cninsure.net" }
+:if ([:len [find name="cninternetdownloadmanager.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="cn" match-subdomain=yes type=FWD name="cninternetdownloadmanager.com" }
+:if ([:len [find name="cnios.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="cn" match-subdomain=yes type=FWD name="cnios.net" }
 :if ([:len [find name="cnipa-gd.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="cn" match-subdomain=yes type=FWD name="cnipa-gd.com" }
 :if ([:len [find name="cnipa-hb.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="cn" match-subdomain=yes type=FWD name="cnipa-hb.com" }
 :if ([:len [find name="cnipa-pesc.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="cn" match-subdomain=yes type=FWD name="cnipa-pesc.com" }
@@ -142,12 +151,3 @@
 :if ([:len [find name="cnmmsc.org"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="cn" match-subdomain=yes type=FWD name="cnmmsc.org" }
 :if ([:len [find name="cnmo.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="cn" match-subdomain=yes type=FWD name="cnmo.com" }
 :if ([:len [find name="cnmobile.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="cn" match-subdomain=yes type=FWD name="cnmobile.net" }
-:if ([:len [find name="cnmods.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="cn" match-subdomain=yes type=FWD name="cnmods.net" }
-:if ([:len [find name="cnmods.org"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="cn" match-subdomain=yes type=FWD name="cnmods.org" }
-:if ([:len [find name="cnmoershu.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="cn" match-subdomain=yes type=FWD name="cnmoershu.com" }
-:if ([:len [find name="cnmooc.org"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="cn" match-subdomain=yes type=FWD name="cnmooc.org" }
-:if ([:len [find name="cnmp3.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="cn" match-subdomain=yes type=FWD name="cnmp3.com" }
-:if ([:len [find name="cnmsl.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="cn" match-subdomain=yes type=FWD name="cnmsl.net" }
-:if ([:len [find name="cnmsn.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="cn" match-subdomain=yes type=FWD name="cnmsn.com" }
-:if ([:len [find name="cnmsn.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="cn" match-subdomain=yes type=FWD name="cnmsn.net" }
-:if ([:len [find name="cnmstl.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="cn" match-subdomain=yes type=FWD name="cnmstl.net" }

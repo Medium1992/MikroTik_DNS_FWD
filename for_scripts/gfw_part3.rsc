@@ -1,6 +1,8 @@
 :global AddressList
 :global ForwardTo
 /ip dns static
+:if ([:len [find name="bandcamp.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="gfw" match-subdomain=yes type=FWD name="bandcamp.com" }
+:if ([:len [find name="bandwagonhost.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="gfw" match-subdomain=yes type=FWD name="bandwagonhost.com" }
 :if ([:len [find name="bangchen.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="gfw" match-subdomain=yes type=FWD name="bangchen.net" }
 :if ([:len [find name="bangdream.space"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="gfw" match-subdomain=yes type=FWD name="bangdream.space" }
 :if ([:len [find name="bangkokpost.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="gfw" match-subdomain=yes type=FWD name="bangkokpost.com" }
@@ -149,5 +151,3 @@
 :if ([:len [find name="bod.asia"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="gfw" match-subdomain=yes type=FWD name="bod.asia" }
 :if ([:len [find name="bolehvpn.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="gfw" match-subdomain=yes type=FWD name="bolehvpn.net" }
 :if ([:len [find name="boobstagram.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="gfw" match-subdomain=yes type=FWD name="boobstagram.com" }
-:if ([:len [find name="book.com.tw"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="gfw" match-subdomain=yes type=FWD name="book.com.tw" }
-:if ([:len [find name="bookdepository.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="gfw" match-subdomain=yes type=FWD name="bookdepository.com" }

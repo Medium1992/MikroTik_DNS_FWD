@@ -1,6 +1,14 @@
 :global AddressList
 :global ForwardTo
 /ip dns static
+:if ([:len [find name="tokyo-porn-tube.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="gfw" match-subdomain=yes type=FWD name="tokyo-porn-tube.com" }
+:if ([:len [find name="tokyocn.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="gfw" match-subdomain=yes type=FWD name="tokyocn.com" }
+:if ([:len [find name="tomp3.cc"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="gfw" match-subdomain=yes type=FWD name="tomp3.cc" }
+:if ([:len [find name="top.tv"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="gfw" match-subdomain=yes type=FWD name="top.tv" }
+:if ([:len [find name="top10vpn.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="gfw" match-subdomain=yes type=FWD name="top10vpn.com" }
+:if ([:len [find name="topbtc.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="gfw" match-subdomain=yes type=FWD name="topbtc.com" }
+:if ([:len [find name="toppornsites.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="gfw" match-subdomain=yes type=FWD name="toppornsites.com" }
+:if ([:len [find name="topsy.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="gfw" match-subdomain=yes type=FWD name="topsy.com" }
 :if ([:len [find name="toptoon.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="gfw" match-subdomain=yes type=FWD name="toptoon.net" }
 :if ([:len [find name="tor.eff.org"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="gfw" match-subdomain=yes type=FWD name="tor.eff.org" }
 :if ([:len [find name="torguard.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="gfw" match-subdomain=yes type=FWD name="torguard.net" }
@@ -143,11 +151,3 @@
 :if ([:len [find name="uforadio.com.tw"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="gfw" match-subdomain=yes type=FWD name="uforadio.com.tw" }
 :if ([:len [find name="uhdwallpapers.org"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="gfw" match-subdomain=yes type=FWD name="uhdwallpapers.org" }
 :if ([:len [find name="uhrp.org"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="gfw" match-subdomain=yes type=FWD name="uhrp.org" }
-:if ([:len [find name="uighur.nl"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="gfw" match-subdomain=yes type=FWD name="uighur.nl" }
-:if ([:len [find name="uku.im"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="gfw" match-subdomain=yes type=FWD name="uku.im" }
-:if ([:len [find name="ulop.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="gfw" match-subdomain=yes type=FWD name="ulop.net" }
-:if ([:len [find name="ultrasurf.us"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="gfw" match-subdomain=yes type=FWD name="ultrasurf.us" }
-:if ([:len [find name="ultravpn.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="gfw" match-subdomain=yes type=FWD name="ultravpn.com" }
-:if ([:len [find name="unblock-us.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="gfw" match-subdomain=yes type=FWD name="unblock-us.com" }
-:if ([:len [find name="unblock.cn.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="gfw" match-subdomain=yes type=FWD name="unblock.cn.com" }
-:if ([:len [find name="unblockdmm.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="gfw" match-subdomain=yes type=FWD name="unblockdmm.com" }

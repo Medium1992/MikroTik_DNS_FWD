@@ -1,6 +1,11 @@
 :global AddressList
 :global ForwardTo
 /ip dns static
+:if ([:len [find name="beifang.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="cn" match-subdomain=yes type=FWD name="beifang.net" }
+:if ([:len [find name="beifangfoshifen.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="cn" match-subdomain=yes type=FWD name="beifangfoshifen.com" }
+:if ([:len [find name="beifangjiaoyu.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="cn" match-subdomain=yes type=FWD name="beifangjiaoyu.com" }
+:if ([:len [find name="beifeng.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="cn" match-subdomain=yes type=FWD name="beifeng.com" }
+:if ([:len [find name="beifuni.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="cn" match-subdomain=yes type=FWD name="beifuni.com" }
 :if ([:len [find name="beigangyouxuan.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="cn" match-subdomain=yes type=FWD name="beigangyouxuan.com" }
 :if ([:len [find name="beiguorc.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="cn" match-subdomain=yes type=FWD name="beiguorc.com" }
 :if ([:len [find name="beihai365.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="cn" match-subdomain=yes type=FWD name="beihai365.com" }
@@ -80,6 +85,7 @@
 :if ([:len [find name="beimeihongfeng.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="cn" match-subdomain=yes type=FWD name="beimeihongfeng.com" }
 :if ([:len [find name="beimeizhijia.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="cn" match-subdomain=yes type=FWD name="beimeizhijia.com" }
 :if ([:len [find name="beimeizhiying.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="cn" match-subdomain=yes type=FWD name="beimeizhiying.com" }
+:if ([:len [find name="beimokj.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="cn" match-subdomain=yes type=FWD name="beimokj.com" }
 :if ([:len [find name="beinglab.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="cn" match-subdomain=yes type=FWD name="beinglab.com" }
 :if ([:len [find name="beingmate.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="cn" match-subdomain=yes type=FWD name="beingmate.com" }
 :if ([:len [find name="beipenggroup.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="cn" match-subdomain=yes type=FWD name="beipenggroup.com" }
@@ -145,9 +151,3 @@
 :if ([:len [find name="benber.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="cn" match-subdomain=yes type=FWD name="benber.com" }
 :if ([:len [find name="benbun.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="cn" match-subdomain=yes type=FWD name="benbun.com" }
 :if ([:len [find name="bencaopu.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="cn" match-subdomain=yes type=FWD name="bencaopu.com" }
-:if ([:len [find name="bendan.website"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="cn" match-subdomain=yes type=FWD name="bendan.website" }
-:if ([:len [find name="bendi5.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="cn" match-subdomain=yes type=FWD name="bendi5.com" }
-:if ([:len [find name="bendibao.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="cn" match-subdomain=yes type=FWD name="bendibao.com" }
-:if ([:len [find name="bendijin.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="cn" match-subdomain=yes type=FWD name="bendijin.net" }
-:if ([:len [find name="bendis.cc"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="cn" match-subdomain=yes type=FWD name="bendis.cc" }
-:if ([:len [find name="bendiw.cc"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="cn" match-subdomain=yes type=FWD name="bendiw.cc" }

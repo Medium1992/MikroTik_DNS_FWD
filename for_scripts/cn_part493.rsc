@@ -1,6 +1,15 @@
 :global AddressList
 :global ForwardTo
 /ip dns static
+:if ([:len [find name="qikuaibao.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="cn" match-subdomain=yes type=FWD name="qikuaibao.com" }
+:if ([:len [find name="qikucdn.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="cn" match-subdomain=yes type=FWD name="qikucdn.com" }
+:if ([:len [find name="qikula.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="cn" match-subdomain=yes type=FWD name="qikula.com" }
+:if ([:len [find name="qilaijian.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="cn" match-subdomain=yes type=FWD name="qilaijian.com" }
+:if ([:len [find name="qilang.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="cn" match-subdomain=yes type=FWD name="qilang.net" }
+:if ([:len [find name="qilanxiaozhu.co"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="cn" match-subdomain=yes type=FWD name="qilanxiaozhu.co" }
+:if ([:len [find name="qilanxiaozhu.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="cn" match-subdomain=yes type=FWD name="qilanxiaozhu.net" }
+:if ([:len [find name="qilanxiaozhu.vip"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="cn" match-subdomain=yes type=FWD name="qilanxiaozhu.vip" }
+:if ([:len [find name="qilaoshicaishui.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="cn" match-subdomain=yes type=FWD name="qilaoshicaishui.com" }
 :if ([:len [find name="qilecms.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="cn" match-subdomain=yes type=FWD name="qilecms.com" }
 :if ([:len [find name="qiliangjia.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="cn" match-subdomain=yes type=FWD name="qiliangjia.com" }
 :if ([:len [find name="qilindao.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="cn" match-subdomain=yes type=FWD name="qilindao.com" }
@@ -142,12 +151,3 @@
 :if ([:len [find name="qinglue.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="cn" match-subdomain=yes type=FWD name="qinglue.net" }
 :if ([:len [find name="qingmail.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="cn" match-subdomain=yes type=FWD name="qingmail.com" }
 :if ([:len [find name="qingmang.me"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="cn" match-subdomain=yes type=FWD name="qingmang.me" }
-:if ([:len [find name="qingmang.mobi"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="cn" match-subdomain=yes type=FWD name="qingmang.mobi" }
-:if ([:len [find name="qingmayun.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="cn" match-subdomain=yes type=FWD name="qingmayun.com" }
-:if ([:len [find name="qingmei.me"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="cn" match-subdomain=yes type=FWD name="qingmei.me" }
-:if ([:len [find name="qingmh.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="cn" match-subdomain=yes type=FWD name="qingmh.com" }
-:if ([:len [find name="qingmings.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="cn" match-subdomain=yes type=FWD name="qingmings.com" }
-:if ([:len [find name="qingmo.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="cn" match-subdomain=yes type=FWD name="qingmo.com" }
-:if ([:len [find name="qingmob.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="cn" match-subdomain=yes type=FWD name="qingmob.com" }
-:if ([:len [find name="qingmucdn.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="cn" match-subdomain=yes type=FWD name="qingmucdn.com" }
-:if ([:len [find name="qingmuit.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="cn" match-subdomain=yes type=FWD name="qingmuit.com" }

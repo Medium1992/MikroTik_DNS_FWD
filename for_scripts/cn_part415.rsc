@@ -1,6 +1,15 @@
 :global AddressList
 :global ForwardTo
 /ip dns static
+:if ([:len [find name="luhuadong.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="cn" match-subdomain=yes type=FWD name="luhuadong.com" }
+:if ([:len [find name="luhuiwl.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="cn" match-subdomain=yes type=FWD name="luhuiwl.com" }
+:if ([:len [find name="lujiaming.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="cn" match-subdomain=yes type=FWD name="lujiaming.com" }
+:if ([:len [find name="lujiandairy.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="cn" match-subdomain=yes type=FWD name="lujiandairy.com" }
+:if ([:len [find name="lujianxin.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="cn" match-subdomain=yes type=FWD name="lujianxin.com" }
+:if ([:len [find name="lujiazuiforum.org"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="cn" match-subdomain=yes type=FWD name="lujiazuiforum.org" }
+:if ([:len [find name="lujingtao.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="cn" match-subdomain=yes type=FWD name="lujingtao.com" }
+:if ([:len [find name="lujiya.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="cn" match-subdomain=yes type=FWD name="lujiya.com" }
+:if ([:len [find name="lujun9972.win"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="cn" match-subdomain=yes type=FWD name="lujun9972.win" }
 :if ([:len [find name="lukachen.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="cn" match-subdomain=yes type=FWD name="lukachen.com" }
 :if ([:len [find name="lukafei.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="cn" match-subdomain=yes type=FWD name="lukafei.com" }
 :if ([:len [find name="lukechina.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="cn" match-subdomain=yes type=FWD name="lukechina.com" }
@@ -142,12 +151,3 @@
 :if ([:len [find name="luxiaoche.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="cn" match-subdomain=yes type=FWD name="luxiaoche.com" }
 :if ([:len [find name="luxichemical.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="cn" match-subdomain=yes type=FWD name="luxichemical.com" }
 :if ([:len [find name="luxiwang.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="cn" match-subdomain=yes type=FWD name="luxiwang.com" }
-:if ([:len [find name="luxshare-ict.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="cn" match-subdomain=yes type=FWD name="luxshare-ict.com" }
-:if ([:len [find name="luxtarget.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="cn" match-subdomain=yes type=FWD name="luxtarget.com" }
-:if ([:len [find name="luxuanart.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="cn" match-subdomain=yes type=FWD name="luxuanart.com" }
-:if ([:len [find name="luxuqing.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="cn" match-subdomain=yes type=FWD name="luxuqing.com" }
-:if ([:len [find name="luxury2008.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="cn" match-subdomain=yes type=FWD name="luxury2008.com" }
-:if ([:len [find name="luxurybrandmall.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="cn" match-subdomain=yes type=FWD name="luxurybrandmall.com" }
-:if ([:len [find name="luxurychina.org"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="cn" match-subdomain=yes type=FWD name="luxurychina.org" }
-:if ([:len [find name="luxurymany.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="cn" match-subdomain=yes type=FWD name="luxurymany.com" }
-:if ([:len [find name="luxuryshopwatch.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="cn" match-subdomain=yes type=FWD name="luxuryshopwatch.com" }

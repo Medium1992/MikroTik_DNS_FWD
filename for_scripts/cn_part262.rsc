@@ -1,6 +1,15 @@
 :global AddressList
 :global ForwardTo
 /ip dns static
+:if ([:len [find name="gtpso.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="cn" match-subdomain=yes type=FWD name="gtpso.com" }
+:if ([:len [find name="gtqzg.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="cn" match-subdomain=yes type=FWD name="gtqzg.com" }
+:if ([:len [find name="gtradedata.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="cn" match-subdomain=yes type=FWD name="gtradedata.com" }
+:if ([:len [find name="gtrukxeo.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="cn" match-subdomain=yes type=FWD name="gtrukxeo.com" }
+:if ([:len [find name="gts.work"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="cn" match-subdomain=yes type=FWD name="gts.work" }
+:if ([:len [find name="gtshebei.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="cn" match-subdomain=yes type=FWD name="gtshebei.com" }
+:if ([:len [find name="gttctech.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="cn" match-subdomain=yes type=FWD name="gttctech.com" }
+:if ([:len [find name="gtuanb.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="cn" match-subdomain=yes type=FWD name="gtuanb.com" }
+:if ([:len [find name="gtuu.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="cn" match-subdomain=yes type=FWD name="gtuu.com" }
 :if ([:len [find name="gtwrmdxo.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="cn" match-subdomain=yes type=FWD name="gtwrmdxo.com" }
 :if ([:len [find name="gtx-sh.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="cn" match-subdomain=yes type=FWD name="gtx-sh.com" }
 :if ([:len [find name="gtxf.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="cn" match-subdomain=yes type=FWD name="gtxf.com" }
@@ -142,12 +151,3 @@
 :if ([:len [find name="guangyuancare.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="cn" match-subdomain=yes type=FWD name="guangyuancare.com" }
 :if ([:len [find name="guangyuangroup.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="cn" match-subdomain=yes type=FWD name="guangyuangroup.com" }
 :if ([:len [find name="guangyuanjt.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="cn" match-subdomain=yes type=FWD name="guangyuanjt.com" }
-:if ([:len [find name="guangyuanmarathon.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="cn" match-subdomain=yes type=FWD name="guangyuanmarathon.com" }
-:if ([:len [find name="guangyuhb.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="cn" match-subdomain=yes type=FWD name="guangyuhb.com" }
-:if ([:len [find name="guangyv.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="cn" match-subdomain=yes type=FWD name="guangyv.com" }
-:if ([:len [find name="guangzhitui.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="cn" match-subdomain=yes type=FWD name="guangzhitui.com" }
-:if ([:len [find name="guangzhou-logistics.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="cn" match-subdomain=yes type=FWD name="guangzhou-logistics.com" }
-:if ([:len [find name="guangzhou-marathon.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="cn" match-subdomain=yes type=FWD name="guangzhou-marathon.com" }
-:if ([:len [find name="guangzhouamc.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="cn" match-subdomain=yes type=FWD name="guangzhouamc.com" }
-:if ([:len [find name="guangzhoudazhong.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="cn" match-subdomain=yes type=FWD name="guangzhoudazhong.com" }
-:if ([:len [find name="guangzhougy.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="cn" match-subdomain=yes type=FWD name="guangzhougy.com" }

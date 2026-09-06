@@ -1,6 +1,9 @@
 :global AddressList
 :global ForwardTo
 /ip dns static
+:if ([:len [find name="ajkdns2.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="cn" match-subdomain=yes type=FWD name="ajkdns2.com" }
+:if ([:len [find name="ajkfc.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="cn" match-subdomain=yes type=FWD name="ajkfc.com" }
+:if ([:len [find name="ajkimg.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="cn" match-subdomain=yes type=FWD name="ajkimg.com" }
 :if ([:len [find name="ajkinclude.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="cn" match-subdomain=yes type=FWD name="ajkinclude.com" }
 :if ([:len [find name="ajlty.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="cn" match-subdomain=yes type=FWD name="ajlty.com" }
 :if ([:len [find name="ajmide.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="cn" match-subdomain=yes type=FWD name="ajmide.com" }
@@ -148,6 +151,3 @@
 :if ([:len [find name="alibabafonts.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="cn" match-subdomain=yes type=FWD name="alibabafonts.com" }
 :if ([:len [find name="alibabafoundation.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="cn" match-subdomain=yes type=FWD name="alibabafoundation.com" }
 :if ([:len [find name="alibabafuturehotel.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="cn" match-subdomain=yes type=FWD name="alibabafuturehotel.com" }
-:if ([:len [find name="alibabagroup.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="cn" match-subdomain=yes type=FWD name="alibabagroup.com" }
-:if ([:len [find name="alibabainno.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="cn" match-subdomain=yes type=FWD name="alibabainno.com" }
-:if ([:len [find name="alibabaonline.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="cn" match-subdomain=yes type=FWD name="alibabaonline.com" }

@@ -1,6 +1,17 @@
 :global AddressList
 :global ForwardTo
 /ip dns static
+:if ([:len [find name="tech4joy.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="cn" match-subdomain=yes type=FWD name="tech4joy.com" }
+:if ([:len [find name="techan.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="cn" match-subdomain=yes type=FWD name="techan.com" }
+:if ([:len [find name="techannet.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="cn" match-subdomain=yes type=FWD name="techannet.com" }
+:if ([:len [find name="techbeat.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="cn" match-subdomain=yes type=FWD name="techbeat.net" }
+:if ([:len [find name="techbrood.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="cn" match-subdomain=yes type=FWD name="techbrood.com" }
+:if ([:len [find name="techdow.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="cn" match-subdomain=yes type=FWD name="techdow.com" }
+:if ([:len [find name="techfine.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="cn" match-subdomain=yes type=FWD name="techfine.net" }
+:if ([:len [find name="techgogogo.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="cn" match-subdomain=yes type=FWD name="techgogogo.com" }
+:if ([:len [find name="techigh.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="cn" match-subdomain=yes type=FWD name="techigh.net" }
+:if ([:len [find name="techingrid.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="cn" match-subdomain=yes type=FWD name="techingrid.net" }
+:if ([:len [find name="techmiao.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="cn" match-subdomain=yes type=FWD name="techmiao.com" }
 :if ([:len [find name="techmoris.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="cn" match-subdomain=yes type=FWD name="techmoris.com" }
 :if ([:len [find name="techo.chat"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="cn" match-subdomain=yes type=FWD name="techo.chat" }
 :if ([:len [find name="techo.pub"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="cn" match-subdomain=yes type=FWD name="techo.pub" }
@@ -125,6 +136,7 @@
 :if ([:len [find name="tencentapp.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="cn" match-subdomain=yes type=FWD name="tencentapp.com" }
 :if ([:len [find name="tencentapps.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="cn" match-subdomain=yes type=FWD name="tencentapps.com" }
 :if ([:len [find name="tencentbh.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="cn" match-subdomain=yes type=FWD name="tencentbh.com" }
+:if ([:len [find name="tencentbuddy.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="cn" match-subdomain=yes type=FWD name="tencentbuddy.com" }
 :if ([:len [find name="tencentbyod.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="cn" match-subdomain=yes type=FWD name="tencentbyod.com" }
 :if ([:len [find name="tencentcc.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="cn" match-subdomain=yes type=FWD name="tencentcc.com" }
 :if ([:len [find name="tencentcdb.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="cn" match-subdomain=yes type=FWD name="tencentcdb.com" }
@@ -139,15 +151,3 @@
 :if ([:len [find name="tencentclb.link"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="cn" match-subdomain=yes type=FWD name="tencentclb.link" }
 :if ([:len [find name="tencentclb.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="cn" match-subdomain=yes type=FWD name="tencentclb.net" }
 :if ([:len [find name="tencentclb.online"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="cn" match-subdomain=yes type=FWD name="tencentclb.online" }
-:if ([:len [find name="tencentclb.plus"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="cn" match-subdomain=yes type=FWD name="tencentclb.plus" }
-:if ([:len [find name="tencentclb.pro"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="cn" match-subdomain=yes type=FWD name="tencentclb.pro" }
-:if ([:len [find name="tencentclb.site"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="cn" match-subdomain=yes type=FWD name="tencentclb.site" }
-:if ([:len [find name="tencentclb.space"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="cn" match-subdomain=yes type=FWD name="tencentclb.space" }
-:if ([:len [find name="tencentclb.team"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="cn" match-subdomain=yes type=FWD name="tencentclb.team" }
-:if ([:len [find name="tencentclb.tech"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="cn" match-subdomain=yes type=FWD name="tencentclb.tech" }
-:if ([:len [find name="tencentclb.top"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="cn" match-subdomain=yes type=FWD name="tencentclb.top" }
-:if ([:len [find name="tencentclb.vip"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="cn" match-subdomain=yes type=FWD name="tencentclb.vip" }
-:if ([:len [find name="tencentclb.work"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="cn" match-subdomain=yes type=FWD name="tencentclb.work" }
-:if ([:len [find name="tencentclb.zone"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="cn" match-subdomain=yes type=FWD name="tencentclb.zone" }
-:if ([:len [find name="tencentcloud-aiot.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="cn" match-subdomain=yes type=FWD name="tencentcloud-aiot.com" }
-:if ([:len [find name="tencentcloud-demo.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="cn" match-subdomain=yes type=FWD name="tencentcloud-demo.com" }

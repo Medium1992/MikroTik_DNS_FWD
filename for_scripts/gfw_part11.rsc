@@ -1,6 +1,9 @@
 :global AddressList
 :global ForwardTo
 /ip dns static
+:if ([:len [find name="heritage.org"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="gfw" match-subdomain=yes type=FWD name="heritage.org" }
+:if ([:len [find name="herokuapp.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="gfw" match-subdomain=yes type=FWD name="herokuapp.com" }
+:if ([:len [find name="herominers.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="gfw" match-subdomain=yes type=FWD name="herominers.com" }
 :if ([:len [find name="hexieshe.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="gfw" match-subdomain=yes type=FWD name="hexieshe.com" }
 :if ([:len [find name="hexieshe.xyz"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="gfw" match-subdomain=yes type=FWD name="hexieshe.xyz" }
 :if ([:len [find name="hexxeh.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="gfw" match-subdomain=yes type=FWD name="hexxeh.net" }
@@ -148,6 +151,3 @@
 :if ([:len [find name="ilhamtohtiinstitute.org"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="gfw" match-subdomain=yes type=FWD name="ilhamtohtiinstitute.org" }
 :if ([:len [find name="illusionfactory.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="gfw" match-subdomain=yes type=FWD name="illusionfactory.com" }
 :if ([:len [find name="ilove80.be"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="gfw" match-subdomain=yes type=FWD name="ilove80.be" }
-:if ([:len [find name="ilovelongtoes.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="gfw" match-subdomain=yes type=FWD name="ilovelongtoes.com" }
-:if ([:len [find name="im88.tw"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="gfw" match-subdomain=yes type=FWD name="im88.tw" }
-:if ([:len [find name="imagefap.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="gfw" match-subdomain=yes type=FWD name="imagefap.com" }

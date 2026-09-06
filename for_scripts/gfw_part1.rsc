@@ -7,6 +7,8 @@
 :if ([:len [find name="1000giri.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="gfw" match-subdomain=yes type=FWD name="1000giri.net" }
 :if ([:len [find name="10beasts.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="gfw" match-subdomain=yes type=FWD name="10beasts.net" }
 :if ([:len [find name="10musume.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="gfw" match-subdomain=yes type=FWD name="10musume.com" }
+:if ([:len [find name="123av.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="gfw" match-subdomain=yes type=FWD name="123av.com" }
+:if ([:len [find name="123av.me"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="gfw" match-subdomain=yes type=FWD name="123av.me" }
 :if ([:len [find name="12bet.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="gfw" match-subdomain=yes type=FWD name="12bet.com" }
 :if ([:len [find name="12vpn.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="gfw" match-subdomain=yes type=FWD name="12vpn.com" }
 :if ([:len [find name="12vpn.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="gfw" match-subdomain=yes type=FWD name="12vpn.net" }
@@ -149,5 +151,3 @@
 :if ([:len [find name="allconnected.co"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="gfw" match-subdomain=yes type=FWD name="allconnected.co" }
 :if ([:len [find name="alldrawnsex.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="gfw" match-subdomain=yes type=FWD name="alldrawnsex.com" }
 :if ([:len [find name="allfinegirls.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="gfw" match-subdomain=yes type=FWD name="allfinegirls.com" }
-:if ([:len [find name="allinfa.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="gfw" match-subdomain=yes type=FWD name="allinfa.com" }
-:if ([:len [find name="allmovie.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="gfw" match-subdomain=yes type=FWD name="allmovie.com" }

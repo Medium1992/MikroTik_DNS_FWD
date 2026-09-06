@@ -1,6 +1,15 @@
 :global AddressList
 :global ForwardTo
 /ip dns static
+:if ([:len [find name="qiangungun.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="cn" match-subdomain=yes type=FWD name="qiangungun.com" }
+:if ([:len [find name="qianguyihao.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="cn" match-subdomain=yes type=FWD name="qianguyihao.com" }
+:if ([:len [find name="qiangyingjituan.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="cn" match-subdomain=yes type=FWD name="qiangyingjituan.com" }
+:if ([:len [find name="qiangyinli.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="cn" match-subdomain=yes type=FWD name="qiangyinli.com" }
+:if ([:len [find name="qianhai12315.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="cn" match-subdomain=yes type=FWD name="qianhai12315.com" }
+:if ([:len [find name="qianhaiaiaitie.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="cn" match-subdomain=yes type=FWD name="qianhaiaiaitie.com" }
+:if ([:len [find name="qianhaibs.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="cn" match-subdomain=yes type=FWD name="qianhaibs.com" }
+:if ([:len [find name="qianhaipower.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="cn" match-subdomain=yes type=FWD name="qianhaipower.com" }
+:if ([:len [find name="qianhong.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="cn" match-subdomain=yes type=FWD name="qianhong.com" }
 :if ([:len [find name="qianhuajie.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="cn" match-subdomain=yes type=FWD name="qianhuajie.com" }
 :if ([:len [find name="qianhuanhulian.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="cn" match-subdomain=yes type=FWD name="qianhuanhulian.com" }
 :if ([:len [find name="qianhuaweb.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="cn" match-subdomain=yes type=FWD name="qianhuaweb.com" }
@@ -142,12 +151,3 @@
 :if ([:len [find name="qiaozuji.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="cn" match-subdomain=yes type=FWD name="qiaozuji.com" }
 :if ([:len [find name="qiaqa.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="cn" match-subdomain=yes type=FWD name="qiaqa.com" }
 :if ([:len [find name="qiaqiafood.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="cn" match-subdomain=yes type=FWD name="qiaqiafood.com" }
-:if ([:len [find name="qiawei.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="cn" match-subdomain=yes type=FWD name="qiawei.com" }
-:if ([:len [find name="qibali.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="cn" match-subdomain=yes type=FWD name="qibali.com" }
-:if ([:len [find name="qibaodwight.org"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="cn" match-subdomain=yes type=FWD name="qibaodwight.org" }
-:if ([:len [find name="qibazaixian.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="cn" match-subdomain=yes type=FWD name="qibazaixian.com" }
-:if ([:len [find name="qibingdaojia.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="cn" match-subdomain=yes type=FWD name="qibingdaojia.com" }
-:if ([:len [find name="qibingwang.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="cn" match-subdomain=yes type=FWD name="qibingwang.com" }
-:if ([:len [find name="qibo168.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="cn" match-subdomain=yes type=FWD name="qibo168.com" }
-:if ([:len [find name="qiboleqipai.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="cn" match-subdomain=yes type=FWD name="qiboleqipai.com" }
-:if ([:len [find name="qibosoft.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="cn" match-subdomain=yes type=FWD name="qibosoft.com" }

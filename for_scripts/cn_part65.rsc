@@ -1,6 +1,9 @@
 :global AddressList
 :global ForwardTo
 /ip dns static
+:if ([:len [find name="aboutcg.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="cn" match-subdomain=yes type=FWD name="aboutcg.com" }
+:if ([:len [find name="aboutcg.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="cn" match-subdomain=yes type=FWD name="aboutcg.net" }
+:if ([:len [find name="aboutcg.org"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="cn" match-subdomain=yes type=FWD name="aboutcg.org" }
 :if ([:len [find name="aboutgk.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="cn" match-subdomain=yes type=FWD name="aboutgk.com" }
 :if ([:len [find name="aboutmy.name"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="cn" match-subdomain=yes type=FWD name="aboutmy.name" }
 :if ([:len [find name="aboutnew.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="cn" match-subdomain=yes type=FWD name="aboutnew.net" }
@@ -148,6 +151,3 @@
 :if ([:len [find name="acq42.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="cn" match-subdomain=yes type=FWD name="acq42.com" }
 :if ([:len [find name="acqiche.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="cn" match-subdomain=yes type=FWD name="acqiche.com" }
 :if ([:len [find name="acqyjg.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="cn" match-subdomain=yes type=FWD name="acqyjg.com" }
-:if ([:len [find name="acrel-eem.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="cn" match-subdomain=yes type=FWD name="acrel-eem.com" }
-:if ([:len [find name="acrel-microgrid.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="cn" match-subdomain=yes type=FWD name="acrel-microgrid.com" }
-:if ([:len [find name="acrel-znyf.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="cn" match-subdomain=yes type=FWD name="acrel-znyf.com" }

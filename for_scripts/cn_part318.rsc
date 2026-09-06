@@ -1,6 +1,15 @@
 :global AddressList
 :global ForwardTo
 /ip dns static
+:if ([:len [find name="huiji.wiki"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="cn" match-subdomain=yes type=FWD name="huiji.wiki" }
+:if ([:len [find name="huijiame.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="cn" match-subdomain=yes type=FWD name="huijiame.com" }
+:if ([:len [find name="huijian-land.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="cn" match-subdomain=yes type=FWD name="huijian-land.com" }
+:if ([:len [find name="huijiangroup.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="cn" match-subdomain=yes type=FWD name="huijiangroup.com" }
+:if ([:len [find name="huijiaoyun.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="cn" match-subdomain=yes type=FWD name="huijiaoyun.com" }
+:if ([:len [find name="huijiazhileng.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="cn" match-subdomain=yes type=FWD name="huijiazhileng.com" }
+:if ([:len [find name="huijidata.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="cn" match-subdomain=yes type=FWD name="huijidata.com" }
+:if ([:len [find name="huijie.shop"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="cn" match-subdomain=yes type=FWD name="huijie.shop" }
+:if ([:len [find name="huijiegroup.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="cn" match-subdomain=yes type=FWD name="huijiegroup.com" }
 :if ([:len [find name="huijiewei.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="cn" match-subdomain=yes type=FWD name="huijiewei.com" }
 :if ([:len [find name="huijimall.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="cn" match-subdomain=yes type=FWD name="huijimall.com" }
 :if ([:len [find name="huijing.org"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="cn" match-subdomain=yes type=FWD name="huijing.org" }
@@ -142,12 +151,3 @@
 :if ([:len [find name="huiyi-123.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="cn" match-subdomain=yes type=FWD name="huiyi-123.com" }
 :if ([:len [find name="huiyi365.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="cn" match-subdomain=yes type=FWD name="huiyi365.net" }
 :if ([:len [find name="huiyi8.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="cn" match-subdomain=yes type=FWD name="huiyi8.com" }
-:if ([:len [find name="huiyi9e.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="cn" match-subdomain=yes type=FWD name="huiyi9e.com" }
-:if ([:len [find name="huiyiai.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="cn" match-subdomain=yes type=FWD name="huiyiai.net" }
-:if ([:len [find name="huiyihealth.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="cn" match-subdomain=yes type=FWD name="huiyihealth.com" }
-:if ([:len [find name="huiyinxun.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="cn" match-subdomain=yes type=FWD name="huiyinxun.com" }
-:if ([:len [find name="huiyizhuo.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="cn" match-subdomain=yes type=FWD name="huiyizhuo.com" }
-:if ([:len [find name="huiyou.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="cn" match-subdomain=yes type=FWD name="huiyou.com" }
-:if ([:len [find name="huiyou027.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="cn" match-subdomain=yes type=FWD name="huiyou027.com" }
-:if ([:len [find name="huiyouhotels.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="cn" match-subdomain=yes type=FWD name="huiyouhotels.com" }
-:if ([:len [find name="huiyuandao.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="cn" match-subdomain=yes type=FWD name="huiyuandao.com" }

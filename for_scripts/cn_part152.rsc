@@ -1,6 +1,15 @@
 :global AddressList
 :global ForwardTo
 /ip dns static
+:if ([:len [find name="clean-cn.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="cn" match-subdomain=yes type=FWD name="clean-cn.com" }
+:if ([:len [find name="cleandfd.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="cn" match-subdomain=yes type=FWD name="cleandfd.com" }
+:if ([:len [find name="cleanupsys.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="cn" match-subdomain=yes type=FWD name="cleanupsys.com" }
+:if ([:len [find name="clear-sz.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="cn" match-subdomain=yes type=FWD name="clear-sz.com" }
+:if ([:len [find name="clear888.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="cn" match-subdomain=yes type=FWD name="clear888.com" }
+:if ([:len [find name="clearaki.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="cn" match-subdomain=yes type=FWD name="clearaki.com" }
+:if ([:len [find name="clearcrane.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="cn" match-subdomain=yes type=FWD name="clearcrane.com" }
+:if ([:len [find name="cleargrass.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="cn" match-subdomain=yes type=FWD name="cleargrass.com" }
+:if ([:len [find name="clearmediatech.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="cn" match-subdomain=yes type=FWD name="clearmediatech.com" }
 :if ([:len [find name="clearofchina.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="cn" match-subdomain=yes type=FWD name="clearofchina.com" }
 :if ([:len [find name="clearsky360.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="cn" match-subdomain=yes type=FWD name="clearsky360.com" }
 :if ([:len [find name="cleartone.club"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="cn" match-subdomain=yes type=FWD name="cleartone.club" }
@@ -142,12 +151,3 @@
 :if ([:len [find name="cloudguangzhou.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="cn" match-subdomain=yes type=FWD name="cloudguangzhou.com" }
 :if ([:len [find name="cloudguarding.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="cn" match-subdomain=yes type=FWD name="cloudguarding.com" }
 :if ([:len [find name="cloudgx.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="cn" match-subdomain=yes type=FWD name="cloudgx.net" }
-:if ([:len [find name="cloudhaidong.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="cn" match-subdomain=yes type=FWD name="cloudhaidong.com" }
-:if ([:len [find name="cloudhefei.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="cn" match-subdomain=yes type=FWD name="cloudhefei.com" }
-:if ([:len [find name="cloudhengshui.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="cn" match-subdomain=yes type=FWD name="cloudhengshui.com" }
-:if ([:len [find name="cloudhin.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="cn" match-subdomain=yes type=FWD name="cloudhin.com" }
-:if ([:len [find name="cloudhlo.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="cn" match-subdomain=yes type=FWD name="cloudhlo.com" }
-:if ([:len [find name="cloudhost.link"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="cn" match-subdomain=yes type=FWD name="cloudhost.link" }
-:if ([:len [find name="cloudhua.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="cn" match-subdomain=yes type=FWD name="cloudhua.com" }
-:if ([:len [find name="cloudhuaihua.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="cn" match-subdomain=yes type=FWD name="cloudhuaihua.com" }
-:if ([:len [find name="cloudhuizhou.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="cn" match-subdomain=yes type=FWD name="cloudhuizhou.com" }

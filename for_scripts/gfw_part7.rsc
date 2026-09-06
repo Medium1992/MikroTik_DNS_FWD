@@ -1,6 +1,8 @@
 :global AddressList
 :global ForwardTo
 /ip dns static
+:if ([:len [find name="dotplane.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="gfw" match-subdomain=yes type=FWD name="dotplane.com" }
+:if ([:len [find name="dotsub.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="gfw" match-subdomain=yes type=FWD name="dotsub.com" }
 :if ([:len [find name="dotvpn.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="gfw" match-subdomain=yes type=FWD name="dotvpn.com" }
 :if ([:len [find name="doub.io"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="gfw" match-subdomain=yes type=FWD name="doub.io" }
 :if ([:len [find name="doubibackup.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="gfw" match-subdomain=yes type=FWD name="doubibackup.com" }
@@ -149,5 +151,3 @@
 :if ([:len [find name="facesoftibetanselfimmolators.info"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="gfw" match-subdomain=yes type=FWD name="facesoftibetanselfimmolators.info" }
 :if ([:len [find name="factchecklab.org"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="gfw" match-subdomain=yes type=FWD name="factchecklab.org" }
 :if ([:len [find name="factpedia.org"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="gfw" match-subdomain=yes type=FWD name="factpedia.org" }
-:if ([:len [find name="faith100.org"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="gfw" match-subdomain=yes type=FWD name="faith100.org" }
-:if ([:len [find name="faiththedog.info"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="gfw" match-subdomain=yes type=FWD name="faiththedog.info" }

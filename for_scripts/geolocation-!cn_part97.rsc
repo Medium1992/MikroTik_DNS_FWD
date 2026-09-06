@@ -1,6 +1,8 @@
 :global AddressList
 :global ForwardTo
 /ip dns static
+:if ([:len [find name="office365tw.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" match-subdomain=yes type=FWD name="office365tw.com" }
+:if ([:len [find name="officeoftibet.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" match-subdomain=yes type=FWD name="officeoftibet.com" }
 :if ([:len [find name="officialbeatsbydreshop.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" match-subdomain=yes type=FWD name="officialbeatsbydreshop.com" }
 :if ([:len [find name="officialbeatsbydrestore.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" match-subdomain=yes type=FWD name="officialbeatsbydrestore.com" }
 :if ([:len [find name="officialdrdre.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" match-subdomain=yes type=FWD name="officialdrdre.com" }
@@ -149,5 +151,3 @@
 :if ([:len [find name="onlineteenhub.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" match-subdomain=yes type=FWD name="onlineteenhub.com" }
 :if ([:len [find name="onlinexxxgames.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" match-subdomain=yes type=FWD name="onlinexxxgames.com" }
 :if ([:len [find name="onlineyoutube.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" match-subdomain=yes type=FWD name="onlineyoutube.com" }
-:if ([:len [find name="only-xxx-porn.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" match-subdomain=yes type=FWD name="only-xxx-porn.com" }
-:if ([:len [find name="only-xxx.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" match-subdomain=yes type=FWD name="only-xxx.com" }

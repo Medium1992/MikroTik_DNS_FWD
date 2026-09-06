@@ -1,6 +1,12 @@
 :global AddressList
 :global ForwardTo
 /ip dns static
+:if ([:len [find name="dcb0z5ovq92mz.cloudfront.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" type=FWD name="dcb0z5ovq92mz.cloudfront.net" }
+:if ([:len [find name="ddacn6pr5v0tl.cloudfront.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" type=FWD name="ddacn6pr5v0tl.cloudfront.net" }
+:if ([:len [find name="ddpjwstwtpszg.cloudfront.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" type=FWD name="ddpjwstwtpszg.cloudfront.net" }
+:if ([:len [find name="default.exp-tas.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" type=FWD name="default.exp-tas.com" }
+:if ([:len [find name="dell.my.site.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" type=FWD name="dell.my.site.com" }
+:if ([:len [find name="deribit.cdn.prismic.io"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" type=FWD name="deribit.cdn.prismic.io" }
 :if ([:len [find name="deutschewelle.h-cdn.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" type=FWD name="deutschewelle.h-cdn.com" }
 :if ([:len [find name="developer.microsoft.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" type=FWD name="developer.microsoft.com" }
 :if ([:len [find name="developers.facebook.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" type=FWD name="developers.facebook.com" }
@@ -145,9 +151,3 @@
 :if ([:len [find name="np-edge.itunes.apple.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" type=FWD name="np-edge.itunes.apple.com" }
 :if ([:len [find name="ntdfreemobile-tgc.cdn.hinet.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" type=FWD name="ntdfreemobile-tgc.cdn.hinet.net" }
 :if ([:len [find name="ntdfreepc-tgc.cdn.hinet.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" type=FWD name="ntdfreepc-tgc.cdn.hinet.net" }
-:if ([:len [find name="ntdfreetv-tgc.cdn.hinet.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" type=FWD name="ntdfreetv-tgc.cdn.hinet.net" }
-:if ([:len [find name="ntdfreevcpc-tgc.cdn.hinet.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" type=FWD name="ntdfreevcpc-tgc.cdn.hinet.net" }
-:if ([:len [find name="ntdofifreemobile-tgc.cdn.hinet.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" type=FWD name="ntdofifreemobile-tgc.cdn.hinet.net" }
-:if ([:len [find name="ntdofifreepc-tgc.cdn.hinet.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" type=FWD name="ntdofifreepc-tgc.cdn.hinet.net" }
-:if ([:len [find name="ntdofifreetv-tgc.cdn.hinet.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" type=FWD name="ntdofifreetv-tgc.cdn.hinet.net" }
-:if ([:len [find name="ntdofifreevcpc-tgc.cdn.hinet.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" type=FWD name="ntdofifreevcpc-tgc.cdn.hinet.net" }

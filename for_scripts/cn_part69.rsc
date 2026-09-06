@@ -1,6 +1,9 @@
 :global AddressList
 :global ForwardTo
 /ip dns static
+:if ([:len [find name="ahhcbiotech.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="cn" match-subdomain=yes type=FWD name="ahhcbiotech.com" }
+:if ([:len [find name="ahhdb.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="cn" match-subdomain=yes type=FWD name="ahhdb.com" }
+:if ([:len [find name="ahhfangde.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="cn" match-subdomain=yes type=FWD name="ahhfangde.com" }
 :if ([:len [find name="ahhkedu.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="cn" match-subdomain=yes type=FWD name="ahhkedu.com" }
 :if ([:len [find name="ahhnsz.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="cn" match-subdomain=yes type=FWD name="ahhnsz.net" }
 :if ([:len [find name="ahhome.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="cn" match-subdomain=yes type=FWD name="ahhome.com" }
@@ -148,6 +151,3 @@
 :if ([:len [find name="ai-daxue.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="cn" match-subdomain=yes type=FWD name="ai-daxue.com" }
 :if ([:len [find name="ai-factory.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="cn" match-subdomain=yes type=FWD name="ai-factory.com" }
 :if ([:len [find name="ai-guardrail.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="cn" match-subdomain=yes type=FWD name="ai-guardrail.com" }
-:if ([:len [find name="ai-indestry.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="cn" match-subdomain=yes type=FWD name="ai-indestry.com" }
-:if ([:len [find name="ai-kaleidoscope.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="cn" match-subdomain=yes type=FWD name="ai-kaleidoscope.com" }
-:if ([:len [find name="ai-qingchang.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="cn" match-subdomain=yes type=FWD name="ai-qingchang.com" }
