@@ -31,6 +31,7 @@
 :if ([:len [find name="ttoverseaus.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-entertainment@!cn" match-subdomain=yes type=FWD name="ttoverseaus.net" }
 :if ([:len [find name="ttwstatic.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-entertainment@!cn" match-subdomain=yes type=FWD name="ttwstatic.com" }
 :if ([:len [find name="webnovel.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-entertainment@!cn" match-subdomain=yes type=FWD name="webnovel.com" }
+:if ([:len [find name="p16-tiktok-dm-sticker-sign-sg.ibyteimg.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-entertainment@!cn" type=FWD name="p16-tiktok-dm-sticker-sign-sg.ibyteimg.com" }
 :if ([:len [find name="p16-tiktokcdn-com.akamaized.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-entertainment@!cn" type=FWD name="p16-tiktokcdn-com.akamaized.net" }
 :if ([:len [find name="roovza-launches.appsflyersdk.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-entertainment@!cn" type=FWD name="roovza-launches.appsflyersdk.com" }
 :if ([:len [find name="roovza.inapps.appsflyersdk.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-entertainment@!cn" type=FWD name="roovza.inapps.appsflyersdk.com" }
