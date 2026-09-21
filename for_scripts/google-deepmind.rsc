@@ -12,6 +12,7 @@
 :if ([:len [find name="deepmind.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="google-deepmind" match-subdomain=yes type=FWD name="deepmind.com" }
 :if ([:len [find name="deepmind.google"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="google-deepmind" match-subdomain=yes type=FWD name="deepmind.google" }
 :if ([:len [find name="flow.google"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="google-deepmind" match-subdomain=yes type=FWD name="flow.google" }
+:if ([:len [find name="flow.google.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="google-deepmind" match-subdomain=yes type=FWD name="flow.google.com" }
 :if ([:len [find name="geller-pa.googleapis.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="google-deepmind" match-subdomain=yes type=FWD name="geller-pa.googleapis.com" }
 :if ([:len [find name="gemini.google"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="google-deepmind" match-subdomain=yes type=FWD name="gemini.google" }
 :if ([:len [find name="gemini.google.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="google-deepmind" match-subdomain=yes type=FWD name="gemini.google.com" }
@@ -23,6 +24,7 @@
 :if ([:len [find name="labs.google"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="google-deepmind" match-subdomain=yes type=FWD name="labs.google" }
 :if ([:len [find name="labs.google.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="google-deepmind" match-subdomain=yes type=FWD name="labs.google.com" }
 :if ([:len [find name="makersuite.google.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="google-deepmind" match-subdomain=yes type=FWD name="makersuite.google.com" }
+:if ([:len [find name="notebook.google"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="google-deepmind" match-subdomain=yes type=FWD name="notebook.google" }
 :if ([:len [find name="notebook.google.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="google-deepmind" match-subdomain=yes type=FWD name="notebook.google.com" }
 :if ([:len [find name="notebooklm.google"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="google-deepmind" match-subdomain=yes type=FWD name="notebooklm.google" }
 :if ([:len [find name="notebooklm.google.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="google-deepmind" match-subdomain=yes type=FWD name="notebooklm.google.com" }

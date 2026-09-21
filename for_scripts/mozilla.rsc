@@ -9,6 +9,7 @@
 :if ([:len [find name="ecmascript.org"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="mozilla" match-subdomain=yes type=FWD name="ecmascript.org" }
 :if ([:len [find name="extendfirefox.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="mozilla" match-subdomain=yes type=FWD name="extendfirefox.com" }
 :if ([:len [find name="extensionworkshop.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="mozilla" match-subdomain=yes type=FWD name="extensionworkshop.com" }
+:if ([:len [find name="firefox-portal-detection.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="mozilla" match-subdomain=yes type=FWD name="firefox-portal-detection.com" }
 :if ([:len [find name="firefox.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="mozilla" match-subdomain=yes type=FWD name="firefox.com" }
 :if ([:len [find name="firefoxtweetmachine.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="mozilla" match-subdomain=yes type=FWD name="firefoxtweetmachine.com" }
 :if ([:len [find name="firefoxusercontent.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="mozilla" match-subdomain=yes type=FWD name="firefoxusercontent.com" }

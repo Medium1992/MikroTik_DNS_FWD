@@ -21,6 +21,7 @@
 :if ([:len [find name="curlmyip.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-ip-geo-detect" match-subdomain=yes type=FWD name="curlmyip.net" }
 :if ([:len [find name="dadata.ru"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-ip-geo-detect" match-subdomain=yes type=FWD name="dadata.ru" }
 :if ([:len [find name="db-ip.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-ip-geo-detect" match-subdomain=yes type=FWD name="db-ip.com" }
+:if ([:len [find name="dnscheck.tools"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-ip-geo-detect" match-subdomain=yes type=FWD name="dnscheck.tools" }
 :if ([:len [find name="dnsleaktest.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-ip-geo-detect" match-subdomain=yes type=FWD name="dnsleaktest.com" }
 :if ([:len [find name="extreme-ip-lookup.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-ip-geo-detect" match-subdomain=yes type=FWD name="extreme-ip-lookup.com" }
 :if ([:len [find name="find-my-ip.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-ip-geo-detect" match-subdomain=yes type=FWD name="find-my-ip.com" }
@@ -96,6 +97,8 @@
 :if ([:len [find name="iplocation.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-ip-geo-detect" match-subdomain=yes type=FWD name="iplocation.com" }
 :if ([:len [find name="iplocation.io"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-ip-geo-detect" match-subdomain=yes type=FWD name="iplocation.io" }
 :if ([:len [find name="iplocation.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-ip-geo-detect" match-subdomain=yes type=FWD name="iplocation.net" }
+:if ([:len [find name="iplogger.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-ip-geo-detect" match-subdomain=yes type=FWD name="iplogger.com" }
+:if ([:len [find name="iplogger.org"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-ip-geo-detect" match-subdomain=yes type=FWD name="iplogger.org" }
 :if ([:len [find name="ipme.co"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-ip-geo-detect" match-subdomain=yes type=FWD name="ipme.co" }
 :if ([:len [find name="ipqualityscore.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-ip-geo-detect" match-subdomain=yes type=FWD name="ipqualityscore.com" }
 :if ([:len [find name="ipquery.io"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-ip-geo-detect" match-subdomain=yes type=FWD name="ipquery.io" }
@@ -148,6 +151,3 @@
 :if ([:len [find name="test-ipv6.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-ip-geo-detect" match-subdomain=yes type=FWD name="test-ipv6.com" }
 :if ([:len [find name="test-ipv6.fratec.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-ip-geo-detect" match-subdomain=yes type=FWD name="test-ipv6.fratec.net" }
 :if ([:len [find name="test-ipv6.jp"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-ip-geo-detect" match-subdomain=yes type=FWD name="test-ipv6.jp" }
-:if ([:len [find name="test-ipv6.nl"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-ip-geo-detect" match-subdomain=yes type=FWD name="test-ipv6.nl" }
-:if ([:len [find name="test-ipv6.noroutetohost.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-ip-geo-detect" match-subdomain=yes type=FWD name="test-ipv6.noroutetohost.net" }
-:if ([:len [find name="test-ipv6.roedu.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-ip-geo-detect" match-subdomain=yes type=FWD name="test-ipv6.roedu.net" }
