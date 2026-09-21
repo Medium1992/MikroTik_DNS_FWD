@@ -4,6 +4,7 @@
 :if ([:len [find name="captive.apple.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="connectivity-check" match-subdomain=yes type=FWD name="captive.apple.com" }
 :if ([:len [find name="cp.cloudflare.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="connectivity-check" match-subdomain=yes type=FWD name="cp.cloudflare.com" }
 :if ([:len [find name="detectportal.firefox.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="connectivity-check" match-subdomain=yes type=FWD name="detectportal.firefox.com" }
+:if ([:len [find name="firefox-portal-detection.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="connectivity-check" match-subdomain=yes type=FWD name="firefox-portal-detection.com" }
 :if ([:len [find name="ipv6check-http.steamserver.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="connectivity-check" match-subdomain=yes type=FWD name="ipv6check-http.steamserver.net" }
 :if ([:len [find name="ipv6check-udp.steamserver.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="connectivity-check" match-subdomain=yes type=FWD name="ipv6check-udp.steamserver.net" }
 :if ([:len [find name="kuketz.de"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="connectivity-check" match-subdomain=yes type=FWD name="kuketz.de" }

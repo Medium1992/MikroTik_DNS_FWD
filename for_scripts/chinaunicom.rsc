@@ -10,6 +10,7 @@
 :if ([:len [find name="cuguplus.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="chinaunicom" match-subdomain=yes type=FWD name="cuguplus.com" }
 :if ([:len [find name="cuniq.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="chinaunicom" match-subdomain=yes type=FWD name="cuniq.com" }
 :if ([:len [find name="mychinaunicom.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="chinaunicom" match-subdomain=yes type=FWD name="mychinaunicom.com" }
+:if ([:len [find name="smartont.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="chinaunicom" match-subdomain=yes type=FWD name="smartont.net" }
 :if ([:len [find name="unicom"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="chinaunicom" match-subdomain=yes type=FWD name="unicom" }
 :if ([:len [find name="unicompayment.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="chinaunicom" match-subdomain=yes type=FWD name="unicompayment.com" }
 :if ([:len [find name="wo116114.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="chinaunicom" match-subdomain=yes type=FWD name="wo116114.com" }
