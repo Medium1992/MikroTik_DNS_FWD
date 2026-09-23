@@ -5,3 +5,4 @@
 :if ([:len [find name="amdfanstore.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="amd" match-subdomain=yes type=FWD name="amdfanstore.com" }
 :if ([:len [find name="amdgaming.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="amd" match-subdomain=yes type=FWD name="amdgaming.com" }
 :if ([:len [find name="radeon.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="amd" match-subdomain=yes type=FWD name="radeon.com" }
+:if ([:len [find name="drivers.amd.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="amd" type=FWD name="drivers.amd.com" }
