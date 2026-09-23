@@ -106,6 +106,7 @@
 :if ([:len [find name="downloaddispatch.itunes.apple.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" type=FWD name="downloaddispatch.itunes.apple.com" }
 :if ([:len [find name="dreamspark.download.prss.microsoft.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" type=FWD name="dreamspark.download.prss.microsoft.com" }
 :if ([:len [find name="dreamsparkuat.download.prss.microsoft.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" type=FWD name="dreamsparkuat.download.prss.microsoft.com" }
+:if ([:len [find name="drivers.amd.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" type=FWD name="drivers.amd.com" }
 :if ([:len [find name="dtlgalleryint.cloudapp.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" type=FWD name="dtlgalleryint.cloudapp.net" }
 :if ([:len [find name="edge.geo.kaspersky.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" type=FWD name="edge.geo.kaspersky.com" }
 :if ([:len [find name="entitlements-edge.itunes.apple.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" type=FWD name="entitlements-edge.itunes.apple.com" }
@@ -150,4 +151,3 @@
 :if ([:len [find name="github-production-repository-file-5c1aeb.s3.amazonaws.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" type=FWD name="github-production-repository-file-5c1aeb.s3.amazonaws.com" }
 :if ([:len [find name="github-production-repository-image-32fea6.s3.amazonaws.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" type=FWD name="github-production-repository-image-32fea6.s3.amazonaws.com" }
 :if ([:len [find name="github-production-upload-manifest-file-7fdce7.s3.amazonaws.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" type=FWD name="github-production-upload-manifest-file-7fdce7.s3.amazonaws.com" }
-:if ([:len [find name="github-production-user-asset-6210df.s3.amazonaws.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" type=FWD name="github-production-user-asset-6210df.s3.amazonaws.com" }

@@ -82,6 +82,7 @@
 :if ([:len [find name="downloaddispatch.itunes.apple.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies@cn" type=FWD name="downloaddispatch.itunes.apple.com" }
 :if ([:len [find name="dreamspark.download.prss.microsoft.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies@cn" type=FWD name="dreamspark.download.prss.microsoft.com" }
 :if ([:len [find name="dreamsparkuat.download.prss.microsoft.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies@cn" type=FWD name="dreamsparkuat.download.prss.microsoft.com" }
+:if ([:len [find name="drivers.amd.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies@cn" type=FWD name="drivers.amd.com" }
 :if ([:len [find name="edge.geo.kaspersky.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies@cn" type=FWD name="edge.geo.kaspersky.com" }
 :if ([:len [find name="entitlements-edge.itunes.apple.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies@cn" type=FWD name="entitlements-edge.itunes.apple.com" }
 :if ([:len [find name="experiments.apple.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies@cn" type=FWD name="experiments.apple.com" }
@@ -150,4 +151,3 @@
 :if ([:len [find name="images.apple.com.edgekey.net.globalredir.akadns.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies@cn" type=FWD name="images.apple.com.edgekey.net.globalredir.akadns.net" }
 :if ([:len [find name="imasdk.googleapis.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies@cn" type=FWD name="imasdk.googleapis.com" }
 :if ([:len [find name="inappcheck-cn.itunes-apple.com.akadns.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies@cn" type=FWD name="inappcheck-cn.itunes-apple.com.akadns.net" }
-:if ([:len [find name="inappcheck-lb.itunes-apple.com.akadns.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies@cn" type=FWD name="inappcheck-lb.itunes-apple.com.akadns.net" }
