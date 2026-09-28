@@ -1,6 +1,10 @@
 :global AddressList
 :global ForwardTo
 /ip dns static
+:if ([:len [find name="nih.gov"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="proxy" match-subdomain=yes type=FWD name="nih.gov" }
+:if ([:len [find name="nikke-kr.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="proxy" match-subdomain=yes type=FWD name="nikke-kr.com" }
+:if ([:len [find name="nimg.jp"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="proxy" match-subdomain=yes type=FWD name="nimg.jp" }
+:if ([:len [find name="nintendo.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="proxy" match-subdomain=yes type=FWD name="nintendo.com" }
 :if ([:len [find name="nintendo.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="proxy" match-subdomain=yes type=FWD name="nintendo.net" }
 :if ([:len [find name="nomulus.foo"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="proxy" match-subdomain=yes type=FWD name="nomulus.foo" }
 :if ([:len [find name="notion.so"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="proxy" match-subdomain=yes type=FWD name="notion.so" }
@@ -147,7 +151,3 @@
 :if ([:len [find name="redirector.gcpcdn.gvt1.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="proxy" match-subdomain=yes type=FWD name="redirector.gcpcdn.gvt1.com" }
 :if ([:len [find name="redirector.gvt1.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="proxy" match-subdomain=yes type=FWD name="redirector.gvt1.com" }
 :if ([:len [find name="redirector.offline-maps.gvt1.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="proxy" match-subdomain=yes type=FWD name="redirector.offline-maps.gvt1.com" }
-:if ([:len [find name="redirector.snap.gvt1.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="proxy" match-subdomain=yes type=FWD name="redirector.snap.gvt1.com" }
-:if ([:len [find name="redtube.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="proxy" match-subdomain=yes type=FWD name="redtube.com" }
-:if ([:len [find name="registry.google"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="proxy" match-subdomain=yes type=FWD name="registry.google" }
-:if ([:len [find name="repo.new"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="proxy" match-subdomain=yes type=FWD name="repo.new" }

@@ -148,6 +148,6 @@
 :if ([:len [find name="blink.org"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="proxy" match-subdomain=yes type=FWD name="blink.org" }
 :if ([:len [find name="blizzard.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="proxy" match-subdomain=yes type=FWD name="blizzard.com" }
 :if ([:len [find name="blog.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="proxy" match-subdomain=yes type=FWD name="blog.com" }
-:if ([:len [find name="blog.google"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="proxy" match-subdomain=yes type=FWD name="blog.google" }
 :if ([:len [find name="blogblog.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="proxy" match-subdomain=yes type=FWD name="blogblog.com" }
 :if ([:len [find name="blogcdn.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="proxy" match-subdomain=yes type=FWD name="blogcdn.com" }
+:if ([:len [find name="blogger.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="proxy" match-subdomain=yes type=FWD name="blogger.com" }

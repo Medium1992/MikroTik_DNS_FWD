@@ -1,17 +1,6 @@
 :global AddressList
 :global ForwardTo
 /ip dns static
-:if ([:len [find name="daweiyishu.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="cn" match-subdomain=yes type=FWD name="daweiyishu.com" }
-:if ([:len [find name="dawenbo.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="cn" match-subdomain=yes type=FWD name="dawenbo.com" }
-:if ([:len [find name="dawenling.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="cn" match-subdomain=yes type=FWD name="dawenling.com" }
-:if ([:len [find name="dawenming.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="cn" match-subdomain=yes type=FWD name="dawenming.com" }
-:if ([:len [find name="dawensk.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="cn" match-subdomain=yes type=FWD name="dawensk.com" }
-:if ([:len [find name="dawenxue.org"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="cn" match-subdomain=yes type=FWD name="dawenxue.org" }
-:if ([:len [find name="dawnarc.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="cn" match-subdomain=yes type=FWD name="dawnarc.com" }
-:if ([:len [find name="dawndiy.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="cn" match-subdomain=yes type=FWD name="dawndiy.com" }
-:if ([:len [find name="dawnjs.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="cn" match-subdomain=yes type=FWD name="dawnjs.com" }
-:if ([:len [find name="dawnlab.me"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="cn" match-subdomain=yes type=FWD name="dawnlab.me" }
-:if ([:len [find name="dawnled.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="cn" match-subdomain=yes type=FWD name="dawnled.net" }
 :if ([:len [find name="dawnmic.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="cn" match-subdomain=yes type=FWD name="dawnmic.com" }
 :if ([:len [find name="dawntech.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="cn" match-subdomain=yes type=FWD name="dawntech.net" }
 :if ([:len [find name="dawuhanapp.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="cn" match-subdomain=yes type=FWD name="dawuhanapp.com" }
@@ -55,7 +44,6 @@
 :if ([:len [find name="dayanyanglao.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="cn" match-subdomain=yes type=FWD name="dayanyanglao.com" }
 :if ([:len [find name="dayanzai.me"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="cn" match-subdomain=yes type=FWD name="dayanzai.me" }
 :if ([:len [find name="dayapress.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="cn" match-subdomain=yes type=FWD name="dayapress.com" }
-:if ([:len [find name="dayayu.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="cn" match-subdomain=yes type=FWD name="dayayu.com" }
 :if ([:len [find name="dayclover.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="cn" match-subdomain=yes type=FWD name="dayclover.com" }
 :if ([:len [find name="daydao.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="cn" match-subdomain=yes type=FWD name="daydao.com" }
 :if ([:len [find name="dayday.plus"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="cn" match-subdomain=yes type=FWD name="dayday.plus" }
@@ -151,3 +139,15 @@
 :if ([:len [find name="dazui.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="cn" match-subdomain=yes type=FWD name="dazui.com" }
 :if ([:len [find name="dazuichazi.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="cn" match-subdomain=yes type=FWD name="dazuichazi.com" }
 :if ([:len [find name="dazzle-fashion.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="cn" match-subdomain=yes type=FWD name="dazzle-fashion.com" }
+:if ([:len [find name="db-cache.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="cn" match-subdomain=yes type=FWD name="db-cache.com" }
+:if ([:len [find name="db162.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="cn" match-subdomain=yes type=FWD name="db162.com" }
+:if ([:len [find name="db23bc6de1024.beer"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="cn" match-subdomain=yes type=FWD name="db23bc6de1024.beer" }
+:if ([:len [find name="db2b0d032aefa755.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="cn" match-subdomain=yes type=FWD name="db2b0d032aefa755.com" }
+:if ([:len [find name="db5f9bf125415ac9.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="cn" match-subdomain=yes type=FWD name="db5f9bf125415ac9.com" }
+:if ([:len [find name="db6bfe859b7825fc.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="cn" match-subdomain=yes type=FWD name="db6bfe859b7825fc.com" }
+:if ([:len [find name="db6f227cfb009078.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="cn" match-subdomain=yes type=FWD name="db6f227cfb009078.com" }
+:if ([:len [find name="db9w.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="cn" match-subdomain=yes type=FWD name="db9w.com" }
+:if ([:len [find name="db9x.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="cn" match-subdomain=yes type=FWD name="db9x.com" }
+:if ([:len [find name="dba95a0a82447ac3.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="cn" match-subdomain=yes type=FWD name="dba95a0a82447ac3.com" }
+:if ([:len [find name="dbank.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="cn" match-subdomain=yes type=FWD name="dbank.com" }
+:if ([:len [find name="dbankcdn.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="cn" match-subdomain=yes type=FWD name="dbankcdn.com" }

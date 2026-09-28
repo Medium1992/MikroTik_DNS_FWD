@@ -1,6 +1,9 @@
 :global AddressList
 :global ForwardTo
 /ip dns static
+:if ([:len [find name="wikidata.org"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="proxy" match-subdomain=yes type=FWD name="wikidata.org" }
+:if ([:len [find name="wikileaks-forum.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="proxy" match-subdomain=yes type=FWD name="wikileaks-forum.com" }
+:if ([:len [find name="wikileaks.info"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="proxy" match-subdomain=yes type=FWD name="wikileaks.info" }
 :if ([:len [find name="wikileaks.org"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="proxy" match-subdomain=yes type=FWD name="wikileaks.org" }
 :if ([:len [find name="wikimapia.org"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="proxy" match-subdomain=yes type=FWD name="wikimapia.org" }
 :if ([:len [find name="wikimedia.org"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="proxy" match-subdomain=yes type=FWD name="wikimedia.org" }
@@ -101,6 +104,7 @@
 :if ([:len [find name="clubhouse.pubnubapi.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="proxy" type=FWD name="clubhouse.pubnubapi.com" }
 :if ([:len [find name="copilot.microsoft.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="proxy" type=FWD name="copilot.microsoft.com" }
 :if ([:len [find name="e13252.dscg.akamaiedge.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="proxy" type=FWD name="e13252.dscg.akamaiedge.net" }
+:if ([:len [find name="github-api.arkoselabs.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="proxy" type=FWD name="github-api.arkoselabs.com" }
 :if ([:len [find name="h-netflix.online-metrix.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="proxy" type=FWD name="h-netflix.online-metrix.net" }
 :if ([:len [find name="lab.skk.moe"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="proxy" type=FWD name="lab.skk.moe" }
 :if ([:len [find name="location.microsoft.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="proxy" type=FWD name="location.microsoft.com" }

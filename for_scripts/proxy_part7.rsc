@@ -1,6 +1,9 @@
 :global AddressList
 :global ForwardTo
 /ip dns static
+:if ([:len [find name="redirector.snap.gvt1.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="proxy" match-subdomain=yes type=FWD name="redirector.snap.gvt1.com" }
+:if ([:len [find name="redtube.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="proxy" match-subdomain=yes type=FWD name="redtube.com" }
+:if ([:len [find name="repo.new"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="proxy" match-subdomain=yes type=FWD name="repo.new" }
 :if ([:len [find name="resilio.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="proxy" match-subdomain=yes type=FWD name="resilio.com" }
 :if ([:len [find name="reuters.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="proxy" match-subdomain=yes type=FWD name="reuters.com" }
 :if ([:len [find name="reutersmedia.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="proxy" match-subdomain=yes type=FWD name="reutersmedia.net" }
@@ -148,6 +151,3 @@
 :if ([:len [find name="timeinc.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="proxy" match-subdomain=yes type=FWD name="timeinc.net" }
 :if ([:len [find name="tinder.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="proxy" match-subdomain=yes type=FWD name="tinder.com" }
 :if ([:len [find name="tineye.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="proxy" match-subdomain=yes type=FWD name="tineye.com" }
-:if ([:len [find name="tiny.cc"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="proxy" match-subdomain=yes type=FWD name="tiny.cc" }
-:if ([:len [find name="tinychat.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="proxy" match-subdomain=yes type=FWD name="tinychat.com" }
-:if ([:len [find name="tinypic.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="proxy" match-subdomain=yes type=FWD name="tinypic.com" }
