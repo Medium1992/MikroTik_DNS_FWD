@@ -1,6 +1,7 @@
 :global AddressList
 :global ForwardTo
 /ip dns static
+:if ([:len [find name="zynga.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" match-subdomain=yes type=FWD name="zynga.com" }
 :if ([:len [find name="zyngaplayersupport.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" match-subdomain=yes type=FWD name="zyngaplayersupport.com" }
 :if ([:len [find name="zyngapoker.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" match-subdomain=yes type=FWD name="zyngapoker.com" }
 :if ([:len [find name="zyxel.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" match-subdomain=yes type=FWD name="zyxel.com" }
@@ -150,4 +151,3 @@
 :if ([:len [find name="d2nvs31859zcd8.cloudfront.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" type=FWD name="d2nvs31859zcd8.cloudfront.net" }
 :if ([:len [find name="d2um2qdswy1tb0.cloudfront.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" type=FWD name="d2um2qdswy1tb0.cloudfront.net" }
 :if ([:len [find name="d2v9yioq9zuuq2.cloudfront.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" type=FWD name="d2v9yioq9zuuq2.cloudfront.net" }
-:if ([:len [find name="d2vjef5jvl6bfs.cloudfront.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" type=FWD name="d2vjef5jvl6bfs.cloudfront.net" }

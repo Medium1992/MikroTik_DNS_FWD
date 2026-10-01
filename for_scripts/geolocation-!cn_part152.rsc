@@ -1,6 +1,7 @@
 :global AddressList
 :global ForwardTo
 /ip dns static
+:if ([:len [find name="servd-anthropic-website.b-cdn.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" type=FWD name="servd-anthropic-website.b-cdn.net" }
 :if ([:len [find name="sni1dcb6gl.wpc.edgecastcdn.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" type=FWD name="sni1dcb6gl.wpc.edgecastcdn.net" }
 :if ([:len [find name="spectator.ppy.sh"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" type=FWD name="spectator.ppy.sh" }
 :if ([:len [find name="spotify.com.edgesuite.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" type=FWD name="spotify.com.edgesuite.net" }
@@ -150,4 +151,3 @@
 :if ([:len [find name="wwis-dubc1-vip101.adobe.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" type=FWD name="wwis-dubc1-vip101.adobe.com" }
 :if ([:len [find name="wwis-dubc1-vip102.adobe.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" type=FWD name="wwis-dubc1-vip102.adobe.com" }
 :if ([:len [find name="wwis-dubc1-vip103.adobe.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" type=FWD name="wwis-dubc1-vip103.adobe.com" }
-:if ([:len [find name="wwis-dubc1-vip104.adobe.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" type=FWD name="wwis-dubc1-vip104.adobe.com" }
