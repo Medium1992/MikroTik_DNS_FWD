@@ -121,6 +121,7 @@
 :if ([:len [find name="agoogleaday.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="gfw" match-subdomain=yes type=FWD name="agoogleaday.com" }
 :if ([:len [find name="ai.dev"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="gfw" match-subdomain=yes type=FWD name="ai.dev" }
 :if ([:len [find name="ai.studio"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="gfw" match-subdomain=yes type=FWD name="ai.studio" }
+:if ([:len [find name="aidc.com.tw"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="gfw" match-subdomain=yes type=FWD name="aidc.com.tw" }
 :if ([:len [find name="aihub.top"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="gfw" match-subdomain=yes type=FWD name="aihub.top" }
 :if ([:len [find name="aiosearch.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="gfw" match-subdomain=yes type=FWD name="aiosearch.com" }
 :if ([:len [find name="aiph.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="gfw" match-subdomain=yes type=FWD name="aiph.net" }
@@ -150,4 +151,3 @@
 :if ([:len [find name="allcoin.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="gfw" match-subdomain=yes type=FWD name="allcoin.com" }
 :if ([:len [find name="allconnected.co"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="gfw" match-subdomain=yes type=FWD name="allconnected.co" }
 :if ([:len [find name="alldrawnsex.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="gfw" match-subdomain=yes type=FWD name="alldrawnsex.com" }
-:if ([:len [find name="allfinegirls.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="gfw" match-subdomain=yes type=FWD name="allfinegirls.com" }
