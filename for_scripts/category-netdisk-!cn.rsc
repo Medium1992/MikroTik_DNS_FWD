@@ -21,6 +21,7 @@
 :if ([:len [find name="getdropbox.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-netdisk-!cn" match-subdomain=yes type=FWD name="getdropbox.com" }
 :if ([:len [find name="livefilestore.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-netdisk-!cn" match-subdomain=yes type=FWD name="livefilestore.com" }
 :if ([:len [find name="mega.io"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-netdisk-!cn" match-subdomain=yes type=FWD name="mega.io" }
+:if ([:len [find name="megas4.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-netdisk-!cn" match-subdomain=yes type=FWD name="megas4.com" }
 :if ([:len [find name="microsoftpersonalcontent.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-netdisk-!cn" match-subdomain=yes type=FWD name="microsoftpersonalcontent.com" }
 :if ([:len [find name="mypikpak.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-netdisk-!cn" match-subdomain=yes type=FWD name="mypikpak.com" }
 :if ([:len [find name="mypikpak.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-netdisk-!cn" match-subdomain=yes type=FWD name="mypikpak.net" }
