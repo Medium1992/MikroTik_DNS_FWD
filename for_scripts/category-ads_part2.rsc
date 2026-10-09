@@ -76,7 +76,6 @@
 :if ([:len [find name="cnaa123.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-ads" match-subdomain=yes type=FWD name="cnaa123.com" }
 :if ([:len [find name="cnlogs.umeng.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-ads" match-subdomain=yes type=FWD name="cnlogs.umeng.com" }
 :if ([:len [find name="cnlogs.umengcloud.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-ads" match-subdomain=yes type=FWD name="cnlogs.umengcloud.com" }
-:if ([:len [find name="collector.github.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-ads" match-subdomain=yes type=FWD name="collector.github.com" }
 :if ([:len [find name="collector.xhamster.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-ads" match-subdomain=yes type=FWD name="collector.xhamster.com" }
 :if ([:len [find name="config.uca.cloud.unity3d.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-ads" match-subdomain=yes type=FWD name="config.uca.cloud.unity3d.com" }
 :if ([:len [find name="contentabc.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-ads" match-subdomain=yes type=FWD name="contentabc.com" }
@@ -151,3 +150,4 @@
 :if ([:len [find name="gia.jd.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-ads" match-subdomain=yes type=FWD name="gia.jd.com" }
 :if ([:len [find name="gmossp-sp.jp"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-ads" match-subdomain=yes type=FWD name="gmossp-sp.jp" }
 :if ([:len [find name="go2.global"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-ads" match-subdomain=yes type=FWD name="go2.global" }
+:if ([:len [find name="google-analytics-cn.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-ads" match-subdomain=yes type=FWD name="google-analytics-cn.com" }

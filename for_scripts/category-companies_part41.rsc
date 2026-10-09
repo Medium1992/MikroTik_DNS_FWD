@@ -1,7 +1,6 @@
 :global AddressList
 :global ForwardTo
 /ip dns static
-:if ([:len [find name="cl4-cn.apple.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" type=FWD name="cl4-cn.apple.com" }
 :if ([:len [find name="cl4.apple.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" type=FWD name="cl4.apple.com" }
 :if ([:len [find name="cl5-cdn.origin-apple.com.akadns.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" type=FWD name="cl5-cdn.origin-apple.com.akadns.net" }
 :if ([:len [find name="cl5.apple.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" type=FWD name="cl5.apple.com" }
@@ -151,3 +150,4 @@
 :if ([:len [find name="gigabyte2.azureedge.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" type=FWD name="gigabyte2.azureedge.net" }
 :if ([:len [find name="github-api.arkoselabs.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" type=FWD name="github-api.arkoselabs.com" }
 :if ([:len [find name="github-cloud.s3.amazonaws.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" type=FWD name="github-cloud.s3.amazonaws.com" }
+:if ([:len [find name="github-production-release-asset-2e65be.s3.amazonaws.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" type=FWD name="github-production-release-asset-2e65be.s3.amazonaws.com" }

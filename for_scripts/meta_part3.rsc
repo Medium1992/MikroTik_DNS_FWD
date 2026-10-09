@@ -81,8 +81,6 @@
 :if ([:len [find name="gfacecbook.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="meta" match-subdomain=yes type=FWD name="gfacecbook.com" }
 :if ([:len [find name="graph-fallback.instagram.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="meta" match-subdomain=yes type=FWD name="graph-fallback.instagram.com" }
 :if ([:len [find name="graph.instagram.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="meta" match-subdomain=yes type=FWD name="graph.instagram.com" }
-:if ([:len [find name="graph.whatsapp.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="meta" match-subdomain=yes type=FWD name="graph.whatsapp.com" }
-:if ([:len [find name="graph.whatsapp.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="meta" match-subdomain=yes type=FWD name="graph.whatsapp.net" }
 :if ([:len [find name="groups.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="meta" match-subdomain=yes type=FWD name="groups.com" }
 :if ([:len [find name="hackerfacebook.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="meta" match-subdomain=yes type=FWD name="hackerfacebook.com" }
 :if ([:len [find name="hackfacebook.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="meta" match-subdomain=yes type=FWD name="hackfacebook.com" }
@@ -151,3 +149,5 @@
 :if ([:len [find name="instgram.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="meta" match-subdomain=yes type=FWD name="instgram.com" }
 :if ([:len [find name="intagram.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="meta" match-subdomain=yes type=FWD name="intagram.com" }
 :if ([:len [find name="intagrm.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="meta" match-subdomain=yes type=FWD name="intagrm.com" }
+:if ([:len [find name="internet.org"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="meta" match-subdomain=yes type=FWD name="internet.org" }
+:if ([:len [find name="intgram.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="meta" match-subdomain=yes type=FWD name="intgram.com" }

@@ -1,6 +1,7 @@
 :global AddressList
 :global ForwardTo
 /ip dns static
+:if ([:len [find name="sstatic.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-dev" match-subdomain=yes type=FWD name="sstatic.net" }
 :if ([:len [find name="stackage.org"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-dev" match-subdomain=yes type=FWD name="stackage.org" }
 :if ([:len [find name="stackapps.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-dev" match-subdomain=yes type=FWD name="stackapps.com" }
 :if ([:len [find name="stackauth.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-dev" match-subdomain=yes type=FWD name="stackauth.com" }
@@ -150,4 +151,3 @@
 :if ([:len [find name="firebaselogging-pa.googleapis.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-dev" type=FWD name="firebaselogging-pa.googleapis.com" }
 :if ([:len [find name="firebaselogging.googleapis.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-dev" type=FWD name="firebaselogging.googleapis.com" }
 :if ([:len [find name="firebaseperusertopics-pa.googleapis.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-dev" type=FWD name="firebaseperusertopics-pa.googleapis.com" }
-:if ([:len [find name="firebaseremoteconfig.googleapis.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-dev" type=FWD name="firebaseremoteconfig.googleapis.com" }

@@ -2,6 +2,7 @@
 :global ForwardTo
 /ip dns static
 :if ([:len [find name="atom.io"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="github" match-subdomain=yes type=FWD name="atom.io" }
+:if ([:len [find name="cafe.github.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="github" match-subdomain=yes type=FWD name="cafe.github.com" }
 :if ([:len [find name="collector.github.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="github" match-subdomain=yes type=FWD name="collector.github.com" }
 :if ([:len [find name="dependabot.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="github" match-subdomain=yes type=FWD name="dependabot.com" }
 :if ([:len [find name="gh.io"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="github" match-subdomain=yes type=FWD name="gh.io" }

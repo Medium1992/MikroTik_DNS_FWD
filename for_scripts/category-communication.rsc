@@ -40,8 +40,6 @@
 :if ([:len [find name="freenode.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-communication" match-subdomain=yes type=FWD name="freenode.net" }
 :if ([:len [find name="gcld-line.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-communication" match-subdomain=yes type=FWD name="gcld-line.com" }
 :if ([:len [find name="graph.org"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-communication" match-subdomain=yes type=FWD name="graph.org" }
-:if ([:len [find name="graph.whatsapp.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-communication" match-subdomain=yes type=FWD name="graph.whatsapp.com" }
-:if ([:len [find name="graph.whatsapp.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-communication" match-subdomain=yes type=FWD name="graph.whatsapp.net" }
 :if ([:len [find name="intercom.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-communication" match-subdomain=yes type=FWD name="intercom.com" }
 :if ([:len [find name="intercom.io"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-communication" match-subdomain=yes type=FWD name="intercom.io" }
 :if ([:len [find name="intercomassets.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-communication" match-subdomain=yes type=FWD name="intercomassets.com" }

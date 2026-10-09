@@ -1,7 +1,6 @@
 :global AddressList
 :global ForwardTo
 /ip dns static
-:if ([:len [find name="adcdownload.apple.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" type=FWD name="adcdownload.apple.com" }
 :if ([:len [find name="adcdownload.apple.com.akadns.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" type=FWD name="adcdownload.apple.com.akadns.net" }
 :if ([:len [find name="adfstat.yandex.ru"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" type=FWD name="adfstat.yandex.ru" }
 :if ([:len [find name="admob-cn.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" type=FWD name="admob-cn.com" }
@@ -151,3 +150,4 @@
 :if ([:len [find name="cl3-cdn.origin-apple.com.akadns.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" type=FWD name="cl3-cdn.origin-apple.com.akadns.net" }
 :if ([:len [find name="cl3.apple.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" type=FWD name="cl3.apple.com" }
 :if ([:len [find name="cl4-cdn.origin-apple.com.akadns.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" type=FWD name="cl4-cdn.origin-apple.com.akadns.net" }
+:if ([:len [find name="cl4-cn.apple.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" type=FWD name="cl4-cn.apple.com" }

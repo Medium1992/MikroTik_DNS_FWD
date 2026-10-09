@@ -1,6 +1,7 @@
 :global AddressList
 :global ForwardTo
 /ip dns static
+:if ([:len [find name="microsoftsilverlight.org"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-dev" match-subdomain=yes type=FWD name="microsoftsilverlight.org" }
 :if ([:len [find name="microsoftsqlserver.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-dev" match-subdomain=yes type=FWD name="microsoftsqlserver.com" }
 :if ([:len [find name="mingw.org"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-dev" match-subdomain=yes type=FWD name="mingw.org" }
 :if ([:len [find name="mmdnn.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-dev" match-subdomain=yes type=FWD name="mmdnn.com" }
@@ -150,4 +151,3 @@
 :if ([:len [find name="sourcehut.org"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-dev" match-subdomain=yes type=FWD name="sourcehut.org" }
 :if ([:len [find name="sqlite.org"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-dev" match-subdomain=yes type=FWD name="sqlite.org" }
 :if ([:len [find name="sqlserveronlinux.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-dev" match-subdomain=yes type=FWD name="sqlserveronlinux.com" }
-:if ([:len [find name="sstatic.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-dev" match-subdomain=yes type=FWD name="sstatic.net" }

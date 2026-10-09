@@ -51,6 +51,7 @@
 :if ([:len [find name="bugsnag.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-dev" match-subdomain=yes type=FWD name="bugsnag.com" }
 :if ([:len [find name="builtwithnix.org"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-dev" match-subdomain=yes type=FWD name="builtwithnix.org" }
 :if ([:len [find name="busybox.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-dev" match-subdomain=yes type=FWD name="busybox.net" }
+:if ([:len [find name="cafe.github.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-dev" match-subdomain=yes type=FWD name="cafe.github.com" }
 :if ([:len [find name="calendarserver.org"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-dev" match-subdomain=yes type=FWD name="calendarserver.org" }
 :if ([:len [find name="canonical.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-dev" match-subdomain=yes type=FWD name="canonical.com" }
 :if ([:len [find name="carekit.org"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-dev" match-subdomain=yes type=FWD name="carekit.org" }
@@ -150,4 +151,3 @@
 :if ([:len [find name="fortawesome.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-dev" match-subdomain=yes type=FWD name="fortawesome.com" }
 :if ([:len [find name="forthebadge.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-dev" match-subdomain=yes type=FWD name="forthebadge.com" }
 :if ([:len [find name="foundationdb.org"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-dev" match-subdomain=yes type=FWD name="foundationdb.org" }
-:if ([:len [find name="framer.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-dev" match-subdomain=yes type=FWD name="framer.com" }

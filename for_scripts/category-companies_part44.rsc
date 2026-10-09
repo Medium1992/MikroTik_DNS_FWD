@@ -1,7 +1,6 @@
 :global AddressList
 :global ForwardTo
 /ip dns static
-:if ([:len [find name="s03.upd.kaspersky.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" type=FWD name="s03.upd.kaspersky.com" }
 :if ([:len [find name="s04.upd.kaspersky.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" type=FWD name="s04.upd.kaspersky.com" }
 :if ([:len [find name="s05.upd.kaspersky.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" type=FWD name="s05.upd.kaspersky.com" }
 :if ([:len [find name="s06.upd.kaspersky.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" type=FWD name="s06.upd.kaspersky.com" }
@@ -151,3 +150,4 @@
 :if ([:len [find name="weather-map.apple.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" type=FWD name="weather-map.apple.com" }
 :if ([:len [find name="weather-map2.apple.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" type=FWD name="weather-map2.apple.com" }
 :if ([:len [find name="weatherkit.apple.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" type=FWD name="weatherkit.apple.com" }
+:if ([:len [find name="webchannel-alkalimakersuite-pa.clients6.google.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" type=FWD name="webchannel-alkalimakersuite-pa.clients6.google.com" }

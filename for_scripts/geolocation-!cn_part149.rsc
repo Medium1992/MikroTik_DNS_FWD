@@ -145,9 +145,9 @@
 :if ([:len [find name="cloudsync-prod.s3.amazonaws.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" type=FWD name="cloudsync-prod.s3.amazonaws.com" }
 :if ([:len [find name="configuration-lb.ls-apple.com.akadns.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" type=FWD name="configuration-lb.ls-apple.com.akadns.net" }
 :if ([:len [find name="copilot-proxy.githubusercontent.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" type=FWD name="copilot-proxy.githubusercontent.com" }
+:if ([:len [find name="copilot-telemetry-service.githubusercontent.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" type=FWD name="copilot-telemetry-service.githubusercontent.com" }
+:if ([:len [find name="copilot-telemetry.githubusercontent.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" type=FWD name="copilot-telemetry.githubusercontent.com" }
 :if ([:len [find name="copilot-workspace.githubnext.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" type=FWD name="copilot-workspace.githubnext.com" }
 :if ([:len [find name="copilotprodattachments.blob.core.windows.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" type=FWD name="copilotprodattachments.blob.core.windows.net" }
 :if ([:len [find name="crl.microsoft.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" type=FWD name="crl.microsoft.com" }
 :if ([:len [find name="crl.versign.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" type=FWD name="crl.versign.net" }
-:if ([:len [find name="csis-prod.s3.amazonaws.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" type=FWD name="csis-prod.s3.amazonaws.com" }
-:if ([:len [find name="d1d0w7op819ely.cloudfront.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" type=FWD name="d1d0w7op819ely.cloudfront.net" }
