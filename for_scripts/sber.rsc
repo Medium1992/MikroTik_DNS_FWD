@@ -69,6 +69,8 @@
 :if ([:len [find name="spasibobonus.ru"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="sber" match-subdomain=yes type=FWD name="spasibobonus.ru" }
 :if ([:len [find name="spasibosb.ru"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="sber" match-subdomain=yes type=FWD name="spasibosb.ru" }
 :if ([:len [find name="spasibosberbank.ru"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="sber" match-subdomain=yes type=FWD name="spasibosberbank.ru" }
+:if ([:len [find name="yookassa.ru"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="sber" match-subdomain=yes type=FWD name="yookassa.ru" }
+:if ([:len [find name="yoomoney.ru"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="sber" match-subdomain=yes type=FWD name="yoomoney.ru" }
 :if ([:len [find name="zvuk-b2b.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="sber" match-subdomain=yes type=FWD name="zvuk-b2b.com" }
 :if ([:len [find name="zvuk.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="sber" match-subdomain=yes type=FWD name="zvuk.com" }
 :if ([:len [find name="error-tracking.megamarket.tech"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="sber" type=FWD name="error-tracking.megamarket.tech" }
