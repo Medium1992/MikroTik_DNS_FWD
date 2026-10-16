@@ -12,6 +12,7 @@
 :if ([:len [find name="bgp.tools"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-ip-geo-detect" match-subdomain=yes type=FWD name="bgp.tools" }
 :if ([:len [find name="bigdatacloud.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-ip-geo-detect" match-subdomain=yes type=FWD name="bigdatacloud.net" }
 :if ([:len [find name="browserleaks.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-ip-geo-detect" match-subdomain=yes type=FWD name="browserleaks.com" }
+:if ([:len [find name="bulkgeoip.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-ip-geo-detect" match-subdomain=yes type=FWD name="bulkgeoip.com" }
 :if ([:len [find name="check-host.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-ip-geo-detect" match-subdomain=yes type=FWD name="check-host.net" }
 :if ([:len [find name="checkip.org"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-ip-geo-detect" match-subdomain=yes type=FWD name="checkip.org" }
 :if ([:len [find name="checkip.ru"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-ip-geo-detect" match-subdomain=yes type=FWD name="checkip.ru" }
@@ -150,4 +151,3 @@
 :if ([:len [find name="test-ipv6.ams.vr.org"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-ip-geo-detect" match-subdomain=yes type=FWD name="test-ipv6.ams.vr.org" }
 :if ([:len [find name="test-ipv6.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-ip-geo-detect" match-subdomain=yes type=FWD name="test-ipv6.com" }
 :if ([:len [find name="test-ipv6.fratec.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-ip-geo-detect" match-subdomain=yes type=FWD name="test-ipv6.fratec.net" }
-:if ([:len [find name="test-ipv6.jp"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-ip-geo-detect" match-subdomain=yes type=FWD name="test-ipv6.jp" }

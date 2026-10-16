@@ -10,6 +10,8 @@
 :if ([:len [find name="playstation"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="sony" match-subdomain=yes type=FWD name="playstation" }
 :if ([:len [find name="playstation.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="sony" match-subdomain=yes type=FWD name="playstation.com" }
 :if ([:len [find name="playstation.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="sony" match-subdomain=yes type=FWD name="playstation.net" }
+:if ([:len [find name="playstationnetwork.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="sony" match-subdomain=yes type=FWD name="playstationnetwork.com" }
+:if ([:len [find name="scea.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="sony" match-subdomain=yes type=FWD name="scea.com" }
 :if ([:len [find name="so-net.ne.jp"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="sony" match-subdomain=yes type=FWD name="so-net.ne.jp" }
 :if ([:len [find name="so-net.net.tw"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="sony" match-subdomain=yes type=FWD name="so-net.net.tw" }
 :if ([:len [find name="sony"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="sony" match-subdomain=yes type=FWD name="sony" }
@@ -43,6 +45,7 @@
 :if ([:len [find name="sonydna.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="sony" match-subdomain=yes type=FWD name="sonydna.com" }
 :if ([:len [find name="sonyentertainmentnetwork.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="sony" match-subdomain=yes type=FWD name="sonyentertainmentnetwork.com" }
 :if ([:len [find name="sonyglobalsolutions.jp"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="sony" match-subdomain=yes type=FWD name="sonyglobalsolutions.jp" }
+:if ([:len [find name="sonyinteractive.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="sony" match-subdomain=yes type=FWD name="sonyinteractive.com" }
 :if ([:len [find name="sonykigyo.jp"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="sony" match-subdomain=yes type=FWD name="sonykigyo.jp" }
 :if ([:len [find name="sonylatvija.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="sony" match-subdomain=yes type=FWD name="sonylatvija.com" }
 :if ([:len [find name="sonynetwork.co.jp"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="sony" match-subdomain=yes type=FWD name="sonynetwork.co.jp" }
