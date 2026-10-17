@@ -1,6 +1,7 @@
 :global AddressList
 :global ForwardTo
 /ip dns static
+:if ([:len [find name="joachims.org"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="gfw" match-subdomain=yes type=FWD name="joachims.org" }
 :if ([:len [find name="joinclubhouse.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="gfw" match-subdomain=yes type=FWD name="joinclubhouse.com" }
 :if ([:len [find name="joinmastodon.org"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="gfw" match-subdomain=yes type=FWD name="joinmastodon.org" }
 :if ([:len [find name="journalofdemocracy.org"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="gfw" match-subdomain=yes type=FWD name="journalofdemocracy.org" }
@@ -150,4 +151,3 @@
 :if ([:len [find name="longbridge.cloud"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="gfw" match-subdomain=yes type=FWD name="longbridge.cloud" }
 :if ([:len [find name="longbridge.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="gfw" match-subdomain=yes type=FWD name="longbridge.com" }
 :if ([:len [find name="longbridge.global"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="gfw" match-subdomain=yes type=FWD name="longbridge.global" }
-:if ([:len [find name="longbridgeapp.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="gfw" match-subdomain=yes type=FWD name="longbridgeapp.com" }

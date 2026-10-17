@@ -56,6 +56,7 @@
 :if ([:len [find name="6parker.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="gfw" match-subdomain=yes type=FWD name="6parker.com" }
 :if ([:len [find name="6parknews.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="gfw" match-subdomain=yes type=FWD name="6parknews.com" }
 :if ([:len [find name="7capture.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="gfw" match-subdomain=yes type=FWD name="7capture.com" }
+:if ([:len [find name="7x24hrs.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="gfw" match-subdomain=yes type=FWD name="7x24hrs.com" }
 :if ([:len [find name="8-d.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="gfw" match-subdomain=yes type=FWD name="8-d.com" }
 :if ([:len [find name="85cc.us"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="gfw" match-subdomain=yes type=FWD name="85cc.us" }
 :if ([:len [find name="881903.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="gfw" match-subdomain=yes type=FWD name="881903.com" }
@@ -150,4 +151,3 @@
 :if ([:len [find name="all4mom.org"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="gfw" match-subdomain=yes type=FWD name="all4mom.org" }
 :if ([:len [find name="allcoin.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="gfw" match-subdomain=yes type=FWD name="allcoin.com" }
 :if ([:len [find name="allconnected.co"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="gfw" match-subdomain=yes type=FWD name="allconnected.co" }
-:if ([:len [find name="alldrawnsex.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="gfw" match-subdomain=yes type=FWD name="alldrawnsex.com" }
