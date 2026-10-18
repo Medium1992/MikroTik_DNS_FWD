@@ -26,9 +26,12 @@
 :if ([:len [find name="cdngarenanow-a.akamaihd.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-games" type=FWD name="cdngarenanow-a.akamaihd.net" }
 :if ([:len [find name="cloudsync-prod.s3.amazonaws.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-games" type=FWD name="cloudsync-prod.s3.amazonaws.com" }
 :if ([:len [find name="d1unuk07s6td74.cloudfront.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-games" type=FWD name="d1unuk07s6td74.cloudfront.net" }
+:if ([:len [find name="d348twzf7a8p5.cloudfront.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-games" type=FWD name="d348twzf7a8p5.cloudfront.net" }
 :if ([:len [find name="datarouter.apps.netherrealm.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-games" type=FWD name="datarouter.apps.netherrealm.com" }
+:if ([:len [find name="devforum-uploads.s3.dualstack.us-east-2.amazonaws.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-games" type=FWD name="devforum-uploads.s3.dualstack.us-east-2.amazonaws.com" }
 :if ([:len [find name="dlgarenanow-a.akamaihd.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-games" type=FWD name="dlgarenanow-a.akamaihd.net" }
 :if ([:len [find name="dlmobilegarena-a.akamaihd.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-games" type=FWD name="dlmobilegarena-a.akamaihd.net" }
+:if ([:len [find name="doy2mn9upadnk.cloudfront.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-games" type=FWD name="doy2mn9upadnk.cloudfront.net" }
 :if ([:len [find name="ea.tt.omtrdc.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-games" type=FWD name="ea.tt.omtrdc.net" }
 :if ([:len [find name="eaassets-a.akamaihd.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-games" type=FWD name="eaassets-a.akamaihd.net" }
 :if ([:len [find name="end-api.shallow.ink"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-games" type=FWD name="end-api.shallow.ink" }

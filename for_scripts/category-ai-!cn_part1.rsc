@@ -51,6 +51,7 @@
 :if ([:len [find name="cursor.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-ai-!cn" match-subdomain=yes type=FWD name="cursor.com" }
 :if ([:len [find name="cursor.sh"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-ai-!cn" match-subdomain=yes type=FWD name="cursor.sh" }
 :if ([:len [find name="cursorapi.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-ai-!cn" match-subdomain=yes type=FWD name="cursorapi.com" }
+:if ([:len [find name="cursorvm.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-ai-!cn" match-subdomain=yes type=FWD name="cursorvm.com" }
 :if ([:len [find name="deepmind.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-ai-!cn" match-subdomain=yes type=FWD name="deepmind.com" }
 :if ([:len [find name="deepmind.google"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-ai-!cn" match-subdomain=yes type=FWD name="deepmind.google" }
 :if ([:len [find name="deepwiki.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-ai-!cn" match-subdomain=yes type=FWD name="deepwiki.com" }
@@ -128,6 +129,7 @@
 :if ([:len [find name="opal.google.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-ai-!cn" match-subdomain=yes type=FWD name="opal.google.com" }
 :if ([:len [find name="openai.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-ai-!cn" match-subdomain=yes type=FWD name="openai.com" }
 :if ([:len [find name="openai.com.cdn.cloudflare.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-ai-!cn" match-subdomain=yes type=FWD name="openai.com.cdn.cloudflare.net" }
+:if ([:len [find name="openai.org"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-ai-!cn" match-subdomain=yes type=FWD name="openai.org" }
 :if ([:len [find name="openart.ai"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-ai-!cn" match-subdomain=yes type=FWD name="openart.ai" }
 :if ([:len [find name="openclaw.ai"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-ai-!cn" match-subdomain=yes type=FWD name="openclaw.ai" }
 :if ([:len [find name="opencode.ai"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-ai-!cn" match-subdomain=yes type=FWD name="opencode.ai" }
@@ -149,5 +151,3 @@
 :if ([:len [find name="stitch.withgoogle.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-ai-!cn" match-subdomain=yes type=FWD name="stitch.withgoogle.com" }
 :if ([:len [find name="syntx.ai"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-ai-!cn" match-subdomain=yes type=FWD name="syntx.ai" }
 :if ([:len [find name="talkai.info"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-ai-!cn" match-subdomain=yes type=FWD name="talkai.info" }
-:if ([:len [find name="tapnow.ai"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-ai-!cn" match-subdomain=yes type=FWD name="tapnow.ai" }
-:if ([:len [find name="themeforest.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-ai-!cn" match-subdomain=yes type=FWD name="themeforest.net" }

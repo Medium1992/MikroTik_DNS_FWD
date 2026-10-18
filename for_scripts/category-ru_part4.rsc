@@ -1,6 +1,13 @@
 :global AddressList
 :global ForwardTo
 /ip dns static
+:if ([:len [find name="runewsrt.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-ru" match-subdomain=yes type=FWD name="runewsrt.com" }
+:if ([:len [find name="ruptly.agency"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-ru" match-subdomain=yes type=FWD name="ruptly.agency" }
+:if ([:len [find name="ruptly.tv"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-ru" match-subdomain=yes type=FWD name="ruptly.tv" }
+:if ([:len [find name="ruptly.video"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-ru" match-subdomain=yes type=FWD name="ruptly.video" }
+:if ([:len [find name="rurtnews.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-ru" match-subdomain=yes type=FWD name="rurtnews.com" }
+:if ([:len [find name="russiabeyond.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-ru" match-subdomain=yes type=FWD name="russiabeyond.com" }
+:if ([:len [find name="russiaislove.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-ru" match-subdomain=yes type=FWD name="russiaislove.com" }
 :if ([:len [find name="russiatoday.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-ru" match-subdomain=yes type=FWD name="russiatoday.com" }
 :if ([:len [find name="russiatoday.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-ru" match-subdomain=yes type=FWD name="russiatoday.net" }
 :if ([:len [find name="russiatoday.tv"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-ru" match-subdomain=yes type=FWD name="russiatoday.tv" }
@@ -49,6 +56,7 @@
 :if ([:len [find name="sourcecraft.dev"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-ru" match-subdomain=yes type=FWD name="sourcecraft.dev" }
 :if ([:len [find name="spasibo.digital"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-ru" match-subdomain=yes type=FWD name="spasibo.digital" }
 :if ([:len [find name="spasibo.market"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-ru" match-subdomain=yes type=FWD name="spasibo.market" }
+:if ([:len [find name="sprut.io"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-ru" match-subdomain=yes type=FWD name="sprut.io" }
 :if ([:len [find name="sputnikglobe.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-ru" match-subdomain=yes type=FWD name="sputnikglobe.com" }
 :if ([:len [find name="sputnikimages.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-ru" match-subdomain=yes type=FWD name="sputnikimages.com" }
 :if ([:len [find name="sputnikmediabank.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-ru" match-subdomain=yes type=FWD name="sputnikmediabank.com" }
@@ -87,6 +95,7 @@
 :if ([:len [find name="tildacdn.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-ru" match-subdomain=yes type=FWD name="tildacdn.net" }
 :if ([:len [find name="timeweb.cloud"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-ru" match-subdomain=yes type=FWD name="timeweb.cloud" }
 :if ([:len [find name="timeweb.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-ru" match-subdomain=yes type=FWD name="timeweb.com" }
+:if ([:len [find name="timeweb.tech"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-ru" match-subdomain=yes type=FWD name="timeweb.tech" }
 :if ([:len [find name="tinkoff-group.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-ru" match-subdomain=yes type=FWD name="tinkoff-group.com" }
 :if ([:len [find name="tinkoff.ai"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-ru" match-subdomain=yes type=FWD name="tinkoff.ai" }
 :if ([:len [find name="tinkoffmobile.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-ru" match-subdomain=yes type=FWD name="tinkoffmobile.com" }
@@ -142,12 +151,3 @@
 :if ([:len [find name="vkcache.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-ru" match-subdomain=yes type=FWD name="vkcache.com" }
 :if ([:len [find name="vkcdnservice.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-ru" match-subdomain=yes type=FWD name="vkcdnservice.com" }
 :if ([:len [find name="vkclips.app"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-ru" match-subdomain=yes type=FWD name="vkclips.app" }
-:if ([:len [find name="vkcs.cloud"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-ru" match-subdomain=yes type=FWD name="vkcs.cloud" }
-:if ([:len [find name="vkgo.app"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-ru" match-subdomain=yes type=FWD name="vkgo.app" }
-:if ([:len [find name="vklive.app"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-ru" match-subdomain=yes type=FWD name="vklive.app" }
-:if ([:len [find name="vkmessenger.app"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-ru" match-subdomain=yes type=FWD name="vkmessenger.app" }
-:if ([:len [find name="vkmessenger.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-ru" match-subdomain=yes type=FWD name="vkmessenger.com" }
-:if ([:len [find name="vkontakte.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-ru" match-subdomain=yes type=FWD name="vkontakte.com" }
-:if ([:len [find name="vkpay.app"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-ru" match-subdomain=yes type=FWD name="vkpay.app" }
-:if ([:len [find name="vkpay.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-ru" match-subdomain=yes type=FWD name="vkpay.com" }
-:if ([:len [find name="vkpay.io"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-ru" match-subdomain=yes type=FWD name="vkpay.io" }

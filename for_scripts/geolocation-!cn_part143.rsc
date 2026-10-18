@@ -1,6 +1,11 @@
 :global AddressList
 :global ForwardTo
 /ip dns static
+:if ([:len [find name="xboyvids.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" match-subdomain=yes type=FWD name="xboyvids.com" }
+:if ([:len [find name="xbrasilporno.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" match-subdomain=yes type=FWD name="xbrasilporno.com" }
+:if ([:len [find name="xbtce.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" match-subdomain=yes type=FWD name="xbtce.com" }
+:if ([:len [find name="xcafe.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" match-subdomain=yes type=FWD name="xcafe.com" }
+:if ([:len [find name="xcams.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" match-subdomain=yes type=FWD name="xcams.com" }
 :if ([:len [find name="xcancel.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" match-subdomain=yes type=FWD name="xcancel.com" }
 :if ([:len [find name="xcg123.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" match-subdomain=yes type=FWD name="xcg123.com" }
 :if ([:len [find name="xchina.co"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" match-subdomain=yes type=FWD name="xchina.co" }
@@ -146,8 +151,3 @@
 :if ([:len [find name="xn--7hv594h.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" match-subdomain=yes type=FWD name="xn--7hv594h.com" }
 :if ([:len [find name="xn--80a9a4b.xn--p1ai"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" match-subdomain=yes type=FWD name="xn--80a9a4b.xn--p1ai" }
 :if ([:len [find name="xn--80aaafbpzn5blfby1p.xn--p1ai"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" match-subdomain=yes type=FWD name="xn--80aaafbpzn5blfby1p.xn--p1ai" }
-:if ([:len [find name="xn--80aaeib8abrryx4k.xn--p1ai"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" match-subdomain=yes type=FWD name="xn--80aaeib8abrryx4k.xn--p1ai" }
-:if ([:len [find name="xn--80aafgovrgbc7am.xn--p1ai"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" match-subdomain=yes type=FWD name="xn--80aafgovrgbc7am.xn--p1ai" }
-:if ([:len [find name="xn--80acbjgmges7ca.xn--p1ai"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" match-subdomain=yes type=FWD name="xn--80acbjgmges7ca.xn--p1ai" }
-:if ([:len [find name="xn--80acbjgsdq2cl.xn--p1ai"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" match-subdomain=yes type=FWD name="xn--80acbjgsdq2cl.xn--p1ai" }
-:if ([:len [find name="xn--80aj3b.xn--p1ai"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" match-subdomain=yes type=FWD name="xn--80aj3b.xn--p1ai" }

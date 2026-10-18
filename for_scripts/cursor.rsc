@@ -5,3 +5,4 @@
 :if ([:len [find name="cursor.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="cursor" match-subdomain=yes type=FWD name="cursor.com" }
 :if ([:len [find name="cursor.sh"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="cursor" match-subdomain=yes type=FWD name="cursor.sh" }
 :if ([:len [find name="cursorapi.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="cursor" match-subdomain=yes type=FWD name="cursorapi.com" }
+:if ([:len [find name="cursorvm.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="cursor" match-subdomain=yes type=FWD name="cursorvm.com" }

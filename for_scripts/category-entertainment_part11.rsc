@@ -97,6 +97,7 @@
 :if ([:len [find name="d2vjef5jvl6bfs.cloudfront.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-entertainment" type=FWD name="d2vjef5jvl6bfs.cloudfront.net" }
 :if ([:len [find name="d2xmjdvx03ij56.cloudfront.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-entertainment" type=FWD name="d2xmjdvx03ij56.cloudfront.net" }
 :if ([:len [find name="d31dormfno8pk4.cloudfront.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-entertainment" type=FWD name="d31dormfno8pk4.cloudfront.net" }
+:if ([:len [find name="d348twzf7a8p5.cloudfront.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-entertainment" type=FWD name="d348twzf7a8p5.cloudfront.net" }
 :if ([:len [find name="d36nr0u3xmc4mm.cloudfront.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-entertainment" type=FWD name="d36nr0u3xmc4mm.cloudfront.net" }
 :if ([:len [find name="d3aqoihi2n8ty8.cloudfront.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-entertainment" type=FWD name="d3aqoihi2n8ty8.cloudfront.net" }
 :if ([:len [find name="d3c27h4odz752x.cloudfront.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-entertainment" type=FWD name="d3c27h4odz752x.cloudfront.net" }
@@ -111,6 +112,7 @@
 :if ([:len [find name="dcb0z5ovq92mz.cloudfront.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-entertainment" type=FWD name="dcb0z5ovq92mz.cloudfront.net" }
 :if ([:len [find name="ddacn6pr5v0tl.cloudfront.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-entertainment" type=FWD name="ddacn6pr5v0tl.cloudfront.net" }
 :if ([:len [find name="ddpjwstwtpszg.cloudfront.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-entertainment" type=FWD name="ddpjwstwtpszg.cloudfront.net" }
+:if ([:len [find name="devforum-uploads.s3.dualstack.us-east-2.amazonaws.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-entertainment" type=FWD name="devforum-uploads.s3.dualstack.us-east-2.amazonaws.com" }
 :if ([:len [find name="dfp6rglgjqszk.cloudfront.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-entertainment" type=FWD name="dfp6rglgjqszk.cloudfront.net" }
 :if ([:len [find name="dgeft87wbj63p.cloudfront.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-entertainment" type=FWD name="dgeft87wbj63p.cloudfront.net" }
 :if ([:len [find name="disney.my.sentry.io"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-entertainment" type=FWD name="disney.my.sentry.io" }
@@ -119,6 +121,7 @@
 :if ([:len [find name="dlmobilegarena-a.akamaihd.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-entertainment" type=FWD name="dlmobilegarena-a.akamaihd.net" }
 :if ([:len [find name="dmqdd6hw24ucf.cloudfront.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-entertainment" type=FWD name="dmqdd6hw24ucf.cloudfront.net" }
 :if ([:len [find name="downloaddispatch.itunes.apple.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-entertainment" type=FWD name="downloaddispatch.itunes.apple.com" }
+:if ([:len [find name="doy2mn9upadnk.cloudfront.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-entertainment" type=FWD name="doy2mn9upadnk.cloudfront.net" }
 :if ([:len [find name="dqd0jw5gvbchn.cloudfront.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-entertainment" type=FWD name="dqd0jw5gvbchn.cloudfront.net" }
 :if ([:len [find name="dqrpb9wgowsf5.cloudfront.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-entertainment" type=FWD name="dqrpb9wgowsf5.cloudfront.net" }
 :if ([:len [find name="ds-linear-abematv.akamaized.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-entertainment" type=FWD name="ds-linear-abematv.akamaized.net" }
@@ -148,6 +151,3 @@
 :if ([:len [find name="hb4bbbbb.pmhcjk.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-entertainment" type=FWD name="hb4bbbbb.pmhcjk.com" }
 :if ([:len [find name="heads-ak-spotify-com.akamaized.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-entertainment" type=FWD name="heads-ak-spotify-com.akamaized.net" }
 :if ([:len [find name="heads4-ak-spotify-com.akamaized.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-entertainment" type=FWD name="heads4-ak-spotify-com.akamaized.net" }
-:if ([:len [find name="hls-amt.itunes.apple.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-entertainment" type=FWD name="hls-amt.itunes.apple.com" }
-:if ([:len [find name="hls-hamivideo.cdn.hinet.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-entertainment" type=FWD name="hls-hamivideo.cdn.hinet.net" }
-:if ([:len [find name="hls.itunes.apple.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-entertainment" type=FWD name="hls.itunes.apple.com" }

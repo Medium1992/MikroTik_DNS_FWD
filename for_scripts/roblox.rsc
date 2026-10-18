@@ -32,6 +32,9 @@
 :if ([:len [find name="rowblocks.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="roblox" match-subdomain=yes type=FWD name="rowblocks.com" }
 :if ([:len [find name="rowblox.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="roblox" match-subdomain=yes type=FWD name="rowblox.com" }
 :if ([:len [find name="d1unuk07s6td74.cloudfront.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="roblox" type=FWD name="d1unuk07s6td74.cloudfront.net" }
+:if ([:len [find name="d348twzf7a8p5.cloudfront.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="roblox" type=FWD name="d348twzf7a8p5.cloudfront.net" }
+:if ([:len [find name="devforum-uploads.s3.dualstack.us-east-2.amazonaws.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="roblox" type=FWD name="devforum-uploads.s3.dualstack.us-east-2.amazonaws.com" }
+:if ([:len [find name="doy2mn9upadnk.cloudfront.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="roblox" type=FWD name="doy2mn9upadnk.cloudfront.net" }
 :if ([:len [find name="roblox-load-generator-configuration.s3.us-east-2.amazonaws.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="roblox" type=FWD name="roblox-load-generator-configuration.s3.us-east-2.amazonaws.com" }
 :if ([:len [find name="roblox-poc.global.ssl.fastly.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="roblox" type=FWD name="roblox-poc.global.ssl.fastly.net" }
 :if ([:len [find name="robloxcorp.s.llnwi.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="roblox" type=FWD name="robloxcorp.s.llnwi.net" }

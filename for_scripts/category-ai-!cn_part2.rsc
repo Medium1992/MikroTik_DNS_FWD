@@ -1,9 +1,12 @@
 :global AddressList
 :global ForwardTo
 /ip dns static
+:if ([:len [find name="tapnow.ai"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-ai-!cn" match-subdomain=yes type=FWD name="tapnow.ai" }
+:if ([:len [find name="themeforest.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-ai-!cn" match-subdomain=yes type=FWD name="themeforest.net" }
 :if ([:len [find name="trae.ai"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-ai-!cn" match-subdomain=yes type=FWD name="trae.ai" }
 :if ([:len [find name="tripo3d.ai"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-ai-!cn" match-subdomain=yes type=FWD name="tripo3d.ai" }
 :if ([:len [find name="turn.livekit.cloud"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-ai-!cn" match-subdomain=yes type=FWD name="turn.livekit.cloud" }
+:if ([:len [find name="typesafe.ai"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-ai-!cn" match-subdomain=yes type=FWD name="typesafe.ai" }
 :if ([:len [find name="windsurf.build"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-ai-!cn" match-subdomain=yes type=FWD name="windsurf.build" }
 :if ([:len [find name="windsurf.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-ai-!cn" match-subdomain=yes type=FWD name="windsurf.com" }
 :if ([:len [find name="x.ai"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-ai-!cn" match-subdomain=yes type=FWD name="x.ai" }

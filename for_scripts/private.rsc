@@ -122,6 +122,8 @@
 :if ([:len [find name="asusrouter.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="private" type=FWD name="asusrouter.com" }
 :if ([:len [find name="instant.arubanetworks.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="private" type=FWD name="instant.arubanetworks.com" }
 :if ([:len [find name="local.adguard.org"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="private" type=FWD name="local.adguard.org" }
+:if ([:len [find name="localhost.weixin.qq.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="private" type=FWD name="localhost.weixin.qq.com" }
+:if ([:len [find name="localhost.work.weixin.qq.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="private" type=FWD name="localhost.work.weixin.qq.com" }
 :if ([:len [find name="miwifi.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="private" type=FWD name="miwifi.com" }
 :if ([:len [find name="oasisauth.h3c.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="private" type=FWD name="oasisauth.h3c.com" }
 :if ([:len [find name="router.asus.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="private" type=FWD name="router.asus.com" }

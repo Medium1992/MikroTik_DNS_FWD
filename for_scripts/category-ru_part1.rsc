@@ -55,7 +55,14 @@
 :if ([:len [find name="baranky.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-ru" match-subdomain=yes type=FWD name="baranky.com" }
 :if ([:len [find name="bargipsy.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-ru" match-subdomain=yes type=FWD name="bargipsy.com" }
 :if ([:len [find name="beeline.tv"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-ru" match-subdomain=yes type=FWD name="beeline.tv" }
+:if ([:len [find name="beget.app"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-ru" match-subdomain=yes type=FWD name="beget.app" }
+:if ([:len [find name="beget.cloud"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-ru" match-subdomain=yes type=FWD name="beget.cloud" }
 :if ([:len [find name="beget.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-ru" match-subdomain=yes type=FWD name="beget.com" }
+:if ([:len [find name="beget.de"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-ru" match-subdomain=yes type=FWD name="beget.de" }
+:if ([:len [find name="beget.hosting"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-ru" match-subdomain=yes type=FWD name="beget.hosting" }
+:if ([:len [find name="beget.pro"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-ru" match-subdomain=yes type=FWD name="beget.pro" }
+:if ([:len [find name="beget.tech"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-ru" match-subdomain=yes type=FWD name="beget.tech" }
+:if ([:len [find name="begetcdn.cloud"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-ru" match-subdomain=yes type=FWD name="begetcdn.cloud" }
 :if ([:len [find name="best2pay.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-ru" match-subdomain=yes type=FWD name="best2pay.net" }
 :if ([:len [find name="bizmrg.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-ru" match-subdomain=yes type=FWD name="bizmrg.com" }
 :if ([:len [find name="bk6bba-resources.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-ru" match-subdomain=yes type=FWD name="bk6bba-resources.com" }
@@ -144,10 +151,3 @@
 :if ([:len [find name="es-rt.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-ru" match-subdomain=yes type=FWD name="es-rt.com" }
 :if ([:len [find name="esforce.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-ru" match-subdomain=yes type=FWD name="esforce.com" }
 :if ([:len [find name="esrt.online"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-ru" match-subdomain=yes type=FWD name="esrt.online" }
-:if ([:len [find name="esrt.press"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-ru" match-subdomain=yes type=FWD name="esrt.press" }
-:if ([:len [find name="esrt.site"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-ru" match-subdomain=yes type=FWD name="esrt.site" }
-:if ([:len [find name="esrt.space"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-ru" match-subdomain=yes type=FWD name="esrt.space" }
-:if ([:len [find name="esrt.tech"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-ru" match-subdomain=yes type=FWD name="esrt.tech" }
-:if ([:len [find name="esrt.website"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-ru" match-subdomain=yes type=FWD name="esrt.website" }
-:if ([:len [find name="etna.ai"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-ru" match-subdomain=yes type=FWD name="etna.ai" }
-:if ([:len [find name="evrasia.rest"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-ru" match-subdomain=yes type=FWD name="evrasia.rest" }
