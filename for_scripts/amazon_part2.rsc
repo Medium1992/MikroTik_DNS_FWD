@@ -1,6 +1,7 @@
 :global AddressList
 :global ForwardTo
 /ip dns static
+:if ([:len [find name="d22qjgkvxw22r6.cloudfront.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="amazon" type=FWD name="d22qjgkvxw22r6.cloudfront.net" }
 :if ([:len [find name="d25xi40x97liuc.cloudfront.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="amazon" type=FWD name="d25xi40x97liuc.cloudfront.net" }
 :if ([:len [find name="d27xxe7juh1us6.cloudfront.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="amazon" type=FWD name="d27xxe7juh1us6.cloudfront.net" }
 :if ([:len [find name="dmqdd6hw24ucf.cloudfront.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="amazon" type=FWD name="dmqdd6hw24ucf.cloudfront.net" }

@@ -1,7 +1,6 @@
 :global AddressList
 :global ForwardTo
 /ip dns static
-:if ([:len [find name="beatsbydres-shop.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" match-subdomain=yes type=FWD name="beatsbydres-shop.com" }
 :if ([:len [find name="beatsbydresale-uk.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" match-subdomain=yes type=FWD name="beatsbydresale-uk.com" }
 :if ([:len [find name="beatsbydresalemall2013.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" match-subdomain=yes type=FWD name="beatsbydresalemall2013.com" }
 :if ([:len [find name="beatsbydresaleonlines-nz.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" match-subdomain=yes type=FWD name="beatsbydresaleonlines-nz.com" }
@@ -151,3 +150,4 @@
 :if ([:len [find name="bestiphonestuff.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" match-subdomain=yes type=FWD name="bestiphonestuff.com" }
 :if ([:len [find name="bestshoesale2014.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" match-subdomain=yes type=FWD name="bestshoesale2014.net" }
 :if ([:len [find name="bestsrv.de"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" match-subdomain=yes type=FWD name="bestsrv.de" }
+:if ([:len [find name="beth.games"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" match-subdomain=yes type=FWD name="beth.games" }

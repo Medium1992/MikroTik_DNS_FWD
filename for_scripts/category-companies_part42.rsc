@@ -1,7 +1,6 @@
 :global AddressList
 :global ForwardTo
 /ip dns static
-:if ([:len [find name="experiments.apple.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" type=FWD name="experiments.apple.com" }
 :if ([:len [find name="f.c2r.ts.cdn.office.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" type=FWD name="f.c2r.ts.cdn.office.net" }
 :if ([:len [find name="faronics.kayako.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" type=FWD name="faronics.kayako.com" }
 :if ([:len [find name="fbcdn-a.akamaihd.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" type=FWD name="fbcdn-a.akamaihd.net" }
@@ -20,7 +19,6 @@
 :if ([:len [find name="firebaselogging.googleapis.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" type=FWD name="firebaselogging.googleapis.com" }
 :if ([:len [find name="firebaseperusertopics-pa.googleapis.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" type=FWD name="firebaseperusertopics-pa.googleapis.com" }
 :if ([:len [find name="firebaseremoteconfig.googleapis.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" type=FWD name="firebaseremoteconfig.googleapis.com" }
-:if ([:len [find name="flightsimulator.azureedge.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" type=FWD name="flightsimulator.azureedge.net" }
 :if ([:len [find name="fontfiles.googleapis.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" type=FWD name="fontfiles.googleapis.com" }
 :if ([:len [find name="fonts.googleapis.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" type=FWD name="fonts.googleapis.com" }
 :if ([:len [find name="fonts.gstatic.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" type=FWD name="fonts.gstatic.com" }
@@ -151,3 +149,5 @@
 :if ([:len [find name="ksn-crypto-kas-geo.kaspersky-labs.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" type=FWD name="ksn-crypto-kas-geo.kaspersky-labs.com" }
 :if ([:len [find name="ksn-crypto-tcert-geo.kaspersky-labs.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" type=FWD name="ksn-crypto-tcert-geo.kaspersky-labs.com" }
 :if ([:len [find name="ksn-crypto-url-geo.kaspersky-labs.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" type=FWD name="ksn-crypto-url-geo.kaspersky-labs.com" }
+:if ([:len [find name="ksn-crypto-verdict-geo.kaspersky-labs.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" type=FWD name="ksn-crypto-verdict-geo.kaspersky-labs.com" }
+:if ([:len [find name="ksn-crypto-wifiplus-geo.kaspersky-labs.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" type=FWD name="ksn-crypto-wifiplus-geo.kaspersky-labs.com" }

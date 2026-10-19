@@ -1,8 +1,6 @@
 :global AddressList
 :global ForwardTo
 /ip dns static
-:if ([:len [find name="ksn-crypto-verdict-geo.kaspersky-labs.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" type=FWD name="ksn-crypto-verdict-geo.kaspersky-labs.com" }
-:if ([:len [find name="ksn-crypto-wifiplus-geo.kaspersky-labs.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" type=FWD name="ksn-crypto-wifiplus-geo.kaspersky-labs.com" }
 :if ([:len [find name="ksn-crypto-wifiplus.geoksn.kaspersky.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" type=FWD name="ksn-crypto-wifiplus.geoksn.kaspersky.com" }
 :if ([:len [find name="ksn-dc1-cert.geoksn.kaspersky.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" type=FWD name="ksn-dc1-cert.geoksn.kaspersky.com" }
 :if ([:len [find name="ksn-dc1-file.geoksn.kaspersky.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" type=FWD name="ksn-dc1-file.geoksn.kaspersky.com" }
@@ -151,3 +149,5 @@
 :if ([:len [find name="productionresultssa8.blob.core.windows.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" type=FWD name="productionresultssa8.blob.core.windows.net" }
 :if ([:len [find name="productionresultssa9.blob.core.windows.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" type=FWD name="productionresultssa9.blob.core.windows.net" }
 :if ([:len [find name="psg-int-centralus.cloudapp.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" type=FWD name="psg-int-centralus.cloudapp.net" }
+:if ([:len [find name="psg-int-eastus.cloudapp.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" type=FWD name="psg-int-eastus.cloudapp.net" }
+:if ([:len [find name="publicassets.cdn-apple.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" type=FWD name="publicassets.cdn-apple.com" }

@@ -1,7 +1,6 @@
 :global AddressList
 :global ForwardTo
 /ip dns static
-:if ([:len [find name="asobostudio.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="xbox" match-subdomain=yes type=FWD name="asobostudio.com" }
 :if ([:len [find name="beth.games"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="xbox" match-subdomain=yes type=FWD name="beth.games" }
 :if ([:len [find name="bethesda.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="xbox" match-subdomain=yes type=FWD name="bethesda.net" }
 :if ([:len [find name="bethesdagamestudios.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="xbox" match-subdomain=yes type=FWD name="bethesdagamestudios.com" }
@@ -9,7 +8,6 @@
 :if ([:len [find name="callersbane.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="xbox" match-subdomain=yes type=FWD name="callersbane.com" }
 :if ([:len [find name="doom.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="xbox" match-subdomain=yes type=FWD name="doom.com" }
 :if ([:len [find name="elderscrolls.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="xbox" match-subdomain=yes type=FWD name="elderscrolls.com" }
-:if ([:len [find name="flightsimulator.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="xbox" match-subdomain=yes type=FWD name="flightsimulator.com" }
 :if ([:len [find name="forza.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="xbox" match-subdomain=yes type=FWD name="forza.net" }
 :if ([:len [find name="forzamotorsport.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="xbox" match-subdomain=yes type=FWD name="forzamotorsport.net" }
 :if ([:len [find name="forzaracingchampionship.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="xbox" match-subdomain=yes type=FWD name="forzaracingchampionship.com" }
@@ -42,5 +40,4 @@
 :if ([:len [find name="xboxplayanywhere.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="xbox" match-subdomain=yes type=FWD name="xboxplayanywhere.com" }
 :if ([:len [find name="xboxservices.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="xbox" match-subdomain=yes type=FWD name="xboxservices.com" }
 :if ([:len [find name="xboxstudios.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="xbox" match-subdomain=yes type=FWD name="xboxstudios.com" }
-:if ([:len [find name="flightsimulator.azureedge.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="xbox" type=FWD name="flightsimulator.azureedge.net" }
 :if ([:len [find name="prodforza.blob.core.windows.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="xbox" type=FWD name="prodforza.blob.core.windows.net" }

@@ -12,6 +12,7 @@
 :if ([:len [find name="primevideo.org"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="primevideo" match-subdomain=yes type=FWD name="primevideo.org" }
 :if ([:len [find name="primevideo.tv"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="primevideo" match-subdomain=yes type=FWD name="primevideo.tv" }
 :if ([:len [find name="prod.service.minerva.devices.a2z.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="primevideo" match-subdomain=yes type=FWD name="prod.service.minerva.devices.a2z.com" }
+:if ([:len [find name="pv-cdn.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="primevideo" match-subdomain=yes type=FWD name="pv-cdn.net" }
 :if ([:len [find name="d1v5ir2lpwr8os.cloudfront.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="primevideo" type=FWD name="d1v5ir2lpwr8os.cloudfront.net" }
 :if ([:len [find name="d22qjgkvxw22r6.cloudfront.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="primevideo" type=FWD name="d22qjgkvxw22r6.cloudfront.net" }
 :if ([:len [find name="d25xi40x97liuc.cloudfront.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="primevideo" type=FWD name="d25xi40x97liuc.cloudfront.net" }
