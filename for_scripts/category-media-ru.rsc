@@ -13,6 +13,7 @@
 :if ([:len [find name="arteldoc.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-media-ru" match-subdomain=yes type=FWD name="arteldoc.com" }
 :if ([:len [find name="arteldoc.tv"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-media-ru" match-subdomain=yes type=FWD name="arteldoc.tv" }
 :if ([:len [find name="asiangooglenetwork.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-media-ru" match-subdomain=yes type=FWD name="asiangooglenetwork.com" }
+:if ([:len [find name="azbyka.ru"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-media-ru" match-subdomain=yes type=FWD name="azbyka.ru" }
 :if ([:len [find name="b37mrtl.ru"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-media-ru" match-subdomain=yes type=FWD name="b37mrtl.ru" }
 :if ([:len [find name="baltnews.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-media-ru" match-subdomain=yes type=FWD name="baltnews.com" }
 :if ([:len [find name="baranky.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-media-ru" match-subdomain=yes type=FWD name="baranky.com" }
@@ -56,6 +57,10 @@
 :if ([:len [find name="notimundo.press"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-media-ru" match-subdomain=yes type=FWD name="notimundo.press" }
 :if ([:len [find name="oknovrossiu.ru"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-media-ru" match-subdomain=yes type=FWD name="oknovrossiu.ru" }
 :if ([:len [find name="pobeda.page"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-media-ru" match-subdomain=yes type=FWD name="pobeda.page" }
+:if ([:len [find name="posledovania.ru"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-media-ru" match-subdomain=yes type=FWD name="posledovania.ru" }
+:if ([:len [find name="pravmir.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-media-ru" match-subdomain=yes type=FWD name="pravmir.com" }
+:if ([:len [find name="pravmir.ru"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-media-ru" match-subdomain=yes type=FWD name="pravmir.ru" }
+:if ([:len [find name="pravoslavie.ru"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-media-ru" match-subdomain=yes type=FWD name="pravoslavie.ru" }
 :if ([:len [find name="premiumlive.site"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-media-ru" match-subdomain=yes type=FWD name="premiumlive.site" }
 :if ([:len [find name="pressria.ru"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-media-ru" match-subdomain=yes type=FWD name="pressria.ru" }
 :if ([:len [find name="radiosputnik.ru"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-media-ru" match-subdomain=yes type=FWD name="radiosputnik.ru" }
@@ -135,5 +140,7 @@
 :if ([:len [find name="tok.media"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-media-ru" match-subdomain=yes type=FWD name="tok.media" }
 :if ([:len [find name="ukraina.ru"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-media-ru" match-subdomain=yes type=FWD name="ukraina.ru" }
 :if ([:len [find name="watchingthehawks.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-media-ru" match-subdomain=yes type=FWD name="watchingthehawks.com" }
+:if ([:len [find name="webtypikon.ru"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-media-ru" match-subdomain=yes type=FWD name="webtypikon.ru" }
 :if ([:len [find name="worldcuprussia.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-media-ru" match-subdomain=yes type=FWD name="worldcuprussia.com" }
+:if ([:len [find name="xn--80adfddrquddgz.xn--p1ai"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-media-ru" match-subdomain=yes type=FWD name="xn--80adfddrquddgz.xn--p1ai" }
 :if ([:len [find name="xn--c1acbl2abdlkab1og.xn--p1ai"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-media-ru" match-subdomain=yes type=FWD name="xn--c1acbl2abdlkab1og.xn--p1ai" }

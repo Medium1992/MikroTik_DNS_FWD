@@ -4,6 +4,7 @@
 :if ([:len [find name="a.mts.ru"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="mts-ru" match-subdomain=yes type=FWD name="a.mts.ru" }
 :if ([:len [find name="dbo-dengi.online"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="mts-ru" match-subdomain=yes type=FWD name="dbo-dengi.online" }
 :if ([:len [find name="kion.ru"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="mts-ru" match-subdomain=yes type=FWD name="kion.ru" }
+:if ([:len [find name="mts-link.ru"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="mts-ru" match-subdomain=yes type=FWD name="mts-link.ru" }
 :if ([:len [find name="mts-ws.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="mts-ru" match-subdomain=yes type=FWD name="mts-ws.net" }
 :if ([:len [find name="mts.ru"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="mts-ru" match-subdomain=yes type=FWD name="mts.ru" }
 :if ([:len [find name="mtsbank.ru"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="mts-ru" match-subdomain=yes type=FWD name="mtsbank.ru" }

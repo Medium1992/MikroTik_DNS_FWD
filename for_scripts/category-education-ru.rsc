@@ -4,6 +4,7 @@
 :if ([:len [find name="altaiobr04.ru"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-education-ru" match-subdomain=yes type=FWD name="altaiobr04.ru" }
 :if ([:len [find name="chelyabinsk-sgo-edu-74.ru"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-education-ru" match-subdomain=yes type=FWD name="chelyabinsk-sgo-edu-74.ru" }
 :if ([:len [find name="gramotei.online"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-education-ru" match-subdomain=yes type=FWD name="gramotei.online" }
+:if ([:len [find name="hse.ru"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-education-ru" match-subdomain=yes type=FWD name="hse.ru" }
 :if ([:len [find name="kakpishem.ru"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-education-ru" match-subdomain=yes type=FWD name="kakpishem.ru" }
 :if ([:len [find name="kartaslov.ru"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-education-ru" match-subdomain=yes type=FWD name="kartaslov.ru" }
 :if ([:len [find name="mel.fm"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-education-ru" match-subdomain=yes type=FWD name="mel.fm" }

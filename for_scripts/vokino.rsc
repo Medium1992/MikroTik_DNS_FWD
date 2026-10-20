@@ -19,6 +19,7 @@
 :if ([:len [find name="stream-balancer-allo-1.site"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="vokino" match-subdomain=yes type=FWD name="stream-balancer-allo-1.site" }
 :if ([:len [find name="videobase.biz"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="vokino" match-subdomain=yes type=FWD name="videobase.biz" }
 :if ([:len [find name="vkvideo.cloud"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="vokino" match-subdomain=yes type=FWD name="vkvideo.cloud" }
+:if ([:len [find name="voidboost.one"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="vokino" match-subdomain=yes type=FWD name="voidboost.one" }
 :if ([:len [find name="vokino.org"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="vokino" match-subdomain=yes type=FWD name="vokino.org" }
 :if ([:len [find name="vokino.pro"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="vokino" match-subdomain=yes type=FWD name="vokino.pro" }
 :if ([:len [find name="vokino.tv"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="vokino" match-subdomain=yes type=FWD name="vokino.tv" }
