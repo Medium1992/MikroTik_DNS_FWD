@@ -17,6 +17,7 @@
 :if ([:len [find name="turn.livekit.cloud"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="openai" match-subdomain=yes type=FWD name="turn.livekit.cloud" }
 :if ([:len [find name="browser-intake-datadoghq.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="openai" type=FWD name="browser-intake-datadoghq.com" }
 :if ([:len [find name="o33249.ingest.sentry.io"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="openai" type=FWD name="o33249.ingest.sentry.io" }
+:if ([:len [find name="o33249.ingest.us.sentry.io"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="openai" type=FWD name="o33249.ingest.us.sentry.io" }
 :if ([:len [find name="openai.qualtrics.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="openai" type=FWD name="openai.qualtrics.com" }
 :if ([:len [find name="openaiapi-site.azureedge.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="openai" type=FWD name="openaiapi-site.azureedge.net" }
 :if ([:len [find name="openaiassets.blob.core.windows.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="openai" type=FWD name="openaiassets.blob.core.windows.net" }
