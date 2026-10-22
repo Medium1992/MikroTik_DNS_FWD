@@ -1,6 +1,7 @@
 :global AddressList
 :global ForwardTo
 /ip dns static
+:if ([:len [find name="weblive-hamivideo.cdn.hinet.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-entertainment" type=FWD name="weblive-hamivideo.cdn.hinet.net" }
 :if ([:len [find name="weblivea-hamivideo.cdn.hinet.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-entertainment" type=FWD name="weblivea-hamivideo.cdn.hinet.net" }
 :if ([:len [find name="webvodad-hamivideo.cdn.hinet.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-entertainment" type=FWD name="webvodad-hamivideo.cdn.hinet.net" }
 :if ([:len [find name="ws.audioscrobbler.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-entertainment" type=FWD name="ws.audioscrobbler.com" }

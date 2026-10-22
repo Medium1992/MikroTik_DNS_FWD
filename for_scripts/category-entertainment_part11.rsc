@@ -103,6 +103,7 @@
 :if ([:len [find name="d3c27h4odz752x.cloudfront.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-entertainment" type=FWD name="d3c27h4odz752x.cloudfront.net" }
 :if ([:len [find name="d3lh5kkip965lj.cloudfront.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-entertainment" type=FWD name="d3lh5kkip965lj.cloudfront.net" }
 :if ([:len [find name="d3nwj80emtnjeo.cloudfront.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-entertainment" type=FWD name="d3nwj80emtnjeo.cloudfront.net" }
+:if ([:len [find name="d3stzm2eumvgb4.cloudfront.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-entertainment" type=FWD name="d3stzm2eumvgb4.cloudfront.net" }
 :if ([:len [find name="d3ucl0eqgl80l5.cloudfront.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-entertainment" type=FWD name="d3ucl0eqgl80l5.cloudfront.net" }
 :if ([:len [find name="d3vd9lfkzbru3h.cloudfront.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-entertainment" type=FWD name="d3vd9lfkzbru3h.cloudfront.net" }
 :if ([:len [find name="d6d4ismr40iw.cloudfront.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-entertainment" type=FWD name="d6d4ismr40iw.cloudfront.net" }
@@ -150,4 +151,3 @@
 :if ([:len [find name="hb4bbbbb.pmhcjk.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-entertainment" type=FWD name="hb4bbbbb.pmhcjk.com" }
 :if ([:len [find name="heads-ak-spotify-com.akamaized.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-entertainment" type=FWD name="heads-ak-spotify-com.akamaized.net" }
 :if ([:len [find name="heads4-ak-spotify-com.akamaized.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-entertainment" type=FWD name="heads4-ak-spotify-com.akamaized.net" }
-:if ([:len [find name="hls-amt.itunes.apple.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-entertainment" type=FWD name="hls-amt.itunes.apple.com" }

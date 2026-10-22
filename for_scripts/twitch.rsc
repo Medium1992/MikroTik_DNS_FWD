@@ -27,6 +27,7 @@
 :if ([:len [find name="d36nr0u3xmc4mm.cloudfront.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="twitch" type=FWD name="d36nr0u3xmc4mm.cloudfront.net" }
 :if ([:len [find name="d3aqoihi2n8ty8.cloudfront.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="twitch" type=FWD name="d3aqoihi2n8ty8.cloudfront.net" }
 :if ([:len [find name="d3c27h4odz752x.cloudfront.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="twitch" type=FWD name="d3c27h4odz752x.cloudfront.net" }
+:if ([:len [find name="d3stzm2eumvgb4.cloudfront.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="twitch" type=FWD name="d3stzm2eumvgb4.cloudfront.net" }
 :if ([:len [find name="d3vd9lfkzbru3h.cloudfront.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="twitch" type=FWD name="d3vd9lfkzbru3h.cloudfront.net" }
 :if ([:len [find name="d6d4ismr40iw.cloudfront.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="twitch" type=FWD name="d6d4ismr40iw.cloudfront.net" }
 :if ([:len [find name="d6tizftlrpuof.cloudfront.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="twitch" type=FWD name="d6tizftlrpuof.cloudfront.net" }
