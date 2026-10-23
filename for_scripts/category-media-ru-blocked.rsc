@@ -49,6 +49,7 @@
 :if ([:len [find name="meduza.io"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-media-ru-blocked" match-subdomain=yes type=FWD name="meduza.io" }
 :if ([:len [find name="metla.press"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-media-ru-blocked" match-subdomain=yes type=FWD name="metla.press" }
 :if ([:len [find name="mignews.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-media-ru-blocked" match-subdomain=yes type=FWD name="mignews.com" }
+:if ([:len [find name="navalny.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-media-ru-blocked" match-subdomain=yes type=FWD name="navalny.com" }
 :if ([:len [find name="newizv.ru"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-media-ru-blocked" match-subdomain=yes type=FWD name="newizv.ru" }
 :if ([:len [find name="newtimes.ru"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-media-ru-blocked" match-subdomain=yes type=FWD name="newtimes.ru" }
 :if ([:len [find name="novaya.media"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-media-ru-blocked" match-subdomain=yes type=FWD name="novaya.media" }

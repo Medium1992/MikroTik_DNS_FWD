@@ -15,6 +15,7 @@
 :if ([:len [find name="mos-gorsud.co"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="kinopub" match-subdomain=yes type=FWD name="mos-gorsud.co" }
 :if ([:len [find name="pushbr.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="kinopub" match-subdomain=yes type=FWD name="pushbr.com" }
 :if ([:len [find name="smarttvcdn.online"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="kinopub" match-subdomain=yes type=FWD name="smarttvcdn.online" }
+:if ([:len [find name="srvkp.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="kinopub" match-subdomain=yes type=FWD name="srvkp.com" }
 :if ([:len [find name="support-kp.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="kinopub" match-subdomain=yes type=FWD name="support-kp.com" }
 :if ([:len [find name="teleos.club"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="kinopub" match-subdomain=yes type=FWD name="teleos.club" }
 :if ([:len [find name="tsx.ovh"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="kinopub" match-subdomain=yes type=FWD name="tsx.ovh" }

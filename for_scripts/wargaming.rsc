@@ -9,6 +9,7 @@
 :if ([:len [find name="worldoftanks.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="wargaming" match-subdomain=yes type=FWD name="worldoftanks.com" }
 :if ([:len [find name="worldoftanks.eu"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="wargaming" match-subdomain=yes type=FWD name="worldoftanks.eu" }
 :if ([:len [find name="worldofwarplanes.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="wargaming" match-subdomain=yes type=FWD name="worldofwarplanes.com" }
+:if ([:len [find name="worldofwarships.asia"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="wargaming" match-subdomain=yes type=FWD name="worldofwarships.asia" }
 :if ([:len [find name="worldofwarships.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="wargaming" match-subdomain=yes type=FWD name="worldofwarships.com" }
 :if ([:len [find name="wotblitz.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="wargaming" match-subdomain=yes type=FWD name="wotblitz.com" }
 :if ([:len [find name="wowsblitz.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="wargaming" match-subdomain=yes type=FWD name="wowsblitz.com" }
