@@ -5,6 +5,7 @@
 :if ([:len [find name="1password.co"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-password-management" match-subdomain=yes type=FWD name="1password.co" }
 :if ([:len [find name="1password.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-password-management" match-subdomain=yes type=FWD name="1password.com" }
 :if ([:len [find name="1password.community"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-password-management" match-subdomain=yes type=FWD name="1password.community" }
+:if ([:len [find name="1password.dev"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-password-management" match-subdomain=yes type=FWD name="1password.dev" }
 :if ([:len [find name="1password.eu"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-password-management" match-subdomain=yes type=FWD name="1password.eu" }
 :if ([:len [find name="1password.io"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-password-management" match-subdomain=yes type=FWD name="1password.io" }
 :if ([:len [find name="1passwordservices.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-password-management" match-subdomain=yes type=FWD name="1passwordservices.com" }
