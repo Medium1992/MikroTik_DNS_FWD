@@ -29,6 +29,9 @@
 :if ([:len [find name="app-measurement-cn.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="alphabet" type=FWD name="app-measurement-cn.com" }
 :if ([:len [find name="app-measurement.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="alphabet" type=FWD name="app-measurement.com" }
 :if ([:len [find name="apps5.oingo.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="alphabet" type=FWD name="apps5.oingo.com" }
+:if ([:len [find name="appsgenaiserver-pa.clients.google.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="alphabet" type=FWD name="appsgenaiserver-pa.clients.google.com" }
+:if ([:len [find name="appsgenaiserver-pa.clients6.google.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="alphabet" type=FWD name="appsgenaiserver-pa.clients6.google.com" }
+:if ([:len [find name="appsgenaiserver-pa.googleapis.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="alphabet" type=FWD name="appsgenaiserver-pa.googleapis.com" }
 :if ([:len [find name="avail.googleflights.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="alphabet" type=FWD name="avail.googleflights.net" }
 :if ([:len [find name="beacons.gcp.gvt2.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="alphabet" type=FWD name="beacons.gcp.gvt2.com" }
 :if ([:len [find name="beacons.gvt2.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="alphabet" type=FWD name="beacons.gvt2.com" }
@@ -148,6 +151,3 @@
 :if ([:len [find name="safebrowsing.googleapis.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="alphabet" type=FWD name="safebrowsing.googleapis.com" }
 :if ([:len [find name="scholar.google.be"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="alphabet" type=FWD name="scholar.google.be" }
 :if ([:len [find name="scholar.google.cat"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="alphabet" type=FWD name="scholar.google.cat" }
-:if ([:len [find name="scholar.google.co.jp"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="alphabet" type=FWD name="scholar.google.co.jp" }
-:if ([:len [find name="scholar.google.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="alphabet" type=FWD name="scholar.google.com" }
-:if ([:len [find name="scholar.google.com.co"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="alphabet" type=FWD name="scholar.google.com.co" }

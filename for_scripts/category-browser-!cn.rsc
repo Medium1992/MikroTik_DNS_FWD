@@ -22,6 +22,7 @@
 :if ([:len [find name="iridiumbrowser.de"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-browser-!cn" match-subdomain=yes type=FWD name="iridiumbrowser.de" }
 :if ([:len [find name="kiwibrowser.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-browser-!cn" match-subdomain=yes type=FWD name="kiwibrowser.com" }
 :if ([:len [find name="kmeleonbrowser.org"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-browser-!cn" match-subdomain=yes type=FWD name="kmeleonbrowser.org" }
+:if ([:len [find name="librewolf.dev"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-browser-!cn" match-subdomain=yes type=FWD name="librewolf.dev" }
 :if ([:len [find name="librewolf.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-browser-!cn" match-subdomain=yes type=FWD name="librewolf.net" }
 :if ([:len [find name="minbrowser.org"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-browser-!cn" match-subdomain=yes type=FWD name="minbrowser.org" }
 :if ([:len [find name="netsurf-browser.org"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-browser-!cn" match-subdomain=yes type=FWD name="netsurf-browser.org" }

@@ -1,6 +1,9 @@
 :global AddressList
 :global ForwardTo
 /ip dns static
+:if ([:len [find name="scholar.google.co.jp"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="alphabet" type=FWD name="scholar.google.co.jp" }
+:if ([:len [find name="scholar.google.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="alphabet" type=FWD name="scholar.google.com" }
+:if ([:len [find name="scholar.google.com.co"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="alphabet" type=FWD name="scholar.google.com.co" }
 :if ([:len [find name="scholar.google.com.tw"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="alphabet" type=FWD name="scholar.google.com.tw" }
 :if ([:len [find name="scholar.google.de"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="alphabet" type=FWD name="scholar.google.de" }
 :if ([:len [find name="scholar.google.nl"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="alphabet" type=FWD name="scholar.google.nl" }

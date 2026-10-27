@@ -55,6 +55,7 @@
 :if ([:len [find name="xamarin.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="microsoft-dev" match-subdomain=yes type=FWD name="xamarin.com" }
 :if ([:len [find name="az764295.vo.msecnd.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="microsoft-dev" type=FWD name="az764295.vo.msecnd.net" }
 :if ([:len [find name="bingsettingssearch.trafficmanager.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="microsoft-dev" type=FWD name="bingsettingssearch.trafficmanager.net" }
+:if ([:len [find name="dc.services.visualstudio.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="microsoft-dev" type=FWD name="dc.services.visualstudio.com" }
 :if ([:len [find name="default.exp-tas.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="microsoft-dev" type=FWD name="default.exp-tas.com" }
 :if ([:len [find name="developer.microsoft.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="microsoft-dev" type=FWD name="developer.microsoft.com" }
 :if ([:len [find name="download.visualstudio.microsoft.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="microsoft-dev" type=FWD name="download.visualstudio.microsoft.com" }
@@ -64,6 +65,7 @@
 :if ([:len [find name="psg-int-centralus.cloudapp.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="microsoft-dev" type=FWD name="psg-int-centralus.cloudapp.net" }
 :if ([:len [find name="psg-int-eastus.cloudapp.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="microsoft-dev" type=FWD name="psg-int-eastus.cloudapp.net" }
 :if ([:len [find name="rink.hockeyapp.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="microsoft-dev" type=FWD name="rink.hockeyapp.net" }
+:if ([:len [find name="rt.services.visualstudio.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="microsoft-dev" type=FWD name="rt.services.visualstudio.com" }
 :if ([:len [find name="vscode-sync-insiders.trafficmanager.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="microsoft-dev" type=FWD name="vscode-sync-insiders.trafficmanager.net" }
 :if ([:len [find name="vscode-sync.trafficmanager.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="microsoft-dev" type=FWD name="vscode-sync.trafficmanager.net" }
 :if ([:len [find name="vscode.blob.core.windows.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="microsoft-dev" type=FWD name="vscode.blob.core.windows.net" }

@@ -3,6 +3,7 @@
 /ip dns static
 :if ([:len [find name="fast.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="netflix" match-subdomain=yes type=FWD name="fast.com" }
 :if ([:len [find name="netflix.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="netflix" match-subdomain=yes type=FWD name="netflix.com" }
+:if ([:len [find name="netflix.com.edgesuite.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="netflix" match-subdomain=yes type=FWD name="netflix.com.edgesuite.net" }
 :if ([:len [find name="netflix.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="netflix" match-subdomain=yes type=FWD name="netflix.net" }
 :if ([:len [find name="netflixdnstest0.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="netflix" match-subdomain=yes type=FWD name="netflixdnstest0.com" }
 :if ([:len [find name="netflixdnstest1.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="netflix" match-subdomain=yes type=FWD name="netflixdnstest1.com" }
@@ -23,7 +24,6 @@
 :if ([:len [find name="nflxsearch.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="netflix" match-subdomain=yes type=FWD name="nflxsearch.net" }
 :if ([:len [find name="nflxso.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="netflix" match-subdomain=yes type=FWD name="nflxso.net" }
 :if ([:len [find name="nflxvideo.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="netflix" match-subdomain=yes type=FWD name="nflxvideo.net" }
-:if ([:len [find name="netflix.com.edgesuite.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="netflix" type=FWD name="netflix.com.edgesuite.net" }
 :if ([:len [find regexp="(^|\\\\.)apiproxy-device-prod-nlb-.+\\\\.amazonaws\\\\.com\$"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="netflix" type=FWD regexp="(^|\\\\.)apiproxy-device-prod-nlb-.+\\\\.amazonaws\\\\.com\$" }
 :if ([:len [find regexp="(^|\\\\.)apiproxy-website-nlb-prod-.+\\\\.amazonaws\\\\.com\$"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="netflix" type=FWD regexp="(^|\\\\.)apiproxy-website-nlb-prod-.+\\\\.amazonaws\\\\.com\$" }
 :if ([:len [find regexp="(^|\\\\.)dualstack\\\\.apiproxy-.+\\\\.amazonaws\\\\.com\$"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="netflix" type=FWD regexp="(^|\\\\.)dualstack\\\\.apiproxy-.+\\\\.amazonaws\\\\.com\$" }

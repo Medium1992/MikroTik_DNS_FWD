@@ -73,6 +73,7 @@
 :if ([:len [find name="cosmosdb.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="azure" match-subdomain=yes type=FWD name="cosmosdb.net" }
 :if ([:len [find name="devopsms.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="azure" match-subdomain=yes type=FWD name="devopsms.com" }
 :if ([:len [find name="gotcosmos.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="azure" match-subdomain=yes type=FWD name="gotcosmos.com" }
+:if ([:len [find name="in.applicationinsights.azure.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="azure" match-subdomain=yes type=FWD name="in.applicationinsights.azure.com" }
 :if ([:len [find name="management-azure-devices-int.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="azure" match-subdomain=yes type=FWD name="management-azure-devices-int.net" }
 :if ([:len [find name="management-azure-devices.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="azure" match-subdomain=yes type=FWD name="management-azure-devices.net" }
 :if ([:len [find name="mcchcdn.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="azure" match-subdomain=yes type=FWD name="mcchcdn.com" }
@@ -90,3 +91,5 @@
 :if ([:len [find name="windowsazure.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="azure" match-subdomain=yes type=FWD name="windowsazure.com" }
 :if ([:len [find name="azure.microsoft.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="azure" type=FWD name="azure.microsoft.com" }
 :if ([:len [find name="azuremarketplace.microsoft.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="azure" type=FWD name="azuremarketplace.microsoft.com" }
+:if ([:len [find name="dc.applicationinsights.azure.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="azure" type=FWD name="dc.applicationinsights.azure.com" }
+:if ([:len [find name="live.applicationinsights.azure.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="azure" type=FWD name="live.applicationinsights.azure.com" }

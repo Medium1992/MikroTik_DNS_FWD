@@ -39,6 +39,9 @@
 :if ([:len [find name="alkalimakersuite-pa.clients6.google.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="google-deepmind" type=FWD name="alkalimakersuite-pa.clients6.google.com" }
 :if ([:len [find name="antigravity-pa.googleapis.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="google-deepmind" type=FWD name="antigravity-pa.googleapis.com" }
 :if ([:len [find name="antigravity.googleapis.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="google-deepmind" type=FWD name="antigravity.googleapis.com" }
+:if ([:len [find name="appsgenaiserver-pa.clients.google.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="google-deepmind" type=FWD name="appsgenaiserver-pa.clients.google.com" }
+:if ([:len [find name="appsgenaiserver-pa.clients6.google.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="google-deepmind" type=FWD name="appsgenaiserver-pa.clients6.google.com" }
+:if ([:len [find name="appsgenaiserver-pa.googleapis.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="google-deepmind" type=FWD name="appsgenaiserver-pa.googleapis.com" }
 :if ([:len [find name="cloudaicompanion.googleapis.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="google-deepmind" type=FWD name="cloudaicompanion.googleapis.com" }
 :if ([:len [find name="cloudcode-pa.googleapis.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="google-deepmind" type=FWD name="cloudcode-pa.googleapis.com" }
 :if ([:len [find name="daily-cloudcode-pa.googleapis.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="google-deepmind" type=FWD name="daily-cloudcode-pa.googleapis.com" }

@@ -24,7 +24,7 @@
 :if ([:len [find name="tebyan.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-ir" match-subdomain=yes type=FWD name="tebyan.net" }
 :if ([:len [find name="tehrantimes.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-ir" match-subdomain=yes type=FWD name="tehrantimes.com" }
 :if ([:len [find name="tejaratnews.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-ir" match-subdomain=yes type=FWD name="tejaratnews.com" }
-:if ([:len [find name="telewebion.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-ir" match-subdomain=yes type=FWD name="telewebion.com" }
+:if ([:len [find name="telewebion.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-ir" match-subdomain=yes type=FWD name="telewebion.net" }
 :if ([:len [find name="tetherland.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-ir" match-subdomain=yes type=FWD name="tetherland.com" }
 :if ([:len [find name="tgju.org"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-ir" match-subdomain=yes type=FWD name="tgju.org" }
 :if ([:len [find name="tipaxco.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-ir" match-subdomain=yes type=FWD name="tipaxco.com" }

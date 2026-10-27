@@ -24,7 +24,7 @@
 :if ([:len [find name="radioquran.ir"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-media-ir" match-subdomain=yes type=FWD name="radioquran.ir" }
 :if ([:len [find name="radiotehran.ir"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-media-ir" match-subdomain=yes type=FWD name="radiotehran.ir" }
 :if ([:len [find name="radiovarzesh.ir"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-media-ir" match-subdomain=yes type=FWD name="radiovarzesh.ir" }
-:if ([:len [find name="telewebion.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-media-ir" match-subdomain=yes type=FWD name="telewebion.com" }
+:if ([:len [find name="telewebion.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-media-ir" match-subdomain=yes type=FWD name="telewebion.net" }
 :if ([:len [find name="tmk.ir"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-media-ir" match-subdomain=yes type=FWD name="tmk.ir" }
 :if ([:len [find name="tv3.ir"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-media-ir" match-subdomain=yes type=FWD name="tv3.ir" }
 :if ([:len [find name="tv5.ir"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-media-ir" match-subdomain=yes type=FWD name="tv5.ir" }
