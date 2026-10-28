@@ -6,3 +6,4 @@
 :if ([:len [find name="schwabassetmanagement.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="schwab" match-subdomain=yes type=FWD name="schwabassetmanagement.com" }
 :if ([:len [find name="schwabcdn.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="schwab" match-subdomain=yes type=FWD name="schwabcdn.com" }
 :if ([:len [find name="schwabplan.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="schwab" match-subdomain=yes type=FWD name="schwabplan.com" }
+:if ([:len [find name="thinkorswim.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="schwab" match-subdomain=yes type=FWD name="thinkorswim.com" }

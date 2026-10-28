@@ -37,7 +37,9 @@
 :if ([:len [find name="seed.siri.apple.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="apple@cn" type=FWD name="seed.siri.apple.com" }
 :if ([:len [find name="sequoia.apple.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="apple@cn" type=FWD name="sequoia.apple.com" }
 :if ([:len [find name="sf-api-token-service.itunes.apple.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="apple@cn" type=FWD name="sf-api-token-service.itunes.apple.com" }
+:if ([:len [find name="sh-pod1-smp-device.apple.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="apple@cn" type=FWD name="sh-pod1-smp-device.apple.com" }
 :if ([:len [find name="sh-pod2-smp-device.apple.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="apple@cn" type=FWD name="sh-pod2-smp-device.apple.com" }
+:if ([:len [find name="sh-pod3-smp-device.apple.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="apple@cn" type=FWD name="sh-pod3-smp-device.apple.com" }
 :if ([:len [find name="shazam-insights.cdn-apple.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="apple@cn" type=FWD name="shazam-insights.cdn-apple.com" }
 :if ([:len [find name="smp-device-content.apple.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="apple@cn" type=FWD name="smp-device-content.apple.com" }
 :if ([:len [find name="sp.itunes.apple.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="apple@cn" type=FWD name="sp.itunes.apple.com" }

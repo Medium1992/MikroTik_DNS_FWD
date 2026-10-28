@@ -17,6 +17,7 @@
 :if ([:len [find name="messengerdevelopers.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="meta" match-subdomain=yes type=FWD name="messengerdevelopers.com" }
 :if ([:len [find name="meta.ai"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="meta" match-subdomain=yes type=FWD name="meta.ai" }
 :if ([:len [find name="meta.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="meta" match-subdomain=yes type=FWD name="meta.com" }
+:if ([:len [find name="metaaiusercontent.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="meta" match-subdomain=yes type=FWD name="metaaiusercontent.com" }
 :if ([:len [find name="metaaivm.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="meta" match-subdomain=yes type=FWD name="metaaivm.com" }
 :if ([:len [find name="midentsolutions.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="meta" match-subdomain=yes type=FWD name="midentsolutions.com" }
 :if ([:len [find name="mobilefacebook.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="meta" match-subdomain=yes type=FWD name="mobilefacebook.com" }
