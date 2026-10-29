@@ -1,6 +1,7 @@
 :global AddressList
 :global ForwardTo
 /ip dns static
+:if ([:len [find name="blzmedia-a.akamaihd.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" type=FWD name="blzmedia-a.akamaihd.net" }
 :if ([:len [find name="blznav.akamaized.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" type=FWD name="blznav.akamaized.net" }
 :if ([:len [find name="bnetcmsus-a.akamaihd.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" type=FWD name="bnetcmsus-a.akamaihd.net" }
 :if ([:len [find name="bnetproduct-a.akamaihd.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" type=FWD name="bnetproduct-a.akamaihd.net" }
@@ -150,4 +151,3 @@
 :if ([:len [find name="firebasedynamiclinks-ipv4.googleapis.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" type=FWD name="firebasedynamiclinks-ipv4.googleapis.com" }
 :if ([:len [find name="firebasedynamiclinks-ipv6.googleapis.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" type=FWD name="firebasedynamiclinks-ipv6.googleapis.com" }
 :if ([:len [find name="firebasedynamiclinks.googleapis.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" type=FWD name="firebasedynamiclinks.googleapis.com" }
-:if ([:len [find name="firebaseinappmessaging.googleapis.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" type=FWD name="firebaseinappmessaging.googleapis.com" }

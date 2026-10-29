@@ -1,6 +1,7 @@
 :global AddressList
 :global ForwardTo
 /ip dns static
+:if ([:len [find name="meguso.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" match-subdomain=yes type=FWD name="meguso.com" }
 :if ([:len [find name="meijinsen.jp"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" match-subdomain=yes type=FWD name="meijinsen.jp" }
 :if ([:len [find name="meilleurpornos.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" match-subdomain=yes type=FWD name="meilleurpornos.com" }
 :if ([:len [find name="meitula.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" match-subdomain=yes type=FWD name="meitula.net" }
@@ -150,4 +151,3 @@
 :if ([:len [find name="microsofthouse.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" match-subdomain=yes type=FWD name="microsofthouse.net" }
 :if ([:len [find name="microsoftinternetsafety.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" match-subdomain=yes type=FWD name="microsoftinternetsafety.net" }
 :if ([:len [find name="microsoftiotcentral.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" match-subdomain=yes type=FWD name="microsoftiotcentral.com" }
-:if ([:len [find name="microsoftiotinsiderlabs.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" match-subdomain=yes type=FWD name="microsoftiotinsiderlabs.com" }

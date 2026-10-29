@@ -105,6 +105,7 @@
 :if ([:len [find name="icqvideo.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-ru" match-subdomain=yes type=FWD name="icqvideo.com" }
 :if ([:len [find name="ideco.dev"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-ru" match-subdomain=yes type=FWD name="ideco.dev" }
 :if ([:len [find name="it-territory.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-ru" match-subdomain=yes type=FWD name="it-territory.com" }
+:if ([:len [find name="ivi.tv"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-ru" match-subdomain=yes type=FWD name="ivi.tv" }
 :if ([:len [find name="ivicdn.tv"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-ru" match-subdomain=yes type=FWD name="ivicdn.tv" }
 :if ([:len [find name="ixbt.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-ru" match-subdomain=yes type=FWD name="ixbt.com" }
 :if ([:len [find name="ixbt.games"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-ru" match-subdomain=yes type=FWD name="ixbt.games" }
@@ -150,4 +151,3 @@
 :if ([:len [find name="mail-carrotquest.io"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-ru" match-subdomain=yes type=FWD name="mail-carrotquest.io" }
 :if ([:len [find name="mailicq.org"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-ru" match-subdomain=yes type=FWD name="mailicq.org" }
 :if ([:len [find name="maritimebank.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-ru" match-subdomain=yes type=FWD name="maritimebank.com" }
-:if ([:len [find name="mc.yandex.ru"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-ru" match-subdomain=yes type=FWD name="mc.yandex.ru" }

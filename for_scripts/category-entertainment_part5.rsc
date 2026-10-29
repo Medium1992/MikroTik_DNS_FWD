@@ -55,6 +55,7 @@
 :if ([:len [find name="itunesu.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-entertainment" match-subdomain=yes type=FWD name="itunesu.net" }
 :if ([:len [find name="iutunes.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-entertainment" match-subdomain=yes type=FWD name="iutunes.com" }
 :if ([:len [find name="ivi.ru"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-entertainment" match-subdomain=yes type=FWD name="ivi.ru" }
+:if ([:len [find name="ivi.tv"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-entertainment" match-subdomain=yes type=FWD name="ivi.tv" }
 :if ([:len [find name="ivicdn.tv"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-entertainment" match-subdomain=yes type=FWD name="ivicdn.tv" }
 :if ([:len [find name="iyf.tv"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-entertainment" match-subdomain=yes type=FWD name="iyf.tv" }
 :if ([:len [find name="joinmaidez.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-entertainment" match-subdomain=yes type=FWD name="joinmaidez.com" }
@@ -150,4 +151,3 @@
 :if ([:len [find name="magicalmirai.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-entertainment" match-subdomain=yes type=FWD name="magicalmirai.com" }
 :if ([:len [find name="makearmanotwar.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-entertainment" match-subdomain=yes type=FWD name="makearmanotwar.com" }
 :if ([:len [find name="mangacopy.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-entertainment" match-subdomain=yes type=FWD name="mangacopy.com" }
-:if ([:len [find name="mangafuna.xyz"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-entertainment" match-subdomain=yes type=FWD name="mangafuna.xyz" }

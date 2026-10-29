@@ -1,6 +1,7 @@
 :global AddressList
 :global ForwardTo
 /ip dns static
+:if ([:len [find name="entitlements-edge.itunes.apple.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-entertainment" type=FWD name="entitlements-edge.itunes.apple.com" }
 :if ([:len [find name="espn.api.edge.bamgrid.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-entertainment" type=FWD name="espn.api.edge.bamgrid.com" }
 :if ([:len [find name="espn.hb.omtrdc.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-entertainment" type=FWD name="espn.hb.omtrdc.net" }
 :if ([:len [find name="espndotcom.tt.omtrdc.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-entertainment" type=FWD name="espndotcom.tt.omtrdc.net" }
@@ -150,4 +151,3 @@
 :if ([:len [find name="ubistatic2-a.akamaihd.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-entertainment" type=FWD name="ubistatic2-a.akamaihd.net" }
 :if ([:len [find name="ubistatic20-a.akamaihd.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-entertainment" type=FWD name="ubistatic20-a.akamaihd.net" }
 :if ([:len [find name="ubistatic21-a.akamaihd.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-entertainment" type=FWD name="ubistatic21-a.akamaihd.net" }
-:if ([:len [find name="ubistatic22-a.akamaihd.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-entertainment" type=FWD name="ubistatic22-a.akamaihd.net" }

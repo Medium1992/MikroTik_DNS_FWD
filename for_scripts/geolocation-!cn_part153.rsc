@@ -1,6 +1,7 @@
 :global AddressList
 :global ForwardTo
 /ip dns static
+:if ([:len [find name="practivate.adobe.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" type=FWD name="practivate.adobe.com" }
 :if ([:len [find name="prd-priconne-redive.akamaized.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" type=FWD name="prd-priconne-redive.akamaized.net" }
 :if ([:len [find name="preprod-publicca.googleapis.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" type=FWD name="preprod-publicca.googleapis.com" }
 :if ([:len [find name="prodforza.blob.core.windows.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" type=FWD name="prodforza.blob.core.windows.net" }
@@ -150,4 +151,3 @@
 :if ([:len [find name="tlmr-hamivideo2.cdn.hinet.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" type=FWD name="tlmr-hamivideo2.cdn.hinet.net" }
 :if ([:len [find name="tmdb-image-prod.b-cdn.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" type=FWD name="tmdb-image-prod.b-cdn.net" }
 :if ([:len [find name="tmdb-web-image-prod.b-cdn.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" type=FWD name="tmdb-web-image-prod.b-cdn.net" }
-:if ([:len [find name="trojan-gfw.github.io"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" type=FWD name="trojan-gfw.github.io" }
