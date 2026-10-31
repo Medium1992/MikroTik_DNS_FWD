@@ -57,6 +57,7 @@
 :if ([:len [find name="18comic-god.xyz"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-porn" match-subdomain=yes type=FWD name="18comic-god.xyz" }
 :if ([:len [find name="18comic.cc"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-porn" match-subdomain=yes type=FWD name="18comic.cc" }
 :if ([:len [find name="18comic.company"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-porn" match-subdomain=yes type=FWD name="18comic.company" }
+:if ([:len [find name="18comic.ink"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-porn" match-subdomain=yes type=FWD name="18comic.ink" }
 :if ([:len [find name="18comic.org"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-porn" match-subdomain=yes type=FWD name="18comic.org" }
 :if ([:len [find name="18comic.vip"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-porn" match-subdomain=yes type=FWD name="18comic.vip" }
 :if ([:len [find name="18commic.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-porn" match-subdomain=yes type=FWD name="18commic.com" }
@@ -150,4 +151,3 @@
 :if ([:len [find name="40somethingmag.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-porn" match-subdomain=yes type=FWD name="40somethingmag.com" }
 :if ([:len [find name="41maonn.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-porn" match-subdomain=yes type=FWD name="41maonn.com" }
 :if ([:len [find name="444.coffee"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-porn" match-subdomain=yes type=FWD name="444.coffee" }
-:if ([:len [find name="445gei.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-porn" match-subdomain=yes type=FWD name="445gei.com" }

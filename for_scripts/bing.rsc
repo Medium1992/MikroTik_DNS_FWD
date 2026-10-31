@@ -11,6 +11,7 @@
 :if ([:len [find name="bingapistatistics.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="bing" match-subdomain=yes type=FWD name="bingapistatistics.com" }
 :if ([:len [find name="bingparachute.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="bing" match-subdomain=yes type=FWD name="bingparachute.com" }
 :if ([:len [find name="bingsandbox.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="bing" match-subdomain=yes type=FWD name="bingsandbox.com" }
+:if ([:len [find name="bingstatic.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="bing" match-subdomain=yes type=FWD name="bingstatic.com" }
 :if ([:len [find name="bingvisualsearch.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="bing" match-subdomain=yes type=FWD name="bingvisualsearch.com" }
 :if ([:len [find name="bingworld.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="bing" match-subdomain=yes type=FWD name="bingworld.com" }
 :if ([:len [find name="bluehatnights.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="bing" match-subdomain=yes type=FWD name="bluehatnights.com" }

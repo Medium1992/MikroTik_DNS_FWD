@@ -6,6 +6,7 @@
 :if ([:len [find name="18comic-god.xyz"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="18comic" match-subdomain=yes type=FWD name="18comic-god.xyz" }
 :if ([:len [find name="18comic.cc"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="18comic" match-subdomain=yes type=FWD name="18comic.cc" }
 :if ([:len [find name="18comic.company"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="18comic" match-subdomain=yes type=FWD name="18comic.company" }
+:if ([:len [find name="18comic.ink"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="18comic" match-subdomain=yes type=FWD name="18comic.ink" }
 :if ([:len [find name="18comic.org"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="18comic" match-subdomain=yes type=FWD name="18comic.org" }
 :if ([:len [find name="18comic.vip"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="18comic" match-subdomain=yes type=FWD name="18comic.vip" }
 :if ([:len [find name="asjmapihost.cc"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="18comic" match-subdomain=yes type=FWD name="asjmapihost.cc" }

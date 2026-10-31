@@ -1,6 +1,7 @@
 :global AddressList
 :global ForwardTo
 /ip dns static
+:if ([:len [find name="freepornhdonlinegay.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-porn" match-subdomain=yes type=FWD name="freepornhdonlinegay.com" }
 :if ([:len [find name="freepornhentaigames.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-porn" match-subdomain=yes type=FWD name="freepornhentaigames.com" }
 :if ([:len [find name="freeporno.asia"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-porn" match-subdomain=yes type=FWD name="freeporno.asia" }
 :if ([:len [find name="freepornpreview.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-porn" match-subdomain=yes type=FWD name="freepornpreview.net" }
@@ -150,4 +151,3 @@
 :if ([:len [find name="gayvl.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-porn" match-subdomain=yes type=FWD name="gayvl.net" }
 :if ([:len [find name="gazounabi.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-porn" match-subdomain=yes type=FWD name="gazounabi.com" }
 :if ([:len [find name="gbluebooks.blogspot.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-porn" match-subdomain=yes type=FWD name="gbluebooks.blogspot.com" }
-:if ([:len [find name="gcolle.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-porn" match-subdomain=yes type=FWD name="gcolle.net" }
