@@ -5,3 +5,5 @@
 :if ([:len [find name="vodafone.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="vodafone" match-subdomain=yes type=FWD name="vodafone.com" }
 :if ([:len [find name="vodafone.de"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="vodafone" match-subdomain=yes type=FWD name="vodafone.de" }
 :if ([:len [find name="vodafone.nl"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="vodafone" match-subdomain=yes type=FWD name="vodafone.nl" }
+:if ([:len [find name="vodafoneziggo.nl"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="vodafone" match-subdomain=yes type=FWD name="vodafoneziggo.nl" }
+:if ([:len [find name="ziggo.nl"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="vodafone" match-subdomain=yes type=FWD name="ziggo.nl" }

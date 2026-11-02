@@ -14,6 +14,7 @@
 :if ([:len [find name="dbbuilding.fun"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="doubao" match-subdomain=yes type=FWD name="dbbuilding.fun" }
 :if ([:len [find name="doubao-dev.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="doubao" match-subdomain=yes type=FWD name="doubao-dev.com" }
 :if ([:len [find name="doubao.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="doubao" match-subdomain=yes type=FWD name="doubao.com" }
+:if ([:len [find name="doubaoapps.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="doubao" match-subdomain=yes type=FWD name="doubaoapps.com" }
 :if ([:len [find name="doubaocdn.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="doubao" match-subdomain=yes type=FWD name="doubaocdn.com" }
 :if ([:len [find name="instreet.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="doubao" match-subdomain=yes type=FWD name="instreet.com" }
 :if ([:len [find name="maoxiangai.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="doubao" match-subdomain=yes type=FWD name="maoxiangai.com" }

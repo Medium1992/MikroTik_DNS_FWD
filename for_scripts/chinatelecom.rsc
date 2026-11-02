@@ -10,4 +10,5 @@
 :if ([:len [find name="chntel.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="chinatelecom" match-subdomain=yes type=FWD name="chntel.com" }
 :if ([:len [find name="ctexcel.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="chinatelecom" match-subdomain=yes type=FWD name="ctexcel.com" }
 :if ([:len [find name="ctexcel.us"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="chinatelecom" match-subdomain=yes type=FWD name="ctexcel.us" }
+:if ([:len [find name="mnc011.mcc460.pub.3gppnetwork.org"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="chinatelecom" match-subdomain=yes type=FWD name="mnc011.mcc460.pub.3gppnetwork.org" }
 :if ([:len [find name="tv189.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="chinatelecom" match-subdomain=yes type=FWD name="tv189.com" }

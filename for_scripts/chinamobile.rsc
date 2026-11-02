@@ -22,6 +22,10 @@
 :if ([:len [find name="miguvideo.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="chinamobile" match-subdomain=yes type=FWD name="miguvideo.com" }
 :if ([:len [find name="mmarket.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="chinamobile" match-subdomain=yes type=FWD name="mmarket.com" }
 :if ([:len [find name="mmarket6.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="chinamobile" match-subdomain=yes type=FWD name="mmarket6.com" }
+:if ([:len [find name="mnc000.mcc460.pub.3gppnetwork.org"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="chinamobile" match-subdomain=yes type=FWD name="mnc000.mcc460.pub.3gppnetwork.org" }
+:if ([:len [find name="mnc002.mcc460.pub.3gppnetwork.org"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="chinamobile" match-subdomain=yes type=FWD name="mnc002.mcc460.pub.3gppnetwork.org" }
+:if ([:len [find name="mnc004.mcc460.pub.3gppnetwork.org"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="chinamobile" match-subdomain=yes type=FWD name="mnc004.mcc460.pub.3gppnetwork.org" }
+:if ([:len [find name="mnc007.mcc460.pub.3gppnetwork.org"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="chinamobile" match-subdomain=yes type=FWD name="mnc007.mcc460.pub.3gppnetwork.org" }
 :if ([:len [find name="speedtest.hk.chinamobile.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="chinamobile" match-subdomain=yes type=FWD name="speedtest.hk.chinamobile.com" }
 :if ([:len [find name="speedtestbb.hk.chinamobile.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="chinamobile" match-subdomain=yes type=FWD name="speedtestbb.hk.chinamobile.com" }
 :if ([:len [find name="zdsdp.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="chinamobile" match-subdomain=yes type=FWD name="zdsdp.com" }
