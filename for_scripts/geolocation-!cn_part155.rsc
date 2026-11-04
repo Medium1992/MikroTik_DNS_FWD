@@ -1,6 +1,8 @@
 :global AddressList
 :global ForwardTo
 /ip dns static
+:if ([:len [find name="wwis-dubc1-vip63.adobe.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" type=FWD name="wwis-dubc1-vip63.adobe.com" }
+:if ([:len [find name="wwis-dubc1-vip64.adobe.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" type=FWD name="wwis-dubc1-vip64.adobe.com" }
 :if ([:len [find name="wwis-dubc1-vip65.adobe.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" type=FWD name="wwis-dubc1-vip65.adobe.com" }
 :if ([:len [find name="wwis-dubc1-vip66.adobe.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" type=FWD name="wwis-dubc1-vip66.adobe.com" }
 :if ([:len [find name="wwis-dubc1-vip67.adobe.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" type=FWD name="wwis-dubc1-vip67.adobe.com" }
@@ -57,7 +59,7 @@
 :if ([:len [find regexp="(^|\\\\.)783([a-z][a-z]\?)\?\\\\.tv\$"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" type=FWD regexp="(^|\\\\.)783([a-z][a-z]\?)\?\\\\.tv\$" }
 :if ([:len [find regexp="(^|\\\\.)7mm0([0-1][0-9]\?)\?\\\\.com\$"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" type=FWD regexp="(^|\\\\.)7mm0([0-1][0-9]\?)\?\\\\.com\$" }
 :if ([:len [find regexp="(^|\\\\.)8dgo[1-57-9]\\\\.com\$"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" type=FWD regexp="(^|\\\\.)8dgo[1-57-9]\\\\.com\$" }
-:if ([:len [find regexp="(^|\\\\.)91cg([1-9]|[0-9][1-9])\?.com\$"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" type=FWD regexp="(^|\\\\.)91cg([1-9]|[0-9][1-9])\?.com\$" }
+:if ([:len [find regexp="(^|\\\\.)91cg([1-9]|[0-9][1-9])\?\\\\.com\$"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" type=FWD regexp="(^|\\\\.)91cg([1-9]|[0-9][1-9])\?\\\\.com\$" }
 :if ([:len [find regexp="(^|\\\\.)91p[0-9][0-9]\?\\\\.com\$"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" type=FWD regexp="(^|\\\\.)91p[0-9][0-9]\?\\\\.com\$" }
 :if ([:len [find regexp="(^|\\\\.)91porn[0-9]\?\\\\.store\$"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" type=FWD regexp="(^|\\\\.)91porn[0-9]\?\\\\.store\$" }
 :if ([:len [find regexp="(^|\\\\.)91porn[0-9]{3}\\\\.me\$"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" type=FWD regexp="(^|\\\\.)91porn[0-9]{3}\\\\.me\$" }
@@ -116,6 +118,7 @@
 :if ([:len [find regexp="(^|\\\\.)hkfg[1-7]\\\\.xyz\$"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" type=FWD regexp="(^|\\\\.)hkfg[1-7]\\\\.xyz\$" }
 :if ([:len [find regexp="(^|\\\\.)hs[1-9]{2}\\\\.vip\$"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" type=FWD regexp="(^|\\\\.)hs[1-9]{2}\\\\.vip\$" }
 :if ([:len [find regexp="(^|\\\\.)jav777\\\\.(cc|tv|work)\$"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" type=FWD regexp="(^|\\\\.)jav777\\\\.(cc|tv|work)\$" }
+:if ([:len [find regexp="(^|\\\\.)javdb\\\\d+\\\\.com\$"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" type=FWD regexp="(^|\\\\.)javdb\\\\d+\\\\.com\$" }
 :if ([:len [find regexp="(^|\\\\.)jb[1-9][0-9]\\\\.lol\$"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" type=FWD regexp="(^|\\\\.)jb[1-9][0-9]\\\\.lol\$" }
 :if ([:len [find regexp="(^|\\\\.)jbk0([0-1][0-9]\?)\?\\\\.com\$"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" type=FWD regexp="(^|\\\\.)jbk0([0-1][0-9]\?)\?\\\\.com\$" }
 :if ([:len [find regexp="(^|\\\\.)jdyy[1-9]\?\\\\.me\$"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" type=FWD regexp="(^|\\\\.)jdyy[1-9]\?\\\\.me\$" }
@@ -148,6 +151,3 @@
 :if ([:len [find regexp="(^|\\\\.)rbp[1-9][0-9]\\\\.com\$"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" type=FWD regexp="(^|\\\\.)rbp[1-9][0-9]\\\\.com\$" }
 :if ([:len [find regexp="(^|\\\\.)rbyh[1-9]\\\\.buzz\$"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" type=FWD regexp="(^|\\\\.)rbyh[1-9]\\\\.buzz\$" }
 :if ([:len [find regexp="(^|\\\\.)rule34\\\\.(asia|us|world|xxx|xyz)\$"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" type=FWD regexp="(^|\\\\.)rule34\\\\.(asia|us|world|xxx|xyz)\$" }
-:if ([:len [find regexp="(^|\\\\.)sao[1-6]0000\\\\.com\$"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" type=FWD regexp="(^|\\\\.)sao[1-6]0000\\\\.com\$" }
-:if ([:len [find regexp="(^|\\\\.)sbyjs2[6-9]\\\\.buzz\$"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" type=FWD regexp="(^|\\\\.)sbyjs2[6-9]\\\\.buzz\$" }
-:if ([:len [find regexp="(^|\\\\.)sg11[3-9]\\\\.me\$"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" type=FWD regexp="(^|\\\\.)sg11[3-9]\\\\.me\$" }
