@@ -3,6 +3,7 @@
 /ip dns static
 :if ([:len [find name="allawnfs.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="oppo" match-subdomain=yes type=FWD name="allawnfs.com" }
 :if ([:len [find name="allawno.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="oppo" match-subdomain=yes type=FWD name="allawno.com" }
+:if ([:len [find name="allawnofs.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="oppo" match-subdomain=yes type=FWD name="allawnofs.com" }
 :if ([:len [find name="allawntech.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="oppo" match-subdomain=yes type=FWD name="allawntech.com" }
 :if ([:len [find name="coloros.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="oppo" match-subdomain=yes type=FWD name="coloros.com" }
 :if ([:len [find name="coloros.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="oppo" match-subdomain=yes type=FWD name="coloros.net" }
