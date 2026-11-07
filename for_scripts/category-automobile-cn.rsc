@@ -22,7 +22,12 @@
 :if ([:len [find name="guazistatic.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-automobile-cn" match-subdomain=yes type=FWD name="guazistatic.com" }
 :if ([:len [find name="izuche.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-automobile-cn" match-subdomain=yes type=FWD name="izuche.com" }
 :if ([:len [find name="izuchebao.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-automobile-cn" match-subdomain=yes type=FWD name="izuchebao.com" }
+:if ([:len [find name="jiakaobaodian.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-automobile-cn" match-subdomain=yes type=FWD name="jiakaobaodian.com" }
+:if ([:len [find name="kakamobi.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-automobile-cn" match-subdomain=yes type=FWD name="kakamobi.com" }
 :if ([:len [find name="lixiang.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-automobile-cn" match-subdomain=yes type=FWD name="lixiang.com" }
+:if ([:len [find name="lynkco-test.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-automobile-cn" match-subdomain=yes type=FWD name="lynkco-test.com" }
+:if ([:len [find name="lynkco.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-automobile-cn" match-subdomain=yes type=FWD name="lynkco.com" }
+:if ([:len [find name="maiche.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-automobile-cn" match-subdomain=yes type=FWD name="maiche.com" }
 :if ([:len [find name="nio.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-automobile-cn" match-subdomain=yes type=FWD name="nio.com" }
 :if ([:len [find name="niohome.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-automobile-cn" match-subdomain=yes type=FWD name="niohome.com" }
 :if ([:len [find name="wkzuche.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-automobile-cn" match-subdomain=yes type=FWD name="wkzuche.com" }

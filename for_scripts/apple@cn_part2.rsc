@@ -23,6 +23,7 @@
 :if ([:len [find name="probe.siri.apple.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="apple@cn" type=FWD name="probe.siri.apple.com" }
 :if ([:len [find name="prod-support.apple-support.akadns.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="apple@cn" type=FWD name="prod-support.apple-support.akadns.net" }
 :if ([:len [find name="publicassets.cdn-apple.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="apple@cn" type=FWD name="publicassets.cdn-apple.com" }
+:if ([:len [find name="radio.itunes.apple.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="apple@cn" type=FWD name="radio.itunes.apple.com" }
 :if ([:len [find name="s.mzstatic.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="apple@cn" type=FWD name="s.mzstatic.com" }
 :if ([:len [find name="s1.mzstatic.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="apple@cn" type=FWD name="s1.mzstatic.com" }
 :if ([:len [find name="s2.mzstatic.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="apple@cn" type=FWD name="s2.mzstatic.com" }

@@ -44,6 +44,7 @@
 :if ([:len [find name="qiyukf.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="netease" match-subdomain=yes type=FWD name="qiyukf.net" }
 :if ([:len [find name="sentry.music.163.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="netease" match-subdomain=yes type=FWD name="sentry.music.163.com" }
 :if ([:len [find name="static163.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="netease" match-subdomain=yes type=FWD name="static163.net" }
+:if ([:len [find name="ydshengxue.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="netease" match-subdomain=yes type=FWD name="ydshengxue.com" }
 :if ([:len [find name="ydstatic.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="netease" match-subdomain=yes type=FWD name="ydstatic.com" }
 :if ([:len [find name="yeah.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="netease" match-subdomain=yes type=FWD name="yeah.net" }
 :if ([:len [find name="youdao.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="netease" match-subdomain=yes type=FWD name="youdao.com" }

@@ -21,6 +21,7 @@
 :if ([:len [find name="hhtravel.com.tw"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="ctrip" match-subdomain=yes type=FWD name="hhtravel.com.tw" }
 :if ([:len [find name="izuchebao.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="ctrip" match-subdomain=yes type=FWD name="izuchebao.com" }
 :if ([:len [find name="lvtds.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="ctrip" match-subdomain=yes type=FWD name="lvtds.com" }
+:if ([:len [find name="qunaer.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="ctrip" match-subdomain=yes type=FWD name="qunaer.com" }
 :if ([:len [find name="qunar.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="ctrip" match-subdomain=yes type=FWD name="qunar.com" }
 :if ([:len [find name="qunarcdn.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="ctrip" match-subdomain=yes type=FWD name="qunarcdn.com" }
 :if ([:len [find name="qunarzz.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="ctrip" match-subdomain=yes type=FWD name="qunarzz.com" }

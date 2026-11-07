@@ -1,6 +1,15 @@
 :global AddressList
 :global ForwardTo
 /ip dns static
+:if ([:len [find name="ulogs.umeng.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-ads-and-telemetry@telemetry" match-subdomain=yes type=FWD name="ulogs.umeng.com" }
+:if ([:len [find name="ulogs.umengcloud.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-ads-and-telemetry@telemetry" match-subdomain=yes type=FWD name="ulogs.umengcloud.com" }
+:if ([:len [find name="v6-adashx.ut.amap.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-ads-and-telemetry@telemetry" match-subdomain=yes type=FWD name="v6-adashx.ut.amap.com" }
+:if ([:len [find name="v6-adashx.ut.cainiao.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-ads-and-telemetry@telemetry" match-subdomain=yes type=FWD name="v6-adashx.ut.cainiao.com" }
+:if ([:len [find name="v6-adashx.ut.ele.me"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-ads-and-telemetry@telemetry" match-subdomain=yes type=FWD name="v6-adashx.ut.ele.me" }
+:if ([:len [find name="v6-adashx.ut.taobao.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-ads-and-telemetry@telemetry" match-subdomain=yes type=FWD name="v6-adashx.ut.taobao.com" }
+:if ([:len [find name="v6-adashx.ut.youku.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-ads-and-telemetry@telemetry" match-subdomain=yes type=FWD name="v6-adashx.ut.youku.com" }
+:if ([:len [find name="volceapplog.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-ads-and-telemetry@telemetry" match-subdomain=yes type=FWD name="volceapplog.com" }
+:if ([:len [find name="webvisor.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-ads-and-telemetry@telemetry" match-subdomain=yes type=FWD name="webvisor.com" }
 :if ([:len [find name="webvisor.org"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-ads-and-telemetry@telemetry" match-subdomain=yes type=FWD name="webvisor.org" }
 :if ([:len [find name="yandex-metrica.ru"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-ads-and-telemetry@telemetry" match-subdomain=yes type=FWD name="yandex-metrica.ru" }
 :if ([:len [find name="yandexmetrica.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-ads-and-telemetry@telemetry" match-subdomain=yes type=FWD name="yandexmetrica.com" }
