@@ -19,4 +19,6 @@
 :if ([:len [find name="claudepages.dev"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="anthropic" match-subdomain=yes type=FWD name="claudepages.dev" }
 :if ([:len [find name="claudestudio.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="anthropic" match-subdomain=yes type=FWD name="claudestudio.com" }
 :if ([:len [find name="claudeusercontent.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="anthropic" match-subdomain=yes type=FWD name="claudeusercontent.com" }
+:if ([:len [find name="http-intake.logs.us5.datadoghq.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="anthropic" type=FWD name="http-intake.logs.us5.datadoghq.com" }
+:if ([:len [find name="o1158394.ingest.us.sentry.io"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="anthropic" type=FWD name="o1158394.ingest.us.sentry.io" }
 :if ([:len [find name="servd-anthropic-website.b-cdn.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="anthropic" type=FWD name="servd-anthropic-website.b-cdn.net" }
