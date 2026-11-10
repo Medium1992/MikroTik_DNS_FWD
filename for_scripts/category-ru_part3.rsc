@@ -7,6 +7,7 @@
 :if ([:len [find name="medrocket.me"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-ru" match-subdomain=yes type=FWD name="medrocket.me" }
 :if ([:len [find name="medsi.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-ru" match-subdomain=yes type=FWD name="medsi.com" }
 :if ([:len [find name="medsi.pro"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-ru" match-subdomain=yes type=FWD name="medsi.pro" }
+:if ([:len [find name="megabitus.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-ru" match-subdomain=yes type=FWD name="megabitus.com" }
 :if ([:len [find name="megafon.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-ru" match-subdomain=yes type=FWD name="megafon.com" }
 :if ([:len [find name="megamarket.tech"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-ru" match-subdomain=yes type=FWD name="megamarket.tech" }
 :if ([:len [find name="mel.fm"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-ru" match-subdomain=yes type=FWD name="mel.fm" }
@@ -150,4 +151,3 @@
 :if ([:len [find name="rtde.world"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-ru" match-subdomain=yes type=FWD name="rtde.world" }
 :if ([:len [find name="rtde.xyz"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-ru" match-subdomain=yes type=FWD name="rtde.xyz" }
 :if ([:len [find name="rtdefree.info"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-ru" match-subdomain=yes type=FWD name="rtdefree.info" }
-:if ([:len [find name="rtdefree.me"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-ru" match-subdomain=yes type=FWD name="rtdefree.me" }

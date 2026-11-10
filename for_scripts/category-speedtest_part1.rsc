@@ -45,6 +45,7 @@
 :if ([:len [find name="liveinternetspeed.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-speedtest" match-subdomain=yes type=FWD name="liveinternetspeed.com" }
 :if ([:len [find name="measurement-lab.org"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-speedtest" match-subdomain=yes type=FWD name="measurement-lab.org" }
 :if ([:len [find name="measurementlab.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-speedtest" match-subdomain=yes type=FWD name="measurementlab.net" }
+:if ([:len [find name="megabitus.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-speedtest" match-subdomain=yes type=FWD name="megabitus.com" }
 :if ([:len [find name="meter.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-speedtest" match-subdomain=yes type=FWD name="meter.net" }
 :if ([:len [find name="metercustom.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-speedtest" match-subdomain=yes type=FWD name="metercustom.net" }
 :if ([:len [find name="minsoku.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-speedtest" match-subdomain=yes type=FWD name="minsoku.net" }
@@ -150,4 +151,3 @@
 :if ([:len [find name="speedtest.xfinity.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-speedtest" match-subdomain=yes type=FWD name="speedtest.xfinity.com" }
 :if ([:len [find name="speedtest.xn--qxam"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-speedtest" match-subdomain=yes type=FWD name="speedtest.xn--qxam" }
 :if ([:len [find name="speedtest.xyz"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-speedtest" match-subdomain=yes type=FWD name="speedtest.xyz" }
-:if ([:len [find name="speedtest24.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-speedtest" match-subdomain=yes type=FWD name="speedtest24.net" }

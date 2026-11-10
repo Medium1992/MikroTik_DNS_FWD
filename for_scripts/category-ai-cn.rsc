@@ -56,6 +56,7 @@
 :if ([:len [find name="minimaxi.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-ai-cn" match-subdomain=yes type=FWD name="minimaxi.com" }
 :if ([:len [find name="myparallelstory.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-ai-cn" match-subdomain=yes type=FWD name="myparallelstory.com" }
 :if ([:len [find name="namiso.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-ai-cn" match-subdomain=yes type=FWD name="namiso.com" }
+:if ([:len [find name="nia-teams.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-ai-cn" match-subdomain=yes type=FWD name="nia-teams.com" }
 :if ([:len [find name="obriccloud.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-ai-cn" match-subdomain=yes type=FWD name="obriccloud.com" }
 :if ([:len [find name="obricclouddw.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-ai-cn" match-subdomain=yes type=FWD name="obricclouddw.com" }
 :if ([:len [find name="oceancloudapi.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-ai-cn" match-subdomain=yes type=FWD name="oceancloudapi.com" }

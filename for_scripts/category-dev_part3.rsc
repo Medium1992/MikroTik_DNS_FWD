@@ -1,6 +1,8 @@
 :global AddressList
 :global ForwardTo
 /ip dns static
+:if ([:len [find name="microsoftgamestack.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-dev" match-subdomain=yes type=FWD name="microsoftgamestack.com" }
+:if ([:len [find name="microsoftiotinsiderlabs.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-dev" match-subdomain=yes type=FWD name="microsoftiotinsiderlabs.com" }
 :if ([:len [find name="microsoftreactor.info"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-dev" match-subdomain=yes type=FWD name="microsoftreactor.info" }
 :if ([:len [find name="microsoftreactor.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-dev" match-subdomain=yes type=FWD name="microsoftreactor.net" }
 :if ([:len [find name="microsoftreactor.org"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-dev" match-subdomain=yes type=FWD name="microsoftreactor.org" }
@@ -149,5 +151,3 @@
 :if ([:len [find name="sentry-cdn.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-dev" match-subdomain=yes type=FWD name="sentry-cdn.com" }
 :if ([:len [find name="sentry.dev"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-dev" match-subdomain=yes type=FWD name="sentry.dev" }
 :if ([:len [find name="sentry.io"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-dev" match-subdomain=yes type=FWD name="sentry.io" }
-:if ([:len [find name="serverfault.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-dev" match-subdomain=yes type=FWD name="serverfault.com" }
-:if ([:len [find name="servicetalk.io"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-dev" match-subdomain=yes type=FWD name="servicetalk.io" }

@@ -70,6 +70,8 @@
 :if ([:len [find name="golang.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-dev" match-subdomain=yes type=FWD name="golang.com" }
 :if ([:len [find name="golang.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-dev" match-subdomain=yes type=FWD name="golang.net" }
 :if ([:len [find name="golang.org"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-dev" match-subdomain=yes type=FWD name="golang.org" }
+:if ([:len [find name="grafana.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-dev" match-subdomain=yes type=FWD name="grafana.com" }
+:if ([:len [find name="grafana.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-dev" match-subdomain=yes type=FWD name="grafana.net" }
 :if ([:len [find name="graphengine.io"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-dev" match-subdomain=yes type=FWD name="graphengine.io" }
 :if ([:len [find name="grazie.ai"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-dev" match-subdomain=yes type=FWD name="grazie.ai" }
 :if ([:len [find name="hacklang.org"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-dev" match-subdomain=yes type=FWD name="hacklang.org" }
@@ -149,5 +151,3 @@
 :if ([:len [find name="metacpan.org"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-dev" match-subdomain=yes type=FWD name="metacpan.org" }
 :if ([:len [find name="microbit.org"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-dev" match-subdomain=yes type=FWD name="microbit.org" }
 :if ([:len [find name="microsoftadc.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-dev" match-subdomain=yes type=FWD name="microsoftadc.com" }
-:if ([:len [find name="microsoftgamestack.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-dev" match-subdomain=yes type=FWD name="microsoftgamestack.com" }
-:if ([:len [find name="microsoftiotinsiderlabs.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-dev" match-subdomain=yes type=FWD name="microsoftiotinsiderlabs.com" }
