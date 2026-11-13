@@ -10,5 +10,6 @@
 :if ([:len [find name="googleplaycensorship.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="greatfire" match-subdomain=yes type=FWD name="googleplaycensorship.com" }
 :if ([:len [find name="greatfire.org"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="greatfire" match-subdomain=yes type=FWD name="greatfire.org" }
 :if ([:len [find name="greatfirevpn.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="greatfire" match-subdomain=yes type=FWD name="greatfirevpn.com" }
+:if ([:len [find name="manyvoices.news"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="greatfire" match-subdomain=yes type=FWD name="manyvoices.news" }
 :if ([:len [find name="pao-pao.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="greatfire" match-subdomain=yes type=FWD name="pao-pao.net" }
 :if ([:len [find name="wikiunblocked.org"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="greatfire" match-subdomain=yes type=FWD name="wikiunblocked.org" }

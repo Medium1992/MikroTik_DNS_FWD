@@ -64,6 +64,7 @@
 :if ([:len [find name="karing.app"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-anticensorship" match-subdomain=yes type=FWD name="karing.app" }
 :if ([:len [find name="lantern.io"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-anticensorship" match-subdomain=yes type=FWD name="lantern.io" }
 :if ([:len [find name="lokinet.org"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-anticensorship" match-subdomain=yes type=FWD name="lokinet.org" }
+:if ([:len [find name="manyvoices.news"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-anticensorship" match-subdomain=yes type=FWD name="manyvoices.news" }
 :if ([:len [find name="metacubex.one"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-anticensorship" match-subdomain=yes type=FWD name="metacubex.one" }
 :if ([:len [find name="nftstorage.link"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-anticensorship" match-subdomain=yes type=FWD name="nftstorage.link" }
 :if ([:len [find name="nsloon.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-anticensorship" match-subdomain=yes type=FWD name="nsloon.com" }
