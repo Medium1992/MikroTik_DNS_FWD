@@ -102,6 +102,7 @@
 :if ([:len [find name="cryptomus.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-cryptocurrency" match-subdomain=yes type=FWD name="cryptomus.com" }
 :if ([:len [find name="cyberx.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-cryptocurrency" match-subdomain=yes type=FWD name="cyberx.com" }
 :if ([:len [find name="debank.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-cryptocurrency" match-subdomain=yes type=FWD name="debank.com" }
+:if ([:len [find name="debot.ai"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-cryptocurrency" match-subdomain=yes type=FWD name="debot.ai" }
 :if ([:len [find name="delets.cash"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-cryptocurrency" match-subdomain=yes type=FWD name="delets.cash" }
 :if ([:len [find name="delets.online"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-cryptocurrency" match-subdomain=yes type=FWD name="delets.online" }
 :if ([:len [find name="deribit.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-cryptocurrency" match-subdomain=yes type=FWD name="deribit.com" }
@@ -150,4 +151,3 @@
 :if ([:len [find name="lighter.exchange"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-cryptocurrency" match-subdomain=yes type=FWD name="lighter.exchange" }
 :if ([:len [find name="lighter.xyz"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-cryptocurrency" match-subdomain=yes type=FWD name="lighter.xyz" }
 :if ([:len [find name="litecoin.org"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-cryptocurrency" match-subdomain=yes type=FWD name="litecoin.org" }
-:if ([:len [find name="localbitcoins.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-cryptocurrency" match-subdomain=yes type=FWD name="localbitcoins.com" }

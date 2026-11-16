@@ -1,6 +1,7 @@
 :global AddressList
 :global ForwardTo
 /ip dns static
+:if ([:len [find name="drbeatsukmart.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" match-subdomain=yes type=FWD name="drbeatsukmart.com" }
 :if ([:len [find name="drdre-beats.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" match-subdomain=yes type=FWD name="drdre-beats.com" }
 :if ([:len [find name="drdrebeats-chen.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" match-subdomain=yes type=FWD name="drdrebeats-chen.com" }
 :if ([:len [find name="drdrebeats-headphone.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" match-subdomain=yes type=FWD name="drdrebeats-headphone.com" }
@@ -150,4 +151,3 @@
 :if ([:len [find name="europeansustainabledesigncouncil.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" match-subdomain=yes type=FWD name="europeansustainabledesigncouncil.com" }
 :if ([:len [find name="europeansustainabledesigncouncil.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" match-subdomain=yes type=FWD name="europeansustainabledesigncouncil.net" }
 :if ([:len [find name="evalviewer.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" match-subdomain=yes type=FWD name="evalviewer.com" }
-:if ([:len [find name="evolver.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" match-subdomain=yes type=FWD name="evolver.com" }

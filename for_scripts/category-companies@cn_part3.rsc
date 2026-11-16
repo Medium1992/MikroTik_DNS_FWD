@@ -1,6 +1,8 @@
 :global AddressList
 :global ForwardTo
 /ip dns static
+:if ([:len [find name="imasdk.googleapis.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies@cn" type=FWD name="imasdk.googleapis.com" }
+:if ([:len [find name="inappcheck-cn.itunes-apple.com.akadns.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies@cn" type=FWD name="inappcheck-cn.itunes-apple.com.akadns.net" }
 :if ([:len [find name="inappcheck-lb.itunes-apple.com.akadns.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies@cn" type=FWD name="inappcheck-lb.itunes-apple.com.akadns.net" }
 :if ([:len [find name="inappcheck.itunes.apple.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies@cn" type=FWD name="inappcheck.itunes.apple.com" }
 :if ([:len [find name="init-kt.apple.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies@cn" type=FWD name="init-kt.apple.com" }
@@ -79,10 +81,12 @@
 :if ([:len [find name="msdprod-ad.download.prss.microsoft.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies@cn" type=FWD name="msdprod-ad.download.prss.microsoft.com" }
 :if ([:len [find name="msproduct.download.prss.microsoft.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies@cn" type=FWD name="msproduct.download.prss.microsoft.com" }
 :if ([:len [find name="music.apple.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies@cn" type=FWD name="music.apple.com" }
+:if ([:len [find name="musicstatus.itunes.apple.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies@cn" type=FWD name="musicstatus.itunes.apple.com" }
 :if ([:len [find name="musicstatus.music.apple.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies@cn" type=FWD name="musicstatus.music.apple.com" }
 :if ([:len [find name="mvod.itunes.apple.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies@cn" type=FWD name="mvod.itunes.apple.com" }
 :if ([:len [find name="myapp.itunes.apple.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies@cn" type=FWD name="myapp.itunes.apple.com" }
 :if ([:len [find name="myvs.download.prss.microsoft.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies@cn" type=FWD name="myvs.download.prss.microsoft.com" }
+:if ([:len [find name="mzstorekit.itunes.apple.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies@cn" type=FWD name="mzstorekit.itunes.apple.com" }
 :if ([:len [find name="np-edge.itunes.apple.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies@cn" type=FWD name="np-edge.itunes.apple.com" }
 :if ([:len [find name="o.pki.goog"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies@cn" type=FWD name="o.pki.goog" }
 :if ([:len [find name="ocsp.apple.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies@cn" type=FWD name="ocsp.apple.com" }
@@ -147,7 +151,3 @@
 :if ([:len [find name="redirector.c.pack.google.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies@cn" type=FWD name="redirector.c.pack.google.com" }
 :if ([:len [find name="redirector.c.play.google.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies@cn" type=FWD name="redirector.c.play.google.com" }
 :if ([:len [find name="redirector.c.youtubeeducation.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies@cn" type=FWD name="redirector.c.youtubeeducation.com" }
-:if ([:len [find name="redirector.gcpcdn.gvt1.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies@cn" type=FWD name="redirector.gcpcdn.gvt1.com" }
-:if ([:len [find name="redirector.gvt1.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies@cn" type=FWD name="redirector.gvt1.com" }
-:if ([:len [find name="redirector.offline-maps.gvt1.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies@cn" type=FWD name="redirector.offline-maps.gvt1.com" }
-:if ([:len [find name="redirector.snap.gvt1.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies@cn" type=FWD name="redirector.snap.gvt1.com" }

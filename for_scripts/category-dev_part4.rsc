@@ -136,6 +136,7 @@
 :if ([:len [find name="appleworldwidedeveloper.sc.omtrdc.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-dev" type=FWD name="appleworldwidedeveloper.sc.omtrdc.net" }
 :if ([:len [find name="az764295.vo.msecnd.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-dev" type=FWD name="az764295.vo.msecnd.net" }
 :if ([:len [find name="bingsettingssearch.trafficmanager.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-dev" type=FWD name="bingsettingssearch.trafficmanager.net" }
+:if ([:len [find name="builds.dotnet.microsoft.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-dev" type=FWD name="builds.dotnet.microsoft.com" }
 :if ([:len [find name="cdn-cn.apple-mapkit.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-dev" type=FWD name="cdn-cn.apple-mapkit.com" }
 :if ([:len [find name="cdn-cn1.apple-mapkit.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-dev" type=FWD name="cdn-cn1.apple-mapkit.com" }
 :if ([:len [find name="cdn-cn2.apple-mapkit.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-dev" type=FWD name="cdn-cn2.apple-mapkit.com" }
@@ -150,4 +151,3 @@
 :if ([:len [find name="copilot-proxy.githubusercontent.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-dev" type=FWD name="copilot-proxy.githubusercontent.com" }
 :if ([:len [find name="copilot-telemetry-service.githubusercontent.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-dev" type=FWD name="copilot-telemetry-service.githubusercontent.com" }
 :if ([:len [find name="copilot-telemetry.githubusercontent.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-dev" type=FWD name="copilot-telemetry.githubusercontent.com" }
-:if ([:len [find name="copilot-workspace.githubnext.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-dev" type=FWD name="copilot-workspace.githubnext.com" }

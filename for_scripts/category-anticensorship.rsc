@@ -81,6 +81,7 @@
 :if ([:len [find name="proxifier.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-anticensorship" match-subdomain=yes type=FWD name="proxifier.com" }
 :if ([:len [find name="psiphon3.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-anticensorship" match-subdomain=yes type=FWD name="psiphon3.com" }
 :if ([:len [find name="pwnedpasswords.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-anticensorship" match-subdomain=yes type=FWD name="pwnedpasswords.com" }
+:if ([:len [find name="remna.dev"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-anticensorship" match-subdomain=yes type=FWD name="remna.dev" }
 :if ([:len [find name="sagernet.org"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-anticensorship" match-subdomain=yes type=FWD name="sagernet.org" }
 :if ([:len [find name="shadowlaunch.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-anticensorship" match-subdomain=yes type=FWD name="shadowlaunch.com" }
 :if ([:len [find name="shadowsocks.org"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-anticensorship" match-subdomain=yes type=FWD name="shadowsocks.org" }

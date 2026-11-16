@@ -1,6 +1,8 @@
 :global AddressList
 :global ForwardTo
 /ip dns static
+:if ([:len [find name="beacons.gcp.gvt2.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" type=FWD name="beacons.gcp.gvt2.com" }
+:if ([:len [find name="beacons.gvt2.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" type=FWD name="beacons.gvt2.com" }
 :if ([:len [find name="beacons2.gvt2.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" type=FWD name="beacons2.gvt2.com" }
 :if ([:len [find name="beacons3.gvt2.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" type=FWD name="beacons3.gvt2.com" }
 :if ([:len [find name="beatselectronicsllc.tt.omtrdc.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" type=FWD name="beatselectronicsllc.tt.omtrdc.net" }
@@ -8,6 +10,7 @@
 :if ([:len [find name="bj1.api.bing.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" type=FWD name="bj1.api.bing.com" }
 :if ([:len [find name="bookkeeper.itunes.apple.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" type=FWD name="bookkeeper.itunes.apple.com" }
 :if ([:len [find name="bs.mail.ru"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" type=FWD name="bs.mail.ru" }
+:if ([:len [find name="builds.dotnet.microsoft.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" type=FWD name="builds.dotnet.microsoft.com" }
 :if ([:len [find name="c.admob.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" type=FWD name="c.admob.com" }
 :if ([:len [find name="c.android.clients.google.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" type=FWD name="c.android.clients.google.com" }
 :if ([:len [find name="c.pki.goog"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" type=FWD name="c.pki.goog" }
@@ -75,6 +78,7 @@
 :if ([:len [find name="configuration-lb.ls-apple.com.akadns.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" type=FWD name="configuration-lb.ls-apple.com.akadns.net" }
 :if ([:len [find name="configuration.apple.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" type=FWD name="configuration.apple.com" }
 :if ([:len [find name="configuration.apple.com.akadns.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" type=FWD name="configuration.apple.com.akadns.net" }
+:if ([:len [find name="configuration.ls.apple.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" type=FWD name="configuration.ls.apple.com" }
 :if ([:len [find name="connectivitycheck.gstatic.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" type=FWD name="connectivitycheck.gstatic.com" }
 :if ([:len [find name="copilot-proxy.githubusercontent.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" type=FWD name="copilot-proxy.githubusercontent.com" }
 :if ([:len [find name="copilot-telemetry-service.githubusercontent.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" type=FWD name="copilot-telemetry-service.githubusercontent.com" }
@@ -143,11 +147,7 @@
 :if ([:len [find name="dnl-17.geo.kaspersky.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" type=FWD name="dnl-17.geo.kaspersky.com" }
 :if ([:len [find name="dnl-18.geo.kaspersky.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" type=FWD name="dnl-18.geo.kaspersky.com" }
 :if ([:len [find name="dnl-19.geo.kaspersky.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" type=FWD name="dnl-19.geo.kaspersky.com" }
+:if ([:len [find name="dotnetcli.trafficmanager.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" type=FWD name="dotnetcli.trafficmanager.net" }
 :if ([:len [find name="doubleclick-cn.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" type=FWD name="doubleclick-cn.net" }
 :if ([:len [find name="doubleclick.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" type=FWD name="doubleclick.net" }
 :if ([:len [find name="download.developer.apple.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" type=FWD name="download.developer.apple.com" }
-:if ([:len [find name="download.microsoft.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" type=FWD name="download.microsoft.com" }
-:if ([:len [find name="download.mlcc.google.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" type=FWD name="download.mlcc.google.com" }
-:if ([:len [find name="download.tensorflow.google.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" type=FWD name="download.tensorflow.google.com" }
-:if ([:len [find name="download.visualstudio.microsoft.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" type=FWD name="download.visualstudio.microsoft.com" }
-:if ([:len [find name="downloaddispatch.itunes.apple.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" type=FWD name="downloaddispatch.itunes.apple.com" }

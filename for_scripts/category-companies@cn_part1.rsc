@@ -32,6 +32,7 @@
 :if ([:len [find name="beatsbydre.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies@cn" match-subdomain=yes type=FWD name="beatsbydre.com" }
 :if ([:len [find name="blueaggrestore.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies@cn" match-subdomain=yes type=FWD name="blueaggrestore.com" }
 :if ([:len [find name="bluecloudprod.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies@cn" match-subdomain=yes type=FWD name="bluecloudprod.com" }
+:if ([:len [find name="captive.apple.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies@cn" match-subdomain=yes type=FWD name="captive.apple.com" }
 :if ([:len [find name="cloudfront-cn.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies@cn" match-subdomain=yes type=FWD name="cloudfront-cn.net" }
 :if ([:len [find name="cn.bing.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies@cn" match-subdomain=yes type=FWD name="cn.bing.com" }
 :if ([:len [find name="cn.bing.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies@cn" match-subdomain=yes type=FWD name="cn.bing.net" }
@@ -150,4 +151,3 @@
 :if ([:len [find name="cl2-cn.apple.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies@cn" type=FWD name="cl2-cn.apple.com" }
 :if ([:len [find name="cl2.apple.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies@cn" type=FWD name="cl2.apple.com" }
 :if ([:len [find name="cl2.apple.com.edgekey.net.globalredir.akadns.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies@cn" type=FWD name="cl2.apple.com.edgekey.net.globalredir.akadns.net" }
-:if ([:len [find name="cl3-cdn.origin-apple.com.akadns.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies@cn" type=FWD name="cl3-cdn.origin-apple.com.akadns.net" }

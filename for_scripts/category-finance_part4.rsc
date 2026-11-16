@@ -113,6 +113,8 @@
 :if ([:len [find name="yamagatabank.co.jp"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-finance" match-subdomain=yes type=FWD name="yamagatabank.co.jp" }
 :if ([:len [find name="yamaguchibank.co.jp"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-finance" match-subdomain=yes type=FWD name="yamaguchibank.co.jp" }
 :if ([:len [find name="yamanashibank.co.jp"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-finance" match-subdomain=yes type=FWD name="yamanashibank.co.jp" }
+:if ([:len [find name="yandex-bank.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-finance" match-subdomain=yes type=FWD name="yandex-bank.net" }
+:if ([:len [find name="yb-payment.ru"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-finance" match-subdomain=yes type=FWD name="yb-payment.ru" }
 :if ([:len [find name="yokohamabank.co.jp"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-finance" match-subdomain=yes type=FWD name="yokohamabank.co.jp" }
 :if ([:len [find name="yomabank.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-finance" match-subdomain=yes type=FWD name="yomabank.com" }
 :if ([:len [find name="yoobusiness.ru"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-finance" match-subdomain=yes type=FWD name="yoobusiness.ru" }

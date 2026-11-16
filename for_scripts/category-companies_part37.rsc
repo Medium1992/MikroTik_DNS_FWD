@@ -1,6 +1,7 @@
 :global AddressList
 :global ForwardTo
 /ip dns static
+:if ([:len [find name="vkgo.app"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" match-subdomain=yes type=FWD name="vkgo.app" }
 :if ([:len [find name="vklive.app"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" match-subdomain=yes type=FWD name="vklive.app" }
 :if ([:len [find name="vkmessenger.app"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" match-subdomain=yes type=FWD name="vkmessenger.app" }
 :if ([:len [find name="vkmessenger.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" match-subdomain=yes type=FWD name="vkmessenger.com" }
@@ -150,4 +151,3 @@
 :if ([:len [find name="wholefoodsmarket.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" match-subdomain=yes type=FWD name="wholefoodsmarket.com" }
 :if ([:len [find name="wholekidsfoundation.org"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" match-subdomain=yes type=FWD name="wholekidsfoundation.org" }
 :if ([:len [find name="wholeplanetfoundation.org"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" match-subdomain=yes type=FWD name="wholeplanetfoundation.org" }
-:if ([:len [find name="wholesale-exporter1.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" match-subdomain=yes type=FWD name="wholesale-exporter1.com" }

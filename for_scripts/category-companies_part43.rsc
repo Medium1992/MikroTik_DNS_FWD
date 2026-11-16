@@ -1,6 +1,11 @@
 :global AddressList
 :global ForwardTo
 /ip dns static
+:if ([:len [find name="is4.mzstatic.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" type=FWD name="is4.mzstatic.com" }
+:if ([:len [find name="is5-ssl.mzstatic.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" type=FWD name="is5-ssl.mzstatic.com" }
+:if ([:len [find name="is5.mzstatic.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" type=FWD name="is5.mzstatic.com" }
+:if ([:len [find name="itacademy.download.prss.microsoft.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" type=FWD name="itacademy.download.prss.microsoft.com" }
+:if ([:len [find name="itacademyuat.download.prss.microsoft.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" type=FWD name="itacademyuat.download.prss.microsoft.com" }
 :if ([:len [find name="itunes-apple.com.akadns.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" type=FWD name="itunes-apple.com.akadns.net" }
 :if ([:len [find name="itunes.apple.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" type=FWD name="itunes.apple.com" }
 :if ([:len [find name="itunesconnect.apple.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" type=FWD name="itunesconnect.apple.com" }
@@ -67,11 +72,13 @@
 :if ([:len [find name="mtalk.google.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" type=FWD name="mtalk.google.com" }
 :if ([:len [find name="mtalk4.google.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" type=FWD name="mtalk4.google.com" }
 :if ([:len [find name="music.apple.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" type=FWD name="music.apple.com" }
+:if ([:len [find name="musicstatus.itunes.apple.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" type=FWD name="musicstatus.itunes.apple.com" }
 :if ([:len [find name="musicstatus.music.apple.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" type=FWD name="musicstatus.music.apple.com" }
 :if ([:len [find name="mvod.itunes.apple.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" type=FWD name="mvod.itunes.apple.com" }
 :if ([:len [find name="mwf-service.akamaized.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" type=FWD name="mwf-service.akamaized.net" }
 :if ([:len [find name="myapp.itunes.apple.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" type=FWD name="myapp.itunes.apple.com" }
 :if ([:len [find name="myvs.download.prss.microsoft.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" type=FWD name="myvs.download.prss.microsoft.com" }
+:if ([:len [find name="mzstorekit.itunes.apple.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" type=FWD name="mzstorekit.itunes.apple.com" }
 :if ([:len [find name="na1r.services.adobe.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" type=FWD name="na1r.services.adobe.com" }
 :if ([:len [find name="notary-submissions-prod.s3-accelerate.amazonaws.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" type=FWD name="notary-submissions-prod.s3-accelerate.amazonaws.com" }
 :if ([:len [find name="notary-submissions-prod.s3.us-west-2.amazonaws.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" type=FWD name="notary-submissions-prod.s3.us-west-2.amazonaws.com" }
@@ -144,10 +151,3 @@
 :if ([:len [find name="prod-support.apple-support.akadns.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" type=FWD name="prod-support.apple-support.akadns.net" }
 :if ([:len [find name="prod.databe.floonet.goog"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" type=FWD name="prod.databe.floonet.goog" }
 :if ([:len [find name="prodforza.blob.core.windows.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" type=FWD name="prodforza.blob.core.windows.net" }
-:if ([:len [find name="production-copilot-host-westus.webpubsub.azure.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" type=FWD name="production-copilot-host-westus.webpubsub.azure.com" }
-:if ([:len [find name="productionresultssa0.blob.core.windows.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" type=FWD name="productionresultssa0.blob.core.windows.net" }
-:if ([:len [find name="productionresultssa1.blob.core.windows.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" type=FWD name="productionresultssa1.blob.core.windows.net" }
-:if ([:len [find name="productionresultssa10.blob.core.windows.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" type=FWD name="productionresultssa10.blob.core.windows.net" }
-:if ([:len [find name="productionresultssa11.blob.core.windows.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" type=FWD name="productionresultssa11.blob.core.windows.net" }
-:if ([:len [find name="productionresultssa12.blob.core.windows.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" type=FWD name="productionresultssa12.blob.core.windows.net" }
-:if ([:len [find name="productionresultssa13.blob.core.windows.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" type=FWD name="productionresultssa13.blob.core.windows.net" }

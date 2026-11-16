@@ -1,6 +1,8 @@
 :global AddressList
 :global ForwardTo
 /ip dns static
+:if ([:len [find name="zscaler.jp"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" match-subdomain=yes type=FWD name="zscaler.jp" }
+:if ([:len [find name="zscaler.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" match-subdomain=yes type=FWD name="zscaler.net" }
 :if ([:len [find name="zscalerbeta.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" match-subdomain=yes type=FWD name="zscalerbeta.net" }
 :if ([:len [find name="zscalergov.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" match-subdomain=yes type=FWD name="zscalergov.net" }
 :if ([:len [find name="zscalerone.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" match-subdomain=yes type=FWD name="zscalerone.net" }
@@ -149,5 +151,3 @@
 :if ([:len [find name="b2.mail.ru"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" type=FWD name="b2.mail.ru" }
 :if ([:len [find name="bag-cdn.itunes-apple.com.akadns.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" type=FWD name="bag-cdn.itunes-apple.com.akadns.net" }
 :if ([:len [find name="bag.itunes.apple.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" type=FWD name="bag.itunes.apple.com" }
-:if ([:len [find name="beacons.gcp.gvt2.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" type=FWD name="beacons.gcp.gvt2.com" }
-:if ([:len [find name="beacons.gvt2.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" type=FWD name="beacons.gvt2.com" }

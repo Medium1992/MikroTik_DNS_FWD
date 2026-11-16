@@ -42,6 +42,7 @@
 :if ([:len [find name="canva.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" match-subdomain=yes type=FWD name="canva.com" }
 :if ([:len [find name="canvastatus.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" match-subdomain=yes type=FWD name="canvastatus.com" }
 :if ([:len [find name="capitalg.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" match-subdomain=yes type=FWD name="capitalg.com" }
+:if ([:len [find name="captive.apple.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" match-subdomain=yes type=FWD name="captive.apple.com" }
 :if ([:len [find name="carbon.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" match-subdomain=yes type=FWD name="carbon.com" }
 :if ([:len [find name="careersatfb.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" match-subdomain=yes type=FWD name="careersatfb.com" }
 :if ([:len [find name="carekit.org"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" match-subdomain=yes type=FWD name="carekit.org" }
@@ -150,4 +151,3 @@
 :if ([:len [find name="cheapwireless04.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" match-subdomain=yes type=FWD name="cheapwireless04.com" }
 :if ([:len [find name="cheapwirelessbeats.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" match-subdomain=yes type=FWD name="cheapwirelessbeats.com" }
 :if ([:len [find name="cheerwholesale.us"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" match-subdomain=yes type=FWD name="cheerwholesale.us" }
-:if ([:len [find name="chef.io"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-companies" match-subdomain=yes type=FWD name="chef.io" }

@@ -1,9 +1,13 @@
 :global AddressList
 :global ForwardTo
 /ip dns static
+:if ([:len [find name="ml.cdn-apple.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="apple@cn" type=FWD name="ml.cdn-apple.com" }
+:if ([:len [find name="music.apple.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="apple@cn" type=FWD name="music.apple.com" }
+:if ([:len [find name="musicstatus.itunes.apple.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="apple@cn" type=FWD name="musicstatus.itunes.apple.com" }
 :if ([:len [find name="musicstatus.music.apple.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="apple@cn" type=FWD name="musicstatus.music.apple.com" }
 :if ([:len [find name="mvod.itunes.apple.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="apple@cn" type=FWD name="mvod.itunes.apple.com" }
 :if ([:len [find name="myapp.itunes.apple.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="apple@cn" type=FWD name="myapp.itunes.apple.com" }
+:if ([:len [find name="mzstorekit.itunes.apple.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="apple@cn" type=FWD name="mzstorekit.itunes.apple.com" }
 :if ([:len [find name="np-edge.itunes.apple.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="apple@cn" type=FWD name="np-edge.itunes.apple.com" }
 :if ([:len [find name="ocsp.apple.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="apple@cn" type=FWD name="ocsp.apple.com" }
 :if ([:len [find name="ocsp2.apple.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="apple@cn" type=FWD name="ocsp2.apple.com" }

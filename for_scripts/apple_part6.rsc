@@ -1,6 +1,7 @@
 :global AddressList
 :global ForwardTo
 /ip dns static
+:if ([:len [find name="famosascalvas.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="apple" match-subdomain=yes type=FWD name="famosascalvas.com" }
 :if ([:len [find name="finalcutpro.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="apple" match-subdomain=yes type=FWD name="finalcutpro.com" }
 :if ([:len [find name="find-apple.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="apple" match-subdomain=yes type=FWD name="find-apple.com" }
 :if ([:len [find name="findmybeats.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="apple" match-subdomain=yes type=FWD name="findmybeats.com" }
@@ -150,4 +151,3 @@
 :if ([:len [find name="iphonegermany.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="apple" match-subdomain=yes type=FWD name="iphonegermany.com" }
 :if ([:len [find name="iphonehangzhou.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="apple" match-subdomain=yes type=FWD name="iphonehangzhou.com" }
 :if ([:len [find name="iphoneimessage.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="apple" match-subdomain=yes type=FWD name="iphoneimessage.com" }
-:if ([:len [find name="iphoneplus.wang"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="apple" match-subdomain=yes type=FWD name="iphoneplus.wang" }

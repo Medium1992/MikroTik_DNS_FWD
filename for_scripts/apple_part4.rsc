@@ -106,6 +106,7 @@
 :if ([:len [find name="camelphat.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="apple" match-subdomain=yes type=FWD name="camelphat.com" }
 :if ([:len [find name="camelspaceeffect.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="apple" match-subdomain=yes type=FWD name="camelspaceeffect.com" }
 :if ([:len [find name="canada-beatsbydre.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="apple" match-subdomain=yes type=FWD name="canada-beatsbydre.com" }
+:if ([:len [find name="captive.apple.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="apple" match-subdomain=yes type=FWD name="captive.apple.com" }
 :if ([:len [find name="carbon.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="apple" match-subdomain=yes type=FWD name="carbon.com" }
 :if ([:len [find name="carekit.org"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="apple" match-subdomain=yes type=FWD name="carekit.org" }
 :if ([:len [find name="casque-fr.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="apple" match-subdomain=yes type=FWD name="casque-fr.com" }
@@ -150,4 +151,3 @@
 :if ([:len [find name="cheapbeatsdrdresolo.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="apple" match-subdomain=yes type=FWD name="cheapbeatsdrdresolo.com" }
 :if ([:len [find name="cheapbeatsdrestudios.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="apple" match-subdomain=yes type=FWD name="cheapbeatsdrestudios.com" }
 :if ([:len [find name="cheapbeatsheadphone2014.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="apple" match-subdomain=yes type=FWD name="cheapbeatsheadphone2014.com" }
-:if ([:len [find name="cheapbeatsheadphones.us"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="apple" match-subdomain=yes type=FWD name="cheapbeatsheadphones.us" }
