@@ -1,6 +1,7 @@
 :global AddressList
 :global ForwardTo
 /ip dns static
+:if ([:len [find name="easportsactiveonline.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-games-!cn" match-subdomain=yes type=FWD name="easportsactiveonline.com" }
 :if ([:len [find name="easportsfootball.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-games-!cn" match-subdomain=yes type=FWD name="easportsfootball.com" }
 :if ([:len [find name="easportsfootballclub.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-games-!cn" match-subdomain=yes type=FWD name="easportsfootballclub.com" }
 :if ([:len [find name="easportsmma.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-games-!cn" match-subdomain=yes type=FWD name="easportsmma.com" }
@@ -150,4 +151,3 @@
 :if ([:len [find name="marioandluigidreamteam.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-games-!cn" match-subdomain=yes type=FWD name="marioandluigidreamteam.com" }
 :if ([:len [find name="mariobroswii.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-games-!cn" match-subdomain=yes type=FWD name="mariobroswii.com" }
 :if ([:len [find name="mariokart7.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-games-!cn" match-subdomain=yes type=FWD name="mariokart7.com" }
-:if ([:len [find name="mariokart8.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-games-!cn" match-subdomain=yes type=FWD name="mariokart8.com" }

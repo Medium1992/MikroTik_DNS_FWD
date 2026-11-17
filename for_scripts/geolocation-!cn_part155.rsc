@@ -1,6 +1,8 @@
 :global AddressList
 :global ForwardTo
 /ip dns static
+:if ([:len [find name="wwis-dubc1-vip41.adobe.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" type=FWD name="wwis-dubc1-vip41.adobe.com" }
+:if ([:len [find name="wwis-dubc1-vip42.adobe.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" type=FWD name="wwis-dubc1-vip42.adobe.com" }
 :if ([:len [find name="wwis-dubc1-vip43.adobe.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" type=FWD name="wwis-dubc1-vip43.adobe.com" }
 :if ([:len [find name="wwis-dubc1-vip44.adobe.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" type=FWD name="wwis-dubc1-vip44.adobe.com" }
 :if ([:len [find name="wwis-dubc1-vip45.adobe.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" type=FWD name="wwis-dubc1-vip45.adobe.com" }
@@ -149,5 +151,3 @@
 :if ([:len [find regexp="(^|\\\\.)kimoav([1-9][0-9]\?)\?\\\\.com\$"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" type=FWD regexp="(^|\\\\.)kimoav([1-9][0-9]\?)\?\\\\.com\$" }
 :if ([:len [find regexp="(^|\\\\.)kpkuang\\\\.(bond|fun|info|one|us)\$"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" type=FWD regexp="(^|\\\\.)kpkuang\\\\.(bond|fun|info|one|us)\$" }
 :if ([:len [find regexp="(^|\\\\.)ksyp0[1-9]\\\\.com\$"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" type=FWD regexp="(^|\\\\.)ksyp0[1-9]\\\\.com\$" }
-:if ([:len [find regexp="(^|\\\\.)lianren[1-7]\\\\.cc\$"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" type=FWD regexp="(^|\\\\.)lianren[1-7]\\\\.cc\$" }
-:if ([:len [find regexp="(^|\\\\.)llyysp[0-9]{4}\\\\.top\$"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" type=FWD regexp="(^|\\\\.)llyysp[0-9]{4}\\\\.top\$" }
