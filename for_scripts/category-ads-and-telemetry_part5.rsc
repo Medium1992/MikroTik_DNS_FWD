@@ -1,6 +1,7 @@
 :global AddressList
 :global ForwardTo
 /ip dns static
+:if ([:len [find name="ubmcvideo.baidustatic.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-ads-and-telemetry" match-subdomain=yes type=FWD name="ubmcvideo.baidustatic.com" }
 :if ([:len [find name="ugdtimg.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-ads-and-telemetry" match-subdomain=yes type=FWD name="ugdtimg.com" }
 :if ([:len [find name="ulogs.umeng.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-ads-and-telemetry" match-subdomain=yes type=FWD name="ulogs.umeng.com" }
 :if ([:len [find name="ulogs.umengcloud.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-ads-and-telemetry" match-subdomain=yes type=FWD name="ulogs.umengcloud.com" }
@@ -150,4 +151,3 @@
 :if ([:len [find name="marketplace-sentry.wb.ru"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-ads-and-telemetry" type=FWD name="marketplace-sentry.wb.ru" }
 :if ([:len [find name="mc.yandex.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-ads-and-telemetry" type=FWD name="mc.yandex.com" }
 :if ([:len [find name="mc.yandex.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-ads-and-telemetry" type=FWD name="mc.yandex.net" }
-:if ([:len [find name="mc.yango.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-ads-and-telemetry" type=FWD name="mc.yango.com" }

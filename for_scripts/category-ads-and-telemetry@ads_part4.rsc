@@ -24,6 +24,7 @@
 :if ([:len [find name="tce.alicdn.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-ads-and-telemetry@ads" match-subdomain=yes type=FWD name="tce.alicdn.com" }
 :if ([:len [find name="tcss.qq.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-ads-and-telemetry@ads" match-subdomain=yes type=FWD name="tcss.qq.com" }
 :if ([:len [find name="tdsdk.cpatrk.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-ads-and-telemetry@ads" match-subdomain=yes type=FWD name="tdsdk.cpatrk.net" }
+:if ([:len [find name="tencentads.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-ads-and-telemetry@ads" match-subdomain=yes type=FWD name="tencentads.com" }
 :if ([:len [find name="testads.api.my7v.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-ads-and-telemetry@ads" match-subdomain=yes type=FWD name="testads.api.my7v.com" }
 :if ([:len [find name="theta.sogoucdn.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-ads-and-telemetry@ads" match-subdomain=yes type=FWD name="theta.sogoucdn.com" }
 :if ([:len [find name="tmead.y.qq.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-ads-and-telemetry@ads" match-subdomain=yes type=FWD name="tmead.y.qq.com" }
@@ -150,4 +151,3 @@
 :if ([:len [find name="api.mindbox.ru"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-ads-and-telemetry@ads" type=FWD name="api.mindbox.ru" }
 :if ([:len [find name="b2.mail.ru"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-ads-and-telemetry@ads" type=FWD name="b2.mail.ru" }
 :if ([:len [find name="beginners-adv.ozon.ru"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-ads-and-telemetry@ads" type=FWD name="beginners-adv.ozon.ru" }
-:if ([:len [find name="bloodhound.spotify.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-ads-and-telemetry@ads" type=FWD name="bloodhound.spotify.com" }

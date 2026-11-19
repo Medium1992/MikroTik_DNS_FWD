@@ -3,6 +3,8 @@
 /ip dns static
 :if ([:len [find name="17173.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-games-cn" match-subdomain=yes type=FWD name="17173.com" }
 :if ([:len [find name="17173cdn.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-games-cn" match-subdomain=yes type=FWD name="17173cdn.com" }
+:if ([:len [find name="1y.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-games-cn" match-subdomain=yes type=FWD name="1y.com" }
+:if ([:len [find name="1ycdn.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-games-cn" match-subdomain=yes type=FWD name="1ycdn.com" }
 :if ([:len [find name="3304399.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-games-cn" match-subdomain=yes type=FWD name="3304399.com" }
 :if ([:len [find name="3304399.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-games-cn" match-subdomain=yes type=FWD name="3304399.net" }
 :if ([:len [find name="37.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-games-cn" match-subdomain=yes type=FWD name="37.com" }
@@ -149,5 +151,3 @@
 :if ([:len [find name="yingxiong.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-games-cn" match-subdomain=yes type=FWD name="yingxiong.com" }
 :if ([:len [find name="yokaverse.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-games-cn" match-subdomain=yes type=FWD name="yokaverse.com" }
 :if ([:len [find name="youba.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-games-cn" match-subdomain=yes type=FWD name="youba.com" }
-:if ([:len [find name="yuanshen.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-games-cn" match-subdomain=yes type=FWD name="yuanshen.com" }
-:if ([:len [find name="yxhapi.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-games-cn" match-subdomain=yes type=FWD name="yxhapi.com" }

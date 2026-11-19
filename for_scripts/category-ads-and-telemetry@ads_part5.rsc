@@ -1,6 +1,7 @@
 :global AddressList
 :global ForwardTo
 /ip dns static
+:if ([:len [find name="bloodhound.spotify.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-ads-and-telemetry@ads" type=FWD name="bloodhound.spotify.com" }
 :if ([:len [find name="browser-intake-datadoghq.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-ads-and-telemetry@ads" type=FWD name="browser-intake-datadoghq.com" }
 :if ([:len [find name="bs.mail.ru"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-ads-and-telemetry@ads" type=FWD name="bs.mail.ru" }
 :if ([:len [find name="clck.yandex.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-ads-and-telemetry@ads" type=FWD name="clck.yandex.com" }

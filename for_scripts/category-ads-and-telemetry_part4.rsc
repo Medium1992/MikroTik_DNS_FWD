@@ -127,6 +127,7 @@
 :if ([:len [find name="tcss.qq.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-ads-and-telemetry" match-subdomain=yes type=FWD name="tcss.qq.com" }
 :if ([:len [find name="tdsdk.cpatrk.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-ads-and-telemetry" match-subdomain=yes type=FWD name="tdsdk.cpatrk.net" }
 :if ([:len [find name="telemetry.microsoft.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-ads-and-telemetry" match-subdomain=yes type=FWD name="telemetry.microsoft.com" }
+:if ([:len [find name="tencentads.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-ads-and-telemetry" match-subdomain=yes type=FWD name="tencentads.com" }
 :if ([:len [find name="testads.api.my7v.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-ads-and-telemetry" match-subdomain=yes type=FWD name="testads.api.my7v.com" }
 :if ([:len [find name="theta.sogoucdn.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-ads-and-telemetry" match-subdomain=yes type=FWD name="theta.sogoucdn.com" }
 :if ([:len [find name="tm-banners.gamingadult.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-ads-and-telemetry" match-subdomain=yes type=FWD name="tm-banners.gamingadult.com" }
@@ -150,4 +151,3 @@
 :if ([:len [find name="tsyndicate.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-ads-and-telemetry" match-subdomain=yes type=FWD name="tsyndicate.com" }
 :if ([:len [find name="tubemogul.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-ads-and-telemetry" match-subdomain=yes type=FWD name="tubemogul.com" }
 :if ([:len [find name="uberads.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-ads-and-telemetry" match-subdomain=yes type=FWD name="uberads.com" }
-:if ([:len [find name="ubmcvideo.baidustatic.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-ads-and-telemetry" match-subdomain=yes type=FWD name="ubmcvideo.baidustatic.com" }

@@ -76,6 +76,7 @@
 :if ([:len [find name="elephanttubenew.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" match-subdomain=yes type=FWD name="elephanttubenew.com" }
 :if ([:len [find name="elevenlabs.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" match-subdomain=yes type=FWD name="elevenlabs.com" }
 :if ([:len [find name="elevenlabs.io"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" match-subdomain=yes type=FWD name="elevenlabs.io" }
+:if ([:len [find name="elevenlabsusercontent.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" match-subdomain=yes type=FWD name="elevenlabsusercontent.com" }
 :if ([:len [find name="elgaronline.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" match-subdomain=yes type=FWD name="elgaronline.com" }
 :if ([:len [find name="elgoog.im"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" match-subdomain=yes type=FWD name="elgoog.im" }
 :if ([:len [find name="elifesciences.org"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" match-subdomain=yes type=FWD name="elifesciences.org" }
@@ -150,4 +151,3 @@
 :if ([:len [find name="enfabebe.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" match-subdomain=yes type=FWD name="enfabebe.com" }
 :if ([:len [find name="enfabebe.com.co"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" match-subdomain=yes type=FWD name="enfabebe.com.co" }
 :if ([:len [find name="enfagrow4.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" match-subdomain=yes type=FWD name="enfagrow4.com" }
-:if ([:len [find name="enfamil.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="geolocation-!cn" match-subdomain=yes type=FWD name="enfamil.com" }

@@ -3,6 +3,7 @@
 /ip dns static
 :if ([:len [find name="85b6b2.ws"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="vokino" match-subdomain=yes type=FWD name="85b6b2.ws" }
 :if ([:len [find name="ashdi.vip"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="vokino" match-subdomain=yes type=FWD name="ashdi.vip" }
+:if ([:len [find name="bottod.pro"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="vokino" match-subdomain=yes type=FWD name="bottod.pro" }
 :if ([:len [find name="cdn2cdn.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="vokino" match-subdomain=yes type=FWD name="cdn2cdn.com" }
 :if ([:len [find name="cdn2site.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="vokino" match-subdomain=yes type=FWD name="cdn2site.com" }
 :if ([:len [find name="cdnsqu.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="vokino" match-subdomain=yes type=FWD name="cdnsqu.com" }
@@ -22,6 +23,7 @@
 :if ([:len [find name="videobase.biz"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="vokino" match-subdomain=yes type=FWD name="videobase.biz" }
 :if ([:len [find name="vkvideo.cloud"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="vokino" match-subdomain=yes type=FWD name="vkvideo.cloud" }
 :if ([:len [find name="voidboost.one"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="vokino" match-subdomain=yes type=FWD name="voidboost.one" }
+:if ([:len [find name="vokino.co"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="vokino" match-subdomain=yes type=FWD name="vokino.co" }
 :if ([:len [find name="vokino.org"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="vokino" match-subdomain=yes type=FWD name="vokino.org" }
 :if ([:len [find name="vokino.pro"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="vokino" match-subdomain=yes type=FWD name="vokino.pro" }
 :if ([:len [find name="vokino.tv"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="vokino" match-subdomain=yes type=FWD name="vokino.tv" }

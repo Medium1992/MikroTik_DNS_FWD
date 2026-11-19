@@ -62,6 +62,7 @@
 :if ([:len [find name="stat.y.qq.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="tencent@ads" match-subdomain=yes type=FWD name="stat.y.qq.com" }
 :if ([:len [find name="tajs.qq.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="tencent@ads" match-subdomain=yes type=FWD name="tajs.qq.com" }
 :if ([:len [find name="tcss.qq.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="tencent@ads" match-subdomain=yes type=FWD name="tcss.qq.com" }
+:if ([:len [find name="tencentads.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="tencent@ads" match-subdomain=yes type=FWD name="tencentads.com" }
 :if ([:len [find name="theta.sogoucdn.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="tencent@ads" match-subdomain=yes type=FWD name="theta.sogoucdn.com" }
 :if ([:len [find name="tmead.y.qq.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="tencent@ads" match-subdomain=yes type=FWD name="tmead.y.qq.com" }
 :if ([:len [find name="tmeadcomm.y.qq.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="tencent@ads" match-subdomain=yes type=FWD name="tmeadcomm.y.qq.com" }

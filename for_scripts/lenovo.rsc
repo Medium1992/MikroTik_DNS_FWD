@@ -19,6 +19,7 @@
 :if ([:len [find name="lenovocloudos.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="lenovo" match-subdomain=yes type=FWD name="lenovocloudos.com" }
 :if ([:len [find name="lenovoeservice.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="lenovo" match-subdomain=yes type=FWD name="lenovoeservice.com" }
 :if ([:len [find name="lenovofile.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="lenovo" match-subdomain=yes type=FWD name="lenovofile.com" }
+:if ([:len [find name="lenovofuturecenter.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="lenovo" match-subdomain=yes type=FWD name="lenovofuturecenter.com" }
 :if ([:len [find name="lenovogame.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="lenovo" match-subdomain=yes type=FWD name="lenovogame.com" }
 :if ([:len [find name="lenovoimage.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="lenovo" match-subdomain=yes type=FWD name="lenovoimage.com" }
 :if ([:len [find name="lenovomm.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="lenovo" match-subdomain=yes type=FWD name="lenovomm.com" }
