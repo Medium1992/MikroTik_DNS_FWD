@@ -16,6 +16,7 @@
 :if ([:len [find name="dcdapp.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-automobile-cn" match-subdomain=yes type=FWD name="dcdapp.com" }
 :if ([:len [find name="dongchedi.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-automobile-cn" match-subdomain=yes type=FWD name="dongchedi.com" }
 :if ([:len [find name="dongchediapp.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-automobile-cn" match-subdomain=yes type=FWD name="dongchediapp.com" }
+:if ([:len [find name="faw-vw.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-automobile-cn" match-subdomain=yes type=FWD name="faw-vw.com" }
 :if ([:len [find name="geely.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-automobile-cn" match-subdomain=yes type=FWD name="geely.com" }
 :if ([:len [find name="guazi.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-automobile-cn" match-subdomain=yes type=FWD name="guazi.com" }
 :if ([:len [find name="guazi.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-automobile-cn" match-subdomain=yes type=FWD name="guazi.net" }

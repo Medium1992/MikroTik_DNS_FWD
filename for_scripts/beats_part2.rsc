@@ -1,17 +1,6 @@
 :global AddressList
 :global ForwardTo
 /ip dns static
-:if ([:len [find name="beatsbydreheadphones-nz.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="beats" match-subdomain=yes type=FWD name="beatsbydreheadphones-nz.com" }
-:if ([:len [find name="beatsbydreheadphonesolo.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="beats" match-subdomain=yes type=FWD name="beatsbydreheadphonesolo.com" }
-:if ([:len [find name="beatsbydrehut.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="beats" match-subdomain=yes type=FWD name="beatsbydrehut.com" }
-:if ([:len [find name="beatsbydreinexpensive.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="beats" match-subdomain=yes type=FWD name="beatsbydreinexpensive.com" }
-:if ([:len [find name="beatsbydreireland-sales.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="beats" match-subdomain=yes type=FWD name="beatsbydreireland-sales.com" }
-:if ([:len [find name="beatsbydreirelandonlines.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="beats" match-subdomain=yes type=FWD name="beatsbydreirelandonlines.com" }
-:if ([:len [find name="beatsbydreirelandsale.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="beats" match-subdomain=yes type=FWD name="beatsbydreirelandsale.com" }
-:if ([:len [find name="beatsbydreirelandsonline.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="beats" match-subdomain=yes type=FWD name="beatsbydreirelandsonline.com" }
-:if ([:len [find name="beatsbydremall2013.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="beats" match-subdomain=yes type=FWD name="beatsbydremall2013.com" }
-:if ([:len [find name="beatsbydremonsteraustralia.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="beats" match-subdomain=yes type=FWD name="beatsbydremonsteraustralia.com" }
-:if ([:len [find name="beatsbydrenls.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="beats" match-subdomain=yes type=FWD name="beatsbydrenls.com" }
 :if ([:len [find name="beatsbydrenorge1.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="beats" match-subdomain=yes type=FWD name="beatsbydrenorge1.net" }
 :if ([:len [find name="beatsbydreofficialdanmark.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="beats" match-subdomain=yes type=FWD name="beatsbydreofficialdanmark.com" }
 :if ([:len [find name="beatsbydreoksale.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="beats" match-subdomain=yes type=FWD name="beatsbydreoksale.com" }
@@ -148,6 +137,17 @@
 :if ([:len [find name="beatswholesale.us"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="beats" match-subdomain=yes type=FWD name="beatswholesale.us" }
 :if ([:len [find name="beatswirelesscheap.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="beats" match-subdomain=yes type=FWD name="beatswirelesscheap.com" }
 :if ([:len [find name="beatswirelesscuffie.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="beats" match-subdomain=yes type=FWD name="beatswirelesscuffie.com" }
-:if ([:len [find name="begin-trade.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="beats" match-subdomain=yes type=FWD name="begin-trade.com" }
 :if ([:len [find name="bestbeats4u.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="beats" match-subdomain=yes type=FWD name="bestbeats4u.com" }
 :if ([:len [find name="bestshoesale2014.net"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="beats" match-subdomain=yes type=FWD name="bestshoesale2014.net" }
+:if ([:len [find name="blackfridaydrebeatsnew.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="beats" match-subdomain=yes type=FWD name="blackfridaydrebeatsnew.com" }
+:if ([:len [find name="blackfridaydrebeatsshop.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="beats" match-subdomain=yes type=FWD name="blackfridaydrebeatsshop.com" }
+:if ([:len [find name="buybeatsbydre-uk.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="beats" match-subdomain=yes type=FWD name="buybeatsbydre-uk.com" }
+:if ([:len [find name="buybeatsheadphonesbydre.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="beats" match-subdomain=yes type=FWD name="buybeatsheadphonesbydre.com" }
+:if ([:len [find name="buycheapbeatsbus.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="beats" match-subdomain=yes type=FWD name="buycheapbeatsbus.com" }
+:if ([:len [find name="buycheapbeatsbydre.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="beats" match-subdomain=yes type=FWD name="buycheapbeatsbydre.com" }
+:if ([:len [find name="buycheapbeatsbydreshop.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="beats" match-subdomain=yes type=FWD name="buycheapbeatsbydreshop.com" }
+:if ([:len [find name="buycheapbeatsdreuk.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="beats" match-subdomain=yes type=FWD name="buycheapbeatsdreuk.com" }
+:if ([:len [find name="buydrdrebeatbox.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="beats" match-subdomain=yes type=FWD name="buydrdrebeatbox.com" }
+:if ([:len [find name="buyminibeatbox.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="beats" match-subdomain=yes type=FWD name="buyminibeatbox.com" }
+:if ([:len [find name="buyonlineheadphones.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="beats" match-subdomain=yes type=FWD name="buyonlineheadphones.com" }
+:if ([:len [find name="bybeatsdre.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="beats" match-subdomain=yes type=FWD name="bybeatsdre.com" }
