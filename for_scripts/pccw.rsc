@@ -3,6 +3,7 @@
 /ip dns static
 :if ([:len [find name="esmarthealth.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="pccw" match-subdomain=yes type=FWD name="esmarthealth.com" }
 :if ([:len [find name="hkcsl.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="pccw" match-subdomain=yes type=FWD name="hkcsl.com" }
+:if ([:len [find name="hkt"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="pccw" match-subdomain=yes type=FWD name="hkt" }
 :if ([:len [find name="hkt-enterprise.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="pccw" match-subdomain=yes type=FWD name="hkt-enterprise.com" }
 :if ([:len [find name="hkt-eye.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="pccw" match-subdomain=yes type=FWD name="hkt-eye.com" }
 :if ([:len [find name="hkt.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="pccw" match-subdomain=yes type=FWD name="hkt.com" }
@@ -14,6 +15,7 @@
 :if ([:len [find name="now-tv.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="pccw" match-subdomain=yes type=FWD name="now-tv.com" }
 :if ([:len [find name="now.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="pccw" match-subdomain=yes type=FWD name="now.com" }
 :if ([:len [find name="nowe.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="pccw" match-subdomain=yes type=FWD name="nowe.com" }
+:if ([:len [find name="pccw"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="pccw" match-subdomain=yes type=FWD name="pccw" }
 :if ([:len [find name="pccw.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="pccw" match-subdomain=yes type=FWD name="pccw.com" }
 :if ([:len [find name="pccwglobal.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="pccw" match-subdomain=yes type=FWD name="pccwglobal.com" }
 :if ([:len [find name="pccwsolutions.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="pccw" match-subdomain=yes type=FWD name="pccwsolutions.com" }

@@ -3,6 +3,7 @@
 /ip dns static
 :if ([:len [find name="esmarthealth.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="hkt" match-subdomain=yes type=FWD name="esmarthealth.com" }
 :if ([:len [find name="hkcsl.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="hkt" match-subdomain=yes type=FWD name="hkcsl.com" }
+:if ([:len [find name="hkt"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="hkt" match-subdomain=yes type=FWD name="hkt" }
 :if ([:len [find name="hkt-enterprise.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="hkt" match-subdomain=yes type=FWD name="hkt-enterprise.com" }
 :if ([:len [find name="hkt-eye.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="hkt" match-subdomain=yes type=FWD name="hkt-eye.com" }
 :if ([:len [find name="hkt.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="hkt" match-subdomain=yes type=FWD name="hkt.com" }

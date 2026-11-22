@@ -8,6 +8,7 @@
 :if ([:len [find name="dmm.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="dmm" match-subdomain=yes type=FWD name="dmm.com" }
 :if ([:len [find name="dmmapis.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="dmm" match-subdomain=yes type=FWD name="dmmapis.com" }
 :if ([:len [find name="dmmrex.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="dmm" match-subdomain=yes type=FWD name="dmmrex.com" }
+:if ([:len [find name="fanza.jp"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="dmm" match-subdomain=yes type=FWD name="fanza.jp" }
 :if ([:len [find name="fout.jp"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="dmm" match-subdomain=yes type=FWD name="fout.jp" }
 :if ([:len [find name="gmossp-sp.jp"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="dmm" match-subdomain=yes type=FWD name="gmossp-sp.jp" }
 :if ([:len [find name="i-mobile.co.jp"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="dmm" match-subdomain=yes type=FWD name="i-mobile.co.jp" }
