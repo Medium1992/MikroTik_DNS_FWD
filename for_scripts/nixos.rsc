@@ -2,6 +2,7 @@
 :global ForwardTo
 /ip dns static
 :if ([:len [find name="builtwithnix.org"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="nixos" match-subdomain=yes type=FWD name="builtwithnix.org" }
+:if ([:len [find name="cachix.org"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="nixos" match-subdomain=yes type=FWD name="cachix.org" }
 :if ([:len [find name="mynixos.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="nixos" match-subdomain=yes type=FWD name="mynixos.com" }
 :if ([:len [find name="nix-community.org"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="nixos" match-subdomain=yes type=FWD name="nix-community.org" }
 :if ([:len [find name="nix.dev"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="nixos" match-subdomain=yes type=FWD name="nix.dev" }
