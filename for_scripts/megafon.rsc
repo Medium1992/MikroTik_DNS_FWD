@@ -2,10 +2,15 @@
 :global ForwardTo
 /ip dns static
 :if ([:len [find name="inplat.ru"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="megafon" match-subdomain=yes type=FWD name="inplat.ru" }
+:if ([:len [find name="megafon.cloud"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="megafon" match-subdomain=yes type=FWD name="megafon.cloud" }
 :if ([:len [find name="megafon.com"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="megafon" match-subdomain=yes type=FWD name="megafon.com" }
 :if ([:len [find name="megafon.ru"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="megafon" match-subdomain=yes type=FWD name="megafon.ru" }
 :if ([:len [find name="megafonpro.ru"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="megafon" match-subdomain=yes type=FWD name="megafonpro.ru" }
+:if ([:len [find name="megapbx.ru"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="megafon" match-subdomain=yes type=FWD name="megapbx.ru" }
+:if ([:len [find name="megatech-it.ru"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="megafon" match-subdomain=yes type=FWD name="megatech-it.ru" }
 :if ([:len [find name="mgfn.ru"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="megafon" match-subdomain=yes type=FWD name="mgfn.ru" }
+:if ([:len [find name="mobileid.ru"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="megafon" match-subdomain=yes type=FWD name="mobileid.ru" }
+:if ([:len [find name="multifon.ru"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="megafon" match-subdomain=yes type=FWD name="multifon.ru" }
 :if ([:len [find name="report-megafon.ru"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="megafon" match-subdomain=yes type=FWD name="report-megafon.ru" }
 :if ([:len [find name="scartel.ru"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="megafon" match-subdomain=yes type=FWD name="scartel.ru" }
 :if ([:len [find name="xn--80a9a4b.xn--p1ai"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="megafon" match-subdomain=yes type=FWD name="xn--80a9a4b.xn--p1ai" }

@@ -6,6 +6,7 @@
 :if ([:len [find name="alice.yandex.ru"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-ai-ru" match-subdomain=yes type=FWD name="alice.yandex.ru" }
 :if ([:len [find name="alicepro.yandex.ru"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-ai-ru" match-subdomain=yes type=FWD name="alicepro.yandex.ru" }
 :if ([:len [find name="copymonkey.app"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-ai-ru" match-subdomain=yes type=FWD name="copymonkey.app" }
+:if ([:len [find name="devmachine.ai"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-ai-ru" match-subdomain=yes type=FWD name="devmachine.ai" }
 :if ([:len [find name="gerwin.io"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-ai-ru" match-subdomain=yes type=FWD name="gerwin.io" }
 :if ([:len [find name="giga.chat"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-ai-ru" match-subdomain=yes type=FWD name="giga.chat" }
 :if ([:len [find name="gptunnel.ru"]] = 0) do={ add address-list=$AddressList forward-to=$ForwardTo comment="category-ai-ru" match-subdomain=yes type=FWD name="gptunnel.ru" }
